@@ -19,10 +19,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1 # replace this with your aws-region
       - run: npm ci
-      - run: node ./scripts/compileData.mjs
-        env:
-          S3_BUCKET: ${{ secrets.S3_BUCKET }}
-      - run: ls
       - name: Build the website
         run: npx @11ty/eleventy
       - name: Upload files to S3 with AWS CLI

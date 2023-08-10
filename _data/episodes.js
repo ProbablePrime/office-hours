@@ -1,21 +1,19 @@
 // https://docs.aws.amazon.com/AmazonS3/latest/userguide/example_s3_ListObjects_section.html
 // Auth is loaded from the environment variables
+if (!process.env.CI)
+  require('dotenv').config();
 
-//TODO: IF CI no do this
-//import 'dotenv/config';
-import * as fs from 'fs';
-import { S3Client, ListObjectsV2Command } from "@aws-sdk/client-s3";
-
+const fs = require('fs');
+const { S3Client, ListObjectsV2Command } = require("@aws-sdk/client-s3");
 
 //TODO ENV this
 const client = new S3Client({region:"us-east-1"});
 
-const main = async () => {
+async function main() {
   const command = new ListObjectsV2Command({
     Bucket: process.env.S3_BUCKET,
     Prefix:"vtt"
   });
-
   try {
     let isTruncated = true;
 
@@ -35,9 +33,11 @@ const main = async () => {
       isTruncated = IsTruncated;
       command.input.ContinuationToken = NextContinuationToken;
     }
-    fs.writeFileSync('_data\\episodes.json', JSON.stringify(episodeList));
+    return episodeList;
   } catch (err) {
     console.error(err);
+    return [];
   }
-};
-main();
+}
+
+module.exports = main;
