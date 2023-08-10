@@ -22,10 +22,7 @@ jobs:
       - run: node ./scripts/compileData.mjs
         env:
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
-      - run: pwd
       - run: ls
-      - run: ls ./_data
-      - run: ls ./scripts
       - name: Build the website
         run: npx @11ty/eleventy
       - name: Upload files to S3 with AWS CLI
