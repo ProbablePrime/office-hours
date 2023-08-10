@@ -1,6 +1,8 @@
 // https://docs.aws.amazon.com/AmazonS3/latest/userguide/example_s3_ListObjects_section.html
 // Auth is loaded from the environment variables
-import 'dotenv/config';
+
+//TODO: IF CI no do this
+//import 'dotenv/config';
 import * as fs from 'fs';
 import { S3Client, ListObjectsV2Command } from "@aws-sdk/client-s3";
 
