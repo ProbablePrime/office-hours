@@ -14,6 +14,8 @@ jobs:
         uses: actions/setup-node@v3
       - run: npm ci
       - run: node ./scripts/compileData.mjs
+        env:
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
