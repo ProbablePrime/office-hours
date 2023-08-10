@@ -10,18 +10,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: setup Node
+      - name: Setup Node
         uses: actions/setup-node@v3
-      - run: npm ci
-      - run: node ./scripts/compileData.mjs
-        env:
-          S3_BUCKET: ${{ secrets.S3_BUCKET }}
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1 # replace this with your aws-region
+      - run: npm ci
+      - run: node ./scripts/compileData.mjs
+        env:
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
       - name: Build the website
         run: npx @11ty/eleventy
       - name: Upload files to S3 with AWS CLI
