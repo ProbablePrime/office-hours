@@ -1,10 +1,5 @@
 // I copied this from the base blog template. Half of it doesn't seem to be needed.
 module.exports = function(eleventyConfig) {
-	// Copy the contents of the `public` folder to the output folder
-	// For example, `./public/css/` ends up in `_site/css/`
-	eleventyConfig.addPassthroughCopy('audio');
-    eleventyConfig.addPassthroughCopy('vtt');
-    eleventyConfig.addPassthroughCopy('srt');
 
 	// Features to make your build faster (when you need them)
 
