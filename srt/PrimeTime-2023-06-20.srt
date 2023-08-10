@@ -1,0 +1,1340 @@
+1
+00:00:00,000 --> 00:00:04,580
+ It is 4 p.m. So go ahead and get started. Welcome to office hours with Prime.
+
+2
+00:00:04,580 --> 00:00:09,440
+ Let's take a look at the questions that we have if we have any.
+
+3
+00:00:09,440 --> 00:00:10,960
+ Oh!
+
+4
+00:00:10,960 --> 00:00:16,540
+ "Peacole asks what have you been up to lately? Prime not specifically a newest question, just a general one." I booked movers today.
+
+5
+00:00:16,540 --> 00:00:19,160
+ So they arrive on the 2nd, I get keys on the 1st.
+
+6
+00:00:19,160 --> 00:00:26,520
+ They'll be grabbing all the crap that I boxed up and the couch and stuff and taking it downstairs.
+
+7
+00:00:28,080 --> 00:00:31,200
+ Yeah, new place. I'm not looking forward to it, but whatever, it'll be done.
+
+8
+00:00:31,200 --> 00:00:37,640
+ Within like a week, I'll be sat at this exact same desk in this exact same chair just in a different location.
+
+9
+00:00:37,640 --> 00:00:43,480
+ So it doesn't really matter. Not within a week, but like a week of the move, like it's the 1st. I get keys.
+
+10
+00:00:43,480 --> 00:00:45,040
+ Anyway, um,
+
+11
+00:00:45,040 --> 00:00:47,920
+ $800 a month cheaper at the new place.
+
+12
+00:00:47,920 --> 00:00:55,460
+ $800 cheaper. $800. I also lose my balcony, which I don't use anyway, so there's just no point in the balcony existing.
+
+13
+00:00:56,560 --> 00:01:01,720
+ Yeah, that's what I've been up to. There are no... Oh, there we go. We got that question answered as well.
+
+14
+00:01:01,720 --> 00:01:04,080
+ There are no additional questions, so we're just gonna sit here.
+
+15
+00:01:04,080 --> 00:01:05,520
+ Oh, that's a good question.
+
+16
+00:01:05,520 --> 00:01:13,040
+ "Hack13 asks, is there any truth to the rumor about the tail root virus thing I heard about in some NeosVR servers getting attached to people's avatars and making stick drafts?"
+
+17
+00:01:13,040 --> 00:01:15,040
+ That exists. It is there.
+
+18
+00:01:15,040 --> 00:01:18,560
+ It is very similar to a similar situation we had a few years ago.
+
+19
+00:01:18,560 --> 00:01:22,840
+ I don't want to use the term virus because it confuses people that are new to Neos.
+
+20
+00:01:23,720 --> 00:01:28,640
+ It is an apt description though, but like it is there. I believe there's some tools to get rid of it, etc.
+
+21
+00:01:28,640 --> 00:01:33,560
+ Whenever anyone does something like that, I just sort of think like, why?
+
+22
+00:01:33,560 --> 00:01:40,640
+ Usually they don't realize what they're doing. They're just like, you know, "Oh, I did a thing" and it's like, "Cool,
+
+23
+00:01:40,640 --> 00:01:46,840
+ did you need to? Is your life better because you've done that thing? Do you feel accomplished in life because you've done that thing?"
+
+24
+00:01:46,840 --> 00:01:53,000
+ There we go. So Beagle posted in the chat there a link to the doobly-doos to get rid of it.
+
+25
+00:01:53,000 --> 00:01:55,960
+ I would advise not saving
+
+26
+00:01:55,960 --> 00:01:58,880
+ basically anything in a public world right now.
+
+27
+00:01:58,880 --> 00:02:08,320
+ Hack 13 says, "Is there no way for staff to find and identify the offending asset and blacklist it?"
+
+28
+00:02:08,320 --> 00:02:10,920
+ No, because it's not like a single asset.
+
+29
+00:02:10,920 --> 00:02:13,040
+ So
+
+30
+00:02:13,040 --> 00:02:16,880
+ let's take for example the example of say a mesh or a texture, right?
+
+31
+00:02:16,880 --> 00:02:21,320
+ So we can search for a mesh or a texture very very easily.
+
+32
+00:02:21,320 --> 00:02:28,200
+ So let's say that you have a high quality mesh of a chicken nugget that cost $8.
+
+33
+00:02:28,200 --> 00:02:34,800
+ You could easily find that mesh because it's unique, right? There's only one chicken nugget that looks like that.
+
+34
+00:02:34,800 --> 00:02:40,040
+ And so we can easily find that. However, when it comes to this particular issue,
+
+35
+00:02:40,040 --> 00:02:46,880
+ it's just a collection of logics nodes and those logics nodes are self-duplicating. And once they're duplicated,
+
+36
+00:02:46,880 --> 00:02:50,680
+ there's nothing really to say that they are different or distinct from one another.
+
+37
+00:02:51,560 --> 00:02:58,520
+ Something which we need to do probably in the future is start forming some sort of antivirus or heuristics about this.
+
+38
+00:02:58,520 --> 00:03:02,400
+ I was thinking about this in bed last night. None of these ideas are potentially good.
+
+39
+00:03:02,400 --> 00:03:08,760
+ They are just ideas, remember? No bad ideas exist in literally anything. Even if they're proven bad,
+
+40
+00:03:08,760 --> 00:03:12,240
+ it's because they're proven bad, not because they actually start out bad.
+
+41
+00:03:12,240 --> 00:03:15,360
+ So I'm like, what if you take every logic's chain and
+
+42
+00:03:15,840 --> 00:03:21,640
+ someone hashed that because then you'd get some sort of ID. That's how early virus detection works.
+
+43
+00:03:21,640 --> 00:03:27,360
+ They sort of just hashed files. That doesn't work because then people started messing and making hashes, but maybe that would work.
+
+44
+00:03:27,360 --> 00:03:33,080
+ Then you can start doing a hash based not on the structure, but based on the behavior.
+
+45
+00:03:33,080 --> 00:03:36,240
+ So it does this, then this, then this, then that, and that's heuristics, etc.
+
+46
+00:03:36,240 --> 00:03:39,040
+ That's the sort of stuff that we would need to go ahead and find it.
+
+47
+00:03:39,040 --> 00:03:41,880
+ The other problem is some of the stuff that it does is
+
+48
+00:03:42,600 --> 00:03:49,880
+ needed for other applications. For example, we can't just block the duplicate slot node because that's used for a lot of legitimate cases.
+
+49
+00:03:49,880 --> 00:03:52,520
+ Guns use that a lot,
+
+50
+00:03:52,520 --> 00:03:54,560
+ particularly like rocket launchers and stuff like that.
+
+51
+00:03:54,560 --> 00:04:00,780
+ So yeah, it's a very challenging problem. But yeah, people are like, is that a rumor? Well,
+
+52
+00:04:00,780 --> 00:04:06,200
+ that one's like easy, right? You can go see it. You can hear about it.
+
+53
+00:04:06,200 --> 00:04:08,200
+ You just look in the Discord about it.
+
+54
+00:04:08,240 --> 00:04:13,360
+ The original Nenis Rec doesn't help as well because that's just like it packaged in its original container.
+
+55
+00:04:13,360 --> 00:04:20,240
+ Here's another example which might help you visualize it if you're having difficulty with the "why can't we find the original part of it?"
+
+56
+00:04:20,240 --> 00:04:23,600
+ It's like let's say that we had a band book.
+
+57
+00:04:23,600 --> 00:04:29,200
+ So I know the Anarchist Cookbook is sort of like questionable band, etc. Because it teaches how to make bombs and stuff, right?
+
+58
+00:04:29,200 --> 00:04:34,920
+ So the original copy of the Anarchist Cookbook probably was bound and an actual book and was probably on sale somewhere.
+
+59
+00:04:35,040 --> 00:04:40,840
+ But the contents of that book could be copied onto napkins, and those napkins could be passed around.
+
+60
+00:04:40,840 --> 00:04:44,360
+ And at that point you're looking for a book, you're looking for a napkin.
+
+61
+00:04:44,360 --> 00:04:50,440
+ There was also some stuff about that. I don't remember exactly which culture it was.
+
+62
+00:04:50,440 --> 00:04:53,640
+ There was a lot of book burning in our history.
+
+63
+00:04:53,640 --> 00:04:59,080
+ We did a lot of book burning, but what they couldn't do is they couldn't get rid of the spoken word.
+
+64
+00:04:59,080 --> 00:05:03,360
+ So there are some cultures that survived their culture just on telling stories.
+
+65
+00:05:03,360 --> 00:05:08,160
+ And again, you can't do that by looking for the original copy of a book.
+
+66
+00:05:08,160 --> 00:05:18,480
+ You have to do that by examining the knowledge that exists in every person's brain and then, I don't know, like lasering them in the face with some sort of like zappy brain laser similar to the thing from Men in Black, right?
+
+67
+00:05:18,480 --> 00:05:21,240
+ So that's what's going on here.
+
+68
+00:05:21,240 --> 00:05:25,480
+ Okay, so this entire office hours is going to be about hypothetical ways to deal with this. That's fine.
+
+69
+00:05:26,160 --> 00:05:35,280
+ Bigel asks, "Is there a way to get something to detect the change in locomotion module where it changes and record the users in the room?"
+
+70
+00:05:35,280 --> 00:05:39,480
+ Um, it's not really tied to a locomotion module.
+
+71
+00:05:39,480 --> 00:05:49,120
+ If you wanted to detect, because it does try and hide in the rules slot of the world, you could do like a children count of roles and detect when that changes.
+
+72
+00:05:49,120 --> 00:05:53,080
+ Oh, it's everywhere, I don't know where I land. You could do that.
+
+73
+00:05:53,080 --> 00:05:57,000
+ This is exactly the sort of thing that Hard Permissions is designed to cover.
+
+74
+00:05:57,000 --> 00:06:07,000
+ So Hard Permissions is a very sort of intangible feature because of course, A) it doesn't exist, B) it's not been planned, and C) you know, stuff.
+
+75
+00:06:07,000 --> 00:06:20,280
+ We could do something as, again, an example that's an idea. Remember ideas are not bad, they're just bad until they're proved, they're just ideas until they are proven bad or unsuitable.
+
+76
+00:06:20,280 --> 00:06:26,400
+ You could do something where each person is an isolated slot hierarchy from themselves.
+
+77
+00:06:26,400 --> 00:06:33,480
+ So they're still able to make guns and stuff work, but they're not able to sort of parent above an isolated slot.
+
+78
+00:06:33,480 --> 00:06:36,480
+ That could be an example of Hard Permissions that might help.
+
+79
+00:06:36,480 --> 00:06:48,960
+ An addition of one might be being able to configure a world where only certain users such as the host or people with admin permissions could parent to certain places such as the roles folder or the locomotion folder.
+
+80
+00:06:48,960 --> 00:06:57,320
+ I have many issues about the locomotion modules and how I hate people that just come into my world and install their own locomotion modules and start flapping around and stuff.
+
+81
+00:06:57,320 --> 00:07:01,320
+ It's like, guys, it's a parkour map. Stop. Stop flying.
+
+82
+00:07:01,320 --> 00:07:07,960
+ I think we should call it by its name, which is something like Poop Emoji Poop Emoji. Poop Emoji Kissy Face Emoji.
+
+83
+00:07:07,960 --> 00:07:11,160
+ Good question, Biko.
+
+84
+00:07:11,160 --> 00:07:14,760
+ Yeah, so I have a balcony right now, I needed to clean it, so I bought a broom.
+
+85
+00:07:14,760 --> 00:07:28,600
+ But now the problem is, like, I need to add water, and I don't think it's acceptable to rain water down on my downstairs neighbors, so I'm not sure how to clean my balcony, other than grabbing a bucket and doing it sort of like military style.
+
+86
+00:07:28,600 --> 00:07:34,320
+ You know, where you're on your hands and knees with like a hand brush, because then I can kind of control where the water's going.
+
+87
+00:07:34,320 --> 00:07:35,960
+ Not with a toothbrush, though.
+
+88
+00:07:35,960 --> 00:07:44,120
+ Oh yeah, I think I just have to like pray that it rains sufficiently between now and when I lose the keys to this place. Yeah, cool.
+
+89
+00:07:44,120 --> 00:07:53,840
+ Yeah, I just don't think that'll be like good, because like what you're doing there is you're saying, Biko asked about power washing, like you're basically saying like, cool, I'm going to rain down poop water onto your balcony below me.
+
+90
+00:07:53,840 --> 00:07:58,280
+ Like imagine if like, there's seven floors in this building, so imagine if like the seventh floor apartment did that.
+
+91
+00:07:58,280 --> 00:08:03,680
+ Rain down poop water into six, which rain down poop water into five, four, three, two, one.
+
+92
+00:08:03,680 --> 00:08:07,520
+ First one on the first floor is just like, cool, poop water.
+
+93
+00:08:07,520 --> 00:08:10,880
+ Kind of happy the new place doesn't have a balcony for that reason, I never use the balcony.
+
+94
+00:08:10,880 --> 00:08:14,880
+ And that means like in the new place, the outside of the building, nothing to do with me.
+
+95
+00:08:14,880 --> 00:08:21,640
+ Feel free to, you know, sometimes they get window cleaners in that use ropes and sort of abseil down to clean them.
+
+96
+00:08:21,640 --> 00:08:22,880
+ But not my problem.
+
+97
+00:08:22,880 --> 00:08:26,320
+ They did that here a few times and they sent out notices.
+
+98
+00:08:26,320 --> 00:08:33,440
+ And the notices were like, we'll be cleaning the windows, there'll be abseiling down on ropes.
+
+99
+00:08:33,440 --> 00:08:41,160
+ And I forgot to read the notice or forgot, and I like wake up in the morning and there's like noises outside my like closed curtains and it's just like, oh, what's going on?
+
+100
+00:08:41,160 --> 00:08:45,760
+ But then you look out there and there's like a man like cleaning your window or a rope.
+
+101
+00:08:45,760 --> 00:08:48,640
+ Okay, we got it. We got a question.
+
+102
+00:08:48,640 --> 00:08:57,240
+ So Slink says, also, I've got any tips on handling and teaching 20 users in one go since tomorrow will be hectic for me.
+
+103
+00:08:57,680 --> 00:09:03,880
+ You got to like, you got to sort of instill a kind of classroom atmosphere in that, particularly if you've got like a lesson.
+
+104
+00:09:03,880 --> 00:09:09,920
+ So often people will not realize what they're in, like they're in a lesson.
+
+105
+00:09:09,920 --> 00:09:19,080
+ So you need to be very clear on sort of like how you can talk, when you can talk, you need to raise your hand, like, you know, how to make sure everyone understands, etc.
+
+106
+00:09:19,080 --> 00:09:25,120
+ I had a whole plan for like a lesson classroom world that's going to have a lot of tooling to sort of help with that stuff.
+
+107
+00:09:25,120 --> 00:09:26,240
+ I just never got around to building it.
+
+108
+00:09:26,680 --> 00:09:28,440
+ Hank asked, do I use mechanical keyboard?
+
+109
+00:09:28,440 --> 00:09:29,200
+ I do.
+
+110
+00:09:29,200 --> 00:09:32,680
+ Slink says also, thanks for fixing my bad code.
+
+111
+00:09:32,680 --> 00:09:39,360
+ Yeah, um, Zinker works on a plugin for Neos called Neos Plus and they have a launcher for that.
+
+112
+00:09:39,360 --> 00:09:46,240
+ And I noticed that the launcher was, um, Zinker was like, oh, yes, I use MVVM now.
+
+113
+00:09:46,240 --> 00:09:47,360
+ And I'm like, no, you don't.
+
+114
+00:09:47,360 --> 00:09:48,000
+ Here you go.
+
+115
+00:09:48,840 --> 00:09:59,080
+ Um, uh, MVVM is a architectural choice that, uh, um, you can go for when you're creating, um, an application in many, many application frameworks.
+
+116
+00:09:59,080 --> 00:10:01,640
+ And, uh, it takes a while to get your head around it.
+
+117
+00:10:01,640 --> 00:10:04,320
+ It's similar to MVC, which is the one I grew up using.
+
+118
+00:10:04,320 --> 00:10:13,280
+ Um, but yeah, I've noticed a lot of times with that particular area, um, just in general, sometimes people write more code than they need.
+
+119
+00:10:13,360 --> 00:10:19,560
+ Like I deleted, I don't know, like almost 40% of the launcher just by like changing a couple of things.
+
+120
+00:10:19,560 --> 00:10:21,280
+ Uh, Hack asked what my favorite switches.
+
+121
+00:10:21,280 --> 00:10:21,960
+ I don't know.
+
+122
+00:10:21,960 --> 00:10:28,480
+ Um, the problem that I have is I don't want keyboards lying around in my apartment because like, I just, I don't want more than one.
+
+123
+00:10:28,480 --> 00:10:31,960
+ So I never tried any other switch other than the one I have.
+
+124
+00:10:31,960 --> 00:10:33,280
+ I don't even know what I want to have.
+
+125
+00:10:33,280 --> 00:10:40,160
+ In fact, the last time I needed to understand the keyboard that I have, I had to go behind my couch and I fell over and almost died.
+
+126
+00:10:40,200 --> 00:10:48,720
+ It was like really scary back there because there was tons of boxes and stuff and I fell over and I couldn't get up and I was stuck there for like 20 minutes.
+
+127
+00:10:48,720 --> 00:10:51,480
+ I don't know why I just was, and it was really scary.
+
+128
+00:10:51,480 --> 00:10:55,760
+ So I will not be looking at my keyboard because there are even more boxes back there now.
+
+129
+00:10:55,760 --> 00:11:03,680
+ Um, uh, Beagle asks, did you, uh, did you mount your base stations in the wall?
+
+130
+00:11:03,680 --> 00:11:07,640
+ No, I have like light poles that you might see it like photography studios.
+
+131
+00:11:07,640 --> 00:11:17,400
+ It is sometimes like weird when a non VR person visits my apartment, they're just like, it looks like sort of like a CIA base or something here.
+
+132
+00:11:17,400 --> 00:11:21,960
+ Uh, what like the various people have said, sometimes they get like weirded out.
+
+133
+00:11:21,960 --> 00:11:23,040
+ They're like, are they cameras?
+
+134
+00:11:23,040 --> 00:11:27,440
+ And I'm like, nah, they're just like, you know, irradiating you in infrared.
+
+135
+00:11:27,440 --> 00:11:28,120
+ It's totally fine.
+
+136
+00:11:28,120 --> 00:11:28,680
+ Don't worry about it.
+
+137
+00:11:28,680 --> 00:11:37,560
+ Most of the time they're on blue mode as well, which means they're not actively irradiating, but you know, like 13, my mother was here like a month or so ago and I was in a VR
+
+138
+00:11:37,560 --> 00:11:39,120
+ meeting to do some science stuff.
+
+139
+00:11:39,120 --> 00:11:42,440
+ And, you know, I apologize that I couldn't reschedule the meeting.
+
+140
+00:11:42,440 --> 00:11:47,680
+ Um, so I said, you know, just sit out the way and if you interested, you can see what's going on on my monitor.
+
+141
+00:11:47,680 --> 00:11:51,600
+ Um, she got too close at one point and I punched her in the face.
+
+142
+00:11:51,600 --> 00:11:53,200
+ Oh, she was there.
+
+143
+00:11:53,200 --> 00:12:01,240
+ Oh, she, she, but at least she got to see the, you know, the entire irradiation stack, um, wearing away.
+
+144
+00:12:01,240 --> 00:12:07,480
+ Um, hack 13 asks, how many light, uh, light houses, base stations do you think is the right amount for good
+
+145
+00:12:07,480 --> 00:12:07,920
+ tracking?
+
+146
+00:12:07,920 --> 00:12:10,200
+ Two, but it does depend on your room.
+
+147
+00:12:10,200 --> 00:12:18,720
+ I have four because I'm in an open plan, um, living room, uh, kitchen set up and it means that there's lots of reflective stuff in the kitchen.
+
+148
+00:12:18,720 --> 00:12:24,000
+ So I use, um, I box it in with four and that has improved my tracking.
+
+149
+00:12:24,000 --> 00:12:25,280
+ I actually don't know if it has.
+
+150
+00:12:25,280 --> 00:12:29,280
+ I would say subjectively it's improved my tracking objectively.
+
+151
+00:12:29,280 --> 00:12:32,040
+ I have no idea, but yeah, normal users only really need two.
+
+152
+00:12:32,360 --> 00:12:44,600
+ If you're doing two, uh, do them opposite corners, one high, one low, obviously not too low and then you get like feet in the way and stuff, but like, you know, one really high aiming down one sort of more sort of head height, et cetera.
+
+153
+00:12:44,600 --> 00:12:51,760
+ You got, you go on, it's just like irradiate it, just irradiate your entire space with as much infrared as possible.
+
+154
+00:12:51,760 --> 00:13:02,120
+ And just because it's coming to mention, I've seen a lot of people that don't like new headsets because they don't have base stations, like trust that in the future, your future virtual reality
+
+155
+00:13:02,120 --> 00:13:05,920
+ headsets will not need base stations and then trust in the technology.
+
+156
+00:13:05,920 --> 00:13:07,280
+ It's getting better and better every year.
+
+157
+00:13:07,280 --> 00:13:10,040
+ And I was like, but they didn't use base station, so I won't buy it.
+
+158
+00:13:10,040 --> 00:13:12,200
+ I'm like, okay, yeah, welcome to the year 2100.
+
+159
+00:13:12,200 --> 00:13:17,680
+ We've all got full dive VR, but because your full dive VR headset doesn't use base station, you're still not using it.
+
+160
+00:13:17,680 --> 00:13:18,560
+ Fantastic.
+
+161
+00:13:18,560 --> 00:13:20,160
+ See you in the metaverse, I guess.
+
+162
+00:13:20,160 --> 00:13:27,040
+ Um, anyway, um, yeah, there's no, there's no reason why base station should be like needed for the rest of time.
+
+163
+00:13:27,040 --> 00:13:30,920
+ I say the same as well to people who like complain about gestures all the time.
+
+164
+00:13:30,920 --> 00:13:39,680
+ Like there's no way in like a few years that you're going to be still making weird sort of gestures with your hands to try and smile and stuff inside VR.
+
+165
+00:13:39,680 --> 00:13:40,960
+ That's just, it's just not going to happen.
+
+166
+00:13:40,960 --> 00:13:50,360
+ Um, Hack13 asked, do you think, uh, the visual quality of the Vajaro, the Vajaro Aero is overkill for the average consumer?
+
+167
+00:13:50,360 --> 00:13:55,600
+ I've forgotten the Vajaro's price point, but it would all depend on what that price point is.
+
+168
+00:13:55,600 --> 00:13:58,000
+ So I can go look that up or someone can just type it.
+
+169
+00:13:58,000 --> 00:13:58,600
+ Yeah.
+
+170
+00:13:58,600 --> 00:13:58,840
+ Okay.
+
+171
+00:13:58,840 --> 00:13:59,880
+ 2000 is too much.
+
+172
+00:14:00,840 --> 00:14:03,080
+ Bex talks about controllers not being trapped behind your back.
+
+173
+00:14:03,080 --> 00:14:03,440
+ Yep.
+
+174
+00:14:03,440 --> 00:14:08,120
+ That is true for some headsets right now, but you remember there's going to be some new tracking technology.
+
+175
+00:14:08,120 --> 00:14:13,720
+ I don't know what it is, but there's going to be some new tracking technology that just fixes everything eventually.
+
+176
+00:14:13,720 --> 00:14:19,000
+ And if anyone who says that isn't remember that when I was young, we had a Nokia 3310.
+
+177
+00:14:19,320 --> 00:14:30,680
+ And before that, my stepfather had a, um, had a phone that would disturb speakers and TV screens when it was near them because it was outputting so much radiation.
+
+178
+00:14:30,680 --> 00:14:34,600
+ It was this huge brick and it was just like a horrible.
+
+179
+00:14:34,600 --> 00:14:36,640
+ So yeah, that's what he used to do.
+
+180
+00:14:36,640 --> 00:14:41,200
+ And then only one generation prior, they only had black and white TV.
+
+181
+00:14:41,200 --> 00:14:43,040
+ And for some of their life, they had no TV.
+
+182
+00:14:43,040 --> 00:14:44,760
+ So just, you got to keep that in mind.
+
+183
+00:14:45,160 --> 00:14:50,880
+ Base stations for now. Agreed, but just be careful of being too rigid in your technology.
+
+184
+00:14:50,880 --> 00:14:56,600
+ Cause that's how you turn into an old person that is like, I don't know how this new technology works.
+
+185
+00:14:56,600 --> 00:14:59,720
+ You've got to stay up to date and transition through the technology.
+
+186
+00:14:59,720 --> 00:15:02,240
+ But there's still some 3d modelers.
+
+187
+00:15:02,240 --> 00:15:09,520
+ I know that haven't upgraded to blender 2.8 or whatever, whatever the weather UI went from gray to dark gray.
+
+188
+00:15:09,520 --> 00:15:10,680
+ They haven't upgraded.
+
+189
+00:15:10,680 --> 00:15:12,680
+ And they're just like, I just like where everything is.
+
+190
+00:15:12,680 --> 00:15:13,640
+ And it's like, okay, yeah.
+
+191
+00:15:13,720 --> 00:15:19,040
+ Let me know in like, you know, let me know in like 10 years where you're still on 2.7, everything's still slow.
+
+192
+00:15:19,040 --> 00:15:20,960
+ I can't use blender 2.7.
+
+193
+00:15:20,960 --> 00:15:24,040
+ Like, you know, the moment 2.8 or whatever it was came out, that was good.
+
+194
+00:15:24,040 --> 00:15:24,880
+ Amazing.
+
+195
+00:15:24,880 --> 00:15:27,000
+ The UI is so much worse in 2.7.
+
+196
+00:15:27,000 --> 00:15:29,080
+ Any more questions?
+
+197
+00:15:29,080 --> 00:15:31,200
+ Hack13 asks, what's the cheese of the day?
+
+198
+00:15:31,200 --> 00:15:32,240
+ I don't answer cheese questions.
+
+199
+00:15:32,240 --> 00:15:32,840
+ Next question.
+
+200
+00:15:32,840 --> 00:15:34,360
+ So we've got about six minutes left.
+
+201
+00:15:34,360 --> 00:15:37,440
+ So if you have any more questions, please drop them in the office hours text chat.
+
+202
+00:15:37,440 --> 00:15:38,760
+ I'll get them in the order that appear.
+
+203
+00:15:38,760 --> 00:15:42,160
+ Whilst there are no questions, we'll just sit here and think about cheese.
+
+204
+00:15:42,960 --> 00:15:51,040
+ Godly asks, has anyone really been far even as decided to use even go want to do look more like we can do move mountains?
+
+205
+00:15:51,040 --> 00:15:57,960
+ Hack13 asked about the best file format to import an avatar to an esvr that was exported from blender for the easier setup.
+
+206
+00:15:57,960 --> 00:16:01,440
+ I am 2023 is glTF gang.
+
+207
+00:16:01,440 --> 00:16:02,600
+ So glTF.
+
+208
+00:16:02,600 --> 00:16:04,880
+ I'll use Sulteo FBX.
+
+209
+00:16:04,880 --> 00:16:08,680
+ FBX is a proprietary format which hasn't been updated in a long time.
+
+210
+00:16:08,680 --> 00:16:11,120
+ And so I want to move to a more open format.
+
+211
+00:16:11,120 --> 00:16:19,120
+ So 2023 try using glTF provided you aren't using like weird formats such as OBJ or STL.
+
+212
+00:16:19,120 --> 00:16:20,360
+ You can't really go wrong.
+
+213
+00:16:20,360 --> 00:16:23,760
+ Like I've seen some avatars work in like DAE.
+
+214
+00:16:23,760 --> 00:16:28,760
+ I've seen some avatars work in really weird formats, but if you can, you might as well.
+
+215
+00:16:28,760 --> 00:16:31,160
+ GLTF is where we're going.
+
+216
+00:16:31,160 --> 00:16:32,560
+ Maddie says DAE.
+
+217
+00:16:32,560 --> 00:16:33,760
+ Sometimes DAE works.
+
+218
+00:16:33,760 --> 00:16:34,560
+ Sometimes it doesn't.
+
+219
+00:16:34,560 --> 00:16:35,880
+ Like I don't like DAE.
+
+220
+00:16:35,880 --> 00:16:39,160
+ Like I avoid DAE more than I avoid any other format.
+
+221
+00:16:39,160 --> 00:16:40,360
+ I don't know why.
+
+222
+00:16:40,360 --> 00:16:41,640
+ I just do.
+
+223
+00:16:41,640 --> 00:16:45,440
+ Beagle says is glTF nearly supported at university?
+
+224
+00:16:45,440 --> 00:16:46,200
+ I would say no.
+
+225
+00:16:46,200 --> 00:16:49,640
+ The problem is glTF is a standard and that means it's progressing.
+
+226
+00:16:49,640 --> 00:16:52,600
+ It's a little bit like the whole USB debacle that's going on right now.
+
+227
+00:16:52,600 --> 00:16:56,960
+ Different parts of the standard are supported by different applications.
+
+228
+00:16:56,960 --> 00:17:02,080
+ For anyone who doesn't know what I mean by USB debacle, USB-C was meant to be a standard that
+
+229
+00:17:02,080 --> 00:17:06,680
+ enabled everyone to move forward and just stop having a fun time with crazy connectors.
+
+230
+00:17:07,040 --> 00:17:12,400
+ But now there is USB-C, but there is a standard that no one follows.
+
+231
+00:17:12,400 --> 00:17:15,280
+ So sometimes C can only carry power.
+
+232
+00:17:15,280 --> 00:17:16,880
+ Sometimes it can carry power and data.
+
+233
+00:17:16,880 --> 00:17:19,360
+ Sometimes it can carry power, but only to a certain wattage.
+
+234
+00:17:19,360 --> 00:17:23,800
+ Sometimes it can't carry power at the USB-C wattage because it's a Chinese cable.
+
+235
+00:17:23,800 --> 00:17:26,280
+ Sometimes it can't carry all the data pins.
+
+236
+00:17:26,280 --> 00:17:28,360
+ Sometimes the pins aren't even soldered together.
+
+237
+00:17:28,360 --> 00:17:30,400
+ Sometimes just the power pins are soldered together.
+
+238
+00:17:30,400 --> 00:17:34,360
+ Sometimes just the pins that allow USB-2 data fees are soldered together.
+
+239
+00:17:34,600 --> 00:17:37,480
+ Sometimes there's bridged connections.
+
+240
+00:17:37,480 --> 00:17:39,240
+ Sometimes there's inverted connections.
+
+241
+00:17:39,240 --> 00:17:42,680
+ A bit like network cables where there's like all the cables and you compare them.
+
+242
+00:17:42,680 --> 00:17:45,360
+ Sometimes they're sort of swapped around inside a USB-C.
+
+243
+00:17:45,360 --> 00:17:49,000
+ People are doing stuff on top of USB-C.
+
+244
+00:17:49,000 --> 00:17:52,240
+ Like there's lots of cables that have microcontrollers in them.
+
+245
+00:17:52,240 --> 00:17:55,680
+ So they take the USB signal and do something to them in the middle of the cable.
+
+246
+00:17:55,680 --> 00:17:57,280
+ It's just a nightmare.
+
+247
+00:17:57,280 --> 00:18:01,960
+ Then there's USB-4, which doesn't really exist right now, but like some people are saying
+
+248
+00:18:01,960 --> 00:18:06,840
+ their USB-C cable, that's USB-3 is USB-4, sometimes it is actually USB-4.
+
+249
+00:18:06,840 --> 00:18:08,240
+ It's a nightmare.
+
+250
+00:18:08,240 --> 00:18:11,640
+ We've about a minute left, so if there are any additional Neos questions, please do get
+
+251
+00:18:11,640 --> 00:18:15,520
+ them in the office hours check chat or we will go ahead and close off things.
+
+252
+00:18:15,520 --> 00:18:17,600
+ Oh, thank you.
+
+253
+00:18:17,600 --> 00:18:18,280
+ I missed a question.
+
+254
+00:18:18,280 --> 00:18:18,720
+ Thank you.
+
+255
+00:18:18,720 --> 00:18:22,880
+ Lex says, what are good ways of mitigating floating point jitters for large worlds?
+
+256
+00:18:22,880 --> 00:18:28,760
+ I have an unconventional way of handling that, which I haven't seen mentioned a lot by other
+
+257
+00:18:28,760 --> 00:18:32,760
+ people, which is one of the problems with floating points is, well, the problem I explained
+
+258
+00:18:32,760 --> 00:18:36,600
+ floating points was for, if you start at 0, 0, 0 at your world spawn, which most worlds
+
+259
+00:18:36,600 --> 00:18:40,720
+ do, and you go out a certain distance, you'll start seeing jitters because floating point
+
+260
+00:18:40,720 --> 00:18:44,800
+ maths breaks down because we don't have enough digits of precision for that distance.
+
+261
+00:18:44,800 --> 00:18:49,400
+ But people never remember the fourth dimension is available to combat that.
+
+262
+00:18:49,400 --> 00:18:51,080
+ And some people are like, time?
+
+263
+00:18:51,080 --> 00:18:51,720
+ I'm like, no, no, no.
+
+264
+00:18:51,720 --> 00:18:52,960
+ In this case, scale.
+
+265
+00:18:53,480 --> 00:18:59,200
+ If you want a really large world, you could reduce the overall size of your world by, let's
+
+266
+00:18:59,200 --> 00:19:07,200
+ say, by 10 on the scale axis, and therefore everything else will need to be positioned a
+
+267
+00:19:07,200 --> 00:19:08,360
+ shorter distance away.
+
+268
+00:19:08,360 --> 00:19:13,400
+ So if you have, I don't know, like if you have a one kilometer world that spans left to
+
+269
+00:19:13,400 --> 00:19:17,960
+ right and that's one kilometer at one, one, one scale, you maybe you'll hit floating point.
+
+270
+00:19:17,960 --> 00:19:19,640
+ I don't know the exact numbers is, but maybe you will.
+
+271
+00:19:19,960 --> 00:19:24,480
+ But you could shrink that world by 10 percent of the scale, shrink all users by 10 percent of
+
+272
+00:19:24,480 --> 00:19:24,960
+ the scale.
+
+273
+00:19:24,960 --> 00:19:27,960
+ And then suddenly you've got a much more manageable world.
+
+274
+00:19:27,960 --> 00:19:32,560
+ Of course, there's a limit where you start having compounds where you compound the
+
+275
+00:19:32,560 --> 00:19:38,560
+ floating point issues on the scale axis as well as the coordinate axis.
+
+276
+00:19:38,560 --> 00:19:42,680
+ Matty says scale only works if users aren't overwriting their scale.
+
+277
+00:19:42,680 --> 00:19:45,640
+ If users are overwriting their scale, they are idiots and they should leave your world.
+
+278
+00:19:46,080 --> 00:19:50,800
+ Just saying, I get like really grumpy on people doing bad stuff to their users because
+
+279
+00:19:50,800 --> 00:19:54,880
+ they're like, oh, I always want to be one scale no matter what's going on.
+
+280
+00:19:54,880 --> 00:19:57,560
+ It's just like, hey, well, get out of my world then.
+
+281
+00:19:57,560 --> 00:20:00,520
+ Bigel talks about scaling the world route.
+
+282
+00:20:00,520 --> 00:20:03,880
+ I don't advise scaling the world route because the route is like the special handling on the
+
+283
+00:20:03,880 --> 00:20:04,040
+ route.
+
+284
+00:20:04,040 --> 00:20:05,640
+ Please don't scale the world route.
+
+285
+00:20:05,640 --> 00:20:09,000
+ There's other people that like, I always want to be parented to the world route.
+
+286
+00:20:09,000 --> 00:20:11,080
+ I'm just like, well, get out of my world then.
+
+287
+00:20:11,080 --> 00:20:16,000
+ Specs says I have to fiddle with my scale to be actual height of the character inhabit as an
+
+288
+00:20:16,000 --> 00:20:16,480
+ avatar.
+
+289
+00:20:16,480 --> 00:20:22,080
+ You should be using height compensation or default user scale to do that.
+
+290
+00:20:22,080 --> 00:20:24,240
+ You shouldn't be using the actual user scale.
+
+291
+00:20:24,240 --> 00:20:28,120
+ Default user scale would be compatible with what I'm talking about.
+
+292
+00:20:28,120 --> 00:20:30,480
+ Damn it.
+
+293
+00:20:30,480 --> 00:20:36,400
+ Specs says, but I have to toggle to be one to one for times when I'm building.
+
+294
+00:20:36,400 --> 00:20:38,240
+ Yeah, if you're building, it's fine, right?
+
+295
+00:20:38,240 --> 00:20:40,360
+ If you're building, you do whatever the hell scale you need to be.
+
+296
+00:20:40,360 --> 00:20:42,960
+ If you're not building, then please honor the world settings.
+
+297
+00:20:42,960 --> 00:20:45,600
+ Please honor the world settings when it comes to scale.
+
+298
+00:20:45,640 --> 00:20:47,320
+ You can be small and big and stuff like that.
+
+299
+00:20:47,320 --> 00:20:51,760
+ Yeah, I get that stuff, but like, you know, do it using the appropriate components and stuff.
+
+300
+00:20:51,760 --> 00:20:55,120
+ If the world parrots you to somewhere, don't reparent yourself to route.
+
+301
+00:20:55,120 --> 00:20:56,520
+ Just like get over.
+
+302
+00:20:56,520 --> 00:20:56,800
+ Yeah.
+
+303
+00:20:56,800 --> 00:20:57,360
+ Yeah.
+
+304
+00:20:57,360 --> 00:20:59,800
+ World parenting will screw a lot of stuff.
+
+305
+00:20:59,800 --> 00:21:02,800
+ I have a page up on the Wiki called be considerate.
+
+306
+00:21:02,800 --> 00:21:09,280
+ Um, it is a grumpy phrased and grumpy toned page where I'm just like, just remember that
+
+307
+00:21:09,280 --> 00:21:12,280
+ you're a guest in the world and a guest in the session.
+
+308
+00:21:12,280 --> 00:21:15,400
+ And so you aren't entitled to as much stuff as you think you're entitled.
+
+309
+00:21:16,120 --> 00:21:18,280
+ Um, I don't see any additional questions.
+
+310
+00:21:18,280 --> 00:21:19,480
+ We are four minutes over.
+
+311
+00:21:19,480 --> 00:21:21,320
+ Oh, I do see an additional question.
+
+312
+00:21:21,320 --> 00:21:22,120
+ Thank you so much.
+
+313
+00:21:22,120 --> 00:21:24,440
+ This is on the ball.
+
+314
+00:21:24,440 --> 00:21:28,280
+ Um, Beagle says, can you make yourself a child of the route and make everything else a child of that?
+
+315
+00:21:28,280 --> 00:21:30,160
+ Yes, that's exactly what you know.
+
+316
+00:21:30,160 --> 00:21:32,160
+ You know, the user spawn has the parent option.
+
+317
+00:21:32,160 --> 00:21:33,000
+ You could do that.
+
+318
+00:21:33,000 --> 00:21:36,840
+ Although I don't suggest doing that if you're going to move your user spawn because then you're not moving everyone.
+
+319
+00:21:36,840 --> 00:21:37,560
+ That's always fun.
+
+320
+00:21:37,560 --> 00:21:38,200
+ Yeah.
+
+321
+00:21:38,200 --> 00:21:38,800
+ Think about it.
+
+322
+00:21:38,800 --> 00:21:41,480
+ Of course, like, you know, it's only one way of doing it.
+
+323
+00:21:41,880 --> 00:21:50,040
+ Um, but, um, other ways are like someone says is move the world, not the user, but like that gets really confusing and you have to like synchronize that.
+
+324
+00:21:50,040 --> 00:21:50,640
+ It's, it's weird.
+
+325
+00:21:50,640 --> 00:21:51,640
+ But yeah.
+
+326
+00:21:51,640 --> 00:21:53,640
+ Um, thumbs up.
+
+327
+00:21:53,640 --> 00:21:57,320
+ Um, I think that'll be it for today.
+
+328
+00:21:57,320 --> 00:22:02,440
+ So I'm gonna go ahead and leave off here and I will speak to all again soon.
+
+329
+00:22:02,440 --> 00:22:04,360
+ Please drop questions in the questions and help channel.
+
+330
+00:22:04,360 --> 00:22:07,600
+ If you have any additional new questions and I will speak to you again next week.
+
+331
+00:22:07,600 --> 00:22:08,840
+ Actually, let me just double check.
+
+332
+00:22:09,000 --> 00:22:12,600
+ Uh, yeah, we'll be fine.
+
+333
+00:22:12,600 --> 00:22:14,880
+ I was just double checking the move might interfere with the schedule.
+
+334
+00:22:14,880 --> 00:22:19,200
+ It won't next week and it went the week after because by the fourth I should be in anyway.
+
+335
+00:22:19,200 --> 00:22:19,960
+ Bye bye.
+

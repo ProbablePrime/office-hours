@@ -1,0 +1,1552 @@
+1
+00:00:00,000 --> 00:00:03,120
+ Alright, welcome to Primetime, it is 4pm so we're going to go ahead and get started.
+
+2
+00:00:03,120 --> 00:00:06,800
+ Before we get started I've got a link to share, which is something I put together
+
+3
+00:00:06,800 --> 00:00:14,320
+ it was yesterday. This is endeavoring to help out Git and the moderation team on
+
+4
+00:00:14,320 --> 00:00:19,520
+ Thursday, not Thursday, Sunday, yeah Sunday, I don't know why I said Thursday.
+
+5
+00:00:19,520 --> 00:00:27,760
+ But I put this together as a wiki page for you all. There are notes on this page, but
+
+6
+00:00:28,640 --> 00:00:35,520
+ do reiterate them. That page is not part of the guidelines itself, it is generated from
+
+7
+00:00:35,520 --> 00:00:41,280
+ interpretations of the guidelines. I have checked it over with moderation and it seems to be okay,
+
+8
+00:00:41,280 --> 00:00:46,400
+ but it's still possible to have guideline breaching activity in any of the sessions
+
+9
+00:00:46,400 --> 00:00:52,240
+ featured in that table, but hopefully that will cut down on the amount of times in Sunday where
+
+10
+00:00:52,240 --> 00:00:58,080
+ we get "can I have adult content in this session?" So maybe that will help, so take a look at that
+
+11
+00:00:58,080 --> 00:01:03,520
+ link in the thread. I don't know why, but every single Sunday the moderation team get the same
+
+12
+00:01:03,520 --> 00:01:07,920
+ question over and over again, so maybe that would help. Anyway, moving forwards to actual questions,
+
+13
+00:01:07,920 --> 00:01:13,280
+ we have a question from Jackal, who says "I've been having a lot of trouble with objects' rotations
+
+14
+00:01:13,280 --> 00:01:16,720
+ when trying to parent objects to other objects by drag and dropping in the inspector. I know that
+
+15
+00:01:16,720 --> 00:01:20,160
+ this is most likely because the order of operations matters, but do you have any advice for practices
+
+16
+00:01:20,160 --> 00:01:25,280
+ on this?" And they've added background as well, which is great, to add background information to
+
+17
+00:01:25,280 --> 00:01:29,440
+ your questions, that sometimes helps. "I'm making a clock as per your tutorial, but messed up the
+
+18
+00:01:29,440 --> 00:01:32,880
+ logics and am having trouble with the hands, they keep rotating in weird ways when I try to put
+
+19
+00:01:32,880 --> 00:01:36,880
+ everything together. I'm sure I'll figure it out, but if it's best to assemble parts of an object
+
+20
+00:01:36,880 --> 00:01:40,800
+ in a particular order, that would be of real help to me." I kinda need more information about what
+
+21
+00:01:40,800 --> 00:01:48,160
+ you're seeing. Like, rotations are complicated, basically. Just generally, for general tips on
+
+22
+00:01:48,160 --> 00:01:54,720
+ that, is to avoid using Euler angles wherever you can. There is always a non-Euler angle way of
+
+23
+00:01:54,720 --> 00:02:02,400
+ doing things, and I am always surprised when people just won't learn the tiniest bit of maths to avoid
+
+24
+00:02:02,400 --> 00:02:06,800
+ the Euler angle problem. For those who aren't aware, if you use Euler angles too much, too
+
+25
+00:02:06,800 --> 00:02:11,520
+ much, too many, too much, when you're dealing with rotations, you'll end up in Gimblelock, and
+
+26
+00:02:11,520 --> 00:02:16,400
+ Gimblelock is just very confusing. We don't represent it well inside the inspector, and so
+
+27
+00:02:16,400 --> 00:02:23,120
+ you end up with basically not realizing that it's happened. If you ever see axes other than the one
+
+28
+00:02:23,120 --> 00:02:27,520
+ that you're editing in the inspector change, that's because we're avoiding Gimblelock by adjusting
+
+29
+00:02:27,520 --> 00:02:36,240
+ those. You can't represent the complete possible rotational set of rotations, if that's a phrase
+
+30
+00:02:36,240 --> 00:02:42,000
+ that makes sense, whatever, in Euler angles, it's impossible. Quaternarians, quaternians,
+
+31
+00:02:42,000 --> 00:02:47,840
+ however the heck you pronounce that, I still don't know, you are able to represent rotations in,
+
+32
+00:02:47,840 --> 00:02:53,680
+ and it's very simple. A particular note for that one is the axis angle mode, which I believe I do
+
+33
+00:02:53,680 --> 00:02:58,080
+ cover in the tutorial, which is why I was confused how you may be struggling, but I'll have to take
+
+34
+00:02:58,080 --> 00:03:03,600
+ a look at that in-game to see what's going on there. I'm not entirely certain. Something that
+
+35
+00:03:03,600 --> 00:03:08,000
+ also might help is the origins tutorial. I will go ahead and link that in the thread as well.
+
+36
+00:03:08,000 --> 00:03:15,920
+ Rotations are origin-dependent, and sometimes origins can be problematic, particularly with
+
+37
+00:03:15,920 --> 00:03:20,320
+ random 3D models downloaded from Sketchfab where the developer of the model is like,
+
+38
+00:03:20,320 --> 00:03:26,640
+ "Yes, the origin is inside the moon!" Moving forwards to Luzanth's question,
+
+39
+00:03:26,640 --> 00:03:31,840
+ they are asking "Is there a way to change spawn points per player? I won't have myself spawn in
+
+40
+00:03:31,840 --> 00:03:38,880
+ my Cloud Homes bedroom, but I'll play a spawn at the doorway." You should be able to use value
+
+41
+00:03:38,880 --> 00:03:44,560
+ user override on those, I'm not certain though. I will go ahead and open up the codebase, that'll
+
+42
+00:03:44,560 --> 00:03:47,760
+ take a few minutes though, so we'll jump back to that one, but you should be able to value user
+
+43
+00:03:47,760 --> 00:03:53,280
+ override and turn off, like have the default value for the spawn point to be off. But I don't know if
+
+44
+00:03:53,280 --> 00:03:58,080
+ that's the case until I open up the codebase, so give me a second and I'll get that open. I just
+
+45
+00:03:58,080 --> 00:04:04,720
+ gotta click like 17 different buttons to get that sorted, because you know, life. Okay, there we go,
+
+46
+00:04:04,720 --> 00:04:09,760
+ that's opening. Jackal asks "How is your extended trek across the wasteland next door going?"
+
+47
+00:04:10,400 --> 00:04:15,360
+ That's kind of on pause, basically. I'm happy to move over there, what I need to do is wait
+
+48
+00:04:15,360 --> 00:04:20,720
+ for the renewal note for this place, and then we'll see what the price of that is for anyone
+
+49
+00:04:20,720 --> 00:04:26,320
+ who doesn't know what I'm going on about. I'm most likely moving locations very soon, so I'm
+
+50
+00:04:26,320 --> 00:04:34,400
+ moving like literally one building to the left, so that's going to be fun. That's sorted. Okay, next.
+
+51
+00:04:34,400 --> 00:04:38,560
+ Actually there's a note from them, "Thank you for the advice about dynamic variables." Yes,
+
+52
+00:04:38,560 --> 00:04:44,880
+ dynamic variables are the best. Dynamic variables are literally the best. Beagle says "Is there an
+
+53
+00:04:44,880 --> 00:04:49,200
+ easy way for people to pull members out of a hidden lair?" There have been some instances
+
+54
+00:04:49,200 --> 00:04:54,160
+ where people lurk in hidden lairs, kick them from your world or ban them from your world. Like, I
+
+55
+00:04:54,160 --> 00:04:58,960
+ hate to be blunt when it comes to that shit, but like I really just don't have time for it.
+
+56
+00:04:58,960 --> 00:05:04,000
+ If they want to hide in hidden lairs, they can go elsewhere and not be in my session.
+
+57
+00:05:05,280 --> 00:05:12,960
+ Depending on what methodology they're using to create such a system, they will have anti-pulling
+
+58
+00:05:12,960 --> 00:05:20,640
+ out systems, so you know, it's difficult. Of course, if it's not your world, you might be
+
+59
+00:05:20,640 --> 00:05:24,960
+ limited to what you can do, which Froppy is updating their response with, but if it's your
+
+60
+00:05:24,960 --> 00:05:30,400
+ world, just kick them. Just kick them. The only way that we can challenge behavior like that is by
+
+61
+00:05:30,400 --> 00:05:36,880
+ making clear that it is not okay, and that's just not okay. So, cool. Usually what happens
+
+62
+00:05:36,880 --> 00:05:41,200
+ with the hidden lair system is it's something of the equivalent of they are parented under a slot
+
+63
+00:05:41,200 --> 00:05:46,480
+ which is disabled for a select number of people in the world. I don't care the reason why you're
+
+64
+00:05:46,480 --> 00:05:51,920
+ in that. If you're in my world, as in if I'm the host, you're going to be visible, and you're not
+
+65
+00:05:51,920 --> 00:05:55,440
+ going to be in that. Additionally, you're not going to use one of the annoying systems which
+
+66
+00:05:55,440 --> 00:06:02,080
+ goes like, you know, it makes like a space-age blink noise and like, you know, purple sphere,
+
+67
+00:06:02,080 --> 00:06:06,480
+ as far as I remember, when you go in and out of it. If you're inside my session, you're in there
+
+68
+00:06:06,480 --> 00:06:10,560
+ to be in my session. If you want to hide from my session, you can go to another session. That's the
+
+69
+00:06:10,560 --> 00:06:14,480
+ easiest way to hide from my session. If that makes you not want to hang it in my session because I
+
+70
+00:06:14,480 --> 00:06:18,320
+ don't allow you to use your special hidden lair system, that's absolutely fine. Don't come.
+
+71
+00:06:18,320 --> 00:06:24,160
+ Really sorry to be blunt, but like, that's the way I see it. I don't have time for that behavior.
+
+72
+00:06:24,160 --> 00:06:28,800
+ If you think it's cool, I want you to think about what you're doing. I want you to think
+
+73
+00:06:28,800 --> 00:06:33,040
+ long and hard about why you are going to someone else's world to hide in it.
+
+74
+00:06:33,040 --> 00:06:38,560
+ Beagle has another question. Let me just make sure I've missed any before the video I posted.
+
+75
+00:06:38,560 --> 00:06:43,600
+ I have not. Okay. Beagle says, "For some reason in one of my buddy's worlds, when translating using
+
+76
+00:06:43,600 --> 00:06:47,120
+ the gizmo, and then there's a weird crust like you see on the Avatar collaboration appears,
+
+77
+00:06:47,120 --> 00:06:56,960
+ and it'll snap the translation to that." That is native snapping. So here is a, albeit long video,
+
+78
+00:06:56,960 --> 00:07:02,640
+ but here it is. That is native snapping that's occurring. There are a few ways to kind of make
+
+79
+00:07:02,640 --> 00:07:06,880
+ that happen less. Something I've noticed is that if you're playing around with gizmos near a picture,
+
+80
+00:07:06,880 --> 00:07:13,520
+ the picture will have a snapping component on it, which means that gizmos will snap into the
+
+81
+00:07:13,520 --> 00:07:18,720
+ picture. So go into the picture, you'll find, I think, snap plane for a picture, you can remove
+
+82
+00:07:18,720 --> 00:07:24,080
+ that component and then it won't snap to those pictures anymore. Various other things have that.
+
+83
+00:07:24,080 --> 00:07:26,880
+ Where can that hide in the world? In the same world at random we kick people to...
+
+84
+00:07:26,880 --> 00:07:32,480
+ That snapping issue shouldn't be causing people being kicked. There might be something that's
+
+85
+00:07:32,480 --> 00:07:37,280
+ sort of left in your world. I remember one of the trolliest things I ever did. Oh my god,
+
+86
+00:07:37,280 --> 00:07:40,720
+ I'm just arming you with stuff. One of the trolliest things I ever did was accidentally
+
+87
+00:07:41,600 --> 00:07:48,960
+ parent a snap grid component to the world origin somehow. Snap grid will set up a grid of points
+
+88
+00:07:48,960 --> 00:07:53,280
+ that will do that kind of lock thing that you're talking about. And I just put it accidentally in
+
+89
+00:07:53,280 --> 00:07:58,240
+ the middle of the world. It was like, cool, gizmos just don't work in this world. Sorry, my bad.
+
+90
+00:07:58,240 --> 00:08:03,360
+ That's pretty easy to fix. And hey, if anyone is listening and decides to take that and start
+
+91
+00:08:03,360 --> 00:08:06,880
+ doing it to other people's worlds, it would constitute this harassment and maybe reportable
+
+92
+00:08:06,880 --> 00:08:10,960
+ under the moderation guidelines and may cause account restrictions. But there you go.
+
+93
+00:08:11,360 --> 00:08:15,040
+ I've told you how to do it and also told you how to mitigate it, which is go look for that
+
+94
+00:08:15,040 --> 00:08:20,960
+ snap grid component. There is more information in that video above there. Mentalish says that yes,
+
+95
+00:08:20,960 --> 00:08:25,200
+ some people have built systems to fight anti-layer systems. Yes, there is anti-layer systems,
+
+96
+00:08:25,200 --> 00:08:29,360
+ then there's anti-anti-layer systems, and then there'll be anti-anti-anti-anti-layer systems,
+
+97
+00:08:29,360 --> 00:08:34,800
+ whereas the actual soul for that layer system is a behavioral one, which is why I'm telling you,
+
+98
+00:08:34,800 --> 00:08:39,360
+ just kick them. I can't see that player. They must be doing something malicious. Kicked.
+
+99
+00:08:39,360 --> 00:08:43,280
+ Thumbs up. Move on with your life. If they get angry about you, cool, ban them.
+
+100
+00:08:43,280 --> 00:08:48,080
+ It's just like, you know, I can ban people because I don't like their avatar. Like it,
+
+101
+00:08:48,080 --> 00:08:54,560
+ if it's my sessions, I don't need a reason to. I've also seen one person that was using like the
+
+102
+00:08:54,560 --> 00:09:01,200
+ equivalent of a hidden layer system creatively. And I accepted that one because they were doing
+
+103
+00:09:01,200 --> 00:09:09,280
+ like a bit as a character. But it was still annoying. So keep that in mind. You know,
+
+104
+00:09:09,280 --> 00:09:16,560
+ it was sort of like RP related, which is like totally fine. You can state a reason for kicking,
+
+105
+00:09:16,560 --> 00:09:22,640
+ but there's a problem in this community, which is basically like, if they break any rule or do any
+
+106
+00:09:22,640 --> 00:09:26,480
+ infraction, even if you tell them exactly what they're doing that's wrong, they're not going to
+
+107
+00:09:26,480 --> 00:09:31,040
+ listen to you and they're going to make you the problem. It is problematic and yeah, okay, you
+
+108
+00:09:31,040 --> 00:09:37,840
+ should give them a reason. But if they don't listen, proceed with just kicking them. Cody
+
+109
+00:09:37,840 --> 00:09:41,520
+ said, I assumed it was possible to manage people or objects that spawned in by having a spawn point.
+
+110
+00:09:41,520 --> 00:09:46,000
+ You can indeed have a spawn point, but the problem is even if you have a spawn point, which sets a
+
+111
+00:09:46,000 --> 00:09:54,400
+ parent, they can have logic or system on their avatar, which goes like, I know you want me to be
+
+112
+00:09:54,400 --> 00:10:00,320
+ parented to this very precise anti like this culling system, this management system, this
+
+113
+00:10:00,320 --> 00:10:05,920
+ world organizational system, but I don't care because I'm an inconsiderate person. I want to
+
+114
+00:10:05,920 --> 00:10:09,680
+ be parented to the world route or my hidden layer system and make a lot of noise. And then when I
+
+115
+00:10:09,680 --> 00:10:15,760
+ open up my context menu, I want it to do the entire corestral Halo soundtrack for no apparent reason
+
+116
+00:10:15,760 --> 00:10:21,920
+ in global audio at a hundred percent volume. So, you know, like I said, the only way to combat
+
+117
+00:10:21,920 --> 00:10:27,760
+ this stuff is to just stamp it out. For anyone who thinks I'm being unfair, just imagine going to a
+
+118
+00:10:27,760 --> 00:10:34,480
+ real world party, okay? And the party is hosted at Prime's house and I open the door to my front door
+
+119
+00:10:34,480 --> 00:10:38,320
+ and I say, welcome, welcome, come on into the party. You hand me a bottle of wine that you
+
+120
+00:10:38,320 --> 00:10:43,840
+ brought, maybe some nice cheese. And I'm like, please take off your shoes. And you go, okay. And
+
+121
+00:10:43,840 --> 00:10:48,800
+ you take off your shoes. That's exactly how it should be in someone else's session. You know,
+
+122
+00:10:48,800 --> 00:10:52,640
+ and then you don't go into someone else's party at the house. You don't come into my house, you know,
+
+123
+00:10:52,640 --> 00:10:59,280
+ and you're like, I'm going to hide in a hidden layer and sit in your sink. No, that's unacceptable.
+
+124
+00:10:59,280 --> 00:11:04,240
+ You're not going to sit in my sink. I'll happily get you a chair. I'll happily get you wine and
+
+125
+00:11:04,240 --> 00:11:08,480
+ booze or whatever you want to drink. I'll feed you. I'll entertain you, but you're not going to
+
+126
+00:11:08,480 --> 00:11:14,800
+ sit in my sink. You know, the party's over, everyone's left. And I go to bed and I hear like
+
+127
+00:11:14,800 --> 00:11:19,200
+ giggling from my cupboard. I open up and it's like, sorry, I was in the hidden layer system
+
+128
+00:11:19,200 --> 00:11:25,920
+ inside your cupboard. Get out of my cupboard and leave. It doesn't make any sense. If anyone is
+
+129
+00:11:25,920 --> 00:11:32,240
+ like, oh, it's their computer, right? I understand that it'd be different if we had like servers or
+
+130
+00:11:32,240 --> 00:11:36,400
+ if it's a headless or if it's not, you know, they're not being hosted, but for the majority
+
+131
+00:11:36,400 --> 00:11:41,680
+ of sessions that aren't headless right now, they are, you're literally on someone else's computer.
+
+132
+00:11:41,680 --> 00:11:48,080
+ Like the host's computer is controlling your access to that session. So be considerate, please.
+
+133
+00:11:48,080 --> 00:11:51,680
+ Moving forward to other questions. So I stopped ranting about that particular topic because I
+
+134
+00:11:51,680 --> 00:11:55,760
+ could rant for hours and people won't listen anyway. He'll still have that problem. Years
+
+135
+00:11:55,760 --> 00:12:00,720
+ to come, you know, it'd be like, you know, the year is 2050 and people are still in hidden layer
+
+136
+00:12:00,720 --> 00:12:06,080
+ systems. Why? We don't know. So we have a question here from Lex. She says, is there any way to make
+
+137
+00:12:06,080 --> 00:12:10,480
+ facets spawner desktop not parent to the overlay layer without mods? Not that I'm aware of.
+
+138
+00:12:11,840 --> 00:12:18,640
+ Make that font size just a little bit bigger from me and then you've got an amazing meme.
+
+139
+00:12:18,640 --> 00:12:23,360
+ There is, I say the font size a bit bigger so I can read it without zooming in, but otherwise
+
+140
+00:12:23,360 --> 00:12:26,720
+ amazing meme. So unfortunately I don't know the answer to your question next. I'd have to take
+
+141
+00:12:26,720 --> 00:12:31,600
+ a look. I remember that we don't, this is like a really annoying cop out and I understand that it's
+
+142
+00:12:31,600 --> 00:12:36,480
+ frustrating. We don't technically support facet editing in desktop mode. And I hate that I'm
+
+143
+00:12:36,480 --> 00:12:41,680
+ saying that, but like, you know, I guess you could like write some code into the facet, like a little
+
+144
+00:12:41,680 --> 00:12:48,960
+ bit of logics that's like detects if the user that spawned it is, um, is a desktop user and then do
+
+145
+00:12:48,960 --> 00:12:55,680
+ some re-parenting there. That might work. There we go. Beautiful. Beautiful. Speaking of like RP
+
+146
+00:12:55,680 --> 00:13:01,200
+ characters like that, I did have one person at one point that had like, I don't know, like an
+
+147
+00:13:01,200 --> 00:13:05,360
+ Iron Man style landing. Actually no more appropriate one would be if you know that film Hancock,
+
+148
+00:13:05,360 --> 00:13:10,000
+ it's got Will Smith in it. Um, at the start of the film Will Smith's basically like a drunk superhero
+
+149
+00:13:10,000 --> 00:13:15,440
+ and his landing is like, cool. I'm going to completely wreck the road and the pavement.
+
+150
+00:13:15,440 --> 00:13:20,880
+ There'll be a crater every time I land. That was their like character's system for landing. And it
+
+151
+00:13:20,880 --> 00:13:24,800
+ was like, I know that you're like a character and you're trying to have fun here, but if you could
+
+152
+00:13:24,800 --> 00:13:30,080
+ stop like completely destroying my pavement with like sound effects and particle systems when you
+
+153
+00:13:30,080 --> 00:13:34,560
+ land, that'd be amazing. Thank you. By the end of the film, he can land without destroying the
+
+154
+00:13:34,560 --> 00:13:40,240
+ pavement. So maybe you should watch that film again. Angry Pilot asks, "Any info on button
+
+155
+00:13:40,240 --> 00:13:49,120
+ delegate relay?" Um, you shouldn't really need to use that. There's probably ways you can do it,
+
+156
+00:13:49,120 --> 00:13:53,920
+ but that usually is covered by like button action trigger or something like that. Let me see why we
+
+157
+00:13:53,920 --> 00:14:03,120
+ have that component. Button delegate relay. Let's see if we use that anyway. We do. We do use that.
+
+158
+00:14:04,320 --> 00:14:13,760
+ Set up delicate action. Oh, it's used on the audio reverbs and component. We use it to make all the
+
+159
+00:14:13,760 --> 00:14:22,640
+ buttons appear for the presets on the reverb. Yeah, it looks like just that. Hold on, there's a
+
+160
+00:14:22,640 --> 00:14:27,040
+ couple of other uses. That's the one I wanted there. Symbols about reference. Yeah, that's
+
+161
+00:14:27,040 --> 00:14:34,080
+ literally the only place we use that. So in some cases, there are components which you can attach
+
+162
+00:14:34,080 --> 00:14:42,560
+ and can technically use, but they have no real use that makes sense. The better question always is to
+
+163
+00:14:42,560 --> 00:14:48,240
+ start with the problem, not the solution. So there are a bunch of components which are just like
+
+164
+00:14:48,240 --> 00:14:54,080
+ completely nonsensical. In Uncategorize, look for up down controller or something. That's a really
+
+165
+00:14:54,080 --> 00:15:01,840
+ funny one. Ask Syro the next time you see him for his up down platform that uses that silly component.
+
+166
+00:15:01,840 --> 00:15:08,480
+ I might have it too. I don't remember if I saved it. Okay. Jack asks, question for dynamic variables.
+
+167
+00:15:08,480 --> 00:15:13,120
+ If I'm setting a variable to reference the user who turned the object on and when they turn it off,
+
+168
+00:15:13,120 --> 00:15:17,600
+ I want to clear the variable. Am I doing it correctly by writing basic user node to the
+
+169
+00:15:17,600 --> 00:15:23,680
+ variable? It seems to work. The variable comes null. Yeah. Like a dynamic reference variable
+
+170
+00:15:24,320 --> 00:15:32,640
+ of type user with a value of null will be okay. Something you should keep in mind is that some
+
+171
+00:15:32,640 --> 00:15:39,920
+ nodes will take in a null user ref and do different behavior. Particularly fire on true
+
+172
+00:15:39,920 --> 00:15:47,200
+ and fire on change, I believe they do custom stuff if you pass in a null rather than empty. I think I
+
+173
+00:15:47,200 --> 00:15:51,040
+ have those documented on the wiki because I got tired of talking about fire on true, so I went
+
+174
+00:15:51,040 --> 00:15:56,560
+ through and was like step by step here's what happened. So I'll see if I can find that. Fire on
+
+175
+00:15:56,560 --> 00:16:04,160
+ true. Fire. And then someone asked me a question about... Yeah, just double check that. There's
+
+176
+00:16:04,160 --> 00:16:09,760
+ actually a bit of any null handling that I've written there. But it's fine. Sometimes what I'll
+
+177
+00:16:09,760 --> 00:16:16,000
+ do as well is I'll create a variable which is called like user set and that'll be a boolean.
+
+178
+00:16:16,000 --> 00:16:22,000
+ And then that's really easy to pick up. You can do like is user -- I'm doing this in text,
+
+179
+00:16:22,000 --> 00:16:31,200
+ but it won't make sense. Is user set question mark colon. And then you can use user or host user
+
+180
+00:16:31,200 --> 00:16:39,200
+ for the parts of that. Now, of course, you could do is null, not null, et cetera. But sometimes
+
+181
+00:16:39,200 --> 00:16:46,320
+ it's better to do that by a more declarative way. There is also the has value output of some of the
+
+182
+00:16:46,320 --> 00:16:50,720
+ dynamic variable nodes you can use there. A lot of the time, though, you can actually just get away
+
+183
+00:16:50,720 --> 00:17:00,640
+ with something along the lines of like... Yeah, I'm literally typing that. World user question mark
+
+184
+00:17:00,640 --> 00:17:07,600
+ question mark host user is a lot of times what I use. Although sometimes I'll do like in the middle
+
+185
+00:17:07,600 --> 00:17:12,320
+ there, I'll put like nearest user head sometimes. Because then it's like if there's a user set on
+
+186
+00:17:12,320 --> 00:17:18,800
+ the object with dynamic variables or the closest user or the host user, and then it gets there.
+
+187
+00:17:18,800 --> 00:17:22,960
+ Right now someone had a question which I needed to look up in the code base. I will scroll up and
+
+188
+00:17:22,960 --> 00:17:28,320
+ find that now that the code base has opened up. Spawn points per player. Excellent.
+
+189
+00:17:32,240 --> 00:17:40,720
+ That ain't the spawn point component. Not the spawn point component. Spawn... Let's do simple...
+
+190
+00:17:40,720 --> 00:17:48,640
+ Yeah, okay. So the common spawn area, which is the one that usually creates the glowy ring,
+
+191
+00:17:48,640 --> 00:17:55,760
+ that will respect the enabled field and the slots active field. So you could use that and do a
+
+192
+00:17:55,760 --> 00:18:02,000
+ values override on that for those. Although I don't know if that would work with synchronization,
+
+193
+00:18:02,000 --> 00:18:06,720
+ because I don't know if the host spawns that. Try that. Let me know how that works out.
+
+194
+00:18:06,720 --> 00:18:14,720
+ The non-spawn area one, so the spawn point rather than the the circuity one,
+
+195
+00:18:14,720 --> 00:18:22,400
+ that doesn't pay attention to the enabled state, which is problematic. But maybe it does. Give me
+
+196
+00:18:22,400 --> 00:18:27,200
+ a moment. Where's the weight? Like there's a weight property on the spawn point, right?
+
+197
+00:18:27,200 --> 00:18:31,920
+ Where's that at? Simple spawn... Simple user spawn...
+
+198
+00:18:31,920 --> 00:18:40,640
+ I'm thinking of something else. I'm gonna just quickly hop to a video I recorded.
+
+199
+00:18:40,640 --> 00:18:45,600
+ There's another component. I gotta look for it.
+
+200
+00:18:51,120 --> 00:19:00,240
+ Thank you. Okay, good. Whilst I'm looking this up, make sure you get other doobly-doos questions in.
+
+201
+00:19:00,240 --> 00:19:13,840
+ Now I remember. Thank you, Lex, for the help. The circular one, that is just an edit to the
+
+202
+00:19:14,720 --> 00:19:22,000
+ common spawn area component. With the spawn point generator, that's correct. Yep, thank you so much
+
+203
+00:19:22,000 --> 00:19:25,840
+ for that. That's exactly what I was looking for. Yeah, so common spawn area is the the common
+
+204
+00:19:25,840 --> 00:19:30,800
+ component between spawn point and spawn. The reason why it's confusing is because the the dev tip has
+
+205
+00:19:30,800 --> 00:19:35,920
+ got the create new menu. You go create new object, you can go spawn point or spawn area. Spawn area
+
+206
+00:19:35,920 --> 00:19:42,320
+ does the sort of glowy ring thing. Spawn point does a static point. So all of those will respond
+
+207
+00:19:42,320 --> 00:19:50,320
+ to the enabled and the slot is active field. I do not know if they will allow for a values override,
+
+208
+00:19:50,320 --> 00:19:55,520
+ but that's how I would at least start doing it. A note there as well is that you can use other
+
+209
+00:19:55,520 --> 00:20:00,720
+ point generators in the common spawn area. So I know that you will usually see a circle,
+
+210
+00:20:00,720 --> 00:20:06,000
+ but you could also do like a sphere. I don't know why you would, but you could. You could also do a
+
+211
+00:20:06,960 --> 00:20:12,800
+ whatever point generators we have. Let me take a look. Find all references. A box, a circle,
+
+212
+00:20:12,800 --> 00:20:20,720
+ a sphere, a square, and yeah. Oh, Beagle has a new question and they say, can you possibly do an
+
+213
+00:20:20,720 --> 00:20:25,840
+ entire logic system without using logic nodes at all, complete with the inspector? Oh, you could.
+
+214
+00:20:25,840 --> 00:20:30,880
+ I would not suggest doing that. You'd basically be hooking up components by using ribbons that
+
+215
+00:20:30,880 --> 00:20:35,520
+ you'd manually created yourself. Jackal asks, is there a way to make a hemisphere using the
+
+216
+00:20:35,520 --> 00:20:40,960
+ procedural measures in the game or would you need a blender or some other modeling program to make it
+
+217
+00:20:40,960 --> 00:20:46,640
+ hemisphere? You'd need a blender to do it. If you want to do that quickly, and I know this is kind
+
+218
+00:20:46,640 --> 00:20:53,200
+ of like a long winded solve, but you only have to do it once. Go find sloppy mcloppy's ring of the
+
+219
+00:20:53,200 --> 00:20:58,480
+ neolander, inspect it and find the templates in there and you can pull out all the shapes that are
+
+220
+00:20:58,480 --> 00:21:03,680
+ in the ring of the neolander and use them isolated. They have good UVs and stuff like that. So I
+
+221
+00:21:03,680 --> 00:21:09,600
+ sometimes do that. I think I actually exported all the meshes that that uses into like one object and
+
+222
+00:21:09,600 --> 00:21:13,680
+ saved that to my inventory a while back. Player Cody asks, there was a mental workshop video of
+
+223
+00:21:13,680 --> 00:21:17,440
+ name tags I attempted to follow yesterday where everything was set up the way you want. I wanted
+
+224
+00:21:17,440 --> 00:21:20,960
+ logged out for the day, came back the next day, I found everything was back to default. Is your
+
+225
+00:21:20,960 --> 00:21:24,800
+ video more accurate? My video might be more accurate. I would have to watch that video to
+
+226
+00:21:24,800 --> 00:21:31,360
+ see what the problem is. Common problems when it comes to name tags is not adding the requisite
+
+227
+00:21:31,360 --> 00:21:36,640
+ components to the name tag so that it doesn't know that it exists and it won't be hooked up correctly.
+
+228
+00:21:36,640 --> 00:21:43,360
+ There's also people don't save it correctly, so sometimes they save it outside of the avatar root,
+
+229
+00:21:43,360 --> 00:21:46,560
+ it needs to be inside the avatar root to work. I've seen a couple of people who make a custom
+
+230
+00:21:46,560 --> 00:21:52,480
+ name tag in the user root and then save it, which does not work. And then various other things like
+
+231
+00:21:52,480 --> 00:21:57,040
+ that. If you have multiple name tags in your hierarchy as well, it might sort of interfere
+
+232
+00:21:57,040 --> 00:22:02,080
+ with each other, so make sure you've got one. My video has the way I recommend doing it,
+
+233
+00:22:02,080 --> 00:22:09,040
+ so do keep that in mind. I don't know if it's going to work. I watched the workshop one when
+
+234
+00:22:09,040 --> 00:22:15,680
+ they recorded it, but I haven't watched it in a while. The thing that I do that kind of like
+
+235
+00:22:15,680 --> 00:22:24,160
+ reduces the chances that you can make a problem is I drag the existing default name tag into the
+
+236
+00:22:24,160 --> 00:22:29,920
+ avatar root right at the start, and then I edit it from there. Other people will do setting up
+
+237
+00:22:29,920 --> 00:22:35,920
+ the name tag from scratch, but that means you have to add all of the components manually,
+
+238
+00:22:35,920 --> 00:22:39,200
+ whereas if you just steal an existing one and drag it into the avatar root,
+
+239
+00:22:39,200 --> 00:22:44,160
+ then you don't have that problem. Beagle says "Where the hell did you get all the meme material
+
+240
+00:22:44,160 --> 00:22:48,000
+ and stuff inside of your inventory? I browsed through it the other day and holy-" I presume
+
+241
+00:22:48,000 --> 00:22:55,680
+ you mean the meme folder inside my public folder? Okay, yeah. That one needs renaming. It's not like
+
+242
+00:22:55,680 --> 00:23:01,440
+ memes that you would see on 4chan, 9gag, or iFunny, stuff like that. It's not like regular
+
+243
+00:23:01,440 --> 00:23:10,080
+ memes. It's usually sort of chaotic distractableness that happens inside of Neos. Of particular note,
+
+244
+00:23:10,080 --> 00:23:14,640
+ there's a coat hanger there that's got dynamic bones on it. That used to be effortless equippable,
+
+245
+00:23:14,640 --> 00:23:19,120
+ but I think that went wrong, but you could just make it one. That happened because a few people
+
+246
+00:23:19,120 --> 00:23:26,080
+ that I was hanging out with were using deer avatars, and they had, you know, antlers,
+
+247
+00:23:26,080 --> 00:23:30,480
+ and I just thought it'd be funny if I could like hang a coat hanger on their antlers, so I got that
+
+248
+00:23:30,480 --> 00:23:40,160
+ happening. All sorts of stuff like that. There's a turtle in there, which has no instructions
+
+249
+00:23:40,800 --> 00:23:46,240
+ at all, so I'm amazed if anyone's figured it out, but there's a turtle you can spawn in there,
+
+250
+00:23:46,240 --> 00:23:51,840
+ and it's got a straw in its nose, and if you pull that straw out really fast, it plays the Beyblade
+
+251
+00:23:51,840 --> 00:23:58,480
+ opening, and that occurred because I was speaking to someone in the world, and they were talking
+
+252
+00:23:58,480 --> 00:24:02,880
+ about their use of straws, and I said "those better be, you know, metal or paper straws,
+
+253
+00:24:02,880 --> 00:24:07,680
+ right?" They said "no plastic." I said "you know they have to like pull those out of turtles?"
+
+254
+00:24:07,680 --> 00:24:13,840
+ And I did like a quick pulling motion, and someone went "like a Beyblade!" and then I made that.
+
+255
+00:24:13,840 --> 00:24:21,840
+ It's like, you know, like environmentalism via memes, that one is. There's also a cutlery box
+
+256
+00:24:21,840 --> 00:24:26,320
+ in there where you can grab and pull out cutlery. That was caused by a similar thing where someone
+
+257
+00:24:26,320 --> 00:24:29,840
+ was saying like "oh yeah I need more cutlery" and I said "what did you mean? What do you mean?"
+
+258
+00:24:29,840 --> 00:24:35,440
+ They used plastic cutlery, and I took offense to that, so I made that to kind of show the
+
+259
+00:24:35,440 --> 00:24:41,760
+ inanity of it. The one that I have a real big problem with is foil. So I know we're going over
+
+260
+00:24:41,760 --> 00:24:48,320
+ time but whatever. If you have a baking tray that is metal, and you put foil on it before you put
+
+261
+00:24:48,320 --> 00:24:53,120
+ whatever you want to cook in the oven, you're like not human, I don't understand. You're like "oh I
+
+262
+00:24:53,120 --> 00:24:58,720
+ put foil over my metal baking tray so I don't have to clean my baking tray" and it's like "cool,
+
+263
+00:24:58,720 --> 00:25:06,000
+ all right, so people have to mine in the ground for a limited resource which they then have to
+
+264
+00:25:06,000 --> 00:25:12,000
+ like smelt and process an alloy because aluminum is difficult to process and then they have to
+
+265
+00:25:12,000 --> 00:25:20,000
+ roll it incredibly thin onto reels just so you can avoid doing the dishes. What planet are you on?
+
+266
+00:25:20,000 --> 00:25:28,240
+ What planet are you on? Just do your dishes. Now I'll accept if you use if you use foil to like,
+
+267
+00:25:28,240 --> 00:25:33,360
+ for example, cover a chicken or cover a turkey when you're cooking it. That makes more sense.
+
+268
+00:25:33,360 --> 00:25:39,360
+ It's purely if you're using it to avoid cleaning. They dig that stuff out of the ground and it's a
+
+269
+00:25:39,360 --> 00:25:43,760
+ limited supply. We're not going to run out in your lifetime, I know that, but like just think about
+
+270
+00:25:43,760 --> 00:25:51,040
+ it. It's like because I can't be bothered to clean a baking tray, I have reduced the level of
+
+271
+00:25:51,040 --> 00:25:56,560
+ aluminum in the world by a little bit. All right, moving on to actual questions rather than my
+
+272
+00:25:56,560 --> 00:26:03,200
+ strange environmentalism. It's like really weird. It's like, you know, my computer's on all the time,
+
+273
+00:26:03,200 --> 00:26:10,880
+ but I won't use plastic. It's crazy. Anyway, Tiki says, "Is the way to limit the rotation of fingers
+
+274
+00:26:10,880 --> 00:26:15,280
+ in the hair manager in my avatar impales itself its own claws right now?" There is not. Currently,
+
+275
+00:26:15,280 --> 00:26:21,680
+ there is not. That is a common thing that we have. Cody has an update to their nameplate issues.
+
+276
+00:26:21,680 --> 00:26:25,200
+ "They spawned a previous avatar, hopped into that one, saved the configuration,
+
+277
+00:26:25,200 --> 00:26:28,400
+ world spawned and recently saved one, hopped into it and everything was fine. When I said
+
+278
+00:26:28,400 --> 00:26:30,800
+ it changes next to it in years, everything was fine. When I'm watching years ago,
+
+279
+00:26:30,800 --> 00:26:34,160
+ I found out the default was activated." Double check the components. That could also be
+
+280
+00:26:34,160 --> 00:26:40,160
+ synchronization and it could be this amazing thing in the inventory where occasionally the order
+
+281
+00:26:40,160 --> 00:26:44,560
+ of items in your inventory can just randomly change. And so you may think that you're in
+
+282
+00:26:44,560 --> 00:26:48,240
+ the most recent copy of your avatar, but you're actually in a copy from like three years ago,
+
+283
+00:26:48,240 --> 00:26:52,720
+ because that happened recently. I see lots of people talking about like foiling their
+
+284
+00:26:52,720 --> 00:26:58,320
+ baking trays. I'm too lazy to clean it. So you would rather like, you know, accompany
+
+285
+00:26:58,320 --> 00:27:06,560
+ mines in the ground to get small rocks, which they have to smelt and roll, just because you're lazy?
+
+286
+00:27:06,560 --> 00:27:11,360
+ Like, what planet are you on? You know, like hundreds of years, we're going to be like out
+
+287
+00:27:11,360 --> 00:27:15,680
+ traveling the stars, we're going to be like on Mars, other like solar systems and stuff like
+
+288
+00:27:15,680 --> 00:27:20,400
+ that. And they're going to run out of aluminum and they'll look and they'll be like, it's that guy,
+
+289
+00:27:20,400 --> 00:27:26,640
+ the person who didn't just do their dishes. You know, aliens are looking down on us and they're
+
+290
+00:27:26,640 --> 00:27:31,360
+ like, "shall we make contact with this like seemingly civilized society?" They've got
+
+291
+00:27:31,360 --> 00:27:37,120
+ problems, but should we make contact with them? Oh no, they put like foil on them.
+
+292
+00:27:37,120 --> 00:27:46,080
+ Rather than just cleaning them. Izit says that aluminum is recyclable. Yeah, did you know that
+
+293
+00:27:46,080 --> 00:27:51,200
+ lots of recycling is actually just a lie? And like, it just goes in landfill anyway. It's crazy.
+
+294
+00:27:51,200 --> 00:27:58,160
+ Here, I have a video for you. Actually, you can just like YouTube it, like recycling is a lie.
+
+295
+00:27:58,160 --> 00:28:03,120
+ And like, you'll see a lot. Yeah, it is plastic. Yeah. But the other thing with like metal
+
+296
+00:28:03,120 --> 00:28:08,720
+ recycling, you have to remember is it's foil. It's, it's, it's, it's going to get mixed up
+
+297
+00:28:08,720 --> 00:28:13,680
+ and it's going to not be recycled sometimes. It's the, it's, it's thin. You have to get all
+
+298
+00:28:13,680 --> 00:28:18,960
+ the grease off of it. So someone ends up cleaning it. Like someone, either like a very hot light
+
+299
+00:28:18,960 --> 00:28:23,920
+ reforging machine or whatever, but you know, it's not just like when, when someone says like,
+
+300
+00:28:23,920 --> 00:28:28,080
+ "oh, it's recyclable", but you have to put more energy into recycle it. We'll get back to Nia's
+
+301
+00:28:28,080 --> 00:28:36,880
+ questions rather than recycling. Anyway. This week, Prime talks about recycling. Actually,
+
+302
+00:28:36,880 --> 00:28:43,040
+ one more final bit about recycling. Clean your containers before you recycle them. I have a great
+
+303
+00:28:43,040 --> 00:28:47,840
+ memory of being at university once and you know, university housing, sort of like five other people
+
+304
+00:28:47,840 --> 00:28:53,680
+ and I was doing the recycling for them and I was sorting it out and it was like half a bottle of,
+
+305
+00:28:53,680 --> 00:28:58,560
+ of Coca-Cola is not recyclable. The bottle that it's in, sure that's recyclable, but you have to
+
+306
+00:28:58,560 --> 00:29:04,240
+ empty the, the cola out of the bottle before you recycle it. If you have cola in the bottle when
+
+307
+00:29:04,240 --> 00:29:10,560
+ you recycle it, they won't recycle it because it's dirty. You have to rinse it. The polystyrene,
+
+308
+00:29:10,560 --> 00:29:16,240
+ like burger boxes that you get from like a cheaper burger places, not recyclable. They're equally not
+
+309
+00:29:16,240 --> 00:29:20,880
+ recyclable when they have half a burger in them. Like a jar of mayonnaise made out of glass, very
+
+310
+00:29:20,880 --> 00:29:27,040
+ recyclable, but not when it's like one ape full of mayonnaise that's rotted and is moldy. Like,
+
+311
+00:29:27,040 --> 00:29:31,920
+ you know, you like rinse stuff. It got to the point where like, I just took like a big glass
+
+312
+00:29:31,920 --> 00:29:37,280
+ and I was just emptying everything that people were trying to recycle into this glass. And I
+
+313
+00:29:37,280 --> 00:29:42,400
+ got up to a pint of liquid and I said that liquid should have been in the drain for that to be
+
+314
+00:29:42,400 --> 00:29:46,400
+ recyclable. Oh, you should also remove the labels from things like you should remove the labels
+
+315
+00:29:46,400 --> 00:29:52,080
+ from glass jars, bottles, containers, jars, et cetera. You have to remove the labels as well.
+
+316
+00:29:52,080 --> 00:29:56,880
+ Cause the label is paper and needs to be recycled separately. I'm really, I'm going back to
+
+317
+00:29:56,880 --> 00:30:02,240
+ questions now. I promise, I promise. No more recycling. Beagle says, where can we find
+
+318
+00:30:02,240 --> 00:30:05,680
+ your MMC thing that you showed me in the wild? You already jammed out to the fart reverb.
+
+319
+00:30:05,680 --> 00:30:08,400
+ Yeah, that's better. That should be in the meme folder. I need to do a video on it,
+
+320
+00:30:08,400 --> 00:30:14,080
+ but it should be in the meme folder. Moving downwards. Peach Clover says, do you know
+
+321
+00:30:14,080 --> 00:30:20,880
+ what, if any, model import format preserves origins of the object? Let me, I think this
+
+322
+00:30:20,880 --> 00:30:25,280
+ is an unlisted video where I got angry at someone because they wouldn't, they wouldn't listen when
+
+323
+00:30:25,280 --> 00:30:33,680
+ I was talking about origins. Yes. I haven't found a single 3d model format that I can input or output
+
+324
+00:30:33,680 --> 00:30:38,880
+ and keep the translations for. It's really bugging me. I think I made an issue about it.
+
+325
+00:30:38,880 --> 00:30:44,480
+ Okay. Moving forwards. I'm double checking. I haven't missed any. Okay. Here we go.
+
+326
+00:30:44,480 --> 00:30:49,520
+ Okay. We got the import format. No, I'm not aware of, I want to fix that one. That one
+
+327
+00:30:49,520 --> 00:30:56,160
+ really annoys me. I did the finger one. There's no way that I know of with the fingers.
+
+328
+00:30:56,160 --> 00:31:01,280
+ Cody says, I was poking around with experiment with different forms of lighting in Neo Studio,
+
+329
+00:31:01,280 --> 00:31:05,600
+ the semi video series on lighting. Is that a good source of, so yeah, that's a probably a little bit
+
+330
+00:31:05,600 --> 00:31:10,960
+ old. I haven't really done much on it. I also haven't done much on sort of optimizing lighting.
+
+331
+00:31:10,960 --> 00:31:16,560
+ One of the things I will say about lighting is if you are doing an inside map, as in it is not
+
+332
+00:31:16,560 --> 00:31:22,800
+ outside, delete the main directional light in your world and light it purely with actual light
+
+333
+00:31:22,800 --> 00:31:27,920
+ sources. I see so many sort of like social worlds where they're like inside a building and they
+
+334
+00:31:27,920 --> 00:31:34,640
+ still have the sun and it just, it doesn't make any sense. Like if you're making that, say like a bar
+
+335
+00:31:34,640 --> 00:31:38,880
+ that's inside, there's no way to go outside. So there's no outside, there's no, you know,
+
+336
+00:31:38,880 --> 00:31:44,800
+ back door or anything like that. There's no front door or anything like that. It should not have a
+
+337
+00:31:44,800 --> 00:31:48,960
+ sun in it because the sun should not be lighting it. I mean, if there's windows, yeah, sure. But
+
+338
+00:31:48,960 --> 00:31:54,640
+ like it shouldn't, because there's no way to sort of restrict the sun's influence. It means that the
+
+339
+00:31:54,640 --> 00:32:00,160
+ sun will just like beam in on everything and ignore any sort of collision. And so it's like,
+
+340
+00:32:00,160 --> 00:32:03,680
+ ah, yeah, we want to make like a, you know, like a CD bar where maybe like, you know,
+
+341
+00:32:03,680 --> 00:32:08,640
+ you've got the tip to solve the murder mystery in your game world and you've got a sun in there.
+
+342
+00:32:08,640 --> 00:32:14,400
+ Beagle says, how does one prevent light from bleeding into floors above and below?
+
+343
+00:32:14,400 --> 00:32:18,080
+ You usually have to sort of surround the things with primitives. Like if it's,
+
+344
+00:32:18,080 --> 00:32:22,960
+ if it's custom meshes, it will usually leak more light. But if it's primitives,
+
+345
+00:32:22,960 --> 00:32:26,560
+ you can usually sort of block the light a bit better with primitives. That's what usually
+
+346
+00:32:26,560 --> 00:32:31,120
+ what I see happen. We do need better lighting tools, most notably, of course, light baking,
+
+347
+00:32:31,120 --> 00:32:34,880
+ but also some tweaks to things called light probes, stuff like that,
+
+348
+00:32:34,880 --> 00:32:39,840
+ which is on the graphics side of things that, that, that needs to happen at some point.
+
+349
+00:32:39,840 --> 00:32:46,640
+ Zalasar, I think that's how I pronounce that says, I've heard a good Linux experience is to make your
+
+350
+00:32:46,640 --> 00:32:51,360
+ own multi-tool tip. Where would I start if I wanted to do this? I don't have a tutorial on that
+
+351
+00:32:51,360 --> 00:32:54,960
+ because I don't like multi-tool tips. I don't want to go into another like four hour rant about
+
+352
+00:32:54,960 --> 00:32:59,680
+ recycling and stuff like that. So I will just leave it there. Like I don't like multi-tools.
+
+353
+00:32:59,680 --> 00:33:06,240
+ I don't suggest you make one. If you want to use a learning experience, try making a game where you
+
+354
+00:33:06,240 --> 00:33:14,880
+ are a broccoli trying to outrun a green cat that chases you through the swamp. And you'll learn a
+
+355
+00:33:14,880 --> 00:33:20,400
+ lot more than if you make a multi-tool. There may be tutorials out there, but I'm not aware of.
+
+356
+00:33:20,400 --> 00:33:25,120
+ If anyone has any, please refer to link them. Like when you come into Neos and new people are like,
+
+357
+00:33:25,120 --> 00:33:29,760
+ how do I learn Neos? It usually goes like, let's make a custom inspector. Let's make a custom
+
+358
+00:33:29,760 --> 00:33:35,600
+ multi-tool. And it's like, no, let's make something that touches other people. You know what
+
+359
+00:33:35,600 --> 00:33:41,680
+ I mean? Not literally, but touches other people with my creativity, let them show, show them your
+
+360
+00:33:41,680 --> 00:33:48,000
+ creativity and learn by doing that. And that usually isn't a multi-tool or a customer inspector.
+
+361
+00:33:48,000 --> 00:33:54,160
+ Like look at the MMC entries that we had this year that are in the sort of world social,
+
+362
+00:33:54,160 --> 00:34:00,080
+ world other, world game category, where they're trying to tell you a story. They're trying to
+
+363
+00:34:00,080 --> 00:34:06,080
+ tell you some art through their creation. Like the carwash, for example, that carwash map
+
+364
+00:34:06,080 --> 00:34:14,320
+ makes very little sense, but is fun. And people that worked on that probably learned a few things
+
+365
+00:34:14,320 --> 00:34:18,080
+ and there wasn't like, there was a lot of creativity in that world, but there wasn't a lot
+
+366
+00:34:18,080 --> 00:34:24,800
+ of technical complexity. Like everything was sort of, there was a pin pad for a door. I've got a
+
+367
+00:34:24,800 --> 00:34:29,680
+ tutorial on that one. There was like an interactive screen for the carwash. I don't have tutorials on
+
+368
+00:34:29,680 --> 00:34:32,800
+ that one, but it's quite, it's quite simple. I don't want to demean it by saying, you know,
+
+369
+00:34:32,800 --> 00:34:38,000
+ it's not worthy of the praise it's getting. It is. It's just like nothing in that world was very
+
+370
+00:34:38,000 --> 00:34:44,560
+ complicated. It was very, very well put together, but the technical aspects weren't very complicated,
+
+371
+00:34:44,560 --> 00:34:48,160
+ which isn't a bad thing. And that's what I mean, Beagle. I'm not saying the creativity was low,
+
+372
+00:34:48,160 --> 00:34:52,640
+ the creativity was incredibly high, but the technical skills needed to make that world were
+
+373
+00:34:52,640 --> 00:34:59,200
+ lower than say, making a multi-tool or making a custom inspector or making red print or making
+
+374
+00:34:59,200 --> 00:35:02,720
+ any of the other tools that people use. It was like a very good way of doing things.
+
+375
+00:35:03,520 --> 00:35:08,960
+ Beagle has one final question. We'll close off questions there cause we're at 1646. For some
+
+376
+00:35:08,960 --> 00:35:15,360
+ reason, my Eagle mounted beast of different and decent inspector size. For some reason,
+
+377
+00:35:15,360 --> 00:35:21,760
+ my Nardo's inspector is tiny and it resizes the dev two tip smaller. That's usually caused by the
+
+378
+00:35:22,560 --> 00:35:34,000
+ tool anchor scale. So try that one, try the tool anchor scale. Let me just head on over to the dev
+
+379
+00:35:34,000 --> 00:35:39,920
+ tip code as well. Yeah, we don't really have any scale logic in the create inspector thing.
+
+380
+00:35:39,920 --> 00:35:47,520
+ Make sure it's the tool anchor, not the like nothing underneath cause that all gets generated.
+
+381
+00:35:47,520 --> 00:35:51,760
+ I can have it like the next time, which I don't, I'm doing a bunch of stuff. And with that,
+
+382
+00:35:52,640 --> 00:35:58,720
+ okay, we'll answer one more final question from eyes and that, that, that last question,
+
+383
+00:35:58,720 --> 00:36:04,400
+ no more questions, even about recycling. Is there some convenient way to give things
+
+384
+00:36:04,400 --> 00:36:08,640
+ colliders that are the same precise shape as the object model? You need to watch,
+
+385
+00:36:08,640 --> 00:36:14,400
+ if you would like to, I don't want to like order around. You can take a look at
+
+386
+00:36:16,880 --> 00:36:23,200
+ optimizing colliders. Here you go. And we'll go ahead and leave off there. In the meantime,
+
+387
+00:36:23,200 --> 00:36:27,120
+ between now and next time, I want you to think about what you're throwing away
+
+388
+00:36:27,120 --> 00:36:32,240
+ and how you can reduce, reuse, and recycle it. See you next time.
+

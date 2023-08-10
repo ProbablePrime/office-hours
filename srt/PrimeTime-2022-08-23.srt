@@ -1,0 +1,2032 @@
+1
+0:00:00.000 --> 0:00:03.640
+So, welcome to Office Hours, it is 4pm now, so we're going to go ahead and get started.
+
+2
+0:00:03.640 --> 0:00:07.720
+If you have questions, anything you want to know or ask about Neos, please drop it in
+
+3
+0:00:07.720 --> 0:00:11.480
+the Office Hours text chat that's above the one that you're currently in, and I'll answer
+
+4
+0:00:11.480 --> 0:00:12.700
+it in the order that they appear.
+
+5
+0:00:12.700 --> 0:00:13.700
+Any questions that you have.
+
+6
+0:00:13.700 --> 0:00:16.900
+We have two currently, so I'll go ahead and get started with those two questions.
+
+7
+0:00:16.900 --> 0:00:21.900
+So firstly from Aragibus, I hope I'm pronouncing that correctly, but I don't think I am.
+
+8
+0:00:21.900 --> 0:00:26.120
+They said, how does Neos manage the downloaded assets?
+
+9
+0:00:26.120 --> 0:00:27.960
+Downloaded assets are stored in what's called your cache.
+
+10
+0:00:27.960 --> 0:00:34.220
+If you go to the following link, which I have just been working on today actually, it talks
+
+11
+0:00:34.220 --> 0:00:38.320
+about the locations of both of those folders, because sometimes those get confused.
+
+12
+0:00:38.320 --> 0:00:41.480
+There's two folders, there's the cache, which stores temporary copies of assets downloaded
+
+13
+0:00:41.480 --> 0:00:45.440
+when you're using Neos, and the database, stroke, data folder, which stores a local
+
+14
+0:00:45.440 --> 0:00:48.000
+copy of items and things that you are saving.
+
+15
+0:00:48.000 --> 0:00:49.720
+So do keep those two changes in mind.
+
+16
+0:00:49.720 --> 0:00:53.080
+So they're downloaded to your cache, and that's simply so that you don't have to download
+
+17
+0:00:53.080 --> 0:00:54.080
+them again.
+
+18
+0:00:54.080 --> 0:00:57.520
+Let's say, for example, you join a Neos session every single day with your best friend, and
+
+19
+0:00:57.520 --> 0:00:59.040
+they have a particular avatar.
+
+20
+0:00:59.040 --> 0:01:02.000
+You don't want to download the avatar every single day, so we save it to your cache so
+
+21
+0:01:02.000 --> 0:01:06.960
+we can pick it up from that cache if you have it, because your friend loads faster.
+
+22
+0:01:06.960 --> 0:01:10.480
+That's also why, if you see new people, their avatars will load slower, because you don't
+
+23
+0:01:10.480 --> 0:01:11.960
+have them in your cache.
+
+24
+0:01:11.960 --> 0:01:14.720
+Moving forward to screen, this question, what can you tell us about future updates?
+
+25
+0:01:14.720 --> 0:01:16.840
+I have nothing to tell you about future updates.
+
+26
+0:01:16.840 --> 0:01:19.680
+There's a bunch of stuff that is obviously always being worked on.
+
+27
+0:01:19.680 --> 0:01:21.720
+For those who are like, the Neos team are on strike.
+
+28
+0:01:21.720 --> 0:01:25.640
+If I was on strike, would I really be sat here with 32 people listening to me and answering
+
+29
+0:01:25.640 --> 0:01:26.640
+questions?
+
+30
+0:01:26.640 --> 0:01:29.560
+We're still doing stuff, but for future updates, we have no announcements.
+
+31
+0:01:29.560 --> 0:01:32.920
+Please do check the announcements channel for any updates on that whole mess.
+
+32
+0:01:32.920 --> 0:01:36.200
+There we go, we're out of questions.
+
+33
+0:01:36.200 --> 0:01:40.800
+And Adia Shark has just trumped that route of questions with a question, which is totally
+
+34
+0:01:40.800 --> 0:01:41.800
+fine.
+
+35
+0:01:41.800 --> 0:01:42.800
+That's the point of this situation.
+
+36
+0:01:42.800 --> 0:01:45.800
+They are asking, does the cache have auto-clearing?
+
+37
+0:01:45.800 --> 0:01:50.840
+It doesn't currently, and that does lead to the cache sort of inflating a lot.
+
+38
+0:01:50.840 --> 0:01:52.960
+Feel free to clear the cache.
+
+39
+0:01:52.960 --> 0:01:56.920
+Do not clear the database or data folder, though, if you can help it.
+
+40
+0:01:56.920 --> 0:01:58.400
+Feel free to clear the cache whenever you would like.
+
+41
+0:01:58.400 --> 0:02:01.480
+I am aware of other techniques and things that will clear the cache.
+
+42
+0:02:01.480 --> 0:02:06.140
+Some people have got, like, batch jobs or sort of scheduled tasks or things like that.
+
+43
+0:02:06.140 --> 0:02:08.920
+Some people have got calendar alerts to go clear it.
+
+44
+0:02:08.920 --> 0:02:12.480
+Some people even got mods, which they have created or installed, which will do it for
+
+45
+0:02:12.480 --> 0:02:13.480
+them automatically.
+
+46
+0:02:13.480 --> 0:02:15.280
+It is entirely up to you, though.
+
+47
+0:02:15.280 --> 0:02:20.680
+The cache is also stored within a file system within Windows, if you're on Windows here,
+
+48
+0:02:20.680 --> 0:02:22.500
+that is designed for temporary files as well.
+
+49
+0:02:22.500 --> 0:02:30.440
+So some applications and some parts of Windows will clear that temporary directory for you.
+
+50
+0:02:30.440 --> 0:02:31.440
+That's why it's in there.
+
+51
+0:02:31.440 --> 0:02:36.400
+The temporary directory is, like, explicitly, if a developer is using that folder, they
+
+52
+0:02:36.400 --> 0:02:40.920
+know explicitly that the stuff in there cannot always be guaranteed to be in there.
+
+53
+0:02:40.920 --> 0:02:44.160
+That's the point of the temporary folder.
+
+54
+0:02:44.160 --> 0:02:48.360
+The other operating systems, such as Linux, et cetera, they also have a temporary directory,
+
+55
+0:02:48.360 --> 0:02:53.400
+but I don't know much about those, it's been a while since I've been on Linux.
+
+56
+0:02:53.400 --> 0:02:58.520
+I think that is an ideas question, so moving on to arugabuses again.
+
+57
+0:02:58.520 --> 0:03:02.800
+They have another question, which is some parts of NEEA cannot be translated, where
+
+58
+0:03:02.800 --> 0:03:03.800
+do I report that?
+
+59
+0:03:03.800 --> 0:03:10.480
+Go to the NEEA's locale for, like, a GitHub issue, sorry, a GitHub repository, and make
+
+60
+0:03:10.480 --> 0:03:11.480
+an issue there.
+
+61
+0:03:11.480 --> 0:03:13.480
+Try not to make an issue for, like, everything that can't be translated, because we'll be
+
+62
+0:03:13.480 --> 0:03:17.160
+there for, like, forever, but if there's something there that you feel would be good to be translated,
+
+63
+0:03:17.160 --> 0:03:18.220
+do put it there.
+
+64
+0:03:18.220 --> 0:03:21.320
+Things that are not suitable to go there are things like logic nodes, we don't have the
+
+65
+0:03:21.320 --> 0:03:25.880
+capability to translate those yet, but if there's just, like, a loose floating string
+
+66
+0:03:25.880 --> 0:03:28.920
+that exists somewhere, we can probably get that translated.
+
+67
+0:03:28.920 --> 0:03:33.820
+A good example being, I was working on the just months and months ago, but I was working
+
+68
+0:03:33.820 --> 0:03:38.660
+on the create directory dialogue, that's when you, like, create a directory in your inventory,
+
+69
+0:03:38.660 --> 0:03:41.400
+and I realized it was not translatable, and it was easy.
+
+70
+0:03:41.400 --> 0:03:45.480
+It was, like, another couple of lines of code to expose translation strings for that, so
+
+71
+0:03:45.480 --> 0:03:46.480
+I did that.
+
+72
+0:03:46.480 --> 0:03:48.840
+I did that because I was touching that code.
+
+73
+0:03:48.840 --> 0:03:51.160
+So do keep that in mind.
+
+74
+0:03:51.160 --> 0:03:55.580
+It's not, like, intentional, it's just, like, to update it such that it's translatable,
+
+75
+0:03:55.580 --> 0:04:00.200
+we have to touch it, and if it's a complicated string, such as logics, then we need to do
+
+76
+0:04:00.200 --> 0:04:05.040
+a lot of work to make it translatable, hence why logic is not translatable.
+
+77
+0:04:05.040 --> 0:04:07.360
+Translation gets complicated sometimes.
+
+78
+0:04:07.360 --> 0:04:11.240
+Moving forwards to Cole's question, which says, what do you think of user management
+
+79
+0:04:11.240 --> 0:04:14.320
+systems, logic that puts each user in their own slot and tries to keep things they spawn
+
+80
+0:04:14.320 --> 0:04:17.240
+within them, do you advise against having these pre-installed in published worlds?
+
+81
+0:04:17.240 --> 0:04:22.520
+I advise you have them in pre-installed in published worlds, they're fantastic at controlling
+
+82
+0:04:22.520 --> 0:04:26.280
+the craziness which is people's disrespect of your world.
+
+83
+0:04:26.280 --> 0:04:27.280
+That's truly what it is sometimes.
+
+84
+0:04:27.280 --> 0:04:29.560
+I mean, it's not usually, but, like, sometimes it is.
+
+85
+0:04:29.560 --> 0:04:35.760
+Like, I go in worlds sometimes, and there's just, like, a absolute tidal wave of crap
+
+86
+0:04:35.760 --> 0:04:39.520
+in the world that people have just left and forgotten.
+
+87
+0:04:39.520 --> 0:04:41.720
+Clean up after yourself, please.
+
+88
+0:04:41.720 --> 0:04:45.160
+If you spawn a gun that you're no longer using, don't just drop it in the world.
+
+89
+0:04:45.160 --> 0:04:46.600
+Clean it up.
+
+90
+0:04:46.600 --> 0:04:49.600
+For creators as well, the best thing you can do to be compatible with those systems is
+
+91
+0:04:49.600 --> 0:04:53.800
+to go ahead and use the local user space node rather than the root slot node whenever you're
+
+92
+0:04:53.800 --> 0:04:55.280
+re-parenting something.
+
+93
+0:04:55.280 --> 0:05:00.240
+It is literally a, you won't notice the difference from a creating point of view 99% of the time.
+
+94
+0:05:00.240 --> 0:05:04.840
+Just swap uses of the root slot node with the local user space node and you'll be good.
+
+95
+0:05:04.840 --> 0:05:10.160
+Local user space node refers to the slot which a user is parented to and not the root slot.
+
+96
+0:05:10.160 --> 0:05:14.800
+So if you created a world management system where Colza spawns in the world, they get
+
+97
+0:05:14.800 --> 0:05:16.820
+their own slot, they get parented to it.
+
+98
+0:05:16.820 --> 0:05:22.480
+If Colza's object uses parent with root slot, it would parent, I don't know, weapons, arrows,
+
+99
+0:05:22.480 --> 0:05:23.720
+grenades to the root slot.
+
+100
+0:05:23.720 --> 0:05:27.840
+But if it used local user space, all of their weapons, arrows, grenades, et cetera, would
+
+101
+0:05:27.840 --> 0:05:32.920
+be parented to the Colza user slot, enabling a world management system to clean up effectively
+
+102
+0:05:32.920 --> 0:05:34.360
+once they were gone.
+
+103
+0:05:34.360 --> 0:05:39.080
+And then, again, just for reiteration, clean up after yourself, please, like, please.
+
+104
+0:05:39.080 --> 0:05:43.640
+I feel like I should, like, meme it a little bit more, like, get a 3D model of a toy chest
+
+105
+0:05:43.640 --> 0:05:47.360
+and just, like, put it in the world and, like, put a user management system in there and
+
+106
+0:05:47.360 --> 0:05:51.540
+detect when there's more than, like, 20 items abandoned in a user's slot, like, spawn a
+
+107
+0:05:51.540 --> 0:05:54.000
+toy chest and be like, it's time to tidy up.
+
+108
+0:05:54.000 --> 0:05:58.120
+Like, with a gif of me waggling my finger or something.
+
+109
+0:05:58.120 --> 0:06:01.320
+It's time to tidy up, poor waggles finger.
+
+110
+0:06:01.320 --> 0:06:03.440
+Or you'll go on the naughty step.
+
+111
+0:06:03.440 --> 0:06:06.800
+Moving forwards, Zafford being says, dumb question.
+
+112
+0:06:06.800 --> 0:06:10.920
+There are zero questions in the entirety of this Discord which are dumb.
+
+113
+0:06:10.920 --> 0:06:15.800
+If you have asked the same question every single day for an entire year, someone will
+
+114
+0:06:15.800 --> 0:06:16.800
+answer you.
+
+115
+0:06:16.800 --> 0:06:17.800
+It's not dumb.
+
+116
+0:06:17.800 --> 0:06:19.000
+Like, Neos is complicated.
+
+117
+0:06:19.000 --> 0:06:20.000
+We all learning together.
+
+118
+0:06:20.000 --> 0:06:22.920
+Let's make sure that we get that correct.
+
+119
+0:06:22.920 --> 0:06:26.160
+The question that they're asking is, do you need to port forward to stream to Twitch inside
+
+120
+0:06:26.160 --> 0:06:27.160
+of Neos?
+
+121
+0:06:27.160 --> 0:06:28.160
+No.
+
+122
+0:06:28.160 --> 0:06:30.640
+You don't need to port forward to do most things inside Neos.
+
+123
+0:06:30.640 --> 0:06:35.280
+You can change some of your network settings to be a little bit easier to join to from
+
+124
+0:06:35.280 --> 0:06:38.520
+other users, but we do have systems in place that mean you don't really need to port forward
+
+125
+0:06:38.520 --> 0:06:39.520
+at all.
+
+126
+0:06:39.520 --> 0:06:45.440
+If you're having a particular issue with Twitch-related streaming stuff, please go ahead and ask it
+
+127
+0:06:45.440 --> 0:06:46.440
+more directly.
+
+128
+0:06:46.440 --> 0:06:50.840
+Rigibus has another question here, which is, is the free 25GB storage still available for
+
+129
+0:06:50.840 --> 0:06:52.280
+people who make locales?
+
+130
+0:06:52.280 --> 0:06:54.560
+I don't know.
+
+131
+0:06:54.560 --> 0:06:58.920
+I noticed yesterday that the locale repository had a little bit of neglect going on there,
+
+132
+0:06:58.920 --> 0:07:02.080
+which is understandable because we're not currently doing updates, but what kind of
+
+133
+0:07:02.080 --> 0:07:06.640
+like tugged at my heartstrings, if you like, to make me kind of fix that yesterday was
+
+134
+0:07:06.640 --> 0:07:11.680
+I noticed that two separate people had translated properly, as in a manual translation rather
+
+135
+0:07:11.680 --> 0:07:16.160
+than a machine translation, the game into Chinese.
+
+136
+0:07:16.160 --> 0:07:21.040
+And I thought, if we've got two people doing that substantial work, then we just need to
+
+137
+0:07:21.040 --> 0:07:22.040
+handle it.
+
+138
+0:07:22.040 --> 0:07:25.440
+So I merged all applicable mergers that could be merged just so that we didn't have that
+
+139
+0:07:25.440 --> 0:07:26.440
+happen again.
+
+140
+0:07:26.440 --> 0:07:31.580
+I don't want people doing potentially weeks' worth of work that we're then accidentally
+
+141
+0:07:31.580 --> 0:07:32.580
+ignoring.
+
+142
+0:07:32.580 --> 0:07:36.400
+Even if we don't intend to sort of make an update right now, we can at least say like,
+
+143
+0:07:36.400 --> 0:07:41.280
+hey, the Chinese translation has been done once, maybe work together on improving it,
+
+144
+0:07:41.280 --> 0:07:42.280
+but don't do it separately.
+
+145
+0:07:42.280 --> 0:07:44.280
+But it seems like that's what actually happened.
+
+146
+0:07:44.280 --> 0:07:50.080
+Two people separately did the translation from scratch and I'm just like, ah, that shouldn't
+
+147
+0:07:50.080 --> 0:07:53.520
+be bad.
+
+148
+0:07:53.520 --> 0:07:54.520
+That shouldn't happen.
+
+149
+0:07:54.520 --> 0:07:56.520
+That's, that's like a waste of time.
+
+150
+0:07:56.520 --> 0:07:59.360
+Oh, they'll, they'll resolve it, I'm sure.
+
+151
+0:07:59.360 --> 0:08:00.360
+All right, moving onwards.
+
+152
+0:08:00.360 --> 0:08:02.000
+We have a question from Thermo.
+
+153
+0:08:02.000 --> 0:08:03.640
+Is there a BeeHaptics integration?
+
+154
+0:08:03.640 --> 0:08:04.640
+Yes.
+
+155
+0:08:04.640 --> 0:08:06.980
+BeeHaptics is entirely integrated into the game.
+
+156
+0:08:06.980 --> 0:08:11.560
+You just need to make sure that the BeeHaptics software is on and running, that you've tested
+
+157
+0:08:11.560 --> 0:08:12.560
+it.
+
+158
+0:08:12.560 --> 0:08:16.880
+You've got buzzes on your BeeHaptics stuff before you launch Neos and then it will be
+
+159
+0:08:16.880 --> 0:08:18.440
+in there and working.
+
+160
+0:08:18.440 --> 0:08:21.900
+The problem that you might have with the BeeHaptics integration though is that not a lot of stuff
+
+161
+0:08:21.900 --> 0:08:27.200
+inside Neos supports it from a development point of view inside the game.
+
+162
+0:08:27.200 --> 0:08:31.040
+Inside the game, objects need to basically say, hey, I would like to be BeeHaptics.
+
+163
+0:08:31.040 --> 0:08:33.720
+I would like to be a BeeHaptics dut ad.
+
+164
+0:08:33.720 --> 0:08:36.200
+Please buzz haptics when they come near you.
+
+165
+0:08:36.200 --> 0:08:39.920
+It should by default work with other people's hands so they can like touch poke, you know,
+
+166
+0:08:39.920 --> 0:08:41.520
+prod you, et cetera.
+
+167
+0:08:41.520 --> 0:08:43.480
+But you can also make objects work with BeeHaptics.
+
+168
+0:08:43.480 --> 0:08:47.220
+If you'd like an example of that, I have tutorial videos on my channel or you can go ahead and
+
+169
+0:08:47.220 --> 0:08:52.300
+visit Sojourner's Island made by the Neos team, which has a bunch of haptics integrations
+
+170
+0:08:52.300 --> 0:08:56.280
+that are, you know, it's actually an event to sort of showcase that we had BeeHaptics.
+
+171
+0:08:56.280 --> 0:08:59.600
+It is not OSC and we do not have OSC support.
+
+172
+0:08:59.600 --> 0:09:03.360
+Moving forward, Specs says, I would very much like to add port forwarding to my router to
+
+173
+0:09:03.360 --> 0:09:04.700
+make it easier for users to join me.
+
+174
+0:09:04.700 --> 0:09:06.040
+What port range would I need for that?
+
+175
+0:09:06.040 --> 0:09:07.420
+It's not port forwarding.
+
+176
+0:09:07.420 --> 0:09:08.420
+It's a NAT type.
+
+177
+0:09:08.420 --> 0:09:11.520
+If you go to the wiki, I'll get the link in just a second.
+
+178
+0:09:11.520 --> 0:09:14.360
+The networking information page has some information about that.
+
+179
+0:09:14.360 --> 0:09:18.260
+It's just making sure that your NAT settings are good.
+
+180
+0:09:18.260 --> 0:09:21.800
+We are like, it's 2022.
+
+181
+0:09:21.800 --> 0:09:25.120
+No one should be like manually port forwarding unless I don't know they're playing like Half
+
+182
+0:09:25.120 --> 0:09:27.540
+Life or something.
+
+183
+0:09:27.540 --> 0:09:34.000
+There's a setting right at the bottom there of recommended here we go American versus
+
+184
+0:09:34.000 --> 0:09:35.160
+British in my brain.
+
+185
+0:09:35.160 --> 0:09:37.560
+I live in America, but I'm British.
+
+186
+0:09:37.560 --> 0:09:42.760
+Recommended router configuration or if you're American, recommended router configuration.
+
+187
+0:09:42.760 --> 0:09:45.720
+Both is like good and fine.
+
+188
+0:09:45.720 --> 0:09:50.560
+Strangely enough, British people will call the tool thing and you know that you do for
+
+189
+0:09:50.560 --> 0:09:54.600
+woodwork or whatever, the router there, we will call that a router.
+
+190
+0:09:54.600 --> 0:09:57.480
+For anything else, it's root or router.
+
+191
+0:09:57.480 --> 0:09:58.480
+It's very confusing.
+
+192
+0:09:58.480 --> 0:10:03.240
+Yeah, I went to a woodworking class once and we got that, the router, and I'm like, oh,
+
+193
+0:10:03.240 --> 0:10:04.240
+okay.
+
+194
+0:10:04.240 --> 0:10:06.320
+And I was very confused when people started talking about routers, I'm like, why do people
+
+195
+0:10:06.320 --> 0:10:08.240
+plug in this woodworking tool to their Internet?
+
+196
+0:10:08.240 --> 0:10:09.960
+That doesn't make any sense.
+
+197
+0:10:09.960 --> 0:10:11.960
+Very interesting, though.
+
+198
+0:10:11.960 --> 0:10:18.240
+Moving forwards, Stifle says I was curious about the answer to this question back on
+
+199
+0:10:18.240 --> 0:10:25.000
+October 21st, 2019, oh, deary me, let's get out some sepia-toned cameras and stuff.
+
+200
+0:10:25.000 --> 0:10:30.140
+You made a tutorial with segment mesh and slot segment mesh and asked why can't slot
+
+201
+0:10:30.140 --> 0:10:33.620
+segment mesh be collapsed into segment mesh and later stated that would be a question
+
+202
+0:10:33.620 --> 0:10:37.240
+for the NEOS team, since you are part of the NEOS team after the video was made, what was
+
+203
+0:10:37.240 --> 0:10:39.760
+the answer to the almost three-year-old question?
+
+204
+0:10:39.760 --> 0:10:45.320
+There are a lot of cases where accidentally for in some cases very valid reasons, but
+
+205
+0:10:45.320 --> 0:10:49.920
+for some cases just sort of like either a combination of forgetful reasons or just time
+
+206
+0:10:49.920 --> 0:10:55.060
+pressure, different things have been created that really don't need to exist and they need
+
+207
+0:10:55.060 --> 0:10:58.120
+to be sort of collated back together.
+
+208
+0:10:58.120 --> 0:11:01.800
+I was trying to think of that word, collate, I was thinking staple, but no, staple and
+
+209
+0:11:01.800 --> 0:11:04.700
+collate, collate is the word I was looking for.
+
+210
+0:11:04.700 --> 0:11:07.400
+So slot segment mesh and segment mesh are a good example of that.
+
+211
+0:11:07.400 --> 0:11:12.120
+As are our myriad of PBS shaders, Geens wants to eventually collapse all of those into one
+
+212
+0:11:12.120 --> 0:11:16.640
+PBS shader with all of the settings exposed in a way that makes sense, such that we don't
+
+213
+0:11:16.640 --> 0:11:21.760
+have like we have so much duplicate code for PBS rendering in our shader files, it's sort
+
+214
+0:11:21.760 --> 0:11:22.760
+of crazy.
+
+215
+0:11:22.760 --> 0:11:26.640
+Another example where I want to do it is the axis aligner aligner components.
+
+216
+0:11:26.640 --> 0:11:29.960
+They all work completely differently from a technical point of view, I mean from a functional
+
+217
+0:11:29.960 --> 0:11:33.720
+point of view as well, they do different alignments, but from a technical point of view, it seems
+
+218
+0:11:33.720 --> 0:11:38.080
+none of them can agree about the best way to update themselves, the axis aligner does
+
+219
+0:11:38.080 --> 0:11:41.640
+it in a way that is not performant, the object grid aligner does it in a way that is performant
+
+220
+0:11:41.640 --> 0:11:44.040
+or isn't, I can't really remember.
+
+221
+0:11:44.040 --> 0:11:47.320
+It would be great if we could just sort of collapse all that together into an aligner
+
+222
+0:11:47.320 --> 0:11:51.840
+component, which then had a method that would also allow additional methods for alignment
+
+223
+0:11:51.840 --> 0:11:53.960
+to be sort of written well.
+
+224
+0:11:53.960 --> 0:11:57.720
+That's a really good example of sort of refactoring where we talk about that sometimes, it's like
+
+225
+0:11:57.720 --> 0:12:01.440
+what if this was one component that had a method of alignment and then it'd be a lot
+
+226
+0:12:01.440 --> 0:12:05.680
+easier to sort of establish that the behavior was consistent across all of those components
+
+227
+0:12:05.680 --> 0:12:09.000
+rather than vastly different because they all work differently for some reason.
+
+228
+0:12:09.000 --> 0:12:14.040
+Moving forwards, Zafford's got back to me with a question.
+
+229
+0:12:14.040 --> 0:12:18.520
+They say when I go to a WebSocket plugin and try to connect it to Neos, it all says disconnected
+
+230
+0:12:18.520 --> 0:12:23.720
+even though as far as where the ipm port is correct, ah okay, double check which version
+
+231
+0:12:23.720 --> 0:12:26.260
+of the WebSocket plugin that you are using.
+
+232
+0:12:26.260 --> 0:12:32.740
+There is a complicated matter that is unfolding, basically OBS WebSocket the plugin just rolled
+
+233
+0:12:32.740 --> 0:12:39.100
+over to version 5 and version 5 is not compatible with Neos currently.
+
+234
+0:12:39.100 --> 0:12:43.100
+That is like probably like the highest priority in terms of like my tutorial item that I'll
+
+235
+0:12:43.100 --> 0:12:49.600
+be fixing when I'm able to because 5 is incompatible with earlier versions of the OBS WebSocket
+
+236
+0:12:49.600 --> 0:12:50.600
+protocol.
+
+237
+0:12:50.600 --> 0:12:57.880
+Additionally, for added insults to injury, OBS Studio versions which are greater than
+
+238
+0:12:57.880 --> 0:13:02.840
+I don't know right now I think it's like I don't know the number but they will by default
+
+239
+0:13:02.840 --> 0:13:07.960
+include OBS WebSocket in them so if you have downloaded and installed OBS Studio from the
+
+240
+0:13:07.960 --> 0:13:13.620
+website like within the past sort of few weeks it'll probably have OBS WebSocket 5 installed
+
+241
+0:13:13.620 --> 0:13:17.880
+in it so you'll go ahead and have to replace that with a version before 5 and then it will
+
+242
+0:13:17.880 --> 0:13:21.940
+work if it's 5 or later it will not work.
+
+243
+0:13:21.940 --> 0:13:28.260
+If you are running OBS on the same computer that you are running Neos on to use it you
+
+244
+0:13:28.260 --> 0:13:32.080
+don't need to change the port or IP address settings I have not changed those since 2019
+
+245
+0:13:32.080 --> 0:13:33.080
+they just work.
+
+246
+0:13:33.080 --> 0:13:37.000
+You also don't need port forwarding because if it's a local connection doesn't matter
+
+247
+0:13:37.000 --> 0:13:41.760
+it's just like oh that's me that's my computer whoop and it just connects it doesn't need
+
+248
+0:13:41.760 --> 0:13:42.760
+to go out to the network.
+
+249
+0:13:42.760 --> 0:13:48.140
+All right moving onwards Dark Witch Dreams welcome to the community because they only
+
+250
+0:13:48.140 --> 0:13:50.640
+just recently joined that's why I'm saying welcome.
+
+251
+0:13:50.640 --> 0:13:53.720
+Sometimes I should read and then answer but sometimes I just like read and answer at the
+
+252
+0:13:53.720 --> 0:13:55.420
+same time.
+
+253
+0:13:55.420 --> 0:13:58.960
+They hope that this question is okay for the conversation there are not many questions
+
+254
+0:13:58.960 --> 0:14:02.680
+that are not okay for the conversation if they're not okay it's not like you've done
+
+255
+0:14:02.680 --> 0:14:06.160
+something wrong it's just like hey I'm not the right person to ask but I'm sure that
+
+256
+0:14:06.160 --> 0:14:10.800
+this question I haven't read yet is perfectly fine.
+
+257
+0:14:10.800 --> 0:14:15.540
+They jumped into Neos they haven't jumped into Neos yet and the big reason is just how
+
+258
+0:14:15.540 --> 0:14:19.200
+large and overwhelming it seems on top of the social anxiety is there somewhere you
+
+259
+0:14:19.200 --> 0:14:24.800
+can point me that or I should start to have it be less overwhelming yes a good way to
+
+260
+0:14:24.800 --> 0:14:30.220
+start and not be overwhelming is to make a couple of sacrifices but these are good sacrifices
+
+261
+0:14:30.220 --> 0:14:34.920
+so sacrifice one is pick an avatar that's already in the game don't think about importing
+
+262
+0:14:34.920 --> 0:14:38.880
+your VRChat avatar if you've come from VRChat or whatever avatar just pick one that's in
+
+263
+0:14:38.880 --> 0:14:42.000
+the game and then number two is don't build.
+
+264
+0:14:42.000 --> 0:14:45.640
+We get a lot of sort of questions and comments about like why don't you have a non-building
+
+265
+0:14:45.640 --> 0:14:49.760
+mode right you'd go to the start of Neos and you'd hit play and say like I want to build
+
+266
+0:14:49.760 --> 0:14:54.440
+I don't want to build the really only difference between those two versions of the game would
+
+267
+0:14:54.440 --> 0:14:58.960
+be we would disable the ability for you to open up the building UI but strangely you
+
+268
+0:14:58.960 --> 0:15:04.120
+can do that yourself with a mentality shift right you can say I don't want to build therefore
+
+269
+0:15:04.120 --> 0:15:09.320
+I won't spawn the inspector tip or the logics tip I won't spawn those and I don't want to
+
+270
+0:15:09.320 --> 0:15:12.460
+build and then you can just sit in front of a mirror if that's what you're doing watch
+
+271
+0:15:12.460 --> 0:15:15.600
+videos whatever you want to do you don't have to build and then that will make it viral
+
+272
+0:15:15.600 --> 0:15:20.000
+vastly vastly less overwhelming you pick an avatar that's already in the game and then
+
+273
+0:15:20.000 --> 0:15:23.240
+you just don't build and then it should be less overwhelming because you don't need to
+
+274
+0:15:23.240 --> 0:15:29.160
+learn anything there you should you should just you know chill out watch videos and hang
+
+275
+0:15:29.160 --> 0:15:34.320
+out with people you may have some difficulty finding open sessions that are not technical
+
+276
+0:15:34.320 --> 0:15:38.540
+that's something that I wish our community culture could change about majority sessions
+
+277
+0:15:38.540 --> 0:15:42.440
+you go into someone if they're not talking about technical matters to do with Neos they're
+
+278
+0:15:42.440 --> 0:15:46.080
+talking about technical matters to do with just like other stuff you know go in there
+
+279
+0:15:46.080 --> 0:15:51.740
+and they're just like well I heard the Nvidia 380 is better than the 390 like the parallelization
+
+280
+0:15:51.740 --> 0:15:56.280
+of the neutron floating into the flux capacitor and you're just like yeah I'm inebriated and
+
+281
+0:15:56.280 --> 0:16:00.920
+I just want to like lie in front of a mirror and watch videos like it's sometimes difficult
+
+282
+0:16:00.920 --> 0:16:07.600
+to get that kind of setup so there you go at the point where you want an avatar set
+
+283
+0:16:07.600 --> 0:16:10.880
+up if you know that you're going to struggle or be overwhelmed it might be worth sort of
+
+284
+0:16:10.880 --> 0:16:16.240
+booking time with a mentor there's no official way to do this but if you find someone with
+
+285
+0:16:16.240 --> 0:16:22.560
+a funny green badge in the discord or in game you could say like hey Tuesday 3 p.m would
+
+286
+0:16:22.560 --> 0:16:27.680
+you help me get the avatar set up for me and do most of the work for me because I don't
+
+287
+0:16:27.680 --> 0:16:30.920
+want to get overwhelmed and they'd be happy to sort that out right they'll need some files
+
+288
+0:16:30.920 --> 0:16:35.500
+from you of course to get it done but like they'll take care of it for you there's always
+
+289
+0:16:35.500 --> 0:16:41.400
+two ways of learning in Neos and it's great if you're explicit with a mentor about your
+
+290
+0:16:41.400 --> 0:16:45.040
+intentions there I've seen both of them and especially with the recent sort of uptick
+
+291
+0:16:45.040 --> 0:16:49.540
+in players there are players who are like can you help me set up my avatar and show
+
+292
+0:16:49.540 --> 0:16:53.960
+me how to do it or can you help me set up my avatar because I want to be comfortable
+
+293
+0:16:53.960 --> 0:16:57.880
+in Neos those are two different scenarios like they don't want to know how it works
+
+294
+0:16:57.880 --> 0:17:01.200
+they just want an avatar that they're comfortable with and then once they're comfortable maybe
+
+295
+0:17:01.200 --> 0:17:06.200
+they'll have an opportunity to learn but they don't necessarily need to have the opportunity
+
+296
+0:17:06.200 --> 0:17:10.560
+to learn they don't necessarily want to learn and both of those are okay usually in other
+
+297
+0:17:10.560 --> 0:17:14.040
+circles such as like learning programming that's not okay like if you went to like I
+
+298
+0:17:14.040 --> 0:17:17.360
+don't know a learning programming community on discord and you're like could someone write
+
+299
+0:17:17.360 --> 0:17:22.080
+code for me would be like no because you won't learn but like if it's your avatar totally
+
+300
+0:17:22.080 --> 0:17:25.640
+understandable you just want to feel comfortable inside the game someone will help you out
+
+301
+0:17:25.640 --> 0:17:32.440
+we have lots of insight from from from mentors there holy's fantastic froppy who is a mentor
+
+302
+0:17:32.440 --> 0:17:36.360
+and a moderator so they've got like all the not as many badges as me but like all the
+
+303
+0:17:36.360 --> 0:17:41.520
+badges they're very helpful as well as link is very helpful specs as well like everyone's
+
+304
+0:17:41.520 --> 0:17:46.040
+helpful here just just ask questions yeah yeah yeah you've not managed to complete the
+
+305
+0:17:46.040 --> 0:17:50.360
+collection there froppy if you get on the team you'll still be missing one yeah it does
+
+306
+0:17:50.360 --> 0:17:53.920
+it does unfortunately sound like jumping in is the best start but just jump in with with
+
+307
+0:17:53.920 --> 0:17:58.560
+that mindset right the mindset being i don't need to build and i can use one of the existing
+
+308
+0:17:58.560 --> 0:18:04.400
+avatars and then just like have an explore uh no you don't uh learn things you should
+
+309
+0:18:04.400 --> 0:18:08.320
+go is a good way of looking at or don't but if you just like i don't want to learn totally
+
+310
+0:18:08.320 --> 0:18:11.760
+fine it's totally fine uh i reckon best has another question here which is what is the
+
+311
+0:18:11.760 --> 0:18:17.520
+mobile friendly toggle it's right i'm giggling not because of the question but because of
+
+312
+0:18:17.520 --> 0:18:27.680
+of that checkbox um so that checkbox is uh basically like a little sign um that has no
+
+313
+0:18:27.680 --> 0:18:33.520
+validation or features or functionality about it at all if you turn that on you are basically
+
+314
+0:18:33.520 --> 0:18:38.120
+raising a little sign that says i'm a mobile friendly session and whether you actually
+
+315
+0:18:38.120 --> 0:18:43.440
+are a mobile friendly session or not um doesn't matter so it's the equivalent of basically
+
+316
+0:18:43.440 --> 0:18:48.160
+you know standing outside of a coffee shop and saying we have free coffee and then you
+
+317
+0:18:48.160 --> 0:18:54.160
+go inside the coffee shop and they don't actually have free coffee it just it doesn't mean anything
+
+318
+0:18:54.160 --> 0:19:01.560
+uh we did want it to mean something originally it just it just didn't you know uh it is crazy
+
+319
+0:19:01.560 --> 0:19:07.440
+there it's also sort of paired with checkboxes that actually do do stuff do do lol for example
+
+320
+0:19:07.440 --> 0:19:11.600
+the unsafe mode checkbox will enable unsafe mode and that does actually make stuff happen
+
+321
+0:19:11.600 --> 0:19:18.360
+um for those who are worried about unsafe mode it's quite difficult to make unsafe mode
+
+322
+0:19:18.360 --> 0:19:22.920
+not safe counter to its name but the moment you check unsafe mode it will force your session
+
+323
+0:19:22.920 --> 0:19:29.040
+to lan only um you can thank me for unsafe mode um i caused it to happen let's see what
+
+324
+0:19:29.040 --> 0:19:33.440
+we've got uh for other questions here oh gina hello uh i've been loading sessions that are
+
+325
+0:19:33.440 --> 0:19:37.680
+taking a lot more time uh than a year ago any recommendations or tips to optimize world
+
+326
+0:19:37.680 --> 0:19:43.360
+loading in assets near spawn first there is nothing um that you can do to optimize uh
+
+327
+0:19:43.360 --> 0:19:47.960
+the order in which my assets load in right now um if you're having slowness we do actually
+
+328
+0:19:47.960 --> 0:19:52.700
+have an issue open for assets loading slowly um there is a sort of community fix for that
+
+329
+0:19:52.700 --> 0:19:56.520
+which is to just clear your cache but i don't understand why that makes assets load faster
+
+330
+0:19:56.520 --> 0:20:01.760
+but hey maybe it'll work for you um but that might speed it up but no we have no load control
+
+331
+0:20:01.760 --> 0:20:07.800
+right now um even if you have stuff like disabled checkbox wise or like culling zone wise it's
+
+332
+0:20:07.800 --> 0:20:13.160
+still got a load it's just it's a problem we got to like fix it somehow later uh arabis
+
+333
+0:20:13.160 --> 0:20:17.960
+if you asked 500 000 questions i would answer them all and be totally happy with that so
+
+334
+0:20:17.960 --> 0:20:22.680
+don't don't don't feel bad about that this is this is question time if you answer you
+
+335
+0:20:22.680 --> 0:20:32.560
+ask one fantastic if you ask 50 fantastic the poop poop poop poop poop uh that is the
+
+336
+0:20:32.560 --> 0:20:38.940
+cash slinker if it's in local temp solarax neos that's the cash oh if you're forcing
+
+337
+0:20:38.940 --> 0:20:46.500
+the cache path argument um sometimes the app path the other one will still refer to the
+
+338
+0:20:46.500 --> 0:20:51.460
+old cache path in its saved settings which means that even though you've done cache path
+
+339
+0:20:51.460 --> 0:20:57.260
+it won't listen to it which is really annoying um and actually caused me to just rewrite
+
+340
+0:20:57.260 --> 0:21:03.600
+the uh relocate neos folder guide again because i'm like wait a moment the only real way to
+
+341
+0:21:03.600 --> 0:21:09.440
+make sure that data path and cache path are listened to in their entirety is to nuke everything
+
+342
+0:21:09.440 --> 0:21:13.180
+and start again both cache and data that's the only way to make sure that they are listened
+
+343
+0:21:13.180 --> 0:21:17.740
+to so that's probably what's going on there with slinker's issue um it looks like a rigor
+
+344
+0:21:17.740 --> 0:21:22.820
+versus question about scaling working on desktop is uh answered uh froppy says it's control
+
+345
+0:21:22.820 --> 0:21:27.400
+shift and mouse wheel for scaling enabled that will scale you on desktop um i'm seeing
+
+346
+0:21:27.400 --> 0:21:31.660
+a lot of comments on my youtube videos about this as well um so i want to state it as well
+
+347
+0:21:31.660 --> 0:21:37.120
+there should be no reason why features work strangely between our platforms that aren't
+
+348
+0:21:37.120 --> 0:21:41.560
+stated somewhere so i had a comment which is like i guess publishing worlds on linux
+
+349
+0:21:41.560 --> 0:21:45.920
+doesn't work no no publishing worlds on linux should work if it doesn't that's a bug please
+
+350
+0:21:45.920 --> 0:21:50.360
+provide a log if you're listening i did comment on the the youtube comment with that as well
+
+351
+0:21:50.360 --> 0:21:54.360
+and then someone else said is it known that logics doesn't work on the dix i'm like no
+
+352
+0:21:54.360 --> 0:21:57.860
+no logics should work on the dix if you're having an issue please let me know let's figure
+
+353
+0:21:57.860 --> 0:22:04.120
+it out um froppy says the arugopus uh said that scaling objects doesn't work only scales
+
+354
+0:22:04.120 --> 0:22:08.000
+one time and stops working well i'm on desktop right now so if you just give me a second
+
+355
+0:22:08.000 --> 0:22:12.520
+um i will go ahead and see if i can reproduce that so i'm gonna go ahead and i'm gonna create
+
+356
+0:22:12.520 --> 0:22:16.760
+a new 3d model box and i know you can't see this i'm just describing what i'm doing to
+
+357
+0:22:16.760 --> 0:22:21.560
+fill dead a time and i'm moving it around and i've made it smaller with scale and i'm
+
+358
+0:22:21.560 --> 0:22:25.080
+letting go of it and i'm going to grab it again and i'm making it bigger if you can
+
+359
+0:22:25.080 --> 0:22:29.740
+describe the exact sequence of button pushes you're doing it might be that it also might
+
+360
+0:22:29.740 --> 0:22:33.840
+be uh just something to do with the actual object that you're scaling do remember that
+
+361
+0:22:33.840 --> 0:22:37.520
+certain objects cannot be scaled by design it's actually a checkbox that you can enable
+
+362
+0:22:37.520 --> 0:22:42.460
+on the object and uh if it's not enabled there's usually a good reason for it although sometimes
+
+363
+0:22:42.460 --> 0:22:45.720
+there isn't a reason for it and someone's just forgotten to check that on let's move
+
+364
+0:22:45.720 --> 0:22:51.240
+forwards um agro force says is there a way to drag stuff around in your dash in screen
+
+365
+0:22:51.240 --> 0:22:56.000
+mode i don't know i've never been able to get ui edit mode to work in screen mode so
+
+366
+0:22:56.000 --> 0:23:02.680
+i'm just like i don't know uh eastern if eastern's here they might know they're the desktop national
+
+367
+0:23:02.680 --> 0:23:12.720
+treasure i'm going to tag them there we go um i i yeah let me just without a mod right
+
+368
+0:23:12.720 --> 0:23:18.000
+the mod didn't exist and i'm pretty sure pretty sure eastern was doing about mod all right
+
+369
+0:23:18.000 --> 0:23:24.880
+anyway moving forwards um that's that question's answered uh zacutole says are graphics lowering
+
+370
+0:23:24.880 --> 0:23:32.440
+mods safe i don't know i am reasonably certain that they are but i cannot say that they are
+
+371
+0:23:32.440 --> 0:23:36.560
+because mods are unsupported by the neos team if that makes sense i would suggest asking
+
+372
+0:23:36.560 --> 0:23:43.240
+the neos modding community what they think um but i can't answer that officially uh zafod
+
+373
+0:23:43.240 --> 0:23:46.880
+says one more thing how do i get the screen to pop up in obs uh i think froppy answered
+
+374
+0:23:46.880 --> 0:23:51.260
+that with the like tools web socket server settings uh i don't really know what you mean
+
+375
+0:23:51.260 --> 0:23:55.600
+by screen though um if you can clarify if you mean the game screen just use like a game
+
+376
+0:23:55.600 --> 0:23:59.280
+capture or window capture whichever works for you i alternate between game capture and
+
+377
+0:23:59.280 --> 0:24:05.960
+window capture because obs is fun as our window capture standards like for example if you
+
+378
+0:24:05.960 --> 0:24:10.320
+try and capture chrome and you're playing media on netflix like regardless what tab
+
+379
+0:24:10.320 --> 0:24:15.080
+is netflix will just like blank out or something or stop playing or spotify is like you're
+
+380
+0:24:15.080 --> 0:24:19.800
+recording i'm gonna pause it's just like guys what are we doing and then there's like hdcp
+
+381
+0:24:19.800 --> 0:24:23.120
+that's the thing that like makes protected content go through a hdmi driver and i'm just
+
+382
+0:24:23.120 --> 0:24:29.120
+like ah stop making standards okay let's get back on track to some sort of sense of normalcy
+
+383
+0:24:29.120 --> 0:24:37.080
+back to questions um magic says what would you say is the most under used um undervalued
+
+384
+0:24:37.080 --> 0:24:41.720
+feature that should be highlighted to new users um honestly not building like i know
+
+385
+0:24:41.720 --> 0:24:45.800
+we just talked about it uh with the sort of you know questions of being overwhelmed but
+
+386
+0:24:45.800 --> 0:24:50.760
+not building like it's very common for the mentality to be okay you set up your avatar
+
+387
+0:24:50.760 --> 0:24:54.960
+now you need to start building which then leads into the mentality of when i've started
+
+388
+0:24:54.960 --> 0:25:00.000
+building i'll make myself a custom multi-tool and a custom inspector and i'm just like no
+
+389
+0:25:00.000 --> 0:25:05.560
+go play games go experience stuff go play cabin of the seasons go look at the neos
+
+390
+0:25:05.560 --> 0:25:10.040
+fester it's running by the way there's a festival running made by the japanese community it's
+
+391
+0:25:10.040 --> 0:25:14.360
+amazing there are booths there are worlds go look at it uh you know you don't need to
+
+392
+0:25:14.360 --> 0:25:19.620
+build i guess would be the most underutilized feature of of of neos um and don't make a
+
+393
+0:25:19.620 --> 0:25:25.120
+custom multi-tool just use the standard tools please uh so safe what is now further clarified
+
+394
+0:25:25.120 --> 0:25:32.480
+what source does the in-game neos camera use in sources on obs it doesn't um okay so all
+
+395
+0:25:32.480 --> 0:25:37.360
+the obs um all the obs integration that we have inside neos does is integrates with obs
+
+396
+0:25:37.360 --> 0:25:43.200
+web socket to send a signal saying start recording stop recording or start streaming stop streaming
+
+397
+0:25:43.200 --> 0:25:49.680
+that's all it does um the camera itself when you enable the mirror display mode what it
+
+398
+0:25:49.680 --> 0:25:54.600
+will do is it will take the camera's view and it will mirror that to the the on-screen
+
+399
+0:25:54.600 --> 0:25:59.360
+um ui so if you have your headset on enable mirror to display peek under your headset
+
+400
+0:25:59.360 --> 0:26:03.760
+through the nose hole like you all do i know you'll do it peek through the nose hole and
+
+401
+0:26:03.760 --> 0:26:09.160
+look at your screen you'll see that it's displaying the camera view and not your view it separated
+
+402
+0:26:09.160 --> 0:26:16.600
+those two and then in obs you just capture using uh game capture or window capture the
+
+403
+0:26:16.600 --> 0:26:21.800
+window of neos and then it will display whatever the camera has recording inside obs and that's
+
+404
+0:26:21.800 --> 0:26:25.980
+how the magic works right um and it's only available like some people like why doesn't
+
+405
+0:26:25.980 --> 0:26:30.280
+mirror display work in desktop it's because it would be incredibly jarring to try and
+
+406
+0:26:30.280 --> 0:26:34.880
+make that work in desktop it might be possible if neos could like i don't know spawn two
+
+407
+0:26:34.880 --> 0:26:38.740
+display windows of neos and then one would be the mirrored and one wouldn't be the mirrored
+
+408
+0:26:38.740 --> 0:26:42.700
+and then you'd capture the mirrored one and play on the non-mirrored one but at that point
+
+409
+0:26:42.700 --> 0:26:46.160
+you're like running the game twice i mean you kind of already are doing with mirrored
+
+410
+0:26:46.160 --> 0:26:51.880
+to display but like the the glory about how it works is because you've got a headset on
+
+411
+0:26:51.880 --> 0:26:56.200
+your face that's got screens inside it well usually a screen sometimes two screens i never
+
+412
+0:26:56.200 --> 0:26:59.800
+remember which which headsets use two screens and which headsets use one screen that's just
+
+413
+0:26:59.800 --> 0:27:02.740
+sort of got a black bar in the middle that you can never see because it's behind the
+
+414
+0:27:02.740 --> 0:27:08.920
+lenses but whatever um that's that question done uh alexis are there any secret menus
+
+415
+0:27:08.920 --> 0:27:13.840
+or buttons that mods or devs have in neos there are many um none of which i can remember
+
+416
+0:27:13.840 --> 0:27:17.800
+right now i guess there's one like the world browser has some extra stuff if you're on
+
+417
+0:27:17.800 --> 0:27:23.960
+the team um which is you know subject to change but i can um remove a world from the world
+
+418
+0:27:23.960 --> 0:27:28.480
+browser or feature a world or add a tag if the world's having difficulties in searching
+
+419
+0:27:28.480 --> 0:27:32.960
+from the world browser um there's one other place but i can't even remember where it is
+
+420
+0:27:32.960 --> 0:27:39.400
+none of the like stuff that the team have access to in game is like scary or secret
+
+421
+0:27:39.400 --> 0:27:44.160
+or you know can't be told it's all like the stuff that we should have access to and permissiony
+
+422
+0:27:44.160 --> 0:27:49.940
+stuff um for example and i'm going to say this on record and i'm also going to say prove
+
+423
+0:27:49.940 --> 0:27:58.440
+me otherwise if you think so um the team including mods do not have access to private sessions
+
+424
+0:27:58.440 --> 0:28:02.640
+and the reason behind this is because when you start a private session we don't tell
+
+425
+0:28:02.640 --> 0:28:07.720
+the neos cloud where it is and you can verify this using wire shark or like a man-in-the-middle
+
+426
+0:28:07.720 --> 0:28:13.800
+proxy whatever you want like there is no information other than you are in a private session we
+
+427
+0:28:13.800 --> 0:28:19.080
+don't know where that private session is for us to join that private session we need to
+
+428
+0:28:19.080 --> 0:28:23.000
+first of all know where it is so like what ip address or setting it's on and then we
+
+429
+0:28:23.000 --> 0:28:28.600
+also need like an invite tokeny thing which again you can validate using wire shark right
+
+430
+0:28:28.600 --> 0:28:33.060
+i don't want to see in like two or three years people going like yeah but like mods and team
+
+431
+0:28:33.060 --> 0:28:37.380
+members can join your private sessions go validate it get wire shark get a man-in-the-middle
+
+432
+0:28:37.380 --> 0:28:42.800
+proxy prove it like we know that you're in a private session but that's the equivalent
+
+433
+0:28:42.800 --> 0:28:47.900
+of me saying to froppy hey i'm at home right now so froppy now knows i'm at home but they
+
+434
+0:28:47.900 --> 0:28:52.500
+don't know what i'm wearing or what i'm eating or what i'm looking at or what i'm doing but
+
+435
+0:28:52.500 --> 0:28:56.280
+they know that i'm in my house so we know that you're in a private session but we don't
+
+436
+0:28:56.280 --> 0:29:00.140
+know that anything's happening there or where it even is which is the same froppy doesn't
+
+437
+0:29:00.140 --> 0:29:03.980
+know where i live unless froppy does in which case froppy please don't don't like please
+
+438
+0:29:03.980 --> 0:29:10.560
+don't please don't attack me no anyway moving onwards back to some sense of normalcy again
+
+439
+0:29:10.560 --> 0:29:15.040
+i think they do stale take a 360 preview and um sorry spec said private sessions don't
+
+440
+0:29:15.040 --> 0:29:20.140
+take a 360 preview i think they still do and the reason behind that is uh depending on
+
+441
+0:29:20.140 --> 0:29:24.560
+which way you get the invite you'll be able to see that 360 view uh before you actually
+
+442
+0:29:24.560 --> 0:29:29.620
+join and then even in worlds that you're in which are private sessions they appear in
+
+443
+0:29:29.620 --> 0:29:34.740
+the world browser just for you and you'll be able to see uh 360 previews of that world
+
+444
+0:29:34.740 --> 0:29:39.860
+just for you because you have an invite in the world browser or more specifically anyone
+
+445
+0:29:39.860 --> 0:29:44.220
+that has an inviting capability of joining that session should should she should see
+
+446
+0:29:44.220 --> 0:29:49.500
+in the world browser but again yeah if you'd like to to challenge that the wire shark man-in-the-middle
+
+447
+0:29:49.500 --> 0:29:55.700
+proxy ask the modding community have a look uh moving forwards arriba says is it possible
+
+448
+0:29:55.700 --> 0:30:01.700
+to edit uv maps inside neos no um mesh data is mostly static there are exceptions to that
+
+449
+0:30:01.700 --> 0:30:04.940
+for example you can remove blend shapes by baking your blend shapes do you do baking
+
+450
+0:30:04.940 --> 0:30:08.460
+your blend shapes will improve the performance of your avatar more than any other thing particularly
+
+451
+0:30:08.460 --> 0:30:13.500
+if you're a rex avatar um so please do bake your blend shapes but uh that edits mesh data
+
+452
+0:30:13.500 --> 0:30:17.220
+is what i mean um there's other stuff that you can do to edit mesh data such as like
+
+453
+0:30:17.220 --> 0:30:21.220
+fiddling normals recalculating tangents stuff like that by the way for three models there
+
+454
+0:30:21.220 --> 0:30:25.780
+what's the difference between normal and a tangent i have no idea anyway um you can't
+
+455
+0:30:25.780 --> 0:30:31.040
+edit uv maps moving forwards to screeners question someone friends list had the username
+
+456
+0:30:31.040 --> 0:30:34.360
+changed but i still see their old name on my contacts this other people see their new
+
+457
+0:30:34.360 --> 0:30:40.940
+name um that is probably a quirk for how the friend system works um please open a github
+
+458
+0:30:40.940 --> 0:30:44.580
+issue on that one it will be quite low priority but it's important that we have stuff like
+
+459
+0:30:44.580 --> 0:30:49.260
+that logged so we can take a look at it i know that the uh like the other one is like
+
+460
+0:30:49.260 --> 0:30:54.040
+sometimes the first message that you receive from someone will say it's coming from 1970
+
+461
+0:30:54.040 --> 0:30:59.020
+and people always joke that's just like a bug with like how you receive that first message
+
+462
+0:30:59.020 --> 0:31:02.500
+and how it tries to get the data to you as soon as possible that means that it doesn't
+
+463
+0:31:02.500 --> 0:31:06.980
+have a valid date so it displays the default date which happens to be the first date that
+
+464
+0:31:06.980 --> 0:31:11.580
+can exist in computing which happens to be in 1970 for those who are unaware your entire
+
+465
+0:31:11.580 --> 0:31:16.140
+computer right now every single computer including your phone and like if you've got an internet
+
+466
+0:31:16.140 --> 0:31:22.340
+of things thermostat it's also doing it it's counting the number of seconds since a specific
+
+467
+0:31:22.340 --> 0:31:28.460
+date in 1970 because we decided that's how time works i don't particularly know why it
+
+468
+0:31:28.460 --> 0:31:33.340
+was 1970 but that's how computers work when you synchronize your clock which is something
+
+469
+0:31:33.340 --> 0:31:37.600
+you need to do to make sure that neos connects correctly what you do is you ask another server
+
+470
+0:31:37.600 --> 0:31:42.180
+usually an ntp server but that basically means network time protocol but basically you ask
+
+471
+0:31:42.180 --> 0:31:47.360
+another server how many seconds has it been since 1970 and that computer says it's been
+
+472
+0:31:47.360 --> 0:31:51.120
+this many seconds and you go oh shit i had this my bad and then you adjust it that's
+
+473
+0:31:51.120 --> 0:31:57.620
+how time synchronization works it's it's silly also uh time synchronization breaks in 2038
+
+474
+0:31:57.620 --> 0:32:02.620
+but don't worry about it like there'll be a solution by 2038 january 1 1970 yeah i couldn't
+
+475
+0:32:02.620 --> 0:32:08.380
+remember if it's january 1st yeah it's january 1st 1970 it's called unix time um it is it
+
+476
+0:32:08.380 --> 0:32:15.020
+is fun i used to be a timekeeper uh lex says the windows epoch is different it is different
+
+477
+0:32:15.020 --> 0:32:19.260
+but still counting number of seconds since a specific date yes procedural meshes are
+
+478
+0:32:19.260 --> 0:32:24.100
+different as they just says uh down there that's uh another example uh nat says is the
+
+479
+0:32:24.100 --> 0:32:27.540
+position of the 360 preview of findable slots so i could say throw a box or something over
+
+480
+0:32:27.540 --> 0:32:32.240
+it no um if you don't have any of the thumbnail components uh there's a video tutorial on
+
+481
+0:32:32.240 --> 0:32:37.160
+my channel about how to use those um then what it does is it asks each user in the world
+
+482
+0:32:37.160 --> 0:32:42.340
+to take a 360 periodically and that usually comes from your head or near your head i can't
+
+483
+0:32:42.340 --> 0:32:47.580
+remember which and then each person in the session is taking that picture and then it
+
+484
+0:32:47.580 --> 0:32:52.800
+um the host of the session asks all the users in the session hey who has the most recent
+
+485
+0:32:52.800 --> 0:32:58.220
+headshot and then someone goes me pick me and then that's the session thumbnail unless
+
+486
+0:32:58.220 --> 0:33:02.420
+you use the the components in which case it's it's a slot that you can find i think that's
+
+487
+0:33:02.420 --> 0:33:08.200
+all the questions we have uh lucas has a uh answer to the normal versus tangent thing
+
+488
+0:33:08.200 --> 0:33:11.600
+so thank you so much for this because i i didn't i could of course google it but i'm
+
+489
+0:33:11.600 --> 0:33:15.380
+in office so thank you for for looking it up for me so the normal of the mesh is the
+
+490
+0:33:15.380 --> 0:33:20.620
+forward channel blue of the normal map the tangent of the mesh is the right channel red
+
+491
+0:33:20.620 --> 0:33:25.180
+of the normal map there's also by tangent which is the up green channel but this is
+
+492
+0:33:25.180 --> 0:33:28.940
+the last one that but this last one can be calculated by a cross product of the others
+
+493
+0:33:28.940 --> 0:33:32.900
+yep i understand that excellent thank you thank you lucas i believe that's all the questions
+
+494
+0:33:32.900 --> 0:33:36.580
+we have uh if you have any further questions or danger you are the last person who can
+
+495
+0:33:36.580 --> 0:33:40.620
+type a question log group has confused me a lot yeah me too i don't think it works correctly
+
+496
+0:33:40.620 --> 0:33:44.100
+i think we need to do some more work with it um other people have used it like it has
+
+497
+0:33:44.100 --> 0:33:50.520
+um like uh has moods i was trying to think of the word like it has nuances that's the
+
+498
+0:33:50.520 --> 0:33:55.460
+word i was thinking i ended up with like it has moods a lot of group is like i might work
+
+499
+0:33:55.460 --> 0:33:59.740
+i might not i need to like look up maybe document this existing behavior so we can understand
+
+500
+0:33:59.740 --> 0:34:02.820
+what needs to happen like if you were to go speak to fruits and be like oh what you need
+
+501
+0:34:02.820 --> 0:34:06.600
+to do the log group he'd like launch into like a very complicated explanation of plans
+
+502
+0:34:06.600 --> 0:34:11.700
+he has for that component but i want to get the current behavior sorted so that we understand
+
+503
+0:34:11.700 --> 0:34:16.580
+what it can do today with that i believe we're done so um i'm gonna go ahead and end here
+
+504
+0:34:16.580 --> 0:34:21.500
+if you have any further questions please go ahead and direct message me them or put them
+
+505
+0:34:21.500 --> 0:34:25.060
+in the questions and help section do remember that we're all here to help you look for a
+
+506
+0:34:25.060 --> 0:34:29.620
+green question mark above someone's help uh someone's help above someone's head they will
+
+507
+0:34:29.620 --> 0:34:36.020
+help you out greatly and uh above all else clean up after yourself in a while thank you
+
+508
+0:34:36.020 --> 0:34:52.180
+bye
+

@@ -1,0 +1,1540 @@
+1
+0:00:00.000 --> 0:00:04.000
+Welcome to Primetime. It is 4pm, so we're gonna go ahead and get started.
+
+2
+0:00:04.000 --> 0:00:08.000
+So this is the AMA office hours for any questions you might have about NEOS.
+
+3
+0:00:08.000 --> 0:00:12.000
+Drop them in the office hours channel, that's two channels above the one that you're currently looking at.
+
+4
+0:00:12.000 --> 0:00:16.000
+When there are no questions, we're gonna go ahead and just sit.
+
+5
+0:00:16.000 --> 0:00:20.000
+You know, sit inside, because that's cool I guess.
+
+6
+0:00:20.000 --> 0:00:24.000
+So make sure you've got some questions, drop them in, I'll get to them as soon as I can.
+
+7
+0:00:24.000 --> 0:00:27.000
+Otherwise, cheese? Yeah, cool.
+
+8
+0:00:27.000 --> 0:00:32.000
+Something I realized I had not done, and I do apologize because this has been a month I haven't checked it,
+
+9
+0:00:32.000 --> 0:00:41.000
+is I created a sheet where people can submit questions before I read them out at the office hours segment.
+
+10
+0:00:41.000 --> 0:00:45.000
+And I'd completely forgot about that sheet, most likely because I'd lost the link to it.
+
+11
+0:00:45.000 --> 0:00:49.000
+I did find the link the other day, I was just going through my Google Drive and I found it.
+
+12
+0:00:49.000 --> 0:00:51.000
+And so I do have a question from that sheet.
+
+13
+0:00:51.000 --> 0:00:57.000
+So I do apologize that that question exists, and I haven't answered it for like a month.
+
+14
+0:00:57.000 --> 0:01:02.000
+But we'll go ahead and take a look and get that answered.
+
+15
+0:01:02.000 --> 0:01:08.000
+Actually, this one isn't a question that would be able to be answered here anyway.
+
+16
+0:01:08.000 --> 0:01:15.000
+But it does allow us to sort of give a preamble about why this keeps happening.
+
+17
+0:01:15.000 --> 0:01:19.000
+So a user by the name of Yoshi, I won't mention the company name,
+
+18
+0:01:19.000 --> 0:01:27.000
+they basically said like, hey, we're a sales agency of a computer and industrial product company in Japan.
+
+19
+0:01:27.000 --> 0:01:33.000
+And hold on, my spreadsheet isn't big enough to take a look at this.
+
+20
+0:01:33.000 --> 0:01:35.000
+Oh, I'm on the wrong Google account.
+
+21
+0:01:35.000 --> 0:01:40.000
+I'll log in and hit another Google account to properly read that question because it is too long.
+
+22
+0:01:40.000 --> 0:01:43.000
+There we go. That's better.
+
+23
+0:01:43.000 --> 0:01:50.000
+Yeah, so they're a company that was just to obtain a pro license and they're asking for any questions.
+
+24
+0:01:50.000 --> 0:01:52.000
+They're asking to sort of talk questions about that.
+
+25
+0:01:52.000 --> 0:01:58.000
+So that preamble basically leads to, hey, if you want a pro license, I severely, severely suggest that before purchasing,
+
+26
+0:01:58.000 --> 0:02:05.000
+you go ahead and you open up an email at hello at Neos dot com and wait for a response before you purchase Pro,
+
+27
+0:02:05.000 --> 0:02:09.000
+because most of the time you probably won't need it these days.
+
+28
+0:02:09.000 --> 0:02:10.000
+That's that preamble.
+
+29
+0:02:10.000 --> 0:02:13.000
+So with that, we actually have that question sorted. It's actually invalid.
+
+30
+0:02:13.000 --> 0:02:18.000
+I can't really answer it that effectively. Cool.
+
+31
+0:02:18.000 --> 0:02:23.000
+If there are any other questions, drop them in the office hours chat and I'll get to them as soon as I can.
+
+32
+0:02:23.000 --> 0:02:29.000
+Cool. What I'm doing in the background actually is making some edits to an OBS plugin.
+
+33
+0:02:29.000 --> 0:02:32.000
+So you know how I don't edit? I'm like, I don't want to edit.
+
+34
+0:02:32.000 --> 0:02:36.000
+I'm trying to sort of figure out like workflow improvements that allow me to edit.
+
+35
+0:02:36.000 --> 0:02:39.000
+One of those is actually learning an editor. So I'm learning DaVinci Resolve.
+
+36
+0:02:39.000 --> 0:02:45.000
+Everyone's like Learn Premiere and I'm just like, I don't want to be like tied to Adobe for the rest of my life.
+
+37
+0:02:45.000 --> 0:02:48.000
+So I'm learning DaVinci because it's free.
+
+38
+0:02:48.000 --> 0:02:52.000
+And if you want to use DaVinci in a professional setting, you can buy it.
+
+39
+0:02:52.000 --> 0:02:58.000
+But the licensing is, you know, more affordable. The professional license just gives you more features, which is cool.
+
+40
+0:02:58.000 --> 0:03:02.000
+So, you know, so I'm figuring out how to edit an OBS plugin,
+
+41
+0:03:02.000 --> 0:03:07.000
+which will enable me to import markers that I create during my OBS recording.
+
+42
+0:03:07.000 --> 0:03:10.000
+The reason why this is important is because when you're recording something,
+
+43
+0:03:10.000 --> 0:03:13.000
+so like, you know, when you're recording a tutorial or whatever,
+
+44
+0:03:13.000 --> 0:03:21.000
+I might know when an outtake occurs or where a particular item or marker or whatever occurs.
+
+45
+0:03:21.000 --> 0:03:24.000
+And I've hooked it up via OBS and some edits to a plugin.
+
+46
+0:03:24.000 --> 0:03:28.000
+I can push a key on my stream deck or I'll hook it up, I don't know, in Neo somehow.
+
+47
+0:03:28.000 --> 0:03:35.000
+And that'll put a marker into like a separate file that I can then import into my video editor and line those up really, really cool.
+
+48
+0:03:35.000 --> 0:03:41.000
+And that allows me to sort of look at the recording in a way that is faster to edit, I guess.
+
+49
+0:03:41.000 --> 0:03:44.000
+I had a picture somewhere. Oh, we have a question as well.
+
+50
+0:03:44.000 --> 0:03:46.000
+Let me just get that picture and then we'll get right to it.
+
+51
+0:03:46.000 --> 0:03:49.000
+Ah, yes, you will. Excuse me. That one was my picture, this one.
+
+52
+0:03:49.000 --> 0:03:53.000
+Here it is. Yeah. So you can see here the highlighted parts of the video.
+
+53
+0:03:53.000 --> 0:03:56.000
+This is just a test recording, but allow me to basically be like, oh, yeah, that's where I made a mistake.
+
+54
+0:03:56.000 --> 0:04:00.000
+I can edit around that, make it a lot easier. There's like markers at the top there.
+
+55
+0:04:00.000 --> 0:04:02.000
+Importing them directly from Resolve is cool.
+
+56
+0:04:02.000 --> 0:04:07.000
+Ramp comments that says the role of Resolve isn't a subscription, it's a one-time purchase. Hell yeah, that's cool.
+
+57
+0:04:07.000 --> 0:04:10.000
+I'm kind of like perturbed by the like the subscription thing.
+
+58
+0:04:10.000 --> 0:04:14.000
+Like I'm going through like all the subscriptions I have and kind of canceling some.
+
+59
+0:04:14.000 --> 0:04:19.000
+A good example being like the video providers, right, you know, Hulu, Netflix, et cetera.
+
+60
+0:04:19.000 --> 0:04:23.000
+I analyze how much I watch of all of them and then I cancel the ones I'm not using.
+
+61
+0:04:23.000 --> 0:04:31.000
+And if like a new show comes out, I will pay for a month for one of them to watch that new show and then stop paying.
+
+62
+0:04:31.000 --> 0:04:39.000
+A good example being Apple TV. I went and I did Apple TV for like a month so I could watch Foundation, a really good show, and Severance, and then I cancelled it.
+
+63
+0:04:39.000 --> 0:04:41.000
+Because I'm like, that's all I was there for.
+
+64
+0:04:41.000 --> 0:04:43.000
+All right, we've got some questions, which I mentioned.
+
+65
+0:04:43.000 --> 0:04:46.000
+So Jolt says, will there eventually be a fire badge for all accounts made in 2021?
+
+66
+0:04:46.000 --> 0:04:50.000
+I think so, yes. We'll take a look at doing that as soon as we can.
+
+67
+0:04:50.000 --> 0:04:57.000
+And then Raghavas says, will there eventually be graphics settings and possibility to run Neos and older hardware?
+
+68
+0:04:57.000 --> 0:04:59.000
+Yes. Two things that need to occur for that.
+
+69
+0:04:59.000 --> 0:05:01.000
+So we're trying to redo our settings UI.
+
+70
+0:05:01.000 --> 0:05:06.000
+That's one of the larger things that we're trying to work on, all things considered, as soon as we can.
+
+71
+0:05:06.000 --> 0:05:10.000
+That allows us to basically open up a lot more switches and dials and knobs, et cetera.
+
+72
+0:05:10.000 --> 0:05:20.000
+And what's more than that, because some people misunderstand that as being easy, is it's going to allow us to have a framework which makes it easier to add additional settings.
+
+73
+0:05:20.000 --> 0:05:25.000
+So right now, if I wanted to add a setting, it would kind of be like a whole rigmarole.
+
+74
+0:05:25.000 --> 0:05:29.000
+How do I add it? Oh, it's difficult, right, in terms of code functionality reasons.
+
+75
+0:05:29.000 --> 0:05:35.000
+Then it'll add a framework, and it'll be like, all right, I want to do a setting that looks like this, that has these options, easy to do.
+
+76
+0:05:35.000 --> 0:05:44.000
+And so that'll make things like graphical settings easier to do, as we're moving on to an engine that is not sort of shackled by Unity.
+
+77
+0:05:44.000 --> 0:05:47.000
+We'll be able to do a lot more sort of settings and things there.
+
+78
+0:05:47.000 --> 0:05:54.000
+Those will provide both user choice stuff, and they will also have performance benefits there.
+
+79
+0:05:54.000 --> 0:06:01.000
+Additionally, we're looking into performance benefits across wherever we can that allow things to run on older hardware.
+
+80
+0:06:01.000 --> 0:06:08.000
+One of the main problems of older hardware when it comes to VR is you have to render each image twice, once for each eye.
+
+81
+0:06:08.000 --> 0:06:11.000
+I don't think many people think about that one.
+
+82
+0:06:11.000 --> 0:06:14.000
+I don't know, you need to just think about it.
+
+83
+0:06:14.000 --> 0:06:16.000
+It needs to render two cameras.
+
+84
+0:06:16.000 --> 0:06:20.000
+Just imagine two very expensive cameras aimed at your knee as well.
+
+85
+0:06:20.000 --> 0:06:24.000
+That's what VR is and doing, and that's why it can't be so intensive.
+
+86
+0:06:24.000 --> 0:06:27.000
+So if you're running a game at 30 FPS, you're actually running a game at 60 FPS.
+
+87
+0:06:27.000 --> 0:06:28.000
+Soon it adds up.
+
+88
+0:06:28.000 --> 0:06:33.000
+Now, depending on the rendering technique and the new engine we're moving to will probably benefit from something there.
+
+89
+0:06:33.000 --> 0:06:35.000
+I don't know, Ask Eens.
+
+90
+0:06:35.000 --> 0:06:42.000
+You can save some resources by being like, yo dude, I'm about to do a VR render, so don't throw away everything.
+
+91
+0:06:42.000 --> 0:06:47.000
+Because a lot of times, some data, I don't know enough about rendering about this, but sometimes data can be saved between frames.
+
+92
+0:06:47.000 --> 0:06:54.000
+Because it's like, I'm about to render another frame, and this floating cube that's wood colored is still going to be there.
+
+93
+0:06:54.000 --> 0:06:59.000
+So maybe don't dump the video memory about the wood texture or whatever.
+
+94
+0:06:59.000 --> 0:07:02.000
+But yeah, more and more advances in that will also increase performance.
+
+95
+0:07:02.000 --> 0:07:05.000
+Moving forwards, Lex talks about me editing videos.
+
+96
+0:07:05.000 --> 0:07:07.000
+Yeah, sometimes it happens.
+
+97
+0:07:07.000 --> 0:07:12.000
+I've kind of just got tired of starting and stopping the same video recording, because it just takes a lot of time.
+
+98
+0:07:12.000 --> 0:07:18.000
+It takes a lot of time to find those videos. What I end up with is like 400 videos that are all like 2 seconds long.
+
+99
+0:07:18.000 --> 0:07:21.000
+And I'm just like, I don't know what any of these are.
+
+100
+0:07:21.000 --> 0:07:29.000
+With this setup, I can actually leave the same recording going, and I can just push a button to signal like, hey, this is a new take, hey, this is a new take.
+
+101
+0:07:29.000 --> 0:07:33.000
+And then I can hop onto an editor and just cut bits out that I need.
+
+102
+0:07:33.000 --> 0:07:42.000
+So not professional editing, you're not going to see dubstep intro like and subscribe stuff, but you might see some more like editing style things.
+
+103
+0:07:42.000 --> 0:07:44.000
+I still don't want to make it happen.
+
+104
+0:07:44.000 --> 0:07:48.000
+I know there's lots of YouTubers that take hilarious amounts of time to edit.
+
+105
+0:07:48.000 --> 0:07:53.000
+I say hilarious because I just couldn't do it. I admire that they do it, I just look at it and I'm like, what?
+
+106
+0:07:53.000 --> 0:08:01.000
+A good example here being a channel called Barry Lewis, made by Barry Lewis, who used to be just a complete rubbish cook.
+
+107
+0:08:01.000 --> 0:08:05.000
+I decided to learn cooking via YouTube and now he's got a really big channel where he does recipes and stuff.
+
+108
+0:08:05.000 --> 0:08:16.000
+And he has to like cook the recipe on camera, film like A-roll, film B-roll, film outtakes, you know, and then he has to go back to the video footage, edit it.
+
+109
+0:08:16.000 --> 0:08:23.000
+And then he also has to, for each recipe he does, write up like a blog article on his blog, which also deals the text-based instructions of how to do that recipe.
+
+110
+0:08:23.000 --> 0:08:32.000
+And so for each like tutorial, if you like, if you like format that back towards the sort of like what I do, he's doing like three different jobs.
+
+111
+0:08:32.000 --> 0:08:36.000
+Like he's doing the recording, he's doing the editing, and he's doing the writing.
+
+112
+0:08:36.000 --> 0:08:41.000
+And I'm just like that is such a lot of work, like for each video, really good videos because of that though.
+
+113
+0:08:41.000 --> 0:08:44.000
+Moving towards to another question. So Eric asks,
+
+114
+0:08:44.000 --> 0:08:54.000
+I have some trouble in trying to add images to the wiki. Articles specifically appear to be the backend server is not up with missions to call the image manipulation utility.
+
+115
+0:08:54.000 --> 0:08:57.000
+You mentioned that there's an issue you couldn't fix. I was wondering what that means in regards to the wiki hosting solution.
+
+116
+0:08:57.000 --> 0:09:01.000
+Are we using some creative service or does Neos own those servers?
+
+117
+0:09:01.000 --> 0:09:04.000
+Let's try saying this carefully.
+
+118
+0:09:04.000 --> 0:09:08.000
+The wiki is hosted on a host which is out of my control.
+
+119
+0:09:08.000 --> 0:09:17.000
+The wiki is hosted on a host which is owned by or the account and the details and the authentication is owned by Carol.
+
+120
+0:09:17.000 --> 0:09:21.000
+I want to move it somewhere that we all have access to.
+
+121
+0:09:21.000 --> 0:09:26.000
+Fruits wanted to move it into the Azure cloud, would just like stand up a, you know, Azure VM to deal with it.
+
+122
+0:09:26.000 --> 0:09:29.000
+Wraith wants to move it to their home server.
+
+123
+0:09:29.000 --> 0:09:37.000
+As much as I admire home servers, like particularly for business applications, you shouldn't put like parts of a business on someone's home server,
+
+124
+0:09:37.000 --> 0:09:39.000
+particularly if it's an employee.
+
+125
+0:09:39.000 --> 0:09:45.000
+It may seem good at the time, but you end up there is like a contract that has no clauses to it.
+
+126
+0:09:45.000 --> 0:09:55.000
+So an example that would be, okay, it is the year 2070 and Wraith no longer has power in their home because personal circumstances.
+
+127
+0:09:55.000 --> 0:09:58.000
+Great. We've now lost our wiki, right?
+
+128
+0:09:58.000 --> 0:10:11.000
+Whereas, you know, when you create a VM or a machine with a business, it's like here is a contract and the terms and like if we, you know, go out of business, we'll give you this much notice.
+
+129
+0:10:11.000 --> 0:10:13.000
+Or if we go out of business, we'll provide like migration and stuff like that.
+
+130
+0:10:13.000 --> 0:10:17.000
+But like with a home, there's not that like that paperwork doesn't happen.
+
+131
+0:10:17.000 --> 0:10:19.000
+So I do want to move it to a better host.
+
+132
+0:10:19.000 --> 0:10:21.000
+I can't really do that right now.
+
+133
+0:10:21.000 --> 0:10:25.000
+I haven't seen that image uploading problem.
+
+134
+0:10:25.000 --> 0:10:28.000
+Sometimes when I upload images, it like pretends it hasn't uploaded.
+
+135
+0:10:28.000 --> 0:10:30.000
+So I have to upload it twice, but then it just appears.
+
+136
+0:10:30.000 --> 0:10:33.000
+If that's broken recently, then it's a shame.
+
+137
+0:10:33.000 --> 0:10:35.000
+We are trying to do our best.
+
+138
+0:10:35.000 --> 0:10:40.000
+Wraith is doing something good, though, which is they are backing up the wiki regularly, like once a week or so.
+
+139
+0:10:40.000 --> 0:10:43.000
+That's why I keep saying like, do edit stuff, do put stuff in there.
+
+140
+0:10:43.000 --> 0:10:44.000
+We're still holding on to it.
+
+141
+0:10:44.000 --> 0:10:48.000
+And whatever happens later, we'll make sure that we stand our backs on my sensible.
+
+142
+0:10:48.000 --> 0:10:51.000
+This is all sort of resolved itself.
+
+143
+0:10:51.000 --> 0:10:56.000
+Flex said that they think that the wiki is listed on a platform called SiteGround.
+
+144
+0:10:56.000 --> 0:10:57.000
+It might be.
+
+145
+0:10:57.000 --> 0:10:59.000
+I don't know.
+
+146
+0:10:59.000 --> 0:11:03.000
+I would have to go ahead and poke around in my DMs a little bit.
+
+147
+0:11:03.000 --> 0:11:07.000
+The Sirusi asks, are the domains under Carol's control?
+
+148
+0:11:07.000 --> 0:11:08.000
+Yes.
+
+149
+0:11:08.000 --> 0:11:09.000
+Yes.
+
+150
+0:11:09.000 --> 0:11:14.000
+I'm not sure if the Cloudflare account is, but yes.
+
+151
+0:11:14.000 --> 0:11:16.000
+We will sort things out.
+
+152
+0:11:16.000 --> 0:11:23.000
+I hate how many of these office hours we've had where I'm basically like beating around the bush here.
+
+153
+0:11:23.000 --> 0:11:26.000
+Like, if you're not sure what's going on, go ahead, read announcements.
+
+154
+0:11:26.000 --> 0:11:33.000
+I try and keep it out of these office hours because like, hey, they're meant to be for me asking, answering questions about Neos, but I understand, you know, what's going on.
+
+155
+0:11:33.000 --> 0:11:38.000
+We will figure it out when we're able to.
+
+156
+0:11:38.000 --> 0:11:48.000
+Until we're able to, it would be in Carol's best interest to not fudge with our DNS too much. If he does, I will shake a cat at him or something.
+
+157
+0:11:48.000 --> 0:11:50.000
+Yeah.
+
+158
+0:11:50.000 --> 0:11:52.000
+I don't know if I...
+
+159
+0:11:52.000 --> 0:11:55.000
+No, I won't tell you what we had.
+
+160
+0:11:55.000 --> 0:12:01.000
+We had like a working name for like what the future might be.
+
+161
+0:12:01.000 --> 0:12:02.000
+It's kind of comical.
+
+162
+0:12:02.000 --> 0:12:04.000
+I won't tell you the sort of working name we had.
+
+163
+0:12:04.000 --> 0:12:05.000
+Don't worry about it.
+
+164
+0:12:05.000 --> 0:12:07.000
+It's not like definitive or anything like that.
+
+165
+0:12:07.000 --> 0:12:16.000
+It's basically just like when we refer to the future, the Neos team now have sort of like a name that means like, oh, okay, you're talking about the future.
+
+166
+0:12:16.000 --> 0:12:19.000
+It's the same thing as talking like, oh, we're talking about VRChat or we're talking about Neos.
+
+167
+0:12:19.000 --> 0:12:23.000
+It's like when we say, hey, we're talking about Neos, we're usually talking about today.
+
+168
+0:12:23.000 --> 0:12:29.000
+And when we use this comical phrasing, we are talking about the future after this mess has cleared up.
+
+169
+0:12:29.000 --> 0:12:32.000
+It might still be called Neos. We don't know right now is what I'm saying.
+
+170
+0:12:32.000 --> 0:12:34.000
+That's why I'm not talking about it too much.
+
+171
+0:12:34.000 --> 0:12:36.000
+But it is comical.
+
+172
+0:12:36.000 --> 0:12:40.000
+And I don't think it would name like if we had to change the Neos name, we would not name it this.
+
+173
+0:12:40.000 --> 0:12:43.000
+It's just a like conversational matter.
+
+174
+0:12:43.000 --> 0:12:44.000
+Lex says buy all the domains.
+
+175
+0:12:44.000 --> 0:12:46.000
+Yeah, I keep buying domains and then not using them.
+
+176
+0:12:46.000 --> 0:12:48.000
+So it's really annoying.
+
+177
+0:12:48.000 --> 0:12:53.000
+Like I have a domain I need, of course, because it runs my email that uses an old screen name I used to use.
+
+178
+0:12:53.000 --> 0:12:57.000
+And then I have my domain, my current screen name.
+
+179
+0:12:57.000 --> 0:13:02.000
+And then I have a couple of others I just keep because like I want to.
+
+180
+0:13:02.000 --> 0:13:05.000
+But they cost like what, like five dollars a month or whatever.
+
+181
+0:13:05.000 --> 0:13:10.000
+Like I own cheese based games for a mix related meme.
+
+182
+0:13:10.000 --> 0:13:13.000
+And it got a lot of hits back in the mix of days.
+
+183
+0:13:13.000 --> 0:13:17.000
+And I just like keep accidentally accidentally renewing it.
+
+184
+0:13:17.000 --> 0:13:19.000
+It's like one of those like weird decisions, right?
+
+185
+0:13:19.000 --> 0:13:26.000
+If it's a monthly service that you pay for, you notice it like every month, like ticking away your bank balance.
+
+186
+0:13:26.000 --> 0:13:29.000
+But when it's a domain name, it's like every year.
+
+187
+0:13:29.000 --> 0:13:34.000
+Right. You're just like, oh, shit, I forgot to cancel that domain registration.
+
+188
+0:13:34.000 --> 0:13:37.000
+I've got another year of cheese based games.
+
+189
+0:13:37.000 --> 0:13:39.000
+Like it's difficult to remember.
+
+190
+0:13:39.000 --> 0:13:44.000
+The other thing is like I am allergic to having like servers in the cloud when it comes to personal projects.
+
+191
+0:13:44.000 --> 0:13:46.000
+All my personal projects are just like websites, right?
+
+192
+0:13:46.000 --> 0:13:48.000
+They're static. They don't need databases.
+
+193
+0:13:48.000 --> 0:13:52.000
+And so all of these are like in a single like not issue.
+
+194
+0:13:52.000 --> 0:13:57.000
+AWS like S3 bucket and cost like, I don't know, a dollar every three months or something.
+
+195
+0:13:57.000 --> 0:13:58.000
+It's ridiculously cheap.
+
+196
+0:13:58.000 --> 0:14:03.000
+If you're interested in CSS or anything like that on the Web technologies, etc.
+
+197
+0:14:03.000 --> 0:14:10.000
+Go ahead and take a look at the CSS that we have for that spiral animation that exists on cheese based games.
+
+198
+0:14:10.000 --> 0:14:13.000
+It took took a lot of maths.
+
+199
+0:14:13.000 --> 0:14:17.000
+I believe a friend actually kind of helped me with it eventually.
+
+200
+0:14:17.000 --> 0:14:19.000
+It's it's like it's a lot.
+
+201
+0:14:19.000 --> 0:14:21.000
+All right. We're out of questions.
+
+202
+0:14:21.000 --> 0:14:24.000
+I could go ahead and talk about cheese based games all day.
+
+203
+0:14:24.000 --> 0:14:27.000
+But if you have any further questions, please do let me know.
+
+204
+0:14:27.000 --> 0:14:30.000
+Otherwise, we'll sit here for the remaining few minutes.
+
+205
+0:14:30.000 --> 0:14:35.000
+Of course, keep those questions coming and I'll answer them when they come in.
+
+206
+0:14:35.000 --> 0:14:37.000
+That's a good question. Thank you.
+
+207
+0:14:37.000 --> 0:14:43.000
+So a robust asks, it's maybe only C sharp or does it include other programming languages?
+
+208
+0:14:43.000 --> 0:14:45.000
+Includes a lot of programming languages.
+
+209
+0:14:45.000 --> 0:14:49.000
+You'll find this a lot as well in just like any project, right?
+
+210
+0:14:49.000 --> 0:14:51.000
+You're like, oh, yeah, it's got to be pure C sharp.
+
+211
+0:14:51.000 --> 0:14:56.000
+It can't be in a language like other languages are like creep in and be like a little bit weird about it.
+
+212
+0:14:56.000 --> 0:15:05.000
+So while we are, you know, mostly C sharp, we do have a little bit of C somewhere as well in some parts of the engine, et cetera.
+
+213
+0:15:05.000 --> 0:15:08.000
+There is a like intermediary language. I always forget its name.
+
+214
+0:15:08.000 --> 0:15:14.000
+I have it written down in my notes somewhere, but we do a lot of code compilation and that uses a templating language.
+
+215
+0:15:14.000 --> 0:15:18.000
+What we basically have is like, for example, the mass notes, the mass knows automatically generated.
+
+216
+0:15:18.000 --> 0:15:24.000
+There's no need to write like thousands of classes to be like, oh, yes, this is the add two numbers float.
+
+217
+0:15:24.000 --> 0:15:26.000
+Add two numbers double, add two numbers int.
+
+218
+0:15:26.000 --> 0:15:30.000
+We have templating languages that will generate those nodes every time they change.
+
+219
+0:15:30.000 --> 0:15:37.000
+I mess with them all the time, which causes like 10,000 lines to change in a pull request.
+
+220
+0:15:37.000 --> 0:15:42.000
+But like it's actually just like two because I've changed the templating language a little bit.
+
+221
+0:15:42.000 --> 0:15:48.000
+And then there are like scripts everywhere that are just like, you know, sometimes I think there's like a Python file somewhere.
+
+222
+0:15:48.000 --> 0:15:50.000
+You know, it. Yeah.
+
+223
+0:15:50.000 --> 0:15:56.000
+Eric says Perl always end up somewhere. Perl hasn't ended up somewhere yet, but like stuff happens.
+
+224
+0:15:56.000 --> 0:16:02.000
+I see languages as like a tool and sometimes the language which the entire engine is written in, which is mostly C sharp.
+
+225
+0:16:02.000 --> 0:16:08.000
+I will give you that is mostly C sharp just like isn't suitable or needs to do things that aren't available.
+
+226
+0:16:08.000 --> 0:16:12.000
+We also do a lot of and I haven't actually looked at where it occurs.
+
+227
+0:16:12.000 --> 0:16:20.000
+It's like really like there's like, you know, like iceberg videos where they're like, oh, let's look at the Disney Park iceberg and right at the bottom.
+
+228
+0:16:20.000 --> 0:16:24.000
+It's like child labor or something. You know, it's crazy like stuff like that.
+
+229
+0:16:24.000 --> 0:16:30.000
+It's never proven. They never cite their sources. They're just like, let's look at the iceberg of this fandom.
+
+230
+0:16:30.000 --> 0:16:33.000
+Let's look at the Neo source code iceberg.
+
+231
+0:16:33.000 --> 0:16:43.000
+And then right at the bottom is this stuff which basically takes the compiled code that we produce and it modifies that compiled code to make it a little bit more optimized.
+
+232
+0:16:43.000 --> 0:16:48.000
+That takes the intermediary language and patches it a little bit to make it even more optimized.
+
+233
+0:16:48.000 --> 0:16:55.000
+That's where you're like, I know that you're like a compiler C sharp and like you're cool and you've compiled my code.
+
+234
+0:16:55.000 --> 0:17:02.000
+But trust me, if I just make this like I.L. just a little bit different, it'll be like 20 times better in terms of performance.
+
+235
+0:17:02.000 --> 0:17:07.000
+And they're like, OK, go for it. It's it's strange for those who are unaware of how computers work.
+
+236
+0:17:07.000 --> 0:17:12.000
+I really do encourage you just a little bit is go write an assembly program. You'll go mental.
+
+237
+0:17:12.000 --> 0:17:16.000
+You will go absolutely mental. It's terrible. Like it is so bad.
+
+238
+0:17:16.000 --> 0:17:21.000
+Like go look up a tutorial, do an assembly program, multiply two numbers together.
+
+239
+0:17:21.000 --> 0:17:25.000
+Have fun. You only have to do that and like don't learn it enough to use it on a daily basis.
+
+240
+0:17:25.000 --> 0:17:28.000
+Just learn it enough to do that. Like multiply two numbers together.
+
+241
+0:17:28.000 --> 0:17:38.000
+You will come out like learning so much about how C sharp C or languages like that are so cool compared to what people had to program in.
+
+242
+0:17:38.000 --> 0:17:43.000
+And then understand that all of those languages that exist compile down to that kind of stuff.
+
+243
+0:17:43.000 --> 0:17:54.000
+You have a new appreciation, like every time you write a line of code, you're like somewhere this is being compiled down to something similar to assembly, like similar and like the way it operates.
+
+244
+0:17:54.000 --> 0:18:04.000
+And then if you want to like learn more, look up how square roots work, because square roots are prohibitively expensive in in programming.
+
+245
+0:18:04.000 --> 0:18:10.000
+And back in the sort of older days of computing, the quake engine came up with a really quick way to do it.
+
+246
+0:18:10.000 --> 0:18:14.000
+And now everyone pretty much does that. I think there's some more like ways of doing it.
+
+247
+0:18:14.000 --> 0:18:20.000
+But like at some point, you know, that it came out and people like, wow, this is cool.
+
+248
+0:18:20.000 --> 0:18:25.000
+Same thing is like, you know, sorting and cryptography, right? So sorting algorithms are pretty much stable right now.
+
+249
+0:18:25.000 --> 0:18:30.000
+That's when you like have, you know, a list of numbers in out of order and you want to put them in order.
+
+250
+0:18:30.000 --> 0:18:35.000
+There are, you know, in the early days of computing, people coming up with new sorting algorithms every sort of few years.
+
+251
+0:18:35.000 --> 0:18:41.000
+And they're like, this one is 20 percent better. This one's 30 percent better. And now you were kind of static, right?
+
+252
+0:18:41.000 --> 0:18:47.000
+Some new ones sometimes come out, but like we're pretty much static. Like there's there's only like a few ways to do it.
+
+253
+0:18:47.000 --> 0:18:51.000
+They're known. Same with cryptography. We do sometimes come up with new cryptographic ones.
+
+254
+0:18:51.000 --> 0:18:55.000
+But the problem with like new cryptographic algorithms is they need to be proven.
+
+255
+0:18:55.000 --> 0:19:04.000
+It's like, would you use the one that is proven and used by like many military establishments or this new one which a hipster wrote on the Internet?
+
+256
+0:19:04.000 --> 0:19:11.000
+And it's like you're going to use the one that the military is using basically. But yeah, those those early days of computing must have been fun.
+
+257
+0:19:11.000 --> 0:19:17.000
+Aragabass has another question, which is, what does one need to do to join the newest development team? Is there a form to fill out something?
+
+258
+0:19:17.000 --> 0:19:24.000
+We are currently not allowing anyone to join the team currently due to hashtag announcements and various other things like that.
+
+259
+0:19:24.000 --> 0:19:28.000
+When that changes, we will let you know via hashtag announcements.
+
+260
+0:19:28.000 --> 0:19:34.000
+It's almost like a meme, you know, hashtag announcements. It's like this sort of like big boss or something at the end of a level.
+
+261
+0:19:34.000 --> 0:19:37.000
+In the last few minutes we got, I guess I always ask you guys a question.
+
+262
+0:19:37.000 --> 0:19:42.000
+If you want to see any additional tutorials or stuff from me, information, whatever you want to see, let me know.
+
+263
+0:19:42.000 --> 0:19:46.000
+If you want to see a new tutorial on some obscure part of Neos, let me know.
+
+264
+0:19:46.000 --> 0:19:49.000
+If you want to see, I don't know, if you want to know anything, let me know.
+
+265
+0:19:49.000 --> 0:19:53.000
+I'm thinking about ways to sort of expand the stuff that I do.
+
+266
+0:19:53.000 --> 0:19:57.000
+I should have a lot more time coming up soon as well. So, you know, whatever you want to see.
+
+267
+0:19:57.000 --> 0:20:03.000
+I think you're doing some streaming as well. But like, you know, it's never clear how many people would watch and then what I would do.
+
+268
+0:20:03.000 --> 0:20:13.000
+So who knows. Eric's talking about a professor who was very, like, very pedantic, I guess, about what they're accepting as a submission to their programming course.
+
+269
+0:20:13.000 --> 0:20:20.000
+I had that when I did a SQL unit at university. It was Microsoft SQL.
+
+270
+0:20:20.000 --> 0:20:25.000
+And so, you know, the university had Microsoft SQL servers that you could log into for your assignment and do.
+
+271
+0:20:25.000 --> 0:20:34.000
+And I was penalized heavily because my SQL and the data, which I put into my SQL database, wasn't capitalized.
+
+272
+0:20:34.000 --> 0:20:46.000
+Like they wanted, you know, not only did they want capitalized SQL queries, they wanted the names of the user to also be capitalized.
+
+273
+0:20:46.000 --> 0:20:48.000
+They wanted all data to be capitalized.
+
+274
+0:20:48.000 --> 0:20:57.000
+And it's just like, cool, you do know you can write SQL in lowercase and that you can put data into a database in the case it comes to you in?
+
+275
+0:20:57.000 --> 0:21:00.000
+And he'll go, yeah, you're not meant to do it that way.
+
+276
+0:21:00.000 --> 0:21:05.000
+You're meant to have it all capital, all our, you're not meant to have it, and I'm like, but why?
+
+277
+0:21:05.000 --> 0:21:07.000
+And he goes, it's just the way it's done.
+
+278
+0:21:07.000 --> 0:21:11.000
+I'm like, well, I don't write SQL in capital letters. I'm sorry, I don't.
+
+279
+0:21:11.000 --> 0:21:15.000
+And he's like, why not? I'm like, because you don't need to. You've never needed to.
+
+280
+0:21:15.000 --> 0:21:18.000
+It's like, I don't like capitalized SQL queries.
+
+281
+0:21:18.000 --> 0:21:20.000
+It's just like, why? You don't need to.
+
+282
+0:21:20.000 --> 0:21:23.000
+I can read it a lot better when it's in lowercase for some reason.
+
+283
+0:21:23.000 --> 0:21:24.000
+I don't know. Maybe I'm weird.
+
+284
+0:21:24.000 --> 0:21:30.000
+Plus, in this day and age, you kind of really shouldn't be using SQL providers.
+
+285
+0:21:30.000 --> 0:21:32.000
+There are some that are really good if they're configured correctly.
+
+286
+0:21:32.000 --> 0:21:37.000
+But if you're like using for like a hobby project or something, just use one of the cloud databases.
+
+287
+0:21:37.000 --> 0:21:43.000
+Like, AWS has one, Cloudflare has one, Google Cloud has one, Azure has one.
+
+288
+0:21:43.000 --> 0:21:46.000
+There's a bunch of like third-party providers that have a bunch as well.
+
+289
+0:21:46.000 --> 0:21:49.000
+Like, just use those. They're a lot better.
+
+290
+0:21:49.000 --> 0:21:50.000
+I'm looking to GraphQL.
+
+291
+0:21:50.000 --> 0:21:52.000
+Oh, we have another question. Great.
+
+292
+0:21:52.000 --> 0:21:58.000
+So, Lex says, Unreal at Five has a move to switch to double precision coordinates.
+
+293
+0:21:58.000 --> 0:22:06.000
+Would Neos ever consider doing something similar to this to increase precision distance for walls and coordinate spaces?
+
+294
+0:22:06.000 --> 0:22:11.000
+I was reading some notes yesterday from Fruits where he's talking about trying to figure out how to do that
+
+295
+0:22:11.000 --> 0:22:16.000
+in a slightly different way that would also increase performance.
+
+296
+0:22:16.000 --> 0:22:22.000
+I can't remember the exact specifics they were talking about, but the word that's coming to mind right now is sort of like honeycomb,
+
+297
+0:22:22.000 --> 0:22:28.000
+where like there are different parts of the world sort of overlaid on top of each other so the precision problem doesn't incur.
+
+298
+0:22:28.000 --> 0:22:35.000
+To make you aware of that, basically the coordinate system that we use has a float for precision.
+
+299
+0:22:35.000 --> 0:22:39.000
+And if you go too far out, you will see weird stuff happening.
+
+300
+0:22:39.000 --> 0:22:44.000
+You'll start vibrating and then you'll eventually respawn because the engine's just hard-coded to do that.
+
+301
+0:22:44.000 --> 0:22:48.000
+The same thing occurs if you get too small or you get too big. The engine just freaks out.
+
+302
+0:22:48.000 --> 0:22:53.000
+That technically isn't a problem or bug of the engine. It's a bug with mathematics.
+
+303
+0:22:53.000 --> 0:22:58.000
+But the engine can be changed, like Unreal Five has done, to provide a double precision option,
+
+304
+0:22:58.000 --> 0:23:02.000
+which will double the volume that you can go through.
+
+305
+0:23:02.000 --> 0:23:05.000
+For anyone who's confused by that, I want you to think about the Far Lands,
+
+306
+0:23:05.000 --> 0:23:09.000
+which was a Minecraft phenomenon that occurred in earlier versions of Minecraft,
+
+307
+0:23:09.000 --> 0:23:15.000
+where when the maths just got weird, the world generation got weird.
+
+308
+0:23:15.000 --> 0:23:21.000
+I don't know if they've reached it yet. I check in like every couple of years because I think that's cool.
+
+309
+0:23:21.000 --> 0:23:27.000
+There is a YouTuber who's trying to reach the Far Lands. The Far Lands have long since been patched out of Minecraft,
+
+310
+0:23:27.000 --> 0:23:32.000
+but he's on a build where it still occurs and he's just walking in a straight line trying to get the Far Lands
+
+311
+0:23:32.000 --> 0:23:36.000
+and everyone's subscribed to him and I'm just like, cool, it's strange.
+
+312
+0:23:36.000 --> 0:23:39.000
+Minecraft content creation is a very strange way.
+
+313
+0:23:39.000 --> 0:23:42.000
+Which reminds me, has anyone played the Minecraft Bedrock Edition recently?
+
+314
+0:23:42.000 --> 0:23:49.000
+They had a marketplace and an avatar builder and you can buy hats and stuff.
+
+315
+0:23:49.000 --> 0:23:58.000
+Before it was kind of like all skins had to be very creative because there was no way to escape the confines of the 3D space of your Minecraft avatar.
+
+316
+0:23:58.000 --> 0:24:04.000
+There was the secondary layer that had a hat, which had some 3D to it,
+
+317
+0:24:04.000 --> 0:24:10.000
+but now with this marketplace they've completely escaped the 3D bounds of the Minecraft character.
+
+318
+0:24:10.000 --> 0:24:16.000
+You can have wings, a huge big hat, hair, and it's all 3D and stuff like that.
+
+319
+0:24:16.000 --> 0:24:24.000
+It reminds me of Trove or Blockland? I don't remember. I've got it in my head, I don't know what it's called.
+
+320
+0:24:24.000 --> 0:24:30.000
+We are getting off topic, but we're at the end of the session, plus it's prime time, I can do what I want.
+
+321
+0:24:30.000 --> 0:24:34.000
+If there's no questions I'm going to rant about cheese for a bit, it's totally cool.
+
+322
+0:24:34.000 --> 0:24:40.000
+With that we are at 31 minutes past. Yeah, the topic was kind of strange.
+
+323
+0:24:40.000 --> 0:24:43.000
+We got to Minecraft because we were talking about floating point precision.
+
+324
+0:24:43.000 --> 0:24:48.000
+I did see Froppy by the way, I did see you asking for that vague tutorial, I'm probably going to get that sorted.
+
+325
+0:24:48.000 --> 0:24:59.000
+I'm reconfiguring my microphone right now, I don't like anything that's going on right now with the audio setup I've got going, so I'm taking a look at that.
+
+326
+0:24:59.000 --> 0:25:05.000
+You know one of the worst things you can do as a content creator is to buy those black acoustic phone things and just stick them all over your wall.
+
+327
+0:25:05.000 --> 0:25:09.000
+I know everyone does it, but don't.
+
+328
+0:25:09.000 --> 0:25:13.000
+But I've got some coming, some small amounts coming.
+
+329
+0:25:13.000 --> 0:25:28.000
+GraphQL does look like magic, lots of older people in the industry will say that GraphQL is insecure or provides problems.
+
+330
+0:25:28.000 --> 0:25:33.000
+And the reason behind that is because it flips the sort of control in some cases.
+
+331
+0:25:33.000 --> 0:25:42.000
+You can put control there, and the other reason is because it constructs dynamic data based on the query that you GraphQL.
+
+332
+0:25:42.000 --> 0:25:46.000
+But I think it's cool, and if you're using the right engine that does GraphQL for you, it's not a problem.
+
+333
+0:25:46.000 --> 0:25:49.000
+You can have security, you can have caching, it's performant.
+
+334
+0:25:49.000 --> 0:25:51.000
+People are just sort of scared of change.
+
+335
+0:25:51.000 --> 0:25:56.000
+I would love if the next thing I worked on could be GraphQL.
+
+336
+0:25:56.000 --> 0:25:59.000
+Neos uses Cosmos DB, which is like, I'll accept.
+
+337
+0:25:59.000 --> 0:26:03.000
+I hope I don't have to work anywhere that uses SQL these days.
+
+338
+0:26:03.000 --> 0:26:06.000
+All of the cloud-based databases are cool.
+
+339
+0:26:06.000 --> 0:26:10.000
+Okay, we have some questions. I know I did say hey, we're almost at the end here.
+
+340
+0:26:10.000 --> 0:26:13.000
+Urgebas talks about, hey, what is GraphQL?
+
+341
+0:26:13.000 --> 0:26:16.000
+Honestly, you're going to have to just go look it up.
+
+342
+0:26:16.000 --> 0:26:26.000
+I could talk about it, but at that point we'll be like, hey, welcome to primetime about the computer software industry, rather than, hey, primetime about Neos.
+
+343
+0:26:26.000 --> 0:26:30.000
+Anyway, Lex says, what parts of Neos were affected by the Cloudflare issues?
+
+344
+0:26:30.000 --> 0:26:41.000
+The Cloudflare basically acts as a middleman, or middleperson, sorry, between you and the Neos services, and it saves us some bandwidth.
+
+345
+0:26:41.000 --> 0:26:45.000
+Every time there's a request that goes to our services, we sort of pay.
+
+346
+0:26:45.000 --> 0:26:48.000
+It's not like, hey, a dollar per request, but it adds up.
+
+347
+0:26:48.000 --> 0:26:51.000
+A thousand requests might be a dollar, whatever, it doesn't matter.
+
+348
+0:26:51.000 --> 0:26:54.000
+And then Cloudflare kind of offsets a little bit of that.
+
+349
+0:26:54.000 --> 0:27:01.000
+With Cloudflare being down, only in certain regions, it meant that you couldn't get to our services.
+
+350
+0:27:01.000 --> 0:27:05.000
+Anything that talked to our services could have failed.
+
+351
+0:27:05.000 --> 0:27:11.000
+So getting your list of contacts that were online, that would talk via Cloudflare and might fail.
+
+352
+0:27:11.000 --> 0:27:16.000
+Getting a list of items in your inventory, that goes through Cloudflare and might fail.
+
+353
+0:27:16.000 --> 0:27:21.000
+The important thing to remember when that particular issue comes up, and that's what actually stayed in the announcement, is that all the data is secure.
+
+354
+0:27:21.000 --> 0:27:26.000
+It's not like we've deleted any data, lost any data, you just can't get the data.
+
+355
+0:27:26.000 --> 0:27:31.000
+So it's a bit like waiting for that package in the mail, like waiting for your Steam Deck, right?
+
+356
+0:27:31.000 --> 0:27:36.000
+You've been waiting months for your Steam Deck, it's not here, that's exactly what's happening when Cloudflare's done.
+
+357
+0:27:36.000 --> 0:27:44.000
+You know exactly where the data is, you know there's a Steam Deck in some warehouse somewhere, because it exists, it just hasn't been shipped to you.
+
+358
+0:27:44.000 --> 0:27:50.000
+Syncing's another one, right, because syncing sends data to us, and if it can't go through the Cloudflare layer, it's going to get stuck.
+
+359
+0:27:50.000 --> 0:28:00.000
+Seeing as I had a little bit of time whilst I was answering that question, I looked up GraphQL's website, because I forgot if it was an org or whatever, it turns out it is an org, so there's a website for you.
+
+360
+0:28:00.000 --> 0:28:03.000
+One thing that was not affected by Cloudflare is if you were in a session.
+
+361
+0:28:03.000 --> 0:28:11.000
+You might not be able to get to a session in some cases, but if you were already in a session, you'd be fine.
+
+362
+0:28:11.000 --> 0:28:22.000
+Easton says it would be useful if you didn't add everyone with that Cloudflare announcement. I don't do add everyones with service announcements, because if you know to read announcements, you might be, you know, you're looking.
+
+363
+0:28:22.000 --> 0:28:29.000
+I see server outages as things you should look at, right? There's push communication, and then there's pull communication.
+
+364
+0:28:29.000 --> 0:28:38.000
+I see service outages as a pull communication. It's fine if it's like email, or it's in the game, Wraith would actually send out an alert in game, that's fine.
+
+365
+0:28:38.000 --> 0:28:47.000
+But for Discord, it would just be weird, right? Like, add everyone for two hours, something was a problem. I don't know, it just feels weird.
+
+366
+0:28:47.000 --> 0:28:53.000
+Yeah, if you want to know why it's happening, you'll find out. If it doesn't affect you, I've just pinged you for no reason.
+
+367
+0:28:53.000 --> 0:29:07.000
+It is like, it's weird based on the situation. Like if it was a more major outage, I would have done it, but this one was like, some people might have an issue with this tiny portion of like, you know, like, operation.
+
+368
+0:29:07.000 --> 0:29:17.000
+And it's like, well, I don't really want everyone for that. If it was like, Neo servers are on fire, you need to do something immediately, or your avatar is going to be deleted, of course I would have everyone.
+
+369
+0:29:17.000 --> 0:29:26.000
+It also lets you set it up, right, so you could set up your Discord announcements to like, ping you on any message announcements, which is what I recommend, but I understand if people don't.
+
+370
+0:29:26.000 --> 0:29:39.000
+Anyway, we are now at 1637. I'm going to go ahead and say that and cut it. If you have any further questions, feel free to direct message me. If you have any ideas, tutorials, whatever you want to say, just like, spam me in DM.
+
+371
+0:29:39.000 --> 0:29:49.000
+I will answer Tangle's question because they entered it before I stopped speaking, so I will answer it. This is the last question. Kip, I see you, no questions, Kip. No.
+
+372
+0:29:49.000 --> 0:30:00.000
+You can type though, I'm not saying don't type, I'm not answering you, I'm just saying I won't answer it. DM me or whatever, or you can type it and I'll answer via text after this, anyway.
+
+373
+0:30:00.000 --> 0:30:11.000
+So Tangle asks, speaking of avatars deleted, is there a way to have outside servers for storage? Yes, there is one way. Anything that you take to your local home and place inside your local home is saved to your computer.
+
+374
+0:30:11.000 --> 0:30:20.000
+In that case though, do not clear, delete, reinstall, Neos without thinking about that, without thinking about that.
+
+375
+0:30:20.000 --> 0:30:28.000
+So I see a lot of people, like something goes wrong with Neos and their first response is, I'm going to delete my local cache and database.
+
+376
+0:30:28.000 --> 0:30:39.000
+They're just like, cool, okay, that won't fix it, but woohoo, woohoo, good, good job. You've just deleted everything that was in your local home.
+
+377
+0:30:39.000 --> 0:30:45.000
+There was actually a point in Neos where the cloud services didn't exist for storage and everyone just had to save stuff in their home.
+
+378
+0:30:45.000 --> 0:30:53.000
+There was also a point in Neos where there were no inventories, like if you wanted to save something, you had to take it to your local home and just leave it there, like in a pile.
+
+379
+0:30:53.000 --> 0:31:01.000
+People had piles of stuff. If you do launch a new world and you go to Scratch Space, the whole reason Scratch Space existed is because there was no inventory.
+
+380
+0:31:01.000 --> 0:31:08.000
+So if you go to Scratch Space, you'll see each tool lined up. The reason that it existed, there was no inventory. You just had to go to Scratch Space and pick it up off the floor.
+
+381
+0:31:08.000 --> 0:31:16.000
+And if someone gave you something cool that you wanted to hang around, you had to take it to your cloud home or your local home when the cloud homes didn't exist and leave it there.
+
+382
+0:31:16.000 --> 0:31:20.000
+I'm not answering other questions, sorry, we're going to cut it now before it's too late.
+
+383
+0:31:20.000 --> 0:31:27.000
+If it's in text, I'll answer it in text in just a moment after I cut the recording. I do apologize, I just have to cut the line at some point.
+
+384
+0:31:27.000 --> 0:31:29.000
+We'll be here forever.
+
+385
+0:31:29.000 --> 0:31:39.000
+So I will see you guys next time. Bye bye.
+

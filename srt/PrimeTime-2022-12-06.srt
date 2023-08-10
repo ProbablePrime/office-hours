@@ -1,0 +1,968 @@
+1
+00:00:00,000 --> 00:00:06,000
+Hello everyone, welcome to prime time, the office hours and AMA segment with me, your host, Prime.
+
+2
+00:00:06,000 --> 00:00:12,000
+If you want to go ahead and drop any questions that you might have for me about Neos in the office hours text chat,
+
+3
+00:00:12,000 --> 00:00:16,000
+so if you're not aware of the one that you're in and you can find a thread there where we're posting questions,
+
+4
+00:00:16,000 --> 00:00:22,000
+I'll answer them in the order that they come in at, so hooray, let's go see what's in the thread.
+
+5
+00:00:22,000 --> 00:00:30,000
+Comments from Zlinker about being back from the con. Yes, there was a big con, but lots of people in the community were out, so I hope that was fun.
+
+6
+00:00:30,000 --> 00:00:38,000
+Maybe one day I'll end up at those places. Cool. Cheese, we have four cheese reactions, fantastic.
+
+7
+00:00:38,000 --> 00:00:45,000
+No questions though, so that's fantastic. Any questions about Neos, whatever you want to ask, please drop them in that thread and we'll get them as soon as possible.
+
+8
+00:00:45,000 --> 00:00:55,000
+No question is too silly. Zlinker's offering their 3D printing services. I actually have a 3D printer, it's under my bed.
+
+9
+00:00:55,000 --> 00:01:07,000
+I think I broke it, so I need to repair it. I got really annoyed about that, because there's nothing more annoying than a big 3D printer that doesn't work.
+
+10
+00:01:07,000 --> 00:01:17,000
+And so I got quite grumpy at it, and so I packed it up into a box and sealed it up. At that point I was considering moving apartments as well, so it made sense to pack it into a box.
+
+11
+00:01:17,000 --> 00:01:22,000
+But now it's in a box, that means I don't really have to think about it until I remember it, and then I'm like, damn it, I've got to fix that.
+
+12
+00:01:22,000 --> 00:01:30,000
+And I have plenty of time to fix it, I just need to unpack it and then fix it, which I don't really know how to do. Various things went wrong with it.
+
+13
+00:01:30,000 --> 00:01:45,000
+Let's move on to questions. Specs is asking questions, which I wish I knew the answer to as well. So hooray for that, because that's always good.
+
+14
+00:01:45,000 --> 00:02:00,000
+Specs asks, do you know what type of curb is used to generate a bent tube mesh? And the same thing for the tube wire mesh. So we have a lot of tube meshes, for those who don't know that we have a lot of tube meshes, we do.
+
+15
+00:02:00,000 --> 00:02:09,000
+I'm not going to list them all, because I will forget one, but they basically make varieties of tubes, and they're very useful, except when they're not.
+
+16
+00:02:09,000 --> 00:02:19,000
+I'm looking at the first one you listed. That uses a lovely tube builder class, indeed.
+
+17
+00:02:19,000 --> 00:02:25,000
+Which is, sorry, there's a huge class hierarchy I wasn't expecting to see there.
+
+18
+00:02:25,000 --> 00:02:48,000
+I won't be able to answer exactly what mathematics it uses, because I don't know. The bent tube mesh is tied up in a class hierarchy within the C Sharp code that makes it difficult to quickly extract what mathematics it's using, so I don't know.
+
+19
+00:02:48,000 --> 00:03:01,000
+As far as I'm aware, the bent tube one is the start point, and then the math that goes between that. Yeah, I don't know.
+
+20
+00:03:01,000 --> 00:03:13,000
+Let's look again and see what's going on with the other one that they asked about, which is the tube wire mesh.
+
+21
+00:03:13,000 --> 00:03:20,000
+Do you remember the tube wire mesh is the one that I'm desiring fixes for? Yes.
+
+22
+00:03:20,000 --> 00:03:27,000
+The tube wire mesh uses a humongous amount of mathematics that I don't understand.
+
+23
+00:03:27,000 --> 00:03:43,000
+The tube wire mesh is interesting also, because it does the tube wire mesh, but it also does the wire mesh for logics, which is like a 2D ribbon, I guess you'd call it. I sometimes call them ribbons.
+
+24
+00:03:43,000 --> 00:03:48,000
+That uses the same mathematics, so it's all kind of tied up together.
+
+25
+00:03:48,000 --> 00:03:59,000
+At the time that these were written, FRUX wasn't as heavy on the comments as I would have liked in the source code, so I have also wondered what type of tube this is.
+
+26
+00:03:59,000 --> 00:04:12,000
+This isn't something I've been wanting to bother FRUX with currently due to everything else going on, but I just want to sit down and be like, all right, every time you do maths, I need you to add a comment that says what variety of maths that is.
+
+27
+00:04:12,000 --> 00:04:26,000
+And I don't mean for every mathematical operation, I just mean if it's bigger than a couple of things and it's got some sort of scientific definition, I need the source, because it's ridiculous.
+
+28
+00:04:26,000 --> 00:04:41,000
+What I did was I took the tube... I'm going to get it wrong again, because so many tube meshes. I took the tube wire mesh and I transcribed it back as close as I could back to pseudocode, bundled that all around a little bit.
+
+29
+00:04:41,000 --> 00:04:48,000
+Okay, cool. Is there some sort of maths I can find out that would explain this? The answer is no.
+
+30
+00:04:48,000 --> 00:05:00,000
+In both cases, though, for bent tube mesh and tube wire mesh, heading into the world of what are called splines, so those are a common thing that exists in many varieties of things.
+
+31
+00:05:00,000 --> 00:05:25,000
+They're also called a variety of things. Blender has them as curves or whatever, and there's various different types that you can do. Blender is a good example of how to do it slightly correctly, where when you make a curve or a line or whatever in Blender, you can literally see a dropdown menu that tells you what type of curve you're doing, whether it's Bezier or whatever else you've got.
+
+32
+00:05:25,000 --> 00:05:36,000
+A good example for the confusion that occurs here, if you head over to Vigilabo's public folder, I don't think they actually play Neos anymore, which is a shame, because they always made incredibly randomly useful stuff.
+
+33
+00:05:36,000 --> 00:05:47,000
+They have a bunch of blue line tools where you can play around with various types of lines in ways that make sense, and they actually managed to make a Bezier curve tool using that, which I've used quite a few times.
+
+34
+00:05:47,000 --> 00:05:58,000
+But what that requires is actually I think two bent tube meshes that sort of get mirrored along a central axis where they're sort of glued together.
+
+35
+00:05:58,000 --> 00:06:10,000
+That results in what looks good to me as a Bezier curve. They've also got one that edits the ballistic path mesh and a variety of other things. It's kind of crazy.
+
+36
+00:06:10,000 --> 00:06:25,000
+It's very annoying how many tubes there are. I'm happy that they all exist, but I want mathematics on what all of them do, and particularly for the tube wire mesh.
+
+37
+00:06:25,000 --> 00:06:30,000
+I don't know if that's the correct one. There's so many tubes. I'm going to scroll again because there's so many damn tubes.
+
+38
+00:06:30,000 --> 00:06:40,000
+The tube wire mesh, which also controls the logic descriptions, as I said, there's a block of logic which is commented out which says avoid twisting. I need that fixed.
+
+39
+00:06:40,000 --> 00:06:47,000
+And it does mathematics. I don't understand them. But I need that mathematics fixed.
+
+40
+00:06:47,000 --> 00:07:01,000
+I am frustratingly annoyed by the amount of tubes, and hopefully we'll get that fixed one day. Maybe we can rationalize them down to a UI similar to Linda.
+
+41
+00:07:01,000 --> 00:07:06,000
+I'll move on from talking about tubes because I'm just going to get the name of the meshes wrong. Unfortunately, there's no math I can give you.
+
+42
+00:07:06,000 --> 00:07:16,000
+I'd love to say it's a Bob Johnson III curve equation and you can go here to understand how it works. I hate to do that.
+
+43
+00:07:16,000 --> 00:07:26,000
+I'm sure they all are mathematically describable. Let's take a look. Interesting.
+
+44
+00:07:26,000 --> 00:07:34,000
+Sorry, I found a hole in the armrest of my chair and I poked my finger near it and it was just like, ooh, now I've got to remember that that's there.
+
+45
+00:07:34,000 --> 00:07:46,000
+My one and only question, were headless clients a afterthought or were they intended to be there from the start?
+
+46
+00:07:46,000 --> 00:07:55,000
+They are technically an afterthought right now. So we noticed that we needed a more persistent way to run sessions for Neos.
+
+47
+00:07:55,000 --> 00:08:05,000
+And so the headless client was spun off as what I would call like an alpha alpha feature or a beta beta feature. The reason why that is the entire Neos existence.
+
+48
+00:08:05,000 --> 00:08:12,000
+It's still early access, it's still beta. And then on top of that, we have special beta testing features, hence beta features.
+
+49
+00:08:12,000 --> 00:08:18,000
+They're only available for certain Patreon tiers. I want to change up eventually how that works. I've been thinking to the team about that.
+
+50
+00:08:18,000 --> 00:08:29,000
+I don't think we should charge for testing. It's strange. It was meant to be a sort of audience limitation feature as much as a sort of incentive to sub to Patreon.
+
+51
+00:08:29,000 --> 00:08:38,000
+If you want to do audience limiting, there's other ways to do that. We can spin up a service or whatever that has who can access something.
+
+52
+00:08:38,000 --> 00:08:50,000
+But it's strange. We do want to eventually rework headless clients into an actual server server. That's why they're called headless clients and not servers because servers are slightly something different.
+
+53
+00:08:50,000 --> 00:08:57,000
+Once we have sort of server capability, it will also enable us to potentially run our own servers a little bit easier.
+
+54
+00:08:57,000 --> 00:09:02,000
+You can think of that similar to the Minecraft realm style kind of thing.
+
+55
+00:09:02,000 --> 00:09:08,000
+Minecraft realms, for those who are unaware, is the sort of user friendly way of running a Minecraft server that Minecraft came up with.
+
+56
+00:09:08,000 --> 00:09:14,000
+And I didn't understand it. And the reason I didn't understand it is because I wasn't looking as a non-technical user at it.
+
+57
+00:09:14,000 --> 00:09:22,000
+Minecraft realms is a really simple server system. They hide everything from you. They won't even give you the statistics of the server that your realm is running on.
+
+58
+00:09:22,000 --> 00:09:31,000
+That's because that's what it's designed to not do. It's like, I want to play Minecraft with my friends and I don't want to have to run my computer when I want them to join me.
+
+59
+00:09:31,000 --> 00:09:38,000
+And I don't know how to run a server. You go to Minecraft realms and realms goes, if you give us $7 a month, we'll give you a realm and it can handle a lot of people.
+
+60
+00:09:38,000 --> 00:09:45,000
+And you're in full control of what it does. That's basically a server host. It's kind of different.
+
+61
+00:09:45,000 --> 00:09:52,000
+There's no IP addresses. There's no Java files. There's no boobily doobily stuff. It's just there.
+
+62
+00:09:52,000 --> 00:09:57,000
+So it works out quite well. So that's probably what would make servers. It'll be like, I don't know how to do it.
+
+63
+00:09:57,000 --> 00:10:01,000
+I don't know how to do it in the UI or anything like that.
+
+64
+00:10:01,000 --> 00:10:08,000
+So, sorry, I was saying something. You don't do that. Lookout posted some code which is causing issues.
+
+65
+00:10:08,000 --> 00:10:13,000
+Make sure there's a GitHub issue open for that.
+
+66
+00:10:13,000 --> 00:10:16,000
+So now we have another question. I'm jumping around. We've got another question.
+
+67
+00:10:16,000 --> 00:10:21,000
+So Ozzy asks, this is probably one of the more complex than I thought. Probably.
+
+68
+00:10:21,000 --> 00:10:27,000
+But I'm curious. Neosessions have that classic start on user joins.
+
+69
+00:10:27,000 --> 00:10:31,000
+Increases as the session goes on, more things happen.
+
+70
+00:10:31,000 --> 00:10:35,000
+This is due to the data model being complex to send over as things are added.
+
+71
+00:10:35,000 --> 00:10:40,000
+How does the data model increase in size? If I add an object, delete it before the user joins.
+
+72
+00:10:40,000 --> 00:10:44,000
+Is the data model the same or bigger than before?
+
+73
+00:10:44,000 --> 00:10:53,000
+It would be smaller, but that smallerizing might take longer to disappear from the hierarchy.
+
+74
+00:10:53,000 --> 00:10:56,000
+You have to remember that we maintain an undo tree.
+
+75
+00:10:56,000 --> 00:11:00,000
+So if you added a, you call them a prem for Neosec, I'm just going to say cube.
+
+76
+00:11:00,000 --> 00:11:04,000
+So everyone's speaking the same language. If you create a cube and then you delete it,
+
+77
+00:11:04,000 --> 00:11:07,000
+that cube's definition is still on the undo tree.
+
+78
+00:11:07,000 --> 00:11:12,000
+And that undo tree is part of the world model and so still needs to be sent.
+
+79
+00:11:12,000 --> 00:11:17,000
+Now, it's different because the undo action is, you know, create the cube, right?
+
+80
+00:11:17,000 --> 00:11:25,000
+So when they load into the world, instead of seeing the cube, they have in sort of, you know, the back of the head, hey, the cube might be here.
+
+81
+00:11:25,000 --> 00:11:31,000
+I don't actually know if the undo tree is transmitted, but that makes sense that it might be because of how fast undoing is.
+
+82
+00:11:31,000 --> 00:11:37,000
+But I haven't looked into that. I think it's all transmitted, though, because it's just started as far as I remember.
+
+83
+00:11:37,000 --> 00:11:39,000
+Additionally on that are assets.
+
+84
+00:11:39,000 --> 00:11:48,000
+So a good example here might be if you load into that very famous avatar, I'm not going to say the name of, it has humongously big textures, right?
+
+85
+00:11:48,000 --> 00:11:50,000
+Those go into what's called the asset system.
+
+86
+00:11:50,000 --> 00:11:57,000
+And even when you leave, they retain their area in the asset system for a little bit, like it's like a few minutes or whatever.
+
+87
+00:11:57,000 --> 00:12:03,000
+It's like however long that cleanup asset checkbox interval is looked at, maybe how long they'll be there.
+
+88
+00:12:03,000 --> 00:12:10,000
+So things just sort of get like gummed up, you know, the gears get sort of bogged down by stuff even if you delete it in various ways.
+
+89
+00:12:10,000 --> 00:12:13,000
+Those being two examples.
+
+90
+00:12:13,000 --> 00:12:21,000
+So that's why. I haven't particularly noticed the stutter getting worse the longer.
+
+91
+00:12:21,000 --> 00:12:24,000
+I know it can be for like the person joining.
+
+92
+00:12:24,000 --> 00:12:30,000
+Are you talking about other users witnessing that? That doesn't seem right.
+
+93
+00:12:30,000 --> 00:12:39,000
+The reason why stutters are good for other users other than the person joining is because the other users are actually loading in the user that's joined.
+
+94
+00:12:39,000 --> 00:12:44,000
+You can't make a GitHub with a disassembled code that isn't cool.
+
+95
+00:12:44,000 --> 00:12:47,000
+What you can do is guide us to where that problem may exist.
+
+96
+00:12:47,000 --> 00:12:53,000
+And often the thing that we sometimes come into is where people will, there's curves in log files as well, but also curves in the code, right?
+
+97
+00:12:53,000 --> 00:12:56,000
+They're adamant that there's a problem in a particular area.
+
+98
+00:12:56,000 --> 00:13:02,000
+Either in terms of a log file or they'll just be pasting lines of log files at us and be like, here's the problem.
+
+99
+00:13:02,000 --> 00:13:09,000
+Which is usually the last modified user stack trace, which is not a problem at all.
+
+100
+00:13:09,000 --> 00:13:14,000
+We print that stack trace to find out why that property has been changed.
+
+101
+00:13:14,000 --> 00:13:17,000
+Tells us where in the code it's being changed.
+
+102
+00:13:17,000 --> 00:13:21,000
+But it does look like something's going wrong every time someone changes something about the world.
+
+103
+00:13:21,000 --> 00:13:28,000
+That's not a problem. That's why we need the whole log file because the actual problem might not even look like an exception or have a stack trace.
+
+104
+00:13:28,000 --> 00:13:30,000
+Sometimes it just has a weird log line.
+
+105
+00:13:30,000 --> 00:13:32,000
+I know from yesterday there was a log line.
+
+106
+00:13:32,000 --> 00:13:41,000
+Now, technically on this branch that I'm staring at the code, it just logs A because I was tired and I wanted to see it working.
+
+107
+00:13:41,000 --> 00:13:49,000
+You know what that's like if you've written lots of code to sort of debug it in ways that use all the standard functionality to try and debug it.
+
+108
+00:13:49,000 --> 00:13:51,000
+Like with sanity.
+
+109
+00:13:51,000 --> 00:13:58,000
+And then eventually you're just like, just put a log message here of A. I'm tired.
+
+110
+00:13:58,000 --> 00:14:04,000
+Let's take a look at the next question.
+
+111
+00:14:04,000 --> 00:14:06,000
+Zach says, could I put you on a new curler label?
+
+112
+00:14:06,000 --> 00:14:10,000
+Yeah, sure, whatever you want.
+
+113
+00:14:10,000 --> 00:14:14,000
+Epic says, do you mind explaining why the permission system is so scuffed?
+
+114
+00:14:14,000 --> 00:14:15,000
+So I'm not sure what you mean.
+
+115
+00:14:15,000 --> 00:14:19,000
+It appears there's an explanation below that.
+
+116
+00:14:19,000 --> 00:14:28,000
+It's to the point to if I have a tool tip equipped and somebody without permission grabs me and crash both users and if it's running ahead of the server, the whole headless will go down.
+
+117
+00:14:28,000 --> 00:14:30,000
+That's a bug with the permission system.
+
+118
+00:14:30,000 --> 00:14:31,000
+Is there a GitHub issue for that one?
+
+119
+00:14:31,000 --> 00:14:34,000
+There is. I'll go ahead and take a look at that one.
+
+120
+00:14:34,000 --> 00:14:41,000
+The permission system is like simple avatar protection, something which has grown with basically the size of the community.
+
+121
+00:14:41,000 --> 00:14:47,000
+We don't intend for these issues to happen, but we can't keep patching them as quickly as we have been doing.
+
+122
+00:14:47,000 --> 00:14:51,000
+For example, simple avatar protection used to be a lot weaker than it currently is.
+
+123
+00:14:51,000 --> 00:14:56,000
+Now it's weak plus jank that makes it appear stronger.
+
+124
+00:14:56,000 --> 00:14:58,000
+There are various things that we could patch.
+
+125
+00:14:58,000 --> 00:15:08,000
+They're sort of like one line fixes to the engine, but all of those one line fixes are ways to make simple avatar protection even more jank.
+
+126
+00:15:08,000 --> 00:15:10,000
+It's really janky.
+
+127
+00:15:10,000 --> 00:15:24,000
+A good example there is like every time we find an operation that needs to be protected by it, we have to put code in the operation which is, oh, look in the entire hierarchy for simple avatar protection stuff and don't save if that's part of that.
+
+128
+00:15:24,000 --> 00:15:35,000
+The better move there might be on the save trigger, we have some naturally inbuilt functionality that's much better structured to detect that's there and then do that.
+
+129
+00:15:35,000 --> 00:15:45,000
+That might be what a hard permission system does. It looks at that in a better sort of more unified way where components and properties don't have a choice but to listen to it.
+
+130
+00:15:45,000 --> 00:15:55,000
+That's the sort of difference between sort of programming it hackily and programming it well is when the system is sort of automatic and automatic with new functionality as well.
+
+131
+00:15:55,000 --> 00:16:06,000
+I think it says wait, we have an EULA. Technically we have an EULA and terms of use now. The terms of use randomly appeared on the wiki one day and we don't remember reviewing it before it appeared on the wiki.
+
+132
+00:16:06,000 --> 00:16:09,000
+But, yeah, it does exist.
+
+133
+00:16:09,000 --> 00:16:16,000
+Easton, I'm aware that you're calling me out on the fact that I am posting things. I happen to be a developer and have the log file.
+
+134
+00:16:16,000 --> 00:16:25,000
+Often when I make GitHub issues, I'm making them for my own to-do list and the reason is my own to-do list doesn't have to be private at all.
+
+135
+00:16:25,000 --> 00:16:29,000
+If I'm going to be looking into something or something as me, I'll make a public issue for it.
+
+136
+00:16:29,000 --> 00:16:35,000
+It also gets the team into the habit of doing that as well rather than let's go ping fruits because we found something.
+
+137
+00:16:35,000 --> 00:16:38,000
+The team needs to make GitHub issues too.
+
+138
+00:16:38,000 --> 00:16:46,000
+Everything that we need to do needs to be on GitHub, otherwise it's just not going to be done. I've already forgotten that value graph record has minimum points, its value is wrong.
+
+139
+00:16:46,000 --> 00:16:56,000
+That's the bigger the problem is, right? I had already forgotten that that was a problem, but you posted that issue, which I made, and I'm like, yeah, that's a problem.
+
+140
+00:16:56,000 --> 00:16:58,000
+I know how to fix that one.
+
+141
+00:16:58,000 --> 00:17:03,000
+Thus indicating the larger problem, which is we forget stuff.
+
+142
+00:17:03,000 --> 00:17:11,000
+If other members do that, that's fine. I just know that's exactly where the problem is, and I think I assigned myself to that one, maybe I didn't, but yeah.
+
+143
+00:17:11,000 --> 00:17:13,000
+That's an interesting one.
+
+144
+00:17:13,000 --> 00:17:19,000
+Yeah, supplying a full log file would probably be better for them, I understand.
+
+145
+00:17:19,000 --> 00:17:23,000
+But practice what you preach, I guess. I'll get it sorted eventually.
+
+146
+00:17:23,000 --> 00:17:25,000
+Let's move on to another question.
+
+147
+00:17:25,000 --> 00:17:29,000
+Could you briefly explain the options available in the asset optimization wizard?
+
+148
+00:17:29,000 --> 00:17:38,000
+I don't have Neos open right now, so if anyone that has Neos open can go ahead and spawn the asset optimization wizard and get me a screenshot.
+
+149
+00:17:38,000 --> 00:17:43,000
+I know what they are, I'll forget them unless I have a screenshot. Thank you.
+
+150
+00:17:43,000 --> 00:17:47,000
+Thank you, Rade. So now we have a screenshot of that, we can talk about that.
+
+151
+00:17:47,000 --> 00:18:04,000
+Okay, so the asset optimization wizard, for those who are listening in, is the thing that you can create with the developer tool, and it allows you to do various operations in the world that can clean up assets that don't need to be there or change them in some particular way.
+
+152
+00:18:04,000 --> 00:18:11,000
+There are a bunch of buttons there, and I'm now going to go through all of them. I'll list the name, there's also a picture, or you can go ahead and spawn it in the world.
+
+153
+00:18:11,000 --> 00:18:27,000
+So process root will limit it to a particular hierarchy. Someone is already commenting about cleanup empty slots. Well, if you use the process root of a process root where people are not, then you won't have the issues which are described in cleanup empty slots.
+
+154
+00:18:27,000 --> 00:18:38,000
+However, the same goes for every one of those. If you wanted recommendations from me, I put all the visual elements of my world under a slot called world, and then maybe don't parent the users to that.
+
+155
+00:18:38,000 --> 00:18:44,000
+And then you'll be able to clean up empty slots on that by selecting the process root of world.
+
+156
+00:18:44,000 --> 00:18:55,000
+You can put a different slot in there. Link is saying everyone shoves root into process root, you can put an empty slot in there. I don't think you need to put root in there if you want to run it on root.
+
+157
+00:18:55,000 --> 00:19:08,000
+So you don't have to not put anything in there, but people putting the root in there is a feature, not a bug. Anyway, let's move through the operations that exist there.
+
+158
+00:19:08,000 --> 00:19:19,000
+So cleanup unused assets is an interesting one in that the session is already doing that. This is just a way to do it manually.
+
+159
+00:19:19,000 --> 00:19:34,000
+Cleanup unused assets will basically go through the assets system, which is a sort of dictionary of assets in the world. By assets, we mean screenshots, textures, video files, anything that isn't code or descriptions or component lists or properties is basically an asset.
+
+160
+00:19:34,000 --> 00:19:49,000
+So examples, textures, sounds, videos, materials as well. That's a special case because that's like sort of textures and properties in one, but it's different. It's just the way Neos works.
+
+161
+00:19:49,000 --> 00:19:56,000
+We'll go through and say are these actually being used? So a good example here is if you and you have to do these quickly or you have to turn off the automatic cleanup.
+
+162
+00:19:56,000 --> 00:20:10,000
+Go into a blank world, spawn out something complicated, delete it. With that cleanup unchecked, go into the asset system, which is a root, a slot under root, and you'll see that there are assets still in memory for that particular complicated thing that you've just spawned.
+
+163
+00:20:10,000 --> 00:20:18,000
+Cleanup unused assets will do that, as will just leaving the check boxes by default checked on, which is cleanup unused assets periodically.
+
+164
+00:20:18,000 --> 00:20:29,000
+So that one isn't usually that good. You might want to run it strategically during a session. Cleanup unused assets is a good thing to try if you're experiencing problems with performance.
+
+165
+00:20:29,000 --> 00:20:40,000
+Cleanup empty slots underneath that is a very bad operation, which I don't think makes sense a lot because I don't know what it does for empty. I think it's like a lack of components, et cetera.
+
+166
+00:20:40,000 --> 00:20:54,000
+It runs a complete mess of many hierarchies that exist within Neos. It's also impossible to sort of fix in a way that makes sense because there's so many different reasons why you might have an empty slot.
+
+167
+00:20:54,000 --> 00:21:03,000
+On the surface, empty slots are just for like translation or scale or offset adjustments and stuff like that. It becomes difficult to do so.
+
+168
+00:21:03,000 --> 00:21:11,000
+A common one there being bones. However, it may be possible to do it on a hierarchy if you select something other than the root. It's like a world hierarchy.
+
+169
+00:21:11,000 --> 00:21:25,000
+Or for the purposes of your world, when you want to optimize your world, temporarily parent yourself to something that is not part of the world hierarchy, and then you can run cleanup empty slots on that world hierarchy.
+
+170
+00:21:25,000 --> 00:21:31,000
+Next, moving on is cleanup disabled mesh renderers. That will delete any disabled mesh renderers.
+
+171
+00:21:31,000 --> 00:21:39,000
+A lot of times when you also want to be invisible, you'll just turn off the active property, which won't have much effect there.
+
+172
+00:21:39,000 --> 00:21:48,000
+But if you leave the active property on and turn off the enable property on the mesh renderer, stuff still appears, quotes, invisible, and that will clean up those because they're not being used.
+
+173
+00:21:48,000 --> 00:21:58,000
+I don't find that one useful either because if I am disabling mesh renderers, it's usually because I have a smart object, and by that I mean an object that's doing some sort of calculation.
+
+174
+00:21:58,000 --> 00:22:05,000
+So I can't disable its active property because I need it to still run its logics, et cetera, but I want it to be invisible.
+
+175
+00:22:05,000 --> 00:22:11,000
+A good example there is the virtual surgery planning world, which I keep mentioning and have videos about, et cetera.
+
+176
+00:22:11,000 --> 00:22:18,000
+Lots of stuff in there. We're unable to use the active checkbox because there's maths that correlate with each other.
+
+177
+00:22:18,000 --> 00:22:25,000
+Like the positions of what we're cutting correlates with the positions of things called surgical guides, which are also where we're cutting.
+
+178
+00:22:25,000 --> 00:22:32,000
+And so we can't really use active anywhere in that world, so we use mesh renderers and disabled a lot there.
+
+179
+00:22:32,000 --> 00:22:42,000
+Same with the colliders as well. We kind of flipped between that. We're like, do we want it to be visible and colliding or invisible and colliding or invisible and not colliding?
+
+180
+00:22:42,000 --> 00:22:45,000
+It's like a whole sort of tri-state thing.
+
+181
+00:22:45,000 --> 00:22:56,000
+De-duplicate materials, that one there is very good. That I talk about in my video where I talk about the asset system and de-duplicate materials. That will try and do it to the best of its ability. I'm not entirely sure what exact process it does.
+
+182
+00:22:56,000 --> 00:23:08,000
+But if you've got, let's say, a bookshelf with a wood material and there are two copies of that wood material, it can find them using some rules I don't understand to make there be only one wood material there.
+
+183
+00:23:08,000 --> 00:23:17,000
+Cleanup file items, I don't know. I would guess it looks for any file items and cleans them up.
+
+184
+00:23:17,000 --> 00:23:34,000
+Computer says, yay. The next one will set a max text resolution of everything underneath the hierarchy. It's very good. You don't need 8K textures.
+
+185
+00:23:34,000 --> 00:23:44,000
+That will go through all those. Recompress will recompress them. I don't know what that means either. Sometimes textures become uncompressed, particularly if you are playing around with them a lot.
+
+186
+00:23:44,000 --> 00:23:56,000
+Or you specifically uncheck the compressed or check the raw resolution. Sorry, I'm having a day of not remembering stuff. The engine is big. It will recompress them.
+
+187
+00:23:56,000 --> 00:24:11,000
+Recalculate all normals sounds a very drastic thing to do. That will recalculate all normals underneath the process route. Same with the next to their normals and then tangents, which are different.
+
+188
+00:24:11,000 --> 00:24:23,000
+Let's move forward so I can stop being very confused about this menu that no one really uses, to be honest. It does have good stuff. I hope it gets sort of overhauled to be better and more explanatory.
+
+189
+00:24:23,000 --> 00:24:33,000
+You know, the whole sort of documentation in game thing. Many people say just split the button space in two and add a question mark button that pops a window.
+
+190
+00:24:33,000 --> 00:24:47,000
+I'm like, yep, we need a system that can do that generically, right? And we need a system ideally, and this is one that the team will love me when I do, where it's like, if you don't have documentation for something you add, the build will not let you merge the code.
+
+191
+00:24:47,000 --> 00:25:00,000
+The only way I've managed to get documentation working is you have to write it. So I'll be discussing with them that once that system is ready. It's like, hey, you added a button. You didn't explain what it did. You can't do that.
+
+192
+00:25:00,000 --> 00:25:20,000
+Okay. So that has another question. If someone were to write code that fixes an issue, how would you go about acquiring the code? That depends entirely on the licenses. So most mods are licensed permissively. At that point, we can use that code without any issues.
+
+193
+00:25:20,000 --> 00:25:31,000
+We usually don't use that code directly, but we use it for reference implementation to figure out what, like, okay, if you've made a GitHub issue that talks about what the problem is, you fixed it with a mod, what did you actually fix?
+
+194
+00:25:31,000 --> 00:25:42,000
+So we take a look at your code and take it as inspiration. We rarely ever lift it straight from there. If there's some other weird license on there or there's such a thing as a closed source mod, it would kind of be frowned on by the modding team right now.
+
+195
+00:25:42,000 --> 00:25:52,000
+We haven't had a case of a paid mod, and if we did, I'd feel really weird about that one. But we'd go ahead and talk to them and make sure there's a license there. If your mod does not have a license, I won't do that.
+
+196
+00:25:52,000 --> 00:26:05,000
+If your mod doesn't have a license, I will not take the code for inspiration. I'll come speak to you and be like, hey, you want to license that mod? We aren't using the code directly, so I technically don't need to, but it's a nice thing to do for the community.
+
+197
+00:26:05,000 --> 00:26:15,000
+As a reminder there, when you make a mod, please make a GitHub issue if there's not one already which describes what you are fixing. It should be like the bug, so don't word it as I've made a GitHub issue with all the mods I've made.
+
+198
+00:26:15,000 --> 00:26:27,000
+Make a GitHub issue that describes the problem. Then in a comment under that issue, be like, by the way, I made a mod to fix this, right? And then that spins on its head. That isn't, look at me, I've made a mod.
+
+199
+00:26:27,000 --> 00:26:36,000
+Here is a problem which I would like you to fix, and until that's fixed, here is a mod which fixes that. It's a different edit. Code licensing is fine.
+
+200
+00:26:36,000 --> 00:26:50,000
+Delta figured out the bent tube mesh is a lerp using direct target and actual target from the start point. Yeah, that looks thank you for breaking that one down throughout the code. There's a lot there.
+
+201
+00:26:50,000 --> 00:27:03,000
+When you think about the procedural meshes, sometimes you don't think about this, and it's like, wow, but the procedural meshes are all made manually. Like, every single, like, vertex is positioned manually using mathematics.
+
+202
+00:27:03,000 --> 00:27:18,000
+And so what that does is what Delta has found, yes, that. What it does along that path is it draws those rings of quads all along its length. That's why the code is so complicated and difficult for me to pass.
+
+203
+00:27:18,000 --> 00:27:37,000
+All right, let's move down forwards. So, again, we're talking about code commenting, which is fantastic. When you're doing code comments, it is not comment is button does button stuff, no. Or comment is set the value of a to one. No, your comments should explain why the code exists.
+
+204
+00:27:37,000 --> 00:27:50,000
+Or why that's there. A good example is you've been working on this horrible problem for a long time here, comment on that stuff with why that code exists. Why does that happen? Particularly if it's unclear.
+
+205
+00:27:50,000 --> 00:28:04,000
+A good example here is actually mathematics. If you use mathematics from sort of a paper, a Wikipedia page, a formal definition, whatever it is, you can comment that code with the source of your mathematics.
+
+206
+00:28:04,000 --> 00:28:15,000
+You can be like, this is based on this mathematics. And then someone coming through the code next can understand it both from a code point of view and a math point of view.
+
+207
+00:28:15,000 --> 00:28:27,000
+I also leave comments to sort of mitigate what the fucks later. If someone's reviewing it or they open it later, I'm like, cool, I want them to understand exactly why this exists and why it does this.
+
+208
+00:28:27,000 --> 00:28:42,000
+So you comment why and not what. A lot of people also view comments as problematic to write. When you sort of unshackle yourself from the peril of doing it and you just do it, it's great.
+
+209
+00:28:42,000 --> 00:28:57,000
+What I mean by that is sometimes I see people worry. What if I put stuff in a comment that doesn't make sense or stuff like that? Or my organization I work for doesn't like comments because they add lines to the code.
+
+210
+00:28:57,000 --> 00:29:12,000
+They also save you humongous amounts of money, organization. Humongous amounts of old money. So just add them and don't worry too much about what they say. Of course, don't be expletive.
+
+211
+00:29:12,000 --> 00:29:20,000
+People get in trouble in the past. There's all sorts of people that look through that stuff on GitHub and there's quite a few funny articles about that stuff. So don't be expletive or rude or anything like that.
+
+212
+00:29:20,000 --> 00:29:31,000
+But just describe what the code does. And if your comment isn't written in a way that makes sense, maybe part of the code review will be like, that's cool, thank you for explaining it. Could you please elaborate on that more?
+
+213
+00:29:31,000 --> 00:29:41,000
+And then you put that elaboration into the comment. And then you've got additional documentation on how that code works. Lots more comments on comments, which is cool.
+
+214
+00:29:41,000 --> 00:29:53,000
+Yeah, it's like Blue's Clues. Why am I comparing programming to Blue's Clues? Blue's Clues is a children's TV show which I've watched once but completely forgotten.
+
+215
+00:29:53,000 --> 00:30:04,000
+About a dog that looks for clues or something. I don't remember. Another good example I guess would be Dora the Explorer. She looks around, investigates things.
+
+216
+00:30:04,000 --> 00:30:14,000
+Yeah, the other problem I see people falling into with comments is they assume everyone will understand this. Guarantee they won't. Not even you will understand it.
+
+217
+00:30:14,000 --> 00:30:29,000
+Rampa says, should we note issues down even if a fix is a won't fix? So if your mod solves something that we've marked as won't fix and closed or marked as won't fix and it's still open for whatever reason, please still link it in the issue or whatever. Even a closed issue can get comments.
+
+218
+00:30:29,000 --> 00:30:44,000
+It does help. I want to say that won't fix is still reviewable. And some people get weirded out by that. It's closed. Yeah, but it's still a discussion point. It's like a forum thread.
+
+219
+00:30:44,000 --> 00:30:52,000
+You can still post to that thread and we can still have a discussion about it even though it's closed. It just means we won't fix it right now.
+
+220
+00:30:52,000 --> 00:31:08,000
+But then you're like, we made a mod for it. And then maybe some other people comment and they're like, this really helped me. You know, it made my NEOS journey and my NEOS experience so much better than hey, maybe we will open it and remove the won't fix to close. It's never going to be entirely final.
+
+221
+00:31:08,000 --> 00:31:26,000
+Lots of people get sort of bothered by issues being closed. It's not like the end of the conversation. It's just like the end of the processing of the issue. Yeah, don't view issues as like sort of militaristic. View them as like woohoo.
+
+222
+00:31:26,000 --> 00:31:42,000
+Thank you for your statement about removing complete traversal. I love complete traversal. So it's staying. There was already an issue about that one where someone misunderstood and thought it was a legacy feature. No, it's got uses.
+
+223
+00:31:42,000 --> 00:31:58,000
+For those who don't know the difference between complete traversal and break at other NEOS traversal, I do explain it in my logics tip video. I think it might also be explained in various other logics videos. I don't really have time to discuss it right now. It's a cool feature. You just need to know how to use it.
+
+224
+00:31:58,000 --> 00:32:17,000
+A lot of cases that particular problem comes into a sort of meta problem that is more difficult to deal with, which is sometimes simply by adding a feature, we make it less easy to use something. There's another button. There's another thing.
+
+225
+00:32:17,000 --> 00:32:35,000
+For example, the inspector, right? That didn't use to have as many buttons as it did at the top. Like bring to, go to, reset rotation scale, everything like that didn't use to exist. Those buttons didn't use to be there. When we add them there, they're buttons, right? And you can accidentally push them.
+
+226
+00:32:35,000 --> 00:32:55,000
+And that's when sort of various UI stuff can happen. As it comes to the traversal mode, though, that one shouldn't be that difficult to avoid. It's on its own dedicated context menu. Maybe the iconography or coloring could be better, but it's already quite isolated and not that difficult to not push.
+
+227
+00:32:55,000 --> 00:33:10,000
+Zach says do you have any transparent pics of your avatar? I don't know. Not that I'm aware of. There's probably some floating around that some people have. Actually, yes. I can tell you exactly where to get one from. This is going to be a little bit weird to describe.
+
+228
+00:33:10,000 --> 00:33:30,000
+Go to my public folder. Go to my meme folder. At the bottom of my meme folder, there is a black and red version of gear bell's screaming cockatiel that screams into a cup. There is a transparent PNG of me waving inside that cup.
+
+229
+00:33:30,000 --> 00:33:42,000
+Sorry, that just came to mind about where it was. You can totally go find that there. That's incredibly random. Enjoy. Yeah, exactly. Fairly specific. Yep, absolutely.
+
+230
+00:33:42,000 --> 00:34:09,000
+Yup, Specs says remember to treat every gun as if it's loaded and treat every logic step as if the packing route is set incorrectly. Absolutely. You'll notice sometimes in videos where I do logics, it also happens outside of tutorial videos, I always set the packing route twice, and that's sort of a tactile thing for me, because it makes the feeling of setting the packing route double as long, and so I'm more likely to not do it.
+
+231
+00:34:09,000 --> 00:34:26,000
+I have seen, I think I saw one tool, I don't remember how long ago, I just have a vague memory of it that would flash red or something when the packing route wasn't set. Alarm bells going off, like, emergency! There's no packing route! You can totally do that.
+
+232
+00:34:26,000 --> 00:34:46,000
+Also, again, just randomly pull that out of my head, there's a tool from Turk, the component clone with history tool tip. That would be a good feature for someone to add into their custom logics tip. You should be able to have a history function of where your packing routes are, and there may be a list that you can look at that from. That might be cool.
+
+233
+00:34:46,000 --> 00:34:59,000
+Because that way you don't have to fly around the map, refinding your packing routes, because I do that all the time. You could just be like, previously, on 24, that's not a TV show, sorry, it popped into my head, I'm a bit sleep deprived today.
+
+234
+00:34:59,000 --> 00:35:05,000
+And it's like, previously, on your logics tip, here are the packing routes you use.
+
+235
+00:35:05,000 --> 00:35:23,000
+With that, I think we're done on questions, though. I'm going to go drink some more coffee and find more English. Strange officers. If you guys have got any additional questions, please do let me know. You've got a minute or so to type them, and then I will go ahead and close things off.
+
+236
+00:35:23,000 --> 00:35:40,000
+So Epic Easton, they talk about how they accidentally equipped their logics tool in times of flusteredness. For that, I would say, hey, make your tools obvious about which tool you're on. I've seen that happen a lot with people who use multitools.
+
+237
+00:35:40,000 --> 00:35:55,000
+And I don't want to, like, go on multitools, like, tangents too much, but I've seen multitools where it's unclear which tool that you're in, or it's too easy to switch. And so that can happen, right? You'll get confused about what tool you're on.
+
+238
+00:35:55,000 --> 00:36:12,000
+I never get confused about what tool I am on to that level. Sometimes I do. But, like, it gets less confusing if you just remember to look at the tool before you do anything. My tools are very, very easy to mistake. They're just colored balls.
+
+239
+00:36:12,000 --> 00:36:26,000
+Those who haven't seen them, they're inside my face, and they're just, like, a spiky pillar with a colored ball inside, and the color determines what type of tool it is, except for the material tool tip, which is an empty spike, and the material goes into that hole.
+
+240
+00:36:26,000 --> 00:36:39,000
+But sometimes that material can be the same color as one of the regular tools, and then I get very confused. I'm like, why is my logics tool not working? Oh, it's a material tool with a blue material in it.
+
+241
+00:36:39,000 --> 00:36:47,000
+So, yeah, I need to think about that one. It doesn't happen too much. And when it does happen, it's clear that, you know, it's my fault.
+
+242
+00:36:47,000 --> 00:37:12,000
+Anyway, I will go ahead and leave off there. If you have any additional questions, please ping me in questions and help or in my DMs or come to the next office hours. I'll be happy to answer them. Stay safe out there, and make sure to eat cheese.
+

@@ -1,0 +1,1796 @@
+1
+0:00:00.000 --> 0:00:05.420
+Welcome to office hours with prime. This is prime time your chance to ask questions about
+
+2
+0:00:06.120 --> 0:00:11.460
+Pretty much anything you want about Nia, so please feel free to drop in those questions two channels up from one
+
+3
+0:00:11.460 --> 0:00:16.320
+You currently clicked on which is the office hours text chat. I don't see any questions there so until there are questions there
+
+4
+0:00:16.320 --> 0:00:18.320
+We're just going to sit in awkward silence
+
+5
+0:00:18.720 --> 0:00:25.820
+If you want a question answered drop it in there otherwise awkward silence will get more and more awkward the longer you let it fester
+
+6
+0:00:25.820 --> 0:00:33.100
+If I asks, what did I miss the answer is nothing we've had absolutely nothing so far so again awkward silence
+
+7
+0:00:33.340 --> 0:00:34.700
+but with
+
+8
+0:00:34.700 --> 0:00:41.180
+Slightly more awkwardness ah we have a question from shadow coffee shadow coffee says where do you see Nia's being in three to five years?
+
+9
+0:00:41.780 --> 0:00:48.040
+Um it's a little bit difficult right now to you to the announcers channel, so I don't really know I'd like to see that turned around
+
+10
+0:00:48.540 --> 0:00:52.980
+And once that's turned around I'm sure we'll have plans and ideas until it's turned around
+
+11
+0:00:52.980 --> 0:00:56.180
+I don't really know okay, so the next question is from NFT hater
+
+12
+0:00:56.540 --> 0:01:01.600
+NFT hater says is it possible to browse the web within near so I'd like to access documentation in game
+
+13
+0:01:02.100 --> 0:01:04.760
+My best advice there would to be use the desktop
+
+14
+0:01:05.340 --> 0:01:10.160
+The desktop tab of your dash that gives you for access to your regular computer
+
+15
+0:01:10.160 --> 0:01:12.460
+You can access your browser and all sorts of stuff from there
+
+16
+0:01:12.460 --> 0:01:17.220
+That's the best option right now in the future would likely have inbuilt documentation tools of in the game
+
+17
+0:01:17.220 --> 0:01:19.220
+That means that you don't really need a browser to do so
+
+18
+0:01:19.860 --> 0:01:21.860
+and then beyond that we'll have
+
+19
+0:01:21.860 --> 0:01:29.860
+a better more accurate screen sharing that's a feature on our roadmap to allow you to look at like you know individual applications or
+
+20
+0:01:30.580 --> 0:01:34.040
+Services etc so you don't have to do the whole desktop tab, but the desktop tab is great
+
+21
+0:01:34.040 --> 0:01:40.260
+I don't understand why more people don't use it for like basically everything. It's like having a computer inside
+
+22
+0:01:40.260 --> 0:01:44.820
+Yes, your host is prime. Can you make a vid on you trying cheeses and rating them someday?
+
+23
+0:01:44.820 --> 0:01:51.540
+Um I need to do some research and maybe speak to some other youtubers about it because like I never really understood
+
+24
+0:01:51.540 --> 0:01:55.700
+Why youtube has made second channels, but like I now have a second channel where I put like junk
+
+25
+0:01:55.700 --> 0:01:59.660
+But like I'd love if my channel could be like other stuff
+
+26
+0:01:59.980 --> 0:02:03.740
+But if I start putting non-neo's video tutorials there
+
+27
+0:02:03.740 --> 0:02:08.300
+Then I start splitting the universe and splitting the the audience and so I don't really know how that works
+
+28
+0:02:08.860 --> 0:02:12.660
+I would love if like playlists were more sort of
+
+29
+0:02:13.820 --> 0:02:21.160
+Fine-grained at YouTube maybe you could subscribe to just a playlist or a topic that a user or creator puts out and that way
+
+30
+0:02:21.160 --> 0:02:25.180
+You wouldn't get any surprises almost like each channel had like a sub channel
+
+31
+0:02:25.180 --> 0:02:31.140
+That'd be great because right now my choices appear to be like rename my main channel to be probably prime
+
+32
+0:02:31.540 --> 0:02:39.220
+Neos make probably prime just general leave the second channel is as probably I'm gaming and then
+
+33
+0:02:39.580 --> 0:02:41.340
+I mean it has tags
+
+34
+0:02:41.340 --> 0:02:44.060
+It's just it's like categorization such that you know
+
+35
+0:02:44.060 --> 0:02:49.180
+I don't have to make like five different channels like you get to the point where it's crazy like you look some really big creators
+
+36
+0:02:49.180 --> 0:02:54.820
+They've got like six or seven channels just because they want to make different topics and maintain the ability to review them all a little
+
+37
+0:02:54.820 --> 0:02:56.460
+bit easier
+
+38
+0:02:56.460 --> 0:02:58.460
+It's it's yeah
+
+39
+0:02:58.460 --> 0:03:04.680
+Yeah, I just do it like it's gonna start alienating people and it's it's weird. You know, but whatever next question
+
+40
+0:03:06.220 --> 0:03:10.740
+Shadow coffee says it's Neos based in unity on real or another engine its own. So there's a little bit like
+
+41
+0:03:11.460 --> 0:03:17.220
+Confusion there that needs to be resolved every time it comes up, which is we currently do use unity
+
+42
+0:03:17.220 --> 0:03:20.180
+But we only use unity is basically like rendering. That's it
+
+43
+0:03:21.060 --> 0:03:23.060
+all of the sort of logic and
+
+44
+0:03:23.740 --> 0:03:27.760
+Operational stuff networking etc is ran via an engine called fruits engine
+
+45
+0:03:27.760 --> 0:03:31.940
+Which is sort of attached to unity like some sort of weird parasite really
+
+46
+0:03:31.940 --> 0:03:35.960
+We just feed it like there is a cube over here and unity goes
+
+47
+0:03:36.020 --> 0:03:40.300
+Okay, and then your computer renders a cube over there. Like that's all that unity is doing
+
+48
+0:03:40.300 --> 0:03:44.020
+It doesn't do any of the gameplay logic. It's really like it's bare-bones
+
+49
+0:03:44.020 --> 0:03:50.300
+We want to pull that out and make our own engine to run stuff because that gets us a lot more sort of affordances there
+
+50
+0:03:50.640 --> 0:03:54.480
+But until that's done, yes, you see another question here from chroma
+
+51
+0:03:54.480 --> 0:04:01.480
+She says with your absolute expect certain expert certainty that will hold you specifically accountable for where you see Neos
+
+52
+0:04:01.480 --> 0:04:03.560
+100 years big update marketplace question mark
+
+53
+0:04:03.560 --> 0:04:09.660
+Um, I don't particularly see any Neos existing in a hundred years and people get like surprised about this
+
+54
+0:04:09.760 --> 0:04:12.520
+But you have to think about like how long a hundred years is
+
+55
+0:04:12.520 --> 0:04:16.800
+Is we'll probably be playing something like Neos
+
+56
+0:04:16.800 --> 0:04:22.320
+I doubt it will be Neos itself as you see it now or as you see it in five years or whatever
+
+57
+0:04:23.000 --> 0:04:26.560
+There may be you know an equivalent but it certainly
+
+58
+0:04:26.880 --> 0:04:34.360
+You know won't be the same software package the same engine the same programming language the same input environment
+
+59
+0:04:35.640 --> 0:04:36.240
+You know
+
+60
+0:04:36.240 --> 0:04:42.320
+There are people right now that still use the temp five ones and it's just like you expect to be using a vive one
+
+61
+0:04:42.320 --> 0:04:47.480
+You know hundred years. Nope. What will be our interaction look like then? Like, how will it run?
+
+62
+0:04:47.880 --> 0:04:53.320
+You talk about paradigms all the time and it's sort of just looking at it like, you know, Nokia 3310
+
+63
+0:04:53.360 --> 0:04:58.880
+All right, they weren't that long ago. So you just got to think about it. You also have to think about like in a hundred years
+
+64
+0:04:58.880 --> 0:05:00.880
+like
+
+65
+0:05:02.000 --> 0:05:08.020
+Stereotypically everyone here will be like not dead but like a little bit dead, right?
+
+66
+0:05:08.020 --> 0:05:13.000
+Most of us will probably be either dead or not that interested in computer games
+
+67
+0:05:13.040 --> 0:05:18.880
+Actually, this generation is probably one of the first generations that will be like I still understand our computer works
+
+68
+0:05:18.880 --> 0:05:24.200
+And I'm 80 because like all of like, you know grandparents stuff like that. They're just like, oh, it's too complicated understand it
+
+69
+0:05:24.200 --> 0:05:27.620
+I am never going to be that person like as I grow older
+
+70
+0:05:27.620 --> 0:05:30.840
+I'm gonna be like, okay, even if it takes me like a like a year
+
+71
+0:05:30.840 --> 0:05:37.320
+I'm gonna like understand, you know the next generations of computers so that I don't turn into that like, you know
+
+72
+0:05:37.320 --> 0:05:41.640
+Oh, I don't know how to push a button on a computer. Like I'm not I'm not, you know
+
+73
+0:05:42.040 --> 0:05:46.640
+No one's gonna have to tell like grandpa prime how to turn on the television. It's it's not gonna happen
+
+74
+0:05:46.880 --> 0:05:51.080
+The point there being is like hey, what what are we gonna like? What are we gonna do?
+
+75
+0:05:51.080 --> 0:05:58.600
+I don't think it's gonna be strapping screens to our face and you know holding weirdly shaped controllers. It's gonna be something else
+
+76
+0:05:58.600 --> 0:06:03.440
+I don't know what though. I mean, maybe the FTE controller will have been released by then
+
+77
+0:06:03.440 --> 0:06:08.560
+They keep pushing back their schedule, but whatever so just following up
+
+78
+0:06:08.560 --> 0:06:13.620
+I think we answered shadows question about will be live in a hundred years. I don't think so something like us maybe
+
+79
+0:06:14.240 --> 0:06:21.720
+Similar parts of the community but like it's really a long time. Like I almost certainly be dead. So I don't really care
+
+80
+0:06:23.600 --> 0:06:28.240
+Will we be up up there we'll be able to upload our consciousness into nears. No, not nears
+
+81
+0:06:28.240 --> 0:06:31.220
+I wouldn't trust us with our consciousness. Um, it'd probably crash
+
+82
+0:06:31.220 --> 0:06:36.100
+Oh, yeah, you gotta be like reasonable and you got to be like realistic, right?
+
+83
+0:06:36.240 --> 0:06:41.700
+the the whole consciousness thing is is terrifying go play soma soma is a very good game that
+
+84
+0:06:42.140 --> 0:06:46.900
+Endeavors to teach you about the sort of horror that is consciousness transference
+
+85
+0:06:47.140 --> 0:06:52.860
+but I've seen a lot of people who play soma and they're just like yeah your spooky horror game like amnesia and I'm like
+
+86
+0:06:53.040 --> 0:06:55.860
+You're missing like the actual horror. Yes, of course
+
+87
+0:06:55.860 --> 0:07:02.620
+there are monsters etc, but look into like who the monsters are why they exist and then look into like who you are and you'll
+
+88
+0:07:02.620 --> 0:07:07.980
+You'll figure it out and you'll see the real horror is just like existing in that game. Like you can stand
+
+89
+0:07:08.580 --> 0:07:14.260
+Directly in the first tutorial room of soma and it's terrifying if you know exactly what's going on
+
+90
+0:07:14.340 --> 0:07:16.820
+You don't even need to take a step just stand there
+
+91
+0:07:17.060 --> 0:07:21.420
+Although screw the patterns in spartan summer and I'm not like spoiling any part of summer at all here
+
+92
+0:07:21.420 --> 0:07:23.980
+But at one point you are very very far down
+
+93
+0:07:23.980 --> 0:07:25.980
+underwater and
+
+94
+0:07:26.260 --> 0:07:29.500
+You have to go out in a very high-pressure suit and there are like
+
+95
+0:07:29.900 --> 0:07:33.580
+tunnels like caves and tunnels and stuff and there are like these
+
+96
+0:07:33.700 --> 0:07:39.780
+Spider crab water creatures that are like attached to the cave walls and they're like thousands of them and it's it's horrible
+
+97
+0:07:39.900 --> 0:07:46.820
+Like atmospheric storytelling in that like super super underwater area with those like spider crab things on the wall terrible
+
+98
+0:07:46.860 --> 0:07:48.620
+No spider crabs, please
+
+99
+0:07:48.620 --> 0:07:52.380
+Speck says considering how much the term metaverse has been somewhat poisoned
+
+100
+0:07:52.380 --> 0:07:57.660
+Are there any other terms you might personally favor for a virtual world instead? I'm fond of cyberspace myself
+
+101
+0:07:57.700 --> 0:08:01.220
+I'm fond of no terminology. What I what I don't like is
+
+102
+0:08:02.380 --> 0:08:07.900
+The words that are used in the media are sort of shortcuts for our headspace, you know, we say social media
+
+103
+0:08:08.100 --> 0:08:15.380
+You think Twitter Facebook YouTube tik-tok now, but those platforms are all different in their own respects, right?
+
+104
+0:08:15.380 --> 0:08:21.300
+They're just shortcuts. And so I really rather we used more words to figure out what the thing is because like people call
+
+105
+0:08:21.300 --> 0:08:27.320
+Everything a metaverse now. I've seen Microsoft Teams been referred to as a metaverse and as someone who works sort of
+
+106
+0:08:28.140 --> 0:08:33.340
+Horizontally near Microsoft Teams. It's not a metaverse. I hate teams. I just can't stand it. Um
+
+107
+0:08:34.100 --> 0:08:35.700
+So it's not a metaverse
+
+108
+0:08:35.700 --> 0:08:39.980
+I mean then some people say like oh metaverse is about interoperability and I think that's cool
+
+109
+0:08:39.980 --> 0:08:45.060
+So I was looking at a VR game company the other day and they make some good games
+
+110
+0:08:45.060 --> 0:08:48.820
+The problem is those games are linear in their purpose
+
+111
+0:08:48.820 --> 0:08:52.820
+So they make a darts game a bowling game and it's like, okay
+
+112
+0:08:52.820 --> 0:08:54.940
+Well, if I want to play darts, I have to switch to this app
+
+113
+0:08:54.940 --> 0:08:56.940
+If I don't play bowling I have to switch to this app
+
+114
+0:08:57.060 --> 0:09:01.500
+But they do have internet operability is in that use it uses the same account system
+
+115
+0:09:01.820 --> 0:09:04.560
+But like a metaverse would have none of those walls
+
+116
+0:09:04.780 --> 0:09:08.580
+But it's very difficult to do that with the many cut money companies that are doing it
+
+117
+0:09:08.740 --> 0:09:15.340
+So I don't like the term. I think it's stupid and I don't think it should be used and I think you should use better
+
+118
+0:09:15.340 --> 0:09:21.700
+Terminology for it moving on to the next question, which I believe is from my cat. Oh, this is
+
+119
+0:09:22.420 --> 0:09:25.340
+What kind of options do we have for importing animations into news?
+
+120
+0:09:25.380 --> 0:09:29.620
+And if not, well that they'll consume with VR chat formatted animations be supported right out of the box
+
+121
+0:09:29.620 --> 0:09:34.980
+No, so VR animations are stored in unity animation files. We don't support those. We're not unity
+
+122
+0:09:34.980 --> 0:09:38.380
+I know I said earlier we run on unity, but remember we're this weird sort of like
+
+123
+0:09:39.160 --> 0:09:44.540
+Parasitical thing that like attaches to unity. We have no idea how unity works at all
+
+124
+0:09:44.540 --> 0:09:46.540
+We cannot use unity animations
+
+125
+0:09:47.180 --> 0:09:49.020
+if you want to make an
+
+126
+0:09:49.020 --> 0:09:53.980
+Like a regular FBX GLTF animation in blender or whatever those will work
+
+127
+0:09:54.020 --> 0:09:57.020
+There is limited functionality of those you can get away with a lot
+
+128
+0:09:57.020 --> 0:10:00.660
+Like you'll see a lot of people use them as a few examples in my public folder
+
+129
+0:10:00.660 --> 0:10:02.820
+But we certainly do need to do more work there
+
+130
+0:10:03.100 --> 0:10:09.340
+the important thing I would like to stress though is I really want you to think about why you're asking them because some people are
+
+131
+0:10:09.340 --> 0:10:14.660
+Like I need animations to turn on and off my hat and I'm like we have an inventory system
+
+132
+0:10:14.820 --> 0:10:21.460
+Just spawn your hat and put it on you don't need an animation for that and then people say I need an animation such
+
+133
+0:10:21.460 --> 0:10:24.340
+That like when I do the finger gun gesture
+
+134
+0:10:24.340 --> 0:10:29.780
+I I put a cute face and I'm just like who invented that system and why is that the case?
+
+135
+0:10:29.780 --> 0:10:33.100
+You don't need an animation for that. You need logics for that
+
+136
+0:10:33.540 --> 0:10:37.920
+You know, I've seen people say like ah, I need an animation to make my rainbow shader work
+
+137
+0:10:37.920 --> 0:10:40.980
+I'm like a pano 1d over a
+
+138
+0:10:41.940 --> 0:10:44.280
+Material like you don't need an animation for that
+
+139
+0:10:44.280 --> 0:10:49.780
+So really like ask more questions about what you're trying to do and then maybe you don't even need animations
+
+140
+0:10:49.980 --> 0:10:53.540
+Like hey, I want to do this cool. You don't need animations for that. Hey, I want to do cool
+
+141
+0:10:53.540 --> 0:10:58.340
+You don't need animations for that. I've heard some people say like hey, I want animations so I can change the walk cycle
+
+142
+0:10:58.340 --> 0:11:03.260
+Did you know the walk cycle in years is entirely procedural you can control everything about it
+
+143
+0:11:03.260 --> 0:11:06.740
+If you know specifically which five boxes to check around and take a look at
+
+144
+0:11:06.740 --> 0:11:09.020
+You're looking for gates. They're inside
+
+145
+0:11:09.020 --> 0:11:14.940
+I don't know either the rik avatar or ike avatar those components always confuse me like which one's which
+
+146
+0:11:15.580 --> 0:11:17.860
+and you can do all sorts of things there like I
+
+147
+0:11:18.380 --> 0:11:23.380
+Played with it a little bit and I managed to get a walk cycle, which is basically just sort of giant leaps
+
+148
+0:11:24.260 --> 0:11:26.460
+You know like jumping from spot to spot
+
+149
+0:11:26.460 --> 0:11:32.540
+I also did one where my legs stretched awkwardly forwards like a sort of ballerina doing a prancy sort of leap
+
+150
+0:11:32.540 --> 0:11:39.940
+But for every step I did another one where my both legs were completely synchronized and just moved up and down like a pogo stick
+
+151
+0:11:40.140 --> 0:11:43.720
+You can do whatever you want there. No one's just taking the time to sort of
+
+152
+0:11:44.240 --> 0:11:48.760
+Write documentation my bad or play around with it in another level to sort of tell people about it
+
+153
+0:11:48.760 --> 0:11:55.320
+But go ahead take a look at gates. They are exceptionally cool, but people just go no one animations, and I'm like okay
+
+154
+0:11:55.320 --> 0:11:57.740
+Go play the gate system, and then they say no and then we go into the loop
+
+155
+0:11:57.740 --> 0:12:03.100
+So just ask more questions shadow coffee asks. What's future support can we look forward to in this?
+
+156
+0:12:04.260 --> 0:12:07.620
+They're asking particularly about hardware, so the interesting thing about hardware is
+
+157
+0:12:09.060 --> 0:12:14.260
+Fruits and the team would always want to implement hardware, but we have issues sort of communicating the
+
+158
+0:12:14.940 --> 0:12:17.240
+Priority and the sort of chance of us doing that
+
+159
+0:12:17.860 --> 0:12:20.980
+So we have a lot of products that are basically like you can implement us
+
+160
+0:12:20.980 --> 0:12:24.980
+Here's an SDK, and I don't want that like I want the actual device. I want to check it works and
+
+161
+0:12:24.980 --> 0:12:28.040
+Then they're like oh, that's cost us money to send it to you
+
+162
+0:12:28.040 --> 0:12:32.460
+So you can loan it to us like we got loaned the the fight the very facial tracker
+
+163
+0:12:32.460 --> 0:12:35.060
+It was on loan to us. We didn't own it fruits
+
+164
+0:12:35.060 --> 0:12:39.180
+Just got like it loaned to him he implemented the entire thing and then sent it back
+
+165
+0:12:39.180 --> 0:12:41.340
+And then he bought one when they actually came out like that
+
+166
+0:12:41.340 --> 0:12:43.220
+That's like how it worked and it was cool
+
+167
+0:12:43.220 --> 0:12:48.740
+But then that leads to the next problem, which is I have sent you this hardware, and you haven't implemented it
+
+168
+0:12:48.740 --> 0:12:50.740
+Why and it's like well just imagine like?
+
+169
+0:12:50.740 --> 0:12:56.460
+Fruits is mailroom just imagine. It's like a physical place rather than just I know somewhere in his house like fruits
+
+170
+0:12:56.460 --> 0:13:00.660
+It's mailroom, and it's full of like a hundred devices all stacked up in their boxes
+
+171
+0:13:00.660 --> 0:13:03.540
+And he wakes up one day, and he's like what do I want to do today?
+
+172
+0:13:03.540 --> 0:13:08.500
+Do I like grab a device off like the mailroom or do I want to work on something else?
+
+173
+0:13:08.500 --> 0:13:11.460
+And that's the way it works, so you need to basically be patient
+
+174
+0:13:12.020 --> 0:13:15.340
+Open a a gab issue for any device you'd like to be
+
+175
+0:13:15.500 --> 0:13:20.540
+Invented implemented and then get people to vote on it another thing we have there is a problem of adoption
+
+176
+0:13:20.540 --> 0:13:24.020
+So adoption of some devices is going to be quite low, so
+
+177
+0:13:24.940 --> 0:13:28.100
+We see adoption of the the haptic vests
+
+178
+0:13:28.100 --> 0:13:28.780
+They're cool
+
+179
+0:13:28.780 --> 0:13:33.700
+But I don't know about the adoption of them like I don't even have a percentage of them when it comes to smell and taste support
+
+180
+0:13:33.700 --> 0:13:37.900
+I see adoption of those being very low right now because of some of the limitations about them
+
+181
+0:13:38.660 --> 0:13:45.860
+The current really cool smell thing which Peter thinker works on with the company that they work for is great
+
+182
+0:13:45.860 --> 0:13:52.540
+But it requires a foresight what I mean by that is if you need I don't know a grassy meadow smell
+
+183
+0:13:52.580 --> 0:13:57.460
+You need to put that scent cartridge into the device which means you can't have spontaneity
+
+184
+0:13:57.460 --> 0:14:01.500
+so say the next MMC I do smell support and I have a
+
+185
+0:14:01.740 --> 0:14:07.220
+Cheese factory that you go through unless I pre-worn by I don't know sending a piece of paper to them and say hey
+
+186
+0:14:08.540 --> 0:14:12.020
+All of the cartridge slots need to be full of cheese one through five
+
+187
+0:14:12.020 --> 0:14:16.580
+Please make sure you do this before you go in like I've lost the spontaneity. I've lost the surprise
+
+188
+0:14:18.180 --> 0:14:24.200
+People talk a lot about molecular printing which is like a step beyond 3d printing which is where you print molecules like you're you know
+
+189
+0:14:24.200 --> 0:14:26.200
+You're printing the individual atoms
+
+190
+0:14:26.380 --> 0:14:31.420
+Maybe that's a way to go if you'd like to see what that might look like in the future go watch big hero 6 again
+
+191
+0:14:31.420 --> 0:14:33.420
+the girl with the
+
+192
+0:14:34.140 --> 0:14:39.020
+Handbag, I guess you could call it. That's a molecular printer, and she can create like all sorts of stuff
+
+193
+0:14:39.020 --> 0:14:41.020
+She uses throughout that film. It's super cool
+
+194
+0:14:41.020 --> 0:14:44.700
+That's where you would need to go for like spontaneity to exist in those
+
+195
+0:14:44.740 --> 0:14:49.300
+The same with taste because it's just like a chemical signal if full-dive VR occurs
+
+196
+0:14:49.300 --> 0:14:52.080
+You know hooking your brain up, please don't do that by the way look at soma
+
+197
+0:14:52.120 --> 0:14:58.080
+Then they won't need that of course because they're not recreating the taste using an actual fluid or the smell using natural fluid
+
+198
+0:14:58.080 --> 0:15:00.060
+They're just like sending false signals to the brain
+
+199
+0:15:00.060 --> 0:15:04.820
+Hey, you're eating strawberries even though no strawberries actually exist moving on to another question
+
+200
+0:15:04.820 --> 0:15:08.060
+You know how long will Neos last until it falls out of interesting?
+
+201
+0:15:08.060 --> 0:15:12.340
+I don't know like I said a hundred years. I can guarantee we'll be playing something different
+
+202
+0:15:12.340 --> 0:15:17.060
+It might still be made by freaks. Yes, although freaks. Yes will probably be dead in a hundred years
+
+203
+0:15:17.060 --> 0:15:19.060
+Let's just be honest like you know
+
+204
+0:15:19.740 --> 0:15:26.020
+No one's living that long right now, and maybe we are again see some of those for how terrifying that might be um
+
+205
+0:15:26.620 --> 0:15:31.740
+So it's probably gonna be something different who knows I don't know moving on was NFT
+
+206
+0:15:31.740 --> 0:15:35.180
+Hey, there's a question which says how easy is it to import source engine content?
+
+207
+0:15:35.180 --> 0:15:39.100
+I'm not sure I haven't seen anyone that does that um usually what happened those you would take
+
+208
+0:15:39.420 --> 0:15:45.180
+The if it's a map you take it out of hammer editor and export it as like a common model format
+
+209
+0:15:45.180 --> 0:15:47.580
+I know you can do that from source engine so export it to obj
+
+210
+0:15:47.820 --> 0:15:53.980
+FBX or whatever and then you can import it easily if you mean an animation or an avatar or anything like that probably a lot
+
+211
+0:15:53.980 --> 0:16:01.820
+More more difficulty what happens with main like many triple-a 3d engines is they do everything their way because they're an engine
+
+212
+0:16:01.820 --> 0:16:08.640
+For example the use of blend shapes in most triple-a systems isn't that common they use bones more
+
+213
+0:16:08.640 --> 0:16:11.400
+It's all about bones bones everywhere so many bones
+
+214
+0:16:13.280 --> 0:16:18.480
+So that's why when you see facial animations increase there, there's loads of bones associated with it
+
+215
+0:16:18.480 --> 0:16:21.200
+So that's not compatible with us right now
+
+216
+0:16:21.200 --> 0:16:25.080
+I mean you could technically hook them all up, but like there's a lot of bones there
+
+217
+0:16:25.080 --> 0:16:28.800
+I have some people that have taken bony faces and
+
+218
+0:16:28.800 --> 0:16:33.440
+And baked the bone positions into blend shapes, which is a really cool way of doing it
+
+219
+0:16:33.440 --> 0:16:35.440
+They add a bunch of bones to the face which allows
+
+220
+0:16:36.080 --> 0:16:41.440
+Easy dragging around of those vertices and then they bake those to blend shapes and that way they work with our systems easier
+
+221
+0:16:41.760 --> 0:16:44.720
+Um, but don't have those big bony faces
+
+222
+0:16:45.200 --> 0:16:48.320
+It's kind of interesting like the way the assets are prepared like people like oh
+
+223
+0:16:48.320 --> 0:16:53.840
+You're kind of good at 3d modeling prime and it's like I know how to make an anime avatar that is too lit
+
+224
+0:16:53.840 --> 0:16:58.720
+Look good inside Neos. I don't know how to make a triple-a apps asset that could go to a natural game
+
+225
+0:16:58.720 --> 0:17:02.360
+I have no idea moving forwards to a few more questions. So
+
+226
+0:17:03.360 --> 0:17:10.680
+Juby asks, I'd assume that Neos would one day be launched into the public spotlight when that time comes
+
+227
+0:17:10.680 --> 0:17:14.320
+What do you think will the integral element of keeping people interested in Neos?
+
+228
+0:17:15.240 --> 0:17:20.280
+I'd like to say freedom of expression and freedom of creativity a lot of people are like, yeah
+
+229
+0:17:20.280 --> 0:17:26.440
+It's just another social VR platform, but like yeah sure it is but like there's the freedom of expression and freedom of creativity there
+
+230
+0:17:26.440 --> 0:17:30.040
+But I think we do a lot better than some other social platforms
+
+231
+0:17:30.680 --> 0:17:33.120
+For example, they're not hiding on these platforms. They're great
+
+232
+0:17:33.120 --> 0:17:39.000
+They just have different sort of targets if you look at something like rec room, for example, everything's very blocky
+
+233
+0:17:39.000 --> 0:17:45.120
+It's it's great because you know, you can put stuff together there, but you can't do like crazy visual effects there
+
+234
+0:17:45.120 --> 0:17:48.960
+Yeah, you can't do crazy avatars there. Yeah, you can do that here
+
+235
+0:17:48.960 --> 0:17:55.360
+Um, you know stuff like that. We're a different platform for that. So like freedom of expression people will say like
+
+236
+0:17:57.160 --> 0:18:00.640
+The community are only there because like the game's cool, right?
+
+237
+0:18:01.000 --> 0:18:06.240
+If they form because the game is there and they'll hang on because the game with that but like they need that freedom
+
+238
+0:18:06.240 --> 0:18:09.440
+they need that sort of platform to exist on and
+
+239
+0:18:10.000 --> 0:18:13.000
+I think Neos is a good platform for that to exist on
+
+240
+0:18:13.000 --> 0:18:16.980
+I think all the other social VR platforms are good for that to exist on hopping forwards
+
+241
+0:18:16.980 --> 0:18:21.260
+A shadow coffee says what is summer summer is a game. It's a very good game
+
+242
+0:18:21.260 --> 0:18:26.780
+Just search it so ma exactly how you spelt it. Very very good game. Leave were caught up on questions
+
+243
+0:18:26.780 --> 0:18:28.780
+So I'm just gonna sit here in awkward silence
+
+244
+0:18:29.300 --> 0:18:33.380
+Okay, we have another question from shadow coffee that says I saw a feature that meta is working on
+
+245
+0:18:33.380 --> 0:18:37.460
+It basically puts down objects in places to ask the system to to do
+
+246
+0:18:37.940 --> 0:18:42.380
+Example like you ask put the tree in this spot or a bench in this spot voice activated world building
+
+247
+0:18:42.380 --> 0:18:46.000
+Is that something that we possible so you're talking there about sort of procedural generation?
+
+248
+0:18:46.000 --> 0:18:51.520
+Um, there is a lot of tools exist there. I saw business lawyers typing earlier. He is a
+
+249
+0:18:52.360 --> 0:18:58.520
+Load of tools which are great for creation like that. Then you added sort of voice activation
+
+250
+0:18:58.520 --> 0:19:03.320
+That is something probably we'll look at in the future, but like not not to that level
+
+251
+0:19:03.840 --> 0:19:11.760
+Like it's just like that's a very sort of complex compound question like to break it apart is like okay finding assets
+
+252
+0:19:11.760 --> 0:19:13.600
+So you want to find a bench cool that search, right?
+
+253
+0:19:13.600 --> 0:19:18.160
+So you'll be able to search through find a bench you want to put down cool placing it here
+
+254
+0:19:18.160 --> 0:19:20.760
+That's about sort of grabbing it and moving it there
+
+255
+0:19:21.000 --> 0:19:21.560
+All right
+
+256
+0:19:21.560 --> 0:19:26.960
+Those are the operations you're talking about and then you could you could add voice activation at any point during those
+
+257
+0:19:27.160 --> 0:19:33.120
+For example, you could say search for a bench cool and then search results appear for a bench, but like place it here
+
+258
+0:19:33.120 --> 0:19:36.480
+I think you want to do that with the actual tools. I don't know. Oh, yeah, it's very possible
+
+259
+0:19:36.480 --> 0:19:40.780
+Yeah, you can you can build that as well. I just I don't think it's useful like for search here
+
+260
+0:19:40.780 --> 0:19:48.240
+Sure, maybe voice activated searches but like put a bench here where they told me to like say the coordinates place a bench exactly
+
+261
+0:19:48.760 --> 0:19:52.480
+327 point two five five X by five hundred Y by
+
+262
+0:19:53.200 --> 0:19:58.640
+200 Z and you're like cool. I'd rather just like put that visually or I need to put it
+
+263
+0:19:58.640 --> 0:20:02.440
+I mean, maybe you can point like, you know put down a pin say here
+
+264
+0:20:02.480 --> 0:20:04.960
+But at that point you've already done like half the job
+
+265
+0:20:04.960 --> 0:20:08.080
+So just grab the bench and put it there gun Griffin asks
+
+266
+0:20:08.080 --> 0:20:13.760
+Can you inject a sound that we use as audio stream? I'd like to add an audio marker to synchronize a piece of media
+
+267
+0:20:15.100 --> 0:20:19.940
+Yes, but that wouldn't be inside. Yes. I have a very complicated audio setup
+
+268
+0:20:20.840 --> 0:20:26.400
+Lots of it is muted and disabled but there is actually a square button on my go XLR mini here
+
+269
+0:20:26.480 --> 0:20:31.600
+Which I've muted because it would send a loud beep noise of accidentally pushed it and that was hurting some people's ears
+
+270
+0:20:32.080 --> 0:20:35.160
+But you know like that's inbuilt into the hardware
+
+271
+0:20:35.160 --> 0:20:38.920
+I'm using to power my microphone and power my audio systems. It's nothing to do it
+
+272
+0:20:38.920 --> 0:20:41.680
+Yes, I don't think it should be in some cases in some cases
+
+273
+0:20:41.680 --> 0:20:47.220
+Maybe it could but like just virtual audio cable voice me a banana whatever you want to do it
+
+274
+0:20:47.220 --> 0:20:52.440
+Just like figure it out a quick note on this one, which will probably head over to the be considerate page
+
+275
+0:20:52.440 --> 0:20:59.380
+Do not under any circumstances ever play your Spotify playlist over your microphone channel. I
+
+276
+0:20:59.840 --> 0:21:01.080
+will
+
+277
+0:21:01.080 --> 0:21:03.220
+Eviscerate your existence from my world
+
+278
+0:21:03.220 --> 0:21:07.900
+I have had Spotify since 2013. I don't need to hear
+
+279
+0:21:08.540 --> 0:21:14.780
+Any of your music ever I want to hear my own music if you use an audio stream
+
+280
+0:21:14.780 --> 0:21:18.760
+Which is a feature that we have that allows you to do that without it being on your microphone
+
+281
+0:21:18.820 --> 0:21:24.380
+Then I have the choice to mute that audio stream and still hear your lovely voice, which is the actual thing
+
+282
+0:21:24.380 --> 0:21:27.900
+I want to hear I want to converse with you. I don't want to hear your trashy music
+
+283
+0:21:27.900 --> 0:21:32.100
+Thank you way too many people do that over in VR chat, and I just don't understand it
+
+284
+0:21:32.100 --> 0:21:36.980
+I went to a world in VR chat recently where there were three people next to each other Oh
+
+285
+0:21:37.540 --> 0:21:41.300
+Blasting over their microphone channel different genres of music and dancing to it
+
+286
+0:21:41.300 --> 0:21:43.220
+I presume they'd all muted each other
+
+287
+0:21:43.220 --> 0:21:45.700
+But I hadn't muted any of them because I'm trying to converse with them
+
+288
+0:21:45.700 --> 0:21:49.780
+And so it was just a cacophony of just shit, and I don't want to hear that
+
+289
+0:21:49.940 --> 0:21:54.140
+So don't do it over your microphone channel. Thank you moving on to the next question
+
+290
+0:21:54.140 --> 0:21:57.340
+Is it normal that a collider does it shrink or grow?
+
+291
+0:21:57.340 --> 0:22:03.300
+exactly the same size of an item I mess with when I shrink an object with colliders the collider kind of becomes
+
+292
+0:22:03.460 --> 0:22:08.060
+Bigger compared to how much I shrunk the object and when I make it bigger the collider uses volume
+
+293
+0:22:08.300 --> 0:22:10.300
+That would depend on how you've got it set up
+
+294
+0:22:10.740 --> 0:22:14.660
+Most colliders are procedural and if they're not they're mesh colliders at which point
+
+295
+0:22:14.660 --> 0:22:18.540
+They're directly tied to the vertices of the mesh, so they shouldn't really shrink or grow there
+
+296
+0:22:18.900 --> 0:22:21.180
+You'll also see a weird thing that happens with
+
+297
+0:22:21.180 --> 0:22:27.540
+Non uniform scaling never use none of uniform scaling if you do there are things that you need to do to make it work
+
+298
+0:22:27.540 --> 0:22:31.140
+Or you can just choose to not use it, and you'll never have to remember those things to do
+
+299
+0:22:31.420 --> 0:22:34.180
+I'd have to actually like see your object there to understand more
+
+300
+0:22:34.820 --> 0:22:37.140
+That doesn't sound normal, but I don't know what it's set up
+
+301
+0:22:37.140 --> 0:22:42.340
+It's causing that moving onwards nft hater says is snap to grid a thing in years there are very
+
+302
+0:22:42.860 --> 0:22:46.580
+Varieties of snap to grid so there are snapping systems for example
+
+303
+0:22:46.580 --> 0:22:52.300
+There is the builder tool bag happy which is a great tool for building stuff you can snap all sorts of things to a grid
+
+304
+0:22:52.300 --> 0:22:58.180
+There there is the green laser 3000 which is a little bit of an older tool made by coffee is to work on this team
+
+305
+0:22:59.060 --> 0:23:02.260
+That completely destroyed a world. I was working on when they were working on it
+
+306
+0:23:02.260 --> 0:23:09.220
+And they apologized profusely and put my world back to you. Thank you so much for that that does snapping to grid there is logic
+
+307
+0:23:09.780 --> 0:23:16.020
+Logics ray uvs ray uvs logics tip got that the right way around which does snapping to a grid for logics nodes
+
+308
+0:23:16.020 --> 0:23:20.100
+There is red print which does again snapping to a grid for logics nodes
+
+309
+0:23:20.940 --> 0:23:25.140
+There is native snapping which is sort of a weird feature that I would love to improve
+
+310
+0:23:25.140 --> 0:23:29.660
+But it exists people are like what are like if you inspect something and you get that pink
+
+311
+0:23:29.660 --> 0:23:35.620
+Cube that goes around it and it's got those yellow balls in the corner and everyone's like what are those yellow balls for I?
+
+312
+0:23:35.620 --> 0:23:39.340
+Have a video on exactly what those yellow balls are for because they actually do something
+
+313
+0:23:39.340 --> 0:23:41.520
+It's just a bit weird so that's snapping as well
+
+314
+0:23:41.520 --> 0:23:47.840
+Then there's snappers, which are things like putting on hats or bracelets, or you know gadgets on yourself asks, whatever
+
+315
+0:23:48.480 --> 0:23:52.720
+That's also snapping technically snapping to a grid because it snaps to an exact position
+
+316
+0:23:53.840 --> 0:24:00.440
+Depends what you mean and what you want next shadow coffee is asking will Neos have AI NPC bots to hang out and talk to
+
+317
+0:24:00.840 --> 0:24:06.700
+Yeah, uh you can build those we might have features in the future particularly animation features would be helpful there
+
+318
+0:24:06.700 --> 0:24:12.620
+But you can build them they already exist there is a bot just this comes to mind
+
+319
+0:24:12.620 --> 0:24:15.300
+There is basically like an NPC bot experience inside
+
+320
+0:24:16.500 --> 0:24:18.500
+the
+
+321
+0:24:19.260 --> 0:24:25.580
+Debug warrior that's a MSC entry that has a sort of tutorialized bot system. It's like here's how you play the game, right?
+
+322
+0:24:25.580 --> 0:24:27.580
+That's an NPC or bot
+
+323
+0:24:28.180 --> 0:24:32.220
+There are a couple a couple of social worlds which have bartenders in them
+
+324
+0:24:32.220 --> 0:24:37.700
+They're not really that smart when it comes to NPCs or bots, but you know they hang out. They talk to you
+
+325
+0:24:38.340 --> 0:24:40.660
+There is eco which is a map by
+
+326
+0:24:41.460 --> 0:24:43.460
+another MSC entry for who's by
+
+327
+0:24:44.180 --> 0:24:47.380
+That has a village of little foxes which mine
+
+328
+0:24:47.940 --> 0:24:51.320
+My ore and cut down trees and bring it back to the village. That's really cool
+
+329
+0:24:51.820 --> 0:24:54.540
+There's another MSC entry for the next year's MSC
+
+330
+0:24:55.340 --> 0:24:57.340
+So the eco one was
+
+331
+0:24:57.340 --> 0:25:00.940
+2020 or 21 remember for the most recent
+
+332
+0:25:00.940 --> 0:25:01.940
+and
+
+333
+0:25:01.940 --> 0:25:08.300
+This sorry the MSCs will blur together especially because the the distance between 21 and 22 is so short
+
+334
+0:25:09.380 --> 0:25:12.980
+There's another one which is the traffic system. I think that was 21
+
+335
+0:25:13.980 --> 0:25:17.060
+Which again had pathfinding AI and bots so that was cool
+
+336
+0:25:17.060 --> 0:25:21.300
+I get a lot of questions like this, so I'll kind of elaborate a little bit some people like can you do this?
+
+337
+0:25:21.300 --> 0:25:23.300
+The answer is they yeah, go build it
+
+338
+0:25:23.580 --> 0:25:28.720
+Yeah, go build it. Yeah, go build it like if you if you don't know if you can do something
+
+339
+0:25:28.720 --> 0:25:36.340
+Just go try and build it or ask can I build this not like will this happen can I build it sure brightness asks?
+
+340
+0:25:36.340 --> 0:25:41.020
+Why is there a launch desktop mode option in the steam Neos launch options if it breaks the game?
+
+341
+0:25:41.020 --> 0:25:46.220
+I straight-up use launch Neos and it works better launch desktop version doesn't break my game break sure game
+
+342
+0:25:46.220 --> 0:25:52.220
+That sounds like a bug you should submit a bug report on our github the reason why those desktop options exist there are because
+
+343
+0:25:52.820 --> 0:25:57.740
+Once you have a headset you need the options to not use it so yes
+
+344
+0:25:57.740 --> 0:26:02.380
+Well by default when you don't use any of those launch options when you launch it. It'll be like cool
+
+345
+0:26:02.380 --> 0:26:06.840
+I have detected that you have a headset plugged in I know you're not currently wearing it. I don't care
+
+346
+0:26:06.940 --> 0:26:12.460
+I'm gonna launch into VR mode, and it's like sometimes you don't want that sometimes you want to hop on desktop mode
+
+347
+0:26:12.580 --> 0:26:19.100
+So that launch desktop mode there is is mostly for VR users that have VR headsets and want to launch in desktop mode because they don't
+
+348
+0:26:19.100 --> 0:26:22.260
+Want to play VR at that particular time? That's why all those launch options are there
+
+349
+0:26:22.860 --> 0:26:26.680
+The one that forces you into steam VR mode that's there for people who run
+
+350
+0:26:26.680 --> 0:26:28.400
+oculus
+
+351
+0:26:28.400 --> 0:26:33.300
+Headsets, but with full body tracking using steam right they need steam to run
+
+352
+0:26:33.920 --> 0:26:38.200
+But Neos will by default say yo you've got an oculus headset
+
+353
+0:26:38.200 --> 0:26:43.800
+I'll run an oculus VR mode not steam VR mode you like buying to run in steam VR mode because I do full body tracking with
+
+354
+0:26:43.800 --> 0:26:47.600
+Steam stuff so I need you to technically run both and so that's what that's for
+
+355
+0:26:47.880 --> 0:26:53.100
+Torazo says once the ability to bookmark worlds you can actually do that. It's just a little bit weird right now
+
+356
+0:26:53.100 --> 0:26:56.720
+It's really weird right now in the way that you do it, so if you want to bookmark a world
+
+357
+0:26:57.560 --> 0:27:03.640
+Get the world up for it and save it to a folder tada bookmarks. It's a really weird way to do it
+
+358
+0:27:03.640 --> 0:27:09.600
+It's not like any sort of bookmark that I would see but if you just save the world up to a folder
+
+359
+0:27:09.600 --> 0:27:14.080
+If you've been marked it now you haven't saved a copy of that world when you save the world off
+
+360
+0:27:14.080 --> 0:27:15.160
+So don't worry about your file space
+
+361
+0:27:15.160 --> 0:27:17.160
+You've just saved a literal orb
+
+362
+0:27:17.160 --> 0:27:22.200
+Which has the link to the world in it if you do save copy save as or something like that
+
+363
+0:27:22.200 --> 0:27:26.600
+Then you've you've you know that will affect your your file storage
+
+364
+0:27:26.600 --> 0:27:31.040
+But if you just save a copy of the world orb and the world orb itself you've got a favorite list
+
+365
+0:27:31.200 --> 0:27:36.080
+It is more involved fuzzy. Yes. I did say it's not ideal, but you can do it
+
+366
+0:27:36.080 --> 0:27:41.760
+Technically so brightness adds to the question about the launch desktop mode saying it would basically cut the connection between me and some users
+
+367
+0:27:41.760 --> 0:27:46.560
+They'll get frozen on my end it also completely prevent me from seeing things that people would spawn that is a bug
+
+368
+0:27:46.560 --> 0:27:49.200
+That's nothing to do with that desktop mode option. That is a bug
+
+369
+0:27:49.200 --> 0:27:53.720
+That's another thing that continues to happen with users and trust me. I don't blame you for it
+
+370
+0:27:53.720 --> 0:28:00.400
+It's just something that happens you see something weird, and then you use like your detective powers
+
+371
+0:28:00.400 --> 0:28:03.560
+You're Sherlock Holmes ness, and you're like it must have been caused by this
+
+372
+0:28:03.920 --> 0:28:08.640
+So the fact that I have an empty bag of Haribo gummy bears on my desk is the reason why Neos didn't start
+
+373
+0:28:09.000 --> 0:28:12.560
+Usually not the case so when you come across something that doesn't make sense
+
+374
+0:28:13.000 --> 0:28:15.640
+Please make a bug report and we'll be able to take a look at it
+
+375
+0:28:15.640 --> 0:28:22.720
+Additionally when people are making bug reports, please make sure you provide the entire log file. Do not provide screenshots of the log file
+
+376
+0:28:22.720 --> 0:28:23.920
+I can't read screenshots
+
+377
+0:28:23.920 --> 0:28:29.480
+I can't copy and paste screenshots into our code base or into Google or into wherever I need to don't provide
+
+378
+0:28:30.040 --> 0:28:34.100
+Segments of the log file as well some people like this error is surely the problem
+
+379
+0:28:34.100 --> 0:28:38.560
+And I look and like that's the error that happens every five seconds inside Neos because of some bug we haven't fixed
+
+380
+0:28:38.680 --> 0:28:43.920
+And then like two lines below that is the stuff that we need you haven't copied and pasted that one in your message
+
+381
+0:28:43.920 --> 0:28:46.120
+You've just copy and pasted one bug. I can't see it
+
+382
+0:28:46.200 --> 0:28:53.320
+So just the whole tire log file in your bug report, and if you don't make a bug report. We can't fix it
+
+383
+0:28:53.320 --> 0:28:54.440
+We don't know about it
+
+384
+0:28:54.440 --> 0:28:56.140
+Even if you come up to us in game
+
+385
+0:28:56.140 --> 0:29:01.640
+And you tell us about a problem that you're having you might think that's reported you don't need to make a bug report
+
+386
+0:29:01.640 --> 0:29:07.040
+That's incorrect unfortunately because we're human we're gonna forget about that bug report because we're in game
+
+387
+0:29:07.040 --> 0:29:11.120
+We're busy what you need to do is go to the github make an official report
+
+388
+0:29:11.120 --> 0:29:15.800
+Then come and speak to us about it because then we'll be able to like tie the two conversations together otherwise
+
+389
+0:29:15.800 --> 0:29:20.760
+I'm literally just gonna forget. I will try my best to remember. I'm not being rude or anything. I'm just gonna forget
+
+390
+0:29:20.760 --> 0:29:26.120
+It's just human nature shadow coffee says will Neos crypto coin be worth more than Bitcoin at some point
+
+391
+0:29:26.120 --> 0:29:28.120
+Oh, no, probably not see announcements
+
+392
+0:29:28.920 --> 0:29:32.320
+Double stick says do you think Neos is growth and development will progress?
+
+393
+0:29:32.320 --> 0:29:37.160
+It's the main will rate with a closed source development model yes if we can fix hashtag announcements
+
+394
+0:29:37.160 --> 0:29:40.800
+Open source development is an option, but it's not a mandate
+
+395
+0:29:40.800 --> 0:29:46.160
+And I can't stand people that like oh it must be open source because XYZ reason doesn't need to be like is
+
+396
+0:29:47.640 --> 0:29:54.280
+League of Legends open source node and how much money they made just sort of painting the same champions you play every day different colors
+
+397
+0:29:54.440 --> 0:30:00.680
+Like oh, we're gonna do today prime module you do today. What if we painted them pink? Oh, yeah paint them pink
+
+398
+0:30:00.680 --> 0:30:08.520
+Pink paint the pink charge another five bucks for a pink version of this character cool, and they make thousands and hundreds of you know
+
+399
+0:30:08.520 --> 0:30:10.520
+They make millions of dollars that close source
+
+400
+0:30:10.760 --> 0:30:14.960
+So just it is the time here GB if you have a question brightness of your question
+
+401
+0:30:14.960 --> 0:30:16.960
+Please continue to type otherwise no more questions
+
+402
+0:30:17.200 --> 0:30:22.200
+So double six is there a plan to a born board additional developers to the nearest team in the foreseeable future
+
+403
+0:30:22.360 --> 0:30:28.900
+No, when we need them will get them however we can that's also weird because like that gets in the sort of ray of like
+
+404
+0:30:28.900 --> 0:30:33.780
+Are they paid employees or are they not or are they volunteers if they're volunteers? What are they doing?
+
+405
+0:30:33.780 --> 0:30:37.700
+Are they just know coming on board just to be like yo?
+
+406
+0:30:37.700 --> 0:30:39.700
+I want to come on board and work on this one
+
+407
+0:30:39.980 --> 0:30:45.020
+This one feature and then do nothing or are they coming on board to do exactly what we need to do or are we paying?
+
+408
+0:30:45.020 --> 0:30:47.020
+them for paying them are they good and
+
+409
+0:30:47.420 --> 0:30:50.600
+It's especially right now. Okay, so GBs question
+
+410
+0:30:50.600 --> 0:30:55.700
+We've seen the application applications for education purposes and if you see bill plans on the future to expand to other fields
+
+411
+0:30:55.700 --> 0:30:58.540
+Health care we have training on like it's already happening
+
+412
+0:30:59.460 --> 0:31:08.500
+again, you have to sort of say go do it and really like, you know, drum that into people there is nothing stopping you do be or
+
+413
+0:31:09.300 --> 0:31:13.620
+Double sticks or shadow coffee or chroma up there or brightness from tomorrow?
+
+414
+0:31:14.180 --> 0:31:18.580
+Going to a research institution and saying you should use Neos for
+
+415
+0:31:20.540 --> 0:31:23.540
+Cancer research you should use Neos for
+
+416
+0:31:23.540 --> 0:31:27.940
+Or psychological research. I was reading a paper the other day about
+
+417
+0:31:29.460 --> 0:31:35.260
+Exploring and researching how people with autism were processing various sort of scenes and
+
+418
+0:31:36.860 --> 0:31:43.180
+Like environments they weren't using Neos, but they could easily use Neos. And so what they did was they had a kind of train station
+
+419
+0:31:43.980 --> 0:31:45.980
+model or mock or room and
+
+420
+0:31:46.340 --> 0:31:52.740
+They would change subtle things about the room. For example, they had a tiled floor that was black white tiled
+
+421
+0:31:52.740 --> 0:31:58.460
+almost like a chessboard and then they would do eye tracking using the eye tracking features of the headset and
+
+422
+0:31:59.180 --> 0:32:04.100
+See how you know people with autism without autism would process that environment
+
+423
+0:32:04.500 --> 0:32:11.480
+because you get people that are hyper observant and people that are not hyper observant and you may notice that hey the
+
+424
+0:32:12.180 --> 0:32:15.860
+Some users would basically scan the chessboard like it was a chessboard
+
+425
+0:32:16.380 --> 0:32:20.820
+even though it's just a tiled floor and so then they removed the floor and
+
+426
+0:32:20.820 --> 0:32:26.620
+They were like, okay, what does the eye tracking do now that you know, the floor has been removed or has been changed
+
+427
+0:32:26.660 --> 0:32:27.300
+You know
+
+428
+0:32:27.300 --> 0:32:33.660
+They could put groups of people within the environment and then sort of ask or ask the user to kind of navigate through that environment
+
+429
+0:32:33.660 --> 0:32:36.100
+It's a great paper. I don't remember what the conclusion was or anything
+
+430
+0:32:36.100 --> 0:32:40.440
+I just remember existed but the point is you could do that easily with a couple of like
+
+431
+0:32:40.980 --> 0:32:45.860
+Toggle boxes and check boxes in Neos easily like incredibly easily
+
+432
+0:32:46.300 --> 0:32:50.420
+Some of that stuff's already happening from the community. We already have research in there
+
+433
+0:32:50.420 --> 0:32:56.540
+There's already a couple of scientific papers. Unfortunately don't mention Neos by name, but they used Neos and I'm aware of them
+
+434
+0:32:57.060 --> 0:33:02.580
+Neos has also been in the newspaper again not mentioned by name. I was mentioned by name though. So it's already happening
+
+435
+0:33:02.580 --> 0:33:07.180
+I think though to expand your question back into sort of realms of what the team can do
+
+436
+0:33:07.900 --> 0:33:14.620
+The team could have someone that does that stuff with that community of researchers
+
+437
+0:33:14.620 --> 0:33:16.740
+Oh, wait, they already do it's me
+
+438
+0:33:16.740 --> 0:33:23.140
+Hello, if we were a more traditional company with the growth and the need to do it and the budget to do it
+
+439
+0:33:23.140 --> 0:33:30.140
+I would predict that maybe in the future we would hire someone full-time to be like a community liaison for that particular market
+
+440
+0:33:30.460 --> 0:33:33.060
+At which point they would be helping
+
+441
+0:33:34.220 --> 0:33:42.220
+The community and users and companies of in the Neos community do more research using Neos that actual job role exists at unity
+
+442
+0:33:42.220 --> 0:33:45.320
+For example, I was looking the other day. They have a job role open it for right now
+
+443
+0:33:45.320 --> 0:33:52.300
+It would be a product manager who just does that they help our educational and nonprofit products projects using unity
+
+444
+0:33:52.380 --> 0:33:58.980
+So if we were big enough to need that we would get it until we are just go do it go do it
+
+445
+0:33:58.980 --> 0:34:00.260
+There's nothing stopping you
+
+446
+0:34:00.260 --> 0:34:06.980
+I was calculating the angular velocity of an eyeball a couple of months ago fuzzy says is there an end in sight for halted updates?
+
+447
+0:34:07.500 --> 0:34:10.540
+See the announcer's channel with that. I believe we're out of questions
+
+448
+0:34:10.540 --> 0:34:15.780
+We go ahead and end things off here and speak to you later. If any further questions, please drop from the discord
+
+449
+0:34:15.780 --> 0:34:41.580
+DM me block my DMS check the github check the wiki or just speak in the discord and I will speak to you later. Bye. Bye
+

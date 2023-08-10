@@ -1,0 +1,1212 @@
+1
+0:00:00.000 --> 0:00:04.320
+All right, welcome to office hours. It is 4 p.m. So we'll go ahead and start if you have
+
+2
+0:00:05.040 --> 0:00:08.840
+Any questions, please drop them in text a channel and I'll get to them as soon as I can
+
+3
+0:00:08.880 --> 0:00:13.360
+We are recording but their recording levels are showing is really low for some reason, but I hope it's good
+
+4
+0:00:13.360 --> 0:00:17.280
+I mean like the the monitor on on audacity says it's good. So that's cool
+
+5
+0:00:17.280 --> 0:00:21.680
+If not, I'll just boost it there any issues in audio. Let me know. I did tweak things the other day
+
+6
+0:00:21.680 --> 0:00:27.840
+Oh, thank you. Lex like put some questions into the form. I do sometimes forget to perform this to me. I can lost a cough
+
+7
+0:00:27.840 --> 0:00:32.960
+Okay, we're done coughing. I can go ahead and look at that form. Oh, there is a lot of questions
+
+8
+0:00:32.960 --> 0:00:37.960
+That's a question for moderation. So I will go ahead and put that here Sunday. Whatever they do. Anyway, um
+
+9
+0:00:38.720 --> 0:00:40.720
+Okay, two questions from Lex. Lex says
+
+10
+0:00:42.240 --> 0:00:48.360
+How should we go about documenting legacy features or features that used to be inside Neos should documentation include when the feature was deprecated?
+
+11
+0:00:48.360 --> 0:00:50.360
+And what was placed for us all superseded with?
+
+12
+0:00:50.880 --> 0:00:54.680
+Yes, you should document them if you'd like to if it's removed entirely
+
+13
+0:00:54.680 --> 0:00:59.400
+There's not really like a need to but if you want to for historical purposes, go ahead and go for it
+
+14
+0:00:59.760 --> 0:01:04.360
+You can like put a notice on the page that says it's deprecated. Yes, lots of coughing today
+
+15
+0:01:06.520 --> 0:01:11.320
+But notice on the page that is deprecated usually a wiki would have a template like
+
+16
+0:01:11.480 --> 0:01:14.360
+Deprecate which would then put like the same consistent banner on them
+
+17
+0:01:14.360 --> 0:01:16.520
+I don't know if we got one and then check it up there
+
+18
+0:01:16.520 --> 0:01:18.240
+The only thing that comes to mind that we you know
+
+19
+0:01:18.240 --> 0:01:21.680
+Might want to document is the legacy of the sphere detector cuz that was such a cool node
+
+20
+0:01:21.680 --> 0:01:28.480
+Which is entirely not performant not performant like don't use I mean you can't now but even when it was there don't very bad
+
+21
+0:01:28.480 --> 0:01:34.100
+Um for that question on to the second question, which is would be good idea to document update logs on the wiki
+
+22
+0:01:34.100 --> 0:01:36.440
+Yes, there was actually a lot of update logs done
+
+23
+0:01:36.960 --> 0:01:42.960
+on bit man Bob was a hotel room or something and they didn't really have much to do and so they decided to
+
+24
+0:01:44.640 --> 0:01:48.140
+They decided to just do that for lots of the updates on there
+
+25
+0:01:48.140 --> 0:01:51.120
+So there is a page somewhere on the wiki that has a lot of the updates
+
+26
+0:01:51.120 --> 0:01:54.720
+Um bit man didn't keep that up-to-date with the the changing times
+
+27
+0:01:54.720 --> 0:01:58.260
+But we have an ample opportunity to make that up to coming up me updates for a while
+
+28
+0:01:58.260 --> 0:02:03.080
+So go for it. If you'd like to just find the old page copy the formatting go for it
+
+29
+0:02:03.080 --> 0:02:08.840
+So that is the the questions on just got a new tape to the date that I did those at those
+
+30
+0:02:08.840 --> 0:02:14.520
+It's already uh, it's already July, you know, I remember it being in January and I always have that feeling in January
+
+31
+0:02:14.520 --> 0:02:16.820
+I'm just like this year's gonna be so long and it's just like ah
+
+32
+0:02:17.440 --> 0:02:19.440
+Nope, it's it's it's July
+
+33
+0:02:19.440 --> 0:02:20.520
+Haha
+
+34
+0:02:20.520 --> 0:02:23.360
+Aaron this what did the sphere detector do and
+
+35
+0:02:23.640 --> 0:02:29.520
+What should we do in place of the sphere detector was an active sphere collider that existed in the world?
+
+36
+0:02:29.520 --> 0:02:32.960
+Like it was the only node that did this it had like a visual world
+
+37
+0:02:33.240 --> 0:02:36.820
+representation at a circle that would be in the world of and anything that was placed
+
+38
+0:02:37.200 --> 0:02:41.280
+Inside that sphere or touched that sphere would then cause an event coming out of the actor node
+
+39
+0:02:42.080 --> 0:02:44.080
+it's bad because
+
+40
+0:02:44.120 --> 0:02:47.200
+It wasn't really clear what happened if you pack it like if you pack it
+
+41
+0:02:47.200 --> 0:02:50.760
+I didn't think it would work, but it might have left that sphere collider there
+
+42
+0:02:51.080 --> 0:02:56.760
+What you should use in in place of that is colliders that are set up for your particular kitchen
+
+43
+0:02:57.560 --> 0:03:03.540
+Active colliders are totally fine. Active mesh colliders are not fine. See my video tutorial series on colliders for more information
+
+44
+0:03:03.720 --> 0:03:10.520
+I still regularly hear people say that active colliders are bad and should be avoided. No go away
+
+45
+0:03:10.840 --> 0:03:16.200
+A good example here, which I always give is imagine that you are mining so you're doing you know
+
+46
+0:03:16.200 --> 0:03:20.240
+Like mining you name it RPG mining you have a pickaxe
+
+47
+0:03:20.240 --> 0:03:24.400
+There is an ore vein in front of you. You want to whack it with the pickaxe?
+
+48
+0:03:24.720 --> 0:03:31.080
+some people were like doing crazy stuff like I'm gonna shoot raycasts at the tip of the pickaxe and
+
+49
+0:03:31.680 --> 0:03:34.720
+Detect if they hit the ore vein and then based on the distance
+
+50
+0:03:34.720 --> 0:03:40.140
+I know if you're actually hitting it just like what what you're doing there is basically emulating colliders instead
+
+51
+0:03:40.140 --> 0:03:43.160
+What you should do is place a small sphere collider
+
+52
+0:03:43.160 --> 0:03:46.480
+Or capsule capsule might be better depending on the gameplay
+
+53
+0:03:46.480 --> 0:03:51.560
+You're going for on the tip of the pickaxe that is only active when the pickaxe is being held
+
+54
+0:03:51.560 --> 0:03:55.100
+So let's say it's on your back because it's like back equipped or on the floor
+
+55
+0:03:55.200 --> 0:04:02.060
+that collider isn't active or maybe you can detect hey there in the mind and when that sphere collider that's active collides with the
+
+56
+0:04:03.160 --> 0:04:05.600
+Collider of the of the ore you could be like cool
+
+57
+0:04:05.600 --> 0:04:09.500
+They hit the ore and then you can count the hits or make noises whatever you want to do
+
+58
+0:04:09.500 --> 0:04:14.060
+Perfectly fine to use an active collider there. In fact, I don't really know how you do it other than you know
+
+59
+0:04:14.060 --> 0:04:16.060
+I'm gonna shoot raycasts out the
+
+60
+0:04:16.860 --> 0:04:23.700
+Collider the pickaxe which is essentially what colliders do colliders in a lot of cases are like actually raycast for sphere colliders
+
+61
+0:04:23.700 --> 0:04:25.700
+Which are the most efficient colliders that are out there?
+
+62
+0:04:26.820 --> 0:04:31.020
+They do like overlap sphere these which should we just tutorial that pickaxe
+
+63
+0:04:31.660 --> 0:04:35.140
+Example, I keep giving people can see it. You can see an example of it in
+
+64
+0:04:35.140 --> 0:04:39.700
+One of the recent creator gems is the one about bread called carb jam or something
+
+65
+0:04:40.820 --> 0:04:47.900
+Everyone was making this sort of bread stuff. There was a user a Japanese user cannot remember their name fantastic job, whoever you are
+
+66
+0:04:47.900 --> 0:04:50.860
+I'm sorry name. They made this bread
+
+67
+0:04:51.460 --> 0:04:58.420
+Kneading thing you go up into an oven and you can like pull out some flour add some water and then you actually need it
+
+68
+0:04:58.420 --> 0:05:03.580
+It's just like shape keys that like distort this sort of oval of bread when you're like putting your hands on it
+
+69
+0:05:03.580 --> 0:05:07.500
+It feels kind of good and then you can cook the bread. I'm like, well, where are they getting the flour from?
+
+70
+0:05:07.500 --> 0:05:12.540
+That's why I made this like farming game a really mean one where you can grow
+
+71
+0:05:13.300 --> 0:05:16.500
+You can grow wheat. It's all very basic because it's create a gem
+
+72
+0:05:16.500 --> 0:05:19.820
+So I just used you know free assets that didn't really bother what it looks
+
+73
+0:05:19.820 --> 0:05:25.740
+But once a single crop of wheat is grown you use a scythe to harvest it and that does the active collider thing
+
+74
+0:05:25.740 --> 0:05:31.180
+I basically turn on the anti-collider when you're holding the scythe if it hits a fully grown wheat column
+
+75
+0:05:31.180 --> 0:05:34.540
+It will delete the wheat column replace it with a wheat bale
+
+76
+0:05:34.780 --> 0:05:40.020
+Grind that now before you say I know that's not how flour is made, but this is a video game
+
+77
+0:05:40.020 --> 0:05:45.220
+We were making it simple because of course in wheat you want to separate like the top of the plant from the store
+
+78
+0:05:45.220 --> 0:05:51.160
+That's why windmills exist as they did it more automatically for you. Those are the questions we have right now
+
+79
+0:05:51.160 --> 0:05:55.760
+I know I was what you're not about wheat and farming for a long time. So if you have any of those you
+
+80
+0:05:55.760 --> 0:05:59.540
+Oh, I love rumors. So we have a rumor from electronics. Let me go ahead and read this out
+
+81
+0:05:59.540 --> 0:06:06.580
+So electronic says there is a rumor that you cannot add touch tips or only add partial connection touch tips to your avatar for security reasons
+
+82
+0:06:06.580 --> 0:06:09.980
+However, in my and some of the users testing they work for all kind of buttons
+
+83
+0:06:09.980 --> 0:06:11.820
+But it seems you just need hand data component
+
+84
+0:06:11.820 --> 0:06:20.140
+Um, there is a flow which will disable a touch tip that you add based on a couple of sort of patterns or something like that
+
+85
+0:06:20.260 --> 0:06:25.940
+This isn't a rumor by the way, like when everyone's like, oh, there's a rumor that like well bad stinky poo-poo thing
+
+86
+0:06:25.940 --> 0:06:33.380
+I'm like, that's not a rumor like that's documented behavior that exists as a feature. Anyway, what I'm saying is if you add a touch tip to
+
+87
+0:06:34.220 --> 0:06:36.500
+Another area on rabbit are there is a way to make it work
+
+88
+0:06:37.020 --> 0:06:42.340
+But touch tips will have basically like a safety switch in them that will be tripped very very quickly
+
+89
+0:06:42.860 --> 0:06:44.860
+That prevents it from being used
+
+90
+0:06:45.500 --> 0:06:47.900
+Remember in the exact qualifications there
+
+91
+0:06:47.900 --> 0:06:51.220
+I don't think I should give those out because then there's easy ways to get around it
+
+92
+0:06:51.220 --> 0:06:56.460
+But the security preventative measure on those touch tips and the way that that works you can thank me for that
+
+93
+0:06:56.540 --> 0:07:01.140
+Like I am the one who found that bug a long time ago, and that's how mr
+
+94
+0:07:01.140 --> 0:07:05.700
+fruit I was looking to try and export a text file from a
+
+95
+0:07:05.900 --> 0:07:11.780
+scientific experiment and I figured out that if you added a touch tip and a button you could kind of fake it and then you
+
+96
+0:07:11.780 --> 0:07:17.020
+Could arbitrarily write files to someone's computer and I giggled for a bit and then immediately reported it. I think my
+
+97
+0:07:17.860 --> 0:07:19.380
+directions for
+
+98
+0:07:19.380 --> 0:07:24.020
+Making touch tips work like I know some people want them on their feet or their nose, etc
+
+99
+0:07:25.460 --> 0:07:26.620
+but
+
+100
+0:07:26.620 --> 0:07:30.980
+you need to add the hand component the touch tip component and then
+
+101
+0:07:32.260 --> 0:07:35.300
+Save and re-equip the avatar and that should but it should hook it together
+
+102
+0:07:35.820 --> 0:07:41.640
+If it basically like if that component if a hand component or the the touch it component see something fishy
+
+103
+0:07:41.640 --> 0:07:47.820
+Then they'll just like disable themselves and then she'd like re-load the object cetera. Yeah, I'm getting kind of like sick of like
+
+104
+0:07:47.820 --> 0:07:54.060
+Oh, there's a rumor like our space. We're here. That's what here for there's a rumor that Neos is doing Bitcoin mining
+
+105
+0:07:54.180 --> 0:07:57.900
+We're not like you can actually check. Yeah, it's good. It's not your fault that Tron is
+
+106
+0:07:57.900 --> 0:07:59.500
+It's just like the way society works
+
+107
+0:07:59.500 --> 0:08:03.380
+Especially the way a community works in a game like this which are that many updates recently
+
+108
+0:08:03.380 --> 0:08:07.940
+I heard this Bob heard this Janice at the circle circle circle a little bit of telephone
+
+109
+0:08:08.700 --> 0:08:12.700
+And you end up with stuff like that back in my day would call that game Chinese whispers
+
+110
+0:08:12.700 --> 0:08:17.540
+That's where my children would sit in a circle and then some person would come up with something and then they'd whisper it around
+
+111
+0:08:17.540 --> 0:08:20.820
+In a circle and come back and it would usually get distorted
+
+112
+0:08:20.820 --> 0:08:24.980
+I feel like that drawing game where you handed like a drawing around and say redraw it
+
+113
+0:08:24.980 --> 0:08:27.380
+So, you know, I would get a card that said
+
+114
+0:08:28.020 --> 0:08:33.540
+Monkey with a banana I would draw it and someone else might see that as like monkey of a microphone and it goes round
+
+115
+0:08:33.540 --> 0:08:33.940
+Yeah
+
+116
+0:08:33.940 --> 0:08:38.620
+We you I say we used to call it Chinese whispers because I was informed a few years back that we don't call it that
+
+117
+0:08:38.620 --> 0:08:43.860
+Any children call that a game of telephone and use that as a corporate phrase now as well when when there's a misunderstanding
+
+118
+0:08:43.860 --> 0:08:50.140
+As it goes through like multiple layers of like corporate hierarchy, we call that a telephone game, you know
+
+119
+0:08:50.140 --> 0:08:52.620
+Maybe like my manager's manager would be like hey
+
+120
+0:08:52.620 --> 0:08:56.820
+We need to get this done and he says are this done and then I'm talking to someone to try and get it done
+
+121
+0:08:57.020 --> 0:09:01.700
+Yeah, it's crazy. Anyway, so now I've got a game of telephone. Yeah, I've heard both too like this
+
+122
+0:09:01.700 --> 0:09:03.700
+I'm just I'm just very interested. I
+
+123
+0:09:04.500 --> 0:09:07.260
+There are a bunch of terms that where I work which are
+
+124
+0:09:07.780 --> 0:09:11.140
+You know on a list and those lists are like instead of saying this say this
+
+125
+0:09:11.140 --> 0:09:14.540
+so you'll have seen that github recently changed the
+
+126
+0:09:15.740 --> 0:09:21.900
+Main branch that is used that's like the main development drunch. They changed it from being called master to being called main
+
+127
+0:09:22.900 --> 0:09:23.900
+and
+
+128
+0:09:23.900 --> 0:09:29.220
+the term like whitelist and blacklist is like avoided usually now we use allow list or
+
+129
+0:09:29.860 --> 0:09:31.860
+denialist or
+
+130
+0:09:31.860 --> 0:09:36.740
+As a friend wants to call it the no-no list and the yeah. Yeah list, which I think is amazing
+
+131
+0:09:36.820 --> 0:09:38.820
+You don't want to be on my no-no list
+
+132
+0:09:38.820 --> 0:09:40.820
+No-no list
+
+133
+0:09:41.140 --> 0:09:45.420
+Anyway other questions so Kyra says bring a good question from elsewhere
+
+134
+0:09:46.060 --> 0:09:50.940
+What's the reason behind me as having multiple cache locations for data for download assets or whatever the terminology is used?
+
+135
+0:09:50.940 --> 0:09:52.540
+There aren't actually two
+
+136
+0:09:52.540 --> 0:09:58.500
+Cache location the important thing to note here is and I'm gonna do a preamble here, which is completely off track of your question
+
+137
+0:09:58.500 --> 0:10:02.340
+I know stop deleting your data location
+
+138
+0:10:02.340 --> 0:10:03.460
+You can delete your cache
+
+139
+0:10:03.460 --> 0:10:08.260
+However, you want stop deleting your data location and stop deleting both of those to fix a problem
+
+140
+0:10:08.260 --> 0:10:12.860
+Like the one reason I allow you to delete your cache is if it's getting too big and you need hard drive space
+
+141
+0:10:12.860 --> 0:10:18.580
+That's like the one reason you need to people like oh, no, my knee has crashed once today
+
+142
+0:10:18.580 --> 0:10:23.660
+I will delete everything and reinstall the game. Please don't do that. Doesn't help me out doesn't help anyone out
+
+143
+0:10:23.660 --> 0:10:27.860
+I have no idea what's going on. Stop doing it. Just follow the troubleshooting steps
+
+144
+0:10:27.860 --> 0:10:32.420
+We have which mostly is asking questions and help and you'll see no one in there is like believe your gosh
+
+145
+0:10:32.740 --> 0:10:37.580
+Sometimes you need to and that's why it becomes a sort of like a solution people like maybe that
+
+146
+0:10:37.580 --> 0:10:42.060
+But that's usually once we've done a bunch of other steps to see if we can get away without doing it
+
+147
+0:10:42.060 --> 0:10:44.060
+But on to the actual question, there are two locations
+
+148
+0:10:44.060 --> 0:10:49.580
+There is the cache the cache will store downloaded files from an assets from assets and stuff like that
+
+149
+0:10:49.580 --> 0:10:54.420
+So if you go to my world and in my world, there's a model and textures of a cheese sandwich
+
+150
+0:10:54.940 --> 0:10:56.340
+That's downloaded to your cache
+
+151
+0:10:56.340 --> 0:10:59.060
+The reason it does that is so that like hey if you go back to that world
+
+152
+0:10:59.060 --> 0:11:01.380
+Do you see that I am again? You don't need to redownload that
+
+153
+0:11:01.380 --> 0:11:06.540
+Information from me is cloud you have in your computer. You can just load it. That's the cache
+
+154
+0:11:06.540 --> 0:11:09.940
+the secondary location is the data folder which has a
+
+155
+0:11:11.060 --> 0:11:18.220
+Database in it and a bunch of other stuff and also has anything stored locally if you store anything in your local home
+
+156
+0:11:18.260 --> 0:11:22.620
+Both worlds and items they are stored literally in that folder
+
+157
+0:11:22.620 --> 0:11:29.900
+And so by deleting that you're deleting basically everything Neos knows about you and any items that you have stored locally
+
+158
+0:11:29.900 --> 0:11:35.820
+That's why I say don't do it also stored in that location is like the local copy of some of your stuff
+
+159
+0:11:35.820 --> 0:11:37.420
+That's like to do a syncing etc
+
+160
+0:11:37.420 --> 0:11:43.380
+So when you delete that you may lose progress, but you sometimes need to delete that when there are syncing issues
+
+161
+0:11:43.380 --> 0:11:46.420
+But that's after you have tried the sync
+
+162
+0:11:47.060 --> 0:11:51.780
+Resolution commands which will fix the syncing people are too willy-nilly to delete essentially
+
+163
+0:11:51.780 --> 0:11:55.980
+That's the to locate you've got cache which is like I'm gonna air quotes this because it's a little wishy-washy
+
+164
+0:11:55.980 --> 0:12:02.740
+But like other people's stuff is the cache right other people's worlds other people's items other people's crap
+
+165
+0:12:02.740 --> 0:12:06.160
+And then the data location which is your stuff
+
+166
+0:12:06.160 --> 0:12:10.820
+I mean it like I said it can go between those is like a Venn diagram, but it's like your stuff
+
+167
+0:12:10.820 --> 0:12:15.000
+So your items your worlds the stuff stored locally your database
+
+168
+0:12:15.000 --> 0:12:19.660
+Which is basically like a lookup table for everything is if you know like index cards in a library
+
+169
+0:12:19.660 --> 0:12:24.980
+That's what they did as well as settings and things like that are also stored. So those are those two locations
+
+170
+0:12:24.980 --> 0:12:31.120
+they are stored in different places because the Windows file system encourages us to do so everyone is aware of the
+
+171
+0:12:31.580 --> 0:12:34.500
+temporary folders those are known and
+
+172
+0:12:34.980 --> 0:12:40.060
+Windows and other tools know that temporary folders exist there and that they can be cleared
+
+173
+0:12:40.060 --> 0:12:43.260
+That's there is a temp directory on other operating systems
+
+174
+0:12:43.260 --> 0:12:47.960
+And it's just known that like hey if you need to you can trash the temp folder
+
+175
+0:12:47.960 --> 0:12:52.220
+That's what that is you so believe that's that question if you have any follow-up questions. Do let me know we'll get to it
+
+176
+0:12:52.220 --> 0:12:58.180
+Electron says deleting the database makes it harder to help. That's correct the easiest way to help you is to give us log files
+
+177
+0:12:58.180 --> 0:13:03.500
+Give us log files sometimes the log files don't actually say anything and if the log files don't say anything actionable
+
+178
+0:13:03.500 --> 0:13:05.500
+That's where it might become
+
+179
+0:13:05.660 --> 0:13:09.420
+Suitable to delete your cash and stuff like that usually I remember a friend of mine
+
+180
+0:13:09.900 --> 0:13:15.340
+they bought an oculus headset like the CD one long long time ago 2019 or whatever and
+
+181
+0:13:16.500 --> 0:13:20.560
+Saying 2019 was a long time ago. It makes me feel strange anyway
+
+182
+0:13:20.560 --> 0:13:25.560
+And they just couldn't get it working and they were talking to support and support were doing everything
+
+183
+0:13:25.840 --> 0:13:31.520
+In a diagnostic cetera and it turned up to like they were then like after like a couple of like back and forth
+
+184
+0:13:31.520 --> 0:13:35.160
+It was okay now try reinstalling which he did it didn't and then they were like hey
+
+185
+0:13:35.520 --> 0:13:38.340
+Try reinstalling windows that might fix it
+
+186
+0:13:38.340 --> 0:13:44.700
+And he actually did and I told him no like if a support person tells you to reinstall windows because their software is wrong
+
+187
+0:13:45.000 --> 0:13:47.000
+Nope, nope
+
+188
+0:13:47.000 --> 0:13:50.700
+Mm-hmm windows should be nothing to do that there are things that can happen of course
+
+189
+0:13:50.700 --> 0:13:52.720
+But like they should know about those things anyway
+
+190
+0:13:52.720 --> 0:13:58.800
+So we did reinstall windows and it didn't work and the support our person was then like could you reinstall windows again?
+
+191
+0:13:58.800 --> 0:14:01.640
+And at that point he returned the oculus headset and went for a vive
+
+192
+0:14:01.640 --> 0:14:04.160
+Oh, I have another question here from electronic who asks
+
+193
+0:14:04.160 --> 0:14:09.360
+Oh, I have seen a couple of log files talking about not being able to find local files to sync
+
+194
+0:14:09.360 --> 0:14:14.040
+I assume those messing with the fault yes, so when you mess with the folder particularly if you do it in a certain way
+
+195
+0:14:14.040 --> 0:14:18.240
+Which is something I've always seen people do they like to leak like half their local folders or whatever
+
+196
+0:14:18.760 --> 0:14:22.480
+We end up with is sort of like a referential thing so again if we think about light
+
+197
+0:14:22.640 --> 0:14:27.900
+Indexed cars at a library you go to the indexer to look at specially index cars are because or computers
+
+198
+0:14:28.560 --> 0:14:33.840
+Before there are computers which told you where a library book was or you know before computers where you you needed a books
+
+199
+0:14:34.500 --> 0:14:37.340
+You would go to the library and you'd go to like an indexer
+
+200
+0:14:37.340 --> 0:14:41.880
+Which is like a big collection of cards and you would stop like sift through those cards and pick one up
+
+201
+0:14:41.880 --> 0:14:46.920
+And it'd be like ah yes primes cheese recipes and it's in aisle four row two
+
+202
+0:14:46.920 --> 0:14:49.000
+And then you know exactly where it is to go fine
+
+203
+0:14:49.400 --> 0:14:52.800
+So now imagine that you went to the indexer you look for the card
+
+204
+0:14:52.800 --> 0:14:59.200
+Then you went to grow whatever I said, and it wasn't there the books not there that means that there is a
+
+205
+0:15:00.120 --> 0:15:05.760
+Can't find that file, and that's what the library in ages like I don't I don't think I'll need another reference
+
+206
+0:15:05.760 --> 0:15:09.600
+But like you know at school you always had reference books sometimes you had to buy them sometimes school
+
+207
+0:15:09.600 --> 0:15:13.440
+Would just like you know have a collection of them which they passed out and most of those had graffiti in them
+
+208
+0:15:13.440 --> 0:15:18.400
+But you know like I think I need one back in the day. I bought actually still have them
+
+209
+0:15:18.400 --> 0:15:20.800
+I've got like four books on pearl because pearl is the language I
+
+210
+0:15:21.000 --> 0:15:27.200
+Learned to get start in this like industry and so I have like all the pearl books you can have and I haven't touched them
+
+211
+0:15:27.200 --> 0:15:31.000
+Ever I wanted to learn like a new language now. Let's say like rust or stuff
+
+212
+0:15:31.000 --> 0:15:34.800
+I wouldn't need a book like I don't think I'm gonna buy another like reference the only books
+
+213
+0:15:34.800 --> 0:15:38.440
+I think I'll be buying is like none. Those are all the questions on the list so
+
+214
+0:15:38.440 --> 0:15:43.600
+If you have more questions do let us know otherwise. I will be sat here in other exciting news
+
+215
+0:15:43.600 --> 0:15:47.120
+I have a laser level arriving. I bought a
+
+216
+0:15:47.800 --> 0:15:50.840
+What's a picture to go above my couch?
+
+217
+0:15:50.840 --> 0:15:56.480
+I always hang paint like how can it because I'm in a rental I use the command strip which don't damage the arm
+
+218
+0:15:56.480 --> 0:15:59.120
+But for those to work and for you to hang a picture straight
+
+219
+0:15:59.120 --> 0:16:03.760
+You need the command strips to be straight the command strips on the back of the actual painting be straight
+
+220
+0:16:03.760 --> 0:16:08.880
+I hand them to be put on the wall straight. I'm done so I get to play of that if there any other questions
+
+221
+0:16:08.880 --> 0:16:13.320
+Please drop them through you got about eight minutes before I vanish and turn into a pumpkin. I do have a random
+
+222
+0:16:14.000 --> 0:16:19.360
+Good life pro tip or message check your subscriptions if there is money coming out of your bank account
+
+223
+0:16:19.640 --> 0:16:23.880
+Monthly add it up and figure out if you use like I found I thought I'd cancelled it
+
+224
+0:16:23.880 --> 0:16:28.280
+But I found that I was accidentally still still subscribed to uber one
+
+225
+0:16:28.280 --> 0:16:32.480
+I was using uber one to get better deals on uber eats, but now I'm trying to
+
+226
+0:16:32.480 --> 0:16:39.720
+Avoid uber eats, so I'm like okay. Let's cancel uber one then that was ten dollars coming out of my month bank account every month
+
+227
+0:16:39.720 --> 0:16:44.320
+I could put back into so so check that account check your statement. I had one the other day
+
+228
+0:16:44.320 --> 0:16:47.440
+I didn't recognize I googled it, and I'm like oh, that's my home insurance
+
+229
+0:16:47.440 --> 0:16:52.240
+Okay, my home insurance company changed name, and I so electronus has provided a picture of the log file
+
+230
+0:16:52.840 --> 0:16:55.120
+Yeah, that's exactly what you're talking about
+
+231
+0:16:55.120 --> 0:16:59.660
+Yeah, that is basically like cannot locate that well so here if you're poking around in your local files
+
+232
+0:16:59.660 --> 0:17:03.360
+And you know trying to sort of see how they work. It's a true keep in mind that they are
+
+233
+0:17:03.840 --> 0:17:08.700
+Like not encrypted because it's like really weak you can like figure it out, but like they're a little bit like
+
+234
+0:17:09.320 --> 0:17:10.640
+Obstificated I guess
+
+235
+0:17:10.640 --> 0:17:14.280
+Some of that is optimization some of that is less curious like I say it's not like strong
+
+236
+0:17:14.280 --> 0:17:18.260
+It's just like it's like we're dumping files on your computer in a different way that isn't illogical
+
+237
+0:17:18.760 --> 0:17:23.200
+And so if you see anything weird that's for example if you see in in
+
+238
+0:17:23.920 --> 0:17:25.440
+electronus is
+
+239
+0:17:25.440 --> 0:17:32.200
+Screenshot there, it'll be like local colon forward slash and then like a bunch of crap that like random string is like a
+
+240
+0:17:32.760 --> 0:17:38.480
+Lookup in the database. I was talking about and that database then knows exactly where that is
+
+241
+0:17:38.480 --> 0:17:41.760
+It maps it to an actual fault of the future and a father for anyone in news
+
+242
+0:17:42.640 --> 0:17:46.920
+Actually, I forgot. I built it yesterday because I was a bit. I don't know I was bored, and I did it
+
+243
+0:17:46.920 --> 0:17:51.040
+It was pretty quick. I put a new meme in my memes for this to go to public purple prime
+
+244
+0:17:51.040 --> 0:17:53.760
+And then go to memes there is a new meme peace weapon
+
+245
+0:17:53.760 --> 0:17:58.120
+The typing I have lots of time I love it when I mention people that are typing and then they stop
+
+246
+0:17:58.120 --> 0:18:02.960
+So we have a question here, which I will read and give my interpretation to but it is a moderation question
+
+247
+0:18:02.960 --> 0:18:05.720
+So I will refer it to the Sunday moderation office hours
+
+248
+0:18:06.000 --> 0:18:12.440
+So it's within us when it comes to figuring out guidelines and such could having a poll over different future rules guidelines be helpful
+
+249
+0:18:12.440 --> 0:18:14.440
+tool no um
+
+250
+0:18:14.520 --> 0:18:20.100
+Polls are great because they give you like a quantity of data, but they don't give you what's called qualitative data
+
+251
+0:18:20.100 --> 0:18:23.880
+I always get this confused. I probably did it wrong. I did it wrong. Don't yell at me
+
+252
+0:18:23.880 --> 0:18:30.160
+The point being is like I can see cool 50 people think that this is cool and 50 people think that this is not cool
+
+253
+0:18:30.160 --> 0:18:34.540
+Great. What does that give me? I don't understand we need more like opinions and stuff like that
+
+254
+0:18:34.540 --> 0:18:40.400
+Do you remember that the anonymous feedback forum is there also remember the regardless of what you say? This is gonna sound rude
+
+255
+0:18:40.400 --> 0:18:44.960
+I apologize regardless of what you say as an opinion regardless of the poll result
+
+256
+0:18:44.960 --> 0:18:52.280
+Moderation have to make the best possible choice factoring everything a good example here being in the clothing area. We are
+
+257
+0:18:52.800 --> 0:18:57.280
+Fortunate enough to be our own platform and so we can decide what we would like to do there
+
+258
+0:18:57.800 --> 0:19:00.080
+If you think back to the days of mixer
+
+259
+0:19:00.960 --> 0:19:02.760
+Which I used to work for
+
+260
+0:19:02.760 --> 0:19:04.960
+Mixer was under the umbrella of Microsoft
+
+261
+0:19:04.960 --> 0:19:12.500
+And so even though mixer itself had a view on clothing we had to conform to the big corporate agenda on clothing
+
+262
+0:19:12.500 --> 0:19:17.780
+Which meant it twice as complicated but also meant we couldn't like people like it should be like this and we're like, yeah
+
+263
+0:19:17.780 --> 0:19:20.860
+We know but like we can't but we couldn't even say yeah
+
+264
+0:19:20.860 --> 0:19:26.620
+We know because that adds doubt to like your customers like brain space of that brand. So we're just like no, sorry
+
+265
+0:19:26.620 --> 0:19:30.940
+This is this this is it. We don't want to do that. And I know that moderation don't want to do that
+
+266
+0:19:30.940 --> 0:19:37.180
+That's why the conversations are open and feedback is being held but polls are just like not the way should be doing it
+
+267
+0:19:37.180 --> 0:19:41.580
+I know that's the way it's done in like a democracy, right? But like no no
+
+268
+0:19:41.580 --> 0:19:44.460
+Yeah, nice isn't a democracy. We try and be as
+
+269
+0:19:45.060 --> 0:19:47.060
+Good the community as possible
+
+270
+0:19:47.340 --> 0:19:53.780
+But in some cases, you know can't now I know that nears his stance has always been that we wouldn't take outside venture capital
+
+271
+0:19:53.780 --> 0:19:59.380
+But I'm providing this as an example if nears if don't quote me on Twitter later
+
+272
+0:19:59.380 --> 0:20:02.740
+I'm saying the word if a few times if nears took
+
+273
+0:20:03.260 --> 0:20:08.700
+Venture capital of a substantial amount from another company. They may be able to say hey
+
+274
+0:20:08.700 --> 0:20:15.260
+We need you to change your clothing policy again, and it needs to conform to you know business needs
+
+275
+0:20:15.660 --> 0:20:18.860
+business business business business and so
+
+276
+0:20:19.380 --> 0:20:25.820
+Just like think about that the next time you are the next time you're mad at a company for changing their policies
+
+277
+0:20:25.900 --> 0:20:28.460
+Just just think about all the things in play there
+
+278
+0:20:29.140 --> 0:20:34.980
+Another good example here being what happened to OnlyFans. So OnlyFans had like advertisers
+
+279
+0:20:34.980 --> 0:20:40.140
+Sponsorship venture capital etc. That was just not okay with them having
+
+280
+0:20:40.660 --> 0:20:45.820
+pornography on OnlyFans and so they tried to remove pornography from OnlyFans and of course the community were like
+
+281
+0:20:45.980 --> 0:20:53.100
+Screw that and then OnlyFans had to then probably change up a bunch of their ad deals such that there could be same thing happens
+
+282
+0:20:53.100 --> 0:20:53.940
+with
+
+283
+0:20:53.940 --> 0:20:56.340
+YouTube people like why is my YouTube video being
+
+284
+0:20:56.540 --> 0:21:03.740
+Demonetized YouTube hates this the reason is because monetization through YouTube comes through adverts and if no one wants to put adverts on a particular
+
+285
+0:21:03.740 --> 0:21:09.700
+Type of content let's say you know none of the advertisers that are registered with the other side of monetization as in they are paying
+
+286
+0:21:09.780 --> 0:21:11.260
+YouTube to put ads on videos
+
+287
+0:21:11.260 --> 0:21:16.500
+They don't want to appear in any cheese related videos then the fact that you mentioned cheese in your video would cause it to be
+
+288
+0:21:16.580 --> 0:21:18.460
+Demonetized isn't YouTube's fault
+
+289
+0:21:18.460 --> 0:21:24.780
+It's the advertisers that they're working if they could find a cheese advertiser that wants to be monetized on cheese videos
+
+290
+0:21:25.420 --> 0:21:27.660
+Beautiful and they probably have cheese adverts somewhere
+
+291
+0:21:28.340 --> 0:21:31.980
+But when it comes to sort of real edgy topics some advertising people
+
+292
+0:21:31.980 --> 0:21:36.540
+Just don't want adverts on there and so that video gets demonetized. It's nothing to do with YouTube though
+
+293
+0:21:36.580 --> 0:21:38.780
+There are no ad money. We cannot pay you
+
+294
+0:21:40.420 --> 0:21:46.260
+Moving onwards to another question we have here from SLS doesn't Rothenberg Ventures own 10 to 15 percent of strikes
+
+295
+0:21:47.220 --> 0:21:49.220
+Rothenberg Ventures doesn't exist any so
+
+296
+0:21:50.020 --> 0:21:51.700
+Rampa if you're typing question go for it
+
+297
+0:21:51.700 --> 0:21:57.020
+Otherwise we'll cut off at the point as we just run over by two minutes with me ranting about demonetization on YouTube
+
+298
+0:21:57.580 --> 0:22:00.740
+Like I've been on the other side of it like I've been on the other side of advertisers
+
+299
+0:22:00.740 --> 0:22:03.660
+I've been on the other side of monetization. I've been in the side of that so it makes a lot more
+
+300
+0:22:03.660 --> 0:22:08.540
+Okay, that was a question so go ahead and end up here, and then we will carry on on anyway
+
+301
+0:22:08.540 --> 0:22:12.180
+And as I said check that new meme and my memes for if any of the questions
+
+302
+0:22:12.180 --> 0:22:17.260
+Please feel to demand me or follow the contacting the Neos team guidelines. I'll get this posted soon and
+
+303
+0:22:17.260 --> 0:22:33.300
+Tag the office hours notification do that when it's ready speech you next time. Bye
+

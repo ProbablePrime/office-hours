@@ -1,0 +1,1552 @@
+1
+0:00:00.000 --> 0:00:05.220
+So welcome to office hours we're gonna go ahead and get back on track and get over to the questions after talking about dishwashers
+
+2
+0:00:05.220 --> 0:00:06.640
+and
+
+3
+0:00:06.640 --> 0:00:11.960
+Pain products if you want to hear the pre office hours chat arrive five minutes early. I talk about random stuff
+
+4
+0:00:12.660 --> 0:00:15.620
+So we're gonna go ahead go through questions. There are some questions in the chat
+
+5
+0:00:15.620 --> 0:00:19.420
+I'm gonna go ahead and check the pre question sheet because I was linking that around to certain someone and
+
+6
+0:00:19.540 --> 0:00:23.500
+They might have dropped some stuff on there and I didn't check it last week. So I need to go ahead and check it
+
+7
+0:00:23.500 --> 0:00:27.700
+Oh, there is a question here, but it is not by that person. So we have a question on the sheet from
+
+8
+0:00:27.700 --> 0:00:32.740
+Neils who says could the app Neos the universe be re-uploaded to the store
+
+9
+0:00:32.740 --> 0:00:34.400
+I've not really done couple of guys report issues
+
+10
+0:00:34.400 --> 0:00:39.380
+I believe they're referring to the earlier version of Neos universe that was put on the quest or by fruits
+
+11
+0:00:39.380 --> 0:00:41.520
+I don't know the status of that or anything about that
+
+12
+0:00:42.220 --> 0:00:46.840
+Suffice to say it won't probably be touched for the foreseeable future due to the ongoing
+
+13
+0:00:47.740 --> 0:00:48.860
+stuffies
+
+14
+0:00:48.860 --> 0:00:50.300
+Yay
+
+15
+0:00:50.300 --> 0:00:56.420
+I'm gonna go ahead and mark that question as resolved and we'll get on with the questions that exist in the chat
+
+16
+0:00:56.420 --> 0:01:02.000
+So it's growing up through the chat to look at questions egg roll faces. What is your favorite snacking cheese recommendations?
+
+17
+0:01:02.000 --> 0:01:05.140
+There's 60 seconds or less. I don't answer questions about cheese. It's kind of a meme
+
+18
+0:01:06.020 --> 0:01:08.020
+So we'll move on
+
+19
+0:01:08.160 --> 0:01:14.860
+Pyronic says have you heard of git work trees? I've just recently discovered them seems useful for working on different features block branches
+
+20
+0:01:15.200 --> 0:01:20.840
+Yes, I've used them extensively over the 10 12. I don't know I'm getting old a bit
+
+21
+0:01:21.360 --> 0:01:23.360
+Years of my career I've used them extensively
+
+22
+0:01:23.360 --> 0:01:28.360
+They are great when you use them. There are a lot of stuff that you don't need
+
+23
+0:01:28.760 --> 0:01:33.680
+There's this amazing flow called git flow and everyone's like, oh, yes use git flow
+
+24
+0:01:33.680 --> 0:01:37.040
+It is beautiful blah blah blah blah, and it's just really complicated
+
+25
+0:01:37.440 --> 0:01:43.960
+The important thing to do though is to start a branch when you think that the master branch might get dirty
+
+26
+0:01:43.960 --> 0:01:46.000
+And that includes when you're working with other people
+
+27
+0:01:46.000 --> 0:01:49.320
+So if you've got multiple people working in your project always be on a branch, right?
+
+28
+0:01:49.320 --> 0:01:55.440
+the master branch should be what everyone is pulling from and everyone else should be on their own branches and I don't care what they're
+
+29
+0:01:55.440 --> 0:02:01.820
+Named just make sure that they name something a branch should only have commits associated with one individual feature on it
+
+30
+0:02:01.840 --> 0:02:05.320
+Don't do I see some people do which is when they start work in an organization
+
+31
+0:02:05.320 --> 0:02:06.440
+They make a git branch
+
+32
+0:02:06.440 --> 0:02:12.660
+Which is just like their name and then they put all of their commits on there and periodically they'll do pull requests and like merge
+
+33
+0:02:12.660 --> 0:02:15.920
+That back in that is so messy make a branch for each feature, please
+
+34
+0:02:15.920 --> 0:02:21.240
+I realized I was calling it the old master branch name most git places
+
+35
+0:02:21.240 --> 0:02:27.320
+I've now renamed the master branch to main apologies for that one. That's still affecting me because some older repositories
+
+36
+0:02:27.320 --> 0:02:29.320
+I dealt with at work were
+
+37
+0:02:29.840 --> 0:02:33.040
+Unable to be updated and so it's just like I have no idea
+
+38
+0:02:33.040 --> 0:02:38.240
+But if you make a github repo these days by default the main branch will be called main rather than master
+
+39
+0:02:38.760 --> 0:02:42.440
+Let's move on. Oh, if you want to know what we do at Neos as well, we do do branches
+
+40
+0:02:42.440 --> 0:02:49.080
+I am whilst freaks was the only developer branches were uncommon, but I've been teaching freaks the way of branches
+
+41
+0:02:49.080 --> 0:02:54.900
+I've also been teaching freaks the way of atomic commits atomic commits our way. Basically each commit that you make to a git
+
+42
+0:02:56.480 --> 0:03:00.760
+Repository needs to be sort of as isolatable as possible an example of this might be
+
+43
+0:03:02.220 --> 0:03:06.480
+Commit one for a feature is introducing a new file like a new file to the code base
+
+44
+0:03:06.720 --> 0:03:10.820
+It just introduces the new file and some of the basic building blocks for that file
+
+45
+0:03:10.820 --> 0:03:17.600
+It doesn't use that file anywhere. It just introduces that file and then the next commit might be adding that file to other stuff
+
+46
+0:03:17.600 --> 0:03:24.800
+So it's actually integrated or stuff like that. It's it's depends on the exact patterns and development of the language of doing sometimes
+
+47
+0:03:24.800 --> 0:03:29.200
+But it's good to just make it like easy for people to see what an individual commit does
+
+48
+0:03:29.200 --> 0:03:31.920
+Oh and squash merge when you merge stuff on github
+
+49
+0:03:32.800 --> 0:03:37.520
+Moving onwards away from high technical programming stuff because I know you're here for the Neos stuff
+
+50
+0:03:37.520 --> 0:03:42.200
+We'll go on to the next question. Rusia says, can you describe how cache hit miss system works?
+
+51
+0:03:42.200 --> 0:03:47.280
+What's the primary identify? Is it based on idea hash or random value? Don't actually know. I'll go ahead and
+
+52
+0:03:47.920 --> 0:03:53.480
+Add that one to my list of questions. I just can't answer as parts of Neos. I just haven't looked at
+
+53
+0:03:54.080 --> 0:04:00.800
+And that's one of the cases I did look at the the way that we did. So we've like really extensive code that deals with
+
+54
+0:04:02.080 --> 0:04:04.080
+username clashes
+
+55
+0:04:04.080 --> 0:04:07.560
+So it's common for you know, people who are just writing a system
+
+56
+0:04:07.560 --> 0:04:11.400
+They're just like hey if this username equals this other username, you can't register it, right?
+
+57
+0:04:11.400 --> 0:04:17.280
+You have the same name like no one can register. Fruxius is their username on Neos. We go a step further than that though and
+
+58
+0:04:17.800 --> 0:04:21.200
+We will take a look at how Fruxius is represented in
+
+59
+0:04:21.840 --> 0:04:28.440
+Other alphabets so we take a look at the Russian alphabet the various Japanese and Korean alphabets
+
+60
+0:04:28.440 --> 0:04:35.760
+And Chinese as well just to make sure that like when we translate those names into different alphabetical systems
+
+61
+0:04:35.760 --> 0:04:40.080
+There aren't any clashes as well. That's actually really cool. If you want to pronounce
+
+62
+0:04:40.760 --> 0:04:43.120
+Like a Japanese phrase, I'm not good at Japanese
+
+63
+0:04:43.120 --> 0:04:45.080
+So like, you know if I want to pronounce some of those phrases
+
+64
+0:04:45.080 --> 0:04:47.520
+I can put it through that system and it tells me what their name is
+
+65
+0:04:47.520 --> 0:04:48.560
+You know, it's really cool
+
+66
+0:04:48.560 --> 0:04:51.800
+I was taking a look at that like I put in Japanese characters and I got out the
+
+67
+0:04:52.160 --> 0:04:57.440
+romanization of that which was really cool wrote some tests for that the other day as well because I was messing with it and
+
+68
+0:04:57.440 --> 0:05:00.600
+I had to put through like a bunch of stuff
+
+69
+0:05:00.600 --> 0:05:04.400
+So I went to like a name database website and chucked a bunch of names in
+
+70
+0:05:04.720 --> 0:05:09.960
+Okay, so next question for electronics, which is a great opportunity for me to like make a very clear point
+
+71
+0:05:10.320 --> 0:05:14.840
+So electronic says to add to this. How does clearing the cache not mess badly with a database?
+
+72
+0:05:14.840 --> 0:05:18.160
+So they're actually two folders. There's that data location and there's that cache location
+
+73
+0:05:18.200 --> 0:05:24.680
+They're often confused or overlapped or referred to as the same thing and it causes problems both in support and dealing with those support
+
+74
+0:05:24.680 --> 0:05:30.200
+It's just when people give like solutions to problems or instructions. Sometimes one will be deleted and not the other one
+
+75
+0:05:30.320 --> 0:05:33.760
+so the the database is a collection of
+
+76
+0:05:34.680 --> 0:05:42.560
+just like a big database the literal definition of the word of like everything that you've basically seen or saved in in this and
+
+77
+0:05:43.120 --> 0:05:46.720
+It's then trying to keep in sync with the cloud database
+
+78
+0:05:47.640 --> 0:05:52.200
+Today, I'm sorry. Um, and so syncing those across is very difficult
+
+79
+0:05:52.200 --> 0:05:56.160
+That's why sometimes you get cache conflicts or corrupt caches and stuff like that
+
+80
+0:05:56.160 --> 0:06:03.200
+I have only once had a corrupt cache and only once had a syncing issue and both occurred during the VR chat boom
+
+81
+0:06:05.080 --> 0:06:10.640
+But I don't know everyone else seems to have those difficulties all the time and I don't I do apologize for them
+
+82
+0:06:10.640 --> 0:06:12.720
+I want to see what we can do to improve those when we're able to
+
+83
+0:06:13.320 --> 0:06:16.520
+Now the cache though is just like randomly downloaded stuff
+
+84
+0:06:16.520 --> 0:06:22.520
+And if you delete that it's not as bad because you're not messing with the database you're messing with cache
+
+85
+0:06:23.400 --> 0:06:30.400
+You know how else to answer that question what I wanted to do though is say hey, please stop deleting them when you know
+
+86
+0:06:31.040 --> 0:06:35.240
+Encountering a problem in computing and many other places actually you have three choices
+
+87
+0:06:35.240 --> 0:06:36.440
+You can fix the problem
+
+88
+0:06:36.440 --> 0:06:41.300
+You can ignore the problem or you can remove the problem in which in computers is usually delete
+
+89
+0:06:41.400 --> 0:06:45.600
+So when you restart a computer, for example when everyone's like, oh you tried restarting a computer
+
+90
+0:06:45.600 --> 0:06:47.160
+All that does is delete the problem
+
+91
+0:06:47.160 --> 0:06:51.800
+It will just you know flush all the guts of the computer flush everything out of the memory
+
+92
+0:06:52.080 --> 0:06:54.980
+Close any applications and restart them. So it just deletes the problem
+
+93
+0:06:55.000 --> 0:07:01.160
+So if a problem occurs after restarting it often support desk agents will be like could you try restarting again?
+
+94
+0:07:01.160 --> 0:07:06.400
+And I'm like, no, like that's not gonna do anything then they'll move on to could you try reinstalling it?
+
+95
+0:07:06.400 --> 0:07:11.040
+Which again is just deleting the problem that flushes the guts of the computer with all the files that were involved in that particular
+
+96
+0:07:11.040 --> 0:07:17.620
+Application and reinstalls it I would always rather that you do ignoring the problem or fixing the problem rather than deleting the problem
+
+97
+0:07:18.160 --> 0:07:19.200
+Ignoring it's totally fine
+
+98
+0:07:19.200 --> 0:07:23.480
+Like for example, my windows lock screen has had the same photo on it for like six years
+
+99
+0:07:23.480 --> 0:07:26.480
+And I hate that photo because it's the first thing I see every morning, right?
+
+100
+0:07:26.480 --> 0:07:29.340
+I haven't had coffee yet and I see that lock screen photo
+
+101
+0:07:29.340 --> 0:07:31.880
+I want to change it, but I can't remember how because I
+
+102
+0:07:32.440 --> 0:07:39.900
+Prevented windows from doing its thing where it's like here's the photo of the day. It's from a quaint beach in Hawaii, and it's beautiful
+
+103
+0:07:39.900 --> 0:07:42.280
+I didn't want to see that stuff. I'm just like stop doing that
+
+104
+0:07:42.280 --> 0:07:47.380
+But I didn't realize that would lock it down to one photo that's been there for six years, but I'll fix it when I can
+
+105
+0:07:48.000 --> 0:07:54.640
+So please follow all the troubleshooting steps through in order and if Nia's team member then tells you to delete or clear your cache or
+
+106
+0:07:54.640 --> 0:07:56.640
+Mentor does or whatever etc. That's fantastic
+
+107
+0:07:57.000 --> 0:08:02.720
+Then make sure you do the previous steps first because you'll actually learn something you'll learn something when you fix programs you you learn something
+
+108
+0:08:03.200 --> 0:08:07.200
+I had an issue with I remember something to do like a plug-in
+
+109
+0:08:07.200 --> 0:08:10.080
+in OBS and I
+
+110
+0:08:10.600 --> 0:08:14.840
+Fixed that by actually making a fork of that plug-in releasing on my github because I'm like hey
+
+111
+0:08:14.840 --> 0:08:19.960
+I learned a lot doing that moving forwards. Oh, I don't mean to shut you down egg refers
+
+112
+0:08:19.960 --> 0:08:25.440
+It's just like we're meant to be talking about Neos and then the meme started of like yeah cheese is my thing
+
+113
+0:08:25.440 --> 0:08:27.440
+But I didn't talk about it. And so now it's just
+
+114
+0:08:29.040 --> 0:08:34.000
+So Tiki says I've been I've said I've seen many export formats for avatars
+
+115
+0:08:34.000 --> 0:08:37.640
+But I don't know much about them as the one that could be useful to be able to import my avatar back into other
+
+116
+0:08:37.640 --> 0:08:39.560
+games no
+
+117
+0:08:39.560 --> 0:08:41.560
+avatars that are important to Neos are
+
+118
+0:08:42.040 --> 0:08:48.440
+For lack of a better word garbled from an outside of Neos perspective. That isn't something that will be permanent
+
+119
+0:08:48.440 --> 0:08:52.800
+Maybe there'll be a way to do it in the future. But right now it is not it's actually a strange
+
+120
+0:08:53.440 --> 0:08:56.500
+Security feature as well. It's like an unintentional security feature, right?
+
+121
+0:08:56.500 --> 0:09:01.960
+You can't export the avatar to other platforms without losing rigging information
+
+122
+0:09:01.960 --> 0:09:05.820
+So you lose bone data, and I believe you use what lose weight painting as well
+
+123
+0:09:05.820 --> 0:09:10.960
+So if you export it back out, you'll just get like a static mesh, which then you'd have to rereg so that that's cool
+
+124
+0:09:12.240 --> 0:09:18.880
+That might change in the future. I am struggling here. Where's my water? Okay, I should be less vocal when it comes to dying now
+
+125
+0:09:20.400 --> 0:09:23.060
+Yeah, that may change in the future. We'll see
+
+126
+0:09:24.560 --> 0:09:27.400
+Interoperability is of course the big buzzword when it comes to your metaverses
+
+127
+0:09:27.400 --> 0:09:31.840
+I'm moving forwards to Alex from Alaska. I'm gonna upload some photos. I did share these in
+
+128
+0:09:32.680 --> 0:09:38.000
+Mentor Discs yesterday because it was topical and front-of-mind. I am working with
+
+129
+0:09:39.080 --> 0:09:40.920
+SHFR, that's
+
+130
+0:09:40.920 --> 0:09:44.000
+user name of SHFR, but their actual name is Hamish and
+
+131
+0:09:44.760 --> 0:09:52.260
+We do science together and our science resolves around whatever the hell you can think of that is not video game related
+
+132
+0:09:52.260 --> 0:09:57.940
+So this was my view of a Neos world yesterday, and if you can guess what I was doing
+
+133
+0:09:59.460 --> 0:10:04.780
+Fantastic. If you don't know what I was doing, you'll have to wait until the end of this officer as well
+
+134
+0:10:04.780 --> 0:10:08.500
+I'll tell you. There we go. I'll give you some time to play some games. See if you can figure it out
+
+135
+0:10:09.220 --> 0:10:10.900
+Zlinka and
+
+136
+0:10:10.900 --> 0:10:12.900
+DMX and Earthmark and
+
+137
+0:10:13.500 --> 0:10:18.620
+A few others you're excluded from that because you know you were there
+
+138
+0:10:18.620 --> 0:10:22.940
+So I'll leave that at the bottom of the scroll buffer and come back to once I've got through the rest of the question
+
+139
+0:10:23.260 --> 0:10:28.420
+Mystic says how is documentation regarding the recent events been going? I've seen some really useful videos from both the team and users
+
+140
+0:10:28.420 --> 0:10:31.980
+But other than pre-planned videos are there videos you think would be
+
+141
+0:10:33.420 --> 0:10:35.420
+Otherwise be worth users making
+
+142
+0:10:35.980 --> 0:10:41.040
+This is like two questions there, so like documentation regarding the recent events is difficult
+
+143
+0:10:41.060 --> 0:10:43.860
+We don't want to put out any more information that is
+
+144
+0:10:43.860 --> 0:10:50.700
+Like really big like those announcements because like really nothing has changed right see the announcements channel for any updates there as for the second
+
+145
+0:10:50.700 --> 0:10:52.460
+part of that question
+
+146
+0:10:52.460 --> 0:10:55.460
+Make content like I've been really happy to see
+
+147
+0:10:55.780 --> 0:10:59.420
+Speckin's videos where he's just like there's a there's a gap. I'll make a video about this
+
+148
+0:10:59.420 --> 0:11:03.420
+I've been really happy to see basement, but nerds videos where it's like hey, there's a gap here
+
+149
+0:11:03.420 --> 0:11:06.760
+There isn't an introduction to logic so I make that and I was really really happy to see
+
+150
+0:11:06.760 --> 0:11:14.360
+Engie's video where it's like here is a tutorial bracelet which many people wouldn't have a like aware of apparently Alex made
+
+151
+0:11:14.440 --> 0:11:19.600
+Which means you can watch all the videos inside Neos and what's great is you can watch videos from all those creators because you can
+
+152
+0:11:19.600 --> 0:11:21.600
+Just add playlists the system
+
+153
+0:11:22.160 --> 0:11:27.600
+So just make videos if you don't understand something and then do understand it make a video about it
+
+154
+0:11:27.600 --> 0:11:32.440
+That's how all my like earlier tutorials are made like I learned how the object grid aligner worked
+
+155
+0:11:32.440 --> 0:11:35.440
+So I made a video on it. I learned how the axis aligner works. I made a video on it
+
+156
+0:11:35.440 --> 0:11:40.520
+Fruks taught me dynamic impulses. So I made a video about it moving forwards
+
+157
+0:11:41.520 --> 0:11:43.520
+Dicky's talking about get the
+
+158
+0:11:43.880 --> 0:11:48.680
+Version control library not Canadian kit is there's lots of names and stuff that exist
+
+159
+0:11:48.680 --> 0:11:54.440
+there's like Neos moderators short form mods and then there's Neos mods, which are the
+
+160
+0:11:54.960 --> 0:12:00.040
+Modifications to the Neos that we allow which VRChat doesn't allow so they're being talked about a lot on the words
+
+161
+0:12:00.040 --> 0:12:05.960
+Just get sort of like ah, so I've been trying to use the term moderator a little bit more to make things clearer or like
+
+162
+0:12:06.360 --> 0:12:09.980
+Enunciating mods a little bit differently to make it clear, but hey, maybe it's not clear still
+
+163
+0:12:10.240 --> 0:12:13.280
+It is cool. If you are looking to do computer programming
+
+164
+0:12:13.800 --> 0:12:17.440
+You'll eventually need a version control system and get is the way to go
+
+165
+0:12:17.440 --> 0:12:19.160
+There are others that are used for different cases
+
+166
+0:12:19.160 --> 0:12:21.840
+For example, if you're using an unreal game usually you use perforce
+
+167
+0:12:21.840 --> 0:12:30.120
+But hey, if you're just writing code gets cool learning it and yet Canadian gets also a chill dude moving forward to an idea's a question or
+
+168
+0:12:30.440 --> 0:12:34.320
+An idea, I'm sorry pronunciation is not my forte. Hopefully this makes sense
+
+169
+0:12:34.320 --> 0:12:38.200
+So assets on your avatar stored in the asset roots of the world
+
+170
+0:12:38.200 --> 0:12:42.920
+Wouldn't that mean anyone who can edit the world could copy your avatars parts and reassemble them from assets in the directory
+
+171
+0:12:42.920 --> 0:12:48.120
+Even if it's protected avatar. Yes, and no there are protections that exist on those assets
+
+172
+0:12:48.120 --> 0:12:54.680
+Additionally, there is no white painting or armature data up there in the asset system. Do you remember as well that the
+
+173
+0:12:55.760 --> 0:13:01.040
+Simple avatar protection system that we have is simple and that's why it's named simple avatar protection. It's quite
+
+174
+0:13:01.800 --> 0:13:06.600
+Diligently named that way it is not watertight and there are ways to break it
+
+175
+0:13:06.600 --> 0:13:10.200
+But it will remind you that there are ways to break any protection system
+
+176
+0:13:10.200 --> 0:13:14.280
+We do want our protection system to get better and to get more
+
+177
+0:13:14.280 --> 0:13:17.680
+Stronger it gets drunk
+
+178
+0:13:18.400 --> 0:13:25.040
+The features that would enable that are combined sort of the license ID system and the hard permission system
+
+179
+0:13:25.960 --> 0:13:29.920
+Yeah, that's a good enough answer. If you have any other things, please do that. Yeah
+
+180
+0:13:31.480 --> 0:13:33.040
+Zari says
+
+181
+0:13:33.040 --> 0:13:39.480
+Mandatory to allow different aspects it is it's really strange how there are a lot of software programs that don't do what they need to
+
+182
+0:13:39.480 --> 0:13:43.640
+Do a good example of one another example being right to left support
+
+183
+0:13:43.640 --> 0:13:49.160
+So there are a bunch of languages more than you know, I mean there are obvious ones like I think Hebrew does it
+
+184
+0:13:49.160 --> 0:13:54.060
+I'm sorry if that's wrong Arabic most certainly does because that's the one that always tripped us up at mixer
+
+185
+0:13:54.560 --> 0:14:01.480
+That read right to left and so suddenly your entire UI needs to be mirrored and work right to left
+
+186
+0:14:01.600 --> 0:14:06.580
+But there are lots of like UI elements that are designed for a left to right world
+
+187
+0:14:06.920 --> 0:14:11.960
+If you think about that just a simple like a dialog box appears and it has the OK cancel buttons
+
+188
+0:14:11.960 --> 0:14:18.160
+With okay, usually on the left and cancel usually on the right. Does that make sense to right to left world? Don't know
+
+189
+0:14:18.320 --> 0:14:22.980
+It's very calm challenging. So yeah, there's lots of stuff people just don't do they don't think about it
+
+190
+0:14:23.480 --> 0:14:27.120
+When we needed to support right to left languages at mixer
+
+191
+0:14:27.160 --> 0:14:33.180
+We just got the localization package back which is in all the strings translated into Arabic
+
+192
+0:14:33.180 --> 0:14:38.080
+I think it was loaded them into mixer ran the page and then just went shit
+
+193
+0:14:38.080 --> 0:14:44.120
+Just like things were overflowing everywhere UI were like backwards and forwards and upside down
+
+194
+0:14:44.120 --> 0:14:45.160
+It didn't make any sense
+
+195
+0:14:45.160 --> 0:14:50.280
+and it's just like this is a big project and it was we had like two or three engineers working on it for ages and
+
+196
+0:14:50.280 --> 0:14:56.000
+They had to go back to design frequently and go what should things look like when this is in a right to left world
+
+197
+0:14:56.000 --> 0:14:59.640
+I'm trying to say as well as you mentioned the database has everything that you have since was one
+
+198
+0:14:59.640 --> 0:15:02.920
+We're wondering how it deals presumably looking at files that longer exists if they no longer exist
+
+199
+0:15:02.920 --> 0:15:06.040
+There's usually a record of where to get them from so redownload them
+
+200
+0:15:06.040 --> 0:15:10.720
+I do need to look into that more particularly seeing these freaks change that up a little bit and wants to change up more
+
+201
+0:15:10.840 --> 0:15:16.920
+There are thousands of codes files in this code base. And sometimes I'm just like, I don't know what that file does
+
+202
+0:15:17.360 --> 0:15:21.840
+Scrolling down people saying please don't die. That's great. Oh, we got to the we got to the pictures. Excellent
+
+203
+0:15:22.040 --> 0:15:25.560
+Let's see if someone got it right. We see you got it right titanium bone plates. Yes
+
+204
+0:15:26.200 --> 0:15:28.600
+So we've Hamish I am working on
+
+205
+0:15:29.920 --> 0:15:32.880
+really complicated stuff actually, so if you have a
+
+206
+0:15:32.880 --> 0:15:35.960
+a jaw injury or a jaw
+
+207
+0:15:36.840 --> 0:15:39.840
+Disease such as like bone cancer or something in the jaw
+
+208
+0:15:40.360 --> 0:15:47.360
+They can actually rebuild your jaw using the smaller leg bone that you have the fibula. I think that's the right bone name
+
+209
+0:15:47.360 --> 0:15:52.080
+I always forget because there's two the the smaller leg bone kind of isn't needed and so
+
+210
+0:15:53.080 --> 0:15:55.040
+You can survive without it in some cases
+
+211
+0:15:55.040 --> 0:15:57.560
+Of course, you're not going to be like a prime athlete or something
+
+212
+0:15:57.560 --> 0:16:02.760
+But like being able to chew and speak is generally better than then, you know being an athlete
+
+213
+0:16:02.760 --> 0:16:07.760
+so what they do is they remove that entire bone they take out that entire bone and
+
+214
+0:16:08.240 --> 0:16:13.480
+Then they chop the parts of it off and then they format it back onto your jaw in
+
+215
+0:16:14.440 --> 0:16:16.440
+segments and then they use a plate to
+
+216
+0:16:16.760 --> 0:16:22.720
+Align that to the jaw and screw it together such that it holds there and then eventually the bones will fuse together, etc
+
+217
+0:16:22.720 --> 0:16:24.720
+But the plate there is to hold it together
+
+218
+0:16:24.880 --> 0:16:28.720
+And currently the most common use of the plate is a standard plate
+
+219
+0:16:28.720 --> 0:16:35.440
+It looks like a bike chain is standard for all surgeries and they just bash around a bit like sort of a blacksmith to try
+
+220
+0:16:35.440 --> 0:16:41.480
+And get it to fit the shape of your jaw a new approach though is to make a custom titanium plate for your jaw
+
+221
+0:16:42.240 --> 0:16:44.160
+which is
+
+222
+0:16:44.160 --> 0:16:45.560
+molded and modeled
+
+223
+0:16:45.560 --> 0:16:52.540
+Customly usually in a very painstaking process and we're trying to make that process easier and Neos is allowing us to sort of explore doing
+
+224
+0:16:52.540 --> 0:16:59.920
+that so the pictures above are a plate creator tool I have which allows you to segment a plate onto
+
+225
+0:17:00.320 --> 0:17:05.920
+any model using a sphere for testing just because sphere has lots of angles and I needed to test angles and
+
+226
+0:17:06.580 --> 0:17:08.580
+Then you can bake that model
+
+227
+0:17:09.040 --> 0:17:11.040
+send that out to
+
+228
+0:17:11.040 --> 0:17:17.520
+the desktop application where it needs to go through processing to make it actually printable and then you send it to a metal 3d printer and
+
+229
+0:17:17.520 --> 0:17:21.000
+Then you print it and then you affix it to someone's jaw or at least that's the plan
+
+230
+0:17:21.000 --> 0:17:27.520
+that will enable better surgeries with less screws because the the regular plates have screw holes like every like
+
+231
+0:17:27.760 --> 0:17:29.520
+Centimeter and it's really annoying
+
+232
+0:17:29.520 --> 0:17:35.400
+But yeah, it's really cool. I don't see any additional questions. I will run down the rest of the comments that we've got here
+
+233
+0:17:36.240 --> 0:17:39.240
+Let's see. Glad to see that you thought that
+
+234
+0:17:39.920 --> 0:17:46.480
+Basement and NG's videos were a surprise. Mr. Carr liked them too. Sometimes mods mods have mods. Yep
+
+235
+0:17:46.480 --> 0:17:48.840
+They sure do. Sorry said that they
+
+236
+0:17:48.840 --> 0:17:50.200
+They
+
+237
+0:17:50.200 --> 0:17:56.680
+They might have or you know have had in the past side of job and see that people use subversion subversion also known as SVN
+
+238
+0:17:56.680 --> 0:17:58.360
+That's another good
+
+239
+0:17:58.360 --> 0:18:00.360
+Version control system. It's okay. I
+
+240
+0:18:01.160 --> 0:18:04.120
+Prefer like it's just winning basically, but like SVN is okay
+
+241
+0:18:04.760 --> 0:18:11.160
+CVS not the pharmacy but central version control system terrible. Don't use that one. There's another one called like material or something
+
+242
+0:18:11.160 --> 0:18:12.720
+I haven't used that one though
+
+243
+0:18:12.720 --> 0:18:16.360
+They all have a point with like it and stuff like that is that you can do code reviews remotely
+
+244
+0:18:16.360 --> 0:18:23.400
+I used to work for five months a software company where they did only in-person reviews. It was horrible
+
+245
+0:18:23.400 --> 0:18:27.160
+I'm not that big on personal space invading
+
+246
+0:18:27.160 --> 0:18:31.640
+I'm not sure anyone is these days but like obviously like other it affects more people than most I hate it
+
+247
+0:18:32.040 --> 0:18:34.700
+And the way that code reviews worked at that company
+
+248
+0:18:34.700 --> 0:18:40.640
+I worked at for five months was before you could commit the code to a branch your own branch. No idea why
+
+249
+0:18:40.640 --> 0:18:46.320
+Um, someone would have to come to your desk and review it side-by-side with you hated that
+
+250
+0:18:46.320 --> 0:18:51.440
+I'm like, can we please do code reviews in other way? I'll email the diff files to someone
+
+251
+0:18:51.440 --> 0:18:54.940
+I don't care like please don't come to my desk. Leave me alone. It's horrible
+
+252
+0:18:55.400 --> 0:19:01.260
+Anyway, moving forwards. Yeah that runtime says you got to ask that when you're interviewing. Yes
+
+253
+0:19:01.640 --> 0:19:04.160
+Do you remember that when your job interviewing if you need to job interviews?
+
+254
+0:19:04.160 --> 0:19:07.100
+I have so much insight about how to do them properly and stuff like that
+
+255
+0:19:07.100 --> 0:19:09.100
+I will give you some hints and here's one hint
+
+256
+0:19:09.100 --> 0:19:13.080
+um, you are interviewing the interviewer as much as they are
+
+257
+0:19:13.960 --> 0:19:21.960
+interviewing you and your questions that you ask them are as good if not better sometimes than the questions that they are asking you for
+
+258
+0:19:22.200 --> 0:19:24.300
+Understanding you and seeing if you're a fit at the company
+
+259
+0:19:25.120 --> 0:19:29.480
+So if you want to like make them sweat a little bit, which is good, right? Because you're sweating you're nervous
+
+260
+0:19:29.480 --> 0:19:31.400
+It's a job interview make them nervous
+
+261
+0:19:31.400 --> 0:19:38.740
+Ask them what the work-life balance is like ask them what their day-to-day looks like ask them about the last time
+
+262
+0:19:38.740 --> 0:19:40.080
+there was a
+
+263
+0:19:40.080 --> 0:19:44.520
+Stressful situation at work and how the company mitigated that which is very important
+
+264
+0:19:44.520 --> 0:19:49.080
+If your company that you're working for isn't mitigating stressful situations, then they don't deserve to employ you
+
+265
+0:19:50.400 --> 0:19:54.520
+Every company should take action to reduce stressful situations not increase them
+
+266
+0:19:55.040 --> 0:19:59.960
+So it's just a couple of questions there. They're interesting and then yeah asked about their tech stack, right? It's interesting
+
+267
+0:19:59.960 --> 0:20:03.380
+I wish I'd done that before I joined the workplace. I work for for five months. Anyway
+
+268
+0:20:03.380 --> 0:20:08.140
+I'm moving on. I don't see any other questions. So if you have any questions, do you let me know?
+
+269
+0:20:08.540 --> 0:20:12.380
+We have about eight minutes left kind of short office hours today
+
+270
+0:20:12.540 --> 0:20:16.460
+I just saw a quote channel ping from Lex which has make them nervous
+
+271
+0:20:16.460 --> 0:20:20.640
+I'm on it like do it right if they're nervous then you've done the right job
+
+272
+0:20:21.260 --> 0:20:27.100
+Another thing to look out for as well, particularly if you're in like my industry for interviews is often they'll give you a take-home assignment
+
+273
+0:20:27.100 --> 0:20:33.140
+And watch those take-home assignments. Sometimes they are manipulative or sometimes predatory. So do keep an eye on that
+
+274
+0:20:33.900 --> 0:20:40.140
+for example once when I was interviewing I was given a take-home assignment to make a redis parser redis is a
+
+275
+0:20:41.300 --> 0:20:44.260
+Hard to explain thing. I don't really know how to explain this
+
+276
+0:20:44.260 --> 0:20:47.460
+I know I would use it for I'm very familiar of how I would use it
+
+277
+0:20:47.460 --> 0:20:49.020
+I just don't know how to classify redis
+
+278
+0:20:49.020 --> 0:20:55.420
+It's like a sort of in memory database thing either a lot of software companies use for very good reasons
+
+279
+0:20:55.420 --> 0:20:58.820
+But I don't know the sort of like tagline they would have on it
+
+280
+0:20:58.820 --> 0:21:00.620
+I just don't want to use it for anyway
+
+281
+0:21:00.620 --> 0:21:06.220
+they wanted to me to make a redis client which could speak the the language and the protocols that redis did and
+
+282
+0:21:06.820 --> 0:21:11.340
+Just see how far I got and I got like my my spidey senses went off and I'm like, that's a bit weird
+
+283
+0:21:11.340 --> 0:21:16.260
+Maybe they need maybe they need a redis client and they're hoping that I'll write one for them
+
+284
+0:21:16.360 --> 0:21:22.840
+So I submitted the code assignment back to them, but I had licensed the code assignment that they gave me as GPL
+
+285
+0:21:22.840 --> 0:21:29.300
+So I was like I've done your license your code assignment, but I've licensed to sit as GPL. So good luck
+
+286
+0:21:30.680 --> 0:21:33.080
+for those unaware the GPL license for
+
+287
+0:21:34.000 --> 0:21:39.800
+Code basically means that a company cannot use it for profit that easily
+
+288
+0:21:40.280 --> 0:21:46.800
+It's what I was basically doing is like this seems fishy. So I'm gonna license it as GPL and I'm like, okay
+
+289
+0:21:46.800 --> 0:21:51.400
+I won and I'll actually do that now for like all coding assignments. I license them as GPL
+
+290
+0:21:51.400 --> 0:21:55.520
+Additionally for coding assignments or take home assignments and job interviews make sure it's not too
+
+291
+0:21:56.600 --> 0:21:58.240
+Aligned to the job that you were doing
+
+292
+0:21:58.240 --> 0:22:05.120
+I had an interview another place where the take-home assignment was basically what I'd be doing at the job and I said that's unfair
+
+293
+0:22:05.120 --> 0:22:07.560
+That's consulting because it's too close to the job
+
+294
+0:22:07.560 --> 0:22:12.280
+I was interviewing for a product manager position and they were asking me for sort of like ideas and
+
+295
+0:22:12.320 --> 0:22:19.060
+Insights on the product that they were building and they weren't paying me for that and I'm like that's not appropriate as a product manager
+
+296
+0:22:19.060 --> 0:22:21.800
+You can give me a take-home assignment about an arbitrary problem
+
+297
+0:22:21.960 --> 0:22:23.560
+for example a
+
+298
+0:22:23.560 --> 0:22:30.640
+Airplane booking system if your company is doing I don't know t-shirts and you ask me for an airplane booking system product manager take-home assignment
+
+299
+0:22:30.640 --> 0:22:37.780
+That's fine. But if you're a t-shirt company and you ask me for a product manager at take-home assignment about t-shirts, that's bad
+
+300
+0:22:37.780 --> 0:22:41.560
+I'm giving you free advice. You will pay me for that or I will not do it
+
+301
+0:22:41.560 --> 0:22:45.720
+And I've actually said no to a couple of jobs because of that and change the hiring policies. It's great
+
+302
+0:22:45.720 --> 0:22:50.040
+I say no and then the hiring manager is like but we really liked you
+
+303
+0:22:50.080 --> 0:22:57.440
+We'll change our hiring policies for you. And I'm like, no, sorry on principle. Like I can't wait you're asking for consultancy at that point
+
+304
+0:22:58.160 --> 0:23:01.840
+Okay, they're actually asked some other Neos questions. So for those who are not
+
+305
+0:23:02.680 --> 0:23:07.960
+In the software engineering land, I will go back to Neos questions. I apologize for that, but some people enjoyed it. So great
+
+306
+0:23:09.360 --> 0:23:13.380
+Sorry says that they had to print out our code and explain it at the meeting table
+
+307
+0:23:13.380 --> 0:23:18.660
+Yeah, don't don't print code either but most teaching best practices is good
+
+308
+0:23:18.660 --> 0:23:20.900
+But you should take that knowledge and crystallize it into a PowerPoint
+
+309
+0:23:21.420 --> 0:23:25.900
+And then you can do that a lot easier or ideally not a PowerPoint maybe like a blog article people
+
+310
+0:23:26.260 --> 0:23:32.540
+misunderstand that like internal documentation part of things like you should have an internal documentation that is as good as
+
+311
+0:23:32.820 --> 0:23:36.220
+external documentation for your software like if someone is new to the
+
+312
+0:23:36.980 --> 0:23:42.420
+Company, they should have a wiki or a place that they can go to where it's like I'm new help and there should be
+
+313
+0:23:42.420 --> 0:23:47.940
+A list of shit that they can go look at and feel less new moving was for an actual Neos question Lord
+
+314
+0:23:48.100 --> 0:23:51.060
+Tremieson he says well when the inventory UI be made better
+
+315
+0:23:51.060 --> 0:23:56.420
+So the venturing UI is part of our UI rework which is often misconstrued as bigger or smaller than it actually is
+
+316
+0:23:56.580 --> 0:24:02.340
+So I'm gonna go ahead and link you to the Neos public roadmap board for the UI rework
+
+317
+0:24:02.340 --> 0:24:04.340
+I've seen a lot of people who will link to the
+
+318
+0:24:05.100 --> 0:24:07.580
+one github issue we have for the
+
+319
+0:24:07.580 --> 0:24:14.660
+Overall UI overhaul, but that one doesn't really convey the sort of picture of the UI. So here is
+
+320
+0:24:15.260 --> 0:24:19.340
+Projects 2 which is our UI overall you'll see that there is items on there for doing that
+
+321
+0:24:19.340 --> 0:24:24.660
+We don't have any plans to currently do that as we're on a little bit of a freeze when it comes to that the next thing
+
+322
+0:24:24.660 --> 0:24:30.740
+That we will do on the UI is the settings page that settings page just allows us to add additional settings
+
+323
+0:24:30.740 --> 0:24:33.600
+You can see bullet points there in the preparing gathering info segment
+
+324
+0:24:33.600 --> 0:24:40.020
+Which says redesign settings all sorts of stuff there before anyone else ask as well. Yes, everything will have a dark mode option
+
+325
+0:24:40.500 --> 0:24:42.300
+basically anything that is
+
+326
+0:24:42.300 --> 0:24:47.580
+Light mode is old and needs to be that includes the inventory the contact system anything else
+
+327
+0:24:47.580 --> 0:24:52.980
+That's like light mode that includes inspectors. So there'll be a dark mode. There will also still be a light mode anything
+
+328
+0:24:52.980 --> 0:24:56.220
+It's just like there'll be the possibility to have either depending on which one you'd prefer
+
+329
+0:24:56.860 --> 0:25:01.820
+But it's a good measure for what needs to be changed. But yeah, the inventory UI will be changed at some point
+
+330
+0:25:01.820 --> 0:25:05.540
+I can't really answer when moving on to Risa's question Risa says
+
+331
+0:25:05.540 --> 0:25:10.700
+Do you have any suggestions on how to mitigate room and correct local asset transfer issue where local assets uploaded not transfer to the host
+
+332
+0:25:10.700 --> 0:25:12.380
+Or who's from?
+
+333
+0:25:12.380 --> 0:25:13.900
+Okay
+
+334
+0:25:13.900 --> 0:25:18.500
+I don't receive I will add that one to my list as well. I'm sorry. I just haven't read that part of the code
+
+335
+0:25:18.500 --> 0:25:24.140
+Oh, I pasted that into my notepad and it just like pasted a bunch of discord stuff including emojis. I don't need that
+
+336
+0:25:24.860 --> 0:25:26.820
+Specs, I'm glad to see that you did a point point
+
+337
+0:25:26.820 --> 0:25:33.740
+I'm presuming mean PowerPoint on Redis, which is a very fast in memory database cache. That's a great tagline for it
+
+338
+0:25:33.740 --> 0:25:37.220
+That is perfect. So I've used it for both of those things. I just couldn't think of the
+
+339
+0:25:38.220 --> 0:25:42.940
+Sentence for it moving forwards. I know there's way to upload tremors and again
+
+340
+0:25:42.940 --> 0:25:45.380
+I know there's a way to upload pictures very easily from PC to news
+
+341
+0:25:45.380 --> 0:25:47.580
+But it's way to download a picture from news to PC
+
+342
+0:25:47.580 --> 0:25:51.500
+Yeah, grab the picture open up your context menu and it'll say save a screenshot that'll go to
+
+343
+0:25:51.500 --> 0:25:57.220
+Your home folder which is like your wherever all your shit is and inside the pictures folder
+
+344
+0:25:57.220 --> 0:26:01.140
+There'll be a folder called me SVR. It'll be saved there if that doesn't work because like
+
+345
+0:26:01.740 --> 0:26:05.860
+It's a picture that's weird for some reason or you can't use that
+
+346
+0:26:05.860 --> 0:26:07.860
+There's a tool which is in
+
+347
+0:26:08.180 --> 0:26:12.580
+someone's public folder that you can shoot a picture with and then it'll act like a screenshot and you can save it there if
+
+348
+0:26:12.620 --> 0:26:16.900
+That doesn't work as in if that like hold it and then use the context menu doesn't work
+
+349
+0:26:16.900 --> 0:26:24.380
+you can hold the picture go to your file browser and hit the plus and it'll start an export window for that picture and then
+
+350
+0:26:24.380 --> 0:26:27.660
+You can export it. I did notice a couple of people doing this. I will bring it up
+
+351
+0:26:27.660 --> 0:26:34.540
+I've noticed a couple of people that will do all four of those so they'll take the picture which actually saves it twice
+
+352
+0:26:34.540 --> 0:26:38.260
+It's saved to the Steam screenshot location and your pictures near SVR folder
+
+353
+0:26:38.260 --> 0:26:43.300
+So there's two copies of the photo then they'll export it as a screenshot using the context menu item
+
+354
+0:26:43.300 --> 0:26:48.420
+That's three times that picture has been saved and then they'll use the file browser to also export it
+
+355
+0:26:48.420 --> 0:26:53.540
+Which means that photo exists four times on their computer. So don't do that. Please choose just one
+
+356
+0:26:54.260 --> 0:27:00.660
+Moving forwards to no user found. Is there any tools in the earth? You'd like to be more streamlined avatar creator full-body creator
+
+357
+0:27:01.900 --> 0:27:05.400
+Anything to do with the slicing materials? I use those all the time right now and I hate them
+
+358
+0:27:05.900 --> 0:27:08.420
+there's just a bunch of bugs I need to fix and
+
+359
+0:27:08.420 --> 0:27:10.420
+And
+
+360
+0:27:11.340 --> 0:27:14.380
+No, not really there's lots of stuff that we need to but like if you like
+
+361
+0:27:14.380 --> 0:27:17.980
+You know, it was like the top list avatar creator full-body calibrator are the top ones
+
+362
+0:27:19.420 --> 0:27:23.540
+Hamish likes the slicing materials and doing weird stuff with them
+
+363
+0:27:23.540 --> 0:27:26.140
+I spent three hours figuring out the mathematics for one
+
+364
+0:27:26.140 --> 0:27:27.260
+I still don't know what's going on
+
+365
+0:27:27.260 --> 0:27:33.000
+but I did look at it the volumetric 3d slice II thing the my brain uses such the
+
+366
+0:27:33.000 --> 0:27:38.480
+World browser for medical and you can go look at my brain inside Neos if you didn't know that go look at my brain
+
+367
+0:27:38.480 --> 0:27:45.120
+It's in Neos my actual brain look for medical in the world browser that rendering I think is a raymarch shader
+
+368
+0:27:45.120 --> 0:27:46.640
+I looked at the code. I don't know shade of code
+
+369
+0:27:46.640 --> 0:27:50.400
+I looked at that and I'm like, that's the closest thing to ray marching I've ever read. It's cool
+
+370
+0:27:50.640 --> 0:27:54.160
+That's all the questions we have and we are at the end of time
+
+371
+0:27:54.160 --> 0:27:59.840
+So mystic and global if you have a question, please type it otherwise no more questions
+
+372
+0:27:59.840 --> 0:28:02.620
+A global entity says will it be custom shade of support?
+
+373
+0:28:03.320 --> 0:28:05.320
+sort of
+
+374
+0:28:05.720 --> 0:28:07.480
+Sort of
+
+375
+0:28:07.480 --> 0:28:14.680
+We can't do unity shaders. So you're not gonna have unity shaders. Sorry about that. It also looks like for the initial in
+
+376
+0:28:15.480 --> 0:28:19.400
+Support of custom shaders also won't be writing raw shader code. It will be
+
+377
+0:28:19.960 --> 0:28:24.240
+Composing shaders using a shader node graph in a similar way to how blender does it?
+
+378
+0:28:24.240 --> 0:28:30.040
+Which will give you like an immense freedom to make shaders, but won't be raw shader code
+
+379
+0:28:30.480 --> 0:28:33.420
+And then mystic says the cures of dark mode is any information that we talked about
+
+380
+0:28:33.840 --> 0:28:37.720
+No, we haven't really done any designs in the area, but
+
+381
+0:28:38.880 --> 0:28:40.800
+It'll be dark
+
+382
+0:28:40.800 --> 0:28:42.280
+thumbs up
+
+383
+0:28:42.280 --> 0:28:46.480
+With that we're here to leave things off and get started on some other stuff
+
+384
+0:28:46.480 --> 0:28:47.540
+If you have any additional questions
+
+385
+0:28:47.540 --> 0:28:52.520
+Please go ahead and direct message me them drop them in the questions help section drop them in the sheet for next week
+
+386
+0:28:52.520 --> 0:28:56.000
+And always remember stay awesome. Oh and Neos has mirrors
+
+387
+0:28:56.000 --> 0:29:00.320
+I don't know why I have to say this but there's a rumor going around that we don't have mirrors. We have mirrors
+
+388
+0:29:00.320 --> 0:29:26.320
+I'll see you next time. Bye. Bye
+

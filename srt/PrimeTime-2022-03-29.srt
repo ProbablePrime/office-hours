@@ -1,0 +1,1128 @@
+1
+0:00:00.000 --> 0:00:05.440
+Okay. So it's 4 p.m. That means it's time for office hours with prime. So drop your
+
+2
+0:00:05.440 --> 0:00:11.400
+questions in the office hours text chat and we will get them answered in turn. Reminder
+
+3
+0:00:11.400 --> 0:00:16.880
+for this week, we are recording this and it will be uploaded to sounder which will then
+
+4
+0:00:16.880 --> 0:00:22.320
+transcribe it. Still working with how that will work. I had feedback last week to the
+
+5
+0:00:22.320 --> 0:00:28.080
+developers of the application. Their transcription editor is a bit weird, but they are working
+
+6
+0:00:28.080 --> 0:00:32.280
+on it. Once that's fixed, I should be able to download that transcription as a VST file
+
+7
+0:00:32.280 --> 0:00:37.640
+which is a lot easier to format than the current presentation on sounder. But hey, we're working
+
+8
+0:00:37.640 --> 0:00:43.000
+on it. The idea is just to automate as much as possible because automation is cool. I've
+
+9
+0:00:43.000 --> 0:00:48.320
+noticed that it gets me when I mispronounce stuff, it gets them completely wrong. So I
+
+10
+0:00:48.320 --> 0:00:54.960
+have to concentrate on pronouncing stuff appropriately. So I don't see any questions in the office
+
+11
+0:00:54.960 --> 0:00:59.120
+hours text chat. So please drop them in if you have questions. I'm just going to sit
+
+12
+0:00:59.120 --> 0:01:14.720
+here and make funny noises occasionally. Of particular note this week, it was a small
+
+13
+0:01:14.720 --> 0:01:21.640
+change to my modern plugin policy. The only change there was just a small clarification
+
+14
+0:01:21.640 --> 0:01:28.280
+on the GitHub reporting. It's not a requirement, it's just a request. If you would like, you
+
+15
+0:01:28.280 --> 0:01:34.640
+can drop your GitHub drop your links on GitHub to the mods that solve a problem. We do encourage
+
+16
+0:01:34.640 --> 0:01:40.440
+it though. If we don't know that your mod is solving a problem, then we can't fix it.
+
+17
+0:01:40.440 --> 0:01:44.300
+Ideally if your mod is solving a problem which lots of users face, I would love to actually
+
+18
+0:01:44.300 --> 0:01:50.120
+include it in Neo's actuality. A good example there being the inspector alignment fix. So
+
+19
+0:01:50.120 --> 0:01:54.560
+I think it was RT that made that one originally as a mod. I then implemented it into Neo's
+
+20
+0:02:26.920 --> 0:02:32.240
+So Monik is speaking about the controller mod that disables tank controls. That is a
+
+21
+0:02:32.240 --> 0:02:37.080
+perfect example of something that will go into the new settings panel. For those unaware,
+
+22
+0:02:37.080 --> 0:02:41.320
+on our roadmap is the settings panel. We'll be reworking the settings panel such that
+
+23
+0:02:41.320 --> 0:02:46.960
+we can fit unlimited settings. You know the unlimited power gif, just imagine it with
+
+24
+0:02:46.960 --> 0:02:51.560
+Frux's face. If someone would actually edit this, I will love you forever. I want Frux's
+
+25
+0:02:51.560 --> 0:03:00.120
+face on, what's his face, Darth, I've forgotten his name, Palpatine, Emperor Palpatine. Yeah,
+
+26
+0:03:00.120 --> 0:03:05.520
+Frux's face on Emperor Palpatine, change the lighting to yellow and then unlimited settings,
+
+27
+0:03:05.520 --> 0:03:11.480
+that would be the new settings panel. And the new settings panel will allow just unlimited
+
+28
+0:03:11.480 --> 0:03:16.000
+settings and at that point he'll basically be like, what do you want a setting for? Cool,
+
+29
+0:03:16.000 --> 0:03:19.600
+it's implemented. Now it won't be fast depending on what it is, we still have to write code
+
+30
+0:03:19.600 --> 0:03:27.520
+for that setting, but the idea is that we can make settings for that. There are a couple
+
+31
+0:03:27.520 --> 0:03:31.400
+of things which the modding community know are just booleans and they're like, why can't
+
+32
+0:03:31.400 --> 0:03:34.800
+you just put a checkbox on the settings screen? If you look at the settings screen, we're
+
+33
+0:03:34.800 --> 0:03:47.680
+out of room. We're just out of room. We can shoehorn new settings in, but we're just taking
+
+34
+0:03:47.680 --> 0:03:51.520
+the starts, hey, let's redo the settings thing, because remember, all work takes time and
+
+35
+0:03:51.520 --> 0:03:55.360
+we don't want to do work that we can undo or have to undo. And the settings panel is
+
+36
+0:03:55.360 --> 0:04:14.520
+something we have to undo. Tap dancing, I guess. I see no other questions, so I'm going
+
+37
+0:04:14.520 --> 0:04:18.320
+to sit here and look at all the emails that are coming in for me, because I'm having a
+
+38
+0:04:18.320 --> 0:04:30.720
+busy week this week.
+
+39
+0:04:30.720 --> 0:04:54.160
+We have a question. I'm so happy we have a question. Keep them coming. Specs asks, speaking
+
+40
+0:04:54.160 --> 0:04:59.280
+of mods, I currently use a mod that makes my inspector match my user color. Very handy
+
+41
+0:04:59.280 --> 0:05:02.680
+for organizing when there's a bunch of people building together any thoughts on places where
+
+42
+0:05:02.680 --> 0:05:09.880
+user color may be useful in general. I'd like to see it. As many places as it makes sense.
+
+43
+0:05:09.880 --> 0:05:15.120
+We could use it on other panels, like logic panels. We could use it on just sort of all
+
+44
+0:05:15.120 --> 0:05:19.480
+sorts of things. For those who aren't aware, the user color is a facet, which is available
+
+45
+0:05:19.480 --> 0:05:25.280
+in the essentials, which changes a cloud variable, which is sort of like your selected color.
+
+46
+0:05:25.280 --> 0:05:29.320
+I wouldn't say favorite color, but lots of people do make it their favorite color. The
+
+47
+0:05:29.320 --> 0:05:35.000
+new default headset and hands avatar will use that color for the color of the headset
+
+48
+0:05:35.000 --> 0:05:42.040
+and hands, so you can customize it. And you can tie into it. It's a cloud variable that
+
+49
+0:05:42.040 --> 0:05:47.840
+anyone can read, so anyone can take a look at that and be like, cool, I want my inspector
+
+50
+0:05:47.840 --> 0:05:52.160
+to be that color. The important thing with colors, being that I'm slightly colorblind,
+
+51
+0:05:52.160 --> 0:05:59.160
+is that you don't use it as the single descriptor of who something is. If inspectors have the
+
+52
+0:05:59.160 --> 0:06:03.280
+concept of being owned, then maybe put their username in the title bar or something like
+
+53
+0:06:03.280 --> 0:06:10.660
+that. We don't want to just say, like, cool, stop prime, that's a red inspector, that belongs
+
+54
+0:06:10.660 --> 0:06:17.200
+to the specs, you can't touch that inspector. Maybe I don't know it's red. It should be
+
+55
+0:06:17.200 --> 0:06:23.200
+clear. It's good for organization. It also lets me sort of identify that one person who
+
+56
+0:06:23.200 --> 0:06:27.080
+has an inspector two feet to the left for the exact same object but opens up another
+
+57
+0:06:27.080 --> 0:06:32.920
+one anyway, because, you know, they like that one better. I do that all the time. Don't
+
+58
+0:06:32.920 --> 0:06:36.640
+worry. Everyone does. They're like, cool. I know there's one over here, but I need one
+
+59
+0:06:36.640 --> 0:06:49.840
+over here. Yeah. It's fun. There are some times where I have to, like,
+
+60
+0:06:49.840 --> 0:06:54.960
+stop when I'm building and I close all my inspectors down and then I become really descriptive
+
+61
+0:06:54.960 --> 0:06:59.000
+about them. I'm like, okay, I need one for this, I need one for that. Because always
+
+62
+0:06:59.000 --> 0:07:04.280
+I'm just juggling them around and it's just it gets chaotic. When I was doing the MMC
+
+63
+0:07:04.280 --> 0:07:09.120
+coding system again this year, I just sufficiently needed three different locations but kept
+
+64
+0:07:09.120 --> 0:07:16.760
+using the location one for location three and swapping it around. So I just had to stop,
+
+65
+0:07:16.760 --> 0:07:20.080
+close all the inspectors and say, okay, this is the location one inspector, this is the
+
+66
+0:07:20.080 --> 0:07:25.040
+location two inspector, this is the location three inspector. I could make copies of those
+
+67
+0:07:25.040 --> 0:07:30.120
+by grabbing the top of the inspector, the slot, and then primary triggering, and that
+
+68
+0:07:30.120 --> 0:07:35.600
+would make a copy of it. Fantastic. But important thing being that those three always existed
+
+69
+0:07:35.600 --> 0:07:42.640
+so I could quickly refer to them. I guess that's maybe a sort of signaler that
+
+70
+0:07:42.640 --> 0:08:03.240
+inspector-based shortcuts for a session might be a good feature. Hey, roadmap, new inspectors,
+
+71
+0:08:03.240 --> 0:08:24.760
+I need one for this, I need one for that, I need one for that, I need one for that.
+
+72
+0:08:24.760 --> 0:08:35.600
+This is a great question. I haven't had a lot of good geospaced guides related to transforms
+
+73
+0:08:35.600 --> 0:08:39.960
+vectors, Cartesian coordinates, 3D space, et cetera. Is there a good starting point
+
+74
+0:08:39.960 --> 0:08:43.800
+you could recommend for those of us who have forgotten what we learned in trig or don't
+
+75
+0:08:43.800 --> 0:08:48.440
+do game development as our game job? I don't know, but I'd actually recommend you look
+
+76
+0:08:48.440 --> 0:08:57.920
+at the problem from a game development point of view. Here's one I came across in making
+
+77
+0:08:57.920 --> 0:09:03.880
+a game many years ago, I needed a 2D missile shot from a spaceship to angle itself towards
+
+78
+0:09:03.880 --> 0:09:10.980
+the player spaceship and crash into it. There's actually a lot of maths in that, and instead
+
+79
+0:09:10.980 --> 0:09:18.760
+of learning trigonometry from the sort of, you know, oh, let's do 50 exercises based
+
+80
+0:09:18.760 --> 0:09:26.160
+on it, I just Googled that exact problem and got the mathematics for it, and I learnt the
+
+81
+0:09:26.160 --> 0:09:32.800
+mathematics for it in a sort of reverse point of view. I learnt the solution using the problem,
+
+82
+0:09:32.800 --> 0:09:39.240
+and then by learning the solution, I learnt the generic math concept there. You're looking
+
+83
+0:09:39.240 --> 0:09:46.600
+for 8 and 2, if you want to do that. Something to do with the rotation compared to the, like,
+
+84
+0:09:46.600 --> 0:09:56.360
+blah, blah, blah. I also really want to learn trigonometry using tau, which is 2 times pi,
+
+85
+0:09:56.360 --> 0:10:01.720
+rather than pi, because pi is kind of silly. If you learn it using tau, it's a lot easier.
+
+86
+0:10:01.720 --> 0:10:06.960
+I also want to learn trigonometry using radians rather than degrees, because I hear it's a
+
+87
+0:10:06.960 --> 0:10:13.160
+lot easier to work with radians for those sort of, I'm going to say fixed in your ways,
+
+88
+0:10:13.160 --> 0:10:18.800
+I don't mean it negatively, I just mean this is how education teaches you it, so it's understandable.
+
+89
+0:10:18.800 --> 0:10:25.000
+Doing rotational maths using degrees is actually harder than it needs to be. Doing it in radians
+
+90
+0:10:25.000 --> 0:10:30.480
+is apparently easier, and the reason behind that is that radians are a float-based sort
+
+91
+0:10:30.480 --> 0:10:37.360
+of arithmetic system, whereas degrees are like, well, 360 is, got to go back to zero.
+
+92
+0:10:37.360 --> 0:10:41.780
+Radians you can just keep going, stuff like that. So it makes some of the maths easier,
+
+93
+0:10:41.780 --> 0:10:46.760
+but it is sort of like rip out your existing knowledge and put in new knowledge to learn
+
+94
+0:10:46.760 --> 0:10:57.520
+it. You can't, you have to just forget what you know, I guess, a little bit. In my public
+
+95
+0:10:57.520 --> 0:11:03.600
+folder, in utilities or tools, I don't remember which, there is a three-dimensional cone,
+
+96
+0:11:03.600 --> 0:11:12.400
+not cone, a cylinder, which maps the colour values of RGB onto a cylinder. Not RGB, yeah,
+
+97
+0:11:12.400 --> 0:11:17.920
+RGB. No, no, huge saturation of value, yeah. Because I was trying to explain the concept
+
+98
+0:11:17.920 --> 0:11:23.520
+of how colour was a three-dimensional number, and someone didn't understand that so I made
+
+99
+0:11:23.520 --> 0:11:27.200
+it into a cone, but I couldn't get the maths right, and I was using degrees, and earth
+
+100
+0:11:27.200 --> 0:11:31.880
+mark came in, and he just converted all the maths to using radians, and it was like half
+
+101
+0:11:31.880 --> 0:11:38.960
+the nodes. I don't know why. Every time I look at it, I'm like, that makes sense, and
+
+102
+0:11:38.960 --> 0:11:44.840
+then I pack it and I forget instantly. There's a number of things in life that are exactly
+
+103
+0:11:44.840 --> 0:11:52.240
+like that. Someone will explain it to me and then I'll just instantly forget it. The one
+
+104
+0:11:52.240 --> 0:11:57.920
+that comes to mind is the difference between, in military, between an enlisted officer and
+
+105
+0:11:57.920 --> 0:12:02.560
+a commissioned officer. I still don't quite understand that, and don't explain it to me,
+
+106
+0:12:02.560 --> 0:12:07.600
+I'll forget instantly. It's just a plague of my life. Every time it becomes important
+
+107
+0:12:07.600 --> 0:12:14.280
+for a conversation, I'll relook it up. Another one being voltage. I don't understand what
+
+108
+0:12:14.280 --> 0:12:23.280
+voltage is in a circuit, and again, don't explain it to me, I'll forget. I would have
+
+109
+0:12:23.280 --> 0:12:29.320
+had a lot better time learning electronics if I just accepted that voltage was a thing
+
+110
+0:12:29.320 --> 0:12:35.600
+and I didn't question what it was. Same goes with languages as well. I had a lot of struggle
+
+111
+0:12:35.600 --> 0:12:40.200
+learning languages because I'm like, why does French, German, et cetera, why does each word
+
+112
+0:12:40.200 --> 0:12:45.720
+need a gender? Why does it have a gender? Who decides what the gender of it is? If I
+
+113
+0:12:45.720 --> 0:12:51.880
+just accepted it, it did. Sometimes in education there is a warranted part of just accepting
+
+114
+0:12:51.880 --> 0:12:58.320
+that you are given this knowledge because you need to learn it. Not in maths though,
+
+115
+0:12:58.320 --> 0:13:02.880
+screw maths. I learnt maths so much easier in 3D. I've actually considered doing this.
+
+116
+0:13:02.880 --> 0:13:07.920
+I know that Tom Fox is trying to do it and looking at tools to help them do it. Teach
+
+117
+0:13:07.920 --> 0:13:14.680
+and tutor using Neos to describe mathematical constructs and stuff. But I was wondering
+
+118
+0:13:14.680 --> 0:13:19.920
+if I could branch out my Neos tutorials to just like pure mathematics tutorials. Lesson
+
+119
+0:13:19.920 --> 0:13:25.560
+1, Pythagoras theorem with prime. It would be in Neos and look like a Neos tutorial but
+
+120
+0:13:25.560 --> 0:13:29.440
+it would actually be learning core math and therefore someone who might not be interested
+
+121
+0:13:29.440 --> 0:13:44.480
+in Neos itself would still learn core math from that tutorial.
+
+122
+0:13:44.480 --> 0:14:03.900
+Like as an example, I was never given this picture when Pythagoras was explained to me.
+
+123
+0:14:03.900 --> 0:14:10.160
+So I didn't understand what squaring a number meant. But here it's quite easy to see. When
+
+124
+0:14:10.160 --> 0:14:17.500
+you square that number, you get the area of that square. So the area of square A plus
+
+125
+0:14:17.500 --> 0:14:22.920
+the area of square B is the area of square C. And you're just like, oh, that makes a
+
+126
+0:14:22.920 --> 0:14:29.720
+lot more sense. And you can actually do that with squares if you've got a unit square.
+
+127
+0:14:29.720 --> 0:14:34.260
+Sometimes the angles get funky but you can fill it up. At a museum there's a demonstration
+
+128
+0:14:34.260 --> 0:14:39.640
+of Pythagoras which uses water. So you have a triangle one way up which is the A and B
+
+129
+0:14:39.640 --> 0:14:44.360
+side and it's got two chambers full of water and they fill up to show the area of chamber
+
+130
+0:14:44.360 --> 0:14:49.880
+A and chamber B of water. And then you spin the triangle sort of upside down and it drains
+
+131
+0:14:49.880 --> 0:14:55.500
+the water from chamber A and chamber B into chamber C and it fills up to the fill line
+
+132
+0:14:55.500 --> 0:15:04.200
+in chamber C. And again that was like, oh, that's like that's how Pythagoras works? Cool.
+
+133
+0:15:04.200 --> 0:15:12.360
+And you could totally animate that in VR. Because that's not even mathematics at that
+
+134
+0:15:12.360 --> 0:15:20.720
+point. That's just like if you had the containers, you could get like a cup and explain Pythagoras
+
+135
+0:15:20.720 --> 0:15:44.640
+using a cup of water and a box. Yeah, here it is. It's not the same rig as in the museum.
+
+136
+0:15:44.640 --> 0:16:01.760
+It looks like a homemade one but it's like identical. Specs says I've heard that sometimes
+
+137
+0:16:01.760 --> 0:16:04.840
+you just have to learn something in the simple but slightly wrong way before you have the
+
+138
+0:16:04.840 --> 0:16:08.680
+knowledge and understanding to actually learn it in the right and fully defined way. Which
+
+139
+0:16:08.680 --> 0:16:14.520
+can be annoying but you can be annoying when you want to say teach someone how to do something
+
+140
+0:16:14.520 --> 0:16:19.920
+in Neos the best way but it might be too difficult to understand without having soaked in Neos
+
+141
+0:16:19.920 --> 0:16:24.760
+long enough. That's a good description of the problem I continually see which is when
+
+142
+0:16:24.760 --> 0:16:29.280
+someone in this Discord asks about a question and they're trying to do it in logics, like
+
+143
+0:16:29.280 --> 0:16:35.280
+they're trying to change a Boolean using logics and someone goes, just use button toggle!
+
+144
+0:16:35.280 --> 0:16:41.480
+Just use button toggle! Button toggle! They're trying to learn logics here so can we please
+
+145
+0:16:41.480 --> 0:16:46.680
+Boolean latch just for now and then maybe suggest, hey, if you'd like to learn a way
+
+146
+0:16:46.680 --> 0:16:53.600
+to do this without logics, button toggle! Starting with just like, you know, stop what
+
+147
+0:16:53.600 --> 0:17:03.000
+you're doing, throw it all out, it's wrong, use button toggle, not a good way to learn.
+
+148
+0:17:03.000 --> 0:17:11.000
+Grinch says would be great to have text description of each item in logics browser and some sort
+
+149
+0:17:11.000 --> 0:17:15.880
+of hint. That is on the roadmap for our UI rework. You can check out our roadmaps on
+
+150
+0:17:15.880 --> 0:17:22.880
+the GitHub. Much, much, much more in-game documentation is planned on that roadmap.
+
+151
+0:17:22.880 --> 0:17:48.280
+That's actually meant to be what I'm doing, but I do a lot of other stuff.
+
+152
+0:17:48.280 --> 0:17:59.400
+There's a lot of actual mathematics that can be explained using geometry and I really do
+
+153
+0:17:59.400 --> 0:18:07.400
+like that. I don't remember what video it was. Actually, I do. It was a theorem or something
+
+154
+0:18:07.400 --> 0:18:11.720
+and they were explaining quadratic equations using squares and again, I'm just like, maths
+
+155
+0:18:11.720 --> 0:18:24.240
+was never explained to me visually like this. When I see A squared, I'm just like, huh?
+
+156
+0:18:24.240 --> 0:18:32.000
+Retro Zvok asks I see some FPGA named DLL in Neos files, are you seriously using real
+
+157
+0:18:32.000 --> 0:18:37.580
+FPGA stuff inside Neos? That's an example plug in. I think the source is available somewhere.
+
+158
+0:18:37.580 --> 0:18:41.320
+It's very ancient. I don't know if it still works. But it's an example plug in which was
+
+159
+0:18:41.320 --> 0:18:47.000
+written by Outsider. For those who are like, Outsider does nothing. They wrote that DLL.
+
+160
+0:18:47.000 --> 0:18:52.480
+They also wrote a lot of the pass through outputs from the many No's, such as write.
+
+161
+0:18:52.480 --> 0:18:58.280
+You know the on fail that comes out of write when it fails to write? That's Outsider. You
+
+162
+0:18:58.280 --> 0:19:02.800
+know the delay that has like two impulses, one which is when the impulse started and
+
+163
+0:19:02.800 --> 0:19:07.800
+one which is when the delay completes? That's Outsider. Anyway, the point being, that is
+
+164
+0:19:07.800 --> 0:19:15.200
+an old extension to Neos as a plug in. It provides FPGA simulation via logics. I don't
+
+165
+0:19:15.200 --> 0:19:20.480
+know how it works or what it looks like. I've never used it. But we're not doing real FPGA
+
+166
+0:19:20.480 --> 0:19:31.320
+stuff. It's a simulated FPGA. For those who don't know, that's a fully programmable gate
+
+167
+0:19:31.320 --> 0:19:43.960
+array and it's like cool. But it's really subjective for its use. Particularly in Neos.
+
+168
+0:19:43.960 --> 0:19:54.120
+You can do a lot of field programmable. I'm now on the Wikipedia page. Haha. It's basically
+
+169
+0:19:54.120 --> 0:19:58.880
+for like, you know, when you need control over the actual silicone, that's what's doing
+
+170
+0:19:58.880 --> 0:20:10.240
+the sort of, you know, flow of your program. You can use FPGA. You shouldn't need to use
+
+171
+0:20:10.240 --> 0:20:15.120
+one in Neos. But there are a lot of cases where Neo stuff exists to teach other subjects
+
+172
+0:20:15.120 --> 0:20:31.920
+so much point, it's like, sure, go for it. Player Cody has a question. Player Cody asks,
+
+173
+0:20:31.920 --> 0:20:35.640
+I was looking through a tutorial about making an image indicate someone is looking at their
+
+174
+0:20:35.640 --> 0:20:39.320
+belt menu inventory. I was looking to see if a GIF was possible, but the other video
+
+175
+0:20:39.320 --> 0:20:46.080
+regarding making a GIF in Neos was classified as outdated. I was not sure if making a GIF
+
+176
+0:20:46.080 --> 0:20:52.120
+is possible. So the GIF tutorial I have is like really a joke that I don't suggest doing.
+
+177
+0:20:52.120 --> 0:20:59.800
+I just don't suggest using GIFs. I understand that GIFs are prolific in sort of Discord
+
+178
+0:20:59.800 --> 0:21:05.520
+and stuff like that. But like most places don't even use GIFs these days. Here it's
+
+179
+0:21:05.520 --> 0:21:11.960
+a, I've just posted a GIF in the chat. It's a ferret that runs and falls over. Let's take
+
+180
+0:21:11.960 --> 0:21:19.800
+a look at it. It's usually an MP4 or like, you know, it's often not a GIF. And the reason
+
+181
+0:21:19.800 --> 0:21:26.080
+is GIF is a really old format. It has kind of bad compression and stuff like that. There's
+
+182
+0:21:26.080 --> 0:21:32.660
+much more better fragments and things to use. And so Neos itself doesn't have GIF support.
+
+183
+0:21:32.660 --> 0:21:36.440
+It's not because of that, but it's one of the reasons why we haven't prioritized it
+
+184
+0:21:36.440 --> 0:21:42.960
+is because there are other better formats available. So you can't really use a GIF.
+
+185
+0:21:42.960 --> 0:21:48.440
+Retro just said APNG. Yeah, APNG might be a better thing. Animated WebPs. You can even
+
+186
+0:21:48.440 --> 0:21:55.480
+do animated JPEGs. I've learned MP4s is like, yeah. Zeko says 30 megabytes for a GIF where
+
+187
+0:21:55.480 --> 0:22:02.760
+the MP4 is cut in half by 90. Yeah. GIFs are just like, there's a cultural problem about
+
+188
+0:22:02.760 --> 0:22:06.960
+them, right? Where, you know, when you want a funny image, you use a GIF. But the format
+
+189
+0:22:06.960 --> 0:22:11.600
+itself is usually not suitable. I do think eventually we'll have GIF support, but right
+
+190
+0:22:11.600 --> 0:22:17.240
+now we don't. Going on to speaking about ways of doing it, you can follow the outdated tutorial.
+
+191
+0:22:17.240 --> 0:22:21.720
+You'll just have to sort of adapt to knowing it's not good. The two ways of doing it are
+
+192
+0:22:21.720 --> 0:22:26.600
+to stack the GIF frames on top of each other and go through them with a Boolean switcher.
+
+193
+0:22:26.600 --> 0:22:30.600
+You don't do that. That's terrible. The other thing you can do is turn that GIF into a sprite
+
+194
+0:22:30.600 --> 0:22:35.680
+sheet. That happens a lot for badges. If you want to use an animated badge, using a sprite
+
+195
+0:22:35.680 --> 0:22:41.360
+sheet is a really good way of doing that. You turn the GIF frames into a sort of grid
+
+196
+0:22:41.360 --> 0:22:45.360
+of sprite sheets and then you iterate through them using UV Atlas animator. I have a tutorial
+
+197
+0:22:45.360 --> 0:22:50.960
+on both of those. If you're on my channel, just search for UV Atlas animator. But GIFs
+
+198
+0:22:50.960 --> 0:23:09.520
+are kind of, like, bad. But hopefully we'll get them one day.
+
+199
+0:23:09.520 --> 0:23:14.640
+Shadow also asks about MPNG. Yep. All the formats that aren't GIF are probably going
+
+200
+0:23:14.640 --> 0:23:23.760
+to overtake GIF completely at some point. Neos doesn't support APNG either. Just do
+
+201
+0:23:23.760 --> 0:23:31.360
+the sprite sheet method, do the Boolean switcher method or use a video.
+
+202
+0:23:31.360 --> 0:23:36.360
+And this comes up a lot in the material world. Create mathematics or some sort of animation
+
+203
+0:23:36.360 --> 0:23:45.840
+that matches what you want. Like, I have some people that wanted I actually have them at
+
+204
+0:23:45.840 --> 0:23:50.920
+a lot, which is why there's a rainbow shader tutorial on my channel, which is named rainbow
+
+205
+0:23:50.920 --> 0:23:54.720
+shader because someone kept coming in and they were like, I want a rainbow shader. I
+
+206
+0:23:54.720 --> 0:23:59.920
+want my shoes to be rainbow shader. And I said, well, if you change what you're asking,
+
+207
+0:23:59.920 --> 0:24:03.240
+we can get you a rainbow shader. No, I need a rainbow shader. That's why I put it into
+
+208
+0:24:03.240 --> 0:24:07.240
+the search terms for that video, rainbow shader. It's a material where we animate the color
+
+209
+0:24:07.240 --> 0:24:13.360
+property and it turns rainbow. There's also that one, I believe it's in the
+
+210
+0:24:13.360 --> 0:24:20.360
+essential materials now, which does exactly what all the rainbow shaders for VRChat do,
+
+211
+0:24:20.360 --> 0:24:39.800
+using an image that scrolls. Oh, I missed a question. I'm terribly sorry.
+
+212
+0:24:39.800 --> 0:24:45.600
+I'll jump up to that. Richard asks, speaking of DLLs, since DLLs are Windows only, how
+
+213
+0:24:45.600 --> 0:24:50.400
+will there be extensions on other platforms? We'll use wine. And then Specs has answered
+
+214
+0:24:50.400 --> 0:24:58.480
+it, which is here. Dot net and things like that can run it. Additionally, on other platforms
+
+215
+0:24:58.480 --> 0:25:05.520
+such as Linux, we use Mono. If you run Neos using the correct, like, flags, you can load
+
+216
+0:25:05.520 --> 0:25:11.760
+in the DLLs and it doesn't matter. Like, Neos will take care of loading the DLL. It doesn't
+
+217
+0:25:11.760 --> 0:25:28.040
+need Windows. Linux support is something we want to improve.
+
+218
+0:25:28.040 --> 0:25:33.520
+We actually want Neos to be on any platform that's possible. Mac included. Basically,
+
+219
+0:25:33.520 --> 0:25:41.240
+we want Neos running on whatever we can. Phones, yes. Whatever, basically. Whatever we can,
+
+220
+0:25:41.240 --> 0:26:05.560
+whenever we can. Check the roadmap. Retro, that's a question that is better served
+
+221
+0:26:05.560 --> 0:26:11.520
+for Microsoft folks. Of which I am one. But it's better served for Microsoft folks that
+
+222
+0:26:11.520 --> 0:26:18.120
+aren't in this Discord. They're asking about dot net and running telemetry data to Microsoft.
+
+223
+0:26:18.120 --> 0:26:35.880
+I don't know. Ask Microsoft. We have another question here from Crusher
+
+224
+0:26:35.880 --> 0:26:40.680
+who asks are there plans to have a Neos format of sorts so items and avatars can be exported
+
+225
+0:26:40.680 --> 0:26:47.620
+with the functionality? Yes, check the roadmap. The tentative name of that is dot Neos package.
+
+226
+0:26:47.620 --> 0:26:52.620
+But we are looking at the ways of doing that so we don't confuse the world. Like, I would
+
+227
+0:26:52.620 --> 0:26:57.320
+hate to do that and then people suddenly realize, like, oh, Neos has Unity package support.
+
+228
+0:26:57.320 --> 0:27:13.040
+No, no, no. The complete opposite of that. It's just the tentative name, Mr. Electronus.
+
+229
+0:27:13.040 --> 0:27:24.800
+We have tentative names for, like, a lot of things. You'll see sometimes references to
+
+230
+0:27:24.800 --> 0:27:32.280
+Gen X. I'm like, is this like DNA editing in Neos? What's going on? That's generation
+
+231
+0:27:32.280 --> 0:27:41.560
+X and it's for generation code. So it's things like, you know, more procedural meshes, more
+
+232
+0:27:41.560 --> 0:27:47.920
+terrain, stuff like that. A lot of Gen X got merged into procedural mesh framework. But
+
+233
+0:27:47.920 --> 0:28:03.280
+it would probably include terrain information, et cetera.
+
+234
+0:28:03.280 --> 0:28:06.920
+There's also business X, which was meant to have sort of more of the, like, business logic
+
+235
+0:28:06.920 --> 0:28:11.720
+stuff in. But again, that kind of went into, like, pro and stuff like that. There are,
+
+236
+0:28:11.720 --> 0:28:17.020
+like, a lot of holdovers from just workflow not being updated for a bit that we need to
+
+237
+0:28:17.020 --> 0:28:22.120
+work on. Such as, like, old projects don't exist or don't get copied over. They don't
+
+238
+0:28:22.120 --> 0:28:32.040
+do anything wrong. They just don't need to exist. So shrug.
+
+239
+0:28:32.040 --> 0:28:40.920
+The naming convention for Neos stuff is basically just, like, who, like, you know, the name
+
+240
+0:28:40.920 --> 0:28:45.960
+of the DLL is just needed for, like, one second. Doesn't really matter. So it's just, like,
+
+241
+0:28:45.960 --> 0:28:53.880
+that's why you've got an X on the end. There's a question here, which is from Zeko.
+
+242
+0:28:53.880 --> 0:28:58.720
+Is Neos planning on phasing out Unity in the future? Yeah. We're looking to go to our own
+
+243
+0:28:58.720 --> 0:29:03.520
+approach, probably using some sort of third-party rendering solution. But something that we're
+
+244
+0:29:03.520 --> 0:29:12.240
+in more control of. Forge and a bunch of other weird names are being looked at. Check the
+
+245
+0:29:12.240 --> 0:29:28.280
+thread, which is linked for more information. So we have another question here from
+
+246
+0:29:28.280 --> 0:29:41.920
+retro, who says I'm working on desktop functionalities with my VR chat avatar. Will these things
+
+247
+0:29:41.920 --> 0:29:52.760
+be in Neosend? And will that be de-Googled on Android phones, Linux, and BSD? I appreciate
+
+248
+0:29:52.760 --> 0:30:01.000
+the commitment to your privacy. All of those things exist and work regardless of desktop.
+
+249
+0:30:01.000 --> 0:30:06.040
+So we have systems that allow for head pats. They can count the number of head pats that
+
+250
+0:30:06.040 --> 0:30:11.960
+you have. Laying down, we have a pose system. I believe that can be used by desktop players.
+
+251
+0:30:11.960 --> 0:30:16.640
+Play space height is controlled by various factors, but you don't usually need to edit
+
+252
+0:30:16.640 --> 0:30:22.440
+that. Please don't edit. Like, there are settings inside VR which I wish people wouldn't fiddle
+
+253
+0:30:22.440 --> 0:30:29.000
+with. As an example, Neosend settings panel has the height. It wants your height. I don't
+
+254
+0:30:29.000 --> 0:30:33.800
+care if you think you're six foot tall and you're actually five foot two. Put in five
+
+255
+0:30:33.800 --> 0:30:38.760
+foot two. That's what you're meant to put in there. If you want to be bigger in the
+
+256
+0:30:38.760 --> 0:30:45.120
+world or smaller in the world, use other mechanisms, please. There's things like default user scale,
+
+257
+0:30:45.120 --> 0:30:50.680
+the scaling tools themselves, scaling things by parenting, all sorts of stuff like that.
+
+258
+0:30:50.680 --> 0:30:56.080
+Compare what you're meant to use. As for third person camera, as Froppy points out, yep,
+
+259
+0:30:56.080 --> 0:31:03.240
+F5 for third person camera. If you want a feature in your desktop mode, ask if we have
+
+260
+0:31:03.240 --> 0:31:07.480
+it. We usually do. If we don't, it can go on the roadmap or in most cases can actually
+
+261
+0:31:07.480 --> 0:31:16.040
+be built by the community. As for our plans for phones and Linux and other platforms in
+
+262
+0:31:16.040 --> 0:31:23.280
+the area, I don't foresee them requiring any Google stuff. We're just going to launch on
+
+263
+0:31:23.280 --> 0:31:32.360
+whatever platform we can whenever we can.
+
+264
+0:31:32.360 --> 0:31:51.480
+Yeah. That's the one that we get a lot. It even happens on VRChat. People complain that
+
+265
+0:31:51.480 --> 0:31:58.960
+tracking is wrong or full body tracking doesn't make sense. I ask this in VRChat. What height
+
+266
+0:31:58.960 --> 0:32:05.880
+did you enter in the height setting? I entered eight foot, so I'm really big. Especially
+
+267
+0:32:05.880 --> 0:32:11.400
+for full body tracking, it needs to know how tall you are so it knows how tall you are
+
+268
+0:32:11.400 --> 0:32:17.800
+so it can do the mathematics about where your leg is, not where your avatar's leg is. It's
+
+269
+0:32:17.800 --> 0:32:33.320
+like a formula. It's like you plus your tracking points plus avatar settings equals good full
+
+270
+0:32:33.320 --> 0:32:38.600
+body tracking. People are just like, okay, that means I'll edit what I am. No, you can't
+
+271
+0:32:38.600 --> 0:32:48.400
+edit your height. That's not how it works.
+
+272
+0:32:48.400 --> 0:33:02.160
+I see we're at time. So Fuzzy, if you have questions, go for it. Otherwise, no more questions.
+
+273
+0:33:02.160 --> 0:33:08.560
+Like when I call people out when they're typing and then they immediately stop typing. Yeah,
+
+274
+0:33:08.560 --> 0:33:16.240
+I'll just ignore your question. Wearing shoes in full body tracking is always weird. Shouldn't
+
+275
+0:33:16.240 --> 0:33:23.360
+affect things that much, particularly because the trackers, if you are wearing shoes, it
+
+276
+0:33:23.360 --> 0:33:28.360
+goes on top of your like the arch of your foot, which means that like the heel step
+
+277
+0:33:28.360 --> 0:33:31.240
+usually doesn't get included.
+
+278
+0:33:31.240 --> 0:33:39.400
+All right, that's all we've got. If you have other questions, please feel free to ask in
+
+279
+0:33:39.400 --> 0:33:43.280
+the Discord, ping me, read the Wiki, read the roadmap, et cetera. Let me know what I
+
+280
+0:33:43.280 --> 0:33:48.200
+can help you with. Spam me in DMs and I'll speak to you again next week. This will be
+
+281
+0:33:48.200 --> 0:33:51.840
+up on sounder shortly and I'll take a look at the transcript which will probably be terrible
+
+282
+0:33:51.840 --> 0:34:04.560
+but who knows, we're experimenting with stuff. Jazz hands!
+

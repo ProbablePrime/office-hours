@@ -1,0 +1,1656 @@
+1
+0:00:00.000 --> 0:00:06.100
+So now we're recording fantastic. So welcome again to office hours. If you have any questions, please drop them in the office hours chat
+
+2
+0:00:06.100 --> 0:00:08.340
+There is two channels above this one
+
+3
+0:00:09.180 --> 0:00:13.180
+Office dash hours drop any questions you have in there. I did just check the
+
+4
+0:00:14.040 --> 0:00:18.340
+Question sheet as well. I keep forgetting to check and there are no questions locked there. So we're good on that
+
+5
+0:00:18.860 --> 0:00:22.520
+Until there are any questions, we're gonna sit here in unimaginable pain and silence
+
+6
+0:00:23.020 --> 0:00:26.700
+So get those questions in for those just joining welcome to office hours
+
+7
+0:00:26.700 --> 0:00:30.900
+If you have any questions, you'd like to ask me about news, please drop them in the office hours channel
+
+8
+0:00:30.900 --> 0:00:32.900
+That is two above the current one that you're in
+
+9
+0:00:33.180 --> 0:00:36.720
+Any questions go for okay, so we have some questions coming in. That's great
+
+10
+0:00:37.040 --> 0:00:40.500
+So I have a question from epic Eastern that says what's stopping you from working on news
+
+11
+0:00:40.500 --> 0:00:44.900
+Is it legal mumbo-jumbo? And what if your modifications are completely local? There's still problems of that
+
+12
+0:00:45.540 --> 0:00:49.600
+There are no problems of either of that like I can technically work on this if I would like to
+
+13
+0:00:50.000 --> 0:00:53.980
+We just can't release it right now. I do still work on here
+
+14
+0:00:53.980 --> 0:00:56.920
+So I have the code base open most days to just answer questions here
+
+15
+0:00:57.140 --> 0:01:01.380
+Someone's like how does XYZ component work and I've never heard of that could put it in my life
+
+16
+0:01:01.380 --> 0:01:03.380
+You bet I'm gonna go to the code and read how it works
+
+17
+0:01:03.860 --> 0:01:08.020
+It's really useful in that case to sort of you know, just be like cool. I can open the curtain take a look
+
+18
+0:01:08.020 --> 0:01:13.560
+I have some local changes as well. I keep seeing for those who use version control systems
+
+19
+0:01:13.560 --> 0:01:16.980
+I go into the code base and I look at my git changes and I'm just like whoa
+
+20
+0:01:17.500 --> 0:01:21.980
+There's a lot of changes and some files here and I'm forgetting what those are. So sometimes I commit them
+
+21
+0:01:21.980 --> 0:01:24.740
+Into branches so that I've got a list of branches
+
+22
+0:01:24.740 --> 0:01:29.980
+I need to push once we're able to make updates like I just saw one which was another invalid default
+
+23
+0:01:31.060 --> 0:01:33.980
+corner quaternary and quaternion
+
+24
+0:01:34.700 --> 0:01:38.700
+Made a bunch of components which would default to invalid quaternions
+
+25
+0:01:41.220 --> 0:01:44.740
+Float is they were default to invalid float queues and
+
+26
+0:01:45.960 --> 0:01:50.620
+We were fixing up a bunch, but we missed some and people reported that and I'm like, that's an easy fix
+
+27
+0:01:50.620 --> 0:01:54.500
+I've got like a bunch of those that I was just seeing I'm like, what did I change in this file?
+
+28
+0:01:54.500 --> 0:01:58.620
+I'm like, oh I changed that to make it a valid float queue
+
+29
+0:01:59.340 --> 0:02:01.220
+cool
+
+30
+0:02:01.220 --> 0:02:02.420
+Okay
+
+31
+0:02:02.420 --> 0:02:05.100
+Next question now, I've stopped saying that terrible word
+
+32
+0:02:05.820 --> 0:02:06.980
+q
+
+33
+0:02:06.980 --> 0:02:12.140
+From Lex who says what be a good way of setting up a seamless transition between worlds for larger experiences
+
+34
+0:02:12.140 --> 0:02:19.060
+So the open world and focus world node are great when you combine them together because the open world node allows you to sort of
+
+35
+0:02:19.060 --> 0:02:23.740
+Detect when a world is loaded. It's the only way that you can do that. I'm not quite sure how reliable that is
+
+36
+0:02:24.220 --> 0:02:26.220
+But you can totally do that
+
+37
+0:02:26.460 --> 0:02:28.460
+What I would recommend there is
+
+38
+0:02:29.140 --> 0:02:31.140
+Thinking about how you have someone
+
+39
+0:02:32.020 --> 0:02:33.980
+Start that transition is very important
+
+40
+0:02:33.980 --> 0:02:39.660
+I see lots of people who want world portals, you know similar to to VR chats world portals those work
+
+41
+0:02:39.660 --> 0:02:44.820
+Well what I suggest you do for those though is that you when someone hits the portal
+
+42
+0:02:44.820 --> 0:02:50.500
+Instead of just opening the world they are doing anything there teleport them like under the map or something
+
+43
+0:02:50.740 --> 0:02:55.340
+put something on their head that looks like a loading screen then trigger the load and
+
+44
+0:02:56.460 --> 0:03:02.540
+Then focus the world once that loading has has concluded that way you emulate the process of them
+
+45
+0:03:02.780 --> 0:03:06.220
+Disappearing when they enter the portal even if they're just sort of under the map
+
+46
+0:03:06.940 --> 0:03:11.580
+You know flailing their arms around etc, but then you can put that visual effect on top
+
+47
+0:03:11.580 --> 0:03:17.300
+I've seen a couple of sort of experiments. We're doing that with with various visual effects
+
+48
+0:03:17.780 --> 0:03:21.500
+I'm sure I would love to see if you there's a few I'd like to see is hey
+
+49
+0:03:21.840 --> 0:03:28.780
+Remember the original long stargate transition they stopped doing it after like the first few episodes on
+
+50
+0:03:29.040 --> 0:03:31.660
+The stargate TV show they did it both times
+
+51
+0:03:31.660 --> 0:03:34.880
+There was a stargate trip on the original film because it was very impactful
+
+52
+0:03:35.380 --> 0:03:38.420
+But on the actual show it made no sense because they just kept doing it
+
+53
+0:03:38.420 --> 0:03:44.020
+If you watch stargate as well you'll notice the first couple of episodes they have a frosty effect
+
+54
+0:03:44.420 --> 0:03:50.660
+When people come through they're like oh, they're they're like skin is frosty like they've been out in a snowstorm or whatever
+
+55
+0:03:50.660 --> 0:03:57.020
+But they remove that afterwards and they never really explain that I mean you can just sort of hand-babe and say they fixed it
+
+56
+0:03:57.020 --> 0:04:02.340
+But that doesn't make sense for an outgoing trip because the outgoing trip is like how it was intended to work
+
+57
+0:04:02.340 --> 0:04:09.380
+Yeah, everything about like the the stargate command base is like hacked together because they didn't have like a complete system
+
+58
+0:04:09.640 --> 0:04:14.760
+But everything off world should be perfectly fine, so if it was like yeah, they fixed it doesn't make any sense anyway
+
+59
+0:04:15.560 --> 0:04:20.720
+So yeah, I a good stargate transition would be cool. I know that the
+
+60
+0:04:22.000 --> 0:04:25.400
+Always forget the name of it, but it's like open every day the headless session
+
+61
+0:04:25.400 --> 0:04:29.840
+Which has swap spheres made by Ray V would be another way to do dual-world transition
+
+62
+0:04:29.840 --> 0:04:35.320
+They're great swap spheres come from the game abduction. You could also just do a standard loading screen
+
+63
+0:04:36.040 --> 0:04:37.200
+Just try some stuff out
+
+64
+0:04:37.200 --> 0:04:39.080
+Maybe I'll add that to my tutorial list
+
+65
+0:04:39.080 --> 0:04:43.520
+But you will need to use the node for that there are components that can do world portal openings
+
+66
+0:04:43.520 --> 0:04:48.520
+But what they will do is load you into the world immediately, so what you'll see there is basically
+
+67
+0:04:49.920 --> 0:04:55.640
+Similar to this is another random tangent, but as we never know there were questions. It's tangent prime time with prime
+
+68
+0:04:55.640 --> 0:04:59.640
+If you just do a portal with the components for a while transition
+
+69
+0:04:59.960 --> 0:05:06.640
+They will instantly shell out the moment they they touch the portal and so it
+
+70
+0:05:07.160 --> 0:05:08.560
+resembles that
+
+71
+0:05:08.560 --> 0:05:10.560
+veil, I think it's called in
+
+72
+0:05:11.280 --> 0:05:16.120
+Harry Potter it's order the Phoenix where it happens where Sirius black is down in the department of
+
+73
+0:05:16.920 --> 0:05:18.720
+mysteries, I think it is
+
+74
+0:05:18.720 --> 0:05:20.720
+in the Ministry of Magic and
+
+75
+0:05:20.720 --> 0:05:26.280
+He just accidentally I think he sort of knocked into it in the films, but in the book
+
+76
+0:05:26.280 --> 0:05:29.080
+I think he like accidentally ends up being sort of pushed into there
+
+77
+0:05:30.200 --> 0:05:33.960
+He falls into the veil and immediately turns into a ghost and just disappears
+
+78
+0:05:33.960 --> 0:05:38.160
+And there's no real explanation of what magic is at play there, but like they know he's dead
+
+79
+0:05:38.880 --> 0:05:44.080
+That's what it looks like they're just sort of like they touch the portal and then they instantly turn transparent
+
+80
+0:05:44.080 --> 0:05:48.120
+It's like cool, and then they hang around there until they decide to close the world
+
+81
+0:05:48.120 --> 0:05:54.200
+Whereas if you manually use the the open world and focus world nodes you can actually do a full-on transition
+
+82
+0:05:54.200 --> 0:05:58.480
+You can start opening the world to teleport them under the ground wait for it to load once
+
+83
+0:05:58.480 --> 0:06:02.400
+It's loaded close the world that they were in focus the new one a lot a lot cleaner
+
+84
+0:06:02.640 --> 0:06:08.560
+Something that could also be cool is if you did like a level transition like I know some games do level transitions weirdly
+
+85
+0:06:09.360 --> 0:06:14.000
+Where they I could example being like one of the early Resident Evil games
+
+86
+0:06:14.000 --> 0:06:20.760
+They have that door opening animation that was both to say like hey you're going through a door and also to load another part of
+
+87
+0:06:20.760 --> 0:06:24.520
+The map other games do it with you know corridors you walk down this corridor
+
+88
+0:06:24.520 --> 0:06:28.480
+And they realize like hey you're on like the cusp between two levels here
+
+89
+0:06:28.480 --> 0:06:34.120
+So we can load the next level and if you turn around just panic and unload that next level and load the previous level
+
+90
+0:06:34.120 --> 0:06:39.320
+But the corridor is like in both so you can link those together so again. You can make something seamless there. There's the
+
+91
+0:06:39.320 --> 0:06:45.160
+The Metal Gear Solid ladder climbing world that'd be a good example like if you're halfway up the ladder like
+
+92
+0:06:45.960 --> 0:06:50.160
+Load the top of the ladder, but if you're not done moving onwards to more questions here
+
+93
+0:06:50.960 --> 0:06:55.560
+Specs says the desktop view in the dash is great, but it gets pretty hard to read of screens
+
+94
+0:06:55.560 --> 0:06:59.280
+I have especially wide resolutions the dash seems to be hard coded best fit
+
+95
+0:06:59.960 --> 0:07:03.280
+16.9 screens is anything I could do as a user to make my admittedly silly
+
+96
+0:07:03.280 --> 0:07:11.760
+32.9 screen fit better in the dash or more readable the the problem that you have is that the headset itself
+
+97
+0:07:11.760 --> 0:07:14.560
+Isn't isn't anywhere near 32.9
+
+98
+0:07:15.080 --> 0:07:19.680
+I guess making the dash bigger would allow for that
+
+99
+0:07:19.680 --> 0:07:27.880
+But you'd probably need like a non a non 16.9 dash size. There's probably a way to like resize the dash temporarily
+
+100
+0:07:27.880 --> 0:07:31.560
+I'm not sure if it would save but that would give you the resolution there
+
+101
+0:07:31.560 --> 0:07:35.680
+What I wouldn't want to do is any sort of ladder boxing where we try and squeeze that in and narrow it down
+
+102
+0:07:35.680 --> 0:07:37.680
+She's just gonna lose more detail
+
+103
+0:07:38.320 --> 0:07:40.520
+That's all I got for you make make the dash bigger
+
+104
+0:07:40.640 --> 0:07:44.000
+You might be able to do that in-game without any sort of modifications or anything like that
+
+105
+0:07:44.000 --> 0:07:46.720
+Just go ahead and inspect and use this base see if it saves
+
+106
+0:07:47.360 --> 0:07:54.920
+Otherwise, you'll have to go into Nia's modding land. See if you can get it done there. You basically need like a better like
+
+107
+0:07:55.360 --> 0:07:56.360
+a
+
+108
+0:07:56.360 --> 0:08:01.880
+Better rectangle that can then fit that in and I think changing the size of the dash is probably any way you can to do
+
+109
+0:08:01.880 --> 0:08:02.800
+that
+
+110
+0:08:02.800 --> 0:08:07.040
+Rampers just asked for an RSS feed. I've got to scroll back because we actually I linked one a
+
+111
+0:08:08.080 --> 0:08:12.580
+While ago, I linked one. Yeah, it's here. I'll add it to the wiki if I remember. Oh
+
+112
+0:08:13.200 --> 0:08:20.480
+Froppy is like so fast. Yeah, there's the RSS feed. I will see if I can like put that on the wiki or something
+
+113
+0:08:20.480 --> 0:08:26.520
+I'll take a note and then inevitably forget, but I will take a note where I what is it Tuesday? It is Tuesday. I
+
+114
+0:08:27.040 --> 0:08:29.040
+Had RSS link to office
+
+115
+0:08:31.080 --> 0:08:34.400
+It's on my to-do list like ultrawides are always causing strange
+
+116
+0:08:35.480 --> 0:08:38.320
+Strange problems. I know them like some professional
+
+117
+0:08:39.080 --> 0:08:44.520
+Esports they're banned because the game handles them and and does them really really well
+
+118
+0:08:44.520 --> 0:08:50.400
+But the peripheral vision that you get is then an advantage and then because not all people have them
+
+119
+0:08:50.480 --> 0:08:53.480
+They've just like banned them or something which seems strange
+
+120
+0:08:53.480 --> 0:08:59.600
+I mean if it's like pro pro pro eSports just buy everyone a giant monitor has a benefit go for it
+
+121
+0:08:59.600 --> 0:09:02.840
+I'm actually dealing with that problem right now in another sense as well, which is
+
+122
+0:09:03.360 --> 0:09:06.320
+during the steam sale a game called Hydra near was on sale and
+
+123
+0:09:07.600 --> 0:09:10.440
+It has multiplayer, but it doesn't have online multiplayer
+
+124
+0:09:10.440 --> 0:09:14.840
+So you have to do steam remote play with a split-screen or to play and so a friend has
+
+125
+0:09:15.120 --> 0:09:19.240
+Purchased the game and I was about to purchase it until I realized there's no online multiplayer
+
+126
+0:09:19.240 --> 0:09:22.920
+So I saved my money and now we play it split-screen over steam remote play
+
+127
+0:09:22.920 --> 0:09:27.140
+but it's a split-screen and so they have an ultra wide and they were trying to fit like
+
+128
+0:09:28.280 --> 0:09:32.120
+This split-screen game on an ultra wide and it looks terrible
+
+129
+0:09:32.760 --> 0:09:36.520
+We got some solutions and I'm mostly used to it. It's kind of strange
+
+130
+0:09:36.520 --> 0:09:41.160
+Sometimes I forget it's split-screen and end up trying to control both characters, even though I'm only one character
+
+131
+0:09:41.840 --> 0:09:46.620
+If the Hydra near devs are listening, please add proper multiplayer, please
+
+132
+0:09:47.360 --> 0:09:53.400
+They've quoted that they don't they're not able to add proper multiplayer right now to you to sort of resource constraints
+
+133
+0:09:53.400 --> 0:09:56.720
+Which is perfectly understandable. It's a lot of of endeavor to take
+
+134
+0:09:57.280 --> 0:09:58.920
+but you know
+
+135
+0:09:58.920 --> 0:10:05.760
+Try please cry. So ramp is is remote play and the tech there is great. I agree. The tech is there is great
+
+136
+0:10:05.760 --> 0:10:11.240
+What are the only thing I don't really like about remote play is it kind of feels like I lose control of my computer
+
+137
+0:10:11.240 --> 0:10:16.220
+If I'm the host, well, it's it's a it's a it's an exchange like it's it's something you have to get used to
+
+138
+0:10:16.480 --> 0:10:21.040
+But like, you know, there's always a point where I need to like maybe alt tab and look something up
+
+139
+0:10:21.040 --> 0:10:24.040
+And if I alt tab the other player loses control of the game
+
+140
+0:10:24.160 --> 0:10:27.160
+And so it feels like you're kind of holding your computer hostage a little bit
+
+141
+0:10:27.160 --> 0:10:31.760
+So it's a little bit weird, but it's really nice saves people money stuff like that
+
+142
+0:10:31.760 --> 0:10:36.200
+Next we have a question from Lex who says the dash uses modal overlays on uix
+
+143
+0:10:36.200 --> 0:10:39.120
+Would it be a good idea to use those components for own uix pop-ups?
+
+144
+0:10:39.800 --> 0:10:41.800
+Yes, and no
+
+145
+0:10:42.080 --> 0:10:49.540
+The pop-ups are great, but you have little control over how they work because they use a couple of sort of delegate II things
+
+146
+0:10:50.720 --> 0:10:53.400
+Now I know mods can get you access to that
+
+147
+0:10:54.400 --> 0:10:59.220
+But like I wouldn't be sure if you would have the ability to control exactly how you would like to
+
+148
+0:10:59.220 --> 0:11:05.060
+what I did for the MMC voting system, which does use a modal overlay is I
+
+149
+0:11:06.500 --> 0:11:12.200
+Created a modal in the regular world browser and then like pulled
+
+150
+0:11:12.620 --> 0:11:16.540
+quite brutally the entire modal out of the world manager and
+
+151
+0:11:17.580 --> 0:11:20.420
+Converted it to my own system that was powered by dynamic variable
+
+152
+0:11:20.700 --> 0:11:27.040
+So it's still like loads and looks exactly like the same modal that you have but it doesn't use those those modal components
+
+153
+0:11:27.040 --> 0:11:33.780
+It does use a lot of the sort of visual components of a modal. It just doesn't use the like Neos modal component
+
+154
+0:11:33.780 --> 0:11:35.540
+Whatever it's called
+
+155
+0:11:35.540 --> 0:11:36.860
+your
+
+156
+0:11:36.860 --> 0:11:40.100
+Approach might vary but that's what I ended up doing
+
+157
+0:11:40.100 --> 0:11:46.060
+I did speak to fruits at the time of developing it and they said the modal could be expanded to allow
+
+158
+0:11:46.660 --> 0:11:52.800
+Other users to do you know have modals use modals etc, but that that wasn't supported right now. Keep those questions coming
+
+159
+0:11:52.800 --> 0:11:56.900
+We have about 10 or so minutes left on the the office hours happen
+
+160
+0:11:57.100 --> 0:12:00.340
+sometimes I run over that huge because I'm ranting about cheese or something, but
+
+161
+0:12:01.060 --> 0:12:07.700
+Carry on. Hey Kip as a question. Is there a way to use a material as a texture input for another material?
+
+162
+0:12:07.700 --> 0:12:13.460
+The only way I've seen to do that is to use a camera that happens a lot like a lot more than you realize
+
+163
+0:12:14.900 --> 0:12:16.900
+Trying to think of some examples
+
+164
+0:12:16.900 --> 0:12:23.340
+Like neoto shop in the polylogics folder is a good example of that that uses a camera to
+
+165
+0:12:24.660 --> 0:12:26.660
+render the
+
+166
+0:12:26.700 --> 0:12:28.700
+like the final composition
+
+167
+0:12:29.260 --> 0:12:32.020
+Neota shop is basically stacked brush pixels
+
+168
+0:12:32.020 --> 0:12:36.740
+so they usually they have the sort of base texture at the back and then in front of that or any number of sort of
+
+169
+0:12:36.740 --> 0:12:41.540
+Brush layers and then on the front of that is a camera that's looking at all those layers combined
+
+170
+0:12:41.540 --> 0:12:48.540
+And so you remove that 3d effect of those stacked layers and get back to a flat image like says any curved UX really?
+
+171
+0:12:48.540 --> 0:12:53.100
+Yeah, um the actual dash does that same concept?
+
+172
+0:12:53.380 --> 0:12:59.420
+What we do is we take a flat version of the dash and then project it on to the curved
+
+173
+0:13:00.700 --> 0:13:02.740
+Curved plane mesh so it can be curved
+
+174
+0:13:02.740 --> 0:13:06.620
+I have the curvature set to zero on my dash because I can't really stand it
+
+175
+0:13:06.620 --> 0:13:09.140
+I know other people like it, but like I'm just like what?
+
+176
+0:13:09.140 --> 0:13:13.300
+So have a look at those. There's a couple of worlds that do it as well
+
+177
+0:13:14.780 --> 0:13:20.180
+Using the same concept as like build as a neoto shop building a key to an early
+
+178
+0:13:20.340 --> 0:13:25.460
+World by myself that let you sort of customize what your a key to model by zap uses it
+
+179
+0:13:26.540 --> 0:13:28.540
+my MMC
+
+180
+0:13:28.740 --> 0:13:35.620
+2022 entry entitled on purpose uses it for the well poles are in both sides of that room check that if you like
+
+181
+0:13:35.620 --> 0:13:40.580
+It's an artistic piece that is open for interpretation art is always subjective so have fun
+
+182
+0:13:41.420 --> 0:13:46.020
+That uses it various other places use it vigil abo's water droplets
+
+183
+0:13:46.020 --> 0:13:49.820
+I know other people have done it but like vigil abo's is the one that comes to mind if you go into their public folder
+
+184
+0:13:49.820 --> 0:13:54.740
+They've got a water example where you can kind of like put your hands in the water and it splashes a bit that
+
+185
+0:13:55.100 --> 0:13:57.100
+Again uses a camera. Oh
+
+186
+0:13:57.460 --> 0:13:59.140
+and
+
+187
+0:13:59.140 --> 0:14:01.140
+snow globe of working snow
+
+188
+0:14:01.140 --> 0:14:08.660
+That also has it that's how we do the the like footprints in the snow thing moving onwards to hack 13s question
+
+189
+0:14:08.740 --> 0:14:10.460
+Who says I?
+
+190
+0:14:10.460 --> 0:14:14.820
+Wanted to know if I wanted to hide a string inside of Neos that I want to pass to a web socket or something
+
+191
+0:14:14.820 --> 0:14:19.140
+I've seen the cloud bears don't show their data to someone who isn't on the allowed list which consider that a good way of hiding
+
+192
+0:14:19.140 --> 0:14:26.020
+Something like that example in a bi key. No, I do not recommend any form of authentication in logics or Neos at all right now
+
+193
+0:14:26.020 --> 0:14:30.340
+The only way I would like say it's acceptable is if you have a private world with one person in it
+
+194
+0:14:30.340 --> 0:14:37.660
+Otherwise like who knows what they're doing. You've also got the problem there of like however secure
+
+195
+0:14:37.660 --> 0:14:43.340
+It is if it's let's say it's an API key. Let's say it's in a cloud variable at a certain point either via
+
+196
+0:14:44.740 --> 0:14:46.740
+components or maybe a logics ribbon
+
+197
+0:14:46.860 --> 0:14:52.460
+that value is extracted from that sort of in quotes secure environment only one person can read and
+
+198
+0:14:52.820 --> 0:14:59.220
+Passed to a field which anyone can read and so that's why it's not secure like example area like if say you did
+
+199
+0:14:59.220 --> 0:15:06.900
+I don't know read cloud variable and of course require variable can only read like a user's value for example that
+
+200
+0:15:07.980 --> 0:15:12.620
+You might think that's secure right because only this user only has this value and due to the cloud very permissions
+
+201
+0:15:12.620 --> 0:15:16.420
+I've set up so only the user can read their own value that sounds kind of secure
+
+202
+0:15:16.420 --> 0:15:19.180
+But it's not because that read cloud variable node
+
+203
+0:15:19.340 --> 0:15:25.140
+Then outputs just a standard string with no protection and so let's say we then plug that require variable node
+
+204
+0:15:25.140 --> 0:15:32.420
+It's output into on a regular write node to then write it into a string registrar ever that string register is just
+
+205
+0:15:33.220 --> 0:15:37.740
+Publicly readable there are advancements in sort of the feature called hard permissions
+
+206
+0:15:37.740 --> 0:15:42.780
+Which may allow for more sort of secure related things, but anything that has authentication
+
+207
+0:15:42.780 --> 0:15:47.980
+I don't recommend doing or trying to sort of work around it good example here being the
+
+208
+0:15:48.660 --> 0:15:53.240
+MMC voting world in the MMC voting world I disable cloud avatars
+
+209
+0:15:53.240 --> 0:15:57.460
+I disable all locomotion except one I disable two shelves
+
+210
+0:15:57.460 --> 0:16:01.380
+I disable like basically everything and even with that
+
+211
+0:16:01.540 --> 0:16:05.740
+It's still not secure, and that's why we have logging up the wazoo right I
+
+212
+0:16:06.340 --> 0:16:08.940
+At the end of every MMC voting I go through the logs
+
+213
+0:16:08.940 --> 0:16:14.820
+And I pair things up a good example being I can go through the logs of the session from the header server
+
+214
+0:16:14.820 --> 0:16:16.780
+And I can say like oh hey look
+
+215
+0:16:16.780 --> 0:16:18.780
+prime joined at
+
+216
+0:16:18.780 --> 0:16:24.980
+1624 and then I look at my list of votes on the voting server, and I'm like prime joined at 1624
+
+217
+0:16:24.980 --> 0:16:27.980
+And then he made three votes at 1624 great
+
+218
+0:16:27.980 --> 0:16:32.540
+I can I can match those up and still be unsure because there's still some issues that might occur there
+
+219
+0:16:32.540 --> 0:16:38.140
+But I can still audit that and be like ah it looks like that makes sense right that makes sense
+
+220
+0:16:38.780 --> 0:16:44.580
+But like if I see prime joins at 1624 and then Fruxius made a bunch of votes
+
+221
+0:16:44.580 --> 0:16:50.100
+But Fruxius wasn't actually in the world at the time then I'm like hmm looks like prime was doing something weird
+
+222
+0:16:50.420 --> 0:16:56.740
+Better throw those votes out so hack 13 has gone to say that they have an intermediary API that holds the key and
+
+223
+0:16:57.540 --> 0:17:01.700
+The in the issue just pass request to it that is good because
+
+224
+0:17:02.420 --> 0:17:04.520
+You are in control there again
+
+225
+0:17:04.520 --> 0:17:10.820
+You can add like additional security for example the outgoing service that you're trying to connect to that needs an API key
+
+226
+0:17:10.820 --> 0:17:16.640
+Might have rate limits that you know you usually won't exceed, but maybe you put like slightly more
+
+227
+0:17:17.220 --> 0:17:21.980
+strenuous or strict rate limits on your intermediary API because there is that level of sort of
+
+228
+0:17:22.220 --> 0:17:24.940
+Ambiguity about who's doing it and that way you can protect
+
+229
+0:17:25.900 --> 0:17:28.500
+Your API key and your network from having
+
+230
+0:17:29.060 --> 0:17:32.940
+Too many requests compared to just going direct and stuff like that
+
+231
+0:17:32.940 --> 0:17:36.220
+You can always put that layer in the middle there and add a little bit more sort of scrutiny
+
+232
+0:17:36.420 --> 0:17:40.220
+Moving on to Lex's question is there a good way of detecting when someone is live through components
+
+233
+0:17:40.220 --> 0:17:44.220
+I believe that there is a component for it excuse me moment
+
+234
+0:17:44.900 --> 0:17:50.780
+The component is what drives the live badge above someone's head the problem with that though
+
+235
+0:17:50.780 --> 0:17:56.380
+is that if they are not using the mirror to display option on the streaming camera or
+
+236
+0:17:58.580 --> 0:18:04.920
+Something like that or forcing that live badge on which is another option then they could be they could be live
+
+237
+0:18:04.920 --> 0:18:12.640
+Just using the Steam VR mirror or the direct output of the of the monitor view the desktop view of it
+
+238
+0:18:13.040 --> 0:18:16.440
+Kip says good idea to like always assume that you're on camera
+
+239
+0:18:17.280 --> 0:18:20.540
+Absolutely always assume you're on camera. I'm kind of sort of
+
+240
+0:18:21.560 --> 0:18:23.560
+indoctrinated into that which is
+
+241
+0:18:24.720 --> 0:18:27.540
+Strange that came from the sort of the mixer days when I worked at mixer
+
+242
+0:18:27.540 --> 0:18:31.940
+It was like hey, you know everything you do wherever you are assume
+
+243
+0:18:31.940 --> 0:18:38.560
+You're being recorded in the sort of streaming space less so in games, but like everywhere. I use the name probable crime
+
+244
+0:18:38.560 --> 0:18:44.880
+I'm like yep. I'm marine recorded. You don't know about my old accounts. Yeah, I'm gonna hack the matrix of my old accounts
+
+245
+0:18:47.040 --> 0:18:49.040
+Moving forwards
+
+246
+0:18:49.480 --> 0:18:50.560
+to
+
+247
+0:18:50.560 --> 0:18:51.840
+Lexie says
+
+248
+0:18:51.840 --> 0:18:52.880
+Same question as Bob
+
+249
+0:18:52.880 --> 0:18:57.280
+But detecting permission levels in world for example if you want to set up a builders only zone
+
+250
+0:18:57.280 --> 0:19:04.240
+You can't do that right now now. I know that someone in here is going to start typing about the two-string node
+
+251
+0:19:04.240 --> 0:19:07.060
+And I get tired of talking about the two-string node
+
+252
+0:19:07.060 --> 0:19:11.700
+But I'm going to talk about it again because hey this is being recorded and anyone that listens will hear this feel
+
+253
+0:19:12.180 --> 0:19:19.720
+Before a certain update the two-string node would allow you to receive a text based output from a user
+
+254
+0:19:19.980 --> 0:19:23.540
+that included their permission level to string is a
+
+255
+0:19:24.300 --> 0:19:26.300
+debug process on
+
+256
+0:19:26.300 --> 0:19:29.860
+Much much of programming on second was a cough off Mike
+
+257
+0:19:30.340 --> 0:19:35.200
+And so in programming you use a two-string operator lock for debugging and logging
+
+258
+0:19:35.460 --> 0:19:40.500
+So two-string would be like I don't know what this is dot to string it and it gives you lots of details
+
+259
+0:19:40.780 --> 0:19:47.300
+That process is designed to give you a text based representation of the object at its current moment
+
+260
+0:19:47.500 --> 0:19:51.460
+It's not designed to pass that data back out into any other form
+
+261
+0:19:51.460 --> 0:19:55.780
+but what users were doing is running a bunch of substring operations on that two-string output and
+
+262
+0:19:56.580 --> 0:20:00.740
+It was causing a problem that is not intended way to use to string it
+
+263
+0:20:00.740 --> 0:20:06.260
+Never was so the fact it worked was actually just a miracle like it's just a miracle right it was just random
+
+264
+0:20:06.620 --> 0:20:13.300
+Frukes made edits to the two-string output to include that and had forgotten that he'd done that and it was purely for logging as
+
+265
+0:20:13.300 --> 0:20:18.620
+We changed that such that the two-string output is now more stable and will never change and
+
+266
+0:20:19.260 --> 0:20:20.900
+the
+
+267
+0:20:20.900 --> 0:20:25.620
+Response to that was you remove the role information and it's like yeah
+
+268
+0:20:25.620 --> 0:20:31.060
+You shouldn't have had that in the first place and people go like well why and the reason is because again the security principle
+
+269
+0:20:31.140 --> 0:20:37.900
+You take a known object which has a known property permission and you change it to a string and then you start doing operations on
+
+270
+0:20:37.900 --> 0:20:38.900
+that string
+
+271
+0:20:38.900 --> 0:20:40.360
+substring
+
+272
+0:20:40.360 --> 0:20:46.780
+Index of string etc. And then out of that you get a single string which shows their permission level that string could be intercepted
+
+273
+0:20:46.780 --> 0:20:51.900
+By any number of mechanisms points at the modding community who are mostly good by the way
+
+274
+0:20:51.900 --> 0:20:53.980
+This isn't a modding community is bad
+
+275
+0:20:53.980 --> 0:20:57.260
+This is just the modding community have the ability to do this
+
+276
+0:20:57.380 --> 0:21:01.580
+So should a bad actor and again not accusing the modding community of being bad actors
+
+277
+0:21:01.620 --> 0:21:06.580
+They are fantastic with the mods that they are producing but a modding person could
+
+278
+0:21:07.420 --> 0:21:12.260
+Theoretically edit that string in place using a mod and give you a different output
+
+279
+0:21:12.260 --> 0:21:17.860
+So let's say you had a system where you're like, oh if they're a builder show this really sensitive piece of information
+
+280
+0:21:17.860 --> 0:21:20.780
+Or allow this sensitive access to the world they could
+
+281
+0:21:21.500 --> 0:21:25.020
+Theoretically again not using anyone don't take this out of context
+
+282
+0:21:26.060 --> 0:21:27.500
+Bypass something important
+
+283
+0:21:27.500 --> 0:21:34.300
+So that's why it's not allowed in the future when it is a secure option that we can allow you to receive the permission level
+
+284
+0:21:34.300 --> 0:21:40.860
+Of someone securely and take a look at it securely. We will allow you to do it until then it is not secure
+
+285
+0:21:40.860 --> 0:21:46.020
+So we're not allowing you to do it specs has a question here, which isn't marked with the emote. So it was a marking
+
+286
+0:21:48.780 --> 0:21:51.860
+But I guess it doesn't have a question mark, but we'll go to it
+
+287
+0:21:51.860 --> 0:21:54.500
+So we'd love to hear about making builder on his own
+
+288
+0:21:54.500 --> 0:21:59.540
+So although it's restricting errors for using things like deb sips within the only surefire way to do that right now is
+
+289
+0:22:00.500 --> 0:22:04.460
+Socially or like community wise a good thing
+
+290
+0:22:05.300 --> 0:22:09.700
+That I've seen a lot of people do is they put more rules in the rules and we have had some issues with that
+
+291
+0:22:09.700 --> 0:22:13.500
+But they put more rules in their world. It can be anything like going back to that
+
+292
+0:22:14.340 --> 0:22:16.740
+That world the headless what I can't remember the name of it
+
+293
+0:22:17.540 --> 0:22:22.020
+But it's again the one with swap spheres that rahivi did there is a big sign there
+
+294
+0:22:23.740 --> 0:22:30.540
+With the truth Ozi and next Ozi is like please do logics in the nerd dome or some sort of phrasing like that
+
+295
+0:22:30.540 --> 0:22:34.580
+I knew it was something simple like the sandbox, but I didn't want to be incorrect and
+
+296
+0:22:34.580 --> 0:22:40.580
+That is a perfectly reasonable way of doing it, right? It's a sign that says please do logics in the nerd dome
+
+297
+0:22:40.580 --> 0:22:44.980
+And like I will do logics in the nerd dome if I ever want to do logics in that world
+
+298
+0:22:44.980 --> 0:22:47.820
+And if I'm not doing logics in the node
+
+299
+0:22:48.340 --> 0:22:55.460
+The the nerd dome then cool. I would expect someone for example Ozi to come over and be like
+
+300
+0:22:55.460 --> 0:22:57.260
+Yo, take it to the nerd dome
+
+301
+0:22:57.260 --> 0:23:02.100
+That's a cultural way of doing it if you want to restrict it technically or functionally right now
+
+302
+0:23:02.100 --> 0:23:08.700
+There are some things you can do, but I'm probably not going to recommend any of them because they will all break
+
+303
+0:23:08.740 --> 0:23:15.180
+Depending on what as a community we need to come up with sort of like ways of I'm gonna cough again one second
+
+304
+0:23:15.180 --> 0:23:19.900
+I hope I'm not getting sick, but maybe today is just a coughing day. I'll go drink some water later
+
+305
+0:23:20.740 --> 0:23:24.580
+I hope as a community we can come up with ways of basically being more reasonable about rules
+
+306
+0:23:24.580 --> 0:23:29.460
+I have had lots of problems of having rules in my sessions with people being like hard done by or
+
+307
+0:23:29.460 --> 0:23:35.980
+Problematic about them or arguing about them, but it's just like if I go to your house not peeking anywhere here
+
+308
+0:23:35.980 --> 0:23:38.140
+but Ozi if I go to your house and
+
+309
+0:23:38.740 --> 0:23:44.060
+I come in with a bag of horse manure, and I start throwing it everywhere
+
+310
+0:23:44.220 --> 0:23:46.660
+You're going to be quite annoyed of me and kick me out
+
+311
+0:23:46.940 --> 0:23:52.460
+You don't have a rule on the wall of your house that says don't throw horse manure in my in my property
+
+312
+0:23:52.660 --> 0:23:54.660
+But I know that that's unacceptable
+
+313
+0:23:54.660 --> 0:23:59.820
+It's so if we start with that level of foundation we can then move forwards, which is I now know
+
+314
+0:23:59.820 --> 0:24:04.420
+What is unacceptable in general society? Oh look? There's actually rules posted?
+
+315
+0:24:04.420 --> 0:24:10.540
+I will add to add these rules to my general understanding of what is acceptable in this world, and then I will follow them
+
+316
+0:24:10.540 --> 0:24:12.140
+That's all it requires
+
+317
+0:24:12.140 --> 0:24:14.580
+Sometimes rules don't make sense like I was watching
+
+318
+0:24:15.820 --> 0:24:22.500
+Like a border security TV show there's lots of them depending on which country you want to watch and the border security UK one seems
+
+319
+0:24:22.500 --> 0:24:27.660
+Very concerned with cigarettes right you can only bring a certain number of cigarettes back into the UK
+
+320
+0:24:27.980 --> 0:24:33.100
+Before you have to pay duty on them, and I don't understand like that rule. I would respect that rule
+
+321
+0:24:33.100 --> 0:24:37.620
+I don't smoke, so I have no reason to break that rule, but I would respect that rule without understanding it
+
+322
+0:24:37.620 --> 0:24:40.600
+But I might ask what it's about, but I'd ask about it politely. I'm like
+
+323
+0:24:41.380 --> 0:24:46.500
+Why I don't understand like I get the whole like don't bring guns in don't bring drugs in
+
+324
+0:24:46.500 --> 0:24:51.540
+But I'm just like they didn't pay tax, but they brought it elsewhere like why are they paying tax when it crosses the border?
+
+325
+0:24:51.540 --> 0:24:52.980
+I don't understand
+
+326
+0:24:52.980 --> 0:24:55.900
+So I would go I would go look that up. I've been meaning to do that
+
+327
+0:24:55.900 --> 0:24:57.900
+It's on my to-do list by just having that time
+
+328
+0:24:58.580 --> 0:25:03.020
+Moving onwards because I'm now ranting about horse media for a long time for no reason um
+
+329
+0:25:04.300 --> 0:25:08.540
+Repices there's now community a list of safe modes. I did read that you've got the
+
+330
+0:25:09.420 --> 0:25:15.060
+Like compatibility checking the the hashing checking beautiful job again
+
+331
+0:25:15.060 --> 0:25:17.500
+I'm not accusing the modding community of doing anything wrong
+
+332
+0:25:17.500 --> 0:25:22.540
+I'm just saying like there is the ability for an unknown actor to
+
+333
+0:25:22.900 --> 0:25:28.780
+Intercept that string value and it would use something similar to the the tools which the modding community use
+
+334
+0:25:29.020 --> 0:25:33.540
+Moving on to questions and not talking about horse manure. I'm gonna regret that are they um
+
+335
+0:25:34.500 --> 0:25:41.060
+Zenny welcome to the discord as you're new welcome to me as they wanted to ask since I'm rather new to Neos relating to cameras
+
+336
+0:25:41.060 --> 0:25:44.700
+Is there a way to get a third-person camera if I were to stream as I could never figure that out?
+
+337
+0:25:44.700 --> 0:25:48.260
+Yes, you need to use the streaming overlay
+
+338
+0:25:48.900 --> 0:25:54.260
+Thingy, I know that doesn't make sense because issues what thingy with a new user give me a second here
+
+339
+0:25:54.260 --> 0:25:59.480
+And I will get you the information that you need and properties faster. That's totally fine, too
+
+340
+0:26:00.060 --> 0:26:05.980
+So there is a button on your home screen that is called camera streaming and opens up this very big confusing UI
+
+341
+0:26:05.980 --> 0:26:12.500
+But I don't want you to worry about it. I will not type steaming into my tutorial searcher. I will
+
+342
+0:26:12.500 --> 0:26:17.260
+Find the correct video that isn't steaming. It's streaming
+
+343
+0:26:18.100 --> 0:26:22.980
+And then just give you some it's up to see froppy beat me and I'm just typing the word steamy and
+
+344
+0:26:23.460 --> 0:26:29.100
+Into my video search so all I want you to do for the third person camera is to open the overlay which is that?
+
+345
+0:26:29.900 --> 0:26:33.020
+Camera streaming button and then click two buttons on it
+
+346
+0:26:33.020 --> 0:26:37.020
+I want you to click mirror to display which is the first button to click and then I want to click third person
+
+347
+0:26:37.060 --> 0:26:38.100
+They're very big
+
+348
+0:26:38.100 --> 0:26:42.980
+They're on that UI very clearly and then I want you to peek underneath your headset at your main monitor
+
+349
+0:26:43.060 --> 0:26:47.900
+what the mirror to display will do is it will mirror the camera output to your actual display and
+
+350
+0:26:48.100 --> 0:26:52.100
+then by clicking that third person button what you're saying is for the
+
+351
+0:26:53.260 --> 0:26:58.740
+desktop window is in them the actual physical monitor display third person, but for the
+
+352
+0:26:59.740 --> 0:27:06.300
+For the headset still display third person and that's actually what you see happening in that thumbnail as well, which is
+
+353
+0:27:06.300 --> 0:27:12.100
+Hey, I am in first person inside that headset with my hand up to my face and
+
+354
+0:27:12.580 --> 0:27:18.500
+I see first person but I'd mirror it display third person and I can see that if you are in desktop though
+
+355
+0:27:18.900 --> 0:27:26.640
+F5 is like says I got it better about not wittering on sometimes. Well, anyway next question and we are over time now
+
+356
+0:27:26.640 --> 0:27:31.840
+So as any if you have another question, please feel free to type it. Otherwise, no more questions. So as any it's the last question
+
+357
+0:27:31.840 --> 0:27:33.660
+Thank you. Ah
+
+358
+0:27:33.660 --> 0:27:39.300
+Rizzo says does the on saving node have an opportunity to affect the asset being saved or is it too late when the notice fight?
+
+359
+0:27:39.300 --> 0:27:42.460
+Impact the asset being saved. That is a good question. I will take a look
+
+360
+0:27:47.220 --> 0:27:49.220
+Okay, so there is an event flow
+
+361
+0:27:49.860 --> 0:27:51.860
+Which is approximately?
+
+362
+0:27:52.860 --> 0:27:54.700
+Let me take a look
+
+363
+0:27:54.700 --> 0:27:55.980
+control
+
+364
+0:27:55.980 --> 0:28:01.620
+Save control here. It is save control reference on before save start saving
+
+365
+0:28:01.620 --> 0:28:05.060
+Okay, so there are two there are two events that happen
+
+366
+0:28:05.580 --> 0:28:11.260
+On saving there is the on saving node, which is technically under the hood called
+
+367
+0:28:11.940 --> 0:28:18.180
+On on before save start so you should be able to use the on saving node to affect the world
+
+368
+0:28:18.580 --> 0:28:26.940
+Basically, the the plot the the thing goes I'll type this so user presses say we'll just use a press to save on saving fires
+
+369
+0:28:26.940 --> 0:28:34.460
+Saved fires and then you know, the object is saved so like that
+
+370
+0:28:34.460 --> 0:28:38.460
+There's the order of operations. So on saving should give you an opportunity to do something
+
+371
+0:28:38.500 --> 0:28:40.060
+What is important there though?
+
+372
+0:28:40.060 --> 0:28:45.660
+Is that you can't have any nodes which will delay execution till the next update because that might cause problems
+
+373
+0:28:45.660 --> 0:28:50.860
+So avoid that the delay node the updates delay node and anything like that
+
+374
+0:28:51.380 --> 0:28:56.500
+Because that will will have problems there. That is a whole topic for another tutorial though
+
+375
+0:28:56.500 --> 0:28:58.300
+It's like yeah
+
+376
+0:28:58.300 --> 0:28:59.540
+cool
+
+377
+0:28:59.540 --> 0:29:03.060
+The update delay nodes and stuff like that very very complicated
+
+378
+0:29:03.860 --> 0:29:09.620
+If in doubt a update delay of two usually fixes stuff that requires an update delay
+
+379
+0:29:10.700 --> 0:29:12.860
+so zenny has an update which says
+
+380
+0:29:13.780 --> 0:29:16.900
+I'm actually asking something related to my hardware. So I got a new headset
+
+381
+0:29:16.900 --> 0:29:19.500
+I got a g2 omni on set from a buddy of mine
+
+382
+0:29:19.500 --> 0:29:23.460
+I wanted to know because in the past you to have problems if able to use it foul off config
+
+383
+0:29:23.460 --> 0:29:28.740
+I think you are I'm not entirely sure there are other people in the community that have a g2 omni
+
+384
+0:29:28.740 --> 0:29:33.780
+Sep so please ask them questions and help just say like I have a g2 omni sept anyone got any updates or
+
+385
+0:29:34.340 --> 0:29:39.740
+Information for me and they'll be happy to help you out is the omni sept the one that has eye tracking that we don't currently
+
+386
+0:29:39.740 --> 0:29:41.500
+Support I think it is
+
+387
+0:29:41.500 --> 0:29:46.540
+If it is then it is the headset that doesn't have eye tracking and it's for a very strange reason
+
+388
+0:29:48.140 --> 0:29:53.020
+No, it doesn't have mouth tracking yes, that's the one so the omni sept has mouth tracking
+
+389
+0:29:53.020 --> 0:29:56.420
+But it doesn't export the data in any way that makes sense for us
+
+390
+0:29:56.620 --> 0:30:00.540
+What it will give you is basically a picture of the user's mouth, which is completely useless
+
+391
+0:30:00.540 --> 0:30:07.260
+I mean it isn't useless for like people who want to develop custom mouth tracking algorithms
+
+392
+0:30:07.260 --> 0:30:12.060
+But what we want is a similar SDK to the vive mouth tracker
+
+393
+0:30:12.100 --> 0:30:18.540
+Which is it does all the logic for you and outputs a list of weights like is the mouth open and when I say weights
+
+394
+0:30:18.540 --> 0:30:24.000
+I mean the mouth trickle output. I am 50% sure that the user's mouth is open and then we can act upon that
+
+395
+0:30:24.260 --> 0:30:30.780
+Whereas the omni sept mouth tracker is like here's a picture of your users face like thanks. That's
+
+396
+0:30:31.380 --> 0:30:33.220
+very useful
+
+397
+0:30:33.220 --> 0:30:36.860
+We could put open c-face on that. It just sort of like it's a
+
+398
+0:30:37.900 --> 0:30:41.940
+It's a foundational approach about Neos is like do we?
+
+399
+0:30:42.500 --> 0:30:48.180
+Do we want to start doing that and the reason behind that is because like doing that is sometimes like quite
+
+400
+0:30:48.180 --> 0:30:52.660
+Resource intensive and we are not experts in that we could of course get
+
+401
+0:30:53.300 --> 0:30:58.300
+Amazing amazingly experts at that we could do a bunch of research. We could do a bunch of work. We could spend months
+
+402
+0:30:58.900 --> 0:31:05.640
+Prototyping it we could even submit scientific papers or we could just like use existing things like open c-face and stuff like that
+
+403
+0:31:05.640 --> 0:31:08.380
+But then we have to maintain that I don't know what g2s
+
+404
+0:31:09.140 --> 0:31:13.260
+Goals are with the mouth tricking like if we knew that it might be better to sort of say like oh hey
+
+405
+0:31:13.260 --> 0:31:17.660
+We actually need to stand in here, but it's a lot more work than adding another device
+
+406
+0:31:17.660 --> 0:31:23.020
+Which already does that let's say prime comes out with a prime face tracker, and it outputs weights
+
+407
+0:31:23.060 --> 0:31:25.820
+That would be like I don't know a couple of days work
+
+408
+0:31:26.740 --> 0:31:30.200
+Outputting the mouth camera from the g2 omni sept through all that stuff
+
+409
+0:31:30.300 --> 0:31:33.700
+That's more like a week to like half a month depending on how complicated it is
+
+410
+0:31:33.700 --> 0:31:37.660
+I believe that's all the questions we have so I'm gonna go ahead and end things off here quick reminder
+
+411
+0:31:37.660 --> 0:31:41.380
+Go ahead drop in the questions and help channel if you have any other questions direct message me directly
+
+412
+0:31:41.380 --> 0:31:48.180
+Knock me about things call me Susan. Whatever you'd like to do totally fine by me. I will see you guys next week
+
+413
+0:31:48.180 --> 0:31:51.100
+If you have anything else you want to add please feel free to do it
+
+414
+0:31:51.100 --> 0:32:11.860
+But this will be the end of the office our segment. Goodbye
+

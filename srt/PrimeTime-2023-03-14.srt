@@ -1,0 +1,1128 @@
+1
+00:00:00,000 --> 00:00:05,520
+ Welcome to office hours with prime if you go ahead and get your questions in the office hours thread for questions
+
+2
+00:00:05,520 --> 00:00:08,320
+ We'll get them answered in the order that they appear there are currently no questions
+
+3
+00:00:08,320 --> 00:00:12,080
+ So we're gonna sit here in unimaginable silence until there are questions
+
+4
+00:00:12,080 --> 00:00:17,420
+ For those who you who are just joining and don't know what this is. This is in half hour sometimes 45 minutes
+
+5
+00:00:17,420 --> 00:00:19,600
+ Sometimes an hour depends how distracted I get
+
+6
+00:00:19,600 --> 00:00:25,920
+ segment where you can ask questions about Neos and I will answer them whilst inevitably rambling about other things not to do of Neos such as
+
+7
+00:00:25,920 --> 00:00:31,640
+ Prime's magical journey through this world that we live in so feel free to get your questions in until then
+
+8
+00:00:31,640 --> 00:00:36,320
+ No noise will occur from my mouth runtime asks, can you turn the elevator music back on?
+
+9
+00:00:36,320 --> 00:00:39,440
+ I didn't know that that was my responsibility. I think you can turn it back on
+
+10
+00:00:39,440 --> 00:00:46,040
+ The waiting room at least you can't turn it back on whilst the the stage has been started as far as more weather
+
+11
+00:00:46,040 --> 00:00:49,120
+ There we go our first Neos question fantastic
+
+12
+00:00:49,560 --> 00:00:56,320
+ We have a question here from Lou Xanth who says is is there a way to change where a dev tip spawns an inspector?
+
+13
+00:00:56,320 --> 00:01:02,300
+ I do not think so, but in the effort of completeness, I'm gonna go ahead and open up the code base
+
+14
+00:01:02,300 --> 00:01:03,720
+ Which I haven't done today
+
+15
+00:01:03,720 --> 00:01:08,120
+ And I will load into that piece of the code as soon as I can and give you another answer
+
+16
+00:01:08,120 --> 00:01:14,960
+ As far as I remember what it does is it will raycast in front of you to find unoccupied space and put it in there
+
+17
+00:01:14,960 --> 00:01:17,040
+ for the
+
+18
+00:01:17,040 --> 00:01:19,960
+ Logics tip there's actually a better alternative there
+
+19
+00:01:19,960 --> 00:01:23,160
+ Which I've seen a lot of people to Ray V was I think the first person I saw who did it
+
+20
+00:01:23,160 --> 00:01:24,980
+ But now a lot of more people do it
+
+21
+00:01:24,980 --> 00:01:30,480
+ Where they attach a logics panel to their wrist and then they can pull nodes out of that
+
+22
+00:01:30,480 --> 00:01:34,440
+ It means they never close or open the logics panel. It's just always there
+
+23
+00:01:34,440 --> 00:01:39,400
+ Which which seems to work out better for them. It sort of reminds me of the flap
+
+24
+00:01:39,400 --> 00:01:43,560
+ That's on Buzz Lightyear's arm. I know that's just a sticker under there
+
+25
+00:01:43,560 --> 00:01:49,020
+ But like, you know, it could be it could be the logic sim on you. That's like a weird thing
+
+26
+00:01:49,020 --> 00:01:53,840
+ It's like Ray V's arm reminds me of Buzz Lightyear's arm. There you go, and that can go in quotes
+
+27
+00:01:53,840 --> 00:02:00,560
+ Alright code is loaded. I don't know if it's gonna respond to control T requests, but we'll see control T is
+
+28
+00:02:00,560 --> 00:02:05,880
+ Like the way to like just search through everything in a code base in C sharp
+
+29
+00:02:05,880 --> 00:02:10,640
+ so if I do like control T I type dev tool tip in I get to the source code for the dev tool tip, but
+
+30
+00:02:11,360 --> 00:02:16,200
+ If the code base isn't fully finished initializing into official studio
+
+31
+00:02:16,200 --> 00:02:20,560
+ Sometimes that just won't work. So I have to like wait and be like hmm
+
+32
+00:02:20,560 --> 00:02:26,000
+ Control T. Are you going to work today or you're not going to work today and it is it is working today
+
+33
+00:02:26,000 --> 00:02:29,480
+ interesting
+
+34
+00:02:29,480 --> 00:02:31,520
+ Code here. I haven't read ever. Oh
+
+35
+00:02:31,520 --> 00:02:34,400
+ Here we are open inspector. Oh
+
+36
+00:02:34,400 --> 00:02:37,100
+ Cool open inspector cool
+
+37
+00:02:38,600 --> 00:02:44,220
+ To do create inspector. Okay and create inspector will do oh, yeah
+
+38
+00:02:44,220 --> 00:02:47,080
+ Okay, so it just creates an inspector and then it will
+
+39
+00:02:47,080 --> 00:02:53,360
+ Position the inspector in front of you using a very common function that of course you don't know which can't be the source code
+
+40
+00:02:53,360 --> 00:02:54,520
+ called
+
+41
+00:02:54,520 --> 00:02:58,480
+ position in front of user where position in front of user will
+
+42
+00:02:58,480 --> 00:03:02,240
+ Interesting
+
+43
+00:03:02,240 --> 00:03:05,360
+ Interesting. Oh, no that only runs in user space. Okay, cool. All right
+
+44
+00:03:06,400 --> 00:03:09,480
+ Yeah, okay, so it just gets a point in front of the user get point in front of these
+
+45
+00:03:09,480 --> 00:03:12,080
+ It is exactly what I said it just raycast in front
+
+46
+00:03:12,080 --> 00:03:15,760
+ Looks at that distance and then positions it so no you can't control it
+
+47
+00:03:15,760 --> 00:03:22,000
+ The interesting thing was some special case handling for user space that doesn't really make sense and doesn't isn't needed
+
+48
+00:03:22,000 --> 00:03:26,040
+ So I mean is needed of course, but like it's not part of the question
+
+49
+00:03:26,040 --> 00:03:29,120
+ It just I read it confusingly because it made it sense
+
+50
+00:03:29,120 --> 00:03:34,080
+ Like it made sense to like that wasn't running in user space. It would have been interesting, but it's running
+
+51
+00:03:35,560 --> 00:03:42,720
+ Same with the logic node it will just do exactly the same thing unfortunately with the logic tip buzz light your wristwatch
+
+52
+00:03:42,720 --> 00:03:44,720
+ Yeah buzz light your wristwatch
+
+53
+00:03:44,720 --> 00:03:46,880
+ Moving onwards to specs this question
+
+54
+00:03:46,880 --> 00:03:51,160
+ Do you have any documentation on building your ex it could be overwhelming to try and build interfaces with since the required?
+
+55
+00:03:51,160 --> 00:03:55,120
+ Components are not immediately intuitive nor is the fact that the hierarchy matters a lot more than things
+
+56
+00:03:55,120 --> 00:04:02,360
+ There is a 13 part YouTube tutorial series on a certain person's YouTube channel about uax development
+
+57
+00:04:02,720 --> 00:04:09,480
+ Might have heard of him that is to need like large-scale documentation. I know of that system though. It's also 13 parts
+
+58
+00:04:09,480 --> 00:04:15,960
+ I've actually heard of people saying I don't want to learn new x because prime tutorial series on is 13 parts
+
+59
+00:04:15,960 --> 00:04:23,000
+ Or I can't be bothered to watch 13 parts, and it's just like I don't know what you want from me like I make video tutorials
+
+60
+00:04:23,000 --> 00:04:30,440
+ Yeah, yeah, thank you for some enthusiasm on it. There is a lot of stuff there
+
+61
+00:04:30,480 --> 00:04:38,080
+ I don't know if all of its helpful or for it'll make sense because there is like an awful lot
+
+62
+00:04:38,080 --> 00:04:40,080
+ I try and go through
+
+63
+00:04:40,080 --> 00:04:42,480
+ In sort of a logical fashion
+
+64
+00:04:42,480 --> 00:04:46,280
+ Where we don't we don't cover layouts until it looks like part 10
+
+65
+00:04:46,280 --> 00:04:52,680
+ What I would encourage people to do is just use layouts all the time in the first couple of videos you'll see
+
+66
+00:04:52,680 --> 00:04:59,900
+ Me manipulating rec transforms directly and lots of people still do that manually right they'll manually update rec transforms
+
+67
+00:04:59,900 --> 00:05:07,360
+ But what I recommend instead is just wherever possible use horizontal vertical or critical instead of manually changing rate transforms and
+
+68
+00:05:07,360 --> 00:05:12,540
+ If you're worried about like no the performance the slot count inspector inspector
+
+69
+00:05:12,540 --> 00:05:18,400
+ It's basically just like horizontal horizontal vertical horizontal vertical horizontal horizontal vertical vertical horizontal vertical
+
+70
+00:05:18,400 --> 00:05:22,900
+ It just keeps going. It's like it's insanely deep if you look at the
+
+71
+00:05:22,900 --> 00:05:29,500
+ Inspector spec says that they did come across it, but it wasn't complete apparently
+
+72
+00:05:30,940 --> 00:05:33,580
+ Part 13 was made a year ago. I
+
+73
+00:05:33,580 --> 00:05:39,160
+ Don't think it's ever gonna be complete. That's one of the things in my tutorials. I never say that they're complete
+
+74
+00:05:39,160 --> 00:05:42,540
+ Yeah, I recommend you touch it biggest point of advice is
+
+75
+00:05:42,540 --> 00:05:46,600
+ Please use the layout components. They are there to help you
+
+76
+00:05:46,600 --> 00:05:54,900
+ Manually adjusting right transforms is just not ideal and yeah most UI systems that you'll see in game engines have similar systems where it looks
+
+77
+00:05:54,900 --> 00:05:56,800
+ Like you're making a mess, but it's just how you do it
+
+78
+00:05:56,800 --> 00:06:04,160
+ You know if you think you know you acts is bad or even as DIA says if you think you iron kiddo or unity or unreal
+
+79
+00:06:04,160 --> 00:06:10,320
+ Is bad just go ahead and hit view source on google.com and just question everything about the universe and what you knew
+
+80
+00:06:10,320 --> 00:06:15,180
+ Like I because I you know, I'm very familiar with with web design and web development
+
+81
+00:06:15,180 --> 00:06:22,080
+ I can I can tell you what all of google.com does but it will still take me like five minutes to figure it out
+
+82
+00:06:22,080 --> 00:06:26,680
+ No, I want to go to google.com. I don't want to search for Google for google.com
+
+83
+00:06:26,680 --> 00:06:28,680
+ How the hell did that happen?
+
+84
+00:06:28,680 --> 00:06:29,720
+ anyway
+
+85
+00:06:29,720 --> 00:06:36,960
+ moving forwards I had this interesting conversation very recently some other people in other context but a
+
+86
+00:06:36,960 --> 00:06:43,080
+ Lot of cases I find tools that people make slower than the actual like real way of doing it
+
+87
+00:06:43,080 --> 00:06:45,840
+ So I have seen a couple of like things which claim to be
+
+88
+00:06:45,840 --> 00:06:53,160
+ UIX creators or UX tool things that make it easier to do UIX, but I always just go back to
+
+89
+00:06:54,360 --> 00:06:59,880
+ UX like actual I will now scroll up and down and make sure I haven't missed any other questions Oh
+
+90
+00:06:59,880 --> 00:07:03,280
+ Shadow has a different a different problem with the logic step
+
+91
+00:07:03,280 --> 00:07:04,880
+ I'll go ahead and look at the code of logic step
+
+92
+00:07:04,880 --> 00:07:11,520
+ What they want to do is to figure out the the logics for where the node will spawn from the logic step
+
+93
+00:07:11,520 --> 00:07:16,400
+ So when you when you spawn a node where that's positioned that one I might be able to help you
+
+94
+00:07:16,400 --> 00:07:19,320
+ I move I've just got to see where that goes
+
+95
+00:07:19,320 --> 00:07:23,480
+ Tip. Yeah, it goes to the tip. So the the the
+
+96
+00:07:24,120 --> 00:07:31,280
+ Tip of the tip the tip of the tooltip is is where that goes so you can go ahead and edit the tip position
+
+97
+00:07:31,280 --> 00:07:33,400
+ That will answer that one
+
+98
+00:07:33,400 --> 00:07:38,160
+ You just double check not missing any questions before the YouTube video link got it right now
+
+99
+00:07:38,160 --> 00:07:39,500
+ I wrote to Specs question
+
+100
+00:07:39,500 --> 00:07:44,320
+ So Specs says how was this year's MMC voting any new bugs or issues with the voting world or mostly smooth sailing?
+
+101
+00:07:44,320 --> 00:07:48,460
+ Something interesting happened this year, which didn't happen last year, which I was a little grumpy about
+
+102
+00:07:48,460 --> 00:07:50,880
+ So I apologize if any of you received the grumpiness of that
+
+103
+00:07:50,880 --> 00:07:55,240
+ Do you remember that I have to run that thing three days straight and make sure that nothing goes wrong ever?
+
+104
+00:07:55,240 --> 00:08:00,200
+ Because you know, we try and get like people voting as much as possible
+
+105
+00:08:00,200 --> 00:08:04,520
+ Some people had issues and some people direct messaged me about those issues
+
+106
+00:08:04,520 --> 00:08:10,840
+ Great more on that in a moment. Some people posted those issues publicly in a public channel. Not good DM me, please
+
+107
+00:08:10,840 --> 00:08:16,160
+ It's just better to DM people about problems particularly when they like can be fixed really easily
+
+108
+00:08:16,840 --> 00:08:21,440
+ It's slightly more polite as well. So we had a couple of those those were fixed up
+
+109
+00:08:21,440 --> 00:08:25,380
+ And then the one that did DM me about it. They found quite a
+
+110
+00:08:25,380 --> 00:08:27,960
+ potentially problematic issue
+
+111
+00:08:27,960 --> 00:08:32,080
+ but they explored it in a way which was not okay, which is
+
+112
+00:08:32,080 --> 00:08:34,840
+ so they found a way to
+
+113
+00:08:34,840 --> 00:08:40,300
+ Duplicate and delete the voting panels because I forgot to put delete block and duplicate block on those panels
+
+114
+00:08:40,300 --> 00:08:44,220
+ I understand finding that and being like that's a problem that needs to be fixed
+
+115
+00:08:44,400 --> 00:08:49,340
+ But when I went in the world like five or six of the booths had been deleted or duplicated so were broken
+
+116
+00:08:49,340 --> 00:08:52,480
+ It's like if you found a problem, maybe do it again another time
+
+117
+00:08:52,480 --> 00:08:58,520
+ So twice to replicate that is a problem, but then stop don't break any more of the world stop and report the issue
+
+118
+00:08:58,520 --> 00:09:02,440
+ Because like I think five five panels were down by the time I got there
+
+119
+00:09:02,440 --> 00:09:05,440
+ So I just took it down for five minutes to fix that one
+
+120
+00:09:05,440 --> 00:09:09,960
+ That sort of comes into sort of responsible disclosure and things like that. It's like hey
+
+121
+00:09:10,640 --> 00:09:15,240
+ If I push this button on this bank's website, it gives me a million dollars. So I'm gonna push it a hundred times
+
+122
+00:09:15,240 --> 00:09:21,620
+ And then tell the bank it's like you push it once until the bank one of the most interesting problems of MMC voting though
+
+123
+00:09:21,620 --> 00:09:23,620
+ Is I forgot how it worked. I
+
+124
+00:09:23,620 --> 00:09:25,360
+ Have a huge notebook
+
+125
+00:09:25,360 --> 00:09:33,180
+ I use obsidian for my notebook and I usually write extensive notes on everything that I do but my notes for MMC's voting
+
+126
+00:09:33,180 --> 00:09:38,640
+ Were lackluster somehow for some reason. I don't know if I was just like busy or whatever and didn't make them
+
+127
+00:09:39,200 --> 00:09:41,120
+ So I just I didn't know anything
+
+128
+00:09:41,120 --> 00:09:46,080
+ For example when I went through the world testing it I noticed that when you vote in ESD or art
+
+129
+00:09:46,080 --> 00:09:50,320
+ it'll say saved instead of vote cast for blah and category blah and
+
+130
+00:09:50,320 --> 00:09:57,920
+ I was like, why is this happening again? This doesn't make sense. Why is it different sort of like debugging madly unpacked a few logics knows
+
+131
+00:09:57,920 --> 00:10:03,600
+ I'm just like, oh, yeah, that's why we don't have locale strings in the NES locale files for those two categories
+
+132
+00:10:03,600 --> 00:10:10,140
+ So I can't fully localized do the phrase vote cast in category blah for category blah
+
+133
+00:10:10,140 --> 00:10:12,440
+ In those two category instances
+
+134
+00:10:12,440 --> 00:10:17,040
+ So I had to just switch to something I did have a locale string for which is saved
+
+135
+00:10:17,040 --> 00:10:20,480
+ Saved is one of the locale strings, which is just part of Neos core
+
+136
+00:10:20,480 --> 00:10:22,540
+ And so I could just stole that one
+
+137
+00:10:22,540 --> 00:10:23,120
+ in fact
+
+138
+00:10:23,120 --> 00:10:30,080
+ The majority like, you know, two-thirds or more of the strings that exist inside the voting panel are localized using
+
+139
+00:10:30,560 --> 00:10:37,780
+ Neos locale strings and then the remainders are used, you know actual MMC specific strings things like okay
+
+140
+00:10:37,780 --> 00:10:45,220
+ Cancel. Yes, you know, those are all available to be localized by everyone. So if you're ever looking to make a world
+
+141
+00:10:45,220 --> 00:10:47,800
+ for multiple audiences
+
+142
+00:10:47,800 --> 00:10:50,520
+ You can use those locale strings
+
+143
+00:10:50,520 --> 00:10:53,960
+ It's a little bit tricky having a tutorial on it and I don't really have time to explain it here
+
+144
+00:10:53,960 --> 00:10:58,840
+ So I'm asked I probably will try but you know, but you've got that, you know, if you're just using like, okay
+
+145
+00:10:58,840 --> 00:11:04,440
+ Yes, no save cancel. You've got no excuse not translated to every single language which Neos supports
+
+146
+00:11:04,440 --> 00:11:06,960
+ I mean for a nationwide question who says
+
+147
+00:11:06,960 --> 00:11:13,320
+ Why do some logics nodes is a eg is user present in world seemingly just not work without an updating relay after them?
+
+148
+00:11:13,320 --> 00:11:16,200
+ Shouldn't those knows update themselves since they're all for an updating relation used
+
+149
+00:11:16,200 --> 00:11:19,600
+ It's difficult for me to understand
+
+150
+00:11:19,600 --> 00:11:25,000
+ I've asked Fuchs a couple of times, but he seems to answer for that specific case. What I want is
+
+151
+00:11:26,080 --> 00:11:30,120
+ Like a rule of thumb, but what I get is an individual reason
+
+152
+00:11:30,120 --> 00:11:34,440
+ So it's a little bit challenging in that regard
+
+153
+00:11:34,440 --> 00:11:39,640
+ I just opened the is user present node and
+
+154
+00:11:39,640 --> 00:11:46,200
+ Oh, no, wait, I did the is user on ground node somehow by a mistake. I
+
+155
+00:11:46,200 --> 00:11:50,520
+ Don't know how that happened because I typed present and I got like oh
+
+156
+00:11:50,520 --> 00:11:55,320
+ There we go. Yeah. Um, so it just it's just a quirk that I don't understand
+
+157
+00:11:55,920 --> 00:11:58,880
+ the rule of thumb that I have now established though is
+
+158
+00:11:58,880 --> 00:12:02,660
+ Put updating relays in if you notice a problem
+
+159
+00:12:02,660 --> 00:12:07,420
+ But just before you're done making your application before you're done making your world or whatever
+
+160
+00:12:07,420 --> 00:12:07,840
+ It is
+
+161
+00:12:07,840 --> 00:12:13,200
+ remove those updating relays and see if it still works and the reason I say that is because a lot of times we add updating relays
+
+162
+00:12:13,200 --> 00:12:17,480
+ Because we want to see the values for a good example of that being is the global transform
+
+163
+00:12:17,480 --> 00:12:23,240
+ Node we usually want to pull out a display node and look at the global transform of an object as it moves around
+
+164
+00:12:23,480 --> 00:12:26,400
+ Etc and because we're human we want to see those numbers move
+
+165
+00:12:26,400 --> 00:12:31,360
+ Maybe that helps us to figure out what we need to do to those numbers to do the effect that we want
+
+166
+00:12:31,360 --> 00:12:35,620
+ but what we actually then do once we figure those out is we have an impulse chain and
+
+167
+00:12:35,620 --> 00:12:38,560
+ Little
+
+168
+00:12:38,560 --> 00:12:40,560
+ like most understood
+
+169
+00:12:40,560 --> 00:12:44,920
+ misunderstood think about about logics is when an impulse is
+
+170
+00:12:44,920 --> 00:12:52,680
+ Evaluating nodes along its chain. It will have the most up-to-date value whilst that impulse is being processed
+
+171
+00:12:52,960 --> 00:12:57,160
+ But the display node might not update still so example
+
+172
+00:12:57,160 --> 00:13:03,980
+ There might be you take the global transform of a cube and then you write that global transform plus 10 in the Y
+
+173
+00:13:03,980 --> 00:13:10,300
+ So you're just moving up by 10 units, but the global transform display node might not update but the
+
+174
+00:13:10,300 --> 00:13:13,880
+ Logic knows that it's correct, right?
+
+175
+00:13:13,880 --> 00:13:21,600
+ Because when the impulse fires it can pick up that value because it picks up the most relevant most recent evaluated value from there
+
+176
+00:13:22,580 --> 00:13:28,880
+ What happens there is that the impulse chain executing will instruct that node to get the latest value
+
+177
+00:13:28,880 --> 00:13:33,920
+ But that display node doesn't instruct it to get the latest value because it's a different way of looking at it
+
+178
+00:13:33,920 --> 00:13:38,140
+ Which is then sometimes why the updating relay is needed so you can see their numbers moving
+
+179
+00:13:38,140 --> 00:13:40,920
+ But if it's only impulses that are using this data
+
+180
+00:13:40,920 --> 00:13:42,440
+ Then you don't need the updating relay
+
+181
+00:13:42,440 --> 00:13:47,440
+ Hence if it makes it easier for you to develop logics put the updating relays in there
+
+182
+00:13:47,800 --> 00:13:54,000
+ Try removing them once the logic is complete and then you can be like happy and be like I removed one and I didn't actually
+
+183
+00:13:54,000 --> 00:13:57,600
+ Need it and then you'll start learning when they are on when they are not needed
+
+184
+00:13:57,600 --> 00:14:04,320
+ As for why some nodes have it and why some nodes don't I don't really know sometimes this is sort of optimization thing
+
+185
+00:14:04,320 --> 00:14:11,440
+ There are some nodes as well, which are like clearly meant more to be used locally rather than synchronized across the network
+
+186
+00:14:11,440 --> 00:14:17,560
+ Most of those exist in sort of the weird areas of controllers and things like those
+
+187
+00:14:17,560 --> 00:14:23,400
+ Like, you know controller nodes always local. I really liked it meant to sync every single controller boolean across the network
+
+188
+00:14:23,400 --> 00:14:28,560
+ It just meant to sort of sync the result like ah, they push the trigger that means the gunfire
+
+189
+00:14:28,560 --> 00:14:33,560
+ So we transmit over the network gunfire not trigger pulled. Let's move over to
+
+190
+00:14:33,560 --> 00:14:35,820
+ additional question
+
+191
+00:14:35,820 --> 00:14:39,720
+ Shadow asks, is there a good tutorial and a proper use tensor materials and this dead
+
+192
+00:14:39,720 --> 00:14:43,160
+ This does some parameters on limit
+
+193
+00:14:43,160 --> 00:14:47,340
+ I've got it to half work one time really like a clear guide on it watching unity tutorials
+
+194
+00:14:47,340 --> 00:14:53,080
+ It's also not ideal as those include editing shader code, which is different from Neos. No, there is no guide on it
+
+195
+00:14:53,080 --> 00:14:56,060
+ I usually just scratch my head and scream when I do it, but
+
+196
+00:14:56,060 --> 00:14:58,980
+ There was one
+
+197
+00:14:58,980 --> 00:15:04,620
+ I'll try and find it. There was one like blog article that was unity related
+
+198
+00:15:04,620 --> 00:15:10,220
+ but it had sufficient information for me to understand it and apply it to
+
+199
+00:15:10,220 --> 00:15:15,780
+ Neos it did talk. Yeah, this is the one it did talk about
+
+200
+00:15:17,540 --> 00:15:22,740
+ Editing shader code etc. But I I just mapped those shader code editing
+
+201
+00:15:22,740 --> 00:15:28,700
+ Ujima flips to the material inspector. There is a bug as well, I believe with
+
+202
+00:15:28,700 --> 00:15:32,200
+ Some of the stuff going on there
+
+203
+00:15:32,200 --> 00:15:38,900
+ In the some of the the shaders that have stencil parameters don't have Z right and you kind of need to in some cases
+
+204
+00:15:38,900 --> 00:15:44,200
+ manipulate the Z right operation as well as these stencil parameters to get everything to work and
+
+205
+00:15:44,680 --> 00:15:51,720
+ I you know couldn't figure that out either looks like this one's good particularly because it references are one of my favorite games which is
+
+206
+00:15:51,720 --> 00:15:57,040
+ Anti-chamber. I need to do another run of anti-chamber, but like there's a good there's a good link there for it as well
+
+207
+00:15:57,040 --> 00:15:59,040
+ All right moving that down to the thread
+
+208
+00:15:59,040 --> 00:16:04,000
+ So we've got the shader the stencil question done. We'll scroll up and down make sure I haven't missed any others
+
+209
+00:16:04,000 --> 00:16:08,080
+ No other questions have been missed. So if you have any additional questions, please go ahead and
+
+210
+00:16:08,080 --> 00:16:10,080
+ Give it a look
+
+211
+00:16:10,080 --> 00:16:15,440
+ Meant to be like an anti chamber - she did this this Daniel website is a little bit broken
+
+212
+00:16:15,440 --> 00:16:22,060
+ Because I just clicked a link and it said like localhost 4000 because they haven't updated the logo in the top left there
+
+213
+00:16:22,060 --> 00:16:24,060
+ they have a bunch of
+
+214
+00:16:24,060 --> 00:16:32,120
+ Universal rendering pipeline tutorial they have a bunch of tutorials. They're a bit old from 2021, but like I will bookmark this website
+
+215
+00:16:32,120 --> 00:16:37,520
+ OZ I believe I answered that question less than less than a month ago like so
+
+216
+00:16:38,680 --> 00:16:40,480
+ Well
+
+217
+00:16:40,480 --> 00:16:46,540
+ Maybe refer to the older notes on that one. No main changes that although I'm thinking of headsets
+
+218
+00:16:46,540 --> 00:16:54,340
+ The big screen headset the one that's really light awesome looking headset, but don't make me require an Apple phone to purchase it
+
+219
+00:16:54,340 --> 00:17:01,040
+ Thanks. There we go. It has to be a 2018 or newer Apple phone and not the SE series. Yeah, that's that's really weird
+
+220
+00:17:01,040 --> 00:17:03,560
+ I get it because they want the 3d scan data
+
+221
+00:17:04,800 --> 00:17:09,920
+ If they like partnered with a store, I actually don't know the names of tech stores in the US
+
+222
+00:17:09,920 --> 00:17:16,720
+ I was about to say Curry's but no one would knowing that any idea what I'm talking about, but Curry's PC world
+
+223
+00:17:16,720 --> 00:17:21,040
+ Big Best Buy, maybe
+
+224
+00:17:21,040 --> 00:17:26,680
+ name a tech store, maybe if they partner with a tech store like go to the tech store and
+
+225
+00:17:26,680 --> 00:17:30,800
+ Have your face scan by a thing there and buy it there. That would be good
+
+226
+00:17:30,800 --> 00:17:34,400
+ I think they could do that but like it's almost like they're too late for that
+
+227
+00:17:34,720 --> 00:17:37,880
+ Stores are dying and I've even to a mall recently, but it's crazy
+
+228
+00:17:37,880 --> 00:17:43,500
+ I bet you the Apple store employees will love that if it gets popular. Are you here to buy an iPhone, sir?
+
+229
+00:17:43,500 --> 00:17:50,000
+ No, I'm here to scare my face and then leave and never come back would be my response. I did just buy a brand new phone
+
+230
+00:17:50,000 --> 00:17:51,280
+ I'm now running a
+
+231
+00:17:51,280 --> 00:17:53,280
+ pixel 7 pro and
+
+232
+00:17:53,280 --> 00:18:00,200
+ Come on, but the next time I buy a phone it's gonna be you know, like 2030 or something
+
+233
+00:18:00,720 --> 00:18:05,240
+ The last time I bought a phone I looked it up was something like 2013. I don't know
+
+234
+00:18:05,240 --> 00:18:08,480
+ I'll have to after double-check that exact number. I don't really know
+
+235
+00:18:08,480 --> 00:18:14,840
+ Tiki us is there a way to have more than one camera for recording thought about having a second news client if anything if you mean
+
+236
+00:18:14,840 --> 00:18:19,160
+ Simultaneously no, there is no way currently to have a second camera to record
+
+237
+00:18:19,160 --> 00:18:24,220
+ Things that you can do though, and this is really hacky, but I've done it multiple times
+
+238
+00:18:24,220 --> 00:18:29,920
+ so I will mention it is if you put your camera your main camera into orthographic mode and
+
+239
+00:18:30,160 --> 00:18:36,520
+ Stick it into a camera anchor you can then position additional cameras in front of that orthographic camera
+
+240
+00:18:36,520 --> 00:18:39,740
+ And you can kind of set up like a CCTV view, you know
+
+241
+00:18:39,740 --> 00:18:42,060
+ Where you've got like a grid of four cameras on the screen
+
+242
+00:18:42,060 --> 00:18:48,320
+ And that way you can record multiple camera angles. There is a bit gross though because it's like, you know
+
+243
+00:18:48,320 --> 00:18:52,520
+ Taking a photo of your phone to like share
+
+244
+00:18:52,520 --> 00:18:58,820
+ It's that one sometimes with like logs or Neos we asked for log files when you know diagnosing issues
+
+245
+00:18:58,820 --> 00:19:04,660
+ there are sometimes where I've got like a phone camera picture of the log file on someone's screen and I'm just like
+
+246
+00:19:04,660 --> 00:19:13,440
+ But yeah, it's a bit like doing that but it that has worked a few times we did that for data collection as well
+
+247
+00:19:13,440 --> 00:19:17,600
+ Sometimes we had like three camera angles and then the third
+
+248
+00:19:17,600 --> 00:19:23,260
+ Fourth the fourth the final quadrant was data like a graph or something
+
+249
+00:19:23,260 --> 00:19:28,700
+ And that was like, you know, three camera angles plus a graph to show what's going on. That was good orthographic camera
+
+250
+00:19:28,700 --> 00:19:33,780
+ Though is is pretty needed there. Otherwise you get the perspective
+
+251
+00:19:33,780 --> 00:19:42,040
+ Doubly added because you're looking at a perspective camera looking at perspective cameras like an orthographic looking at perspective camera. That's fine
+
+252
+00:19:42,040 --> 00:19:47,040
+ But if you're doing two perspectives, sometimes it just looks weird. Okay, I've solved Tiki's problem
+
+253
+00:19:47,040 --> 00:19:50,480
+ Yeah, we've got exactly what they need there. Yeah, try it out. If you have any issues, let me know
+
+254
+00:19:50,480 --> 00:19:53,800
+ I do I do it all the time. Also remember the sender display tip
+
+255
+00:19:53,800 --> 00:19:57,240
+ You might not be able to make the streaming camera orthographic
+
+256
+00:19:57,240 --> 00:20:01,680
+ So in which case make an orthographic regular camera use the center display tip on it
+
+257
+00:20:01,680 --> 00:20:03,200
+ And then it'll do the equivalent thing
+
+258
+00:20:03,200 --> 00:20:08,940
+ The center display tip was the old version of the mirror to display option that exists inside the camera streaming thing
+
+259
+00:20:08,940 --> 00:20:13,200
+ I think that's what we do. Keep the questions coming. We're um running up against the clock here
+
+260
+00:20:13,200 --> 00:20:15,820
+ But I'm happy to go if anyone else has any additional questions
+
+261
+00:20:15,820 --> 00:20:20,900
+ See Jackal is typing so we'll take Jackal's question and then we will leave off
+
+262
+00:20:23,320 --> 00:20:29,640
+ If you have other questions that would help you understand stuff go for it like, you know, we're here for all levels of
+
+263
+00:20:29,640 --> 00:20:36,580
+ Understanding. Okay. We'll wait for runtime and shadow now just shadow guys. If you've got questions, you have to type faster. Come on
+
+264
+00:20:36,580 --> 00:20:41,680
+ I want to hear your like desk make like aggressive banging noises from your typing
+
+265
+00:20:41,680 --> 00:20:45,840
+ Just so you can get the question out before we close. No, no worries red tape
+
+266
+00:20:45,840 --> 00:20:49,860
+ It's always weird when you call out people for that typing indicator. I wish you could turn it off
+
+267
+00:20:49,860 --> 00:20:52,260
+ you can turn it off on I think telegram and
+
+268
+00:20:52,960 --> 00:20:59,540
+ Maybe what's that? Yeah, I usually if I have the option to I turn it off so people don't see that I am typing
+
+269
+00:20:59,540 --> 00:21:03,360
+ I think it's just like in some situations
+
+270
+00:21:03,360 --> 00:21:04,760
+ It can cause anxiety
+
+271
+00:21:04,760 --> 00:21:10,580
+ Like here's an example you're at work and you use Microsoft Teams and it's like your manager is typing and you notice it
+
+272
+00:21:10,580 --> 00:21:12,580
+ It's just like oh
+
+273
+00:21:12,580 --> 00:21:20,560
+ Yeah, okay, so we have no further questions some comments on typing noises so go ahead and leave off here
+
+274
+00:21:20,560 --> 00:21:24,880
+ I'm gonna go consume like half a cow worth of food and I'll get back to you later
+
+275
+00:21:24,880 --> 00:21:30,400
+ If you have any questions, please drop them in the questions help channel direct message me. Send me carrier pigeons. Send me smoke signals
+
+276
+00:21:30,400 --> 00:21:32,480
+ I'll try and respond do
+
+277
+00:21:32,480 --> 00:21:36,000
+ Remember that we can all
+
+278
+00:21:36,000 --> 00:21:38,520
+ Enjoy eating cows
+
+279
+00:21:38,520 --> 00:21:42,080
+ Not tipsy cow tipsy cow is a restaurant that is about one town over
+
+280
+00:21:42,080 --> 00:21:46,960
+ It takes me like a 20 to 30 minute bus ride to get there. Otherwise, I'll be going there all the time
+
+281
+00:21:46,960 --> 00:21:49,780
+ No, I'm just gonna go find whatever's in the cupboard and shove it in my face
+
+282
+00:21:49,780 --> 00:21:53,520
+ I don't know what it is. I mean look I will speech you later. Bye. Bye
+

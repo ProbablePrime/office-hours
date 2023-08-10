@@ -1,0 +1,36 @@
+
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+		<title></title>
+		<style>
+			* {
+				font-family: "Comic Sans MS", "Comic Sans", cursive;
+				color:#FFF;
+			}
+			body {
+				background: radial-gradient(#1e88e5, rgb(127, 183, 252));
+  				background-repeat: no-repeat;
+			}
+			#container {
+				margin: 0 auto;
+			}
+			a {
+				font-size: 1.25em;
+			}
+		</style>
+	
+	<body>
+		<div id="container">
+			<p>
+			Hi, welcome to my office hours page. So uh Sounder shut down, office hours was deleted from the wiki, and most podcast platforms don't support subtitles/transcriptions in a way that's compatible with the existing files. So I uh built my own yay!
+			</p>
+			<ul>
+			{% for episode in episodes %}
+			<li><a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a></li>
+			{% endfor %}
+			</ul>
+		</div>
+	</body>
+</html>

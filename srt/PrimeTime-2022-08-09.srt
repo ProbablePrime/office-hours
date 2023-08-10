@@ -1,0 +1,2852 @@
+1
+0:00:00.000 --> 0:00:05.000
+Hello, okay, we're gonna get started welcome to office hours with prime. That's me. Hello
+
+2
+0:00:05.080 --> 0:00:08.580
+If you have any questions about Neos, please drop them into the office hours text chat
+
+3
+0:00:08.580 --> 0:00:11.520
+There is a few above the one that you're currently in. That's the community meetings channel
+
+4
+0:00:11.520 --> 0:00:14.100
+I will answer them in the order that they appear if you have any questions
+
+5
+0:00:14.100 --> 0:00:19.880
+Please drop them in if you think of any questions any point that is not during the office hours free filtered
+
+6
+0:00:19.880 --> 0:00:24.040
+Fit there. Yeah, feel free to DM me or asking questions and help. Thank you
+
+7
+0:00:24.240 --> 0:00:29.760
+Alright, so we're gonna start with some questions that were pre-loaded in from specs at like half an hour before
+
+8
+0:00:29.760 --> 0:00:33.200
+So I appreciate that. Thank you queuing those in so specs asks
+
+9
+0:00:33.200 --> 0:00:37.080
+Would you consider the performance cost of a no collision mesh collider to be significant?
+
+10
+0:00:37.080 --> 0:00:41.800
+I was taking steps to optimize collisions for a world and I wasn't sure it was worth removing some mesh colliders
+
+11
+0:00:41.800 --> 0:00:46.000
+Even if they weren't were in effect only colliding the lasers. Ah, yeah, don't worry about that
+
+12
+0:00:46.660 --> 0:00:51.080
+No collision doesn't mean like no collision no collision. It is you this means no collision
+
+13
+0:00:51.680 --> 0:00:52.800
+events
+
+14
+0:00:52.800 --> 0:00:58.920
+This particular filters that occur with the physics events when it comes to colliders and saying it to no collision will avoid as many
+
+15
+0:00:58.920 --> 0:01:03.800
+Collision events as possible. But of course, we'll still have some because it exists. So
+
+16
+0:01:04.760 --> 0:01:11.120
+Yeah, moving onwards to storms question storm asked. How is the voice mode sync component used and see any documentation on it?
+
+17
+0:01:11.120 --> 0:01:15.080
+So voice mode sync, I just looked it up because hey, I don't know so I looked up the code for it
+
+18
+0:01:15.080 --> 0:01:17.680
+First of all, it will only work in user space. That's cool
+
+19
+0:01:18.480 --> 0:01:25.320
+And then in user space is basically an indicator for which voice mode you're on. So there is an output which is a
+
+20
+0:01:25.320 --> 0:01:28.760
+enum, which will list your voice mode and
+
+21
+0:01:29.480 --> 0:01:34.660
+Then there's a couple of booleans that will list like hey, this is the voice modes that you're allowed to use
+
+22
+0:01:34.920 --> 0:01:39.840
+So I think it's used in part of the construction of the voice mode indicator in the top left of your dash
+
+23
+0:01:39.840 --> 0:01:43.720
+But I have seen some other uses for it in particular. I used it
+
+24
+0:01:44.520 --> 0:01:52.040
+Recently like a few months ago etc to make a custom voice mode facet, which was very very particular about how mute was undone
+
+25
+0:01:52.040 --> 0:01:57.640
+I think it was like you had to hold or double click or do some like really more intentional
+
+26
+0:01:58.040 --> 0:02:04.360
+Matter to try and unmute things because they were worried about being accidentally unmuted as their unmute user. So that's cool
+
+27
+0:02:04.800 --> 0:02:08.480
+Alex is building the thing interesting recently. Let me see what's in my screenshots
+
+28
+0:02:09.720 --> 0:02:11.720
+Yes, I'm working on
+
+29
+0:02:12.280 --> 0:02:16.680
+anxiety exposure experiments with Hamish SHFR and
+
+30
+0:02:16.680 --> 0:02:23.560
+We have like anxiety exposures and one of them is this thing which Hamish keeps doing and I always find amazing
+
+31
+0:02:23.560 --> 0:02:29.300
+Which is if you like play with the IK of a non avatar model like a skin mesh model
+
+32
+0:02:29.300 --> 0:02:35.360
+You can actually put like a look at user component on their head and it will swivel and look at you
+
+33
+0:02:35.400 --> 0:02:40.080
+it's the idea here being hey give a presentation in laboratory to a bunch of scientists and
+
+34
+0:02:40.760 --> 0:02:42.300
+It gets kind of freaky
+
+35
+0:02:42.300 --> 0:02:48.440
+Let me get the screenshots of that because if you don't limit it, you can basically just snap the heads off
+
+36
+0:02:53.000 --> 0:02:56.040
+And it looks it just it looks really creepy
+
+37
+0:02:58.800 --> 0:03:02.120
+Lego creator says why does the logics node browser and
+
+38
+0:03:02.560 --> 0:03:09.600
+Create menu ATC have sliding animations, but attached component menu does not the attached component menu was really made just quickly, right?
+
+39
+0:03:09.600 --> 0:03:15.160
+it's a really complicated menu and it was just made quickly to like work and it got more and more complicated as we added to
+
+40
+0:03:15.160 --> 0:03:16.520
+it and
+
+41
+0:03:16.520 --> 0:03:18.880
+It's actually quite a good example of that problem
+
+42
+0:03:18.880 --> 0:03:21.860
+Which you'll hear freaks talk about if you speak to him about like hey
+
+43
+0:03:21.860 --> 0:03:24.800
+Why don't you do this like one quick fix for this one particular feature?
+
+44
+0:03:25.040 --> 0:03:30.080
+The attached component menu is one of notable examples about that. There are many other examples, right?
+
+45
+0:03:30.080 --> 0:03:33.360
+The attached component menu just needed to keep getting more and more complicated
+
+46
+0:03:33.400 --> 0:03:39.040
+It's like we do this feature this feature that feature this feature this feature and it just kept getting more and more complicated
+
+47
+0:03:39.040 --> 0:03:42.600
+And so it hasn't grown with time and that's why I want to completely rework it
+
+48
+0:03:42.600 --> 0:03:45.880
+So it can grow with time and so when you are thinking in your head
+
+49
+0:03:45.880 --> 0:03:50.560
+Oh take me like five minutes if I had access and I could make a code change to the menu
+
+50
+0:03:50.560 --> 0:03:52.720
+Yes, it would but then you'd add that to like the pile
+
+51
+0:03:53.680 --> 0:04:00.080
+Like a house cards, it'll come it'll come toppling down. So the attached component menu is is showing that age and showing that
+
+52
+0:04:01.680 --> 0:04:03.680
+rigidity
+
+53
+0:04:03.680 --> 0:04:11.000
+I'm moving downwards past my creepy creepy doctors for you toes
+
+54
+0:04:12.560 --> 0:04:14.240
+Yeah, they're creepy
+
+55
+0:04:14.240 --> 0:04:19.960
+We also had what she once we had an auditorium for the people who are experiencing performance issues because of course they had you know
+
+56
+0:04:19.960 --> 0:04:24.080
+Legs arms etc. And so we just removed everything except their heads
+
+57
+0:04:24.600 --> 0:04:31.000
+Their heads follow and I do believe it's still in my memes folder is quite intensive to load but in my mean folder
+
+58
+0:04:31.000 --> 0:04:33.000
+There's a sphere of those heads
+
+59
+0:04:33.000 --> 0:04:37.680
+That sphere aligned and it will animate to the me channel music
+
+60
+0:04:37.680 --> 0:04:40.880
+I was I don't remember why I built that but hey
+
+61
+0:04:42.120 --> 0:04:44.520
+It's in the memes folder. It is terrifying
+
+62
+0:04:45.920 --> 0:04:48.960
+Okay, moving downwards. Where are we?
+
+63
+0:04:49.760 --> 0:04:55.880
+Cobalt crusher. Thank you. Oh crusader. I'm so sorry. I've read that as crusher for like three weeks and it's not that
+
+64
+0:04:55.880 --> 0:05:03.240
+Anyway, is there a way to better layout or organize for logics such as maybe a plain like component tools
+
+65
+0:05:03.800 --> 0:05:08.920
+That nodes could all make snap to there are a variety ways of doing it and they usually have colors associated with them as you
+
+66
+0:05:08.920 --> 0:05:10.920
+Can see from the reactions to your message
+
+67
+0:05:11.480 --> 0:05:16.360
+There are blueprints which is the older version of what people use these days, which is called a red print
+
+68
+0:05:17.000 --> 0:05:22.280
+Really the the reason for the naming and color change is just to distinguish them. There is also a green print
+
+69
+0:05:22.280 --> 0:05:27.400
+There is also a green print. There's also a black print, but I haven't released that that's prime's print. I don't use it
+
+70
+0:05:27.400 --> 0:05:29.080
+That's why it's not released
+
+71
+0:05:29.080 --> 0:05:33.080
+You know, my avatar is like 90% black. So I tend to use that color as like a
+
+72
+0:05:33.600 --> 0:05:34.960
+branding thing
+
+73
+0:05:34.960 --> 0:05:36.960
+It's kind of like a weird brand though
+
+74
+0:05:37.080 --> 0:05:40.840
+But yeah, I haven't released that one and I won't be it was just experiment
+
+75
+0:05:40.840 --> 0:05:44.520
+And I got it to work a little bit better than all of the other prints, but it was pretty flaky
+
+76
+0:05:44.520 --> 0:05:46.520
+So I didn't release it
+
+77
+0:05:47.000 --> 0:05:49.760
+Those work in aligning the nodes and
+
+78
+0:05:49.760 --> 0:05:51.120
+And
+
+79
+0:05:51.120 --> 0:05:55.840
+Various other techniques and tools for them. There is a good tutorial series on the red print from business lawyer
+
+80
+0:05:55.840 --> 0:05:58.800
+I do want to call out that there are other printer systems out there though
+
+81
+0:05:58.800 --> 0:06:02.800
+Because I don't want to like, you know do any sort of favoritism like things. So do try them all
+
+82
+0:06:04.080 --> 0:06:08.000
+additionally for that there are actually ways in which you should be building your
+
+83
+0:06:08.560 --> 0:06:13.680
+Things in logics to to not require redprints like people always like weirded out when I'm like, yeah
+
+84
+0:06:13.680 --> 0:06:16.720
+I don't use them ever and there are some for some users like that
+
+85
+0:06:16.720 --> 0:06:21.120
+um, I understand that like the red print is really good for some people particularly those who
+
+86
+0:06:21.520 --> 0:06:26.000
+Who need that plane to sort of lay out and focus on the logics is great for that
+
+87
+0:06:26.240 --> 0:06:31.040
+But I just don't find them necessary. One of the reasons for that is that I don't
+
+88
+0:06:32.960 --> 0:06:34.560
+I don't make large collections
+
+89
+0:06:34.560 --> 0:06:38.080
+Like I see pictures in screenshots or in the logics channel all the time of like logics
+
+90
+0:06:38.080 --> 0:06:43.120
+That's like the size of a building and it's just like pack early often and modular modular
+
+91
+0:06:43.120 --> 0:06:44.960
+A
+
+92
+0:06:44.960 --> 0:06:47.040
+Lots of things that are being created. Um
+
+93
+0:06:47.600 --> 0:06:53.200
+You'll see that in if you poke around in like any of the the jp team's um stuff
+
+94
+0:06:53.280 --> 0:06:56.080
+You'll see that they do it the sort of modular way that I tend to do it
+
+95
+0:06:56.480 --> 0:07:00.080
+If you poke around in like really really polished stuff probably even the red print
+
+96
+0:07:00.320 --> 0:07:05.520
+You'll see a lot of stuff that's sort of like packed early and often and that way you'll see hey
+
+97
+0:07:05.920 --> 0:07:09.440
+There's like 10 nodes in this pack. Do we really need a red print for that?
+
+98
+0:07:09.440 --> 0:07:15.360
+Nope, these 10 nodes connect to a another 10 nodes in another pack. Do we need a red print for that?
+
+99
+0:07:15.360 --> 0:07:19.840
+No, we just unpack and pack different things that you can never get like functions
+
+100
+0:07:19.920 --> 0:07:23.600
+They don't really like communicate similar to like a function snack would in a game instead
+
+101
+0:07:23.680 --> 0:07:31.120
+They communicate via dynamic variables dynamic impulses in some cases just like copious uses of fire on true
+
+102
+0:07:31.520 --> 0:07:34.320
+um, but that is what I recommend and you can
+
+103
+0:07:35.040 --> 0:07:38.480
+totally use redprints with that system, but like think about
+
+104
+0:07:38.480 --> 0:07:44.560
+Like both approaches so think about how you can use red print to organize your logics and also
+
+105
+0:07:45.040 --> 0:07:48.240
+How you can break your logics up such that you can pack it early and often
+
+106
+0:07:48.640 --> 0:07:53.920
+Um that helps a lot and that way you won't have like a chaotic mess everywhere
+
+107
+0:07:54.240 --> 0:07:58.240
+Like I am constantly making packs like constantly like it's like oh i've made two nodes
+
+108
+0:07:58.240 --> 0:08:00.880
+I'll pack it and i'm like another two nodes are here and pick that pack that
+
+109
+0:08:01.280 --> 0:08:06.080
+Um, just get it out of your screen if you don't need to if you don't need to do that. Um
+
+110
+0:08:06.080 --> 0:08:10.880
+Um, do take a look at those printy things. So there are multiple ones and multiple colors
+
+111
+0:08:10.880 --> 0:08:13.040
+Uh moving forwards
+
+112
+0:08:13.040 --> 0:08:15.040
+Plush
+
+113
+0:08:15.040 --> 0:08:20.560
+I don't know how to pronounce that. I'm sorry. I'm doing a terrible bad job. I'm also just rereading cobble's name
+
+114
+0:08:20.560 --> 0:08:24.080
+I'm, so sorry about that one. I'm just I read it incorrectly. Anyway, moving on
+
+115
+0:08:24.080 --> 0:08:28.560
+Uh, they say how much data does the host process through itself?
+
+116
+0:08:28.560 --> 0:08:30.560
+Like if someone imported model from his pc
+
+117
+0:08:30.560 --> 0:08:35.760
+Does it mean that it would have to go through the host first and then everyone will see it since it mentions about the host
+
+118
+0:08:35.760 --> 0:08:40.640
+About mesh networking plans on github. It's really difficult to explain
+
+119
+0:08:41.200 --> 0:08:42.240
+um
+
+120
+0:08:42.240 --> 0:08:43.120
+unless
+
+121
+0:08:43.120 --> 0:08:46.800
+Um, we talk about the data model for a bit. So we'll talk about the data model for a bit
+
+122
+0:08:47.360 --> 0:08:50.720
+For that though, we're going to need to talk about sort of data storage and to avoid technicalities
+
+123
+0:08:50.720 --> 0:08:55.920
+We'll just sort of use an analogy and the analogy is an excel spreadsheet
+
+124
+0:08:57.440 --> 0:09:00.400
+So this is going to be terrible, I know it's going to be terrible but here we go
+
+125
+0:09:00.400 --> 0:09:06.960
+If you imagine that there is a google excel spreadsheet whatever like system you use to share spreadsheets with your with your office workers
+
+126
+0:09:06.960 --> 0:09:10.960
+Whatever you want to use multiple people can view that spreadsheet and make changes to it
+
+127
+0:09:11.280 --> 0:09:15.200
+Now you can view that spreadsheet just by loading the page and then you'll see you know
+
+128
+0:09:15.200 --> 0:09:17.200
+The numbers and the rows on the spreadsheet
+
+129
+0:09:17.280 --> 0:09:23.440
+It's only when you change a number like a change a number in a cell change a cell's value that
+
+130
+0:09:23.840 --> 0:09:26.500
+A message needs to go from your computer
+
+131
+0:09:27.200 --> 0:09:28.080
+to
+
+132
+0:09:28.080 --> 0:09:34.400
+Google docs or office docs whatever you want to call its server and it tells everyone else that is looking at that spreadsheet
+
+133
+0:09:34.800 --> 0:09:42.400
+This cell a1 on your spreadsheet has changed from three to four and that's sort of highly analogy specific
+
+134
+0:09:42.640 --> 0:09:48.400
+How uh, Neos works there is a giant spreadsheet in the cloud hosted on the host's computer
+
+135
+0:09:48.400 --> 0:09:49.200
+So it's not even in the cloud
+
+136
+0:09:49.200 --> 0:09:55.040
+It's not a host computer and when you join a session you get the most recent copy of that spreadsheet and it's like cool
+
+137
+0:09:55.120 --> 0:09:57.120
+I've got the most recent copy of that spreadsheet
+
+138
+0:09:57.120 --> 0:10:01.840
+I know that there is an a1 there's a cell that says three and because that set is three
+
+139
+0:10:02.160 --> 0:10:09.120
+There is a floating cube in the left here shaped like a cheese piece of cheese when you move that around as a user you are
+
+140
+0:10:09.200 --> 0:10:10.960
+sending um
+
+141
+0:10:10.960 --> 0:10:17.280
+Messages to the host and saying I am moving this I am moving this and that is then updating the host and saying hey
+
+142
+0:10:17.360 --> 0:10:21.280
+This this number that is three is now whatever position you're moving it within the world
+
+143
+0:10:21.600 --> 0:10:26.000
+And then that message is then relayed out to the other people, uh that are in the session
+
+144
+0:10:26.000 --> 0:10:32.960
+So when you're desynced, it's actually caused by those updates not going through and then there's some sort of numeric queuing and snacking that happens there
+
+145
+0:10:33.200 --> 0:10:38.000
+So, you know, I move a cube two minutes to the left and then two minutes to the right cool
+
+146
+0:10:38.000 --> 0:10:44.560
+You missed that two minute units to the right message because you're desynced the cube will still be in its original location
+
+147
+0:10:45.360 --> 0:10:50.400
+Because you haven't got the message yet that it is moved. So that's basically how Neos works
+
+148
+0:10:50.880 --> 0:10:52.080
+It's a lot more complicated than that
+
+149
+0:10:52.080 --> 0:10:57.440
+I was trying to analogy it down to sort of be generic for everyone if that was a terrible analogy. I do apologize
+
+150
+0:10:58.720 --> 0:11:04.320
+Uh, Jason, if you know the language Jason synced over the internet is basically what it is. But anyway, um
+
+151
+0:11:04.880 --> 0:11:09.840
+Moving towards the actual question then based on that foundational knowledge when you create a model
+
+152
+0:11:10.320 --> 0:11:14.800
+Um, you will update you will upload the data from your computer into the session
+
+153
+0:11:15.200 --> 0:11:19.520
+Once it's uploaded into the session and complete in a way that we can transmit it across
+
+154
+0:11:19.520 --> 0:11:22.560
+It will then be transmitted the host and then load it to everyone else
+
+155
+0:11:22.960 --> 0:11:26.960
+So a good example here being I don't know a picture like people spawn pictures in Neos all the time
+
+156
+0:11:27.360 --> 0:11:31.760
+You take the picture find it. It's a meme a picture of the hat or whatever you put it in the world
+
+157
+0:11:31.760 --> 0:11:36.960
+You'll see it first and Neos will do some processing to make it a little bit faster for other people to see it
+
+158
+0:11:37.360 --> 0:11:43.040
+Um, but sometimes other people won't see it and that's because it has to go for like via the host to you guys backwards and forwards
+
+159
+0:11:43.040 --> 0:11:46.400
+Etc. And again that does depend on the URL of the image if it's like a
+
+160
+0:11:46.400 --> 0:11:49.680
+Web address, then it will be faster if it's in the nearest db link
+
+161
+0:11:49.680 --> 0:11:53.040
+It'll be faster because everyone else can fetch that like in an isolated way
+
+162
+0:11:53.120 --> 0:11:59.440
+But the actual like there is a picture here and the URL of the picture is this has to go through the host
+
+163
+0:12:00.000 --> 0:12:04.640
+As for the mesh networking plans that you mentioned at the end there, um mesh networking would be basically
+
+164
+0:12:05.520 --> 0:12:07.840
+A host user is also known as the authority user
+
+165
+0:12:07.840 --> 0:12:11.680
+In fact, the host user is often not referred to in code as host user
+
+166
+0:12:11.680 --> 0:12:14.800
+Like if you looked at the source code of Neos a lot of times it's just like world authority
+
+167
+0:12:14.800 --> 0:12:20.640
+And that means host user so the world authority is like who has authority over the session like if something's happening
+
+168
+0:12:20.640 --> 0:12:22.560
+Who is the authority to say? Hey, that's not happening
+
+169
+0:12:22.560 --> 0:12:29.280
+Um, and that's usually the host right now mesh networking that would more be a sort of consensus based algorithm
+
+170
+0:12:29.280 --> 0:12:33.600
+Or maybe some sort of like brown robin or something like that and it would basically be hey
+
+171
+0:12:33.600 --> 0:12:39.120
+There is a collection of authorities and they are syncing the information around them in a sort of ring or chain
+
+172
+0:12:39.120 --> 0:12:44.560
+Whatever sort of structure fits your sort of visualization there and trying to make it a little bit faster
+
+173
+0:12:44.560 --> 0:12:49.200
+Trying to figure out sort of how to synchronize all that data across that would also allow things
+
+174
+0:12:49.360 --> 0:12:52.080
+Uh, like larger worlds as well because like hey, you know
+
+175
+0:12:52.080 --> 0:12:56.240
+This part of the mesh could do this part of the world this part of the mesh could do that part of the world
+
+176
+0:12:56.320 --> 0:12:58.320
+It would be cool. Uh
+
+177
+0:12:58.400 --> 0:13:05.600
+Not specifically related to like it's like only like partially related to your like question though mesh networking. That's more sort of different
+
+178
+0:13:06.080 --> 0:13:09.520
+Uh moving forwards yellow asks. I saw people put materials as components
+
+179
+0:13:09.520 --> 0:13:13.520
+What are some reasons to do that over not having it the default way? Um materials are components
+
+180
+0:13:13.520 --> 0:13:15.680
+Uh, everything is components even logics is components
+
+181
+0:13:15.760 --> 0:13:19.600
+Um, hence why when people like i'm avoiding logics because I heard logics is slow
+
+182
+0:13:19.920 --> 0:13:26.400
+I want you to like quote this everywhere on the internet logics is just components use it. It's not slow
+
+183
+0:13:26.560 --> 0:13:31.380
+It's not bad. Don't avoid it. Just use it dash prime 2022
+
+184
+0:13:32.240 --> 0:13:33.120
+um
+
+185
+0:13:33.120 --> 0:13:34.480
+so materials as components
+
+186
+0:13:34.480 --> 0:13:34.720
+Yeah
+
+187
+0:13:34.720 --> 0:13:40.320
+So, um, I tend to do this now as well and the reason behind that is because uh a lot of times when i'm using materials
+
+188
+0:13:40.400 --> 0:13:42.160
+I know exactly what I want to do with it
+
+189
+0:13:42.160 --> 0:13:46.800
+I know where I need it and therefore I don't want the ball floating around like when you use the material tool tip to create
+
+190
+0:13:46.800 --> 0:13:52.720
+A material it'll create a ball as well. And sometimes I just don't want balls hanging around and you can quote that as well. Um
+
+191
+0:13:53.440 --> 0:13:58.320
+When you create a material the material will be created on that sphere and that sphere will have a component on it
+
+192
+0:13:58.320 --> 0:13:59.920
+Which is that material?
+
+193
+0:13:59.920 --> 0:14:05.200
+Uh, and sometimes you'll lose a reference to that material because if you delete it it'll end up into the asset system
+
+194
+0:14:05.520 --> 0:14:10.160
+Where it's sort of kept as a sort of like table key value storage up there in the asset system
+
+195
+0:14:10.160 --> 0:14:13.040
+Uh, but if you want to be sure exactly where that material is
+
+196
+0:14:13.360 --> 0:14:16.180
+You can put it directly onto a slot using the components
+
+197
+0:14:16.480 --> 0:14:22.320
+either way works and doesn't really have any like benefits or downsides but doing it the second way as a component definitely allows you to
+
+198
+0:14:22.320 --> 0:14:26.400
+Control it a lot more having said that you should only do what I just said
+
+199
+0:14:26.560 --> 0:14:30.800
+If you need to change the properties of the component using logics or other components
+
+200
+0:14:31.120 --> 0:14:36.260
+If you do not need to change the material once it's in stop putting on your avatar
+
+201
+0:14:36.260 --> 0:14:40.820
+Let the asset system handle it video on that one when I get around to it because I see that all the time
+
+202
+0:14:41.140 --> 0:14:46.900
+People are like I will put the material on my avatar and all the textures on my avatar and i'm like
+
+203
+0:14:46.900 --> 0:14:52.980
+Thank you for invalidating the entire asset systems deduplication method. Thank you. Thank you for doing that great
+
+204
+0:14:53.520 --> 0:14:59.220
+Optimization that you've just ignored and completely disabled. Um more on that one if there are any questions about that one
+
+205
+0:14:59.220 --> 0:15:04.740
+I guess um dorky says that they're like, uh, ryvi's logic tip that snaps nodes in a flat plane. I like that one, too
+
+206
+0:15:04.740 --> 0:15:08.020
+Um, that one makes it easier to sort of keep notes together on the same
+
+207
+0:15:08.260 --> 0:15:12.580
+Um, I guess z level like the same depth level. I don't really mind about that
+
+208
+0:15:12.580 --> 0:15:17.780
+Sometimes i'll tidy up but like I like using the 3d space if you look at the logic setups
+
+209
+0:15:17.780 --> 0:15:23.780
+I do you'll see more sort of like semi circles and the reason behind that is just naturally because i'm turning in the vr space
+
+210
+0:15:23.780 --> 0:15:31.300
+We end up with semi circles. Whereas if we look at someone with a red print or ryvi's tool tip, then you'll see uh squares or rectangles
+
+211
+0:15:31.300 --> 0:15:34.500
+Uh, salazu says, how are you doing today? I have the biggest mug of green tea
+
+212
+0:15:34.500 --> 0:15:36.740
+I think I put too many leaves in because it's very strong
+
+213
+0:15:37.060 --> 0:15:39.700
+I don't really know how much loose tea you're meant to put in
+
+214
+0:15:39.940 --> 0:15:40.900
+Last time I looked it up
+
+215
+0:15:40.900 --> 0:15:44.500
+It was like two to three grams a cup and then I like put two grams of like
+
+216
+0:15:44.900 --> 0:15:50.100
+Loose leaf tea into like a weighing scale. I'm just like that's a lot. That's like that's a lot of tea
+
+217
+0:15:50.100 --> 0:15:53.940
+So I need to look it up again. Yep. Erin says why not take advantage of 3d space?
+
+218
+0:15:53.940 --> 0:15:58.740
+I totally agree as well. There's sometimes where I go like completely parallel to what i'm doing with the logics
+
+219
+0:15:58.740 --> 0:16:02.500
+Comes up with like right nodes a lot and in some cases relays as well
+
+220
+0:16:02.500 --> 0:16:08.020
+I'm like, hey this ribbon's in the way i'll do a relay and then i'll just like shove it in the z direction behind my
+
+221
+0:16:08.020 --> 0:16:09.540
+Nodes and then it looks great
+
+222
+0:16:09.540 --> 0:16:13.860
+I know people do the whole thing where they're like i'm going to wrap it around the outside like it's some sort of like network
+
+223
+0:16:14.100 --> 0:16:16.420
+Cable in a data center that's cool, too
+
+224
+0:16:16.420 --> 0:16:22.660
+But it usually uses like five relays or if I just add one relay shove it in the z direction that it's like out the way
+
+225
+0:16:22.660 --> 0:16:28.660
+Thinker says they use a sphere line on their logic sometimes. Yep. I sinned that one totally sinned that one
+
+226
+0:16:29.300 --> 0:16:31.300
+Don't advise doing it
+
+227
+0:16:31.860 --> 0:16:37.060
+Specs says if bits of logics don't need to talk to each other keep them modular need to pass data between logics dynamic impulses
+
+228
+0:16:37.060 --> 0:16:42.500
+And dynamic variables, maybe your friends cannot agree more dynamic variables the parent data system even value fields
+
+229
+0:16:42.500 --> 0:16:45.220
+This is what we used to use before dynamic variables. They're all fine
+
+230
+0:16:45.220 --> 0:16:49.060
+They're all ways to think about logic more modular when you're building your next data center
+
+231
+0:16:49.060 --> 0:16:55.700
+They're all ways to think about logic more modular when you're building your next logic thing also think about a concept called the separation of concerns
+
+232
+0:16:56.100 --> 0:16:59.860
+Um, you see this coming up a lot in um sort of website design and stuff like that
+
+233
+0:16:59.940 --> 0:17:02.420
+You'll see uh things like mvc mvvm
+
+234
+0:17:02.900 --> 0:17:06.260
+Throwing around model view control and stuff like that. I do want to do a video on that one
+
+235
+0:17:06.260 --> 0:17:09.620
+But again, it's a difficult topic because it's like it's basically computer science theory
+
+236
+0:17:09.940 --> 0:17:13.540
+Um, and so it's just like hey, i'm not building a space laser here
+
+237
+0:17:13.620 --> 0:17:17.060
+I'm, just talking at you and showing you empty objects and talking about them
+
+238
+0:17:17.060 --> 0:17:20.820
+So i'm trying to think of a good way to do that. I guess an example here
+
+239
+0:17:20.900 --> 0:17:23.620
+um, I could probably try and explain would be like, um
+
+240
+0:17:24.260 --> 0:17:29.060
+Uh, like a flip book or like a slideshow or like a powerpoint that you might have inside neos
+
+241
+0:17:29.140 --> 0:17:36.260
+um, what I would see a lot of times is uh, people would have maybe a variable value register in logics and then they would have
+
+242
+0:17:36.820 --> 0:17:38.580
+um button
+
+243
+0:17:38.580 --> 0:17:41.060
+Event nodes hooking up to that variable
+
+244
+0:17:41.460 --> 0:17:44.100
+Uh, and so if they add a next and previous button
+
+245
+0:17:44.100 --> 0:17:51.540
+Um, they've got two button events nodes two right nodes modifying that variable that then drives which page we're on on this powerpoint or whatever
+
+246
+0:17:51.940 --> 0:17:56.420
+Uh instead if you just made a dynamic variable or even a value field you won't need any objects
+
+247
+0:17:56.500 --> 0:18:04.180
+You could just use the common ui button value set or button value, uh cycle or delta components to just do that. And um
+
+248
+0:18:04.900 --> 0:18:10.500
+Then when you're referring to the uh, the slide the powerpoint slide, which would use a boolean switcher
+
+249
+0:18:10.500 --> 0:18:14.340
+You can just again use a dynamic variable and then you won't even have a logic connecting to that
+
+250
+0:18:14.420 --> 0:18:18.100
+You just have like everything's just wireless. It's great. Maybe i'll build that that's a good example
+
+251
+0:18:18.260 --> 0:18:22.840
+We'll build it two ways. I can build it in the tutorial like how I would build it in 2019
+
+252
+0:18:22.980 --> 0:18:26.020
+And then how I would build in 2022 that might be a good example
+
+253
+0:18:26.340 --> 0:18:32.340
+I should like put a black and white filter on the camera and be like back in 2019. Here's how I would build this slide
+
+254
+0:18:33.220 --> 0:18:36.500
+System now, it's 2022. Here's how I would build it
+
+255
+0:18:36.500 --> 0:18:42.980
+Maybe get a mustache for the 2019 version as well. Uh, anyway, let's move on before I giggle too much. Um,
+
+256
+0:18:43.780 --> 0:18:50.100
+Lego, uh asks how much of Neos is logics and how much is components? Um, everything is components because logics is components
+
+257
+0:18:50.660 --> 0:18:52.660
+blinks and smiles
+
+258
+0:18:52.980 --> 0:18:54.340
+No, um
+
+259
+0:18:54.340 --> 0:18:57.940
+It depends what you're looking at. So a good example here might be the world browser
+
+260
+0:18:57.940 --> 0:18:59.940
+So the world browser is 100 percent components
+
+261
+0:18:59.940 --> 0:19:05.460
+But the reason it can be 100 percent components is that there are components that are specifically, uh targeting fetching world information
+
+262
+0:19:05.460 --> 0:19:08.740
+World information and you can actually take a look at them just inspect the world browser
+
+263
+0:19:08.740 --> 0:19:13.780
+It's actually kind of cool seeing how that works because that's how I learned how dynamic variables are meant to work because I saw how
+
+264
+0:19:13.860 --> 0:19:15.860
+Fricks was using them, basically
+
+265
+0:19:16.260 --> 0:19:21.300
+Then when it comes down to things that people make it really does depend there are um
+
+266
+0:19:21.700 --> 0:19:27.700
+Some component purists who refuse to use logics and seem to be miss spreading the misinformation that logic is bad and I hate them
+
+267
+0:19:27.700 --> 0:19:31.700
+So please stop doing that if that's one of you if you're using components because they're helpful you don't use logics
+
+268
+0:19:31.700 --> 0:19:36.180
+That's great. But please don't go around telling people that logics is bad. Tell them that it is useful for certain
+
+269
+0:19:36.740 --> 0:19:37.780
+aspects
+
+270
+0:19:37.780 --> 0:19:39.780
+Um, I noticed that most of the people
+
+271
+0:19:39.860 --> 0:19:44.580
+Um, I speak to these days are those people they're like, hey you lose whatever you need to do
+
+272
+0:19:44.580 --> 0:19:48.180
+What's gets gets doing but there are still people I meet who are like, yep
+
+273
+0:19:48.180 --> 0:19:52.580
+So and so told me that logics is bad and I shouldn't use it and i'm just like I don't know who you are or where
+
+274
+0:19:52.580 --> 0:19:55.300
+You're from but stop telling people that please please
+
+275
+0:19:55.860 --> 0:20:01.540
+Um, just take a look around as well like the default headset avatar. For example, it has some logics on it
+
+276
+0:20:01.540 --> 0:20:04.340
+Um that controls the uh, the voice range
+
+277
+0:20:04.980 --> 0:20:09.700
+Some of the the profile pictures look at the recent video I published about the profile picture
+
+278
+0:20:09.860 --> 0:20:13.540
+Um getting that the same piece of logics I demonstrate on that
+
+279
+0:20:13.780 --> 0:20:18.820
+Um is actually in place on that default avatar to uh, get that picture onto the front of it. For example
+
+280
+0:20:19.220 --> 0:20:24.980
+Uh kobold says, uh, what in the hell is a color print or backing i'm still getting started with logics
+
+281
+0:20:24.980 --> 0:20:31.540
+Uh yuki for anyone else there that is in game. Could you drop a screenshot of a red print in the game?
+
+282
+0:20:31.780 --> 0:20:34.020
+and then if anyone has a um
+
+283
+0:20:34.820 --> 0:20:37.620
+Link to business lawyers tutorial series on the red print
+
+284
+0:20:37.620 --> 0:20:43.140
+Please go ahead and link the the like first episode or the playlist for that so we can get that into the chat for kobold
+
+285
+0:20:43.620 --> 0:20:44.640
+moving
+
+286
+0:20:44.640 --> 0:20:46.640
+forwards, um
+
+287
+0:20:46.740 --> 0:20:53.140
+Foxworth talks about mono packing do not mono pack. So mono pack came from this um information that slots are bad
+
+288
+0:20:53.140 --> 0:20:57.860
+And therefore we should put all the logics onto one slot and I believe it's a plug-in or a mod
+
+289
+0:20:57.940 --> 0:21:03.860
+I don't really care these days. It's bad. Whatever it is, and it will collapse all of the logics components into one slot
+
+290
+0:21:04.180 --> 0:21:05.700
+It is terrible. Do not use it
+
+291
+0:21:05.700 --> 0:21:09.060
+one of the reasons why logics needs to be on multiple slots is so that um
+
+292
+0:21:09.460 --> 0:21:12.900
+Us as neos can understand it when you're loading it a little bit easier
+
+293
+0:21:13.140 --> 0:21:16.500
+And we can figure it out and we can do stuff with it. Um
+
+294
+0:21:17.060 --> 0:21:19.060
+You may sometimes see for example
+
+295
+0:21:19.060 --> 0:21:22.840
+Uh a node which is named injective for backwards compatibility
+
+296
+0:21:23.140 --> 0:21:28.660
+That is what's happened when I think it's the fine char by name node got an additional field which changed its meaning
+
+297
+0:21:29.060 --> 0:21:35.940
+We put in code which looks for old fine char by name nodes when it's loaded and adds that boolean such backwards
+
+298
+0:21:36.160 --> 0:21:42.420
+Compatibility is preserved if you mono pack it's more difficult for us to do stuff like that. It probably still work
+
+299
+0:21:42.900 --> 0:21:45.540
+But because we need to add a node to your setup
+
+300
+0:21:45.540 --> 0:21:52.180
+It's like well how we we don't understand where it goes because the the the what like what it will make a mess. Um
+
+301
+0:21:52.740 --> 0:21:55.620
+Adding on to that slots do not cause performance issues
+
+302
+0:21:55.700 --> 0:22:01.780
+Here's a good way to think about it before you look at the slot count of your avatar look at the functionality count
+
+303
+0:22:01.940 --> 0:22:06.900
+So as an example here, um, oh look my avatar is five thousand slots. That's bad
+
+304
+0:22:06.980 --> 0:22:12.420
+actually, it's not the that's a symptom not the cause the cause is you have a
+
+305
+0:22:13.280 --> 0:22:14.500
+nuclear
+
+306
+0:22:14.500 --> 0:22:17.780
+orbital defense platform on your avatar that floats
+
+307
+0:22:18.560 --> 0:22:22.660
+7000 meters above your avatar and can summon nuclear missiles down to the floor when you push
+
+308
+0:22:23.140 --> 0:22:27.220
+Uh when you do the finger gun gesture because you know hand gestures are cool these days
+
+309
+0:22:27.700 --> 0:22:33.700
+Um, that is the problem that is causing your avatar to lag not the slot count if you remove your nuclear
+
+310
+0:22:34.100 --> 0:22:40.260
+Missile defense orbital platform your avatar will not lag anymore. So it's the last thing to look at on the list
+
+311
+0:22:40.260 --> 0:22:44.180
+Uh slots don't inherently cause performance problems. So don't worry about it
+
+312
+0:22:44.260 --> 0:22:46.660
+We do have some optimizations to do on that place
+
+313
+0:22:46.660 --> 0:22:51.780
+But if you're going to start bullying people because their slot count don't don't bully anyone for any reason
+
+314
+0:22:51.940 --> 0:22:52.180
+I mean
+
+315
+0:22:52.180 --> 0:22:55.860
+But like if you're going to start looking at someone's avatar and advising them performance
+
+316
+0:22:56.260 --> 0:23:02.980
+Start with what the avatar does or does not do you'll get a lot more benefit if you reduce the texture scale
+
+317
+0:23:03.300 --> 0:23:08.900
+If you reduce the material count if you reduce the amount of blend shapes or if you remove their nuclear missile defense orbital platform
+
+318
+0:23:08.900 --> 0:23:11.540
+Like you don't need if you don't need it
+
+319
+0:23:12.100 --> 0:23:17.700
+Ideally, like maybe shouldn't be on your avatar. So yellow now asks. Can you move the origin of a mesh in game?
+
+320
+0:23:18.260 --> 0:23:20.260
+No, not currently
+
+321
+0:23:20.580 --> 0:23:26.100
+You can do what's called create pivot center and you can also do that sort of manually if you want other style of pivots
+
+322
+0:23:26.340 --> 0:23:31.220
+What that does is it creates a slot above the avatar above the mesh
+
+323
+0:23:31.620 --> 0:23:35.380
+And then parents the mesh to that slot and then you can move them around separately
+
+324
+0:23:35.380 --> 0:23:42.420
+so if you've got the parent slot in this case the pivot you can then move the mesh relative to that and change its pivot and
+
+325
+0:23:42.420 --> 0:23:46.340
+Then when you move that parent slot it becomes the pivot create pivot center is really good
+
+326
+0:23:46.580 --> 0:23:50.420
+That reminds me if you're a 3d modeler, please look at origins on your models
+
+327
+0:23:50.420 --> 0:23:55.780
+I am tired of importing like an axe and the origin being like 50 000 meters to the bottom left of the axe
+
+328
+0:23:56.020 --> 0:24:00.900
+The origin of an axe model should be in the middle of the handle blade. Thank you model creators
+
+329
+0:24:00.900 --> 0:24:07.300
+Uh ozi asks, how does max texture set max max texture setting and a textures inspector work? I was really confused on
+
+330
+0:24:08.580 --> 0:24:11.380
+Who who does the process compression for it?
+
+331
+0:24:11.460 --> 0:24:16.420
+If it's locally completed in the cloud you do it and then you submit it back to the cloud to do the work
+
+332
+0:24:16.580 --> 0:24:21.140
+As far as i'm aware, that's the one that like, uh changes the size, right?
+
+333
+0:24:21.700 --> 0:24:26.980
+Not get me a screenshot if i'm mistaken. I might be mistaken there. Anyway, moving on. Uh
+
+334
+0:24:26.980 --> 0:24:33.620
+Uh rameon asks on the topic of networking a significant desync with users connecting with high latency, uh, e.g
+
+335
+0:24:33.700 --> 0:24:38.420
+NZ AU client european host does need to have some kind of prioritization with at least a higher paying users
+
+336
+0:24:38.740 --> 0:24:41.220
+Accumulating mobile queue packets over time. Uh
+
+337
+0:24:41.860 --> 0:24:45.540
+Not quite sure what causes the queued packets on like a network level
+
+338
+0:24:46.020 --> 0:24:52.500
+um, I do know is that what we'll see a lot in sessions like that is um what I call
+
+339
+0:24:53.140 --> 0:24:55.700
+Consider it's the wrong word because it's like weird. Um
+
+340
+0:24:55.700 --> 0:24:57.540
+We'll just call it noisy playing, right?
+
+341
+0:24:57.540 --> 0:25:00.580
+So if you're in a session with people that are on the other side of the planet
+
+342
+0:25:00.900 --> 0:25:06.180
+Maybe don't spawn 7 000 youtube videos into the world because they'll end up desyncing
+
+343
+0:25:06.500 --> 0:25:12.260
+Maybe don't spawn half your inventory into the world because they'll end up desyncing if you spawn like one object per minute
+
+344
+0:25:12.820 --> 0:25:16.260
+They'll probably keep synced if you spawn 10 objects per minute
+
+345
+0:25:16.260 --> 0:25:22.180
+They're probably going to desync so so do keep that in mind when you're when you're interacting with nz and au from europe
+
+346
+0:25:22.180 --> 0:25:27.780
+From europe, I see that a lot. Um, especially with new players are maybe having trouble learning the game
+
+347
+0:25:28.260 --> 0:25:32.740
+Um, I mean spawning lots of stuff for new players that are new to the game is is bad for other reasons
+
+348
+0:25:32.820 --> 0:25:39.220
+As in you're overwhelming them, but it's also bad for performance reasons, right? You're unloading like half the inventory into the world
+
+349
+0:25:39.300 --> 0:25:43.620
+It's a lot of data to to sync and remember they've never seen that object before
+
+350
+0:25:43.860 --> 0:25:48.180
+So whilst it might load instantly for you because it's never been sinned by them before
+
+351
+0:25:48.180 --> 0:25:51.860
+Everything's going to load so for them, especially if it's got like 4k textures on it or whatever
+
+352
+0:25:52.180 --> 0:25:57.060
+Because like crusher's got a uh, a decent github issue. So do take a look at that one as well
+
+353
+0:25:57.540 --> 0:25:59.620
+Uh another question from pooshka. Um
+
+354
+0:26:00.340 --> 0:26:04.980
+Follow up question. Are there any plans for double precision support for physics transform rendering?
+
+355
+0:26:04.980 --> 0:26:10.580
+That should allow for less glitches when you're extremely small when you're further. Yeah, it's in it's in issues. Um
+
+356
+0:26:11.300 --> 0:26:13.380
+I don't know what the approach there would be
+
+357
+0:26:13.380 --> 0:26:19.540
+I know that uh for x's plans to sort of completely upgrade the data model that we're using that's that giant spreadsheet in the you know
+
+358
+0:26:19.700 --> 0:26:21.700
+Google docs. That's the spreadsheet. It's called the data model
+
+359
+0:26:22.420 --> 0:26:26.180
+Um to make that more efficient and have more features that might then allow for double precision
+
+360
+0:26:26.260 --> 0:26:29.860
+I'm, not entirely sure what our priority on that one would be or the process of that one
+
+361
+0:26:30.180 --> 0:26:32.500
+It seems like it'll be quite big. I have to dig in and take a look at that one
+
+362
+0:26:32.980 --> 0:26:37.300
+And then you say how far is it from implementation? We don't give etas currently see the announcements channel. I'm, so sorry
+
+363
+0:26:37.860 --> 0:26:39.860
+uh moving forwards
+
+364
+0:26:39.860 --> 0:26:41.860
+Forwards, um
+
+365
+0:26:42.820 --> 0:26:46.600
+Tony says which of the compression methods for textures is most optimal to be used on avatars
+
+366
+0:26:47.140 --> 0:26:51.700
+That's again a point of contention, right? So if you put it on an anisotropic I can never pronounce that
+
+367
+0:26:51.700 --> 0:26:55.480
+Sometimes I call it anisotropic and i'm like that's not how it's pronounced anisotropy
+
+368
+0:26:57.140 --> 0:27:01.080
+Whatever that one is that one will give you the best result but is technically the least performant
+
+369
+0:27:01.780 --> 0:27:04.580
+And then trilinear or bilinear are are good
+
+370
+0:27:04.580 --> 0:27:11.960
+Generally bilinear is better for performance than trilinear because bi means two tri means three. Um, so bi will do its
+
+371
+0:27:12.480 --> 0:27:19.320
+Processing twice and tri will do it three times anisotopic will do it differently. And so therefore there's more effort there
+
+372
+0:27:19.720 --> 0:27:25.720
+Uh, so if you want to do most optimal point, yeah there I said it if you want to do most optimal point based compression
+
+373
+0:27:26.040 --> 0:27:28.840
+Your avatar is going to look terrible, but that's the most optimal
+
+374
+0:27:28.840 --> 0:27:34.280
+Cool woohoo moving forwards, uh, asin says we know logic components
+
+375
+0:27:34.280 --> 0:27:37.160
+It's just easier to claim to do two separate things. I do agree
+
+376
+0:27:37.560 --> 0:27:41.000
+Um, it's just when questions come up about which is like more optimal
+
+377
+0:27:41.160 --> 0:27:46.040
+The answer is is both right if you're like I want to learn logic or i'll learn components great
+
+378
+0:27:46.120 --> 0:27:48.600
+I'll help you out if you're like which is more optimal both
+
+379
+0:27:49.080 --> 0:27:53.480
+um oracle says i'm only a week in and people have told me that logic is a bit of a thing to jump into but
+
+380
+0:27:53.560 --> 0:27:57.480
+It's pretty amazing thing once you get the hang of it. Have you had anyone say logic is bad fantastic
+
+381
+0:27:57.480 --> 0:27:59.640
+That might be dying. I don't know. Um
+
+382
+0:28:00.200 --> 0:28:03.000
+One of the problems I see when people learn logic is they go too big for example
+
+383
+0:28:03.000 --> 0:28:07.400
+It's like I want to learn logic so I can make a gun. That's a big project
+
+384
+0:28:07.640 --> 0:28:11.480
+I want to learn logic so I can add two numbers together. It'll take you 20 minutes
+
+385
+0:28:11.560 --> 0:28:14.840
+Like I don't I don't know how other people are teaching logic
+
+386
+0:28:14.840 --> 0:28:18.760
+But i'm just like here is the plus node adds two numbers together once you've got the hang of that
+
+387
+0:28:19.160 --> 0:28:21.320
+We'll go on to some more complicated stuff
+
+388
+0:28:21.320 --> 0:28:27.160
+But what I want to do by doing that is to get used to the ui like when we're doing advanced spaghetti everywhere
+
+389
+0:28:27.240 --> 0:28:31.240
+On a red plinth blue plinth purple print whatever print you want for or not doesn't matter
+
+390
+0:28:31.480 --> 0:28:37.080
+But when we're doing really complicated logics, I don't want us to be thinking about how we connect ribbons how we disconnect ribbons
+
+391
+0:28:37.160 --> 0:28:42.920
+So I show people the plus node and I say look you can connect numbers to the plus node and get a result
+
+392
+0:28:43.320 --> 0:28:47.800
+Get used to the ui get used to the ribbons get used to like the the visuals
+
+393
+0:28:47.800 --> 0:28:54.120
+and then we'll cover other nodes and that way the the the ui shouldn't be a barrier there because I do see that problem as
+
+394
+0:28:54.120 --> 0:28:55.880
+Well, it's like ah and to make a gun
+
+395
+0:28:55.880 --> 0:28:59.480
+We're getting a ribbon here and a ribbon here and a ribbon here and the user doesn't even know how to make one ribbon
+
+396
+0:28:59.560 --> 0:29:07.240
+That's a problem. Thanks to alex who has linked the uh, the youtube playlist with uh business lawyer and uclop. Thank you for that
+
+397
+0:29:07.800 --> 0:29:10.040
+Uh, so take a look at that. Uh
+
+398
+0:29:11.560 --> 0:29:15.320
+Cobalt probably best if you meet up with someone in game to take a look at the red print
+
+399
+0:29:15.320 --> 0:29:21.400
+Uh in game someone can show you it and then olin has a picture of the red print. Um, so you'll see in um,
+
+400
+0:29:21.960 --> 0:29:26.760
+Um alan olin's oden's picture. There is a red print in the world there and you'll see it's a grid
+
+401
+0:29:27.080 --> 0:29:30.040
+Um that grid is expandable and when you put nodes near it
+
+402
+0:29:30.120 --> 0:29:32.360
+Those nodes will snap onto a surface surface of it
+
+403
+0:29:32.440 --> 0:29:38.520
+you can think of it a little bit like doing a jigsaw puzzle or playing dominoes rather than what logics usually is which is like
+
+404
+0:29:38.520 --> 0:29:45.080
+Ah, yes, this magical floating card will connect to this other magical floating card, which is ever so slightly off rotation
+
+405
+0:29:45.480 --> 0:29:47.480
+And so therefore the ribbons look terrible
+
+406
+0:29:48.120 --> 0:29:55.400
+Electronus says nuclear launch detected if anyone adds a missile platform to their avatar. I will I will I will be angry
+
+407
+0:29:55.800 --> 0:30:00.440
+I did this avatar this avatar idea once of being like could I mess with the lasers?
+
+408
+0:30:00.520 --> 0:30:03.260
+You know the lasers that come out of your hands when using tools, etc
+
+409
+0:30:03.260 --> 0:30:08.940
+Etc. Could those come from really high up? I wouldn't like model a spaceship or whatever and put it up there
+
+410
+0:30:09.100 --> 0:30:13.100
+But it'll be like law wise like yeah a satellite does my logic, right?
+
+411
+0:30:13.180 --> 0:30:16.700
+So the laser would come from a high point position in the world
+
+412
+0:30:17.020 --> 0:30:21.820
+And that would be where the like the nodes and everything is moved from i'll keep it the same
+
+413
+0:30:21.820 --> 0:30:27.420
+So like you yourself using it wouldn't have any sort of adaptation, but it would just look like
+
+414
+0:30:27.980 --> 0:30:31.900
+Satellites moving your objects around etc. All right moving onwards to erin's question
+
+415
+0:30:31.900 --> 0:30:35.580
+Whatever your way to prevent people from reading a lot of dicks or getting assets from the creation of yours. Um
+
+416
+0:30:36.140 --> 0:30:39.100
+Assets, so when you're talking about assets, you're talking about avatar stealing
+
+417
+0:30:39.420 --> 0:30:45.020
+And so when you're talking about avatar stealing, we will do our best to continue to add improvements to that system
+
+418
+0:30:45.980 --> 0:30:51.660
+Our next best improvement to this asset theft and stuff like that is the license system having said that though
+
+419
+0:30:51.660 --> 0:30:53.820
+There is no way to 100
+
+420
+0:30:54.840 --> 0:30:59.020
+Guarantee that something will not be stolen from you if you think that that's possible
+
+421
+0:30:59.020 --> 0:31:04.780
+I want you to look at the latest triple-a game that has launched and has its assets in neos already because someone has ripped them
+
+422
+0:31:05.100 --> 0:31:07.660
+Um, you know these triple-a games are having their assets ripped
+
+423
+0:31:08.300 --> 0:31:11.980
+There's even things now which can like dump gpu memory to rip assets
+
+424
+0:31:11.980 --> 0:31:16.700
+So it's like oh you've got this drm in your game. Everyone hates great. I'll just dump the gpu memory
+
+425
+0:31:17.020 --> 0:31:22.060
+When it goes beyond that like hey, maybe someone's going to actually just get like some tiny copper wires
+
+426
+0:31:22.540 --> 0:31:25.420
+Solder them to an active graphics card and dump it that way
+
+427
+0:31:25.420 --> 0:31:33.500
+Like, you know a certain point the graphics card gets told there is a triangle here and it looks like your character's colors, etc
+
+428
+0:31:33.740 --> 0:31:38.460
+And if they can pull that data out the graphics card, they can reconstruct that into a model
+
+429
+0:31:38.860 --> 0:31:43.740
+We will do our best the way that we're doing actually puts us a slight benefit from
+
+430
+0:31:44.380 --> 0:31:49.100
+Other places in that you can't really export an avatar once it's in it sort of gets garbled
+
+431
+0:31:49.260 --> 0:31:52.780
+So, um what that allows us to do is if there is a theft that occurs
+
+432
+0:31:52.780 --> 0:31:57.580
+You can report it to moderation and we do have the ability to sort of see where it's gone and track its progression
+
+433
+0:31:57.980 --> 0:31:59.980
+That will get better with that license system
+
+434
+0:31:59.980 --> 0:32:04.780
+I talk about that will enable us to sort of find manage and and spot thefts a lot easier
+
+435
+0:32:06.060 --> 0:32:07.980
+As for modifying the logics on your avatar
+
+436
+0:32:07.980 --> 0:32:13.100
+there is a system called hard permissions which sort of interplays with the license system a little bit and sort of says like
+
+437
+0:32:13.500 --> 0:32:17.580
+Hey, maybe you can't access this part of the world and the license system is like hey
+
+438
+0:32:17.580 --> 0:32:22.060
+You can't modify this avatar and that will kind of lock it down and bake it up a little bit
+
+439
+0:32:22.060 --> 0:32:24.060
+It's similar to how um
+
+440
+0:32:24.700 --> 0:32:29.340
+Like the the the verbal rules of a session might work, you know in in a session might be like hey
+
+441
+0:32:29.660 --> 0:32:34.240
+Don't don't do this. So i'm going to kick you out like but more enforced in terms of technicalities
+
+442
+0:32:34.460 --> 0:32:36.460
+We don't know the final way that that's going to work
+
+443
+0:32:36.540 --> 0:32:41.420
+What the ui will look like what the protections look like how to apply or anything like that because we're still designing the system
+
+444
+0:32:41.660 --> 0:32:44.540
+but once it's there you can bet that uh
+
+445
+0:32:45.100 --> 0:32:50.060
+There'll be tutorials from a certain someone so cobalt says so tdr on the slot thing. The slots aren't the issue
+
+446
+0:32:50.060 --> 0:32:55.260
+It's what's in those slots perfect analogy there at a certain level the slots become an issue
+
+447
+0:32:55.740 --> 0:33:00.860
+But the amount of slots there before you need an issue is because you've added that launch platform
+
+448
+0:33:00.940 --> 0:33:04.140
+So just remove that remove remove the launch platform. Yeah
+
+449
+0:33:04.700 --> 0:33:09.420
+I think it says my avatar is not laggy as a quote and then says proceeds to have 8k psd or tiff textures
+
+450
+0:33:09.640 --> 0:33:12.540
+uncompressed in direct load in every logic system known to man
+
+451
+0:33:13.240 --> 0:33:15.240
+exactly what i'm referring to
+
+452
+0:33:15.660 --> 0:33:17.500
+If you have 8k textures
+
+453
+0:33:17.500 --> 0:33:20.960
+You better have a good reason for it and it better look fantastic
+
+454
+0:33:21.340 --> 0:33:25.580
+It better not just be a two color palette that has 8k textures for no reason
+
+455
+0:33:26.140 --> 0:33:29.660
+So alan says how to improve forward speed or sloshy avatar. No delete all systems
+
+456
+0:33:29.980 --> 0:33:34.620
+Okay, if you want to really really really perform with avatar delete your systems. It should just be a character, right?
+
+457
+0:33:34.940 --> 0:33:40.300
+It can have gestures it can you know look like you it can have blend shapes but bake the ones you don't need
+
+458
+0:33:40.700 --> 0:33:42.700
+But does it really need?
+
+459
+0:33:42.780 --> 0:33:43.740
+um
+
+460
+0:33:43.740 --> 0:33:49.420
+Your heart rate in the name badge above you. Does it really need like your favorite sandwich in the name plate above you?
+
+461
+0:33:49.820 --> 0:33:52.460
+Does it need a gun which summons?
+
+462
+0:33:53.980 --> 0:33:58.940
+Noah's ark and all the animals come off noah's ark and make their animal noises and then kill someone
+
+463
+0:33:59.340 --> 0:34:01.340
+It doesn't need that like let's remove that
+
+464
+0:34:01.740 --> 0:34:08.700
+Like that that's like remove that sorry says should make a macro that pays blend shape baking tutorial when erect joins i've tried that. Um,
+
+465
+0:34:08.700 --> 0:34:14.540
+It doesn't work like there's I sometimes when I host a session there's like information at the spawn about how to bake blend shapes
+
+466
+0:34:14.860 --> 0:34:15.420
+Zek asks
+
+467
+0:34:15.420 --> 0:34:18.140
+Is it possible to edit the lasers to come off your hands the ones that you select with this?
+
+468
+0:34:18.220 --> 0:34:19.740
+I tried finding an inspector but had no luck
+
+469
+0:34:19.740 --> 0:34:25.740
+My only thought was it might be possible if someone accidentally soft locked themselves somewhere there it is possible. Those are called tool anchors
+
+470
+0:34:26.060 --> 0:34:29.660
+Um, i'll get the video for that that is if someone hasn't beaten me to it
+
+471
+0:34:30.300 --> 0:34:35.020
+Actually, i'll just say please go for it get the the tool anchor video that I have and link it to um
+
+472
+0:34:35.020 --> 0:34:40.300
+And get to zek for me cobble says there's a model. Please. Please do that. Yep. That's referring to to origins
+
+473
+0:34:40.380 --> 0:34:44.540
+I am so far behind on the text here because i'm just answering questions and wittering on. Um
+
+474
+0:34:45.260 --> 0:34:49.100
+Okay, uh epic eastern has a question. Is this an optimized emote system?
+
+475
+0:34:49.740 --> 0:34:55.900
+Hmm. So, uh, that's an interesting idea like I did think about having a segment where we're like let's review logic
+
+476
+0:34:56.060 --> 0:34:59.900
+But I didn't want anyone to feel bad, but I will take a look just just don't feel bad if it's bad
+
+477
+0:34:59.900 --> 0:35:01.900
+Okay, let me take a look. Uh
+
+478
+0:35:02.060 --> 0:35:04.060
+found true
+
+479
+0:35:04.060 --> 0:35:06.060
+Okay, he's a self alpha
+
+480
+0:35:06.300 --> 0:35:07.820
+right latch
+
+481
+0:35:07.820 --> 0:35:11.580
+Right, let's try that. Try that looks good to me particularly like the use of right latch
+
+482
+0:35:11.660 --> 0:35:16.140
+Do you remember right latches there? Sometimes I see people do boolean latch of a um, a ternary node
+
+483
+0:35:16.220 --> 0:35:19.260
+I'm, like it's kind of the same thing as a right latch. So maybe use a right latch
+
+484
+0:35:19.580 --> 0:35:21.580
+Uh dorky says on the topic of having a lot of blend shapes
+
+485
+0:35:21.580 --> 0:35:24.960
+I recall hearing that the impact is when it's over zero due to vertex calculations
+
+486
+0:35:25.260 --> 0:35:29.260
+There are multiple types of of impact with having multiple blend shapes. So
+
+487
+0:35:29.260 --> 0:35:33.820
+Yes, if it's over zero, there's some cost for doing that if it's moving
+
+488
+0:35:33.820 --> 0:35:37.980
+There's some cost to doing that but there is also some cost to have that data in there
+
+489
+0:35:38.220 --> 0:35:42.540
+I don't know exactly the specifics internally, but imagine it like, um
+
+490
+0:35:43.340 --> 0:35:47.580
+I guess like a mask, right? So imagine that each blend shape on top of your face is a mask
+
+491
+0:35:47.660 --> 0:35:53.180
+So the smiling blend shape is a mask on top of your non-smiling shape and then your frowny blend shape is another mask on top
+
+492
+0:35:53.180 --> 0:35:58.460
+Of that right? So by the time you get to like 50 facial blend shapes, you're wearing 50 masks
+
+493
+0:35:58.460 --> 0:36:03.420
+That's kind of difficult. Like, you know, there's videos where the youtuber's put on t-shirts and keep putting them on
+
+494
+0:36:03.660 --> 0:36:06.380
+That's body blend shapes for you. You're wearing 50 t-shirts
+
+495
+0:36:06.380 --> 0:36:11.100
+So when you load into the world neos has to load those 50 t-shirts and that's why there's a hitch
+
+496
+0:36:11.420 --> 0:36:15.900
+Like there is a cost for that data being there wherever it's on or not. It's in memory, etc
+
+497
+0:36:16.220 --> 0:36:22.080
+electrona says opinion using something like value copy with right back to make fields local for things like set global transform
+
+498
+0:36:22.380 --> 0:36:25.900
+As far as testing is shown it means the rights never get synced. Uh,
+
+499
+0:36:25.900 --> 0:36:30.220
+It depends what you're doing. I don't know what you're doing. If you tell me what you're doing
+
+500
+0:36:30.620 --> 0:36:32.780
+It might be like a better way of doing it
+
+501
+0:36:33.180 --> 0:36:37.900
+Specs asks is there a known cause for the infinite loading bug referring to you and users intimate the joint sessions and experience and asset
+
+502
+0:36:37.980 --> 0:36:40.300
+Loading count that grows forever never goes away. Um
+
+503
+0:36:41.020 --> 0:36:47.500
+There's something up with asset loading. I don't know what's causing it and I see like multiple things there where I want to look into
+
+504
+0:36:47.500 --> 0:36:48.140
+them
+
+505
+0:36:48.140 --> 0:36:50.140
+um, I keep talking to um
+
+506
+0:36:50.140 --> 0:36:56.060
+Fruits, etc about like improving the logging there. So we know what's going on. Um, I did see a commit from fruits
+
+507
+0:36:56.060 --> 0:36:59.500
+That hit the source code recently that may help with that a little bit
+
+508
+0:36:59.820 --> 0:37:01.820
+But I do know that that still happens
+
+509
+0:37:01.980 --> 0:37:07.760
+I don't think that I know enough about it to say that there is a known cause though. No egg roll for says anisotropic
+
+510
+0:37:08.380 --> 0:37:14.060
+Thank you. I'm gonna forget that though. Maybe I should like print that and frame it. I might print that and frame it anyway
+
+511
+0:37:14.060 --> 0:37:19.420
+Um, ozi says i'm talking about filter options not compression methods. Oh, i'm, sorry. Um, so
+
+512
+0:37:23.500 --> 0:37:25.020
+Point filtering
+
+513
+0:37:25.020 --> 0:37:29.180
+Texture compression. I don't remember what the texture compression options look like on a texture
+
+514
+0:37:29.260 --> 0:37:34.620
+I'm, sorry if it'll get me a picture of the static. I'm sure I remember I just can't like visualize it
+
+515
+0:37:35.340 --> 0:37:42.480
+Hamish is trying to trick me up here because I pronounce stuff weirdly. Um, they're asking how would you iterate through a bunch of anisosopic?
+
+516
+0:37:42.480 --> 0:37:49.460
+I can't I can't I can't like either of those words are just difficult. Um, you don't need to there's no such thing as an anisosopic
+
+517
+0:37:50.000 --> 0:37:52.000
+Um, whatever that is. Yeah, cool
+
+518
+0:37:52.240 --> 0:37:56.240
+Uh elo says i've asked a person to walk me through making a laser gun. It sounded like a really really nice experience
+
+519
+0:37:56.560 --> 0:38:01.440
+That's it depends on attitude. There's a lot of again problems I see in um, like how
+
+520
+0:38:02.080 --> 0:38:03.040
+um
+
+521
+0:38:03.040 --> 0:38:09.600
+How people approach systems so if you approach neos as I need to learn I want to learn please help me learn
+
+522
+0:38:09.600 --> 0:38:13.520
+You'll have a lot better time and then maybe making a gun is a good experience
+
+523
+0:38:13.520 --> 0:38:17.920
+But if you approach it with logics is hard. I don't know it. I want to learn it
+
+524
+0:38:18.240 --> 0:38:20.720
+Please make a laser gun then you'll have a worse time
+
+525
+0:38:20.960 --> 0:38:23.840
+That's why I usually go with the like let's learn the the specifics
+
+526
+0:38:24.080 --> 0:38:28.480
+You know in in in education where you learn the theory before you learn the application a little bit like that
+
+527
+0:38:28.880 --> 0:38:34.960
+Le cvr says why is neon so hard to get the hang of but chill out is easy to use depends on your perspective. So
+
+528
+0:38:34.960 --> 0:38:39.920
+Um chill out is more aligned to how the the vr chat experience works
+
+529
+0:38:40.000 --> 0:38:45.920
+And so it's a it's a better sort of jumping off point for vr chat users. Um neos isn't
+
+530
+0:38:46.560 --> 0:38:53.120
+Hard in some avenues it is hard in other avenues. I do admit it's just again like an attitude thing though
+
+531
+0:38:53.280 --> 0:38:59.280
+So you need to like look at neos as a completely different beast to vr chat cvr and stuff like that
+
+532
+0:38:59.680 --> 0:39:03.760
+You're not comparing the two as much when you're comparing how they are to use
+
+533
+0:39:03.760 --> 0:39:09.760
+You're just learning them in isolation. So an example might be hey bring in avatar in
+
+534
+0:39:09.920 --> 0:39:14.160
+Yeah, the first time I brought an avatar and it took me like two hours, but the now it takes me five minutes
+
+535
+0:39:14.560 --> 0:39:16.400
+It's like it's an attitude and learning thing
+
+536
+0:39:16.400 --> 0:39:18.080
+Like I know the first time's hard
+
+537
+0:39:18.080 --> 0:39:23.120
+We've got mentors standing by in game all the time to help you get an avatar in but once you've done it like
+
+538
+0:39:23.520 --> 0:39:27.840
+A few times it's going to get easier once you've been doing it for almost four years like me
+
+539
+0:39:27.920 --> 0:39:31.840
+It's just like yeah, sure. Come on, whatever erin says have you done the satellite laser thing?
+
+540
+0:39:31.840 --> 0:39:37.200
+No, I did get close to it. But like not there yet spec says photogrammetry avatar theft
+
+541
+0:39:37.200 --> 0:39:40.160
+You could technically do that right if you captured your screen
+
+542
+0:39:40.720 --> 0:39:47.040
+And went around the avatar and then somehow filtered out the background you could photogrammetry recreate the avatar
+
+543
+0:39:47.360 --> 0:39:53.120
+And then people say oh just block screenshots. Yeah, i've got a camera pointed at my screen. What are you going to do now?
+
+544
+0:39:53.280 --> 0:39:55.280
+What are you going to do now? Um
+
+545
+0:39:55.840 --> 0:39:57.520
+It's it's an interesting question
+
+546
+0:39:57.520 --> 0:40:04.240
+if you do notice asset theft do report it to moderation team at moderation.nes.com we will do our best to figure out why that is and
+
+547
+0:40:05.040 --> 0:40:09.040
+Act appropriately epic. Eason says what can you do with hard missions?
+
+548
+0:40:09.680 --> 0:40:11.680
+Is making a map
+
+549
+0:40:11.680 --> 0:40:17.360
+That you uh paid on gumroad or some other websites and people give builder and builders not be able to modify or export
+
+550
+0:40:17.680 --> 0:40:23.120
+Any assets in the ah, that's hard permissions. Yeah, so the easiest way I can think of hard permissions is um
+
+551
+0:40:23.680 --> 0:40:26.240
+Right now if you look at a world imagine it's a circle
+
+552
+0:40:26.240 --> 0:40:29.520
+And you can edit everything inside that circle so you can just if you're a builder
+
+553
+0:40:29.520 --> 0:40:32.960
+You can inspect that part of the world. You can inspect the floor. You can unpack the floor
+
+554
+0:40:32.960 --> 0:40:35.600
+You can look at the logics in the floor with hard permissions
+
+555
+0:40:36.160 --> 0:40:39.040
+Split that circle into two and you've got a venn diagram stuff
+
+556
+0:40:39.040 --> 0:40:42.800
+You can edit and stuff you can't edit and then put various things in one of those circles
+
+557
+0:40:42.880 --> 0:40:48.800
+So hey, maybe the floor you can't edit the floor for some reason there's proprietary technology in this floor
+
+558
+0:40:49.200 --> 0:40:53.760
+You can't edit it. But hey, maybe the wall you can that's in the candidate circle
+
+559
+0:40:53.760 --> 0:40:56.240
+That's the sort of way I visualize it
+
+560
+0:40:56.240 --> 0:40:59.840
+Like I said again, it's not going to be a literal circle in game or the ui for it
+
+561
+0:41:00.000 --> 0:41:04.000
+But that's the way you should like think about it. Like here's what you can and cannot do aaron says you
+
+562
+0:41:04.640 --> 0:41:08.160
+Uh, I think you should do logics with you ask for permission if you feel you need it
+
+563
+0:41:08.160 --> 0:41:10.160
+But I think it'd be a fantastic way to teach people
+
+564
+0:41:10.160 --> 0:41:11.840
+A good example of that one is the hermit meter
+
+565
+0:41:11.840 --> 0:41:15.680
+I recreated the hermit meter and halved the logics nodes that were used in the hermit meter
+
+566
+0:41:16.080 --> 0:41:19.360
+I just looked at it and I went really and I halved the nodes that were at use
+
+567
+0:41:19.360 --> 0:41:24.160
+I don't remember who made the original hermit meter. I do believe the one aaron has is my one. So
+
+568
+0:41:24.720 --> 0:41:27.920
+Alex says yo active development hype. Yeah, there's there's still stuff happening
+
+569
+0:41:28.240 --> 0:41:33.280
+Um, if anyone who thinks we're on strike, we're not if we're on strike. I wouldn't be here. I would be like in bed
+
+570
+0:41:33.840 --> 0:41:38.400
+Uh, okay. We got i'm finally catching up to the the the compression stuff. Fantastic
+
+571
+0:41:38.640 --> 0:41:43.600
+Oh the bc3 ragb stuff and then let's go pitch it. Yes. I have no idea
+
+572
+0:41:43.600 --> 0:41:49.040
+Um, there are so many options there and some of them make my textures change to just blue so I don't know
+
+573
+0:41:49.360 --> 0:41:53.520
+And then a just says neos will not be running if we weren't. Yeah, if it like of all people
+
+574
+0:41:53.680 --> 0:41:59.840
+I want you to think about shifty. She tirelessly every day answers patron inquiries every single day
+
+575
+0:42:00.000 --> 0:42:06.080
+Like it it's got to the point where she's had to like draw the line and set like start and end times for her day
+
+576
+0:42:06.560 --> 0:42:11.840
+Just have some sort of sense of normality. That's not on strike. That's we care about the community
+
+577
+0:42:11.840 --> 0:42:16.720
+We're doing what we can again. I've been sat here for 48 minutes answering random questions and saying the word
+
+578
+0:42:17.680 --> 0:42:21.520
+orbital defense platform several times over we're not on strike, um
+
+579
+0:42:22.160 --> 0:42:27.360
+Moving forwards miss kitty says, uh, how does one go learning logics for the first time?
+
+580
+0:42:27.760 --> 0:42:32.160
+Um, I was talking about that earlier. Um, the best way I think is to keep things simple
+
+581
+0:42:32.480 --> 0:42:39.840
+So your first logic project should be adding two numbers together. Maybe learn the ui right learn how to spawn a node how to
+
+582
+0:42:39.840 --> 0:42:45.920
+um connect those nodes together how to disconnect those nodes how to view that result do that first
+
+583
+0:42:47.280 --> 0:42:54.020
+Um, if you're not tech savvy the adding numbers together is it should should be quite easy it resembles
+
+584
+0:42:54.720 --> 0:42:56.720
+Like how you were taught addition?
+
+585
+0:42:56.720 --> 0:43:01.680
+Um, once you've got that going there are videos from other critters. I haven't done a beginner logics tutorial
+
+586
+0:43:01.760 --> 0:43:03.760
+and that's the reason behind that is just because like
+
+587
+0:43:03.760 --> 0:43:09.600
+I don't know how to approach tutorials for absolute beginners. Lots of my tutorials aren't for beginners. I do apologize for that
+
+588
+0:43:10.000 --> 0:43:13.280
+It's just like there is a certain level of detail that you need to know
+
+589
+0:43:13.840 --> 0:43:17.040
+before you watch one of my tutorials and that makes it easier to like
+
+590
+0:43:18.400 --> 0:43:22.960
+Make them. Um, but basement has an amazing introduction to logics tutorial
+
+591
+0:43:23.360 --> 0:43:27.360
+um, so if someone can link that whilst I look at some other questions, then uh,
+
+592
+0:43:27.840 --> 0:43:28.960
+That should help you out there
+
+593
+0:43:28.960 --> 0:43:35.440
+But I do think that you should keep things, uh as simple as possible to start adding numbers together. Great
+
+594
+0:43:35.600 --> 0:43:38.660
+Then once you learn how to add numbers together, maybe do some multiplication
+
+595
+0:43:39.440 --> 0:43:42.480
+And then once you've done some multiplication, maybe do some division, right?
+
+596
+0:43:42.480 --> 0:43:47.200
+And then once you've done all of the mathematical operators, you should end up with some logics that you can do
+
+597
+0:43:47.440 --> 0:43:52.260
+I seem to remember zane people know zane. They're the sort of blue wrecks that runs around wearing a hat and sunglasses
+
+598
+0:43:52.880 --> 0:43:58.160
+Well, like glowy visor. It's not really a sunglasses, but it's glowing that brightly. I gave him a
+
+599
+0:43:58.160 --> 0:44:03.040
+Uh subset of the node browser, which I have somewhere in my log public folder, I think and it
+
+600
+0:44:03.680 --> 0:44:05.520
+um has
+
+601
+0:44:05.520 --> 0:44:10.960
+Only mathematical notes and I just said play with these and um, he's playing with them
+
+602
+0:44:11.040 --> 0:44:11.760
+They were cool
+
+603
+0:44:11.760 --> 0:44:16.640
+And then I gave him the t node and the t node is it counts the number of seconds the world has been open
+
+604
+0:44:17.040 --> 0:44:19.040
+And he started putting those together
+
+605
+0:44:19.040 --> 0:44:22.800
+And eventually he got like a number that was just doing something and he's like, oh
+
+606
+0:44:22.800 --> 0:44:26.880
+I wonder if I could make the number bigger and he like, you know added a multiplication node, etc
+
+607
+0:44:26.880 --> 0:44:31.280
+So that that was cool. Like, you know, he just kept playing with maths until he got there
+
+608
+0:44:31.760 --> 0:44:38.880
+Uh, dre says I will jump up to uh, dorky's question in just a second. But dre says, uh, what if you're bad at math?
+
+609
+0:44:39.280 --> 0:44:41.760
+Uh, you can add two numbers together
+
+610
+0:44:41.920 --> 0:44:44.560
+It's it's more like honestly, it's more about learning the ui
+
+611
+0:44:44.640 --> 0:44:48.000
+Like if you learn the ui you'll have a lot better time when you start looking at other nodes
+
+612
+0:44:48.000 --> 0:44:53.040
+Let's start looking at other concepts, but I again see a lot of times is I want to make a gun
+
+613
+0:44:53.040 --> 0:44:57.200
+Well, okay. Can you link two nodes together? I can't and it's like, okay
+
+614
+0:44:57.280 --> 0:45:02.320
+Let's let's try one plus one equals two in logic form just to learn the ui
+
+615
+0:45:02.560 --> 0:45:05.200
+like i'm not trying to insult anyone's intelligence and say like
+
+616
+0:45:05.840 --> 0:45:09.120
+You don't know how to add those numbers together. We all know how to do addition
+
+617
+0:45:09.520 --> 0:45:14.400
+It's just that the ui and placing those nodes in the world and linking them up that I want you to learn
+
+618
+0:45:14.800 --> 0:45:18.240
+Jumping up to dorky says can you explain anim j like i'm five?
+
+619
+0:45:18.240 --> 0:45:22.720
+Uh, I keep seeing it mentioned try to understand it for all the wiki. I can't wrap my head around it
+
+620
+0:45:22.880 --> 0:45:26.720
+Lex and I are working on updating the animation for that
+
+621
+0:45:27.120 --> 0:45:33.680
+I spent four hours yesterday trying to figure out how matrix matrices work in nmj and my conclusion is they don't
+
+622
+0:45:34.000 --> 0:45:38.240
+So that was fun. Um, but we are figuring bits of it out
+
+623
+0:45:38.640 --> 0:45:43.040
+I'm going to go ahead and try though and the reason behind that is because I have a very simple nmj file
+
+624
+0:45:43.120 --> 0:45:47.200
+I don't believe we've got any like shareable nmj files that we've shared before
+
+625
+0:45:47.200 --> 0:45:50.960
+There are a couple of examples on the wiki, but they're like complicated or not easy to use
+
+626
+0:45:51.040 --> 0:45:53.520
+Let me just go get my my sample nmj file
+
+627
+0:45:53.600 --> 0:45:56.080
+I'm, not even gonna upload that as a file or I will provide it if you need it
+
+628
+0:45:56.400 --> 0:45:58.400
+I'm going to just give it to you as a screenshot
+
+629
+0:45:58.720 --> 0:46:05.360
+Um, simply because then we can talk about it a little bit easier and I should uh, i'm gonna go ahead and remove the top bit there
+
+630
+0:46:05.920 --> 0:46:12.560
+Uh, and then load my screenshot a screenshotting tool, please load and then i'm gonna say to visual studio that this is jason
+
+631
+0:46:13.440 --> 0:46:16.240
+There's that jason coming up by the way if you want to get ahead in the game
+
+632
+0:46:16.240 --> 0:46:21.040
+if you want to get ahead in the game when it comes to um, basically any form of programming like if you're a
+
+633
+0:46:21.680 --> 0:46:28.080
+Programmer who's looking to get you know, a new programmer who's looking to make a career in programming or learn programming learn. Jason
+
+634
+0:46:28.560 --> 0:46:36.480
+Jason is is amazing and used pretty much like everywhere. So learn. Jason if you don't know. Jason learn. Jason. So, uh, here is a
+
+635
+0:46:38.220 --> 0:46:40.220
+Particular
+
+636
+0:46:40.220 --> 0:46:46.540
+Anim j file. So if you're not looking at it and in the the notes here i'll try and get a link to it in the notes on on sounder etc.
+
+637
+0:46:46.540 --> 0:46:48.860
+This anim j file, um will
+
+638
+0:46:49.420 --> 0:46:52.780
+Change the position of a slot at various times
+
+639
+0:46:53.500 --> 0:47:00.460
+And so you'll see that there is a list of keyframes and so it will then animate between those keyframes to those values
+
+640
+0:47:00.860 --> 0:47:04.620
+And that's really all there is to anim j but you can do so many complicated things to it
+
+641
+0:47:04.620 --> 0:47:11.020
+Um, so if you look at that file, you'll see at time index zero the key the the the left cube is at zero zero zero
+
+642
+0:47:11.180 --> 0:47:16.380
+If you look at time one, I've moved the cube or whatever to not point two to the left
+
+643
+0:47:16.700 --> 0:47:21.420
+Why are there so many red lines here expected comma? Did I make an error problem with my
+
+644
+0:47:21.980 --> 0:47:29.100
+My jason's fine value expected very confused. That's valid. Jason, but it's saying it's not unless i'm just missing something. Anyway, um,
+
+645
+0:47:29.100 --> 0:47:36.540
+um, so you put that stuff into an animator component and then you hook it up to various properties and then you're able to
+
+646
+0:47:36.940 --> 0:47:38.940
+Animate it. Um
+
+647
+0:47:38.940 --> 0:47:45.100
+It's it's basically a way of describing translations. Um, it's it's it's if you look at that that that script above
+
+648
+0:47:45.260 --> 0:47:48.460
+I put in the screenshot of and you don't see what's happening
+
+649
+0:47:48.940 --> 0:47:51.520
+Um, then you'll have to wait for the tutorial unfortunately
+
+650
+0:47:52.220 --> 0:47:55.660
+Moving, uh up because there are questions I missed. Um,
+
+651
+0:47:55.660 --> 0:47:59.980
+I also keep a hard limit of this at five or as we've gone over by half an hour, but we'll
+
+652
+0:48:00.460 --> 0:48:03.260
+Stop at five. So we've got six more minutes questions. Uh, so
+
+653
+0:48:03.900 --> 0:48:05.340
+second
+
+654
+0:48:05.340 --> 0:48:10.540
+Asks do shared items i.e given to you in a public folder take up storage of safety in your own world. I
+
+655
+0:48:11.420 --> 0:48:14.620
+Don't know. I think I have an answer there, but I don't want to be proven wrong
+
+656
+0:48:14.620 --> 0:48:16.700
+I know storage space is a hot topic right now. So
+
+657
+0:48:17.420 --> 0:48:21.100
+Try it if you save a public folder in your inventory. No
+
+658
+0:48:21.100 --> 0:48:26.460
+No, but if you save it in your own world and save that world, there is a reference to that item
+
+659
+0:48:26.780 --> 0:48:31.820
+But it should deduplicate the assets on that item, but there still is a storage cost for saving that item in the world
+
+660
+0:48:31.900 --> 0:48:33.900
+So, I don't know
+
+661
+0:48:34.300 --> 0:48:40.140
+Pushka says can you choose to save reference to object individually and saving instead of saving entire object to the cloud?
+
+662
+0:48:40.300 --> 0:48:45.980
+No, although we'll sometimes do that for you. You just don't know that we're doing it. Easton shows an example of
+
+663
+0:48:46.940 --> 0:48:49.740
+Adding numbers together again, that's perfect. Uh
+
+664
+0:48:49.740 --> 0:48:53.260
+Olin says instructions unclear and then shows the adder node
+
+665
+0:48:53.340 --> 0:48:59.260
+So the adder node I can't remember which folder the adder node is in but we actually have what's called a binary adder in
+
+666
+0:48:59.500 --> 0:49:03.820
+um in logics, um, I learned that back at university but like, uh
+
+667
+0:49:04.380 --> 0:49:08.220
+adding together two numbers in binary is like
+
+668
+0:49:08.780 --> 0:49:15.980
+Magic and that's because it's binary and so adding them together is very very complicated moving forwards Easton says it's possible to make an anim
+
+669
+0:49:15.980 --> 0:49:21.340
+J animator tool inside a Neos probably not but possibly yes, but also no
+
+670
+0:49:21.820 --> 0:49:24.540
+Um, the reason behind that is you'll need to construct a json file
+
+671
+0:49:24.540 --> 0:49:28.220
+Which is technically possible with a lot of string matching and string nodes, etc
+
+672
+0:49:28.380 --> 0:49:29.980
+But once you've got that json file
+
+673
+0:49:29.980 --> 0:49:35.660
+You then need to create a file from that save that file to somewhere which is not inside Neos and then re-import it
+
+674
+0:49:35.900 --> 0:49:41.340
+Like you have to re-import it into Neos as an anim. J file for Neos to kick in and be like, ah
+
+675
+0:49:41.340 --> 0:49:43.820
+It's an animation. I'll do the anim j processing on it great
+
+676
+0:49:43.820 --> 0:49:46.940
+Uh double six is what is an mjs and uses animation library?
+
+677
+0:49:46.940 --> 0:49:55.260
+No, it's a way of representing animations that are compatible with Neos's animation library as json outside of Neos
+
+678
+0:49:55.660 --> 0:49:59.820
+Uh codices so basically deconstructing a dope sheet into json and bring it into Neos. Yes
+
+679
+0:50:00.360 --> 0:50:02.360
+Absolutely. Um
+
+680
+0:50:02.620 --> 0:50:04.140
+Uh
+
+681
+0:50:04.140 --> 0:50:08.220
+Vrc refugee ghoul or the ghoul. Okay. There we go. Your name is confusing
+
+682
+0:50:08.220 --> 0:50:12.220
+Sorry, uh the ghoul is there a way to fix the little shelves on my wrist? Those are tool anchors
+
+683
+0:50:12.220 --> 0:50:16.300
+Those are the tool shelf anchors, um scroll up in this chat a little bit
+
+684
+0:50:16.300 --> 0:50:22.220
+You'll see the tool shelf or tool anchor tutorial that shows you how to uh move them around and play with them
+
+685
+0:50:22.300 --> 0:50:24.940
+If you don't want them there, you can also turn them off that way as well
+
+686
+0:50:24.940 --> 0:50:28.700
+But just I think turning off the anchor will do it. Um, they are great though
+
+687
+0:50:28.700 --> 0:50:33.660
+Maybe I should do a tool shelf tutorial because people don't understand them and then they struggle to equip tools and i'm just like
+
+688
+0:50:34.220 --> 0:50:38.940
+Look how fast I can equip tools using my tool shelf and then people are like, oh, that's what those are for
+
+689
+0:50:38.940 --> 0:50:42.700
+And i'm like, yep, that's what those are for math binary for the adder. Thank you
+
+690
+0:50:42.860 --> 0:50:46.700
+The adder is is really cool. Zach asks an interesting question about how does um,
+
+691
+0:50:47.340 --> 0:50:50.060
+Lex's anim j that he shared compared to
+
+692
+0:50:50.620 --> 0:50:56.860
+Changing it using logics. You could also change it using logics, but sometimes um, it might be better to use uh,
+
+693
+0:50:57.180 --> 0:51:01.660
+Anim j if you know how to do it. Um, it just depends on what you'd like to do. So
+
+694
+0:51:02.300 --> 0:51:03.260
+um
+
+695
+0:51:03.260 --> 0:51:04.700
+in anim j
+
+696
+0:51:04.700 --> 0:51:06.460
+Lex has the ability to
+
+697
+0:51:06.460 --> 0:51:09.020
+Do things in a little bit more of a structured way
+
+698
+0:51:09.420 --> 0:51:12.960
+Where there's the way that would that would happen in logics is is maybe more complicated
+
+699
+0:51:13.580 --> 0:51:18.060
+Um in some cases what you're doing in logics for animations is writing mathematical equations
+
+700
+0:51:18.060 --> 0:51:22.300
+Which result in the animation that you want and for anyone that just got scared by that
+
+701
+0:51:22.780 --> 0:51:26.860
+Don't worry about that. I know that was a scary sentence. It's honestly not that bad
+
+702
+0:51:27.180 --> 0:51:32.720
+There is a video I have about uh reciprocal motion which uses maths to make an animation
+
+703
+0:51:32.720 --> 0:51:38.560
+And it is quite easy. Once you get the hang of it, which i'll paste here. We are at 16 59
+
+704
+0:51:38.560 --> 0:51:41.760
+So specs dorky if you have a question go for it. Otherwise, no more questions
+
+705
+0:51:42.460 --> 0:51:48.260
+Immediately dorky stops typing. I'm sorry dorky. Is there a difference between the term as oscillating and reciprocating?
+
+706
+0:51:49.120 --> 0:51:55.520
+Like is that difference? I don't know probably that's a good way of phrasing it spec says animating via logics procedural
+
+707
+0:51:55.520 --> 0:52:01.440
+You're calculating animation in real time animating via anim j is baked. The animation is a preset of known values. Yep. That's great
+
+708
+0:52:01.440 --> 0:52:07.280
+It is now 1700 canadian gets you better finish your typed message quickly, or I will send you an angry cat gift
+
+709
+0:52:07.360 --> 0:52:09.360
+Okay, well cut it there
+
+710
+0:52:09.360 --> 0:52:10.400
+If you have any further questions
+
+711
+0:52:10.400 --> 0:52:15.520
+Please drop them in the questions and help section of the uh, neos discord direct message me find me in game
+
+712
+0:52:15.840 --> 0:52:21.680
+Send me a homing pigeon hopefully with a cheese reward, but uh, I will see you guys around. Bye. Bye
+
+713
+0:52:21.680 --> 0:52:31.620
+It sounded vaguely mickey mousy. I'm not going to do a mickey mouse impression, but there you go. Bye. Bye
+

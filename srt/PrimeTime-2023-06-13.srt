@@ -1,0 +1,864 @@
+1
+00:00:00,000 --> 00:00:02,720
+ Alright, it is 4pm, welcome to Office Hours with Prime.
+
+2
+00:00:02,720 --> 00:00:06,880
+ I'm here to answer your Neos questions, and you can drop those in the Office Hours text chat.
+
+3
+00:00:06,880 --> 00:00:11,920
+ Make sure you're talking in the Office Hours text chat and not the text channel that's for this
+
+4
+00:00:11,920 --> 00:00:16,480
+ weird thing that we should use, but I think Discord doesn't make it obvious enough that
+
+5
+00:00:16,480 --> 00:00:19,920
+ this exists, so many people don't see it, but many people still don't see the thread,
+
+6
+00:00:19,920 --> 00:00:23,520
+ so it just gets really really complicated. Anyway, get your questions in the usual place,
+
+7
+00:00:23,520 --> 00:00:26,640
+ I'll answer them in the order that they appear. Whilst there are no questions,
+
+8
+00:00:26,640 --> 00:00:33,280
+ we're going to be sitting here in unimaginable silence, just hoping for some juicy question that
+
+9
+00:00:33,280 --> 00:00:38,400
+ we can probably do some strange anecdote on. Whilst we wait for a question, did you know that
+
+10
+00:00:38,400 --> 00:00:42,400
+ right now in RuneScape, yes that's RuneScape, there is an event where you can get a cape,
+
+11
+00:00:42,400 --> 00:00:47,840
+ and once you have the cape it gives you a 30-day buff which will transmit anything that you mine,
+
+12
+00:00:47,840 --> 00:00:54,240
+ woodcut, or fish to your bank for free, which means lots of people are training mining and
+
+13
+00:00:54,240 --> 00:01:00,800
+ woodcutting very very quickly right now, including me, who has been mining in the same spot for a
+
+14
+00:01:00,800 --> 00:01:04,560
+ very long time. It is completely unrelated to NeoSina, but I just thought I'd let you know.
+
+15
+00:01:04,560 --> 00:01:11,120
+ I have to fill the dead air sometimes because someone's grandmother told me there should be
+
+16
+00:01:11,120 --> 00:01:16,640
+ less dead air. Left 4 Dead was a good game, but I think it was like the end of 2022,
+
+17
+00:01:16,640 --> 00:01:20,720
+ I instantiated a policy in my brain which is I will never play Left 4 Dead again.
+
+18
+00:01:22,240 --> 00:01:27,360
+ Basically what happens is I install it, and then someone says a few months later "Let's play Left
+
+19
+00:01:27,360 --> 00:01:31,200
+ 4 Dead" and then I reinstall it, we play once and then never again, so I've just decided no,
+
+20
+00:01:31,200 --> 00:01:35,360
+ I will never play it again and that way it can be removed from my computer. Same thing happens with
+
+21
+00:01:35,360 --> 00:01:40,640
+ Grand Theft Auto V actually. The moment I uninstall Grand Theft Auto V sometimes it's just needed
+
+22
+00:01:40,640 --> 00:01:44,080
+ again, and I don't really understand why that keeps happening but there we go. Oh yeah, the
+
+23
+00:01:44,080 --> 00:01:47,760
+ dead air was also removed from the crawling because we have an effect in Audacity called
+
+24
+00:01:47,760 --> 00:01:52,800
+ Truncate Silence. It's useful for making you only listen to the questions or me manically laughing
+
+25
+00:01:52,800 --> 00:01:57,760
+ at you. We still have no questions, so this is going to be a quick office hours unless questions
+
+26
+00:01:57,760 --> 00:02:03,360
+ start appearing very soon, but yes, unimaginable silence. DIA says that they need something like
+
+27
+00:02:03,360 --> 00:02:07,360
+ Truncate Silence for their sleep talk recordings. If you get the app Sleep as an Android it will do
+
+28
+00:02:07,360 --> 00:02:10,240
+ it for you. If you're not on Android device I can't help you, but there's probably a similar
+
+29
+00:02:10,240 --> 00:02:15,840
+ app for an iOS device. I've had Sleep as an Android for many many years. It keeps track of
+
+30
+00:02:15,840 --> 00:02:20,800
+ how much sleep you need and how much sleep you're getting in the form of a sleep deficit graph. The
+
+31
+00:02:20,800 --> 00:02:28,400
+ deficit graph is un-resetable, so it's just been listing my deficit for months and years, and it's
+
+32
+00:02:28,400 --> 00:02:36,480
+ just like, you know, you've missed 609,000 hours of sleep or whatever it is. It's wrong because it's
+
+33
+00:02:36,480 --> 00:02:40,640
+ got duplicate data or something from when I change phones, but I can't reset it, so it's just like
+
+34
+00:02:40,640 --> 00:02:46,960
+ your deficit is really bad. It's like, okay, cool. All right, so we got a cheese question,
+
+35
+00:02:46,960 --> 00:02:52,800
+ which I don't answer, so skipping that one, sorry about that. Lex says are you aware of,
+
+36
+00:02:52,800 --> 00:02:55,520
+ are you aware, and if you are, do you have any comments on the issues that a large amount of
+
+37
+00:02:55,520 --> 00:03:00,400
+ people are having with Learning Essence in the US? I am aware of them, I am taking a look at them,
+
+38
+00:03:00,400 --> 00:03:05,440
+ but I don't have any further comments on their matter. Erin asks, other than the US,
+
+39
+00:03:05,440 --> 00:03:11,440
+ what games have you worked on that you enjoyed your time while doing so, if any? I haven't
+
+40
+00:03:11,440 --> 00:03:15,440
+ really worked on any other games. Oh yeah, I haven't really worked on any other games.
+
+41
+00:03:15,440 --> 00:03:19,840
+ A couple of projects here and there, a few bits and pieces, never really like, you know. I am
+
+42
+00:03:19,840 --> 00:03:29,840
+ partially responsible for a particular piece of literature, which I will dig up.
+
+43
+00:03:31,200 --> 00:03:36,000
+ If anyone is seeing people's names in Discord cut off with triple dashes, it is a security feature
+
+44
+00:03:36,000 --> 00:03:43,680
+ that is instilled into Discord via the username update debacle. You have streamer mode enabled,
+
+45
+00:03:43,680 --> 00:03:48,080
+ and that is why people's names are cut off like that. There is no documentation on that,
+
+46
+00:03:48,080 --> 00:03:51,760
+ I just figured it out because some random person tweeted it and then some other random person
+
+47
+00:03:51,760 --> 00:03:57,280
+ retweeted it. It has been bothering me too, but there you go. Yes, I am partially responsible for
+
+48
+00:03:57,280 --> 00:04:02,960
+ the fact that there was a video involving pigs on the Xbox YouTube channel. I will
+
+49
+00:04:02,960 --> 00:04:09,520
+ paste that tweet when I find it, because I think I have it close to hand. I do. Yes, it's really
+
+50
+00:04:09,520 --> 00:04:15,200
+ only for people that have got the username update as far as I'm aware. It's something because like,
+
+51
+00:04:15,200 --> 00:04:20,240
+ now that, like, I don't know, it's a feature of streamer mode. I appreciate it because streamer
+
+52
+00:04:20,240 --> 00:04:28,400
+ mode is cool, but like, you know, I could speak forever about streaming security and making sure
+
+53
+00:04:28,400 --> 00:04:32,720
+ you don't leak your bank details while still streaming. But you know, that's not a Neos
+
+54
+00:04:32,720 --> 00:04:39,600
+ question. Any additional Neos questions? Seeing as we just had the pig video from Mixer. I don't know
+
+55
+00:04:39,600 --> 00:04:44,160
+ if there's any other Mixer stuff on the Xbox channel. There probably is. Let me see if I'm
+
+56
+00:04:44,160 --> 00:04:50,400
+ responsible for any more of it. I'm not responsible for that or that or that. I'm responsible for that
+
+57
+00:04:50,400 --> 00:04:56,000
+ one. Who had that one? Oh, they're tips and tricks videos. Got it. Okay. Yeah, cool. I'm not responsible
+
+58
+00:04:56,000 --> 00:04:59,760
+ for tips and tricks, but yeah. Anyway, as a reminder, if there are no questions, we're going
+
+59
+00:04:59,760 --> 00:05:03,920
+ to sit here in silence. Take a moment to, you know, stare out of the window. If you haven't been
+
+60
+00:05:03,920 --> 00:05:08,960
+ looking at the computer monitor for too long, you should look at something at least 20 feet away
+
+61
+00:05:08,960 --> 00:05:15,200
+ for 20 seconds every 20 minutes or something like that. 20, 20, 20. Yeah. I'm sure you're breathing
+
+62
+00:05:15,200 --> 00:05:20,000
+ right as well. So many people don't know how to breathe. Well, I don't mean stupidly, but you know,
+
+63
+00:05:20,000 --> 00:05:25,920
+ there are different mechanisms for breathing. You can breathe at the top of your, at the top of your
+
+64
+00:05:25,920 --> 00:05:30,000
+ chest or like right the way down into the bottom. And you need to do that right the way down into
+
+65
+00:05:30,000 --> 00:05:35,120
+ the bottom. Oh my God, we have a question. Do you happen to know why animated meshes seem to jump
+
+66
+00:05:35,120 --> 00:05:37,920
+ when you swap the animation? I would presume that's because we don't have any smoothing
+
+67
+00:05:37,920 --> 00:05:44,720
+ between those animations. So let's say animation one has a character's right hand raised and an
+
+68
+00:05:44,720 --> 00:05:50,240
+ animation two has the character's left hand raised or right hand lowered. Like there's no way to sort
+
+69
+00:05:50,240 --> 00:05:55,440
+ of smoothly interpolate between those. Oh, comma frames at the end. Honestly, it's probably still
+
+70
+00:05:55,440 --> 00:06:01,440
+ interpolating. Our animation system just needs like reworking it. It really annoys me. I have
+
+71
+00:06:01,440 --> 00:06:08,000
+ actually FPX animations just in general too. I've got a world where, it's a science world, people
+
+72
+00:06:08,000 --> 00:06:15,520
+ need to give a speech in front of some pretend judges or business folks. And they were just sort
+
+73
+00:06:15,520 --> 00:06:21,600
+ of staring at the person that's in that world. And it was, you know, like, oh, could we get them to
+
+74
+00:06:21,600 --> 00:06:27,600
+ like, you know, do something? And so we did. And the way that we did that is I had to go to
+
+75
+00:06:29,120 --> 00:06:34,320
+ Mixima and I took three animations, had to stitch them together inside a blender, which took forever
+
+76
+00:06:34,320 --> 00:06:39,600
+ because they didn't know how to do it, apply the animation to five people, get it into the game.
+
+77
+00:06:39,600 --> 00:06:45,360
+ And then because one of the animations was writing, I had to like write logics to position a pen that
+
+78
+00:06:45,360 --> 00:06:50,000
+ appeared in their hands whilst the animation played that they were writing, and they disappeared
+
+79
+00:06:50,000 --> 00:06:56,320
+ when they stopped writing. All to make them look more interesting. electronic has another question.
+
+80
+00:06:56,320 --> 00:07:01,200
+ They say, does the headless play animations or can it not? Should be able to. Animations are just
+
+81
+00:07:01,200 --> 00:07:08,720
+ like streams of data, right? It won't render them because it doesn't render them. But it's,
+
+82
+00:07:08,720 --> 00:07:12,880
+ it's still do the updates. I don't know if they run locally, they might run locally.
+
+83
+00:07:12,880 --> 00:07:21,040
+ As much as I hate the fact that in VRChat you have to do everything with animation trees,
+
+84
+00:07:21,040 --> 00:07:25,200
+ we need all that feature from Unity, like animation trees, animation state machines,
+
+85
+00:07:25,200 --> 00:07:30,160
+ all sorts of stuff like that. VRChat users should not have to do that. I was looking at making
+
+86
+00:07:30,160 --> 00:07:35,440
+ the face tracker work over in VRChat, and it was just like, what the f-- it's just so complicated.
+
+87
+00:07:35,440 --> 00:07:40,480
+ All I want to do is make some blend shapes change. Why am I making 50 animations and linking them
+
+88
+00:07:40,480 --> 00:07:48,000
+ together with spaghetti? But there you go. I got like 30 seconds into the process of making it work
+
+89
+00:07:48,000 --> 00:07:58,320
+ on my avatar over there, and I just said, nah, I'd rather just grab a cheese grater or shredder,
+
+90
+00:07:58,320 --> 00:08:04,880
+ push it right against my face, but that'd be a lot easier. There are like community tools to make
+
+91
+00:08:04,880 --> 00:08:09,920
+ that stuff easier, but a couple of them are archived, and I followed like three archive links
+
+92
+00:08:09,920 --> 00:08:14,560
+ until I got very confused and just decided, meh, not today. We're just over halfway through this,
+
+93
+00:08:14,560 --> 00:08:17,920
+ so if you have any more additional Neos questions, please do let me know. Please drop them into the
+
+94
+00:08:17,920 --> 00:08:23,680
+ uh text thread, I'm not seeing any here, just uh, whilst that's not there, just remember to breathe,
+
+95
+00:08:23,680 --> 00:08:28,160
+ stare at something into the distance, and there you go. Uh, Erin asks, actually that is a question,
+
+96
+00:08:28,160 --> 00:08:31,040
+ but it's not a Neos question, but seeing as there's dead air, we'll fill it, um,
+
+97
+00:08:31,040 --> 00:08:36,800
+ they say, uh, does losing focus and staring at nothing count as zonar tot when? Yes, that does,
+
+98
+00:08:36,800 --> 00:08:42,960
+ that may be a sign of some, um, mental trouble, so do keep an eye out. Sometimes I enjoy just
+
+99
+00:08:42,960 --> 00:08:48,160
+ staring at a wall, I'm not really staring at the wall, I guess I'm just like, you know, not using
+
+100
+00:08:48,160 --> 00:08:52,640
+ my eyes for the moment. Oh yeah, because there are any useful, uh, components you found in Neos
+
+101
+00:08:52,640 --> 00:08:57,280
+ recently, and I found texture size driver personally, it saved me a lot of trouble. Um,
+
+102
+00:08:57,280 --> 00:09:02,720
+ there haven't been, um, there hasn't been a case of that like in a long time, like sometimes you
+
+103
+00:09:02,720 --> 00:09:07,600
+ just find a component and you're just like, that's, you know, exactly what I needed it for.
+
+104
+00:09:07,600 --> 00:09:10,960
+ There are some times where you, like, you find a component and you're like, okay, I understand what
+
+105
+00:09:10,960 --> 00:09:15,440
+ that does, I just don't understand why it does it, but then you like see it later and you're just
+
+106
+00:09:15,440 --> 00:09:19,840
+ like, all right, that's cool. But yeah, neither of those have happened in a while. Um, like I'm sure
+
+107
+00:09:19,840 --> 00:09:23,600
+ there are ones out there, it just depends, like at some point you've used all the components that
+
+108
+00:09:23,600 --> 00:09:29,120
+ you're going to use, there's like edge cases. Uh, Aaron asks, are there any questions you would ask
+
+109
+00:09:29,120 --> 00:09:33,920
+ right now in office hours if someone else was in your place? Um, I am getting like interesting
+
+110
+00:09:33,920 --> 00:09:37,200
+ questions where someone's building something that isn't obviously an oldie tool or an inspector,
+
+111
+00:09:37,200 --> 00:09:43,600
+ that's what I like. Um, moving forwards to, uh, Churnace's question. Um, see here's an example,
+
+112
+00:09:43,600 --> 00:09:47,520
+ light cookies, lighting, excellent. Lighting is a fantastic topic and more people should do it. By
+
+113
+00:09:47,520 --> 00:09:52,320
+ the way, it is not natural if you have an indoor only map that you have a sun, please turn off your
+
+114
+00:09:52,320 --> 00:09:56,880
+ sun and light it with lights. Um, and there should be dark corners of your indoor space, there should
+
+115
+00:09:56,880 --> 00:10:01,680
+ be bright corners of your indoor space. Like think about like a bar, right? The bar should have lights
+
+116
+00:10:01,680 --> 00:10:05,440
+ above it, so you can walk up to it and have a drink, but maybe like a booth in the corner of
+
+117
+00:10:05,440 --> 00:10:10,160
+ the bar should have a darker light to it. You can't do that if you've got a sun inside your box,
+
+118
+00:10:10,160 --> 00:10:14,880
+ turn off the sun if you're doing an indoor only map. Um, so electronic is asking, uh,
+
+119
+00:10:14,880 --> 00:10:18,080
+ something issues of light cookie not being loaded when I needed it, is there a good way to ensure
+
+120
+00:10:18,080 --> 00:10:22,480
+ it's loaded? Try the asset loader, I think it's called, it's in the assets folder. It will ensure
+
+121
+00:10:22,480 --> 00:10:28,080
+ an asset is loaded before you need it. Uh, you need to sort of put things in that component if
+
+122
+00:10:28,080 --> 00:10:34,560
+ you are using them from outside asset components. So things like the asset multiplexer or
+
+123
+00:10:35,600 --> 00:10:40,720
+ stuff like that will try and keep the asset loaded. But if you have an asset as a raw reference,
+
+124
+00:10:40,720 --> 00:10:46,640
+ it might de-load, so try the asset loader. Saray asks, um, would it make sense to have a
+
+125
+00:10:46,640 --> 00:10:49,760
+ gesture system in the assistantials that are relatively easy to instill, given that when you
+
+126
+00:10:49,760 --> 00:10:54,240
+ without, uh, Logix expressions tend to be intimidated because it looks, yes. Uh, there are
+
+127
+00:10:54,240 --> 00:10:58,240
+ multiple gesture systems inside an assistantials and that is actually one of the problems that we
+
+128
+00:10:58,240 --> 00:11:05,040
+ have. Um, I am working with the team on that one when I can, um, but we need to sort of standardize
+
+129
+00:11:05,040 --> 00:11:09,920
+ a little bit more rigidly what we put in that folder to make sure that it is, it's very good.
+
+130
+00:11:09,920 --> 00:11:14,800
+ Um, every single MMC, for example, we get a new gesture system and I am, I'm not bothered by the
+
+131
+00:11:14,800 --> 00:11:19,680
+ fact that we do, um, in terms of the user making it, I'm bothered by the fact that Neos itself
+
+132
+00:11:19,680 --> 00:11:23,520
+ hasn't solved that. Like I don't, I don't understand why there are so many. I mean,
+
+133
+00:11:23,520 --> 00:11:27,920
+ I do, but like, I don't understand why we haven't made that not in a necessity, right.
+
+134
+00:11:28,160 --> 00:11:32,000
+ You always be able to use your own systems, of course, but why don't we just have our own?
+
+135
+00:11:32,000 --> 00:11:36,400
+ And if we're like, oh yeah, but we, you know, we don't really like gesture based systems. I don't
+
+136
+00:11:36,400 --> 00:11:42,880
+ like gesture based systems. We can still make one. It's easy. Um, so we should do that. We should
+
+137
+00:11:42,880 --> 00:11:48,240
+ definitely do that instead of making our own. Like if we made our own Logix based one, there would
+
+138
+00:11:48,240 --> 00:11:52,960
+ just be another Logix based one, right? I made one of the first ones, which was the gesture wheel
+
+139
+00:11:52,960 --> 00:12:00,800
+ based one. Um, it got sort of outdated within like a week. So that's fine. But like, even when I made
+
+140
+00:12:00,800 --> 00:12:04,960
+ that, I felt bad because I felt like I was contributing to the problem, which is there are
+
+141
+00:12:04,960 --> 00:12:09,440
+ too many gesture systems and none of them are easy to use. If we made one that was like Neo standard,
+
+142
+00:12:09,440 --> 00:12:14,480
+ it would probably be like a very simple component. Um, I'd like to, you know, maybe build like a
+
+143
+00:12:14,480 --> 00:12:20,160
+ wizardy UI for it. Uh, and that way, um, we would of course be adding another standard,
+
+144
+00:12:20,160 --> 00:12:24,480
+ the list of standards people are referencing, uh, an XKCD comic, but it would allow us to
+
+145
+00:12:24,480 --> 00:12:28,560
+ help in that because most people wouldn't even have to get the Logix tip out.
+
+146
+00:12:28,560 --> 00:12:35,040
+ Like one of the big problems I see when people come into Neos is they're almost like goaded,
+
+147
+00:12:35,040 --> 00:12:38,560
+ either accidentally or sometimes on purpose, please don't do this by the way, um, into
+
+148
+00:12:38,560 --> 00:12:41,760
+ getting a Logix tip or a developer tip out, right? Cause they need to set up their avatar
+
+149
+00:12:41,760 --> 00:12:46,000
+ or someone starts talking to them at multi-tools or inspectors and stuff like that. It's like,
+
+150
+00:12:46,000 --> 00:12:53,040
+ just, just let them experience Neos as a new user, uh, don't force technical stuff into them.
+
+151
+00:12:53,040 --> 00:12:58,400
+ But to do that, we need a better avatar setup that isn't as technical as its current avatar setup.
+
+152
+00:12:58,400 --> 00:13:04,640
+ So moving onwards to electronicist question says, uh, is there a good tutorial for NMJ?
+
+153
+00:13:04,640 --> 00:13:10,560
+ Uh, there's like the Wiki page, like got some information on it. There's also some research
+
+154
+00:13:10,560 --> 00:13:16,160
+ that Lex did. Um, we could never really find, like we kept coming across bugs, so we kind of just
+
+155
+00:13:16,160 --> 00:13:21,360
+ stopped. So no, there's no tutorial I'm aware of, but the Wiki does have some information that,
+
+156
+00:13:21,360 --> 00:13:24,880
+ okay, the Wiki didn't help. And sorry about that, but you know, we try.
+
+157
+00:13:24,880 --> 00:13:30,640
+ Maybe, yeah, and you're stifles talking about the, the various bugs that exist in, um, NMJ. Yeah,
+
+158
+00:13:30,640 --> 00:13:34,560
+ there's, there's bugs, there's problems. We've got a question in two parts, which looks like I'm
+
+159
+00:13:34,560 --> 00:13:39,600
+ answering the long, I'm out of order, but I'm not. Um, uh, Jack will ask when you do tutorials
+
+160
+00:13:39,600 --> 00:13:43,120
+ again, which consider one that does a review of less obvious data types. And then in a follow-up
+
+161
+00:13:43,120 --> 00:13:48,320
+ message, they say like iWorld element or SyncRef backtick one, uh, you shouldn't be using iWorld
+
+162
+00:13:48,320 --> 00:13:52,640
+ element. If you are using it, you're probably doing something incorrectly. If you're using
+
+163
+00:13:52,640 --> 00:13:58,480
+ SyncRef, you are at the point in using Neos where you should not require a tutorial on it.
+
+164
+00:13:58,480 --> 00:14:04,240
+ Um, both of those things are very, very advanced. And if you're using them, uh, you really need to
+
+165
+00:14:04,240 --> 00:14:10,560
+ know how like C# works. Like always, always, always start with a problem, right? So if you're using
+
+166
+00:14:10,560 --> 00:14:15,840
+ iWorld element, you're probably implementing the solution to a problem incorrectly, or your problem
+
+167
+00:14:15,840 --> 00:14:20,800
+ is really advanced and there's no other way to do it, but mess around with that stuff. But I don't
+
+168
+00:14:20,800 --> 00:14:24,080
+ advise messing around with that stuff. And therefore I won't be tutorialing it because
+
+169
+00:14:24,080 --> 00:14:32,080
+ it is, it's structured so vague compared to like the problem. Trying to think of a good analogy
+
+170
+00:14:32,080 --> 00:14:35,600
+ and the only one that came into my head, and it probably is not a good analogy, but the only one
+
+171
+00:14:35,600 --> 00:14:44,960
+ that came into my head is it's like someone asking how to tie their shoelace by going to a, uh, rope
+
+172
+00:14:44,960 --> 00:14:49,520
+ manufacturer. It's like, alright, let's go watch a rope being made. Like, let's start with the problem.
+
+173
+00:14:49,520 --> 00:14:54,160
+ Like what, what, what do you want to do with those, those things? Uh, Jackyl, again, we're jumping
+
+174
+00:14:54,160 --> 00:14:58,240
+ around. Cody, I'll get to you in just a second. Um, Jackyl updates with, so don't mess with reference
+
+175
+00:14:58,240 --> 00:15:03,360
+ target, the logics note. No, you can use that. You can use everything. It's just like, you need to know
+
+176
+00:15:03,360 --> 00:15:09,840
+ why you're using it. Like I use that note a lot, but I need a problem that requires it's use to
+
+177
+00:15:09,840 --> 00:15:15,360
+ explain it. I can't, like, I can tell you what it does and that's exactly what it does, but let's
+
+178
+00:15:15,360 --> 00:15:19,840
+ start with the problem, not the data type. Um, if you really, really want to see why that's the, the
+
+179
+00:15:19,840 --> 00:15:23,920
+ stance I take, go take a look at the C# reference, which is the language of course that Neos has
+
+180
+00:15:23,920 --> 00:15:29,520
+ written in. There are like data types in there that I have like no idea why anyone would go
+
+181
+00:15:29,520 --> 00:15:36,720
+ anywhere near them. It's just like, cool. Um, I actually had an interesting issue the other day,
+
+182
+00:15:36,720 --> 00:15:44,720
+ uh, with, it was something like, you know, a trip, like anyone who knows, um, uh, C# knows that you
+
+183
+00:15:44,720 --> 00:15:48,640
+ can put attributes above stuff, right? So you put like square races and then some other stuff, and
+
+184
+00:15:48,640 --> 00:15:53,920
+ it's sort of like tags a piece of code and says, do this extra piece of functionality. There are
+
+185
+00:15:53,920 --> 00:15:58,400
+ tributes in C# that have no documentation, but it sounds really cool. And you just don't know how to
+
+186
+00:15:58,400 --> 00:16:02,640
+ like, just like, Microsoft, come on, tell me what they do. And it's just like, nope, not going to
+
+187
+00:16:02,640 --> 00:16:08,000
+ tell you what they do. Uh, let me take a look. Um, I'm going to jump back to questions. Play code.
+
+188
+00:16:08,000 --> 00:16:11,520
+ It says what are the best method for requesting tutorial recording a 3d moment that has a component
+
+189
+00:16:11,520 --> 00:16:16,400
+ I'm not familiar with. Um, you should list that 3d model and component in your question. That'd
+
+190
+00:16:16,400 --> 00:16:22,480
+ be great stuff. Um, Maya has a patreon question, please direct message shifty about those. Um,
+
+191
+00:16:22,480 --> 00:16:28,320
+ I don't handle them here. Um, uh, Play code. He says they saw your wire cube object and saw
+
+192
+00:16:28,320 --> 00:16:32,480
+ the component that drives the mesh of the wires. Ah, that's the wire stuff. I don't know how that
+
+193
+00:16:32,480 --> 00:16:38,800
+ works. Um, I have no idea. Like, um, that creates a piece of wire between two points, but it does it
+
+194
+00:16:38,800 --> 00:16:44,080
+ in a way to kind of try to, and it does it really badly, but tries to avoid twisting and tries to
+
+195
+00:16:44,080 --> 00:16:49,600
+ make it look like a patch cable might on, like an analog synthesizer or a breadboard electrical
+
+196
+00:16:49,600 --> 00:16:53,920
+ circuit. I'm trying to suggest using a making a tutorial for ref hacking. You can absolutely
+
+197
+00:16:53,920 --> 00:16:58,720
+ do that. I won't personally be doing that because I don't think that we should. Um, I don't think
+
+198
+00:16:58,720 --> 00:17:02,400
+ you should be doing it. You can do it and there's nothing wrong with doing it. No one's going to yell
+
+199
+00:17:02,400 --> 00:17:06,800
+ at you for doing it, but just know that you're, you know, you're doing stuff I'm telling you not
+
+200
+00:17:06,800 --> 00:17:13,200
+ to. That one's a bit like, um, trying to think of another analogy here that might work. You peek
+
+201
+00:17:13,200 --> 00:17:18,000
+ behind the curtain on your ref hack, basically. So you're peeking behind the curtain and you know,
+
+202
+00:17:18,000 --> 00:17:21,600
+ you get certain capabilities with that, but like the curtain's always changing.
+
+203
+00:17:21,600 --> 00:17:27,600
+ Last question, because we're running low on time here, um, from Storm who says, uh,
+
+204
+00:17:27,600 --> 00:17:31,840
+ any idea what was causing the issues of worlds and items not sinking over the weekend? I don't know.
+
+205
+00:17:31,840 --> 00:17:36,960
+ I have a team are aware of it. Um, people that can are looking into it. I don't know. With that,
+
+206
+00:17:36,960 --> 00:17:40,400
+ I think we've got all the questions. If you have any additional questions, please drop them into
+
+207
+00:17:40,400 --> 00:17:44,720
+ the questions and up channel where someone will help you out or direct message me. I will see you
+
+208
+00:17:44,720 --> 00:17:52,160
+ again next week. Um, the six, the 6th of June is now up on the Wiki. I know Lex, I have a bunch of
+
+209
+00:17:52,160 --> 00:17:56,880
+ SRT files. I'll get those shortly. I'll get this recording done and up as soon as I can. I am
+
+210
+00:17:56,880 --> 00:18:01,600
+ moving right now. What's it does anyone know when like tape doesn't work? I have a roll of duct tape
+
+211
+00:18:01,600 --> 00:18:06,960
+ and like I taped up a box and then I go to it this morning and the box is undone. And I'm just like,
+
+212
+00:18:06,960 --> 00:18:12,400
+ is this just bad tape? What the hell? It could be humidity killed it. I don't know. I've got some
+
+213
+00:18:12,400 --> 00:18:16,000
+ new tape arriving, but that means I need to like remove the old tape and apply the new tape. It's
+
+214
+00:18:16,000 --> 00:18:21,440
+ just really annoying. Specs says duct tape isn't good for packing boxes. I do have like box, like
+
+215
+00:18:21,440 --> 00:18:28,560
+ specific box tape coming in the mail. I'm getting movers, but like there's, I have a box. I have a
+
+216
+00:18:28,560 --> 00:18:37,920
+ bookshelf. Uh, books in a box shelf. Uh, yeah. Anyway, I will leave off there. Bye-bye.
+

@@ -1,0 +1,1340 @@
+1
+00:00:00,000 --> 00:00:03,660
+ Welcome to Office Hours, it is 4pm so I'll go ahead and get started.
+
+2
+00:00:03,660 --> 00:00:07,680
+ This is a half hour to hour segment, depends how much I waffle about cheese, where I answer
+
+3
+00:00:07,680 --> 00:00:09,040
+ your questions about Neos.
+
+4
+00:00:09,040 --> 00:00:11,880
+ If you want to ask a question, please drop it in the Office Hours text chat, that's
+
+5
+00:00:11,880 --> 00:00:13,640
+ a couple of channels above this one.
+
+6
+00:00:13,640 --> 00:00:17,840
+ We've been absent for a couple of weeks, I was on vacation, and by vacation I mean
+
+7
+00:00:17,840 --> 00:00:22,680
+ I stay at home and people come and stay with me, and then we do vacationy things.
+
+8
+00:00:22,680 --> 00:00:25,280
+ It's like, cool, I actually visited the town I live in.
+
+9
+00:00:25,280 --> 00:00:26,280
+ Excellent.
+
+10
+00:00:26,280 --> 00:00:31,560
+ Anyway, moving on with Office Hours, let's go ahead and get those questions that are
+
+11
+00:00:31,560 --> 00:00:36,720
+ waiting, read and answered before I go off on a random tangent about life.
+
+12
+00:00:36,720 --> 00:00:40,640
+ So Tiki asks, "Joining my headless of hundreds of megabytes of project pictures taken so
+
+13
+00:00:40,640 --> 00:00:49,760
+ long to load, it often times out and just stops loading any further from new users.
+
+14
+00:00:49,760 --> 00:00:55,360
+ I tried moving to 2 gigabit internet connection, and with 8 new users loading, it doesn't
+
+15
+00:00:55,360 --> 00:01:00,800
+ even approach 1 gigabit throughput.
+
+16
+00:01:00,800 --> 00:01:02,640
+ Is there any optimization I'm missing?"
+
+17
+00:01:02,640 --> 00:01:06,180
+ That's probably the asset variance system trying to help you out there, and me being
+
+18
+00:01:06,180 --> 00:01:09,620
+ a bit slow I'm not entirely certain.
+
+19
+00:01:09,620 --> 00:01:13,320
+ I'd have to look into the world itself and some of the late loading stuff there.
+
+20
+00:01:13,320 --> 00:01:18,280
+ There are a bunch of issues open on GitHub for assets loading slowly and gather jobs
+
+21
+00:01:18,280 --> 00:01:19,280
+ getting stuck.
+
+22
+00:01:19,280 --> 00:01:25,560
+ Both of those issues boggle my mind and drive me completely mad, they affect friends of
+
+23
+00:01:25,560 --> 00:01:29,440
+ mine, and all sorts of things make me not fun to play.
+
+24
+00:01:29,440 --> 00:01:34,360
+ So we'll look into that under those two issues.
+
+25
+00:01:34,360 --> 00:01:41,560
+ As for optimizations, don't have hundreds of megabytes of project pictures in your world.
+
+26
+00:01:41,560 --> 00:01:46,560
+ I'm sorry, I'm sorry, I know that's weird, but that is one of the ways to prevent that
+
+27
+00:01:46,560 --> 00:01:48,400
+ from being a problem.
+
+28
+00:01:48,400 --> 00:01:51,680
+ Moving onwards, Tiki has a second question which says "On the same chain of thought,
+
+29
+00:01:51,680 --> 00:01:54,380
+ is there any reason why exporting a picture disk takes multiple seconds instead of maybe
+
+30
+00:01:54,380 --> 00:01:57,400
+ a second or less than I'd expect for a megabyte?"
+
+31
+00:01:57,400 --> 00:02:01,880
+ I have noticed import taking a long time, particularly like normal maps, sometimes they'll
+
+32
+00:02:01,880 --> 00:02:03,840
+ import a normal map and it'll take like a minute to show up.
+
+33
+00:02:03,840 --> 00:02:06,240
+ I haven't noticed export taking a long time.
+
+34
+00:02:06,240 --> 00:02:11,300
+ I have with like a complex mesh, but I'm talking like millions of triangles so I kind of just
+
+35
+00:02:11,300 --> 00:02:18,360
+ give it like a free pass and hope it doesn't crash when I'm exporting a mesh like that.
+
+36
+00:02:18,360 --> 00:02:23,080
+ Make sure there's a GitHub issue launched for that, and I'll take a look at it when
+
+37
+00:02:23,080 --> 00:02:26,000
+ I can get to it.
+
+38
+00:02:26,000 --> 00:02:30,600
+ Lex asks "Any updates on making the native build of Neo's work again?"
+
+39
+00:02:30,600 --> 00:02:32,200
+ There are no updates on that front.
+
+40
+00:02:32,200 --> 00:02:36,280
+ Please continue to read announcements, and be patient on that one.
+
+41
+00:02:36,280 --> 00:02:40,840
+ Next is Unnamed Cyborg Cat says "Is text-based programming a feature yet?"
+
+42
+00:02:40,840 --> 00:02:43,920
+ It is not a feature yet, it's a feature request you can take a look at.
+
+43
+00:02:43,920 --> 00:02:46,920
+ I think there's a couple of GitHub issues for it, but take a look at those, thumbs them
+
+44
+00:02:46,920 --> 00:02:48,960
+ up, and we'll get to them when we are able to.
+
+45
+00:02:48,960 --> 00:02:54,440
+ For the past, I don't know, like four or five questions, it might have seemed like those
+
+46
+00:02:54,440 --> 00:02:56,160
+ are sort of hand-wavy answers.
+
+47
+00:02:56,160 --> 00:03:04,320
+ Do remember the "I can't live debug" because I can't live debug with you guys, it's not
+
+48
+00:03:04,320 --> 00:03:09,720
+ something I'm capable of doing whilst I'm on air, so to speak, in inverted commas.
+
+49
+00:03:09,720 --> 00:03:14,000
+ So do you guys call it like inverted commas or quote marks?
+
+50
+00:03:14,000 --> 00:03:17,680
+ Back in the UK we call them inverted commas, because that's what they are, they're two
+
+51
+00:03:17,680 --> 00:03:21,240
+ sets of inverted commas, they're like upside down commas, but whatever, quote marks.
+
+52
+00:03:21,240 --> 00:03:27,280
+ Anyway, so make sure there are GitHub issues open for them, and we'll look at them when
+
+53
+00:03:27,280 --> 00:03:28,280
+ we can.
+
+54
+00:03:28,280 --> 00:03:32,160
+ I get it's a problem, I just sometimes can't just dive into code.
+
+55
+00:03:32,160 --> 00:03:36,520
+ I do have it open, so sometimes I'll dive in to answer a question, but if it's a bug
+
+56
+00:03:36,520 --> 00:03:39,520
+ that's going to take me longer than a few minutes to look at, it's just not suitable
+
+57
+00:03:39,520 --> 00:03:41,240
+ for this particular environment.
+
+58
+00:03:41,240 --> 00:03:52,120
+ M3-opera-e-m-machine3, I wondered if you were the person who made the machine3 blender add-on,
+
+59
+00:03:52,120 --> 00:03:53,680
+ but probably not.
+
+60
+00:03:53,680 --> 00:03:55,480
+ Maybe, of course though.
+
+61
+00:03:55,480 --> 00:03:59,800
+ Is it possible to use Neos for business applications like an art gallery?
+
+62
+00:03:59,800 --> 00:04:01,960
+ Yeah, you could totally do that.
+
+63
+00:04:01,960 --> 00:04:07,760
+ Do remember that for certain business applications you may need Neos Pro, the best way is to
+
+64
+00:04:07,760 --> 00:04:14,120
+ read the Neos Pro wiki page to understand what that is, and before purchasing Neos Pro,
+
+65
+00:04:14,120 --> 00:04:17,680
+ email hello@neos.com with your request for Neos Pro and see if they get back to you about
+
+66
+00:04:17,680 --> 00:04:19,720
+ their use.
+
+67
+00:04:19,720 --> 00:04:26,060
+ Art gallery, as an example, would not require Neos Pro, and actually would be quite nice
+
+68
+00:04:26,060 --> 00:04:30,680
+ to see, you probably have to have like lockdown permissions, and therefore not many people
+
+69
+00:04:30,680 --> 00:04:35,440
+ would visit it from our community, they would want to have permissions in there, but if
+
+70
+00:04:35,440 --> 00:04:39,600
+ you had an audience they would be able to visit it quite fine there.
+
+71
+00:04:39,600 --> 00:04:45,120
+ Headless server, as Linker says, can handle quite a bit based on performance.
+
+72
+00:04:45,120 --> 00:04:52,560
+ I usually like to say 20 or so is where you start seeing issues, people go up to 30, but
+
+73
+00:04:52,560 --> 00:04:54,160
+ then issues really start to appear.
+
+74
+00:04:54,160 --> 00:05:01,280
+ It also depends on if you're having a full iCade avatar or just a head and hands avatar.
+
+75
+00:05:01,280 --> 00:05:06,320
+ I know that number is quite low, you can push it depending on the specifics without knowing
+
+76
+00:05:06,320 --> 00:05:10,680
+ where you're hosting your headless or what specs of the headless machine you're having.
+
+77
+00:05:10,680 --> 00:05:15,120
+ 20 is the number I would start with, and then I would experiment at going higher than 20.
+
+78
+00:05:15,120 --> 00:05:20,400
+ So we have a follow up question from m3rpmmachine who says "Is it possible to automatically
+
+79
+00:05:20,400 --> 00:05:24,600
+ push someone to a specific server for the world?"
+
+80
+00:05:24,600 --> 00:05:33,680
+ As weirdly overloaded term for Neos, it is possible to host a headless session that exists
+
+81
+00:05:33,680 --> 00:05:38,120
+ and is always up, or is up as long as your headless host is up, and make that available
+
+82
+00:05:38,120 --> 00:05:43,320
+ to be easily joined in a variety of mechanisms, yes, it just depends on the exact specifics
+
+83
+00:05:43,320 --> 00:05:45,240
+ of your circumstances.
+
+84
+00:05:45,240 --> 00:05:50,620
+ For example, it's possible to make a headless world and then give everyone that you want
+
+85
+00:05:50,620 --> 00:05:57,080
+ to join a shortcut or batch file for Windows which launches them straight into that world.
+
+86
+00:05:57,080 --> 00:06:01,560
+ You can also use various invite links and things like that to get them in there.
+
+87
+00:06:01,560 --> 00:06:06,900
+ When doing that, make sure that you're utilising custom session IDs, because that way you don't
+
+88
+00:06:06,900 --> 00:06:10,040
+ have to change the session ID in the link that the linker just posted.
+
+89
+00:06:10,040 --> 00:06:18,000
+ As a good example here, the MMC voting system uses the same custom session ID each year,
+
+90
+00:06:18,000 --> 00:06:21,580
+ which means that gadgets or widgets that take you to the voting world that worked last year
+
+91
+00:06:21,580 --> 00:06:23,580
+ will work next year.
+
+92
+00:06:23,580 --> 00:06:28,340
+ But there are no remaining questions in the list, so we can sit here and chill out for
+
+93
+00:06:28,340 --> 00:06:31,020
+ a minute if additional questions come in, that's absolutely fine.
+
+94
+00:06:31,020 --> 00:06:32,020
+ Hope everyone's doing well.
+
+95
+00:06:32,020 --> 00:06:34,460
+ Does anyone know what a foot hammock is?
+
+96
+00:06:34,460 --> 00:06:36,140
+ Because I have a foot hammock and I just repaired it.
+
+97
+00:06:36,140 --> 00:06:37,380
+ I had to buy rope.
+
+98
+00:06:37,380 --> 00:06:44,600
+ Because a foot hammock is like $12 to $15 on Amazon, but I'd ordered two and I broke
+
+99
+00:06:44,600 --> 00:06:45,600
+ both of them.
+
+100
+00:06:45,600 --> 00:06:47,960
+ And then the rope got frayed and then snapped.
+
+101
+00:06:47,960 --> 00:06:51,660
+ So I was like, I'm going to order rope and repair it using rope this time, because that
+
+102
+00:06:51,660 --> 00:06:56,100
+ seems cheaper, because I can just keep repairing it when the rope frays.
+
+103
+00:06:56,100 --> 00:07:02,340
+ So I ordered rope and I thought I got the right size, but the rope's too small, so it's
+
+104
+00:07:02,340 --> 00:07:03,340
+ going to break more frequently.
+
+105
+00:07:03,340 --> 00:07:08,740
+ So now I have to make the choice of, do I want to repair it more frequently with additional
+
+106
+00:07:08,740 --> 00:07:14,420
+ rope, or do I want to get a better foot hammock that's not going to have the fraying problems?
+
+107
+00:07:14,420 --> 00:07:16,560
+ So that's my predicament.
+
+108
+00:07:16,560 --> 00:07:20,680
+ The reason why that's front of mind is because the spool of rope I bought is next to me.
+
+109
+00:07:20,680 --> 00:07:24,580
+ I could have ordered, I don't know, like a small amount of rope, but this large amount
+
+110
+00:07:24,580 --> 00:07:26,560
+ of rope which I ordered was cheaper.
+
+111
+00:07:26,560 --> 00:07:28,980
+ It was like double the rope for a dollar.
+
+112
+00:07:28,980 --> 00:07:31,500
+ Like I'm looking at that spool and I just know that spool's going to be with me for
+
+113
+00:07:31,500 --> 00:07:32,500
+ like five years.
+
+114
+00:07:32,500 --> 00:07:36,820
+ I'd be like a strange sort of pet in the closet somewhere.
+
+115
+00:07:36,820 --> 00:07:41,020
+ It's just a two millimeter diameter natural rope, that's it.
+
+116
+00:07:41,020 --> 00:07:42,660
+ I should have got four millimeter diameter.
+
+117
+00:07:42,660 --> 00:07:44,380
+ Oh well, what are you going to do?
+
+118
+00:07:44,380 --> 00:07:48,260
+ I should always like change up the rigging of the foot hammock as well, like do my own
+
+119
+00:07:48,260 --> 00:07:50,820
+ sort of knots and that way it would last longer.
+
+120
+00:07:50,820 --> 00:07:53,180
+ So I'll do that if the current roping I've got fails.
+
+121
+00:07:53,180 --> 00:07:58,180
+ I know this is random, this is what happens when we have no questions, we talk about rope.
+
+122
+00:07:58,180 --> 00:08:00,460
+ Tabbing back over to take a look at questions.
+
+123
+00:08:00,460 --> 00:08:04,860
+ So we have a non-neos question, I reserve that because we have neos questions coming
+
+124
+00:08:04,860 --> 00:08:05,860
+ in.
+
+125
+00:08:05,860 --> 00:08:08,860
+ As Lincoln says, 21 people in on the office hour, but so little in here.
+
+126
+00:08:08,860 --> 00:08:11,780
+ Do you think I have a general "hey the thread exists", everyone just listening in?
+
+127
+00:08:11,780 --> 00:08:18,660
+ Yeah, if you want to ask questions, go in the thread, ask questions in the thread.
+
+128
+00:08:18,660 --> 00:08:22,700
+ Now an interesting question which is philosophical in nature from Dove here who says "would you
+
+129
+00:08:22,700 --> 00:08:27,880
+ say that VR as a whole is a form of escapism or more a form of a new social interaction
+
+130
+00:08:27,880 --> 00:08:28,880
+ or both?"
+
+131
+00:08:28,880 --> 00:08:31,260
+ It's true, neither.
+
+132
+00:08:31,260 --> 00:08:38,380
+ It can be used for escapism, due to current circumstances it has become less of an escapism
+
+133
+00:08:38,380 --> 00:08:44,900
+ for myself personally, but I get the whole escapism angle, I would encourage people that
+
+134
+00:08:44,900 --> 00:08:47,780
+ are using it in that way to ensure they're doing that healthily.
+
+135
+00:08:47,780 --> 00:08:53,180
+ You can get addicted to basically anything, so try not to get addicted to the escapism
+
+136
+00:08:53,180 --> 00:08:55,660
+ of VR.
+
+137
+00:08:55,660 --> 00:09:00,180
+ A new social interaction is also true, yes, so I'd probably say both.
+
+138
+00:09:00,180 --> 00:09:01,840
+ I think about it this way, right?
+
+139
+00:09:01,840 --> 00:09:06,040
+ So I live in a rental, and in a rental, as I'm sure you're aware, you're limited
+
+140
+00:09:06,040 --> 00:09:11,220
+ in what you can do to decorate, and so most of the time you're gonna find that it's
+
+141
+00:09:11,220 --> 00:09:16,620
+ like, hard wood furniture that you take to each rental that you live in, not much stuff
+
+142
+00:09:16,620 --> 00:09:21,040
+ on the walls, and white walls or beige walls or that horrible grey colour they sometimes
+
+143
+00:09:21,040 --> 00:09:22,540
+ paint apartments, right?
+
+144
+00:09:22,540 --> 00:09:28,140
+ But if I put on a headset, no matter which rental I live in, I can be on the moon, I
+
+145
+00:09:28,140 --> 00:09:34,940
+ can walk along the Great Wall of China, I can go to a nice field, I can touch grass.
+
+146
+00:09:34,940 --> 00:09:36,480
+ That's escapism.
+
+147
+00:09:36,480 --> 00:09:39,880
+ But I can also put on my headset and speak to people from all across the world.
+
+148
+00:09:39,880 --> 00:09:45,720
+ I don't know if, yep, they're here listening, so I see Soap, Admiral Soap, moderator from
+
+149
+00:09:45,720 --> 00:09:48,060
+ our community here, they're in Finland, right?
+
+150
+00:09:48,060 --> 00:09:52,800
+ I don't know anyone in Finland until I walked VR, now I know someone in Finland!
+
+151
+00:09:52,800 --> 00:09:53,800
+ It's cool.
+
+152
+00:09:53,800 --> 00:09:55,800
+ Sorry to call you out, Soap.
+
+153
+00:09:55,800 --> 00:09:57,980
+ Yeah, moving onwards.
+
+154
+00:09:57,980 --> 00:10:03,820
+ Lax says "I found that the OnStartLogix node doesn't fire when I'd like it to when
+
+155
+00:10:03,820 --> 00:10:06,900
+ loading the worldstroke object that it's in.
+
+156
+00:10:06,900 --> 00:10:08,980
+ It fired before the logic's fully loaded, breaking the chain.
+
+157
+00:10:08,980 --> 00:10:13,840
+ Would you know a way to make the logics, to make a logic's pulse, pulses whenever a user
+
+158
+00:10:13,840 --> 00:10:17,420
+ is loaded into the world, just the data without the assets?"
+
+159
+00:10:17,420 --> 00:10:18,420
+ Have you tried OnLoaded?
+
+160
+00:10:18,420 --> 00:10:19,420
+ Is it onloaded?
+
+161
+00:10:19,420 --> 00:10:22,000
+ Am I just forgetting now?
+
+162
+00:10:22,000 --> 00:10:27,020
+ You know how you navigate it to every logic's folder on the planet multiple times, but you
+
+163
+00:10:27,020 --> 00:10:29,180
+ just forget?
+
+164
+00:10:29,180 --> 00:10:32,140
+ You forget what's in each one.
+
+165
+00:10:32,140 --> 00:10:38,340
+ I'd have to look into how OnStart works, and those event nodes in more detail.
+
+166
+00:10:38,340 --> 00:10:44,460
+ I know I always confuse OnStart with OnLoad, which is why I think it exists.
+
+167
+00:10:44,460 --> 00:10:50,220
+ Sometimes I also have fun when I use OnDuplicate, and then I forget, and I duplicate the grab
+
+168
+00:10:50,220 --> 00:10:52,620
+ instancer thingamabobby.
+
+169
+00:10:52,620 --> 00:10:55,700
+ To explain that better without using the phrase "thingamabobby", because that doesn't
+
+170
+00:10:55,700 --> 00:10:59,980
+ make any sense, let's say you have a grab instancer, which is where you grab something
+
+171
+00:10:59,980 --> 00:11:06,860
+ and it makes a clone of something, and then you have an OnDuplicate node on that template,
+
+172
+00:11:06,860 --> 00:11:10,140
+ then it'll run some logic when you grab instancer.
+
+173
+00:11:10,140 --> 00:11:15,140
+ But it'll also run that if you happen to duplicate the template holder.
+
+174
+00:11:15,140 --> 00:11:19,940
+ So let's say you have a bowl of cookies, where the cookie graphic is a baked mesh,
+
+175
+00:11:19,940 --> 00:11:23,540
+ and when you grab on the bowl of cookies it spawns a single cookie, and that's what
+
+176
+00:11:23,540 --> 00:11:27,140
+ you grab with the grab instancer, and I don't know, the cookie makes an explosion noise
+
+177
+00:11:27,140 --> 00:11:31,860
+ when you grab it because of OnDuplicate, if you duplicate the table that the cookies are
+
+178
+00:11:31,860 --> 00:11:36,860
+ on, you'll get an explosion noise, which is often fun.
+
+179
+00:11:36,860 --> 00:11:37,860
+ Try OnStart.
+
+180
+00:11:37,860 --> 00:11:40,460
+ Wait, not OnStart, OnLoaded.
+
+181
+00:11:40,460 --> 00:11:47,260
+ There's also the hacky thing that the playerlist module thing in the mystic-ford, no not mystic-ford,
+
+182
+00:11:47,260 --> 00:11:55,580
+ the polylogics folder does, they see if a localised boolean is true, and use that to
+
+183
+00:11:55,580 --> 00:11:57,300
+ do their playerlist, that might work.
+
+184
+00:11:57,300 --> 00:11:59,460
+ Alright we have a question, good.
+
+185
+00:11:59,460 --> 00:12:04,460
+ Playercovey says "Semi-blender to Neo's question, I made a 3D model of a text and
+
+186
+00:12:04,460 --> 00:12:08,820
+ it was made in a special font where it is more complicated than Times New Roman, but
+
+187
+00:12:08,820 --> 00:12:12,700
+ important to Neo some letters, p's and o's and sometimes a is important to any words
+
+188
+00:12:12,700 --> 00:12:15,020
+ in concave or not to keep the arches.
+
+189
+00:12:15,020 --> 00:12:17,820
+ I can continue to find a way to solve this problem via the question channel but not show
+
+190
+00:12:17,820 --> 00:12:21,100
+ this common issue for Neo's invention where it prefers more flat surface rather than complex
+
+191
+00:12:21,100 --> 00:12:22,100
+ holes in 3D models.
+
+192
+00:12:22,100 --> 00:12:24,500
+ I can absolutely help you out there.
+
+193
+00:12:24,500 --> 00:12:28,900
+ Before you export that piece of text you need to triangulate it.
+
+194
+00:12:28,900 --> 00:12:33,620
+ I predict this is what's happening, I don't know for certain, but try this.
+
+195
+00:12:33,620 --> 00:12:39,960
+ There is an operation you can do in edit mode, or you can use it as a modifier in the modifier
+
+196
+00:12:39,960 --> 00:12:47,040
+ stack of Blender, where it will convert any weird geometry down to triangles before export,
+
+197
+00:12:47,040 --> 00:12:51,260
+ and that will generically help with that kind of thing.
+
+198
+00:12:51,260 --> 00:13:00,380
+ The importer that we use for models and meshes etc doesn't like weird vertex stuff.
+
+199
+00:13:00,380 --> 00:13:07,080
+ I'd love to state that quads are the way of the future, because of course they are, but
+
+200
+00:13:07,080 --> 00:13:10,540
+ in some cases you just need triangles, man.
+
+201
+00:13:10,540 --> 00:13:15,860
+ Some of the export options on Blender will also do an auto-triangulate before export,
+
+202
+00:13:15,860 --> 00:13:18,740
+ I can't remember which ones will do that though.
+
+203
+00:13:18,740 --> 00:13:19,740
+ Triangulation is the problem.
+
+204
+00:13:19,740 --> 00:13:24,660
+ Yeah, try triangulation, and then from there we can try some other stuff.
+
+205
+00:13:24,660 --> 00:13:30,820
+ The other thing you have to check is to make sure that it's not generating any upside down
+
+206
+00:13:30,820 --> 00:13:31,820
+ normals.
+
+207
+00:13:31,820 --> 00:13:35,060
+ If it's doing that, then you might see some oddities as well.
+
+208
+00:13:35,060 --> 00:13:38,940
+ So once you've generated the text you could look at sort of recalculating the normals
+
+209
+00:13:38,940 --> 00:13:39,940
+ as well.
+
+210
+00:13:39,940 --> 00:13:43,660
+ With that, I don't see many additional questions coming in, so do remember if you are listening
+
+211
+00:13:43,660 --> 00:13:46,660
+ and want to ask a question about NES, please drop it in the Office Hours text chat, there's
+
+212
+00:13:46,660 --> 00:13:50,380
+ a few channels about the one you're currently staring at.
+
+213
+00:13:50,380 --> 00:13:55,260
+ I keep forgetting that stages now have chat, so maybe at some point we'll swap to using
+
+214
+00:13:55,260 --> 00:14:00,780
+ the stage chat, because that actually would help the whole "where do we ask questions"
+
+215
+00:14:00,780 --> 00:14:01,780
+ thing.
+
+216
+00:14:01,780 --> 00:14:04,940
+ Thank you for those who are redirecting those things.
+
+217
+00:14:04,940 --> 00:14:10,460
+ Yeah, soap says "don't know if we can archive stage chats the same way" I'm not sure either.
+
+218
+00:14:10,460 --> 00:14:17,900
+ It's really weird how with a handful of additional features or tweaks, Discord could be a really
+
+219
+00:14:17,900 --> 00:14:22,220
+ good app for this sort of things.
+
+220
+00:14:22,220 --> 00:14:23,780
+ For this sort of things, you know what I mean.
+
+221
+00:14:23,780 --> 00:14:25,500
+ For these sort of things.
+
+222
+00:14:25,500 --> 00:14:27,340
+ But it kind of misses it.
+
+223
+00:14:27,340 --> 00:14:33,820
+ Moving forward, we have a question from Lex, who says "how does the world relation enum
+
+224
+00:14:33,820 --> 00:14:40,260
+ on the open world logics node and link component work?"
+
+225
+00:14:40,260 --> 00:14:45,540
+ So that is a holdover from some of the old stuff that we don't really use anymore.
+
+226
+00:14:45,540 --> 00:14:51,540
+ I'm not quite sure we haven't removed that, because it's almost almost better to use independent
+
+227
+00:14:51,540 --> 00:14:53,700
+ these days.
+
+228
+00:14:53,700 --> 00:15:03,780
+ So if you remember the balls in your hand that you would use to switch worlds, if anyone
+
+229
+00:15:03,780 --> 00:15:08,940
+ is new to NES, I apologise, this next like five minutes is going to sound like a fever
+
+230
+00:15:08,940 --> 00:15:09,940
+ dream.
+
+231
+00:15:09,940 --> 00:15:11,180
+ Legacy World Switcher, there you go.
+
+232
+00:15:11,180 --> 00:15:13,020
+ I just called it like the balls in my hands.
+
+233
+00:15:13,020 --> 00:15:18,100
+ I called it much more offensive names occasionally.
+
+234
+00:15:18,100 --> 00:15:21,040
+ Lollipop Menu is something else that people called it.
+
+235
+00:15:21,040 --> 00:15:22,580
+ It's called the Legacy World Switcher.
+
+236
+00:15:22,580 --> 00:15:27,980
+ The Legacy World Switcher formed a sort of branching tree pattern based on the worlds
+
+237
+00:15:27,980 --> 00:15:34,100
+ that you opened, and it was sort of like where they came from, how you linked into them,
+
+238
+00:15:34,100 --> 00:15:35,540
+ and things like that.
+
+239
+00:15:35,540 --> 00:15:39,900
+ Those are what those enums usually control.
+
+240
+00:15:39,900 --> 00:15:44,460
+ So the first one, where were the values?
+
+241
+00:15:44,460 --> 00:15:48,100
+ Whoever deleted the values, I'm going to like shake your fist, because I was going to run
+
+242
+00:15:48,100 --> 00:15:54,620
+ through them in a list, so put the values back, and I'll go through them in a list!
+
+243
+00:15:54,620 --> 00:15:57,860
+ I didn't have them to hand!
+
+244
+00:15:57,860 --> 00:15:59,540
+ Independent Nest and Replace, I think.
+
+245
+00:15:59,540 --> 00:16:01,900
+ There we go, thank you so much, Linker.
+
+246
+00:16:01,900 --> 00:16:08,100
+ So Independent makes an independent branch on that World Switcher, so it'll just be a
+
+247
+00:16:08,100 --> 00:16:13,220
+ new branch that occurs, like a new branch.
+
+248
+00:16:13,220 --> 00:16:18,140
+ Nest will usually make it an extension of an existing branch, so the branch will extend
+
+249
+00:16:18,140 --> 00:16:26,420
+ by one length, and then Replace, I believe Replace will close the session that you're
+
+250
+00:16:26,420 --> 00:16:32,860
+ currently in, and load you into the new session of the OpenWorld Logics node in the same place
+
+251
+00:16:32,860 --> 00:16:34,460
+ in the tree as that one.
+
+252
+00:16:34,460 --> 00:16:37,060
+ Like I said, I don't know why that still exists.
+
+253
+00:16:37,060 --> 00:16:39,900
+ There may be some additional behaviour that happens there, because I do know there is
+
+254
+00:16:39,900 --> 00:16:41,940
+ still an order to sessions.
+
+255
+00:16:41,940 --> 00:16:53,020
+ Even with sessions now being either in the World
+
+256
+00:16:53,020 --> 00:17:19,980
+ or in the
+
+257
+00:17:19,980 --> 00:17:27,580
+ links from messages and contacts and invites and stuff like that, it just -- I'd love to
+
+258
+00:17:27,580 --> 00:17:30,340
+ standardize that down a little bit further so it makes sense.
+
+259
+00:17:30,340 --> 00:17:36,540
+ In fact, you know after a hard night of Neos partying on your legacy World Switcher, it
+
+260
+00:17:36,540 --> 00:17:37,740
+ looks like a complete mess?
+
+261
+00:17:37,740 --> 00:17:42,740
+ In some cases, that's what the World Manager code looks like when you're starting sessions.
+
+262
+00:17:42,740 --> 00:17:43,740
+ Just like, wait, where are we?
+
+263
+00:17:43,740 --> 00:17:45,860
+ Oh yeah, I'm in the code which does it from the website.
+
+264
+00:17:45,860 --> 00:17:47,980
+ I should be in the code that does it from the World Link component.
+
+265
+00:17:47,980 --> 00:17:49,700
+ Okay, here we go, let's go over here.
+
+266
+00:17:49,700 --> 00:17:53,900
+ Ooh, that's a good question there from Player Cody, who says "Is there a component on a
+
+267
+00:17:53,900 --> 00:17:58,900
+ 3D model where any all applied materials will fix the stretch size, you need a rectangle
+
+268
+00:17:58,900 --> 00:18:00,220
+ shape to look like a wall?
+
+269
+00:18:00,220 --> 00:18:03,580
+ I see that two out of the four sides will look natural when applying materials with
+
+270
+00:18:03,580 --> 00:18:05,860
+ siding, when the other two sides will look stretched."
+
+271
+00:18:05,860 --> 00:18:08,980
+ That is UV mapping.
+
+272
+00:18:08,980 --> 00:18:13,660
+ We're unfortunately limited in the support that we can provide in-game to edit those
+
+273
+00:18:13,660 --> 00:18:17,540
+ UV mappings of those primitives right now.
+
+274
+00:18:17,540 --> 00:18:20,820
+ So that's what you're experiencing there.
+
+275
+00:18:20,820 --> 00:18:26,020
+ You can mess with on the primitives, usually there's a UV scale input box for UV scale,
+
+276
+00:18:26,020 --> 00:18:27,020
+ so you can try that.
+
+277
+00:18:27,020 --> 00:18:31,780
+ There is also UV scale on, it's usually called texture scale though, on the materials, you
+
+278
+00:18:31,780 --> 00:18:33,220
+ can try that.
+
+279
+00:18:33,220 --> 00:18:36,100
+ If all else fails, you can try a triplanar material.
+
+280
+00:18:36,100 --> 00:18:44,060
+ When it comes to triplanar, I use that as sort of like the last vestige of sanity, because
+
+281
+00:18:44,060 --> 00:18:47,520
+ I believe there is a performance cost to the triplanar one.
+
+282
+00:18:47,520 --> 00:18:51,220
+ There is also the problem with the triplanar, which is if you move the object you'll start
+
+283
+00:18:51,220 --> 00:18:53,340
+ to see the triplanar scrolling.
+
+284
+00:18:53,340 --> 00:18:57,860
+ You can fix that by checking the object space checkbox in the material for that though.
+
+285
+00:18:57,860 --> 00:19:01,600
+ When checking object space into it, it messes up all the scale components because it recalculates
+
+286
+00:19:01,600 --> 00:19:04,940
+ like all the maths and you're like "Ah, my texture scale is wrong now, I need to replace
+
+287
+00:19:04,940 --> 00:19:07,220
+ it with more numbers!"
+
+288
+00:19:07,220 --> 00:19:08,580
+ So I've come across that a lot.
+
+289
+00:19:08,580 --> 00:19:13,460
+ A good example for triplanar that occurs is the convex hole rock brushes, I believe those
+
+290
+00:19:13,460 --> 00:19:18,380
+ use triplanar by default, because they're sort of undefined objects until the convex
+
+291
+00:19:18,380 --> 00:19:19,380
+ hole is drawn.
+
+292
+00:19:19,380 --> 00:19:22,820
+ You can see an in-game UV editor in the future, that would be great, you'd be able to fix
+
+293
+00:19:22,820 --> 00:19:23,820
+ up stuff like that.
+
+294
+00:19:23,820 --> 00:19:33,140
+ I know that's part of the logic from the Ringen and the Nylander that Sloppy made, they made
+
+295
+00:19:33,140 --> 00:19:38,460
+ a lot of custom geometry for that tool, where the UVs were set up in a particular way to
+
+296
+00:19:38,460 --> 00:19:44,420
+ make that sort of problem less prevalent.
+
+297
+00:19:44,420 --> 00:19:46,780
+ Trizes and triangles, yes, playcoding.
+
+298
+00:19:46,780 --> 00:19:47,780
+ That might work.
+
+299
+00:19:47,780 --> 00:19:51,160
+ I haven't personally seen that fix it, but if it works, then it works.
+
+300
+00:19:51,160 --> 00:19:54,460
+ With that, I don't see any additional questions, and we are at the limit.
+
+301
+00:19:54,460 --> 00:20:00,280
+ Well, one of the possible limits that occurs depends on the conversation currently happening.
+
+302
+00:20:00,280 --> 00:20:02,740
+ So any last call for questions?
+
+303
+00:20:02,740 --> 00:20:05,620
+ Anyone got any additional questions?
+
+304
+00:20:05,620 --> 00:20:08,500
+ Thanks, Duff.
+
+305
+00:20:08,500 --> 00:20:10,740
+ Did I miss 4.11?
+
+306
+00:20:10,740 --> 00:20:16,620
+ I'll double check that, because I thought I did 4.11 before I went over to vacation.
+
+307
+00:20:16,620 --> 00:20:17,620
+ I'll get them fixed up and linked.
+
+308
+00:20:17,620 --> 00:20:23,140
+ I know it takes a while, it's just because sometimes I need my computer's resources,
+
+309
+00:20:23,140 --> 00:20:26,540
+ and running the text through transcription is taking a lot.
+
+310
+00:20:26,540 --> 00:20:34,820
+ I do need to do the whole "I'm a nerdy male who lives alone in their apartment, let me
+
+311
+00:20:34,820 --> 00:20:39,540
+ put a server rack in the corner" I need to do that, but I've got time for that, and then
+
+312
+00:20:39,540 --> 00:20:43,820
+ I'll be able to run it on that, but I need PC resources to do stuff sometimes.
+
+313
+00:20:43,820 --> 00:20:46,020
+ So I'll try and get that up to date.
+
+314
+00:20:46,020 --> 00:20:48,460
+ Angry says "Why are Qods better than Trize?"
+
+315
+00:20:48,460 --> 00:20:56,980
+ Qods are easily manipulatable in Blender, using quad-based operations, things like edge rings,
+
+316
+00:20:56,980 --> 00:21:01,220
+ edge loops, various other terminologies for that.
+
+317
+00:21:01,220 --> 00:21:06,980
+ If you just imagine an elastic band around your arm, and you slide that elastic band
+
+318
+00:21:06,980 --> 00:21:13,260
+ up and down your arm, that is what the topology of an arm on an avatar should look like in
+
+319
+00:21:13,260 --> 00:21:14,260
+ Qods, right?
+
+320
+00:21:14,260 --> 00:21:20,760
+ It should look like that, and each time you move that elastic band, that would be a loop
+
+321
+00:21:20,760 --> 00:21:25,440
+ of Qods that are linked together, and you can subdivide those Qods really easily by
+
+322
+00:21:25,440 --> 00:21:31,380
+ just splitting them in half down the midpoint, and then you have two Qods on either side.
+
+323
+00:21:31,380 --> 00:21:39,320
+ The problems that occur with those is that some engine, some importing thing, some shaders,
+
+324
+00:21:39,320 --> 00:21:44,540
+ some textures, some stuff like that, can't deal with them as well.
+
+325
+00:21:44,540 --> 00:21:49,540
+ They need the extra information that occurs from the extra triangles in triangles.
+
+326
+00:21:49,540 --> 00:21:54,540
+ So a Quad is four points, and to represent a Quad in triangles, you usually will double
+
+327
+00:21:54,540 --> 00:22:00,200
+ up each of those points, because then you have a triangle where two of the points overlap
+
+328
+00:22:00,200 --> 00:22:02,120
+ between the two triangles.
+
+329
+00:22:02,120 --> 00:22:04,560
+ With that, I'm going to go ahead and leave off there.
+
+330
+00:22:04,560 --> 00:22:08,180
+ I'll get the notes updated as soon as I can, like I said, and if you have any additional
+
+331
+00:22:08,180 --> 00:22:12,820
+ questions, please drop them in the Questions at Help channel, or direct message me directly.
+
+332
+00:22:12,820 --> 00:22:14,820
+ That's a redundant statement.
+
+333
+00:22:14,820 --> 00:22:17,140
+ And I will see you again next week for more Office Hours.
+
+334
+00:22:17,140 --> 00:22:18,860
+ Make sure to bring your best questions.
+
+335
+00:22:18,860 --> 00:22:19,860
+ Speak to you soon.
+

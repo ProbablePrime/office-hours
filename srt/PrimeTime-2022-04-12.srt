@@ -1,0 +1,1972 @@
+1
+0:00:00.000 --> 0:00:04.480
+Okay, it is the top of the hour, so welcome to prime time for documentation, tutorials
+
+2
+0:00:04.480 --> 0:00:05.880
+and questions about Neas.
+
+3
+0:00:05.880 --> 0:00:10.060
+Please drop your questions in the office hours chat and we'll get to them as soon as we can.
+
+4
+0:00:10.060 --> 0:00:16.040
+I don't see any questions right now, so until there are questions appearing, I don't know.
+
+5
+0:00:16.040 --> 0:00:20.800
+That monkey with the clapping cymbals, yes.
+
+6
+0:00:20.800 --> 0:00:40.720
+Yes, until there are questions.
+
+7
+0:00:40.720 --> 0:01:08.720
+Sorry, I don't answer cheese questions, just some questions about Neas, makes things easier.
+
+8
+0:01:08.720 --> 0:01:19.160
+I will answer that one, I will.
+
+9
+0:01:19.160 --> 0:01:22.360
+So Jamikar asks how my day has been.
+
+10
+0:01:22.360 --> 0:01:25.000
+Good, yes, I have consumed way too much caffeine.
+
+11
+0:01:25.000 --> 0:01:30.400
+I don't remember eating lunch, so I'll probably sort that out after this.
+
+12
+0:01:30.400 --> 0:01:32.800
+It's also warming up a bit, which is great.
+
+13
+0:01:32.800 --> 0:01:36.720
+I'm not looking forward to the summer, where it's going to be sort of air conditioning
+
+14
+0:01:36.720 --> 0:01:44.040
+as well, but we're a little bit away from that just right now, so it's still cold sometimes.
+
+15
+0:01:44.040 --> 0:01:50.520
+Okay, next question, which is from Gun Griffin, which says what point does the world preview
+
+16
+0:01:50.520 --> 0:01:52.160
+get rendered from?
+
+17
+0:01:52.160 --> 0:01:57.480
+World preview systems are very complicated depending on what the setup in the world is.
+
+18
+0:01:57.480 --> 0:02:04.760
+Assuming a default world, it will get rendered randomly based on the geographic position
+
+19
+0:02:04.760 --> 0:02:06.620
+of players who've been there.
+
+20
+0:02:06.620 --> 0:02:09.600
+Actually periodically, I don't know the period, I think it's like every couple minutes, maybe
+
+21
+0:02:09.600 --> 0:02:15.200
+every minute, I don't know the answer to that one.
+
+22
+0:02:15.200 --> 0:02:21.200
+Every computer that is connected to Neos session will take a photo of the perspective of that
+
+23
+0:02:21.200 --> 0:02:26.680
+user, and then there is sort of like a negotiation or exchange process that goes between the
+
+24
+0:02:26.680 --> 0:02:32.920
+users in the session to figure out, hey, which is the most up to date thumbnail or session
+
+25
+0:02:32.920 --> 0:02:34.360
+preview, et cetera.
+
+26
+0:02:34.360 --> 0:02:40.360
+And then that most up to date one will then be shared with the actual systems that run
+
+27
+0:02:40.360 --> 0:02:47.880
+our sessions, et cetera, and that's the one you see.
+
+28
+0:02:47.880 --> 0:02:50.800
+You can check more out there.
+
+29
+0:02:50.800 --> 0:02:56.280
+If you've got any of the components which are enabled, et cetera, then it will vary.
+
+30
+0:02:56.280 --> 0:03:04.720
+The listing is right there for what they will do.
+
+31
+0:03:04.720 --> 0:03:08.920
+Moving onwards to the next question here, which is, is there work being done on Neostruth
+
+32
+0:03:08.920 --> 0:03:09.920
+during this time?
+
+33
+0:03:09.920 --> 0:03:10.920
+Yeah, we're doing a few things.
+
+34
+0:03:10.920 --> 0:03:15.120
+We don't really have much to share about what we're doing or who we're doing, but like I
+
+35
+0:03:15.120 --> 0:03:20.120
+got lots of stuff happening, occasionally I edit the code, add stuff.
+
+36
+0:03:20.120 --> 0:03:24.600
+The next update should have like a ton of prime stuff, basically, it's cool.
+
+37
+0:03:24.600 --> 0:03:27.720
+So you'll see.
+
+38
+0:03:27.720 --> 0:03:28.880
+The roadmap is still up to date.
+
+39
+0:03:28.880 --> 0:03:32.040
+If the roadmap wasn't up to date, I would update it, trust me.
+
+40
+0:03:32.040 --> 0:03:40.080
+But other than that, yeah, we're doing as much stuff as we can.
+
+41
+0:03:40.080 --> 0:03:55.120
+Yeah, that's all the questions I have currently.
+
+42
+0:03:55.120 --> 0:04:02.320
+Yeah, you won't see much updates.
+
+43
+0:04:02.320 --> 0:04:03.760
+We're not releasing updates right now.
+
+44
+0:04:03.760 --> 0:04:11.880
+We are doing stuff and the roadmap's up to date, but we're not releasing updates.
+
+45
+0:04:11.880 --> 0:04:16.040
+I get it, it's confusing, et cetera, but remember, the roadmap's up to date.
+
+46
+0:04:16.040 --> 0:04:21.080
+So like look at the roadmap and imagine us doing stuff.
+
+47
+0:04:21.080 --> 0:04:24.600
+Who asks what is prime stuff?
+
+48
+0:04:24.600 --> 0:04:28.240
+Some quality of life improvements, like for example getting the active slot from the collider
+
+49
+0:04:28.240 --> 0:04:30.040
+much easier than it is currently.
+
+50
+0:04:30.040 --> 0:04:33.400
+Yeah, there's a bunch of stuff in devlog which I've been posting.
+
+51
+0:04:33.400 --> 0:04:38.680
+There's random other stuff, which is like things along the lines of like I got annoyed,
+
+52
+0:04:38.680 --> 0:04:40.680
+so I implemented it.
+
+53
+0:04:40.680 --> 0:04:41.960
+They're a little bit difficult to describe.
+
+54
+0:04:41.960 --> 0:04:48.440
+I'd have to go take a look at what's actually made it in and then see which ones are still
+
+55
+0:04:48.440 --> 0:04:52.920
+pending, and then we'll see what's going on there.
+
+56
+0:04:52.920 --> 0:04:57.920
+Count occurrences was in devlog, collidery dudad, the grabadudad was in devlog.
+
+57
+0:04:57.920 --> 0:05:06.000
+There's one other one I can't remember, but yeah, a bunch of other random stuff is happening.
+
+58
+0:05:06.000 --> 0:05:08.680
+You can see what I'm working on generically by the assigned issues.
+
+59
+0:05:08.680 --> 0:05:12.320
+If you go to the issue list and you look at sort of assign to prime, those are the sort
+
+60
+0:05:12.320 --> 0:05:15.720
+of things I'm dabbling in when I get time.
+
+61
+0:05:15.720 --> 0:05:18.120
+So rubix asks when collections will be implemented.
+
+62
+0:05:18.120 --> 0:05:26.840
+We don't give ATAs check the roadmap for information on collections and when that might happen.
+
+63
+0:05:26.840 --> 0:05:36.000
+Crying asks where approximately on the priority list is a FTT or something that could enable
+
+64
+0:05:36.000 --> 0:05:37.760
+for analysis transforms.
+
+65
+0:05:37.760 --> 0:05:43.200
+So if you check your look in devlog, Gaines did take a look at making FTT and got things
+
+66
+0:05:43.200 --> 0:05:44.200
+working.
+
+67
+0:05:44.200 --> 0:05:47.480
+I don't think that aligned to some sort of architectural problems that we had in NIRS.
+
+68
+0:05:47.480 --> 0:05:49.880
+We might have to redo that one.
+
+69
+0:05:49.880 --> 0:05:51.320
+So take a look on the roadmap.
+
+70
+0:05:51.320 --> 0:05:55.120
+We don't really have an NTA on when that would occur.
+
+71
+0:05:55.120 --> 0:05:58.800
+I know it looks cool to see it working in the game, but there's a difference from working
+
+72
+0:05:58.800 --> 0:06:05.280
+in the game as a quick sort of hacky project compared to working in the game, something
+
+73
+0:06:05.280 --> 0:06:06.800
+that can actually be released.
+
+74
+0:06:06.800 --> 0:06:11.240
+It's very difficult to unreleased stuff, so that's why we try to make sure everything's
+
+75
+0:06:11.240 --> 0:06:15.840
+cool, secure, update, future proofed, et cetera, before we actually release it.
+
+76
+0:06:15.840 --> 0:06:18.800
+That was actually a large problem with the counter occurrences node.
+
+77
+0:06:18.800 --> 0:06:22.920
+I wrote that thing like three times because the particular way that we were counting the
+
+78
+0:06:22.920 --> 0:06:28.160
+occurrences in a string could have been problematic, but then we made it a different way that was
+
+79
+0:06:28.160 --> 0:06:32.520
+slightly less problematic, and then we just went ahead and benchmarked all of them and
+
+80
+0:06:32.520 --> 0:06:37.280
+found a way that is something like 200 times faster than the previous three ways I was
+
+81
+0:06:37.280 --> 0:06:38.280
+doing it.
+
+82
+0:06:38.280 --> 0:06:39.280
+Always fun.
+
+83
+0:06:39.280 --> 0:06:41.800
+Especially when you're reading the C sharp source.
+
+84
+0:06:41.800 --> 0:06:43.360
+I don't really know why we did that.
+
+85
+0:06:43.360 --> 0:06:44.480
+We just did.
+
+86
+0:06:44.480 --> 0:06:48.240
+Sometimes we do that.
+
+87
+0:06:48.240 --> 0:06:51.040
+If you, you know, too long didn't read on that is check the roadmap.
+
+88
+0:06:51.040 --> 0:06:54.640
+I know it doesn't look like it's moving, but the thing that you need to remember is that
+
+89
+0:06:54.640 --> 0:07:01.080
+even if a roadmap is not moving, it still represents work that is occurring.
+
+90
+0:07:01.080 --> 0:07:04.640
+So it's sometimes normal to not see it moving because work is still occurring.
+
+91
+0:07:04.640 --> 0:07:06.360
+It's not like work is not occurring.
+
+92
+0:07:06.360 --> 0:07:07.360
+Work is occurring.
+
+93
+0:07:07.360 --> 0:07:14.960
+It just is nothing we can share, really.
+
+94
+0:07:14.960 --> 0:07:17.960
+Moving onwards from Nessie.
+
+95
+0:07:17.960 --> 0:07:24.760
+I have a question here from Nessie, which says, is there anything good you can say about
+
+96
+0:07:24.760 --> 0:07:28.200
+the unfolding situation with NCR?
+
+97
+0:07:28.200 --> 0:07:31.320
+There are good things to say, but you can't come up with something to understand.
+
+98
+0:07:31.320 --> 0:07:32.320
+Sorry for the NCR focus.
+
+99
+0:07:32.320 --> 0:07:38.200
+I supported Neo since before crypto brews knew existed, but I'm, of course, highly impacted
+
+100
+0:07:38.200 --> 0:07:39.200
+by the situation.
+
+101
+0:07:39.200 --> 0:07:43.000
+Would like to see some better integration used for the marketplace job system.
+
+102
+0:07:43.000 --> 0:07:45.640
+Everything I have to say on that matter is in the announcements channel.
+
+103
+0:07:45.640 --> 0:07:48.880
+There is nothing else I can say about that.
+
+104
+0:07:48.880 --> 0:07:51.320
+Check the announcements channel.
+
+105
+0:07:51.320 --> 0:07:56.000
+Stance, et cetera.
+
+106
+0:07:56.000 --> 0:08:08.520
+They're on the announcements channel.
+
+107
+0:08:08.520 --> 0:08:10.480
+That's a slightly different question from crying surrogate.
+
+108
+0:08:10.480 --> 0:08:13.960
+They're asking about buying storage.
+
+109
+0:08:13.960 --> 0:08:16.520
+You can still supply to the Patreon.
+
+110
+0:08:16.520 --> 0:08:21.240
+I know everyone's like, don't blah, blah, blah, blah.
+
+111
+0:08:21.240 --> 0:08:27.440
+The things from Patreon that are still going towards stuff that you need still exist, though.
+
+112
+0:08:27.440 --> 0:08:31.800
+Some portion of the Patreon goes to paying for our services.
+
+113
+0:08:31.800 --> 0:08:34.800
+Those services that are paid for then pay for your storage.
+
+114
+0:08:34.800 --> 0:08:37.400
+Hence why we give you storage when you become a Patreon.
+
+115
+0:08:37.400 --> 0:08:39.480
+So don't cancel it if you need storage.
+
+116
+0:08:39.480 --> 0:08:42.240
+Just drop it down or stuff like that.
+
+117
+0:08:42.240 --> 0:08:44.980
+And then that way, you'll get the storage that you actually need.
+
+118
+0:08:44.980 --> 0:08:48.760
+You'll still show your opinion by dropping the Patreon.
+
+119
+0:08:48.760 --> 0:09:14.760
+You won't be outright losing access to storage.
+
+120
+0:09:14.760 --> 0:09:25.960
+Just on the list of questions we have.
+
+121
+0:09:25.960 --> 0:09:31.640
+We are interested in additional ways of gaining storage in the future.
+
+122
+0:09:31.640 --> 0:09:37.080
+Things like a permanent increase may be costing a certain amount of money or stuff like that.
+
+123
+0:09:37.080 --> 0:09:39.720
+But right now, those are the only two options that we have for storage.
+
+124
+0:09:39.720 --> 0:09:44.720
+If you have any particular ideas about additional storage ideas, open up a GitHub for your idea
+
+125
+0:09:44.720 --> 0:09:45.720
+that you have.
+
+126
+0:09:45.720 --> 0:09:46.800
+I don't know.
+
+127
+0:09:46.800 --> 0:09:54.640
+Maybe if we send Prime Cheese, he'll give you storage.
+
+128
+0:09:54.640 --> 0:09:59.240
+Moving onwards, Gun Griffin asks, what's the general rule of thumb for user count when
+
+129
+0:09:59.240 --> 0:10:01.080
+hosting based on your internet upload speed?
+
+130
+0:10:01.080 --> 0:10:03.740
+There isn't a general rule.
+
+131
+0:10:03.740 --> 0:10:06.080
+It's based on a lot of things.
+
+132
+0:10:06.080 --> 0:10:08.880
+People imagine it as being a hard and fast rule.
+
+133
+0:10:08.880 --> 0:10:10.800
+The same thing goes with system requirements.
+
+134
+0:10:10.800 --> 0:10:15.040
+It depends on what you're doing, who you are, what the other people are doing, what their
+
+135
+0:10:15.040 --> 0:10:19.160
+computers are like, what their internet connection is like, where they are, all sorts of stuff
+
+136
+0:10:19.160 --> 0:10:20.160
+like that.
+
+137
+0:10:20.160 --> 0:10:23.280
+You need to factor that all in together.
+
+138
+0:10:23.280 --> 0:10:27.880
+You can measure the data requirements of an individual user and then extrapolate from
+
+139
+0:10:27.880 --> 0:10:28.880
+that.
+
+140
+0:10:28.880 --> 0:10:32.320
+But I just don't give recommendations on that.
+
+141
+0:10:32.320 --> 0:10:44.640
+The question is too vague, what do you want?
+
+142
+0:10:44.640 --> 0:10:48.460
+Hack 13 asks, is there any news progress on the switch to auth version of the NEEUS web
+
+143
+0:10:48.460 --> 0:10:49.460
+login system?
+
+144
+0:10:49.460 --> 0:10:52.000
+That's a bit of a sort of word soup question.
+
+145
+0:10:52.000 --> 0:10:55.280
+I'll try and extrapolate an answer, though.
+
+146
+0:10:55.280 --> 0:11:01.160
+That is on pause, whilst we deal with website related issues, sort of see announcements
+
+147
+0:11:01.160 --> 0:11:04.220
+on that one.
+
+148
+0:11:04.220 --> 0:11:11.920
+We need to basically rewrite 90 to 95% of the website to use the new systems and then
+
+149
+0:11:11.920 --> 0:11:14.760
+actually get some useful functionality in place.
+
+150
+0:11:14.760 --> 0:11:16.480
+We don't have any useful functionality there.
+
+151
+0:11:16.480 --> 0:11:20.960
+You can get the profile data via OAuth, but you can't get anything else like friends,
+
+152
+0:11:20.960 --> 0:11:24.020
+et cetera, stuff like that from the OAuth land.
+
+153
+0:11:24.020 --> 0:11:31.600
+That's just because we need to rewrite most of the web APIs to then use that new process.
+
+154
+0:11:31.600 --> 0:11:35.440
+Oh, hackers just updated things to say resetting password.
+
+155
+0:11:35.440 --> 0:11:40.560
+Resetting password, that can be done via any place, it will do it exactly the same.
+
+156
+0:11:40.560 --> 0:11:46.040
+You don't necessarily need it from the new system.
+
+157
+0:11:46.040 --> 0:11:47.320
+You can use the old system.
+
+158
+0:11:47.320 --> 0:11:49.320
+It's entirely up to you.
+
+159
+0:11:49.320 --> 0:11:52.240
+Doesn't matter either way.
+
+160
+0:11:52.240 --> 0:11:55.640
+If you wanted to reset your password another way, do you let me know or extrapolate on
+
+161
+0:11:55.640 --> 0:11:56.640
+the actual problem?
+
+162
+0:11:56.640 --> 0:11:57.640
+The old one?
+
+163
+0:11:57.640 --> 0:11:59.640
+Oh, no, I'd have to double check.
+
+164
+0:11:59.640 --> 0:12:07.280
+I'm sure you can do it on the old one, though.
+
+165
+0:12:07.280 --> 0:12:11.440
+Moving forwards to alpha.
+
+166
+0:12:11.440 --> 0:12:16.000
+Moving forwards to Svekin, who says what part of the snapper does the actual thinking, i.e.,
+
+167
+0:12:16.000 --> 0:12:19.960
+does a snapper check for snap targets or does the snap targets check if snappers are inside
+
+168
+0:12:19.960 --> 0:12:23.480
+the collider and do a lot of snap targets.
+
+169
+0:12:23.480 --> 0:12:26.960
+Neither part does the thinking.
+
+170
+0:12:26.960 --> 0:12:33.560
+Anything related to snappers, snapping, and grabable receivers, stuff like that, is actually
+
+171
+0:12:33.560 --> 0:12:40.640
+performed by the grabber, so if you think about grabbing something, there is always
+
+172
+0:12:40.640 --> 0:12:43.520
+an active user that is grabbing that because you're holding it.
+
+173
+0:12:43.520 --> 0:12:47.640
+When you drop something in the world, when you let go of it, that's what does the snapper
+
+174
+0:12:47.640 --> 0:12:48.640
+thinking.
+
+175
+0:12:48.640 --> 0:12:53.200
+So I am holding a snappable object near its snap target.
+
+176
+0:12:53.200 --> 0:12:59.480
+When I let go of that, the code which handles the letting go of it will go, cool, I have
+
+177
+0:12:59.480 --> 0:13:00.480
+snapper components.
+
+178
+0:13:00.480 --> 0:13:06.080
+I will do a physics calculation to figure out if I'm colliding with an appropriately
+
+179
+0:13:06.080 --> 0:13:09.840
+configured snap target, and then I will snap into it.
+
+180
+0:13:09.840 --> 0:13:14.080
+Once it's figured out if there is a snap target in place and that the object that you're dropping
+
+181
+0:13:14.080 --> 0:13:21.880
+is a snapper, it will instruct the snapper to do its job, but again, the predominant
+
+182
+0:13:21.880 --> 0:13:25.040
+thinking is via the grabable.
+
+183
+0:13:25.040 --> 0:13:31.640
+As for the performance problems or questions that you have, no, or not really in like general
+
+184
+0:13:31.640 --> 0:13:37.200
+use case, I can't think of many cases where you'd need like hundreds of snappers in existence.
+
+185
+0:13:37.200 --> 0:13:41.040
+There might be some sort of like, I don't know, puzzle game style stuff, but it's totally
+
+186
+0:13:41.040 --> 0:13:42.040
+fine.
+
+187
+0:13:42.040 --> 0:13:45.280
+Just remember when it comes to physics calculations, just use them.
+
+188
+0:13:45.280 --> 0:13:52.040
+I hate people who are like, I'm going to use manual mathematics rather than physics.
+
+189
+0:13:52.040 --> 0:13:54.720
+It's like, why?
+
+190
+0:13:54.720 --> 0:13:57.160
+Physics is already doing the manual mathematics for you.
+
+191
+0:13:57.160 --> 0:14:01.160
+They're like, yeah, active colliders are bad, and yes, active colliders are quite inherently
+
+192
+0:14:01.160 --> 0:14:04.560
+bad, but if you use them correctly, they're great.
+
+193
+0:14:04.560 --> 0:14:07.840
+Same thing goes with the grabable physics calculations.
+
+194
+0:14:07.840 --> 0:14:11.320
+Especially seeing as those are out of the way of you, like you can't influence them.
+
+195
+0:14:11.320 --> 0:14:15.020
+Those exist in code within our engine that you can't change.
+
+196
+0:14:15.020 --> 0:14:19.520
+If there was a performance problem with snappers or grabables, we'd fix it.
+
+197
+0:14:19.520 --> 0:14:20.520
+It's totally fine.
+
+198
+0:14:20.520 --> 0:14:24.960
+If it's just hats, scarves, bracelets, whatever you want to snap to your avatar, you're totally
+
+199
+0:14:24.960 --> 0:14:25.960
+fine.
+
+200
+0:14:25.960 --> 0:14:30.080
+If you've got a lot of snappables in the same location, hey, maybe that'll be a problem,
+
+201
+0:14:30.080 --> 0:14:34.640
+but that's really only going to come up in exact places, probably games.
+
+202
+0:14:34.640 --> 0:14:38.080
+Puzzle games will probably come up occasionally.
+
+203
+0:14:38.080 --> 0:14:40.200
+I'm not too worried about that.
+
+204
+0:14:40.200 --> 0:14:47.200
+You'd experience that in your individual experience that you're crafting.
+
+205
+0:14:47.200 --> 0:14:50.920
+Who asks what is the importance of being able to have a local storage that if you want to
+
+206
+0:14:50.920 --> 0:14:58.120
+save an item, I can save it to a local inventory instead of a local home with a bunch of objects?
+
+207
+0:14:58.120 --> 0:15:00.320
+Are you asking me what I think the importance is?
+
+208
+0:15:00.320 --> 0:15:04.040
+Are you asking where it's ranked in our priority list?
+
+209
+0:15:04.040 --> 0:15:06.280
+Are you asking are we thinking about it?
+
+210
+0:15:06.280 --> 0:15:16.720
+What's your question?
+
+211
+0:15:16.720 --> 0:15:17.720
+It is considered.
+
+212
+0:15:17.720 --> 0:15:18.720
+You can find a GitHub issue for it.
+
+213
+0:15:18.720 --> 0:15:20.240
+I won't be able to pull that out of my head.
+
+214
+0:15:20.240 --> 0:15:21.240
+It's not in there.
+
+215
+0:15:21.240 --> 0:15:28.720
+But there is some area where we're thinking about it to enable it as another storage option.
+
+216
+0:15:28.720 --> 0:15:30.320
+There's another one on the storage options I mean.
+
+217
+0:15:30.320 --> 0:15:35.960
+We are looking at other ways that we can provide storage to people on various types and platforms
+
+218
+0:15:35.960 --> 0:15:37.400
+and things like that.
+
+219
+0:15:37.400 --> 0:15:38.720
+It is on the list.
+
+220
+0:15:38.720 --> 0:15:41.240
+I would not be able to comment on the priority.
+
+221
+0:15:41.240 --> 0:15:42.240
+I don't know.
+
+222
+0:15:42.240 --> 0:15:43.240
+We don't give ETA's.
+
+223
+0:15:43.240 --> 0:15:46.440
+Check the roadmap for information.
+
+224
+0:15:46.440 --> 0:15:53.720
+If you like that feature, remember to thumbs up it on the GitHub and to vote on it using
+
+225
+0:15:53.720 --> 0:15:59.320
+your priority Patreon priority voting rights.
+
+226
+0:15:59.320 --> 0:16:10.080
+Moving on, do you know what single threaded bottlenecks might be in the engine?
+
+227
+0:16:10.080 --> 0:16:11.880
+Do you have any ideas on how to improve them?
+
+228
+0:16:11.880 --> 0:16:15.240
+There's lots of areas that Fruix is aware of that need to be improved.
+
+229
+0:16:15.240 --> 0:16:19.440
+There are also lots of areas that Gaines is aware of that need to be improved.
+
+230
+0:16:19.440 --> 0:16:24.040
+The single greatest improvement we can have right now is moving off of Unity.
+
+231
+0:16:24.040 --> 0:16:28.280
+That's really what Gaines is trying to focus on.
+
+232
+0:16:28.280 --> 0:16:32.560
+That's why you'll see stuff happening that isn't a weird or seemingly random order on
+
+233
+0:16:32.560 --> 0:16:33.560
+Gaines' land.
+
+234
+0:16:33.560 --> 0:16:39.280
+Gaines wants to get colors under control such that we can start moving to better systems.
+
+235
+0:16:39.280 --> 0:16:42.400
+That's something we would need before we start moving to better systems is to understand
+
+236
+0:16:42.400 --> 0:16:46.440
+the color spaces of all the content on there or it's going to start looking really weird
+
+237
+0:16:46.440 --> 0:16:49.440
+when we have to jump to different rendering engines.
+
+238
+0:16:49.440 --> 0:16:54.840
+Beyond that, the other cause of problem was that Bepu on physics we updated to Bepu 2.
+
+239
+0:16:54.840 --> 0:16:58.680
+There are a bunch of other cases which come up which don't seem like they would.
+
+240
+0:16:58.680 --> 0:17:04.360
+Any old UI that's using the old UI system isn't really designed for expandability scale
+
+241
+0:17:04.360 --> 0:17:07.800
+or anything like that, so that can be a problem.
+
+242
+0:17:07.800 --> 0:17:11.080
+I do believe as well from speaking to Fruix that there are some advancements that he wants
+
+243
+0:17:11.080 --> 0:17:13.920
+to make to the dynamic bone system to make that a little bit more performant.
+
+244
+0:17:13.920 --> 0:17:18.200
+If you really want to know more performance related stuff, I would probably head on over
+
+245
+0:17:18.200 --> 0:17:19.200
+to Gaines.
+
+246
+0:17:19.200 --> 0:17:20.920
+I know they're currently not doing office hours.
+
+247
+0:17:20.920 --> 0:17:24.880
+I was actually removing them from the active list on the office hours wiki page, but there
+
+248
+0:17:24.880 --> 0:17:30.760
+would be a better sort of ask about the general performance of the engine.
+
+249
+0:17:30.760 --> 0:17:35.400
+We do also have an optimization roadmap which has a lot of stuff pinned in there and listed
+
+250
+0:17:35.400 --> 0:17:36.400
+on there.
+
+251
+0:17:36.400 --> 0:17:40.400
+I know there's another one sort of in the areas of web requests where we want to move
+
+252
+0:17:40.400 --> 0:17:47.560
+a lot more stuff to signal R such that we can not have to poll.
+
+253
+0:17:47.560 --> 0:17:51.120
+Right now we do a lot of polling, which is basically every couple of seconds or however
+
+254
+0:17:51.120 --> 0:17:52.120
+long it is.
+
+255
+0:17:52.120 --> 0:17:53.120
+It's probably every 30 seconds.
+
+256
+0:17:53.120 --> 0:17:55.520
+For some cases, it just depends on what operation it is.
+
+257
+0:17:55.520 --> 0:18:01.000
+We have to knock at the door on Nia's cloud services and say, yo, got anything new?
+
+258
+0:18:01.000 --> 0:18:03.320
+Yo, got anything new?
+
+259
+0:18:03.320 --> 0:18:10.680
+When that drops over to signal R, we don't have to do that.
+
+260
+0:18:10.680 --> 0:18:13.400
+Moving on to Luca's question.
+
+261
+0:18:13.400 --> 0:18:16.280
+Regardless of headless and storage, will there be a way for those headless systems at some
+
+262
+0:18:16.280 --> 0:18:19.760
+point to have their own cache for content, tools, et cetera, where if you're on a LAN
+
+263
+0:18:19.760 --> 0:18:23.800
+with no internet connectivity, you'd still be able to show off a game, movie tools, and
+
+264
+0:18:23.800 --> 0:18:26.800
+be able to have all users access the local host source?
+
+265
+0:18:26.800 --> 0:18:27.800
+Already exists.
+
+266
+0:18:27.800 --> 0:18:32.520
+There's just a lot of limitations.
+
+267
+0:18:32.520 --> 0:18:39.080
+If you have everything that you need stored inside the local home or a world which has
+
+268
+0:18:39.080 --> 0:18:41.560
+saved the local home, then you don't need internet.
+
+269
+0:18:41.560 --> 0:18:45.200
+I already used that with a bunch of the scientific projects I'm working on.
+
+270
+0:18:45.200 --> 0:18:46.360
+It works well.
+
+271
+0:18:46.360 --> 0:18:49.080
+You just frequently need to update what you need access to.
+
+272
+0:18:49.080 --> 0:18:53.880
+For example, the default avatar unfortunately doesn't work if you're offline, or at least
+
+273
+0:18:53.880 --> 0:18:55.240
+it didn't the last time I was testing it.
+
+274
+0:18:55.240 --> 0:18:59.200
+I did make a GitHub about it, and it is something I'm looking into because I don't think that
+
+275
+0:18:59.200 --> 0:19:00.200
+that's acceptable.
+
+276
+0:19:00.200 --> 0:19:04.400
+It makes me sort of angry that that is the case.
+
+277
+0:19:04.400 --> 0:19:08.480
+To fix that, what I did with the local world content is I just shoved the default avatar
+
+278
+0:19:08.480 --> 0:19:13.000
+into one of those worlds, hit save, set it up in the user spawn such that it uses that
+
+279
+0:19:13.000 --> 0:19:16.040
+one, not the cloud spawned one, and then it does work whilst offline.
+
+280
+0:19:16.040 --> 0:19:18.680
+You just need to make sure that everything is saved there.
+
+281
+0:19:18.680 --> 0:19:25.040
+Better management of local storage will enable better handling there, as will better management
+
+282
+0:19:25.040 --> 0:19:28.760
+for offline saved stuff that can't work without internet.
+
+283
+0:19:28.760 --> 0:19:30.320
+It is possible right now.
+
+284
+0:19:30.320 --> 0:19:38.200
+I do it regularly.
+
+285
+0:19:38.200 --> 0:19:43.360
+Messy asks if my patron subscription gets me a creation group, what happens to the group's
+
+286
+0:19:43.360 --> 0:19:47.040
+folder and other things if I decrease my patron level to which it does not include a group?
+
+287
+0:19:47.040 --> 0:19:48.700
+We will never delete content.
+
+288
+0:19:48.700 --> 0:19:49.700
+We don't want to do that.
+
+289
+0:19:49.700 --> 0:19:50.700
+We don't believe in that.
+
+290
+0:19:50.700 --> 0:19:56.840
+If you get a group which has a certain file storage size and you stop paying for patron,
+
+291
+0:19:56.840 --> 0:19:59.400
+we will allow you to still have that content.
+
+292
+0:19:59.400 --> 0:20:02.680
+You won't be able to save any new content to that group, but any existing content will
+
+293
+0:20:02.680 --> 0:20:03.680
+not be deleted.
+
+294
+0:20:03.680 --> 0:20:09.400
+That includes your group world and group inventory folders.
+
+295
+0:20:09.400 --> 0:20:10.400
+So the group will still exist.
+
+296
+0:20:10.400 --> 0:20:16.520
+It will kind of just be like, I'm going to use air quotes here on the camera, like, locked.
+
+297
+0:20:16.520 --> 0:20:18.040
+You can't do anything with it.
+
+298
+0:20:18.040 --> 0:20:25.240
+It will still exist, but you can't really do much with it.
+
+299
+0:20:25.240 --> 0:20:31.240
+Shockmare asks, or states, really, I haven't really looked into SignalR as a kind of event-based
+
+300
+0:20:31.240 --> 0:20:32.240
+system.
+
+301
+0:20:32.240 --> 0:20:36.200
+But if you're familiar with any other event-based system, even as simple as basically just sort
+
+302
+0:20:36.200 --> 0:20:41.640
+of like Discord, what we're using here, there is basically a data layer that sends messages
+
+303
+0:20:41.640 --> 0:20:45.840
+between people and lets them know that there's stuff there.
+
+304
+0:20:45.840 --> 0:20:48.520
+My first exposure to that when I was learning computing was IRC.
+
+305
+0:20:48.520 --> 0:20:52.400
+You connect to a data channel and it sends data to you.
+
+306
+0:20:52.400 --> 0:20:56.540
+Another good example would be the difference between web sockets and just regular, like,
+
+307
+0:20:56.540 --> 0:20:57.540
+web requests.
+
+308
+0:20:57.540 --> 0:21:03.440
+SignalR isn't allowing us to send a message to you, like, hey, I have new stuff, rather
+
+309
+0:21:03.440 --> 0:21:07.320
+than you knocking at our door saying, do you have new stuff, we send a message to you saying,
+
+310
+0:21:07.320 --> 0:21:10.360
+I have new stuff here it is, and that way you don't need to pull.
+
+311
+0:21:10.360 --> 0:21:19.120
+It is warped in a lot of cases.
+
+312
+0:21:19.120 --> 0:21:22.920
+Hack 13 said, I heard before there was throttling to the SS server if you're doing a Patreon.
+
+313
+0:21:22.920 --> 0:21:24.680
+If this is true, what is the throttling?
+
+314
+0:21:24.680 --> 0:21:25.680
+That's not true anymore.
+
+315
+0:21:25.680 --> 0:21:29.440
+If you heard it somewhere, please let me know and delete it.
+
+316
+0:21:29.440 --> 0:21:30.940
+It does not occur anymore.
+
+317
+0:21:30.940 --> 0:21:32.320
+I removed it from the Wiki.
+
+318
+0:21:32.320 --> 0:21:33.760
+I talked about it before.
+
+319
+0:21:33.760 --> 0:21:34.760
+It does not occur.
+
+320
+0:21:34.760 --> 0:21:41.240
+We removed that perk and moved everyone to the same sort of transmitting for assets.
+
+321
+0:21:41.240 --> 0:21:42.700
+There's no throttling.
+
+322
+0:21:42.700 --> 0:21:44.800
+There was no throttling to begin with.
+
+323
+0:21:44.800 --> 0:21:52.720
+It was just historically, not now, historically that we had a slightly faster CDN for Patreon
+
+324
+0:21:52.720 --> 0:21:53.720
+users.
+
+325
+0:21:53.720 --> 0:21:54.900
+So downloads were slightly faster.
+
+326
+0:21:54.900 --> 0:21:55.900
+It wasn't throttling.
+
+327
+0:21:55.900 --> 0:21:56.900
+It was the opposite.
+
+328
+0:21:56.900 --> 0:21:59.760
+We gave more speed to people that had Patreon.
+
+329
+0:21:59.760 --> 0:22:01.720
+I don't think we'd ever throttle your content.
+
+330
+0:22:01.720 --> 0:22:02.720
+That's ridiculous.
+
+331
+0:22:02.720 --> 0:22:08.920
+Messy has a follow-up question on the main group question, which is, and it will be there
+
+332
+0:22:08.920 --> 0:22:11.800
+if I increase it back.
+
+333
+0:22:11.800 --> 0:22:12.800
+The group will never be deleted.
+
+334
+0:22:12.800 --> 0:22:14.080
+You'll still be able to access it.
+
+335
+0:22:14.080 --> 0:22:16.080
+You just won't be able to save anything new to it.
+
+336
+0:22:16.080 --> 0:22:19.600
+So it will still be in your inventory system.
+
+337
+0:22:19.600 --> 0:22:21.760
+You'll still be able to open the group world.
+
+338
+0:22:21.760 --> 0:22:23.880
+You just won't be able to save things.
+
+339
+0:22:23.880 --> 0:22:28.600
+So yes, and then if you increase your pledge back to support that, then you'll be able
+
+340
+0:22:28.600 --> 0:22:30.480
+to save stuff again.
+
+341
+0:22:30.480 --> 0:22:43.280
+So it's like read only, I guess, is the word I'm looking for.
+
+342
+0:22:43.280 --> 0:22:47.280
+Sarai has a question, and they say, it's on the fly, so forgive me.
+
+343
+0:22:47.280 --> 0:22:52.560
+Are there plans to implement some kind of cache delay Atlas, presuming you mean Atlas,
+
+344
+0:22:52.560 --> 0:22:57.520
+stuff in the cache that is older than X days to combat the whole full drive problem?
+
+345
+0:22:57.520 --> 0:23:02.440
+Yeah, we have better cache management on an issue to enable you to sort of say what's
+
+346
+0:23:02.440 --> 0:23:03.440
+going on.
+
+347
+0:23:03.440 --> 0:23:07.440
+Optimizations in the way that we store cache items there will also help, but I think it
+
+348
+0:23:07.440 --> 0:23:09.520
+will be a lot more important to sort of give you the control there.
+
+349
+0:23:09.520 --> 0:23:13.480
+What I would love is some sort of setting, UI, something some way that basically says
+
+350
+0:23:13.480 --> 0:23:18.400
+like, hey, here is a limit that Neos, don't go over this damn limit.
+
+351
+0:23:18.400 --> 0:23:24.440
+And then based on that, it won't go over that limit, or maybe it'll delete stuff that's
+
+352
+0:23:24.440 --> 0:23:25.440
+older.
+
+353
+0:23:25.440 --> 0:23:27.940
+That is cool, sort of better cache management is I guess what you'd be searching for on
+
+354
+0:23:27.940 --> 0:23:35.200
+the GitHub.
+
+355
+0:23:35.200 --> 0:23:36.480
+That's all the questions I have currently.
+
+356
+0:23:36.480 --> 0:23:40.760
+I'm gonna go ahead and in the intersperse time between looking for more questions, I'm
+
+357
+0:23:40.760 --> 0:23:52.240
+gonna go ahead and take a look at that whole forgot password problem that we have.
+
+358
+0:23:52.240 --> 0:23:53.640
+Thought there was a way to do it on the old site.
+
+359
+0:23:53.640 --> 0:23:56.640
+It looks like there's not a way to do it on the old site.
+
+360
+0:23:56.640 --> 0:24:00.680
+Account.neos.com should be able to enable you to reset your password.
+
+361
+0:24:00.680 --> 0:24:04.600
+Not account.neos.com, auth.neos.com.
+
+362
+0:24:04.600 --> 0:24:09.000
+Sorry, there's like three different websites.
+
+363
+0:24:09.000 --> 0:24:19.320
+Yes, auth.neos.com will enable you to reset your password.
+
+364
+0:24:19.320 --> 0:24:23.080
+Hack asks, can you allocate your personal space to the group?
+
+365
+0:24:23.080 --> 0:24:24.080
+No.
+
+366
+0:24:24.080 --> 0:24:26.400
+Groups have a different space limit than you.
+
+367
+0:24:26.400 --> 0:24:29.480
+You cannot move space between them.
+
+368
+0:24:29.480 --> 0:24:35.800
+You can, however, allocate how much space individual users can take up within that group
+
+369
+0:24:35.800 --> 0:24:36.800
+storage.
+
+370
+0:24:36.800 --> 0:24:58.480
+That's like the other way around, that's not exactly what you're asking.
+
+371
+0:24:58.480 --> 0:25:28.440
+Hack asks, will there be a way to grow strict pay for more group storage?
+
+372
+0:25:28.440 --> 0:25:29.440
+Yes.
+
+373
+0:25:29.440 --> 0:25:34.360
+I would love to see groups being entirely overhauled to be a thing that, A, doesn't
+
+374
+0:25:34.360 --> 0:25:36.200
+require Shifty's help.
+
+375
+0:25:36.200 --> 0:25:40.200
+She's amazing, but she has other responsibilities, and I would love her to be able to focus on
+
+376
+0:25:40.200 --> 0:25:41.200
+those.
+
+377
+0:25:41.200 --> 0:25:45.560
+There's no reason we can't automate group creation, very easy.
+
+378
+0:25:45.560 --> 0:25:51.680
+I would love it if we could just make groups more feel like a group.
+
+379
+0:25:51.680 --> 0:25:56.280
+There should be some sort of sense of community about that group, some sort of sense of identity
+
+380
+0:25:56.280 --> 0:25:57.720
+about that group.
+
+381
+0:25:57.720 --> 0:26:05.160
+And then features, et cetera, that will allow that.
+
+382
+0:26:05.160 --> 0:26:31.960
+Absolutely contributing to a group, stuff like that, absolutely.
+
+383
+0:26:31.960 --> 0:26:50.500
+Thank you.
+
+384
+0:27:12.500 --> 0:27:14.500
+We have another question here, sorry I had to type something.
+
+385
+0:27:14.500 --> 0:27:16.500
+Let's just alt-tab around a little bit.
+
+386
+0:27:16.500 --> 0:27:25.500
+So we have a question here from Gun Griffin which says, is it better to have accessories or different avatar items as a separate mesh with a few weight groups or in the same skin mesh with all the bone weights?
+
+387
+0:27:25.500 --> 0:27:30.500
+Split up your skin meshes as much as possible, particularly if there's no deformation.
+
+388
+0:27:30.500 --> 0:27:45.500
+A good example here, and this is like hyper-optimization so don't panic if you're not this case, if you have no body blend shapes, then split your head off from your body and that will provide a little bit more optimization to your avatar.
+
+389
+0:27:45.500 --> 0:27:55.500
+Because the blend shape groups and listings will only exist for your actual head and not the rest of your body and then we'll be able to sort of optimize the body a little bit better.
+
+390
+0:27:55.500 --> 0:28:11.500
+When it comes to accessories and stuff like that, if that accessory is designed to always be there, I don't know it's a hat or a scarf that's always part of the avatar, sure make it the same mesh, sure join it together, sure optimize it with the same materials, etc.
+
+391
+0:28:11.500 --> 0:28:16.500
+If you ever want to take it off, it needs to be a separate mesh, that's basically it really.
+
+392
+0:28:16.500 --> 0:28:20.500
+You could optimize to hell.
+
+393
+0:28:20.500 --> 0:28:28.500
+One of my avatars has one material, one skinned mesh, fake blend shapes and you wouldn't know it.
+
+394
+0:28:28.500 --> 0:28:35.500
+Another one doesn't and in some cases you wouldn't know it because I'm not extreme with my unoptimization.
+
+395
+0:28:35.500 --> 0:28:42.500
+Best things that you can do are to just assume that you are, like plan out the avatar is what I mean.
+
+396
+0:28:42.500 --> 0:28:49.500
+Sometimes the problems of optimization are not planning.
+
+397
+0:28:49.500 --> 0:29:01.500
+You import the avatar and then like five minutes after importing the avatar you're like, well I actually need like a hat and 50,000 multi-tools inside my, inside my belt.
+
+398
+0:29:01.500 --> 0:29:11.500
+And I need four copies of Ivali, of sorry, of Ryuvi's Edge of Reality doodad inside my belt.
+
+399
+0:29:11.500 --> 0:29:17.500
+And you know, I need half of sketchfab parented to me, that's absolutely amazing what I want.
+
+400
+0:29:17.500 --> 0:29:25.500
+Oh yeah, you should always zero as clear out weight groups that aren't meant to be there.
+
+401
+0:29:25.500 --> 0:29:37.500
+That's just good practice in like making the avatar in general.
+
+402
+0:29:37.500 --> 0:29:51.500
+I just do that in principle though because like sometimes when the orthonormalization of weight painting is happening you end up with like some fun stuff there.
+
+403
+0:29:51.500 --> 0:30:01.500
+Crying surrogate has a question here which is, do default tool tips contribute to avatar asset size?
+
+404
+0:30:01.500 --> 0:30:07.500
+No, the way that the size is displayed in the inventory screen isn't that accurate.
+
+405
+0:30:07.500 --> 0:30:12.500
+A good way of looking at it is to think about a manifest of your avatar.
+
+406
+0:30:12.500 --> 0:30:14.500
+So this is going to be quoted I know.
+
+407
+0:30:14.500 --> 0:30:18.500
+Think of your avatar like it's an airplane.
+
+408
+0:30:18.500 --> 0:30:25.500
+The mesh of the airplanes, the outer like holes of the airplane, that's a mesh, right?
+
+409
+0:30:25.500 --> 0:30:26.500
+So that's a separate asset.
+
+410
+0:30:26.500 --> 0:30:33.500
+So its file size is then added to maybe the mesh of the inside of the airplane, the seats, that's a separate asset.
+
+411
+0:30:33.500 --> 0:30:40.500
+And then the textures on that plane, both from the outside and inside, that's a separate asset.
+
+412
+0:30:40.500 --> 0:30:47.500
+And then add those all together up and then you get the size of the final avatar.
+
+413
+0:30:47.500 --> 0:30:50.500
+Airplane is actually a good thing for this next part though.
+
+414
+0:30:50.500 --> 0:30:58.500
+If your asset is shared with another user or any of the standard assets, then the first person to upload it will have the file size allocated to them.
+
+415
+0:30:58.500 --> 0:31:06.500
+As an example here, which happens a lot with avatar bases, if you use the identical avatar base to someone who uploaded the avatar and made it into an avatar,
+
+416
+0:31:06.500 --> 0:31:11.500
+as in if someone gives you their avatar base and you just change out the textures.
+
+417
+0:31:11.500 --> 0:31:15.500
+I don't know, your friend is a red dog, you're a blue dog.
+
+418
+0:31:15.500 --> 0:31:21.500
+If they uploaded the red dog and did the avatar setup process and the meshes are identical, so it uses the same mesh,
+
+419
+0:31:21.500 --> 0:31:29.500
+the only change is that you change your textures to be a blue dog, then they will have the file size allocated for the mesh.
+
+420
+0:31:29.500 --> 0:31:35.500
+You will just have the file space allocated for the blue dog texture.
+
+421
+0:31:35.500 --> 0:31:39.500
+Yeah, everything's separated. It just manifests everything out, like everything's manifested.
+
+422
+0:31:39.500 --> 0:31:45.500
+So if you are looking at any asset, just explode it.
+
+423
+0:31:45.500 --> 0:31:51.500
+Don't imagine planes exploding, but imagine it exploding into all its component parts and those are all saved separately.
+
+424
+0:31:51.500 --> 0:31:56.500
+Every static mesh, every static texture, all saved separately.
+
+425
+0:31:56.500 --> 0:32:01.500
+If there are overlaps, which is probably a better wording for what I was saying earlier, rather than talking about planes and dogs,
+
+426
+0:32:01.500 --> 0:32:10.500
+then everything that is unique to you is allocated to your size.
+
+427
+0:32:10.500 --> 0:32:15.500
+Grun asks, if they delete their copy, do you inherit the file size? I think so. I don't know.
+
+428
+0:32:15.500 --> 0:32:19.500
+I'd have to poke around a little bit.
+
+429
+0:32:19.500 --> 0:32:25.500
+It is really wishy-washy on how that whole system works,
+
+430
+0:32:25.500 --> 0:32:31.500
+particularly in cases where it's assets that are in public folders and things like that or assets that are sort of shared around a lot.
+
+431
+0:32:31.500 --> 0:32:40.500
+It gets to the point where we have a direct sort of incentive from us as a company to keep assets around.
+
+432
+0:32:40.500 --> 0:32:44.500
+If it's just you, it's your special avatar and you decide to leave the platform, fine.
+
+433
+0:32:44.500 --> 0:32:47.500
+OK, you leave the platform, we delete that. We actually delete that.
+
+434
+0:32:47.500 --> 0:32:51.500
+But in some cases, it's like, well, this is in like five shared folders.
+
+435
+0:32:51.500 --> 0:32:55.500
+This meme has been shared around to like 20 different people.
+
+436
+0:32:55.500 --> 0:33:01.500
+We have no real idea who the original owner is, but someone just deleted it.
+
+437
+0:33:01.500 --> 0:33:05.500
+Like, do we actually delete it? No, of course not. It's really complicated.
+
+438
+0:33:05.500 --> 0:33:11.500
+The license system will help with that, as we'll be able to see the originator of the asset, both in terms of sort of like when to delete something,
+
+439
+0:33:11.500 --> 0:33:16.500
+the path, the trajectory of something, who owned it, why they owned it, stuff like that.
+
+440
+0:33:16.500 --> 0:33:32.500
+And also to sort of handle and maybe optimize file storage in some cases.
+
+441
+0:33:32.500 --> 0:33:37.500
+Going back to that plane analogy for a bit, everything about the passengers, that's unique to them.
+
+442
+0:33:37.500 --> 0:33:46.500
+But the plane, pretty stock standard, you know, one 747 for one airline is identical to another 747 for an airline when it comes to digital.
+
+443
+0:33:46.500 --> 0:34:15.500
+It's not in reality.
+
+444
+0:34:15.500 --> 0:34:17.500
+We are over time at this point.
+
+445
+0:34:17.500 --> 0:34:29.500
+So Goan Griffin and Fuzzy, if you have a question, please enter them.
+
+446
+0:34:29.500 --> 0:34:33.500
+Fuzzy, I would encourage you to use the inventory system. We get this a lot.
+
+447
+0:34:33.500 --> 0:34:36.500
+And this is something that I try to explain to people and they don't understand.
+
+448
+0:34:36.500 --> 0:34:38.500
+They're like, oh, you're being difficult.
+
+449
+0:34:38.500 --> 0:34:41.500
+I'm not. I'm just explaining to you why there's an inventory system.
+
+450
+0:34:41.500 --> 0:34:46.500
+So you come to New York, you're new and you're like, cool, it's an inventory system.
+
+451
+0:34:46.500 --> 0:34:49.500
+I can put stuff in my inventory. I can save it. That's great.
+
+452
+0:34:49.500 --> 0:34:54.500
+At a certain point, you start parenting stuff to your avatar and stop using the inventory system.
+
+453
+0:34:54.500 --> 0:34:59.500
+I need a gun. I'll parent it to my avatar. I need a different gun. I'll parent it to my avatar.
+
+454
+0:34:59.500 --> 0:35:05.500
+And I'm like, or pop open your inventory and spawn the gun you need at the time you need it.
+
+455
+0:35:05.500 --> 0:35:07.500
+Stop laboring yourself.
+
+456
+0:35:07.500 --> 0:35:14.500
+You don't have to walk around like it's Fallout 4 and you've got like 5000 years of.
+
+457
+0:35:14.500 --> 0:35:22.500
+What are they called? Radroach like legs in your inventory and, you know, try to like just like leave it in your inventory.
+
+458
+0:35:22.500 --> 0:35:28.500
+I want a blue version of my avatar, so I will do this complicated logic set up so that my avatar can be blue.
+
+459
+0:35:28.500 --> 0:35:35.500
+Maybe just save a blue copy of your avatar and then swap into it when you want to be blue.
+
+460
+0:35:35.500 --> 0:35:38.500
+I need to a lot more sort of betterness.
+
+461
+0:35:38.500 --> 0:35:42.500
+That also goes on to the question, which I didn't answer. I apologize. I missed it.
+
+462
+0:35:42.500 --> 0:35:47.500
+I don't have a helpful person ticking and marking questions today, which is...
+
+463
+0:35:47.500 --> 0:35:52.500
+Actually, I missed two questions. I'm so sorry. I'll jump through those real quick.
+
+464
+0:35:52.500 --> 0:35:59.500
+Cesari asks, what's the worst crimes that we've seen done in logic so far that made you just not deal with it?
+
+465
+0:35:59.500 --> 0:36:09.500
+It's honestly mono packing. It just it takes the whole concept of logics and the engine and everything like that and just laughs at it.
+
+466
+0:36:09.500 --> 0:36:15.500
+There is nothing we can do as like a team to convince you not to do that.
+
+467
+0:36:15.500 --> 0:36:20.500
+But there's also nothing we can do as a team to undo that or optimize it for you in the future.
+
+468
+0:36:20.500 --> 0:36:24.500
+Say, for example, we like completely reverse engineer and make logics better.
+
+469
+0:36:24.500 --> 0:36:31.500
+If it's all regular logics, we do it all the time, like we update nodes, we change how they work, we make them more efficient.
+
+470
+0:36:31.500 --> 0:36:35.500
+And it's so easy for us to update them because all those nodes are separate and they make sense.
+
+471
+0:36:35.500 --> 0:36:43.500
+But if you sort of just like remove all the crap and shoehorn it down into one object, it becomes invisible to us.
+
+472
+0:36:43.500 --> 0:36:48.500
+I'm onto that one next. It becomes invisible to us, right? We can't do anything to it.
+
+473
+0:36:48.500 --> 0:36:55.500
+We can't help you improve it. It's just like it's just there and it's a mess and it's going to be a mess for the rest of time.
+
+474
+0:36:55.500 --> 0:37:00.500
+So if you're like, oh, it's lots of problem, tell us it's lots of problematic.
+
+475
+0:37:00.500 --> 0:37:03.500
+We'll up to my slots for you.
+
+476
+0:37:03.500 --> 0:37:09.500
+Onto that last question. Is there a better way to move several items and nested folders?
+
+477
+0:37:09.500 --> 0:37:15.500
+No. Currently, no. Better adventure management is also on our roadmap.
+
+478
+0:37:15.500 --> 0:37:20.500
+We want to get to the place where it operates more like a sort of Windows file manager or whatever your favorite is,
+
+479
+0:37:20.500 --> 0:37:24.500
+where you can drag and drop items and move them around and all sorts of stuff like that.
+
+480
+0:37:24.500 --> 0:37:28.500
+I had a huge rant previous few weeks about how drag and drop is a bad user experience.
+
+481
+0:37:28.500 --> 0:37:32.500
+Lots of people screamed me. That's totally fine. Drag and drop is terrible, especially in VR.
+
+482
+0:37:32.500 --> 0:37:37.500
+So there will be some experience that allows you to do the equivalent of drag and dropping.
+
+483
+0:37:37.500 --> 0:37:43.500
+It may be dragging and dropping. If I get my way or manage to explain to people what I'm talking about instead of just rambling at them,
+
+484
+0:37:43.500 --> 0:37:49.500
+then there will be opportunities that do not involve the direct drag and dropping mechanism
+
+485
+0:37:49.500 --> 0:37:53.500
+because it's a terrible experience in VR.
+
+486
+0:37:53.500 --> 0:37:56.500
+But we will see.
+
+487
+0:38:01.500 --> 0:38:05.500
+Yes, inventory search is also included in that.
+
+488
+0:38:05.500 --> 0:38:09.500
+With that, I believe we're out of questions.
+
+489
+0:38:09.500 --> 0:38:14.500
+If you have any follow-up questions, please feel free to drop them into my DMs, et cetera.
+
+490
+0:38:14.500 --> 0:38:18.500
+And I will get back to you as soon as I can with more office hours.
+
+491
+0:38:18.500 --> 0:38:22.500
+I expect this to be up on sounder shortly. If you have any questions, like I said, just let me know.
+
+492
+0:38:22.500 --> 0:38:25.500
+I'll get back to you.
+
+493
+0:38:25.500 --> 0:38:35.500
+Bye-bye.
+

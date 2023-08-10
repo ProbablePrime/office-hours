@@ -1,0 +1,1956 @@
+1
+0:00:00.000 --> 0:00:05.000
+Hello, it is now time for office hours. It's the top of the hour, so welcome to office hours for prime
+
+2
+0:00:05.000 --> 0:00:08.360
+This is primetime if you have any questions, please drop them in the officers chat
+
+3
+0:00:08.360 --> 0:00:12.560
+That's two channels above the current one that you're in if there are no questions. We'll sit here in silence
+
+4
+0:00:13.320 --> 0:00:17.440
+Enjoy, have fun. So our first question here is from rampa rampa says
+
+5
+0:00:18.120 --> 0:00:22.640
+That they're asking if it'd be possible to build a modding reference on the nearest wiki, and if yes
+
+6
+0:00:22.640 --> 0:00:25.740
+What sort of it's up to you you can put whatever you want on the wiki
+
+7
+0:00:25.740 --> 0:00:32.700
+People seem to still be under the impression even with the policy that modding is somehow bad. Just do what you want
+
+8
+0:00:33.300 --> 0:00:38.660
+The important juncture to make though is to make sure that people understand that modding is a choice
+
+9
+0:00:38.660 --> 0:00:43.020
+And it is not a mandate and I don't believe that people should be
+
+10
+0:00:44.140 --> 0:00:46.940
+Forced or obligated to mod
+
+11
+0:00:47.460 --> 0:00:53.300
+And that might happen depending on how we present it and the features that are available in those mods
+
+12
+0:00:53.300 --> 0:00:55.660
+So just be careful about how the way things are worded
+
+13
+0:00:57.100 --> 0:01:03.900
+Yeah, that's it really to do what you want. Oh, we should also make sure that you know it's not supported you break something
+
+14
+0:01:05.220 --> 0:01:06.820
+Neos can't help you
+
+15
+0:01:06.820 --> 0:01:11.720
+Serum has an interesting follow-up question which is how to make sure that you're not committing a source leak by source leak I
+
+16
+0:01:11.900 --> 0:01:16.600
+Predict that you're referring to the the EU the wordage about stuff like that
+
+17
+0:01:17.220 --> 0:01:22.420
+I mean, but depending on what type of documentation or after I probably actually wouldn't suggest the wiki
+
+18
+0:01:22.420 --> 0:01:30.180
+I'm like technical documentation such as the one that you're describing so header type info stuff like that isn't suitable for a wiki
+
+19
+0:01:31.540 --> 0:01:37.060
+it would be more suitable for some sort of custom tooling if it's custom tooling that also means you can do what you want over on
+
+20
+0:01:37.060 --> 0:01:38.060
+the
+
+21
+0:01:38.060 --> 0:01:42.180
+Neos mod loaders kind of website etc so maybe look into that
+
+22
+0:01:43.700 --> 0:01:45.340
+Don't I
+
+23
+0:01:45.340 --> 0:01:46.900
+can't really like
+
+24
+0:01:46.900 --> 0:01:54.900
+Enforce or common or like say when it comes to the EU though like what isn't isn't available because that's based on the company
+
+25
+0:01:54.900 --> 0:01:56.900
+And I'm not part of a said company so
+
+26
+0:01:57.500 --> 0:01:59.220
+Keep an eye on that
+
+27
+0:01:59.220 --> 0:02:03.060
+My recommendation would be to keep it as like little as possible
+
+28
+0:02:04.260 --> 0:02:09.840
+Like you can explain modding without too much like Neos source code stuff
+
+29
+0:02:10.780 --> 0:02:14.980
+But yeah like technical information, which I would call reference type
+
+30
+0:02:14.980 --> 0:02:18.900
+Which is like you know like hey this variable is of type this this is of type
+
+31
+0:02:18.900 --> 0:02:22.860
+This isn't suitable for a wiki there are much better tools out there for that
+
+32
+0:02:23.900 --> 0:02:25.020
+Yeah
+
+33
+0:02:25.020 --> 0:02:28.620
+All right any other questions drop them in office hours text chat
+
+34
+0:02:28.620 --> 0:02:33.420
+Which is to about the channel that you're in to enter this office hours segment, and I'll get to them in the order that they appear
+
+35
+0:02:35.060 --> 0:02:36.900
+For those just joining if you have questions
+
+36
+0:02:36.900 --> 0:02:41.380
+Please drop them in the office hours text chat that is two channels above the one you clicked to get into this and I'll answer
+
+37
+0:02:41.380 --> 0:02:45.020
+them in the order that they appear we don't have any questions right now, so we'll sit in
+
+38
+0:02:46.020 --> 0:02:47.420
+unending
+
+39
+0:02:47.420 --> 0:02:52.060
+Torment of just silence so Lex has an interesting question regarding a question
+
+40
+0:02:52.060 --> 0:02:55.020
+I asked yesterday and the questions at help which is I was asking for the
+
+41
+0:02:55.660 --> 0:03:01.340
+Text that needed to be entered into the attached component menu for a sinker a float which I was what I needed yesterday
+
+42
+0:03:02.700 --> 0:03:04.700
+So the reason I need to sinker a float
+
+43
+0:03:05.660 --> 0:03:06.860
+Yesterday was the time
+
+44
+0:03:06.860 --> 0:03:12.460
+I'm trying to graph stuff and for those who haven't done graphing in nears you need to use a value graph recorder and
+
+45
+0:03:13.180 --> 0:03:14.500
+a
+
+46
+0:03:14.500 --> 0:03:19.400
+Rec line mesh or uix rec line mesh. I think it's the same component. Just different wording whatever
+
+47
+0:03:20.700 --> 0:03:25.220
+Due to layouting those things usually need to be located like distinctly apart from each other
+
+48
+0:03:25.740 --> 0:03:31.180
+And so I have a list of configuration objects which define like what the graph should look like
+
+49
+0:03:31.180 --> 0:03:36.980
+Which are separate from the graphing area and so I need some way to link those across
+
+50
+0:03:38.020 --> 0:03:40.020
+across slots now of course
+
+51
+0:03:40.780 --> 0:03:44.760
+Everyone will say like you know dynamic variables would be great for that, but like hey
+
+52
+0:03:44.760 --> 0:03:49.020
+I need a dynamic variable a reference to a sinker a float
+
+53
+0:03:49.500 --> 0:03:53.280
+So that I can write it into the value graph recorder. It was like
+
+54
+0:03:54.060 --> 0:03:56.660
+Fun, I think there's a way to do it now
+
+55
+0:03:56.660 --> 0:04:03.020
+I have the appropriate component hierarchy like text available, but like I gotta like
+
+56
+0:04:03.540 --> 0:04:07.180
+Figure out what I want to do there. I also need to do like a tiered
+
+57
+0:04:08.140 --> 0:04:13.660
+Like a delete eating so when you delete the graph entry it will be like all right
+
+58
+0:04:13.660 --> 0:04:20.260
+I deleted the graph entry cool. I can hop over to the graph area and also delete the the graph that's on the other side and
+
+59
+0:04:20.260 --> 0:04:26.820
+That that should be fun. I can do that with like some dynamic variables that are slots because that's easy
+
+60
+0:04:26.820 --> 0:04:33.060
+But I don't know if I I might even need to do like the sink ref sinker a I'll take a look at the next time
+
+61
+0:04:33.060 --> 0:04:33.980
+I've been
+
+62
+0:04:33.980 --> 0:04:40.220
+Moving onwards we have another question from book sure who says is there a way to override or add up to an avatars?
+
+63
+0:04:40.220 --> 0:04:45.820
+I can't a mission another animation like some other time. I have a different way of walking compared to what procedure walking has yes
+
+64
+0:04:45.820 --> 0:04:47.980
+I'm so glad you asked because so many people ask about this
+
+65
+0:04:47.980 --> 0:04:53.380
+Um all of the walking animations in years are procedural, and they are editable by you
+
+66
+0:04:53.380 --> 0:04:54.900
+You just need to know where to look
+
+67
+0:04:54.900 --> 0:05:00.660
+Inspect the root of your avatar and find I can ever remember if it's on vRak or vRak avatar or whatever
+
+68
+0:05:00.660 --> 0:05:02.780
+But just like those those components
+
+69
+0:05:03.300 --> 0:05:06.100
+They'll be list of things called gates gates control
+
+70
+0:05:06.100 --> 0:05:12.140
+How you walk and they are entirely procedural and you can define all sorts of stuff like how big a step is
+
+71
+0:05:12.140 --> 0:05:15.500
+so if you increase the step size you get to sort of a
+
+72
+0:05:15.500 --> 0:05:19.620
+A march which German soldiers did around world war two called goose stepping
+
+73
+0:05:19.700 --> 0:05:24.620
+It's kind of sort of like frowned upon to do that sort of thing because you know
+
+74
+0:05:26.780 --> 0:05:32.300
+It's reminiscent of those troops back then but other military people do do it as well
+
+75
+0:05:33.100 --> 0:05:36.300
+All right, here's a picture. Yeah, it looks like lots of military to it
+
+76
+0:05:36.300 --> 0:05:40.820
+I just remember it being like overly associated with Nazis, so I don't usually mention it anyway um
+
+77
+0:05:40.820 --> 0:05:42.820
+Hey
+
+78
+0:05:43.500 --> 0:05:45.500
+so if you edit the
+
+79
+0:05:46.300 --> 0:05:48.300
+if you edit the
+
+80
+0:05:48.460 --> 0:05:54.540
+Gate settings, and then you'll end up with all sorts of stuff. This is who is this China?
+
+81
+0:05:54.540 --> 0:06:00.680
+This is the Chinese military doing that kind of march you know where their foot is is reaching unnaturally far forward
+
+82
+0:06:00.680 --> 0:06:07.860
+So you can totally control that in the gate that would probably be in the feet range because that's the range which your feet move
+
+83
+0:06:07.860 --> 0:06:09.860
+I you want to go through and document
+
+84
+0:06:09.860 --> 0:06:15.500
+All of those properties actually you know they are but they are quite cool
+
+85
+0:06:15.500 --> 0:06:19.900
+I do know the speed ratio if you increase that that's the number of steps that occur
+
+86
+0:06:20.060 --> 0:06:25.220
+And so if you made that really high you'll basically end up looking like a jackhammer right your feet
+
+87
+0:06:25.220 --> 0:06:27.220
+Or just constantly be like clapping on the floor
+
+88
+0:06:27.660 --> 0:06:33.260
+So so take a look at those play around with them my best recommendation for you is to remove all of them
+
+89
+0:06:33.260 --> 0:06:37.140
+So except one and then change the milling velocity on that one to be
+
+90
+0:06:37.140 --> 0:06:44.060
+Just zero so it always applies and then play around with that one the reason why there are multiples depending on the velocity is because as
+
+91
+0:06:44.060 --> 0:06:46.260
+you increase in speed your
+
+92
+0:06:48.660 --> 0:06:53.720
+Your stance to change if you think of a horse a horse goes through several gates as they speed up
+
+93
+0:06:55.060 --> 0:06:59.620
+She holds gates like a really interesting like thing topic to read about but
+
+94
+0:07:00.300 --> 0:07:03.020
+That's for another day. I've ridden a horse once
+
+95
+0:07:03.020 --> 0:07:09.380
+It's a wikipedia article about goose stepping. It is stupid. It is incredibly inefficient. Do not goose step
+
+96
+0:07:09.380 --> 0:07:13.420
+I don't know why they do it. It's impressive. I guess and can be very synchronized
+
+97
+0:07:13.980 --> 0:07:19.260
+All right moving around to questions someone said I missed one, so I'm gonna head hump for that one. Oh yes
+
+98
+0:07:19.260 --> 0:07:21.260
+I miss specs question
+
+99
+0:07:21.340 --> 0:07:23.340
+specs asked
+
+100
+0:07:23.420 --> 0:07:29.260
+I'm working on some monitoring stuff ahead this and there's much public variables related to time for sessions like average update time last update time
+
+101
+0:07:29.300 --> 0:07:32.140
+Do you know if these are measured in nanoseconds or milliseconds or something like that?
+
+102
+0:07:32.140 --> 0:07:34.140
+I have no idea
+
+103
+0:07:35.220 --> 0:07:41.340
+Usually our unit is like seconds because we use a float and then fractionals of that second or then milliseconds
+
+104
+0:07:41.340 --> 0:07:45.900
+But I don't know I'd have to look jump it up and down to came out races questions
+
+105
+0:07:45.900 --> 0:07:50.600
+So dre says easiest place to get a good help start the logics besides just picking up the logic starting
+
+106
+0:07:51.020 --> 0:07:57.660
+Honestly pick up the logic step and start I don't on my channel have any sort of beginner or introductory videos to logic
+
+107
+0:07:57.660 --> 0:08:02.140
+But I know that other channels do basement note has a very good video about just getting started
+
+108
+0:08:03.180 --> 0:08:07.860
+Something which I will encourage you to do is to just do stuff and not worry about it a lot of stuff
+
+109
+0:08:07.860 --> 0:08:10.700
+I do with people is to encourage them to just laid out
+
+110
+0:08:10.900 --> 0:08:16.900
+Nodes and not really worry what they're doing a lot of people like are they I want to use logics to make you know
+
+111
+0:08:17.580 --> 0:08:19.980
+Half-life Alex to well that's a bit of a stretch
+
+112
+0:08:19.980 --> 0:08:24.340
+You don't know logics or they'll go like I want to make this really complicated gun and like well
+
+113
+0:08:24.340 --> 0:08:25.020
+That's a bit of a stretch
+
+114
+0:08:25.020 --> 0:08:30.620
+Why don't you try adding two numbers together and then go from there right make logics?
+
+115
+0:08:30.620 --> 0:08:35.840
+That doesn't really have a function outside of your learning, and you'll get a lot better there also forget
+
+116
+0:08:35.840 --> 0:08:37.260
+Well, you know about all programming
+
+117
+0:08:37.260 --> 0:08:41.780
+Logics just isn't programming people like is it like C sharp, or is it like Java and I might know
+
+118
+0:08:41.780 --> 0:08:47.060
+It's just logics like it's it's it's often better to just forget what you already know and just learn it from scratch
+
+119
+0:08:47.820 --> 0:08:51.060
+Rampers is would be possible to get to try and brace don't create some sort of guidelines
+
+120
+0:08:51.060 --> 0:08:58.420
+What what would enforce modding docs from an approved shareable Intel for about from the team side is an appendix to the modern policy
+
+121
+0:08:58.420 --> 0:09:00.700
+I'm still not sure what you're on about here like
+
+122
+0:09:01.180 --> 0:09:06.500
+You can't share of course decompiled code. That's against the Euler you can't
+
+123
+0:09:08.020 --> 0:09:12.740
+Share stuff that breaks the guidelines right or come after you about that, but anything else you should be fine
+
+124
+0:09:12.740 --> 0:09:15.740
+I look at all the source codes for all the mods, and I'm like that's fine. I
+
+125
+0:09:15.740 --> 0:09:22.340
+Don't know it's like I don't know like I wouldn't be able to write a guideline or a policy against that because I don't know
+
+126
+0:09:22.340 --> 0:09:27.500
+What what you need I don't understand if I'm the correctly or not
+
+127
+0:09:27.500 --> 0:09:35.260
+But like I think going back to gates for a second an unoccupied avatar will still match the gates when you move it
+
+128
+0:09:35.780 --> 0:09:39.180
+and so something I've experimented with doing is putting a
+
+129
+0:09:39.180 --> 0:09:46.900
+an avatar on the floor so that their feet are touching the floor on an axis panner and then varying the speed of axis pattern
+
+130
+0:09:46.900 --> 0:09:50.580
+Sometimes that will show the gates about you being in the avatar. Just kind of cool
+
+131
+0:09:50.580 --> 0:09:53.580
+I did have a world that was looking to make that into a tool
+
+132
+0:09:54.060 --> 0:09:59.220
+It's gonna be called like on a gate editor right and you would like sort of load your avatar into I guess a treadmill
+
+133
+0:09:59.220 --> 0:10:03.180
+And then you would set the speed of the treadmill and watch how the feet work
+
+134
+0:10:03.180 --> 0:10:06.880
+But I don't particularly know if that works or what state that will be in
+
+135
+0:10:06.880 --> 0:10:12.720
+A trace follows up their question learning logics with there's some people going to very nitty-gritty of it. Yeah, that's problematic
+
+136
+0:10:12.720 --> 0:10:18.400
+Don't let them do that. Um, I see a lot of people that like, you know, they'll inspect logics nodes
+
+137
+0:10:18.400 --> 0:10:23.220
+So they'll talk about performance or worrying about nodes or say hey don't use this or don't use that
+
+138
+0:10:23.660 --> 0:10:27.120
+Every single logics node that exist is designed to be used by you
+
+139
+0:10:27.320 --> 0:10:33.400
+So if anyone tells you not to use anything particularly whilst you're learning don't listen to them. Just you use it
+
+140
+0:10:33.400 --> 0:10:38.560
+I don't advise they also talk about dress talks about starting with gestures
+
+141
+0:10:38.560 --> 0:10:43.080
+I don't advise gestures like I don't advise learning learning logics via gestures. You'll just give yourself a headache
+
+142
+0:10:43.520 --> 0:10:51.240
+I want you to learn logics not how to build something. So layout nodes look at the things look at the
+
+143
+0:10:51.760 --> 0:10:53.760
+way that things work
+
+144
+0:10:54.160 --> 0:10:56.840
+Another very important thing is to get your vocabulary down
+
+145
+0:10:57.160 --> 0:11:02.160
+I know a lot of people who are quite proficient Neos users, but when I use vocabulary
+
+146
+0:11:02.160 --> 0:11:05.840
+they're like that's not what you call that and I'm like it it literally is you can like
+
+147
+0:11:06.440 --> 0:11:13.400
+Inspect to the thing and that's what it's called. So I don't know what you're saying. Like as an example, you should know what the words
+
+148
+0:11:14.040 --> 0:11:15.560
+node
+
+149
+0:11:15.560 --> 0:11:17.440
+interface card
+
+150
+0:11:17.440 --> 0:11:18.640
+relay
+
+151
+0:11:18.640 --> 0:11:20.640
+reference arrow drive
+
+152
+0:11:21.440 --> 0:11:22.640
+impulse
+
+153
+0:11:22.640 --> 0:11:28.800
+Ribbon, you know all these words mean an addition should also know what the word primary secondary in context means
+
+154
+0:11:28.800 --> 0:11:35.200
+Everyone's like there's so many controls in here. So don't know which button to push about this three primary secondary in context with you
+
+155
+0:11:35.200 --> 0:11:36.880
+That's it
+
+156
+0:11:36.880 --> 0:11:43.080
+Primary secondary context. That's it. We technically is grab as well. But like grab is such a visceral one that people get it. I
+
+157
+0:11:43.760 --> 0:11:48.080
+Don't know cuz like I haven't had any family close to my VR headsets in many years
+
+158
+0:11:48.080 --> 0:11:51.440
+But I remember, you know trying to teach my mother to play Grand Theft Auto
+
+159
+0:11:51.480 --> 0:11:53.880
+It's a funny story and you know
+
+160
+0:11:53.880 --> 0:11:57.460
+There's tons of buttons on like an Xbox controller or whatever and she just doesn't know which one is to go
+
+161
+0:11:57.460 --> 0:12:01.540
+And I'm like that one on the right hand side that feels like a trigger
+
+162
+0:12:01.780 --> 0:12:07.380
+That will make you go and she got it right because it's such a tactile experience. I believe the same there is it's true for
+
+163
+0:12:07.380 --> 0:12:11.340
+Grab, right? It's grab the controller and you grab stuff
+
+164
+0:12:12.140 --> 0:12:19.020
+Yeah, primary secondary context menu grab those are the only things you need to learn in terms of controls and once you know those you
+
+165
+0:12:19.020 --> 0:12:20.940
+Could also learn packing as well
+
+166
+0:12:20.940 --> 0:12:24.180
+so many people like worry about like red prints and blueprints and
+
+167
+0:12:24.180 --> 0:12:29.260
+orange prints and pink prints and whatever the hell else you want to call it pack and
+
+168
+0:12:29.740 --> 0:12:33.740
+Unpack stuff just practice it make some shitty ball chicks that does absolutely nothing
+
+169
+0:12:33.820 --> 0:12:35.820
+Like I don't know adds two numbers together
+
+170
+0:12:35.860 --> 0:12:41.420
+Pack it into a box save the box geometry bring the box out unpack it do that like 17 times
+
+171
+0:12:41.420 --> 0:12:43.520
+You'll never have questions about packing again
+
+172
+0:12:45.140 --> 0:12:50.140
+If someone floats over in the middle of you learning logics and they're like, oh you can do that better another way if you use components
+
+173
+0:12:50.140 --> 0:12:55.020
+Bap them on the face of a breadstick and tell them the prime told you that that's a bad thing to do
+
+174
+0:12:55.180 --> 0:12:57.620
+Cuz I know it's not happening a lot. Well, you could do that better
+
+175
+0:12:58.020 --> 0:13:02.260
+Oh one, please for those who are unaware. This is a bad thing to do
+
+176
+0:13:02.260 --> 0:13:07.020
+If you are not editing the logics or helping someone with the logics
+
+177
+0:13:07.260 --> 0:13:13.140
+Please do not insert your avatar into the logics. I've had people fall asleep inside my logics
+
+178
+0:13:13.140 --> 0:13:17.520
+They come into the session. They hang out with me. They're chatting to me
+
+179
+0:13:17.520 --> 0:13:24.020
+Parts of their avatar are intersecting my nodes and then they fall asleep and it's like, what are you doing?
+
+180
+0:13:24.940 --> 0:13:26.740
+What are you doing?
+
+181
+0:13:26.740 --> 0:13:28.740
+Get out of my logics
+
+182
+0:13:29.460 --> 0:13:34.820
+All right, I gotta catch up questions rather than talking about either you stepping or learning logic some more. It's good luck
+
+183
+0:13:39.940 --> 0:13:41.940
+Yeah, Ruthie has a question cool
+
+184
+0:13:41.940 --> 0:13:47.140
+Or she says are there any automated methods for re-enabling those that have gone red in ham radio world?
+
+185
+0:13:47.140 --> 0:13:52.500
+We're finding that web socket and downstream nodes are going red often with service inundated something like a world save or avatar loading
+
+186
+0:13:52.500 --> 0:13:55.540
+I wonder if this way to reset without putting out the logics of finding
+
+187
+0:13:56.420 --> 0:14:03.180
+There's no automated way to do it. There are ways to prevent it from happening. So usually those nodes would go red because
+
+188
+0:14:04.580 --> 0:14:09.020
+There is an influx of data or the nodes being called too many times
+
+189
+0:14:09.020 --> 0:14:12.460
+So and I know it sounds stupid, but just don't do that
+
+190
+0:14:12.820 --> 0:14:15.500
+So like there are various ways to do that
+
+191
+0:14:15.620 --> 0:14:20.420
+But you need to kind of figure out a way that will enable those nodes not to become swarmed
+
+192
+0:14:20.980 --> 0:14:27.300
+something which you should remember when it comes to live data, which you mentioned via web sockets as well is that if the
+
+193
+0:14:27.900 --> 0:14:30.820
+if the logic system is is struggling to keep up
+
+194
+0:14:31.460 --> 0:14:33.460
+make sure that you know what the
+
+195
+0:14:33.460 --> 0:14:41.380
+Lifetime or the like the lifetime of a single message coming through is as an example here that that is probably relevant
+
+196
+0:14:42.100 --> 0:14:46.500
+When the heart rate system that uses web sockets it talks to a bluetooth heart rate monitor
+
+197
+0:14:46.500 --> 0:14:50.500
+Which speaks your computer opens up a web socket server sends web socket messages to
+
+198
+0:14:50.500 --> 0:14:56.460
+Neos and then you just like your heart rate in your name badge the size of like mount Vesuvius and I get really annoyed
+
+199
+0:14:56.460 --> 0:15:00.580
+but anyway, your heart rates like the size of a mountain on top of your head and
+
+200
+0:15:00.580 --> 0:15:06.380
+Every couple of seconds the web socket is going. Here's my heart rate. Here's my heart rate
+
+201
+0:15:06.380 --> 0:15:08.820
+Here's my heart rate if you are struggling
+
+202
+0:15:09.540 --> 0:15:12.580
+Or the no system is slowing down or whatever
+
+203
+0:15:12.580 --> 0:15:18.980
+I'm like it's okay to skip some messages because you've always got the next message coming through that gives you information about
+
+204
+0:15:19.340 --> 0:15:22.940
+What your heart rate is so you don't need to process every single message
+
+205
+0:15:22.940 --> 0:15:28.300
+You just need to process as many messages as you can so there is an opportunity to drop some of the messages
+
+206
+0:15:28.300 --> 0:15:31.700
+So do keep that in mind. We did that a lot during racing
+
+207
+0:15:32.220 --> 0:15:36.420
+Of course like so I used to do racing software, and it's very complicated
+
+208
+0:15:37.580 --> 0:15:44.580
+But so we had like a master controller, and it was running the race it knew who was first to a second etc
+
+209
+0:15:44.580 --> 0:15:51.500
+But it would regularly send out those updates to view displays around sort of the race circuit and the track to be like you know
+
+210
+0:15:51.500 --> 0:15:55.300
+this person's winning and those would get overloaded because sometimes this like
+
+211
+0:15:55.300 --> 0:16:01.460
+300 bikes on track and it's really complicated and so we would drop packets right because we always knew the next
+
+212
+0:16:01.700 --> 0:16:06.300
+Available status was coming out, so we would drop them and be like it's okay
+
+213
+0:16:06.300 --> 0:16:09.500
+It can be invalid for like a split second whilst the next update comes
+
+214
+0:16:09.500 --> 0:16:13.620
+Let's not stress out about like you know doing that we also see that
+
+215
+0:16:14.140 --> 0:16:18.340
+Cmdr. Does that you know they drop frames OBS does that when you're streaming it drops frames, right?
+
+216
+0:16:18.340 --> 0:16:22.260
+It's just like it's okay sometimes to just throw out some data if you don't need it moving onwards
+
+217
+0:16:22.260 --> 0:16:28.980
+Deception says what's going on you're all currently in the office house ama from prime to ask about near stuff
+
+218
+0:16:28.980 --> 0:16:32.060
+so ask some questions in the office hours channel that you're typing in and
+
+219
+0:16:32.780 --> 0:16:38.460
+I'll answer them Gina says any plans for new logics knows a logical improvement. Yes
+
+220
+0:16:39.460 --> 0:16:41.260
+but
+
+221
+0:16:41.260 --> 0:16:46.380
+Rampers says and this is a pop to their previous questions, so that let's let's let's get into it
+
+222
+0:16:46.380 --> 0:16:53.260
+Let's rub my hands together. I'm not sure exactly how to formulate this baby remember someone's saying something a lot along the sign along sort of
+
+223
+0:16:54.100 --> 0:16:55.860
+Cool tongue-tied there
+
+224
+0:16:55.860 --> 0:17:01.900
+Someone said something along the lines of I don't feel comfortable discussing this stuff you want to look for and
+
+225
+0:17:02.220 --> 0:17:04.260
+Mod in modding discord do it in DM
+
+226
+0:17:04.260 --> 0:17:06.260
+So don't get to problems or at least something like that
+
+227
+0:17:06.340 --> 0:17:11.660
+What I say is I feel there should be some guidelines saying as long as you don't say too much about this you're not
+
+228
+0:17:11.660 --> 0:17:13.700
+Okay, written by freaks himself disagree
+
+229
+0:17:13.700 --> 0:17:17.660
+I'll answer that in a moment that essentially all hits back to the modding policy X you late
+
+230
+0:17:17.820 --> 0:17:20.500
+Contradiction the thing that we discussed many times is how I feel about it ah
+
+231
+0:17:21.020 --> 0:17:25.540
+Fricks doesn't have to write everything whenever you see the word fructs. I want you to replace it with Nias the company
+
+232
+0:17:25.540 --> 0:17:31.120
+I know there's issues in announcements etc, but just replace it with Nias the company like seriously
+
+233
+0:17:31.120 --> 0:17:32.980
+It's like well fructs needs to do that
+
+234
+0:17:32.980 --> 0:17:37.580
+No, Nias the company needs to do that if fructs is actually the person that needs to do it fine
+
+235
+0:17:37.820 --> 0:17:40.340
+But let's remove the word fructs from the vocabulary
+
+236
+0:17:40.340 --> 0:17:45.820
+That's what we did when we wrote the modding policy the security policy all the rules all the guidelines etc
+
+237
+0:17:45.820 --> 0:17:51.160
+Those are written by Nias the company or Nias's moderation team or prime
+
+238
+0:17:51.540 --> 0:17:57.620
+Because it takes the emphasis off freaks needed to do everything right if I need to speak to fructs to get whatever I need written
+
+239
+0:17:57.620 --> 0:18:03.700
+I will and he read and reviewed both the morning policy and the security policy before it was released to anyone
+
+240
+0:18:04.260 --> 0:18:06.860
+That's totally fine. It doesn't need to be written by him
+
+241
+0:18:06.860 --> 0:18:10.260
+That's I gotta be in my bonnet about that because it's like from the old days
+
+242
+0:18:10.260 --> 0:18:14.180
+It was just like well fructs needs to do that. No anyone can do that
+
+243
+0:18:15.180 --> 0:18:17.180
+Anyone can do that
+
+244
+0:18:19.460 --> 0:18:24.960
+We can't do that till we resolve that eeler modding policy contradiction what I will say to you though is
+
+245
+0:18:25.580 --> 0:18:31.180
+Maybe keep the morning discussion to the modding discord, and if it's in the modding discord. It's your guys's discord
+
+246
+0:18:31.180 --> 0:18:38.620
+We have no purview to say don't do that there if we get reports or tickets about the EULA being contradicted over there
+
+247
+0:18:39.260 --> 0:18:46.640
+It's I don't know what will happen because it's like off-platform and sort of out of our purview and the modding policy says it's okay
+
+248
+0:18:46.640 --> 0:18:49.780
+To do but like I still don't understand the issue at play here
+
+249
+0:18:50.860 --> 0:18:56.540
+People shouldn't feel that modding is bad or that modding is against the rules. We have a policy that says it. It's okay
+
+250
+0:18:56.540 --> 0:19:01.480
+So just do it question mark. I don't understand. It's probably situational
+
+251
+0:19:02.420 --> 0:19:05.200
+Depending on an individual thing just because I see
+
+252
+0:19:06.180 --> 0:19:10.460
+Realms of a another topic here. I don't want to touch on it as well. I see like the oh
+
+253
+0:19:11.420 --> 0:19:17.140
+There might be problems if we do this if you are worried about problems occurring because you do X ask
+
+254
+0:19:17.740 --> 0:19:22.480
+Dropping a ticket. It's okay to drop in a ticket and be like I am going to blow up the moon
+
+255
+0:19:22.480 --> 0:19:29.520
+Will I be modded you know have mod restrictions against be on on Neos if I do that perfectly okay ticket go for it
+
+256
+0:19:29.880 --> 0:19:34.240
+Let us know what you're worried about. I can't stand people saying like oh, yeah guys
+
+257
+0:19:34.240 --> 0:19:39.160
+There's rumors and the rumors are bad the last time someone said that to me
+
+258
+0:19:39.160 --> 0:19:44.520
+We took it to DMS, and I'm like those aren't rumors and none of them are bad or security related at all
+
+259
+0:19:45.240 --> 0:19:47.240
+So just just keep that in mind
+
+260
+0:19:47.240 --> 0:19:54.200
+So recio now says what method would you recommend for dropping those sets of impulses off the web socket receiver local impulse timeout?
+
+261
+0:19:54.200 --> 0:19:57.720
+Yeah, probably local impulse timeout. You could also use some sort of queuing system
+
+262
+0:19:58.400 --> 0:20:00.400
+which of course you need collections for but
+
+263
+0:20:01.320 --> 0:20:03.320
+local impulse timeout once per frame
+
+264
+0:20:05.200 --> 0:20:10.200
+Local leaky impulse bucket I have to say that very carefully because some friends of mine have a
+
+265
+0:20:11.480 --> 0:20:13.520
+less than professional nickname for it
+
+266
+0:20:13.520 --> 0:20:15.520
+I
+
+267
+0:20:16.320 --> 0:20:18.320
+Would speak of
+
+268
+0:20:19.360 --> 0:20:25.240
+You could also look at like how often the data gets duplicated from your end on the server as well
+
+269
+0:20:25.560 --> 0:20:29.360
+So if your server is constantly sending the same data every like second
+
+270
+0:20:29.560 --> 0:20:36.240
+Maybe up it to every two seconds, and then you've you've you've halved your data load right you've half the bandwidth also consider polling as well
+
+271
+0:20:36.240 --> 0:20:40.920
+I've noticed tonight. I don't know anything about your scenario, so I don't know if this is the case, but I've noticed a lot of people
+
+272
+0:20:40.920 --> 0:20:47.640
+Confuse HTTP nodes and web sockets, and they're just like you have to use web sockets for everything, and I'm like no no
+
+273
+0:20:48.880 --> 0:20:54.360
+Like the world uses HTTP. We don't all use web sockets a good example here might be
+
+274
+0:20:55.560 --> 0:21:00.800
+Let's think about let's think about discord actually so when you load discord first thing in the morning
+
+275
+0:21:01.440 --> 0:21:03.440
+And I'm not sure exactly works like this
+
+276
+0:21:03.440 --> 0:21:07.300
+But hey this is how I would do it when you first load discord in the morning
+
+277
+0:21:07.300 --> 0:21:12.960
+It will do a HTTP request to discord and say give me the history of the office hours channel
+
+278
+0:21:12.960 --> 0:21:16.800
+And you'll get all that history down and then when you're connected and you're synced up
+
+279
+0:21:17.600 --> 0:21:23.940
+To that it'll then use web sockets or something similar to that to get new messages so they get them live
+
+280
+0:21:24.220 --> 0:21:29.220
+But it's constantly doing HTTP requests right it's like everyone's like no. I got a bit of sockets
+
+281
+0:21:29.220 --> 0:21:33.260
+I'm like well, just just just trust me here HTTP sometimes better
+
+282
+0:21:33.260 --> 0:21:38.960
+Moving forwards deception ask what's new is his favorite food. I don't know you'd have to ask news
+
+283
+0:21:40.240 --> 0:21:42.240
+Dre says some time ago
+
+284
+0:21:42.280 --> 0:21:45.720
+I was accidentally crashed out you to unload video play again deleted
+
+285
+0:21:45.720 --> 0:21:50.160
+I'm home with crash force news to say for changes and all the untidy mess at my home world in that point in time
+
+286
+0:21:50.160 --> 0:21:52.360
+There's a way to prevent the forced over saving in case one of the crash
+
+287
+0:21:53.800 --> 0:21:59.360
+Not currently um I do have some recommendations, which are don't use your home worlds
+
+288
+0:21:59.360 --> 0:22:02.600
+I know that sounds kind of strange, but like I don't use them
+
+289
+0:22:02.600 --> 0:22:05.800
+My home was a jump points. I've got like
+
+290
+0:22:06.600 --> 0:22:09.520
+World orbs to various projects. I'm doing all sorts of stuff like that
+
+291
+0:22:09.520 --> 0:22:12.320
+I do that to avoid the problem that currently exists
+
+292
+0:22:12.320 --> 0:22:19.000
+We do have some open get up issues about sort of what to do their settings. Maybe tweaks settings
+
+293
+0:22:19.760 --> 0:22:21.760
+Conflict stuff like that that might help
+
+294
+0:22:22.240 --> 0:22:29.080
+But until then I just I don't recommend using them like my home world is literally like how to get to somewhere else quicker or
+
+295
+0:22:29.080 --> 0:22:33.680
+The space which I like hang out in last I'm waiting to join another world
+
+296
+0:22:34.400 --> 0:22:38.080
+You can even like put something in your home world which is like a big button
+
+297
+0:22:38.240 --> 0:22:43.140
+That's like open my actual like hangout world right and then when you don't you're just like
+
+298
+0:22:43.240 --> 0:22:49.740
+Click the button opens the world does it all for you and that way you're not right really missing any of the stuff like that
+
+299
+0:22:50.080 --> 0:22:54.820
+You know I've got like two bookshelves left bookshelf is in progress right bookshelf is
+
+300
+0:22:55.520 --> 0:22:57.520
+finished but sort of reference
+
+301
+0:22:57.520 --> 0:22:59.580
+There has been like a
+
+302
+0:23:00.280 --> 0:23:02.000
+Roman amphitheater
+
+303
+0:23:02.000 --> 0:23:03.320
+style thing
+
+304
+0:23:03.320 --> 0:23:07.760
+About 20 units to the right of where my home world starts for about a year now
+
+305
+0:23:07.760 --> 0:23:10.360
+And I just keep forgetting to leave it that just leaves there
+
+306
+0:23:10.360 --> 0:23:14.280
+I was gonna make it into a world, but then I kept forgetting and now it's just kind of there. It's strange
+
+307
+0:23:14.280 --> 0:23:16.120
+I don't really know why I
+
+308
+0:23:16.120 --> 0:23:18.120
+forgotten to do it, but
+
+309
+0:23:20.720 --> 0:23:22.840
+Yeah, it's something like like like this
+
+310
+0:23:22.840 --> 0:23:28.760
+But it's just like sat there in my whole world somewhere and just sat there doing nothing
+
+311
+0:23:29.960 --> 0:23:33.180
+Moving forward so Risi has more information about the web socket stuff
+
+312
+0:23:33.800 --> 0:23:38.480
+The you're doing it to get the RF level okay cool any changes from the server are sent
+
+313
+0:23:38.480 --> 0:23:41.640
+But they're sending a maximum of 20 updates per second is kind of important to receive this many updates
+
+314
+0:23:41.640 --> 0:23:46.280
+We can get real-time information on what we are receiving to the other end of the radio connected in real life. Yeah, um
+
+315
+0:23:46.960 --> 0:23:49.400
+At that point. I probably just have to look at the node set up
+
+316
+0:23:49.400 --> 0:23:55.720
+There's probably something you're doing somewhere that can be improved to prevent red nodes. There's a particular area. That's reading out
+
+317
+0:23:56.120 --> 0:24:03.220
+Think about how you can restructure it such that the data coming in from the web sockets is isolated from the rest of the system
+
+318
+0:24:04.000 --> 0:24:09.080
+For example you might write that RF level to a dynamic variable and then pick it up elsewhere
+
+319
+0:24:09.080 --> 0:24:15.560
+And then you've like you've ended your impulse chain very quickly like you received the RF level you write it to a dynamic variable
+
+320
+0:24:15.560 --> 0:24:20.920
+You're done. You're done, and then nothing else happens in that particular impulse chain. That's another thing
+
+321
+0:24:20.920 --> 0:24:23.900
+I want people to do when they learn logics as well as pack early and
+
+322
+0:24:24.480 --> 0:24:29.200
+Impulse chains early like it's always better to have more than one impulse chain than have an impulse chain
+
+323
+0:24:29.200 --> 0:24:30.800
+That is like the size of the planet
+
+324
+0:24:30.800 --> 0:24:34.280
+It's like and then we do this and then we do that and then we do this and then we do that and then
+
+325
+0:24:34.280 --> 0:24:36.280
+We do this and then we do that okay
+
+326
+0:24:36.600 --> 0:24:40.220
+Maybe just like chuck in a dynamic impulse receiver in the middle there
+
+327
+0:24:40.220 --> 0:24:42.320
+So you don't have to like keep doing stuff on the same chain
+
+328
+0:24:42.320 --> 0:24:48.440
+Another good way to look at it is when people talk about sort of multi-threaded asynchronous programming things like that
+
+329
+0:24:48.440 --> 0:24:49.160
+They're very complicated
+
+330
+0:24:49.160 --> 0:24:56.440
+But just think about it this way if there is a break as in between impulse chains it gives time for the computer to like
+
+331
+0:24:56.440 --> 0:24:59.440
+Catch up right so you're doing hey. I'm doing this impulse chain
+
+332
+0:24:59.440 --> 0:25:05.880
+I'm gonna stop and immediately trigger using whatever method you want to trigger another impulse chain cool
+
+333
+0:25:06.040 --> 0:25:08.160
+But in the split second between one impulse chain
+
+334
+0:25:08.160 --> 0:25:13.640
+Finishing and another impulse chain starting it gives chance for the logics engine to be like ah cool
+
+335
+0:25:13.640 --> 0:25:16.760
+I can relax a little bit. I can chill out right so it's a more
+
+336
+0:25:17.560 --> 0:25:22.880
+Uncommon to see red nodes in that case properties providing some information about dot opening the cloud home
+
+337
+0:25:22.880 --> 0:25:25.920
+I like that I use it because it's like has lots of links in it
+
+338
+0:25:25.920 --> 0:25:30.720
+But I don't put video players or anything like that, and it's like a mirror and some world orbs
+
+339
+0:25:32.760 --> 0:25:35.280
+Moving forward to other questions just check you haven't missed any
+
+340
+0:25:35.280 --> 0:25:40.680
+Specs has a question here speaking of home was I'll try to set my local headless server as a session
+
+341
+0:25:40.680 --> 0:25:42.120
+I auto-join when I start up nears
+
+342
+0:25:42.120 --> 0:25:44.600
+I tried using the documented command line parameters
+
+343
+0:25:44.600 --> 0:25:51.640
+But didn't seem to have any luck to have a working example of what using auto-join parameters looks like I don't have an example
+
+344
+0:25:51.760 --> 0:25:57.240
+I would highly recommend using the custom session ID stuff for headless
+
+345
+0:25:57.760 --> 0:26:02.600
+Because that's really cool, and that should be a little bit easier to launch into but I don't have a specific example
+
+346
+0:26:02.600 --> 0:26:08.760
+Ozi has a question which is a good question is a nice way to write is there a nice write-up on how nears is data
+
+347
+0:26:08.760 --> 0:26:12.280
+Model works during how nears think things that the players know
+
+348
+0:26:12.680 --> 0:26:17.080
+I know the hate tree was working in one for like how logics works which is kind of interesting
+
+349
+0:26:17.080 --> 0:26:19.840
+But that I don't think they buy published it yet. They're still working on it
+
+350
+0:26:20.280 --> 0:26:21.280
+I
+
+351
+0:26:21.280 --> 0:26:22.400
+want to
+
+352
+0:26:22.400 --> 0:26:24.680
+Hate mentioning this again, but I do want to caution people
+
+353
+0:26:25.800 --> 0:26:27.800
+Some of that stuff should be invisible to you
+
+354
+0:26:27.800 --> 0:26:33.720
+Like if there's like a lot of times feel like you know how do I use like an I feel?
+
+355
+0:26:33.760 --> 0:26:39.280
+Bracket sync ref bracket sync bracket sync sync sync, and I'm just like what are you doing stop?
+
+356
+0:26:39.680 --> 0:26:45.880
+Like you shouldn't use that lower level part of the engine you should use something above that to do what you need to do
+
+357
+0:26:46.880 --> 0:26:48.080
+and
+
+358
+0:26:48.080 --> 0:26:51.920
+That can be a case there when you're looking too much into the data model and how it works
+
+359
+0:26:51.920 --> 0:26:57.680
+like if there is a problem, that's a better question, so I'm just making sure that that question doesn't hide a
+
+360
+0:26:58.080 --> 0:27:05.080
+Problem behind that question, and if it doesn't that's totally fine, but if it does make sure you're asking the question the course
+
+361
+0:27:05.080 --> 0:27:11.520
+The chain of thought to lead up to generally how the data model works because you shouldn't ideally need to know how it works
+
+362
+0:27:11.960 --> 0:27:13.160
+moving down to
+
+363
+0:27:13.160 --> 0:27:19.000
+Gina what logics projects you want to see people make more of I want you see people make more of not multi tools
+
+364
+0:27:19.000 --> 0:27:24.400
+Not avatar gesture systems if you're making anything other than those two things
+
+365
+0:27:25.080 --> 0:27:27.080
+Fantastic just go ahead and do it
+
+366
+0:27:27.720 --> 0:27:29.000
+games
+
+367
+0:27:29.000 --> 0:27:31.000
+experiences artwork
+
+368
+0:27:31.000 --> 0:27:33.000
+science
+
+369
+0:27:33.200 --> 0:27:35.200
+Data visualization
+
+370
+0:27:35.960 --> 0:27:40.900
+All sorts of stuff like that. I don't need to see another multi-tool
+
+371
+0:27:41.360 --> 0:27:46.760
+Don't build blueprints either. I see what a lot of people do is they're making tools to make stuff like I am making
+
+372
+0:27:46.760 --> 0:27:51.960
+a hammer to hammer some nails and making a screwdriver to screw in some screws
+
+373
+0:27:52.080 --> 0:27:58.120
+What I want to see is what are you building? Oh, I'm building a bird box great. I want to see more bird boxes
+
+374
+0:27:58.120 --> 0:28:02.440
+I don't want to see more hammers if that makes sense those tools are great, but I
+
+375
+0:28:03.160 --> 0:28:07.000
+I've lost count of the amount of people that join my session, and they're like hey prime
+
+376
+0:28:07.000 --> 0:28:09.680
+Can I show you the multi-tool? I'm working on and I just go
+
+377
+0:28:10.880 --> 0:28:12.880
+No
+
+378
+0:28:12.880 --> 0:28:17.160
+Hard to not be rude about it, but like I've seen enough. I don't need to see any more multi-tools. Thanks
+
+379
+0:28:17.840 --> 0:28:21.040
+Rosie follows up this is it's just curiosity because I know how half it works
+
+380
+0:28:21.960 --> 0:28:24.960
+Yeah, understood. Yeah, I'm just making sure sometimes
+
+381
+0:28:24.960 --> 0:28:29.320
+I've seen people that are like how does logics work or like how does locomotion work?
+
+382
+0:28:29.320 --> 0:28:32.080
+And then I ask them some more questions, and I find out there
+
+383
+0:28:32.200 --> 0:28:37.960
+They're trying to do something that's that's solved with a logic node or a component that they haven't realized exists
+
+384
+0:28:38.640 --> 0:28:40.640
+moving forwards to dresus question
+
+385
+0:28:40.640 --> 0:28:42.800
+other way anyways in
+
+386
+0:28:43.920 --> 0:28:49.680
+Logics to essentially take your rotation of a bone and tell another bone to imitate the rotation and use some multiply map to tell
+
+387
+0:28:49.680 --> 0:28:52.880
+It to use any part of the rotation. Yes. I don't know it though um
+
+388
+0:28:53.600 --> 0:28:56.840
+We have a full mathematical engine for quaternions
+
+389
+0:28:56.840 --> 0:29:02.760
+We also have some shortcut mathematics like look rotation inverse rotation from to rotation axis angle stuff like that
+
+390
+0:29:02.760 --> 0:29:05.520
+But it's all hardcore maths you need to understand the maths about it
+
+391
+0:29:05.520 --> 0:29:09.840
+a good example here being and I do this on a 2d plane just because
+
+392
+0:29:10.240 --> 0:29:17.600
+2d is what I know I was once many many many years ago making a 2d space shooter. You know and
+
+393
+0:29:18.240 --> 0:29:21.600
+The enemy ship was going to fire a missile at the player ship
+
+394
+0:29:22.080 --> 0:29:22.920
+And I'm like well
+
+395
+0:29:22.920 --> 0:29:28.840
+how do I make the missile rotate such that it faces the the player ship and then moves towards it and
+
+396
+0:29:29.400 --> 0:29:34.080
+I'm like oh, let's figure this out. Let's try and do it, and I did lots of research, and I figured out hey
+
+397
+0:29:34.080 --> 0:29:39.000
+It's just maths the a 10 to operator will do that for you it will
+
+398
+0:29:39.840 --> 0:29:42.520
+Take the I never remember how to use I have to look it up every time
+
+399
+0:29:42.520 --> 0:29:44.480
+I know like I just google a 10 to I'll figure it out
+
+400
+0:29:44.480 --> 0:29:49.480
+But you get the x and y of a thingy and you plug it in and it gives you an angle
+
+401
+0:29:49.480 --> 0:29:55.320
+And then you rotate the ship to the angle or the missile to angle and it's aimed directly at the player
+
+402
+0:29:55.320 --> 0:30:00.640
+And then you move it there. That's a good example where I'm just like cool. That's that's all my problem thumbs up
+
+403
+0:30:01.000 --> 0:30:03.000
+That's sold my problem
+
+404
+0:30:03.000 --> 0:30:05.120
+gun Griffin or Kip says a
+
+405
+0:30:06.240 --> 0:30:09.360
+Note to self make a bird box hammer. Yeah, remember the there's a
+
+406
+0:30:10.200 --> 0:30:15.920
+Diy sort of like wooden furniture world that was one of the MMC entries. That's beautiful right? That's a good example
+
+407
+0:30:16.320 --> 0:30:20.440
+Hey, there's lots of stuff. You can do there if you made like just
+
+408
+0:30:21.720 --> 0:30:27.520
+Like a two by four with nails that you could hammer in and then maybe a ray-set button that brings the nails back up
+
+409
+0:30:27.520 --> 0:30:32.440
+To their non hammered in height. I love that lots of people do I like that people like the tactile tools
+
+410
+0:30:32.440 --> 0:30:33.640
+you can make and
+
+411
+0:30:33.640 --> 0:30:37.840
+With that or actually over time by a lot so rampa and kip if you have a question
+
+412
+0:30:37.840 --> 0:30:40.760
+Please feel free to finish typing otherwise no more questions
+
+413
+0:30:41.800 --> 0:30:44.200
+Okay, we have too many work two more questions
+
+414
+0:30:44.760 --> 0:30:50.320
+So rampa says is it possible to create a copy button on a user-made creation?
+
+415
+0:30:50.920 --> 0:30:54.800
+Facet world copy is in clipboard copy it is
+
+416
+0:30:55.520 --> 0:30:57.820
+People do it kind of in a hacky way they use
+
+417
+0:30:57.820 --> 0:31:03.180
+the light control C control V multi-key thing
+
+418
+0:31:03.580 --> 0:31:07.820
+Where basically they fake it like it's one of our keyboards, but it isn't one of our keyboards
+
+419
+0:31:08.020 --> 0:31:11.740
+There is like a problem in that because it's sort of
+
+420
+0:31:12.460 --> 0:31:15.260
+difficult to do understand and explain
+
+421
+0:31:16.180 --> 0:31:20.580
+I'd like to see a way to do it that had like maybe you know a defined way of doing it
+
+422
+0:31:20.580 --> 0:31:22.900
+We could also put more security into that way for example
+
+423
+0:31:22.900 --> 0:31:30.180
+like we could have a saying allow logics to access my clipboard which would default to off because that sounds like a terrible move or
+
+424
+0:31:30.420 --> 0:31:35.700
+Maybe like it defaults to only allow like put stuff in your clipboard, but it can't read the clipboard
+
+425
+0:31:35.700 --> 0:31:39.680
+I don't know if we put a system in place that was more controlled there. We can add
+
+426
+0:31:40.260 --> 0:31:44.900
+protections around that but yeah right now virtual multi-key control C control V
+
+427
+0:31:44.900 --> 0:31:49.380
+It's difficult usually need to do control a control C control V
+
+428
+0:31:49.380 --> 0:31:53.940
+Take a look at any of the cloud spawners that exist. I believe there's one in red print
+
+429
+0:31:54.220 --> 0:31:57.660
+it's one in a bunch of the the JP stuff and
+
+430
+0:31:58.940 --> 0:32:02.700
+It's not like backpack thing the JP have I forget what it's called
+
+431
+0:32:02.700 --> 0:32:06.780
+I'm actually sort of have like a radio menu that can spawn stuff from a public folder. It's cool
+
+432
+0:32:08.940 --> 0:32:11.660
+moving onwards to the next question
+
+433
+0:32:12.660 --> 0:32:16.980
+In an effort to make a robust mesh to mesh touch detection system
+
+434
+0:32:16.980 --> 0:32:22.340
+Can you sample the color of a pixel on an intersect material to detect if a mesh is intersecting near it?
+
+435
+0:32:23.340 --> 0:32:25.340
+I don't know
+
+436
+0:32:25.420 --> 0:32:28.060
+That appears to be what I call the empirical question
+
+437
+0:32:28.060 --> 0:32:34.980
+Which is please go ahead and try it and let me know what your result is I think it should work
+
+438
+0:32:35.380 --> 0:32:40.460
+But like I'm not sure what you're trying to do, so I probably wouldn't like say do that depends
+
+439
+0:32:40.460 --> 0:32:45.220
+What you're trying to do like I'm then seeing Ozi respond with like hey use cameras
+
+440
+0:32:45.220 --> 0:32:49.940
+And like if you're just trying to collide why not like use colliders
+
+441
+0:32:50.300 --> 0:32:53.900
+How do people not use colliders? Yeah deformed mesh?
+
+442
+0:32:54.660 --> 0:32:57.100
+Collider probably might not match up sometimes
+
+443
+0:32:57.700 --> 0:33:04.220
+So to break it to you there like you're never going to get like a mesh collider with a deformed mesh working correctly
+
+444
+0:33:04.780 --> 0:33:08.340
+I would strongly recommend you go after the
+
+445
+0:33:08.900 --> 0:33:11.740
+procedural colliders which are placed within an avatar's hierarchy
+
+446
+0:33:11.740 --> 0:33:15.540
+And if it's a custom mesh with a rig add to those procedural meshes
+
+447
+0:33:16.180 --> 0:33:19.620
+So a good example is if you look at your hand your hand as a box collider on it
+
+448
+0:33:19.620 --> 0:33:23.820
+Which represents the sort of square that is your hand your arm has a cylinder on it because it's a cylinder
+
+449
+0:33:23.940 --> 0:33:28.560
+And that is what you should be colliding with you shouldn't be colliding with the actual mesh that is
+
+450
+0:33:29.100 --> 0:33:33.380
+fraught with difficulties if you want to use a camera with that or
+
+451
+0:33:33.380 --> 0:33:41.380
+The sample color node of it good luck. I think it'll work. I would just question the the sanity in doing that so
+
+452
+0:33:41.980 --> 0:33:49.020
+Last question at all from from dre says it's possible to have a custom spawn point for your an avatar or work around to
+
+453
+0:33:49.020 --> 0:33:51.020
+Make it seem like you spawned on your desired point
+
+454
+0:33:51.980 --> 0:33:57.880
+Yeah, you can do like if you do like on like go to flow events and then use on start
+
+455
+0:33:57.880 --> 0:34:04.320
+On start it gets triggered when the like the system that you're loading in like avatar object
+
+456
+0:34:04.320 --> 0:34:06.600
+Whatever like starts up like it's a defined event
+
+457
+0:34:07.040 --> 0:34:12.440
+And so you can trigger on star and then I would wait like I don't know a second or two and then teleport yourself
+
+458
+0:34:12.560 --> 0:34:14.600
+I would question again
+
+459
+0:34:14.600 --> 0:34:18.040
+Why you need to do that usually when you load into a map the spawn point that you're given is
+
+460
+0:34:18.320 --> 0:34:23.620
+Tailored to the the map creator good example here being if you're in I don't know a parkour map
+
+461
+0:34:23.760 --> 0:34:26.700
+You would want the player to spawn at the start of the parkour
+
+462
+0:34:26.700 --> 0:34:29.740
+Map and not at the end of the parkour map
+
+463
+0:34:35.500 --> 0:34:41.980
+Yeah, you could if you're just teleporting to someone just just teleport to them just jump to them you can even put like
+
+464
+0:34:42.140 --> 0:34:44.140
+this is a great example of
+
+465
+0:34:44.980 --> 0:34:50.140
+The xy problem, so we'll go over a little bit more to explain it so your problem dres was
+
+466
+0:34:50.140 --> 0:34:56.740
+Losing friends in a world and your solution was change spawn point. You should have asked about your problem
+
+467
+0:34:56.740 --> 0:35:02.180
+Which is getting back to friends in the world rather than your intended solution, which has changed spawn point
+
+468
+0:35:02.380 --> 0:35:08.740
+So now that we know that your actual problem is losing friends. There are better ways to do that which are
+
+469
+0:35:09.700 --> 0:35:16.380
+The jump menu in the session menu or a context menu or whatever you want inside your actual avatar
+
+470
+0:35:16.380 --> 0:35:22.300
+Which will give a list of players in the session and teleport you to them like you can make a custom context menu
+
+471
+0:35:22.300 --> 0:35:27.420
+Which does you know a ring of all the players in a session and then when you click on that button it can teleport you
+
+472
+0:35:27.420 --> 0:35:29.420
+To that's that's quite easy to do yeah
+
+473
+0:35:29.980 --> 0:35:33.620
+They will they want to jump to us. You know a point not on top of your friend
+
+474
+0:35:33.820 --> 0:35:37.100
+You'll probably want to take the position of your friend
+
+475
+0:35:37.460 --> 0:35:42.200
+Go out a radius from that and teleport to there and so you take the position of the friend you
+
+476
+0:35:42.200 --> 0:35:47.640
+Add a radius to that and then you teleport to that you again. You can do that with maths
+
+477
+0:35:47.640 --> 0:35:49.960
+I would probably take their
+
+478
+0:35:51.000 --> 0:35:57.060
+Their position and then add their left or right vector to it and a little bit
+
+479
+0:35:57.060 --> 0:35:59.460
+And that will make you spawn to the left or right of them
+
+480
+0:36:00.080 --> 0:36:04.440
+By a little bit you'd also do forward or back, and then you'll appear in front of them or behind them
+
+481
+0:36:04.440 --> 0:36:07.960
+Which is both scary hence why it's just left or right because then that's not scary
+
+482
+0:36:07.960 --> 0:36:14.840
+I need to do more videos on the the left right up down toward backwards nodes because they're amazing and no one uses them
+
+483
+0:36:15.320 --> 0:36:18.720
+We are totally out of time, so I'm gonna go ahead and kill things off here
+
+484
+0:36:18.880 --> 0:36:20.860
+Thank you for your questions today
+
+485
+0:36:20.860 --> 0:36:25.900
+If you have any follow-up questions feel free to direct message me at any time or attend another office hours section if you have any
+
+486
+0:36:25.900 --> 0:36:27.160
+questions about
+
+487
+0:36:27.160 --> 0:36:32.240
+Moderation related matters, please remember you can just open up a ticket if you're confused. You're unsure open up a ticket
+
+488
+0:36:32.240 --> 0:36:33.800
+We can get back to you there
+
+489
+0:36:33.800 --> 0:36:38.080
+Otherwise keep reading the wiki keep reading the announcer's channel, and I will see you next time. Bye. Bye
+

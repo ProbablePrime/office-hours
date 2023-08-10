@@ -1,0 +1,803 @@
+1
+00:00:00,000 --> 00:00:06,640
+ All right. It is the top of the hour. Let me get this recording started. So welcome
+
+2
+00:00:06,640 --> 00:00:09,900
+ to office hours. This is the top of the hour. We can go ahead and get started. I don't see
+
+3
+00:00:09,900 --> 00:00:17,560
+ any questions right now. So lovely. That's awesome. Quick notice. I was just looking
+
+4
+00:00:17,560 --> 00:00:23,240
+ at the calendar. There will be no office hours on the subsequent two Mondays -- Tuesdays.
+
+5
+00:00:23,240 --> 00:00:28,060
+ So there will be no office hours on the 20th or the 27th. I'm out of the country again.
+
+6
+00:00:28,060 --> 00:00:32,440
+ So next office hours will be in 2023 on the 3rd, which is always like the meme people
+
+7
+00:00:32,440 --> 00:00:38,200
+ do in December. They're like, see you next year. Finger guns, jazz hands. And it's like,
+
+8
+00:00:38,200 --> 00:00:45,840
+ please, like, go home. So, yeah. Everyone has a great holiday period.
+
+9
+00:00:45,840 --> 00:00:54,680
+ But, yes, I will be in various parts of Europe. I've got a pack and stuff. I hate travel.
+
+10
+00:00:54,680 --> 00:00:57,980
+ So we still have no questions. I'm going to go ahead and double check the prequestion
+
+11
+00:00:57,980 --> 00:01:04,320
+ sheet that Nolan uses. Make sure that's empty. It is. It's empty. It's been empty since August.
+
+12
+00:01:04,320 --> 00:01:13,360
+ Oh, we have some good questions. Great. Love it. Good questions. So, switch to English,
+
+13
+00:01:13,360 --> 00:01:18,980
+ please. SHFR says do you have any plans to do a tutorial on the use of evil joints beyond
+
+14
+00:01:18,980 --> 00:01:25,500
+ the simple door hinges? It would depend what I could do. I might do -- so in my public
+
+15
+00:01:25,500 --> 00:01:30,840
+ order somewhere, there's I guess what I would call like a train lever. I don't know if that's
+
+16
+00:01:30,840 --> 00:01:39,460
+ the real name for it. Let me just Google that. Yeah. Like this style thing. I've got two
+
+17
+00:01:39,460 --> 00:01:45,860
+ of them. I've got one that can just free form move. And then I've got one with the sort
+
+18
+00:01:45,860 --> 00:01:52,080
+ of break handle because I wanted that as well. Because that was cool to set up. Yeah. Like
+
+19
+00:01:52,080 --> 00:01:57,480
+ this kind of lever. Of course, a lot smoother and less rusty looking than these pictures.
+
+20
+00:01:57,480 --> 00:02:06,040
+ But you get what I mean. It's like a big lever. I want to make more like tactile physical
+
+21
+00:02:06,040 --> 00:02:10,220
+ like interaction objects for Neos. I think a lot of times we rely on UIX a little too
+
+22
+00:02:10,220 --> 00:02:14,740
+ much and it's just interesting to see. You know, we've got the Japanese community making
+
+23
+00:02:14,740 --> 00:02:22,840
+ like full on planes work. It's like cool. It's also recently concluded, now it's December,
+
+24
+00:02:22,840 --> 00:02:30,240
+ of course, Node-Vember, which is sort of an art thing in November where Glenda artists
+
+25
+00:02:30,240 --> 00:02:38,920
+ just use nodes to make art. And one of them made a shader graph node thingamabob that
+
+26
+00:02:38,920 --> 00:02:43,440
+ did again tactile controls. In this case, like a DJ deck. But they all looked beautiful.
+
+27
+00:02:43,440 --> 00:02:51,040
+ It was like let's get more of these together in Neos. So moving forward to additional questions
+
+28
+00:02:51,040 --> 00:02:57,280
+ there. Lex says I see this field in the world list manager for item template. Do you have
+
+29
+00:02:57,280 --> 00:03:01,120
+ any idea how to use this? This is the component that displays the UI for the world browser.
+
+30
+00:03:01,120 --> 00:03:04,980
+ Yes. Go ahead and take a look at how the world's
+
+31
+00:03:04,980 --> 00:03:09,800
+ run facet works. That actually does overwrite that field. There was a lot of hacky stuff
+
+32
+00:03:09,800 --> 00:03:19,080
+ I had to do there because Neos people can't summon modals. So that's why the modal in
+
+33
+00:03:19,080 --> 00:03:27,280
+ the world is so gross and doesn't fit everything. But that does overwrite that. You're able
+
+34
+00:03:27,280 --> 00:03:33,280
+ to use the item template to change what the world list manager will use when it generates
+
+35
+00:03:33,280 --> 00:03:40,080
+ items. There's also I believe it's called world nexus. That's where I abuse UIX and
+
+36
+00:03:40,080 --> 00:03:45,560
+ physical representation of the open sessions in the form of a circle liner with archways
+
+37
+00:03:45,560 --> 00:03:50,700
+ which are portals which lead to each open session. I thought that was cool. It was sort
+
+38
+00:03:50,700 --> 00:03:58,920
+ of like an art piece, I guess. I think it's like a grassy knoll floating in the sky and
+
+39
+00:03:58,920 --> 00:04:04,400
+ then each archway is an active session. I ran that back when we didn't have that many
+
+40
+00:04:04,400 --> 00:04:10,080
+ active sessions. Maybe in the VR chat boom that would have been crazy nonsense. But right
+
+41
+00:04:10,080 --> 00:04:17,600
+ now it should be quite easy to look at. Moving forward to Zari's question. With you
+
+42
+00:04:17,600 --> 00:04:21,220
+ having recently held a presentation for the Science Edu, I was wondering if there's been
+
+43
+00:04:21,220 --> 00:04:25,840
+ jump offs for projects in the site due to the situation. I know things are usually quite
+
+44
+00:04:25,840 --> 00:04:35,880
+ locked in. One wonders given the bad publicity by such a -- always. Like literally always.
+
+45
+00:04:35,880 --> 00:04:42,480
+ Stuff is always happening in the science realm. Amos is the main science dude that I work
+
+46
+00:04:42,480 --> 00:04:51,280
+ with. There is always stuff going on. So just yesterday we were doing some eye testing stuff.
+
+47
+00:04:51,280 --> 00:05:00,440
+ And today we just booked a surgeon who is coming into today to recreate a surgical case
+
+48
+00:05:00,440 --> 00:05:11,440
+ on actual patient scans. We're comparing it to the output from the non VR, non-Nerus process.
+
+49
+00:05:11,440 --> 00:05:15,720
+ It's just always happening. Sometimes it's not applicable to be shared.
+
+50
+00:05:15,720 --> 00:05:22,840
+ In this case it's real patient data. It's someone's actual face. I can't share screenshots.
+
+51
+00:05:22,840 --> 00:05:29,600
+ But otherwise it's kind of open. Just looking through pictures. Yeah, that's nothing there.
+
+52
+00:05:29,600 --> 00:05:35,800
+ Of course there's also an exposure therapy thingy that we did. I was going to make a
+
+53
+00:05:35,800 --> 00:05:41,300
+ video on that. But then I can totally do that. But yeah, it's always happening. I'd love
+
+54
+00:05:41,300 --> 00:05:45,980
+ to see more of it happen. In some aspects it's a little bit harder to make noise about
+
+55
+00:05:45,980 --> 00:05:54,420
+ Neers due to the current kerfuffle. But in some aspects it's okay. I'd like to be louder
+
+56
+00:05:54,420 --> 00:06:03,600
+ with what Neers can do and louder with what and how Neers can help the area. So I should
+
+57
+00:06:03,600 --> 00:06:10,480
+ do that. But in some cases I'd like the kerfuffle to die down. I'll double check for additional
+
+58
+00:06:10,480 --> 00:06:19,300
+ questions. Another question here from Easton. Hi, Easton. Is it recommended to use a transparent
+
+59
+00:06:19,300 --> 00:06:23,300
+ mirror on the floor to give a nice reflection effect? In my use case the mirror is only
+
+60
+00:06:23,300 --> 00:06:31,540
+ 512 by 512 and it looks really nice. If you want to do reflections on floor, a realtime
+
+61
+00:06:31,540 --> 00:06:41,560
+ reflection probe might be better. I'm not entirely sure which would be more heavy. I
+
+62
+00:06:41,560 --> 00:06:48,300
+ guess it would depend if probes render in stereo. Mirrors do. I know you'd have to look.
+
+63
+00:06:48,300 --> 00:06:55,140
+ It would be fine. Some places do that process to get reflections on the floor. They usually
+
+64
+00:06:55,140 --> 00:07:02,220
+ have it on a toggle switch for graphical settings. So make sure that's in place. And just go
+
+65
+00:07:02,220 --> 00:07:08,260
+ for it. There are much better ways to do it. But hey, just go for it. Zach says can I get
+
+66
+00:07:08,260 --> 00:07:12,460
+ a clip of you saying something about cheese? You can indeed. Go to my public folder. Go
+
+67
+00:07:12,460 --> 00:07:17,340
+ to art. Go to cheese. There's a bunch of creations in there where I say stuff about cheese. There's
+
+68
+00:07:17,340 --> 00:07:25,460
+ even a folder where I misspelt cheese. It says he's. There's no C on the front of the
+
+69
+00:07:25,460 --> 00:07:37,820
+ word cheese. He's wisdom. Where I talk about various cursed things about cheese. Oh, hey,
+
+70
+00:07:37,820 --> 00:07:41,420
+ mirrors work better than reflection probes. Go for it. There's really no other way to
+
+71
+00:07:41,420 --> 00:07:46,060
+ do it. If you've done reflection probes and they've formed worse than mirrors, then your
+
+72
+00:07:46,060 --> 00:07:52,300
+ only option is mirror. Make sure it's turn off. You also figure out when you can turn
+
+73
+00:07:52,300 --> 00:07:56,740
+ it off. Do cull that effect. If they're not in the room, maybe the room's still loaded
+
+74
+00:07:56,740 --> 00:08:02,320
+ because you haven't done culling. Turn off the mirror. In a very old map by me called
+
+75
+00:08:02,320 --> 00:08:08,980
+ tea garden, there is actually a slightly opacity, slightly transparent, I guess would be a better
+
+76
+00:08:08,980 --> 00:08:14,340
+ non silly way of saying that, mirror inside the fountain. And that only turns on when
+
+77
+00:08:14,340 --> 00:08:19,060
+ you're really, really close. And it's sort of been tailored there. Lots of people use
+
+78
+00:08:19,060 --> 00:08:26,220
+ the fountain and tea garden as a bath. It's just like it's not what it's meant for. It's
+
+79
+00:08:26,220 --> 00:08:33,420
+ not what it's meant for. Whatever. No one goes there these days. So it's fine. Cool.
+
+80
+00:08:33,420 --> 00:08:39,980
+ That's all the questions we have. So I'm going to sit here and think about cheese. And I'm
+
+81
+00:08:39,980 --> 00:08:45,940
+ going to sit here and sip this tea on mute, of course. Any streams or such planned for
+
+82
+00:08:45,940 --> 00:08:50,700
+ the holidays on news? I'm sure Nexlin will get some stuff sorted. I don't know what their
+
+83
+00:08:50,700 --> 00:08:56,740
+ plans are. I do know this week's stream will focus on creator geometry. So look out for
+
+84
+00:08:56,740 --> 00:09:03,180
+ this month's or last month's creator jam content. Accidentally open linked is completely aside.
+
+85
+00:09:03,180 --> 00:09:09,940
+ Keep typing questions, please. I'm going to ramble. I open linked in. And I'm going to
+
+86
+00:09:09,940 --> 00:09:14,900
+ say there's a bunch of posts there being pushed to me through sort of like recommendations
+
+87
+00:09:14,900 --> 00:09:24,220
+ rather than me following them. And some of them just make me feel ill. I think they're
+
+88
+00:09:24,220 --> 00:09:31,820
+ making a joke here. But there's like a post from someone saying that they cooked dinner
+
+89
+00:09:31,820 --> 00:09:38,160
+ in their hotel room using a kettle rather than charge the company for their dinner.
+
+90
+00:09:38,160 --> 00:09:41,700
+ Even though they could totally charge their company for their dinner because they're away
+
+91
+00:09:41,700 --> 00:09:48,220
+ on a business trip for that company. So charging dinner to that company is the right thing
+
+92
+00:09:48,220 --> 00:09:53,040
+ to do. And they're like, it's the little things that get you promoted. Like, okay, cooking
+
+93
+00:09:53,040 --> 00:10:02,420
+ chicken in a kettle in your hotel room is what gets you promoted? I'm no. Another thing
+
+94
+00:10:02,420 --> 00:10:11,440
+ that really bothers me as well is like everyone saying, yo, I wake up at 4am and like, I don't
+
+95
+00:10:11,440 --> 00:10:16,620
+ know, like, run a mile climb a mountain and do half my work before 9am. This is what you
+
+96
+00:10:16,620 --> 00:10:22,200
+ should do to what they actually mean when they say that is find time in your day where
+
+97
+00:10:22,200 --> 00:10:26,540
+ you don't have distractions. That's all it means. So the reason why they get up at 5am
+
+98
+00:10:26,540 --> 00:10:30,840
+ is because their day is so distractible when other people are awake, so that the health
+
+99
+00:10:30,840 --> 00:10:35,240
+ advice there shouldn't be wake up at the crack of dawn because that's not suitable for everyone.
+
+100
+00:10:35,240 --> 00:10:40,100
+ Some people need more sleep. Some people don't like mornings like I don't. So it should say
+
+101
+00:10:40,100 --> 00:10:46,240
+ schedule time in your day where you have time to focus. That's all it needs to say. It doesn't
+
+102
+00:10:46,240 --> 00:10:51,080
+ need to say I wake up at 4am. I wake up at 3am says the next person who's got like, you
+
+103
+00:10:51,080 --> 00:10:56,300
+ know, a line of supplements they want you to buy. It's just wake up with enough time
+
+104
+00:10:56,300 --> 00:11:02,300
+ for you to do the crap that you need to do during the day. If that's 4pm, Alex, fantastic.
+
+105
+00:11:02,300 --> 00:11:07,660
+ If that's 3am, fantastic. But most of these self help people are like, it's got to be
+
+106
+00:11:07,660 --> 00:11:12,600
+ 3am because that's a magic number and let's snort my brain supplements that you can buy
+
+107
+00:11:12,600 --> 00:11:20,080
+ on my blog. It's like, okay, dude, chill. Zari has a filler question, which is absolutely
+
+108
+00:11:20,080 --> 00:11:23,980
+ fine. We don't have any nearest questions. It's just me being angry at LinkedIn. So a
+
+109
+00:11:23,980 --> 00:11:29,280
+ filler question gets me off the LinkedIn approach. So Zari says any thoughts about the U.S. announcing
+
+110
+00:11:29,280 --> 00:11:34,720
+ today that they reached fusion ignition? Getting more energy out of an experiment than they
+
+111
+00:11:34,720 --> 00:11:40,520
+ put in? I'm more excited about that after watching one video on YouTube, which really
+
+112
+00:11:40,520 --> 00:11:45,840
+ isn't that long. And I'm amazed because like it's a really, really good video. It's not
+
+113
+00:11:45,840 --> 00:11:53,180
+ that long. And they literally make fusion happen. So here you go. This is by a channel
+
+114
+00:11:53,180 --> 00:11:59,240
+ called, it is her name, so Cleo Abram, but the series that she's running on there is
+
+115
+00:11:59,240 --> 00:12:12,300
+ a huge if true. And they build a small fuser in Simone's garage. It's not a free energy.
+
+116
+00:12:12,300 --> 00:12:18,280
+ Because it's a small one, it's actually expensive to run. It's like running like a vacuum cleaner
+
+117
+00:12:18,280 --> 00:12:23,500
+ or a hair dryer on full. It takes a lot of energy. It's sucking all the energy out the
+
+118
+00:12:23,500 --> 00:12:30,580
+ wall. But it is doing fusion. And so then the only thing, and I say the only thing,
+
+119
+00:12:30,580 --> 00:12:36,040
+ like it's simple, is for them to do exactly what they do in that video, but get more energy
+
+120
+00:12:36,040 --> 00:12:41,300
+ out than they put in at home. And then like energy is solved. Of course, that's very difficult
+
+121
+00:12:41,300 --> 00:12:44,900
+ to do. And that's why only sort of institutions and governments are doing it. And if you look
+
+122
+00:12:44,900 --> 00:12:49,680
+ at the fusion chambers that they're using, they're like huge and very confusing. But
+
+123
+00:12:49,680 --> 00:12:55,560
+ I learned more about fusion in that 30 minute video than I've done in the past many years,
+
+124
+00:12:55,560 --> 00:13:00,900
+ including education. It's also incredibly pretty. It's just naturally pretty, which
+
+125
+00:13:00,900 --> 00:13:08,320
+ is interesting. Like new power source, naturally pretty. Let's scroll down and look at questions
+
+126
+00:13:08,320 --> 00:13:15,160
+ now. So linker says do you offer CV or resume proofreading for technical Neos users?
+
+127
+00:13:15,160 --> 00:13:20,300
+ That is a skill that I do have and can do. Depending on how many, I would have to actually
+
+128
+00:13:20,300 --> 00:13:24,820
+ charge for that, though. So maybe just for Zlinker, I don't know. But if it's like 200
+
+129
+00:13:24,820 --> 00:13:30,500
+ of you, then it's going to charge some money. I've got to make up my cheese time. Let's
+
+130
+00:13:30,500 --> 00:13:34,200
+ move down and see if we've got any actual Neos questions. We have two Neos
+
+131
+00:13:34,200 --> 00:13:43,600
+ questions. I am awesomely happy that we have two of those. So I've got a question how flexible
+
+132
+00:13:43,600 --> 00:13:47,780
+ is Neos? I think you mean in terms of development, I'm not sure. I'll answer in
+
+133
+00:13:47,780 --> 00:13:51,180
+ terms of development. But please do take the opportunity to clarify that if you would like
+
+134
+00:13:51,180 --> 00:13:56,860
+ to. They're saying let's say you need to modify and think how easy is that to do. That hugely
+
+135
+00:13:56,860 --> 00:14:03,660
+ depends on like what angle it is and how coupled those things are together. When I talk about
+
+136
+00:14:03,660 --> 00:14:11,320
+ coupling, I want you to imagine, you know, those big sort of things that couple electrical
+
+137
+00:14:11,320 --> 00:14:18,320
+ systems together or railway cars together or, you know, chains together. How coupled
+
+138
+00:14:18,320 --> 00:14:24,380
+ things are together is how long it takes to edit. So as an example here, in isolation,
+
+139
+00:14:24,380 --> 00:14:29,020
+ logic nodes are easy. Particularly logic nodes that just do mathematics or operations. So
+
+140
+00:14:29,020 --> 00:14:35,980
+ the plus node, very simple. The minus node, again, the same one minor code. Any of the
+
+141
+00:14:35,980 --> 00:14:39,700
+ sort of avatar related nodes, they start getting complicated because they're coupled to the
+
+142
+00:14:39,700 --> 00:14:44,100
+ avatar system. So then they start getting more and more difficult. There are significant
+
+143
+00:14:44,100 --> 00:14:50,300
+ areas that are very difficult to do. Those ones for me are ones where I have no idea
+
+144
+00:14:50,300 --> 00:14:55,300
+ what's going on because they've got some fruit's magic going in them. Ones that are coupled
+
+145
+00:14:55,300 --> 00:15:01,380
+ very tightly to other systems. For example, there being Twitch. We are aware that the
+
+146
+00:15:01,380 --> 00:15:07,300
+ Twitch integration that Neos has is fragmenting because it's old and it's breaking. Updating
+
+147
+00:15:07,300 --> 00:15:11,980
+ that is the equivalent of basically just rewriting it because we need to move to a new version
+
+148
+00:15:11,980 --> 00:15:17,420
+ of their library. It's a new version of their API and it's just going to be a mess. That
+
+149
+00:15:17,420 --> 00:15:22,820
+ is on my plate to do. That takes a while. But just a logic node, easy. Let's take a
+
+150
+00:15:22,820 --> 00:15:29,300
+ look at the next question. Is there a way for a tool tip to access the label of the
+
+151
+00:15:29,300 --> 00:15:36,900
+ UI element the user clicks on? Find out what text the user clicked on the specter. It depends.
+
+152
+00:15:36,900 --> 00:15:46,180
+ I love that. It does actually depend on what type of text label you mean. There are some
+
+153
+00:15:46,180 --> 00:15:51,060
+ that would allow you to do that. But most wouldn't. What you need there is effectively
+
+154
+00:15:51,060 --> 00:15:57,660
+ component access. In most cases, tool tips, I say in most cases, tool tips can only really
+
+155
+00:15:57,660 --> 00:16:05,660
+ see the slot or the collider that a tool tip is aimed at or clicked on. From that, you
+
+156
+00:16:05,660 --> 00:16:11,540
+ can't get a reference to the label component on that. Be it a text renderer, a piece of
+
+157
+00:16:11,540 --> 00:16:15,700
+ text in terms of UIX or any other variant of how we render text. There's about ten different
+
+158
+00:16:15,700 --> 00:16:22,180
+ ways. You can't get a reference to that. What you need is dynamic component access, whatever
+
+159
+00:16:22,180 --> 00:16:27,740
+ you want to call it. Where you can take a slot and say give me the components on that
+
+160
+00:16:27,740 --> 00:16:32,660
+ slot and I want the first one that looks like text and from that component, I want the text
+
+161
+00:16:32,660 --> 00:16:37,460
+ field. That's a feature we don't have. Hamish has linked a video on how close nuclear
+
+162
+00:16:37,460 --> 00:16:44,740
+ fusion is. I presume Hamish knows more than I do. All I know is those two did it in their
+
+163
+00:16:44,740 --> 00:16:53,180
+ garage and they did explain, hey, this is using more power than it's generating. Alex
+
+164
+00:16:53,180 --> 00:17:03,740
+ says do anyone have an optimized Neos APK build? Ask Xlinka. That's another example of coupling. It's basically
+
+165
+00:17:03,740 --> 00:17:09,580
+ just sort of like how safe is this change? Logics knows usually okay. Logics knows it
+
+166
+00:17:09,580 --> 00:17:12,940
+ should touch other stuff. If a logic node has an impulse going into it, one of those
+
+167
+00:17:12,940 --> 00:17:17,980
+ white ribbons. It's vastly more complicated than the ones that don't. Alex says will the
+
+168
+00:17:17,980 --> 00:17:23,300
+ new YouTube DL be included in the new version of Neos? When we resume updates, lots of things
+
+169
+00:17:23,300 --> 00:17:28,580
+ will happen. Probably that included. I think it says how in trouble if I just dump the
+
+170
+00:17:28,580 --> 00:17:34,900
+ Google drive link here. Probably not. I mean, like, you shouldn't be doing it, but, like,
+
+171
+00:17:34,900 --> 00:17:41,020
+ whatever. Well, I guess the PR friendly version of that would be I don't personally mind.
+
+172
+00:17:41,020 --> 00:17:48,540
+ Other people might mind. So your mileage may vary. With that, I don't believe we've got
+
+173
+00:17:48,540 --> 00:17:53,580
+ any additional questions. I'm just scrolling around, making sure I missed any. By the looks,
+
+174
+00:17:53,580 --> 00:17:59,180
+ things were good. And then that's a third party link. So, hey, it could give you a virus.
+
+175
+00:17:59,180 --> 00:18:04,220
+ It could not give you a virus. I don't know. I'm not validating or anything. Sorry. I had
+
+176
+00:18:04,220 --> 00:18:08,300
+ to answer the door so I will catch up with questions now. It was one of those things
+
+177
+00:18:08,300 --> 00:18:15,340
+ where it's like oh, God, drop the headphones and run. I will take a look at what we've
+
+178
+00:18:15,340 --> 00:18:19,260
+ missed. Another fellow from Zari who says I guess any project you've seen recently that
+
+179
+00:18:19,260 --> 00:18:23,220
+ you're excited about in addition to the aforementioned Japanese community which continues to be scary
+
+180
+00:18:23,220 --> 00:18:30,340
+ creative. Not that I can think of on Neos. I haven't really been on Neos, like, socially
+
+181
+00:18:30,340 --> 00:18:34,700
+ in a while. I've been kind of busy with other things, sorting other things out. I'm always
+
+182
+00:18:34,700 --> 00:18:39,860
+ interested to see what people see and do and make. I'm really interested if it's not a
+
+183
+00:18:39,860 --> 00:18:48,260
+ multi-tool or an avatar or like an inspector or anything like that. So make more games,
+
+184
+00:18:48,260 --> 00:18:54,860
+ make more art, make more, like, experiences and I'll be happy to check them out. I am
+
+185
+00:18:54,860 --> 00:19:01,780
+ starting to think about and get excited by MMC which is coming up in February which isn't
+
+186
+00:19:01,780 --> 00:19:06,740
+ actually that far away. I know it sounds ridiculous that February isn't that far away but it is
+
+187
+00:19:06,740 --> 00:19:15,980
+ not far away. And then we have a question here from Easton who says are there any plans
+
+188
+00:19:15,980 --> 00:19:25,460
+ to improve the storage facet to act more like the cloud storage indicator? You'll have to
+
+189
+00:19:25,460 --> 00:19:32,780
+ explain what the complication there is. They sent a photo and I'm looking at it. Yeah,
+
+190
+00:19:32,780 --> 00:19:37,940
+ so the storage usage status one is probably just like the logged in user whereas cloud
+
+191
+00:19:37,940 --> 00:19:45,620
+ storage space indicator is, you know, for the whatever you want to look up. Make a issue
+
+192
+00:19:45,620 --> 00:19:50,060
+ if you'd like to see advancements in that. Yep, you'll have to make a issue to request
+
+193
+00:19:50,060 --> 00:19:56,220
+ that. We will talk about it. And with that, I don't see any further questions and we are
+
+194
+00:19:56,220 --> 00:20:01,020
+ at the half hour mark. So I'm going to go ahead and end things off here and I will speak
+
+195
+00:20:01,020 --> 00:20:05,420
+ to you guys at the next office hours in the new year. Do feel free to ping me wherever
+
+196
+00:20:05,420 --> 00:20:09,300
+ you'd like, ask questions and I'll get to you as soon as I can anywhere else. It's just
+
+197
+00:20:09,300 --> 00:20:17,340
+ office hours that is stopping until third. Yes, the third. I thought it was the second
+
+198
+00:20:17,340 --> 00:20:22,540
+ for a moment. You know how half the calendars that you have start the week on Sunday and
+
+199
+00:20:22,540 --> 00:20:26,440
+ half of them started on Monday and sometimes you can set that with a setting for other
+
+200
+00:20:26,440 --> 00:20:31,460
+ times you can't and it's really annoying. Yeah, that anyway, I will see you guys again
+
+201
+00:20:31,460 --> 00:20:36,620
+ sometime soon. Stay safe out there. Remember, cheese is good and I'll speak to you later.

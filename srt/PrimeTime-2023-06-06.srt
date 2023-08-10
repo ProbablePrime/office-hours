@@ -1,0 +1,1552 @@
+1
+00:00:00,000 --> 00:00:02,720
+ It is 4pm, so we're going to get that started.
+
+2
+00:00:02,720 --> 00:00:08,200
+ Let's jump straight into the questions that we have in the thread.
+
+3
+00:00:08,200 --> 00:00:10,200
+ So Lex says "What are the plans for Neocene again?"
+
+4
+00:00:10,200 --> 00:00:15,280
+ So Neocene was like, it's unfair to call that like a backup, but it's like an addition
+
+5
+00:00:15,280 --> 00:00:20,080
+ to the big chunky launcher, right?
+
+6
+00:00:20,080 --> 00:00:25,740
+ We would be remaking the big chunky launcher and making that into like our own launcher.
+
+7
+00:00:25,740 --> 00:00:33,020
+ So that would also allow us to have more of a backup in case the things like the steam
+
+8
+00:00:33,020 --> 00:00:36,000
+ removal happened again, whatever, we'd have our own launcher, etc.
+
+9
+00:00:36,000 --> 00:00:40,180
+ But it would also allow us to sort of more simultaneously manage builds.
+
+10
+00:00:40,180 --> 00:00:46,000
+ So if there was any testing needed, or people wanted to jump between the headless or the
+
+11
+00:00:46,000 --> 00:00:52,120
+ quest build, or the android build, etc. they'd be able to do it a lot easier.
+
+12
+00:00:52,120 --> 00:00:56,720
+ We'd also be able to serve builds there for different establishments, such as businesses,
+
+13
+00:00:56,720 --> 00:00:58,840
+ education, learning, etc.
+
+14
+00:00:58,840 --> 00:01:02,180
+ Yeah, that was what Neocene was meant to be.
+
+15
+00:01:02,180 --> 00:01:04,960
+ Next up we have hentai games who says "What's the status of the lawsuit and when are we
+
+16
+00:01:04,960 --> 00:01:05,960
+ getting an update?"
+
+17
+00:01:05,960 --> 00:01:06,960
+ I don't know what that is.
+
+18
+00:01:06,960 --> 00:01:10,640
+ I mean, my suit's in the cupboard, but like, I don't know what that is.
+
+19
+00:01:10,640 --> 00:01:12,520
+ So I don't know.
+
+20
+00:01:12,520 --> 00:01:14,760
+ And with that, we're out of questions.
+
+21
+00:01:14,760 --> 00:01:19,200
+ So Jack asks "Is Neocene accompanied by a change in the build/deploy pipeline too?"
+
+22
+00:01:19,200 --> 00:01:27,040
+ Yeah, the idea there was to update how the build pipeline and the deployment pipeline
+
+23
+00:01:27,040 --> 00:01:28,040
+ works.
+
+24
+00:01:28,040 --> 00:01:38,760
+ It would have been a great actual hero scenario for the recent Cloudflare, YouTube download,
+
+25
+00:01:38,760 --> 00:01:43,760
+ MMC 2023 issues where we had builds being unsynchronized.
+
+26
+00:01:43,760 --> 00:01:48,520
+ Right now, builds that are generated are like three different pipelines, and so it's really
+
+27
+00:01:48,520 --> 00:01:51,680
+ difficult sometimes to manage them.
+
+28
+00:01:51,680 --> 00:01:55,560
+ Neocene would completely streamline that, and we'd be able to do that a lot easier.
+
+29
+00:01:55,560 --> 00:01:58,360
+ Lou says "What tips practices would you recommend for inventory management?"
+
+30
+00:01:58,360 --> 00:02:00,480
+ I actually have a video on this one as far as I'm aware.
+
+31
+00:02:00,480 --> 00:02:03,420
+ Let me go ahead and double check if I can find it.
+
+32
+00:02:03,420 --> 00:02:08,740
+ It's been working really well outside of Neos as well, it does require diligence, and sometimes
+
+33
+00:02:08,740 --> 00:02:11,680
+ you'll end up clicking a lot of folders.
+
+34
+00:02:11,680 --> 00:02:17,520
+ But if you start doing it, it really does prevent many issues.
+
+35
+00:02:17,520 --> 00:02:21,720
+ People go "There is no inventory management in Neos, so I won't inventory manage."
+
+36
+00:02:21,720 --> 00:02:24,240
+ And I go "Okay, cool.
+
+37
+00:02:24,240 --> 00:02:25,760
+ You could do a little bit of it."
+
+38
+00:02:25,760 --> 00:02:28,320
+ So yeah, but then all the stuff I hadn't managed would still be there.
+
+39
+00:02:28,320 --> 00:02:32,680
+ I was like "Well, yeah, but you can do the new stuff."
+
+40
+00:02:32,680 --> 00:02:33,680
+ When did I upload that video?
+
+41
+00:02:33,680 --> 00:02:37,480
+ I've not got a staff badge there, I've only got one row, and I'm wearing a center hat.
+
+42
+00:02:37,480 --> 00:02:41,440
+ That's gonna be well dated, let me see.
+
+43
+00:02:41,440 --> 00:02:46,280
+ Strangely the date isn't displayed in YouTube Studio, I have to go to the actual video.
+
+44
+00:02:46,280 --> 00:02:47,280
+ Two years ago!
+
+45
+00:02:47,280 --> 00:02:48,840
+ 15 December 2020, fantastic.
+
+46
+00:02:48,840 --> 00:02:56,000
+ I didn't answer the question, because it assumes things that don't exist, or might not exist.
+
+47
+00:02:56,000 --> 00:02:57,640
+ It's a very strange question.
+
+48
+00:02:57,640 --> 00:03:01,400
+ I guess the second half, yes, the second half, that's a better answer for the second half,
+
+49
+00:03:01,400 --> 00:03:05,200
+ which is "Any updates will be in the announcements channel."
+
+50
+00:03:05,200 --> 00:03:08,600
+ And before you say there are no updates in the announcements channel, yes, any future
+
+51
+00:03:08,600 --> 00:03:10,720
+ updates will be in the announcements channel.
+
+52
+00:03:10,720 --> 00:03:16,300
+ You can compare it to that one thing that you pre-ordered on the internet two years
+
+53
+00:03:16,300 --> 00:03:20,880
+ ago and it never shipped and then suddenly randomly arrived today.
+
+54
+00:03:20,880 --> 00:03:24,520
+ I've got edi controllers sat next to me charging.
+
+55
+00:03:24,520 --> 00:03:36,320
+ If you find checking the announcements channel problematic, you can always go to this amazing
+
+56
+00:03:36,320 --> 00:03:38,760
+ URL.
+
+57
+00:03:38,760 --> 00:03:41,200
+ Jack has an overarching question.
+
+58
+00:03:41,200 --> 00:03:44,240
+ What things are planned, considered for future improvements to new users' audio systems,
+
+59
+00:03:44,240 --> 00:03:46,640
+ and better reverb zones, deafening zones, etc.
+
+60
+00:03:46,640 --> 00:03:52,360
+ I would like to, firstly, in my opinion, I guess, and then for what we're actually doing,
+
+61
+00:03:52,360 --> 00:03:57,280
+ you can go ahead and check the roadmap, but I would like to see, we were looking into
+
+62
+00:03:57,280 --> 00:04:02,100
+ it, I can't remember why we stopped, but we were looking into a different audio system
+
+63
+00:04:02,100 --> 00:04:08,860
+ that would allow the structure of the area that you're in to affect the audio in some
+
+64
+00:04:08,860 --> 00:04:13,280
+ way, like walls and doorways and stuff like that would have affected the audio.
+
+65
+00:04:13,280 --> 00:04:19,260
+ I'd have to go double check what the name of that library that we were looking at is,
+
+66
+00:04:19,260 --> 00:04:23,900
+ but that doesn't, I can't remember the name of it, etc.
+
+67
+00:04:23,900 --> 00:04:28,900
+ We are using Steam audio right now for some things, I think we want to upgrade that.
+
+68
+00:04:28,900 --> 00:04:36,240
+ I would like to see more tweaks to the logarithmic falloff, I would also like to see better tooling
+
+69
+00:04:36,240 --> 00:04:38,700
+ to visualize that as well.
+
+70
+00:04:38,700 --> 00:04:43,540
+ It would be great if we had similar debug visuals to things like the reflection probe
+
+71
+00:04:43,540 --> 00:04:49,300
+ and the default cube editing for the falloff of audio, because I know most people just
+
+72
+00:04:49,300 --> 00:04:55,400
+ don't care, and they leave the falloff on logarithmic, they leave the sound at 100%,
+
+73
+00:04:55,400 --> 00:04:59,540
+ and then everyone just complains because audio is always too loud, no one balances their
+
+74
+00:04:59,540 --> 00:05:00,540
+ audio.
+
+75
+00:05:00,540 --> 00:05:02,140
+ Quick reminder there, balance your audio.
+
+76
+00:05:02,140 --> 00:05:03,740
+ Here's how to balance your audio.
+
+77
+00:05:03,740 --> 00:05:08,180
+ Set all of your audio bars to 100%, and then walk through your experience, your world,
+
+78
+00:05:08,180 --> 00:05:14,060
+ your tool, etc., and figure out what needs to be quieter, what needs to be louder, what
+
+79
+00:05:14,060 --> 00:05:17,720
+ you shouldn't hear from across the map, what you should hear across from the map, and then
+
+80
+00:05:17,720 --> 00:05:19,660
+ you can normalize it there.
+
+81
+00:05:19,660 --> 00:05:23,300
+ For anyone who doesn't agree with setting their audio levels to 100%, remember that
+
+82
+00:05:23,300 --> 00:05:29,240
+ the word 100% in the audio level means 100% of normal, or as in the intended way that
+
+83
+00:05:29,240 --> 00:05:32,460
+ the author wants this experience to be established with you.
+
+84
+00:05:32,460 --> 00:05:36,360
+ So if you're running at like 2% audio, like I know most people are, then you're missing
+
+85
+00:05:36,360 --> 00:05:38,760
+ out on a lot of range that you can have there.
+
+86
+00:05:38,760 --> 00:05:44,320
+ Let's say you're making a horror map, you know, maybe footstep sounds, sorry excuse
+
+87
+00:05:44,320 --> 00:05:50,200
+ me, are very quiet, but like the monster screaming and tearing you into pieces, that should be
+
+88
+00:05:50,200 --> 00:05:51,200
+ a bit louder.
+
+89
+00:05:51,200 --> 00:05:55,780
+ You get more range there if you use the entire audio bar, rather than just the bit that occurs
+
+90
+00:05:55,780 --> 00:05:57,420
+ between 2% and 0%.
+
+91
+00:05:57,420 --> 00:06:00,300
+ Lexis, the ETE controllers don't work with Neos anymore?
+
+92
+00:06:00,300 --> 00:06:01,300
+ They do.
+
+93
+00:06:01,300 --> 00:06:05,380
+ I think the path for using them is a bit different, but I've been collaborating with some of the
+
+94
+00:06:05,380 --> 00:06:08,620
+ people in the ETE Discord about that.
+
+95
+00:06:08,620 --> 00:06:17,660
+ We have Silver, they are probably in this Discord, but Silver here is doing some logics
+
+96
+00:06:17,660 --> 00:06:19,160
+ with the ETE controllers.
+
+97
+00:06:19,160 --> 00:06:24,860
+ It might be some facilities or gestures etc that don't work.
+
+98
+00:06:24,860 --> 00:06:25,860
+ I don't know.
+
+99
+00:06:25,860 --> 00:06:29,680
+ Mine arrived, and one was charged to full, and one wasn't charged to full, so I just
+
+100
+00:06:29,680 --> 00:06:31,020
+ put them all on charge.
+
+101
+00:06:31,020 --> 00:06:36,600
+ I actually sent, I could find this library again, because I sent an email to the library
+
+102
+00:06:36,600 --> 00:06:40,660
+ creator, because it's not licensed.
+
+103
+00:06:40,660 --> 00:06:45,500
+ Unfortunately like Gmail searching is just terrible.
+
+104
+00:06:45,500 --> 00:06:47,460
+ Maybe it wasn't on that account.
+
+105
+00:06:47,460 --> 00:06:50,600
+ I might have sent it from, it would make sense if I sent it from this account.
+
+106
+00:06:50,600 --> 00:06:52,600
+ Yes, here it is.
+
+107
+00:06:52,600 --> 00:06:55,000
+ Yeah, it's here.
+
+108
+00:06:55,000 --> 00:06:57,880
+ There's literally no license, no information about it.
+
+109
+00:06:57,880 --> 00:07:02,000
+ Acoustic echo cancelling, voice suppression, voice activity detection.
+
+110
+00:07:02,000 --> 00:07:03,300
+ Very good module.
+
+111
+00:07:03,300 --> 00:07:07,800
+ I asked for a license, they said no.
+
+112
+00:07:07,800 --> 00:07:11,440
+ They said that it's open source, I don't want to give it a license, so I just said okay,
+
+113
+00:07:11,440 --> 00:07:12,440
+ and we didn't use it.
+
+114
+00:07:12,440 --> 00:07:14,720
+ I don't even remember why we did it.
+
+115
+00:07:14,720 --> 00:07:19,900
+ Frix asked me to look into seeing if I could get them to clarify the license, so I was
+
+116
+00:07:19,900 --> 00:07:21,900
+ doing the email back and forth there.
+
+117
+00:07:21,900 --> 00:07:25,220
+ Okay, jumping back up to questions, because I forgot them.
+
+118
+00:07:25,220 --> 00:07:29,800
+ Glavin says are there plans to have a native built-in user calling system?
+
+119
+00:07:29,800 --> 00:07:34,380
+ I would love for the halls like that to kind of be drop-in and easy to use.
+
+120
+00:07:34,380 --> 00:07:39,680
+ We would of course make it so that you can disable them or build your own, because we
+
+121
+00:07:39,680 --> 00:07:45,700
+ don't want our tools to supersede or block the custom creation of additional tools.
+
+122
+00:07:45,700 --> 00:07:48,960
+ But I would love for more logical systems to exist.
+
+123
+00:07:48,960 --> 00:07:56,680
+ I know that VRChat has done some amazing stuff with culling, both audio and avatar related,
+
+124
+00:07:56,680 --> 00:08:00,640
+ which we should absolutely emulate, and then someone starts saying, "No, you're going to
+
+125
+00:08:00,640 --> 00:08:02,200
+ steal it or copy it from VR."
+
+126
+00:08:02,200 --> 00:08:03,600
+ It's like, come on, guys.
+
+127
+00:08:03,600 --> 00:08:09,560
+ I am complimenting VRChat on a pre-feature, well-created, and saying that we could emulate
+
+128
+00:08:09,560 --> 00:08:12,520
+ similar features on our platform, that's totally fine.
+
+129
+00:08:12,520 --> 00:08:15,680
+ Jack comments that there's stuff that Logics can't do, like reduce update rates and stuff
+
+130
+00:08:15,680 --> 00:08:16,680
+ like that.
+
+131
+00:08:16,680 --> 00:08:22,400
+ Yes, if we made a system, it would have a lot more capabilities than Logics.
+
+132
+00:08:22,400 --> 00:08:28,620
+ However, we could take a look at providing additional components, nodes, etc., that would
+
+133
+00:08:28,620 --> 00:08:33,040
+ allow that additional functionality to be established.
+
+134
+00:08:33,040 --> 00:08:35,600
+ Something like that, when we're giving you more control over the world, might have to
+
+135
+00:08:35,600 --> 00:08:39,120
+ wait for hard permissions, though, because at that point we are enabling you to kind
+
+136
+00:08:39,120 --> 00:08:40,120
+ of damage the world.
+
+137
+00:08:40,120 --> 00:08:45,820
+ A bit like the knockback gun problem, we gave people the functionality to accelerate people
+
+138
+00:08:45,820 --> 00:08:50,440
+ at the speed of light, and that's cool, because you can make guns and stuff that knock people
+
+139
+00:08:50,440 --> 00:08:54,880
+ back, but if you crank those numbers up all the way, then weird stuff happens.
+
+140
+00:08:54,880 --> 00:08:59,940
+ So if you did that, the same with IK or culling and stuff like that, there might be some worse
+
+141
+00:08:59,940 --> 00:09:03,560
+ consequences for that that we'd have to sort of handle.
+
+142
+00:09:03,560 --> 00:09:07,900
+ Jack mentions the IK culling mod, yeah, I've looked into that one.
+
+143
+00:09:07,900 --> 00:09:14,080
+ Every mod I look into the source code of, I'm like, I'm sorry, guys, I'm so sorry, because
+
+144
+00:09:14,080 --> 00:09:20,260
+ it's like one line of code to change something that annoyed people.
+
+145
+00:09:20,260 --> 00:09:24,320
+ Jack asks, did you ever find your personalized easter egg in our MMC entry?
+
+146
+00:09:24,320 --> 00:09:28,880
+ You'll have to unfortunately remind me of which gear and which entry.
+
+147
+00:09:28,880 --> 00:09:34,960
+ I looked at far too many, and oftentimes it was not clear who worked on the list, or if
+
+148
+00:09:34,960 --> 00:09:38,360
+ it was, it was just a big list that sort of merged into one.
+
+149
+00:09:38,360 --> 00:09:41,200
+ No, in which case I did not notice it on dashcam.
+
+150
+00:09:41,200 --> 00:09:44,960
+ There was actually, that was like, I know it's like, you know, months away from MMC
+
+151
+00:09:44,960 --> 00:09:48,920
+ 2024, but that is something to note as well.
+
+152
+00:09:48,920 --> 00:09:52,620
+ I don't want to pick on, you know, anyone individual, but I've got to to provide my
+
+153
+00:09:52,620 --> 00:09:54,060
+ example and talking point.
+
+154
+00:09:54,060 --> 00:09:57,800
+ So Rukio, good map, fantastic work team.
+
+155
+00:09:57,800 --> 00:10:04,320
+ However, they put a lot of secrets and easter eggs into their map, and they were quite hidden,
+
+156
+00:10:04,320 --> 00:10:08,960
+ like more hidden than I think was reasonable, and therefore we didn't notice that they
+
+157
+00:10:08,960 --> 00:10:11,320
+ existed and found them confusing.
+
+158
+00:10:11,320 --> 00:10:14,360
+ There were a couple of bugs that prevented us from looking at those, but it was like,
+
+159
+00:10:14,360 --> 00:10:19,580
+ cool, there are easter eggs in here, but they weren't easy enough to find.
+
+160
+00:10:19,580 --> 00:10:24,440
+ Now I know mainstream games sometimes do that, like there's a side quest in Final Fantasy
+
+161
+00:10:24,440 --> 00:10:26,560
+ IX that took ten years to find.
+
+162
+00:10:26,560 --> 00:10:31,240
+ That's okay, because it's like a mainstream game, but when it comes to just a world or
+
+163
+00:10:31,240 --> 00:10:37,000
+ a session as a part of MMC, if you want those easter eggs to be part of your judging, please
+
+164
+00:10:37,000 --> 00:10:38,320
+ make them more obvious.
+
+165
+00:10:38,320 --> 00:10:43,000
+ We have so many entries to look at, and not enough time to look at all of them.
+
+166
+00:10:43,000 --> 00:10:47,240
+ So at a certain point, what I had to do in Rukio's entry was go, I know that there is
+
+167
+00:10:47,240 --> 00:10:51,800
+ more here, like I can see that something is meant to happen here, but I just unfortunately
+
+168
+00:10:51,800 --> 00:10:53,360
+ don't have time to discover it.
+
+169
+00:10:53,360 --> 00:10:57,360
+ There's something about like, if you made a certain drink, then something would appear,
+
+170
+00:10:57,360 --> 00:11:01,100
+ and if that thing appeared, you can then collect them, and then if you collected them, a new
+
+171
+00:11:01,100 --> 00:11:02,100
+ duck appeared.
+
+172
+00:11:02,100 --> 00:11:04,560
+ And the only reason I knew that, oh not duck, floaty appeared.
+
+173
+00:11:04,560 --> 00:11:09,480
+ And the only reason I knew that is because I saw something weird, and then I inspected
+
+174
+00:11:09,480 --> 00:11:13,640
+ it, and I was like "oh I see this", because I was then technically analysing the system.
+
+175
+00:11:13,640 --> 00:11:17,080
+ Oh, Jackal, thought, do you...
+
+176
+00:11:17,080 --> 00:11:20,120
+ So Jackal asks "how's the move, are other efforts going, do you think you'll be starting
+
+177
+00:11:20,120 --> 00:11:21,320
+ out tutorials again at some point?"
+
+178
+00:11:21,320 --> 00:11:26,360
+ I'm still incredibly busy with a variety of things that are non-neos related before
+
+179
+00:11:26,360 --> 00:11:28,640
+ anyone starts like Moveroo the rumour mill.
+
+180
+00:11:28,640 --> 00:11:33,160
+ I'm trying to get the move sorted, I have now applied for the apartment building, which
+
+181
+00:11:33,160 --> 00:11:35,560
+ is next to my apartment building.
+
+182
+00:11:35,560 --> 00:11:39,960
+ They needed income verification, which I provided, and for some reason that's gone all the way
+
+183
+00:11:39,960 --> 00:11:44,000
+ up to the regional manager of the company that owns the building, and she is not responding
+
+184
+00:11:44,000 --> 00:11:47,040
+ to her email, so that's fun.
+
+185
+00:11:47,040 --> 00:11:50,280
+ She needs to respond in the next couple of days or she'll lose a customer.
+
+186
+00:11:50,280 --> 00:11:56,100
+ She'll lose a customer with a very good credit score as well, so you know, she's losing out.
+
+187
+00:11:56,100 --> 00:11:59,440
+ Once that's sorted, then I can do things like arrange movers.
+
+188
+00:11:59,440 --> 00:12:05,380
+ I haven't got that much to move, but I am feeble and weak, I can't move a bed and a
+
+189
+00:12:05,380 --> 00:12:08,120
+ bookshelf by myself.
+
+190
+00:12:08,120 --> 00:12:12,000
+ And then I'll probably get a cleaner to do it once over here, because they charge you
+
+191
+00:12:12,000 --> 00:12:15,440
+ anyway, but if you get a cleaner to do it, then they don't have to do it.
+
+192
+00:12:15,440 --> 00:12:18,640
+ And they won't charge you, but you'll charge - it works out cheaper.
+
+193
+00:12:18,640 --> 00:12:22,680
+ "But you have requested a tutorial about the multi-UV material and what it's good for."
+
+194
+00:12:22,680 --> 00:12:25,000
+ I can give you an example straight off the top of my head.
+
+195
+00:12:25,000 --> 00:12:28,400
+ It really comes up a lot in avatar management and stuff like that.
+
+196
+00:12:28,400 --> 00:12:32,780
+ So let's imagine you have an avatar that has a scrolling emissive effect.
+
+197
+00:12:32,780 --> 00:12:36,500
+ I mean sometimes it's stars or sparkles or stuff like that.
+
+198
+00:12:36,500 --> 00:12:44,340
+ In some cases, you want elements to scroll differently over the UV than other elements.
+
+199
+00:12:44,340 --> 00:12:49,180
+ Like for example, you might want the star or the sparkle shape that's on your emissive
+
+200
+00:12:49,180 --> 00:12:53,100
+ map to scroll at a higher rate than something else.
+
+201
+00:12:53,100 --> 00:12:57,400
+ And the only real way to do that is to scroll those at different rates, which means different
+
+202
+00:12:57,400 --> 00:12:59,680
+ properties, which usually means different UVs.
+
+203
+00:12:59,680 --> 00:13:03,620
+ If you think about the UV for a face, that's sort of where you take the skin off someone's
+
+204
+00:13:03,620 --> 00:13:08,420
+ avatar and lay it down flat like some sort of weird mass murderer.
+
+205
+00:13:08,420 --> 00:13:14,300
+ That is one set of UVs, but then maybe another set of UVs is the stars or the twinkles that
+
+206
+00:13:14,300 --> 00:13:15,680
+ you need to scroll across their face.
+
+207
+00:13:15,680 --> 00:13:17,880
+ And that's why you'd use more UVs.
+
+208
+00:13:17,880 --> 00:13:18,880
+ Separate those up.
+
+209
+00:13:18,880 --> 00:13:20,520
+ Yeah, good idea to use that.
+
+210
+00:13:20,520 --> 00:13:24,160
+ I have to look at my avatar and take a look at that.
+
+211
+00:13:24,160 --> 00:13:27,840
+ Inside of Blender, you can use as many UV maps as you want.
+
+212
+00:13:27,840 --> 00:13:32,520
+ And I know that a lot of people use those for things like baking and shadows and stuff
+
+213
+00:13:32,520 --> 00:13:33,720
+ like that.
+
+214
+00:13:33,720 --> 00:13:39,800
+ Lots of prep that I see for Substance Painter uses multi UV maps.
+
+215
+00:13:39,800 --> 00:13:42,540
+ There's stuff in Blender that I still don't know what it's for.
+
+216
+00:13:42,540 --> 00:13:45,780
+ And I'm just like, this looks cool, but I don't know what it's for.
+
+217
+00:13:45,780 --> 00:13:48,500
+ And the whole reason behind that is I don't do renders in Blender.
+
+218
+00:13:48,500 --> 00:13:51,380
+ I don't do any of the sort of animation in Blender.
+
+219
+00:13:51,380 --> 00:13:54,820
+ I don't even do particle systems or geometry.
+
+220
+00:13:54,820 --> 00:13:56,380
+ No, I haven't looked into that yet.
+
+221
+00:13:56,380 --> 00:14:02,380
+ I just like I have a character ID to like, you know, reweight paint their arm or something.
+
+222
+00:14:02,380 --> 00:14:07,460
+ Just I use it for like probably like a small part of its capabilities.
+
+223
+00:14:07,460 --> 00:14:10,500
+ Jack is commenting on the fact that they are starting up work on a new version of their
+
+224
+00:14:10,500 --> 00:14:13,020
+ MMC project, which is fantastic.
+
+225
+00:14:13,020 --> 00:14:15,420
+ They do comment that they were burnt out by MMC.
+
+226
+00:14:15,420 --> 00:14:19,260
+ The goal of MMC isn't to isn't to burn you out.
+
+227
+00:14:19,260 --> 00:14:23,100
+ So make sure that you are approaching it with your health in mind.
+
+228
+00:14:23,100 --> 00:14:26,900
+ Lex says one thing for them is that they're not going to work on multiple entries.
+
+229
+00:14:26,900 --> 00:14:27,900
+ That's a very good idea.
+
+230
+00:14:27,900 --> 00:14:33,060
+ For those who remember the NCC, which is the Neos contest, I made three entries.
+
+231
+00:14:33,060 --> 00:14:37,220
+ And the reason was because back then Neos was so small, I wanted there to be a wealth
+
+232
+00:14:37,220 --> 00:14:38,460
+ of entries.
+
+233
+00:14:38,460 --> 00:14:41,460
+ And I had a lot more time there because I wasn't on the team.
+
+234
+00:14:41,460 --> 00:14:43,220
+ So I made three entries.
+
+235
+00:14:43,220 --> 00:14:45,540
+ I wouldn't suggest doing that.
+
+236
+00:14:45,540 --> 00:14:46,540
+ There are no additional questions.
+
+237
+00:14:46,540 --> 00:14:49,340
+ I will scroll up the list, double check and I haven't missed any.
+
+238
+00:14:49,340 --> 00:14:51,620
+ I haven't missed any that I can see.
+
+239
+00:14:51,620 --> 00:14:53,980
+ How many additional questions do you let me know?
+
+240
+00:14:53,980 --> 00:14:58,980
+ I put them in that thread and I'll get them in the order that they have here.
+
+241
+00:14:58,980 --> 00:15:02,780
+ Lex asks would you know why accepting a contact request takes an indeterminate amount of time
+
+242
+00:15:02,780 --> 00:15:06,120
+ extra time for the person who's getting accepted?
+
+243
+00:15:06,120 --> 00:15:08,820
+ It's something to do with polling and caching as far as I'm aware.
+
+244
+00:15:08,820 --> 00:15:13,740
+ I know that's like a sort of like, what's the word I'm looking for?
+
+245
+00:15:13,740 --> 00:15:15,220
+ Lacklustre I guess we'll do for now.
+
+246
+00:15:15,220 --> 00:15:18,460
+ I know it's a lacklustre answer, but it's always that particular thing.
+
+247
+00:15:18,460 --> 00:15:22,520
+ I know that we want to expand our SignalR offerings such that that's faster and more
+
+248
+00:15:22,520 --> 00:15:24,540
+ immediate in the future.
+
+249
+00:15:24,540 --> 00:15:27,420
+ But you know, it is 4.24pm.
+
+250
+00:15:27,420 --> 00:15:28,780
+ We'll keep going for a little bit longer.
+
+251
+00:15:28,780 --> 00:15:29,780
+ But if you don't have any...
+
+252
+00:15:29,780 --> 00:15:31,700
+ Oh my god, that's a big question.
+
+253
+00:15:31,700 --> 00:15:33,660
+ So go ahead and get that done.
+
+254
+00:15:33,660 --> 00:15:34,660
+ Okay, cool.
+
+255
+00:15:34,660 --> 00:15:40,420
+ I've got some reading to do.
+
+256
+00:15:40,420 --> 00:15:43,700
+ So Jackal has a gigantic question which we're going to read.
+
+257
+00:15:43,700 --> 00:15:46,620
+ Vakrin, I have set up a simple round frame.
+
+258
+00:15:46,620 --> 00:15:48,620
+ I have to read it because otherwise it doesn't appear on the recording.
+
+259
+00:15:48,620 --> 00:15:51,780
+ I have set up a simple round frame that I'd like to be linked to my context menu.
+
+260
+00:15:51,780 --> 00:15:55,580
+ I've set up with the virtual parent component, an additional value copy board component so
+
+261
+00:15:55,580 --> 00:15:58,740
+ that I can drive its active state using the active state of the visual chart of the context
+
+262
+00:15:58,740 --> 00:16:01,220
+ menu slot attached to me and the player.
+
+263
+00:16:01,220 --> 00:16:04,820
+ Likewise, the override parent field is set to said visual slot.
+
+264
+00:16:04,820 --> 00:16:09,180
+ Let's set my frame's rotation scale and position using targets, virtual parent, and local settings
+
+265
+00:16:09,180 --> 00:16:10,180
+ to make it pretty.
+
+266
+00:16:10,180 --> 00:16:15,540
+ This works great, but only if every time I spawn I drag the visual slot into the override
+
+267
+00:16:15,540 --> 00:16:20,420
+ parent field of the virtual parent and the active i field name of the visual slot into
+
+268
+00:16:20,420 --> 00:16:23,020
+ the source of the value copy manually.
+
+269
+00:16:23,020 --> 00:16:25,460
+ I try to replicate these actions and logics if any miserably.
+
+270
+00:16:25,460 --> 00:16:29,380
+ The object has dark grey invalid markers all over when I respawn, and lately when I try
+
+271
+00:16:29,380 --> 00:16:34,020
+ to drive the active field, my object nears crashes entirely with an n-e-a-splosion in
+
+272
+00:16:34,020 --> 00:16:35,020
+ its locks.
+
+273
+00:16:35,020 --> 00:16:38,220
+ I'm having a difficult time getting consistent series of events though, so thank you for
+
+274
+00:16:38,220 --> 00:16:39,220
+ reading my book.
+
+275
+00:16:39,220 --> 00:16:40,220
+ I'll get to the question.
+
+276
+00:16:40,220 --> 00:16:43,580
+ How can I recreate those actions that I have to do manually using logics or components
+
+277
+00:16:43,580 --> 00:16:46,700
+ or some combination thereof so the frame object automatically sets itself up?
+
+278
+00:16:46,700 --> 00:16:51,860
+ If it's a timing issue where I have to put in some kind of delay, don't the rest of me
+
+279
+00:16:51,860 --> 00:16:54,380
+ load or any sub-hardwired or something zero?
+
+280
+00:16:54,380 --> 00:16:55,380
+ Okay, right.
+
+281
+00:16:55,380 --> 00:17:00,500
+ So in summary, they're trying to get a frame or a ring to appear in the same place as their
+
+282
+00:17:00,500 --> 00:17:02,460
+ context menu when they open it.
+
+283
+00:17:02,460 --> 00:17:06,380
+ Lots of people do that for visual aesthetics etc.
+
+284
+00:17:06,380 --> 00:17:09,020
+ Better not have a loud sound effect associated with it.
+
+285
+00:17:09,020 --> 00:17:11,820
+ It's just a visual, we're good.
+
+286
+00:17:11,820 --> 00:17:18,340
+ And they need to orchestrate a virtual parent component and a value copy component to copy
+
+287
+00:17:18,340 --> 00:17:21,100
+ those values around to make that work.
+
+288
+00:17:21,100 --> 00:17:22,980
+ You can absolutely do that.
+
+289
+00:17:22,980 --> 00:17:26,580
+ Good, good, no sound, no flashy lies to say.
+
+290
+00:17:26,580 --> 00:17:27,660
+ You can absolutely do that with logics.
+
+291
+00:17:27,660 --> 00:17:32,380
+ I would probably say, okay, Jack said that they suggested a solution to the problem,
+
+292
+00:17:32,380 --> 00:17:35,500
+ if you need help you can contact me in game, great, so that's the solution.
+
+293
+00:17:35,500 --> 00:17:38,020
+ You can absolutely do that with logic.
+
+294
+00:17:38,020 --> 00:17:43,940
+ You'll probably have to use things like the slot finding nodes or the slot descending
+
+295
+00:17:43,940 --> 00:17:48,440
+ nodes, you know, like get child, get child, etc. to descend down to find the slot that
+
+296
+00:17:48,440 --> 00:17:49,940
+ you're after.
+
+297
+00:17:49,940 --> 00:17:54,600
+ Once you have a slot reference, you can get that active property from that slot with get
+
+298
+00:17:54,600 --> 00:17:57,940
+ slot is active, etc. inside logics.
+
+299
+00:17:57,940 --> 00:18:00,980
+ You can also write slot references to virtual parent, etc.
+
+300
+00:18:00,980 --> 00:18:02,620
+ That should all work fine.
+
+301
+00:18:02,620 --> 00:18:05,740
+ You may need a delay though.
+
+302
+00:18:05,740 --> 00:18:12,380
+ Here's the sort of rule of thumb that usually works is stick an update delay of two in there.
+
+303
+00:18:12,380 --> 00:18:15,660
+ I don't know why two works well, I just always use two.
+
+304
+00:18:15,660 --> 00:18:16,660
+ Sometimes two doesn't work.
+
+305
+00:18:16,660 --> 00:18:22,260
+ I know if you could say something about dynamic variables and that requires six, but yeah,
+
+306
+00:18:22,260 --> 00:18:24,820
+ stick an update delay of two and it should work.
+
+307
+00:18:24,820 --> 00:18:31,300
+ It should totally be available to do using a variety of logics.
+
+308
+00:18:31,300 --> 00:18:33,820
+ Update delay is a node.
+
+309
+00:18:33,820 --> 00:18:34,820
+ Update delay is a node.
+
+310
+00:18:34,820 --> 00:18:39,300
+ Update order you shouldn't really need to touch.
+
+311
+00:18:39,300 --> 00:18:44,740
+ There's lots of things where I add the two, update delay two, that I don't really know
+
+312
+00:18:44,740 --> 00:18:46,780
+ why I just have to.
+
+313
+00:18:46,780 --> 00:18:50,900
+ As with the updating relay and similar things like that, try adding those things and then
+
+314
+00:18:50,900 --> 00:18:52,860
+ if it does work, great.
+
+315
+00:18:52,860 --> 00:18:56,660
+ But if it doesn't work, do you remember to re-remove those because then you're not consistently
+
+316
+00:18:56,660 --> 00:18:58,780
+ adding bloat that you don't know why it's there.
+
+317
+00:18:58,780 --> 00:18:59,780
+ I do that every time.
+
+318
+00:18:59,780 --> 00:19:01,300
+ Like I get some like logic just won't work.
+
+319
+00:19:01,300 --> 00:19:03,380
+ I start adding random update delays, it works.
+
+320
+00:19:03,380 --> 00:19:07,100
+ I start removing update delays until it doesn't work again and I know exactly where the problem
+
+321
+00:19:07,100 --> 00:19:08,100
+ is occurring.
+
+322
+00:19:08,100 --> 00:19:09,940
+ It's basically like an order of operations thing.
+
+323
+00:19:09,940 --> 00:19:15,420
+ Like if logics is faster than some non-logics process or vice versa, then stuff won't line
+
+324
+00:19:15,420 --> 00:19:16,420
+ up sometimes.
+
+325
+00:19:16,420 --> 00:19:20,100
+ Particularly in avatar spawning, which sounds like the problem that you're describing.
+
+326
+00:19:20,100 --> 00:19:23,260
+ Jack says, "Would you be interested in perhaps throwing together an official NES calendar
+
+327
+00:19:23,260 --> 00:19:26,020
+ once I have the thing improved?"
+
+328
+00:19:26,020 --> 00:19:27,020
+ You mean an in-game calendar?
+
+329
+00:19:27,020 --> 00:19:28,020
+ Yeah, sure.
+
+330
+00:19:28,020 --> 00:19:30,540
+ And we want to get the event system set up on this Discord here.
+
+331
+00:19:30,540 --> 00:19:33,540
+ I don't remember the exact reason why we don't have it here.
+
+332
+00:19:33,540 --> 00:19:34,820
+ We want to get that sorted.
+
+333
+00:19:34,820 --> 00:19:39,260
+ I also want to get a calendar sorted that is on our website ideally.
+
+334
+00:19:39,260 --> 00:19:43,940
+ I would love if we could have like more social style stuff on our website.
+
+335
+00:19:43,940 --> 00:19:47,980
+ I always talk about it, but it kind of doesn't make sense anymore.
+
+336
+00:19:47,980 --> 00:19:51,500
+ Like the AltSpaceVR event calendar was amazing.
+
+337
+00:19:51,500 --> 00:19:55,540
+ It was basically, you know, you want to host an event where it's just you playing a guitar
+
+338
+00:19:55,540 --> 00:19:58,540
+ in a fire, like a round of fire based map.
+
+339
+00:19:58,540 --> 00:19:59,540
+ You know what I mean?
+
+340
+00:19:59,540 --> 00:20:00,860
+ Campfire, that's the word I was looking for.
+
+341
+00:20:00,860 --> 00:20:04,960
+ Round of campfire on a map like that, you can just post that to the AltSpaceVR webpage
+
+342
+00:20:04,960 --> 00:20:06,200
+ and people can come.
+
+343
+00:20:06,200 --> 00:20:07,620
+ You want to do a special interest group?
+
+344
+00:20:07,620 --> 00:20:15,620
+ We saw everything on that list from religion to politics to support groups, etc.
+
+345
+00:20:15,620 --> 00:20:16,620
+ It was great.
+
+346
+00:20:16,620 --> 00:20:19,060
+ Unfortunately, Microsoft has pulled the plug on AltSpaceVR.
+
+347
+00:20:19,060 --> 00:20:23,100
+ I don't know how far along they are in pulling the plugs, it might exist, but I'd love to
+
+348
+00:20:23,100 --> 00:20:24,360
+ get that on the website at some point.
+
+349
+00:20:24,360 --> 00:20:25,360
+ And in game.
+
+350
+00:20:25,360 --> 00:20:29,740
+ We have like a community tab on the dash, that would be amazing.
+
+351
+00:20:29,740 --> 00:20:33,580
+ But starting in five minutes, Jack plays the trombone.
+
+352
+00:20:33,580 --> 00:20:37,260
+ I don't know if he can play the trombone, I just thought the first instrument that popped
+
+353
+00:20:37,260 --> 00:20:38,500
+ into my head.
+
+354
+00:20:38,500 --> 00:20:40,500
+ Next question.
+
+355
+00:20:40,500 --> 00:20:47,420
+ Second, says "Do you know of any changes that may have happened to make LNL more unreliable,
+
+356
+00:20:47,420 --> 00:20:48,420
+ more desynchial of later?
+
+357
+00:20:48,420 --> 00:20:52,540
+ Is it like an external factor like international peering that's just going downhill?"
+
+358
+00:20:52,540 --> 00:20:56,220
+ There have been no changes to those things as of late.
+
+359
+00:20:56,220 --> 00:20:59,060
+ Cloudflare would have not affected those, because that's a socket channel which would
+
+360
+00:20:59,060 --> 00:21:01,060
+ not go via Cloudflare.
+
+361
+00:21:01,060 --> 00:21:04,140
+ No changes I can think of.
+
+362
+00:21:04,140 --> 00:21:06,840
+ International peering might be a culprit.
+
+363
+00:21:06,840 --> 00:21:12,360
+ I am so happy that someone so far away knows what international peering is, thank you so
+
+364
+00:21:12,360 --> 00:21:14,180
+ much for knowing that phrasing.
+
+365
+00:21:14,180 --> 00:21:18,660
+ So many people don't understand how crazy the internet is, so I'm glad you know that
+
+366
+00:21:18,660 --> 00:21:19,660
+ term.
+
+367
+00:21:19,660 --> 00:21:23,100
+ Raid, I can never pronounce your name, I'm sorry, I've seen your pronunciation guide,
+
+368
+00:21:23,100 --> 00:21:25,180
+ I'm sorry, I'm sorry.
+
+369
+00:21:25,180 --> 00:21:28,860
+ Do slots load in a consistent order at all is the way to manipulate order slots load
+
+370
+00:21:28,860 --> 00:21:29,860
+ in.
+
+371
+00:21:29,860 --> 00:21:32,480
+ Not that I'm aware of, although try the update order.
+
+372
+00:21:32,480 --> 00:21:36,900
+ That does affect things like aligners, UIX, and things like that, so it might affect load,
+
+373
+00:21:36,900 --> 00:21:37,900
+ I'm not certain.
+
+374
+00:21:37,900 --> 00:21:41,620
+ Yeah, the internet is just crazy.
+
+375
+00:21:41,620 --> 00:21:45,660
+ Stop using super reactions, guys, don't those cost like, you can only do like five of those
+
+376
+00:21:45,660 --> 00:21:47,220
+ a month or something.
+
+377
+00:21:47,220 --> 00:21:50,980
+ Five a day, oh that's fine, yeah, five a day, I thought it was five a month, I've never
+
+378
+00:21:50,980 --> 00:21:52,580
+ used them because I thought it was five a month.
+
+379
+00:21:52,580 --> 00:21:56,980
+ It's like when you play a video game and like, you know, some quest giver will be like "thank
+
+380
+00:21:56,980 --> 00:22:01,700
+ you for savoring the forest, here's this like potion that will make you super awesome",
+
+381
+00:22:01,700 --> 00:22:05,300
+ but you never drink it, because you're never like "oh I might need it for like, I might
+
+382
+00:22:05,300 --> 00:22:07,860
+ need it for like", you get to the credits and you're just like "never drank that super
+
+383
+00:22:07,860 --> 00:22:11,620
+ awesome potion, never drank that super awesome potion".
+
+384
+00:22:11,620 --> 00:22:17,860
+ Per week, it's per week, that's still bad, okay, thank you, I go.
+
+385
+00:22:17,860 --> 00:22:21,020
+ Anyway, we will leave off there, if you have any additional questions please feel free to
+
+386
+00:22:21,020 --> 00:22:24,800
+ direct message me, please feel free to also check the questionsnail.com channel or the
+
+387
+00:22:24,800 --> 00:22:29,640
+ announcements channel out, or wherever else you get your news from, and remember, fight
+
+388
+00:22:29,640 --> 00:22:31,840
+ the rumour now and stay awesome.
+

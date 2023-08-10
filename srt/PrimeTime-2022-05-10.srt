@@ -1,0 +1,1012 @@
+1
+0:00:00.000 --> 0:00:04.380
+Okay, so welcome to office hours, it is the top of the hour, it is 4pm, if you have questions
+
+2
+0:00:04.380 --> 0:00:08.460
+please feel free to drop them into the office hours chat, otherwise we're going to sit here
+
+3
+0:00:08.460 --> 0:00:10.060
+and wait for questions.
+
+4
+0:00:10.060 --> 0:00:11.460
+So let's get going.
+
+5
+0:00:11.460 --> 0:00:16.580
+I see people type, excellent, I eat questions for breakfast, well it's actually 4pm so I
+
+6
+0:00:16.580 --> 0:00:22.220
+eat questions for early dinner I guess, I did just eat, I have a cup of tea here, so
+
+7
+0:00:22.220 --> 0:00:26.460
+I'm going to mute whilst I wait for questions and slurp on some tea.
+
+8
+0:00:26.460 --> 0:00:31.620
+Speaking of slurping, are people aware of that meme with the guy that tastes ice cream?
+
+9
+0:00:31.620 --> 0:00:32.620
+That's a good meme.
+
+10
+0:00:32.620 --> 0:00:36.520
+I found the source of it, it's interesting, sometimes you just accidentally find the sources
+
+11
+0:00:36.520 --> 0:00:39.860
+of memes and it's cool.
+
+12
+0:00:39.860 --> 0:00:50.100
+So it's the chief ice cream tester at a creamery and his tongue is insured for a million dollars
+
+13
+0:00:50.100 --> 0:00:55.280
+and he tests all the new flavours and I watched a documentary on ice cream making on the history
+
+14
+0:00:55.280 --> 0:00:57.820
+channel that was uploaded to YouTube.
+
+15
+0:00:57.820 --> 0:01:03.740
+And yeah, it's a meme, I found the origination accidentally and suddenly I was just faced
+
+16
+0:01:03.740 --> 0:01:12.860
+with like, wait a minute, that's the ice cream guy, I'll get the video for you, here it is.
+
+17
+0:01:12.860 --> 0:01:18.740
+This person uses a gold spoon because it leads to less aftertaste.
+
+18
+0:01:18.740 --> 0:01:25.060
+I don't know what he means, if I eat at someone else's house or sometimes when I'm on vacation
+
+19
+0:01:25.060 --> 0:01:29.380
+and I use other cutlery that's not mine, food will taste slightly different if I've been
+
+20
+0:01:29.380 --> 0:01:36.820
+eating it with my cutlery, I realised I'd eaten more cutlery and so I ordered more but
+
+21
+0:01:36.820 --> 0:01:40.580
+I ordered more of a different type and so now my cutlery drawer is mixed with cutlery.
+
+22
+0:01:40.580 --> 0:01:43.900
+Why are we talking about food spoons, let's move on.
+
+23
+0:01:43.900 --> 0:01:48.100
+So a question from Holy which is which tea flavour, currently El Grey, it's probably
+
+24
+0:01:48.100 --> 0:01:52.880
+a little bit late for caffeine but you can't stop me, I forgot to filter the water though
+
+25
+0:01:52.880 --> 0:01:54.380
+so it's a bit there.
+
+26
+0:01:54.380 --> 0:01:59.380
+Okay now an actual legitimate question, isn't it about ice cream cutlery or tea, come Griffin
+
+27
+0:01:59.380 --> 0:02:00.380
+thank you.
+
+28
+0:02:00.380 --> 0:02:04.320
+I've noticed that sometimes my avatar import will not add an eye manager when selected,
+
+29
+0:02:04.320 --> 0:02:09.620
+what might cause this if it's put here, it's put it on before but lately I've also been
+
+30
+0:02:09.620 --> 0:02:12.340
+checking the box for face tracking setup.
+
+31
+0:02:12.340 --> 0:02:17.900
+It might occur that it doesn't get put on if it can't find your eyes, so similar to
+
+32
+0:02:17.900 --> 0:02:23.580
+like the other bone related structures, if it can't find them then it doesn't do that,
+
+33
+0:02:23.580 --> 0:02:28.340
+like for example if you rig a model that doesn't have hands that conform to our requirements
+
+34
+0:02:28.340 --> 0:02:32.460
+then it won't add the hand stuff, like it'll still allow you to move your arms and your
+
+35
+0:02:32.460 --> 0:02:37.500
+hands but it won't then do finger tracking, who was it that had that issue?
+
+36
+0:02:37.500 --> 0:02:41.900
+I think it was someone that was importing one of the Risk of Rain characters, the Lemurians,
+
+37
+0:02:41.900 --> 0:02:46.980
+like just the standard sort of like stand up sort of animalistic looking characters,
+
+38
+0:02:46.980 --> 0:02:51.700
+they don't really have fingers or correct fingers so they just, it just doesn't get
+
+39
+0:02:51.700 --> 0:02:54.480
+set up so do check to keep an eye on that.
+
+40
+0:02:54.480 --> 0:02:58.420
+So Bean, thank you for typing your question, I guess my one question is when you're planning
+
+41
+0:02:58.420 --> 0:03:02.140
+implementing an option to disable post-processing, some of my friends have epilepsy, can't join
+
+42
+0:03:02.140 --> 0:03:08.580
+because the post-processing is hurting their eyes, will there be a better GUI, hi, struggling
+
+43
+0:03:08.580 --> 0:03:13.060
+with my words today, will there be a better GUI for desktop users so drawing shapes is
+
+44
+0:03:13.060 --> 0:03:17.380
+easy, building is fun but it's difficult and I've tried the real, okay, lots of questions
+
+45
+0:03:17.380 --> 0:03:21.260
+there, so if it says disabling post-processing, that's actually blocked on like two separate
+
+46
+0:03:21.260 --> 0:03:22.260
+things.
+
+47
+0:03:22.260 --> 0:03:25.340
+So number one is like we are trying to change up our graphical engine to make it easier
+
+48
+0:03:25.340 --> 0:03:30.260
+to do stuff like that for you, until we do that, we don't really want to invest a time
+
+49
+0:03:30.260 --> 0:03:31.260
+in that.
+
+50
+0:03:31.260 --> 0:03:36.060
+I'm aware that it's bad, I would love to provide the ability to disable it but we've just made
+
+51
+0:03:36.060 --> 0:03:41.340
+the sort of stance that we need to focus our efforts elsewhere right now and then the second
+
+52
+0:03:41.340 --> 0:03:44.700
+one there is our settings UI, if you go to our settings tab, it's just a mess, like it's
+
+53
+0:03:44.700 --> 0:03:50.980
+a mess, like it's one of the worst parts of our UI, we can't go on with that settings
+
+54
+0:03:50.980 --> 0:03:55.460
+UI so we want to update that such that there is more room for settings and when I say settings
+
+55
+0:03:55.460 --> 0:03:58.740
+or the settings, at which point it'll be like hey you want settings, we've got settings,
+
+56
+0:03:58.740 --> 0:04:01.740
+I hope we have a way to like hide and show certain settings, otherwise like we're just
+
+57
+0:04:01.740 --> 0:04:08.060
+going to end up with like setting soup again but that'll then also allow those features.
+
+58
+0:04:08.060 --> 0:04:13.020
+That's all I've already got for you, I'm interesting to hear like which particular part of post-processing
+
+59
+0:04:13.020 --> 0:04:18.740
+is the problem, is it the bloom, I wouldn't imagine it would be the AO but I could understand
+
+60
+0:04:18.740 --> 0:04:21.420
+if the bloom is doing it.
+
+61
+0:04:21.420 --> 0:04:27.060
+As for your second question about drawing, have you tried, oh no you're talking about
+
+62
+0:04:27.060 --> 0:04:31.280
+desktop drawing, yeah for desktop drawing I'm not sure, desktop mode is of course supported
+
+63
+0:04:31.280 --> 0:04:36.980
+right now but like it's unclear what like the next priority in improving that will be,
+
+64
+0:04:36.980 --> 0:04:43.220
+I know that we need to get better sort of naturalistification, that's not a word but
+
+65
+0:04:43.220 --> 0:04:48.700
+like you know what I mean, going for desktop users so they don't just look flat, for example
+
+66
+0:04:48.700 --> 0:04:52.600
+I see a lot of avatars where they're in desktop and their hands are at their sides but they're
+
+67
+0:04:52.600 --> 0:04:58.940
+at their sides without any sort of consideration about how wide the character is and so they're
+
+68
+0:04:58.940 --> 0:05:03.620
+like their hands are just sort of like in their belly or in their thighs just like hanging
+
+69
+0:05:03.620 --> 0:05:07.620
+there like straight, if we could get like some sort of natural animations going there
+
+70
+0:05:07.620 --> 0:05:13.820
+I think that would be a lot more appreciated than them staying like that, so there's lots
+
+71
+0:05:13.820 --> 0:05:17.660
+of like desktop things that we need to look at, same with like walking, posing, stuff
+
+72
+0:05:17.660 --> 0:05:23.220
+like that, like VRChat does it where there are different, like there are different animations
+
+73
+0:05:23.220 --> 0:05:28.660
+by default but you can also kind of customize those, now we won't have animation support
+
+74
+0:05:28.660 --> 0:05:36.540
+in the same way that VRChat does because we know we're not unity but like they do have
+
+75
+0:05:36.540 --> 0:05:40.940
+better default animations for desktop based avatars where their hands are out to the side,
+
+76
+0:05:40.940 --> 0:05:44.260
+it's almost like a like a sneaky look from a video game like you're sneaking but like
+
+77
+0:05:44.260 --> 0:05:49.540
+you know it does like make it look a bit better, like I always say like it's obvious if someone
+
+78
+0:05:49.540 --> 0:05:54.280
+is in desktop because of those like animations but yeah the reason why I mention hand posing
+
+79
+0:05:54.280 --> 0:05:59.700
+is because that's usually the problem right, so you just like the tool comes out of your
+
+80
+0:05:59.700 --> 0:06:03.860
+hand and then your hand goes wonky, to me it like might be better if like we had an
+
+81
+0:06:03.860 --> 0:06:08.780
+option for like the tool to just be attached to your face, you have like because of your
+
+82
+0:06:08.780 --> 0:06:11.980
+mouse you've got ultimate control over your face like if you could just draw over your
+
+83
+0:06:11.980 --> 0:06:17.860
+face you'd basically be back to like a regular drawing experience, I remember those days
+
+84
+0:06:17.860 --> 0:06:21.580
+where I can't figure out if I'm warm or cold so I put on a sweater now I'm gonna mute and
+
+85
+0:06:21.580 --> 0:06:24.940
+take off a sweater whilst the next questions are typed, keep those questions coming on
+
+86
+0:06:24.940 --> 0:06:28.240
+just imagine primary moving a sweater that's all that's happening right now, and I'm back
+
+87
+0:06:28.240 --> 0:06:32.480
+because there's another question, so NFT Hater says try to import an avatar in Eos but the
+
+88
+0:06:32.480 --> 0:06:37.120
+arms feel way too short, how to fix it, so if you inspect the root of the avatar, I can
+
+89
+0:06:37.120 --> 0:06:40.780
+never remember these, they're luckily they're on the same slot so you can just scroll through
+
+90
+0:06:40.780 --> 0:06:46.700
+them, it's either VRIK or VRIK avatar I can never remember which they're named terribly
+
+91
+0:06:46.700 --> 0:06:52.980
+I hate them, on one of those components you'll find properties about the arms and on those
+
+92
+0:06:52.980 --> 0:06:59.860
+arms will be arm length multiplier, arm length multiplier allows you to if you overdrive
+
+93
+0:06:59.860 --> 0:07:04.340
+it have like spaghetti arms but I don't advise that because it kind of like pushes your chest
+
+94
+0:07:04.340 --> 0:07:08.380
+back at those levels but you can tweak it a little bit and it will give you longer arms
+
+95
+0:07:08.380 --> 0:07:14.700
+I do that frequently as I am ginormous and you know my arms are really long so I need
+
+96
+0:07:14.700 --> 0:07:21.480
+to sort of do that for my use, good way to test if you need to do that is to in VR extend
+
+97
+0:07:21.480 --> 0:07:27.660
+your arm until your actual avatar arm stops moving and then stretch and see what happens
+
+98
+0:07:27.660 --> 0:07:32.940
+right you can almost see especially if you've got the SteamVR overlay open you can see that
+
+99
+0:07:32.940 --> 0:07:37.100
+the controller goes further but your arm stops if you see that then you should tweak the
+
+100
+0:07:37.100 --> 0:07:42.500
+arm length multiplier so that those line up I always like do I touch the top of my head
+
+101
+0:07:42.500 --> 0:07:46.240
+then I touch my elbow or my shoulder now it's not gonna be good in terms of angle but it
+
+102
+0:07:46.240 --> 0:07:49.620
+should be good in terms of position because we don't have like elbow tracking unless you
+
+103
+0:07:49.620 --> 0:07:53.980
+got the trackers for it we don't have elbow tracking so there's no way to like you know
+
+104
+0:07:53.980 --> 0:08:00.140
+do that moving onwards Gran Griffin asks is making a model double-sided causing meaningful
+
+105
+0:08:00.140 --> 0:08:06.780
+performance difference I believe that it actually doubles the vertices if it doubles the vertices
+
+106
+0:08:06.780 --> 0:08:11.100
+and of course it doubles the the you know the diversity count of the model if it doesn't
+
+107
+0:08:11.100 --> 0:08:19.780
+divert doesn't double them then no performance impact therefore wherever possible I would
+
+108
+0:08:19.780 --> 0:08:27.060
+recommend instead using the PBS dual sided or turning off the culling option on the 62
+
+109
+0:08:27.060 --> 0:08:31.660
+when you do that make sure you give the model a good look around there are some times where
+
+110
+0:08:31.660 --> 0:08:36.940
+like having no culling just makes everything look really really weird and that's because
+
+111
+0:08:36.940 --> 0:08:41.260
+like if you've got faces that are like really intersecting and then having them doubled
+
+112
+0:08:41.260 --> 0:08:45.980
+up could just do to like just sort of impossible geometry and stuff it's in that a couple of
+
+113
+0:08:45.980 --> 0:08:50.300
+times of like hair or fur on some avatars where you double-side it and everything just
+
+114
+0:08:50.300 --> 0:08:55.820
+looks weird I like the like new way that a lot of like new avatars with fur doing it
+
+115
+0:08:55.820 --> 0:09:03.180
+where they kind of like they sculpt sort of triangle cones into the actual mesh rather
+
+116
+0:09:03.180 --> 0:09:10.300
+than doing the old approach which is like opacity like single-sided opacity excluded
+
+117
+0:09:10.300 --> 0:09:15.460
+like triangles and stuff because that way you don't have those issues gun Griffin second
+
+118
+0:09:15.460 --> 0:09:18.580
+question says what other settings are relevant for calibrating an avatar where do you find
+
+119
+0:09:18.580 --> 0:09:23.140
+them in hierarchy all right so there is a lot in the root of the avatar vrk vrk avatar
+
+120
+0:09:23.140 --> 0:09:27.700
+I have a lot there in particular look at the gate system if someone like figures out the
+
+121
+0:09:27.700 --> 0:09:33.820
+gate system and comes up with a good standard for the gate system like you'll get so much
+
+122
+0:09:33.820 --> 0:09:39.140
+cake because like I know people like lots of people don't like the standard gates but
+
+123
+0:09:39.140 --> 0:09:42.220
+they didn't realize they can edit them everyone's like oh I wish you know you could just add
+
+124
+0:09:42.220 --> 0:09:47.860
+an animation for walking you can edit the gate system in my editing of the gate system
+
+125
+0:09:47.860 --> 0:09:53.180
+I made myself leapfrog and regardless of like both feet were like stuck together and I would
+
+126
+0:09:53.180 --> 0:09:57.660
+just like hop forwards and then I increased the speed of that and I turned my feet into
+
+127
+0:09:57.660 --> 0:10:03.740
+like a jackhammer and it just was like you know boom boom boom boom boom because like
+
+128
+0:10:03.740 --> 0:10:09.020
+I increased the amount of steps per like meter and that was a really cool thing I then made
+
+129
+0:10:09.020 --> 0:10:15.140
+my like strides really big and we went from goose stepping which is like an historical
+
+130
+0:10:15.140 --> 0:10:19.940
+march that German soldiers used to do I believe I'm not a historian but I remember goose stepping
+
+131
+0:10:19.940 --> 0:10:25.100
+being a sort of like meme about Germany or something in history lesson I don't remember
+
+132
+0:10:25.100 --> 0:10:30.680
+all the way to what I'm just gonna call sort of ballet leaping you know when a ballet dancer
+
+133
+0:10:30.680 --> 0:10:35.100
+leaps forward with their leg outstretched that was again gate settings that I did so
+
+134
+0:10:35.100 --> 0:10:41.820
+if you want different walking animations gates there's a lots of stuff there I don't know
+
+135
+0:10:41.820 --> 0:10:47.940
+what half of them do my best bet is to like mess with them I remember like a notable example
+
+136
+0:10:47.940 --> 0:10:53.780
+that comes to mind is when I imported one particular avatar its butt would stick out
+
+137
+0:10:53.780 --> 0:10:57.860
+right it was like almost having a hunch back but it was because the butt was just stuck
+
+138
+0:10:57.860 --> 0:11:02.360
+out too much and I went to Delirious Jacks community member here and I just said like
+
+139
+0:11:02.360 --> 0:11:08.100
+I think you fixed the butt sticking for someone else do you mind having a look and they said
+
+140
+0:11:08.100 --> 0:11:11.740
+I don't know how to fix it but I'll work on it with you and we just played with a bunch
+
+141
+0:11:11.740 --> 0:11:19.420
+of settings and then my butt was unstuck out there's also a github issue by what's that
+
+142
+0:11:19.420 --> 0:11:24.820
+like bright color Diwali that has eye tracking I can't remember their name anyway they made
+
+143
+0:11:24.820 --> 0:11:32.460
+a github issue which had some recommended default value changes so they were like proposing
+
+144
+0:11:32.460 --> 0:11:39.500
+that Neos make changes to the default values for your IK to fix some issues that they noticed
+
+145
+0:11:39.500 --> 0:11:47.380
+I point people towards those because we can't implement those by ourselves right now because
+
+146
+0:11:47.380 --> 0:11:51.940
+we're not sure on the implications for all avatars but if you make those changes and
+
+147
+0:11:51.940 --> 0:11:58.220
+you have good use with them then fantastic and make sure to thank them yeah properties
+
+148
+0:11:58.220 --> 0:12:02.220
+linked it thank you so much it's it's Grox yeah I was right the colorful of Ali without
+
+149
+0:12:02.220 --> 0:12:07.700
+with eye tracking they're all they're all named sort of like approximately okay you
+
+150
+0:12:07.700 --> 0:12:12.620
+know I'm just looking at the issue now like body rot stiffness basically means like the
+
+151
+0:12:12.620 --> 0:12:18.500
+rotation stiffness but it isn't clear to me like what I should edit that to like compare
+
+152
+0:12:18.500 --> 0:12:23.460
+that to say like temperature right and you can turn the degrees up on your thermostat
+
+153
+0:12:23.460 --> 0:12:30.140
+to be hot or cold that's really obvious what you want to do the same with maybe you know
+
+154
+0:12:30.140 --> 0:12:34.580
+like a faucet you know you want to turn it like I want more water or less water but like
+
+155
+0:12:34.580 --> 0:12:40.580
+with this when you change these numbers it's like I don't know 0.1 is better I care yay
+
+156
+0:12:40.580 --> 0:12:48.700
+and 0.15 is Cthulhu basically so you just don't know you just gotta play with them it
+
+157
+0:12:48.700 --> 0:12:55.700
+depends on your on your exact avatar so we'll move on I would love to get all of those documented
+
+158
+0:12:55.700 --> 0:12:59.900
+I would love for like I love like a video of them actually I you know if someone was
+
+159
+0:12:59.900 --> 0:13:05.780
+basically just like went through them all in turn and was like here is body rotate stiffness
+
+160
+0:13:05.780 --> 0:13:09.620
+if you said it low you'll look like this if you said it high you look like this we recommend
+
+161
+0:13:09.620 --> 0:13:13.140
+it looking like this I'd love that kind of video of course that would probably need to
+
+162
+0:13:13.140 --> 0:13:18.140
+be done for like most avatar types and what I mean by that is like of course most of us
+
+163
+0:13:18.140 --> 0:13:22.240
+are humanoids still but like there's different sort of ways of doing humanoid hence the sort
+
+164
+0:13:22.240 --> 0:13:28.340
+of butt sticking out problem also stuff like that so it might be good to sort of have recommendations
+
+165
+0:13:28.340 --> 0:13:33.580
+based on certain avatars based on that so my advice there is basically play with it
+
+166
+0:13:33.580 --> 0:13:37.980
+just have fun there's so much there though if you if you're frustrated with the IK like
+
+167
+0:13:37.980 --> 0:13:41.620
+unless you've played with all of those settings be a little bit less frustrated I mean still
+
+168
+0:13:41.620 --> 0:13:45.220
+be frustrated because the settings already up juice but what I mean by that is I can't
+
+169
+0:13:45.220 --> 0:13:50.340
+change this maybe you can please try I have no idea how half the work Bean has another
+
+170
+0:13:50.340 --> 0:13:54.580
+idea thank you I got idea for some things they say for the building and drawing in desktop
+
+171
+0:13:54.580 --> 0:13:58.860
+mode it would act like a puppet from a little big planet you can control the cursor directly
+
+172
+0:13:58.860 --> 0:14:02.780
+with a line corresponding connecting occurs to the avatar you can choose to draw with
+
+173
+0:14:02.780 --> 0:14:06.620
+the mouse or with the movement keys or to follow a layer based system unless you present
+
+174
+0:14:06.620 --> 0:14:10.500
+key to set it freeform so the avatar system and the clipping issues have a tool they would
+
+175
+0:14:10.500 --> 0:14:15.620
+posture editor yeah postured it's a really good thing I think we need more sort of in-built
+
+176
+0:14:15.620 --> 0:14:23.940
+avatar tools so like for a bunch of like users they they set up systems by themselves I'm
+
+177
+0:14:23.940 --> 0:14:28.300
+trying to think of example so gestures is a good example like Neos could have an in-built
+
+178
+0:14:28.300 --> 0:14:34.220
+gesture editor the sort of like head pat logics with activities blend shapes we could have
+
+179
+0:14:34.220 --> 0:14:40.420
+that built-in poses animations and gates we could have like a really smooth UI for that
+
+180
+0:14:40.420 --> 0:14:44.740
+we could also have presets for the gate system you know when you set up your avatar there's
+
+181
+0:14:44.740 --> 0:14:48.260
+like a question I don't know about the UI but like maybe there's like a sort of questionnaire
+
+182
+0:14:48.260 --> 0:14:54.180
+and it's like do you want your avatar to move heavy plodding like they're a large you know
+
+183
+0:14:54.180 --> 0:14:58.860
+just thinking of like a large boss from Dark Souls you want to move like a large box from
+
+184
+0:14:58.860 --> 0:15:02.940
+Dark Souls or do you want them to move like a ballerina right and go between those two
+
+185
+0:15:02.940 --> 0:15:09.020
+options and see how they move we could even do an animation of your avatar similar to
+
+186
+0:15:09.020 --> 0:15:12.840
+how the full body tracker does where it's in front of you and just walking on a treadmill
+
+187
+0:15:12.840 --> 0:15:16.740
+and say like ah do you want to tweak it walk it on a treadmill walk on a treadmill I actually
+
+188
+0:15:16.740 --> 0:15:20.700
+have a world where you hit a button it duplicates your avatar and walks you on a treadmill I
+
+189
+0:15:20.700 --> 0:15:25.420
+just haven't like released that that was called my gate editor world I just haven't finished
+
+190
+0:15:25.420 --> 0:15:32.580
+it um uh then going for the the drawing have you tried the free camera mode it sounds similar
+
+191
+0:15:32.580 --> 0:15:35.400
+like I haven't played a little bit planet I did want to play a little bit planet but
+
+192
+0:15:35.400 --> 0:15:40.700
+like I couldn't afford a ps3 so I skipped ps3 I could afford a ps4 sat next to me I
+
+193
+0:15:40.700 --> 0:15:45.100
+haven't used it in like three years but it sat next to me um it sounds a little bit like
+
+194
+0:15:45.100 --> 0:15:49.460
+the free camera mode the layering system for drawing is is interesting there are tools
+
+195
+0:15:49.460 --> 0:15:52.820
+that can kind of help you with that but a lot of those tools don't work too well in
+
+196
+0:15:52.820 --> 0:15:58.620
+desktop I'll certainly take a look at that feedback um scrolling down past the uh gligrocks
+
+197
+0:15:58.620 --> 0:16:03.020
+issue uh I'd like to pose a sort of benchmark when they're in those changes new performance
+
+198
+0:16:03.020 --> 0:16:08.620
+wise I don't think we need like performance testing with those VR um ik changes none of
+
+199
+0:16:08.620 --> 0:16:13.660
+those should have performance uh benefits or improvements or anything like that um basically
+
+200
+0:16:13.660 --> 0:16:17.940
+all those values that you're editing are already being calculated every step and every movement
+
+201
+0:16:17.940 --> 0:16:21.380
+um so changing them doesn't really change how fast the calculation takes it just changes
+
+202
+0:16:21.380 --> 0:16:26.140
+what the the animation looks like um I know if it wants to do a bunch of um updates to
+
+203
+0:16:26.140 --> 0:16:31.300
+the ik system anyway that is where the performance lies um that's also a lot of cases that happens
+
+204
+0:16:31.300 --> 0:16:35.340
+with a lot of other things as well people worry too much about stuff which we can fix
+
+205
+0:16:35.340 --> 0:16:41.900
+for them they're like this node is is kind of bad like well we can fix it like maybe
+
+206
+0:16:41.900 --> 0:16:45.860
+don't avoid it we can fix it please open an issue let us know that there's a problem with
+
+207
+0:16:45.860 --> 0:16:53.340
+that node uh unnamed cyborg cat says um can one import dot blend files into neos yes um
+
+208
+0:16:53.340 --> 0:16:59.620
+uh usually what will happen there is uh when you do that neos will try to find your blender
+
+209
+0:16:59.620 --> 0:17:03.140
+installation so make sure you have blender installed if you can't find your blender installation
+
+210
+0:17:03.140 --> 0:17:08.000
+I don't think it works so maybe it'll do a full back um and then it will basically like
+
+211
+0:17:08.000 --> 0:17:13.820
+run a command line program with a version of blender to export that as an fpx file but
+
+212
+0:17:13.820 --> 0:17:18.140
+you can do it um you might have mixed results doing it I know some people like doing it
+
+213
+0:17:18.140 --> 0:17:20.820
+because it works for them I don't know some people don't like it because it doesn't work
+
+214
+0:17:20.820 --> 0:17:25.060
+for them just just try it out uh Tony says is there a way to disable ik when in full
+
+215
+0:17:25.060 --> 0:17:30.660
+body not sure um you do still need some of it and the reason why you still need some
+
+216
+0:17:30.660 --> 0:17:36.580
+of it is because with ik um we can say hey your foot is here because we have your foot
+
+217
+0:17:36.580 --> 0:17:43.060
+tracker but that doesn't mean we know where your knee is so we need to inverse kinematics
+
+218
+0:17:43.060 --> 0:17:47.380
+where your knee is or where your hip joint is and yeah you might have trackers for all
+
+219
+0:17:47.380 --> 0:17:53.820
+those places but like there's still calculations that need to be done moving forwards elm elm
+
+220
+0:17:53.820 --> 0:17:58.000
+now says no says uh is it possible to kick something if you're tracking over foot yes
+
+221
+0:17:58.000 --> 0:18:04.500
+uh you could set that up um there are like there are colliders on your feet but they're
+
+222
+0:18:04.500 --> 0:18:10.940
+not like defaultly set up to interact like that you would need to um add some custom
+
+223
+0:18:10.940 --> 0:18:15.420
+stuff to that um you would probably need to put an active collider on your foot I'm gonna
+
+224
+0:18:15.420 --> 0:18:19.260
+say this now I'm gonna say this forever because people keep mistaking this active colliders
+
+225
+0:18:19.260 --> 0:18:24.900
+are fine provided you follow like a couple of uh assurances you'll be absolutely fine
+
+226
+0:18:24.900 --> 0:18:29.660
+don't worry about them too much um but yeah it's possible to set up but not like easy
+
+227
+0:18:29.660 --> 0:18:33.860
+to explain how to set up uh particularly when we don't have physics like once we have physics
+
+228
+0:18:33.860 --> 0:18:36.780
+I believe we'll see much more of that stuff because we'll have people playing football
+
+229
+0:18:36.780 --> 0:18:45.740
+and stuff like that uh moving onwards ah yes so froppy says uh f6 is free cam um neota
+
+230
+0:18:45.740 --> 0:18:50.140
+shop is uh also an option I'm sure if you know about that bean um so go to essential
+
+231
+0:18:50.140 --> 0:18:53.780
+tools polylogics tools and then go through the options there one's called poly uh called
+
+232
+0:18:53.780 --> 0:18:58.500
+for uh neota shop and there's a picture from froppy probably so helpful everyone everyone
+
+233
+0:18:58.500 --> 0:19:02.980
+like everyone given a round of what's the froppy gunn griffin asks what's the best way
+
+234
+0:19:02.980 --> 0:19:07.920
+to invert a boolean using components I'm not sure I wouldn't use components oh you can
+
+235
+0:19:07.920 --> 0:19:13.580
+use a boolean value driver um boolean value driver bool and that way you can do it sometimes
+
+236
+0:19:13.580 --> 0:19:20.300
+I do do that but I don't usually try to do it because it's a bit like finicky um so boolean
+
+237
+0:19:20.300 --> 0:19:26.860
+value driver bool has the state variable and then a true value and a false value so for
+
+238
+0:19:26.860 --> 0:19:31.500
+the true value you do off for the false value you do on and then you effectively invert
+
+239
+0:19:31.500 --> 0:19:37.320
+it froppy again who needs a another round of applause uh and then we have another question
+
+240
+0:19:37.320 --> 0:19:42.500
+from renamed from an fd hater to unnamed cyborg cat does need to have a traditional programming
+
+241
+0:19:42.500 --> 0:19:46.940
+which just logics just logics right now we might have a text-based language at some point
+
+242
+0:19:46.940 --> 0:19:50.940
+um you can look at our plugin system if you wish to write actual code but right now it's
+
+243
+0:19:50.940 --> 0:19:55.060
+just logics I didn't mention this clearly before but I do need to leave directly at
+
+244
+0:19:55.060 --> 0:19:59.300
+half past so uh make sure you keep your eye on the time we've got two more minutes for
+
+245
+0:19:59.300 --> 0:20:04.380
+questions I want to say like quinn it's like what's a quinnit uh bean says I should probably
+
+246
+0:20:04.380 --> 0:20:07.520
+do a stream one day showing how a little bit planet does level building I could emulate
+
+247
+0:20:07.520 --> 0:20:11.720
+it uh yeah if you send me a video like drop it into my dms I'll take a look and then maybe
+
+248
+0:20:11.720 --> 0:20:15.340
+we can uh figure out a solution for you the reason for the tight schedule I'm apartment
+
+249
+0:20:15.340 --> 0:20:19.900
+hunting right now and I need to get back to it otherwise I'll be homeless I mean I won't
+
+250
+0:20:19.900 --> 0:20:23.520
+be like I can afford home apartments and everything like that it's just my lease is running out
+
+251
+0:20:23.520 --> 0:20:27.220
+and I don't have a new lease that's all folks if you have questions please feel free to
+
+252
+0:20:27.220 --> 0:20:31.780
+drop them in my dms and I'll get back to you as soon as I can see you again next week and
+
+253
+0:20:31.780 --> 0:20:57.980
+I'll post this on sound later bye-bye
+

@@ -1,0 +1,1520 @@
+1
+00:00:00,000 --> 00:00:06,800
+ Welcome to office hours. We're gonna go ahead and get started. This is the weekly air-mayor section where I ask questions about Nios
+
+2
+00:00:06,800 --> 00:00:09,980
+ So if you have any questions about Nios, please drop them in the office hours text chat
+
+3
+00:00:09,980 --> 00:00:12,380
+ And I will go ahead and get them answered
+
+4
+00:00:12,380 --> 00:00:17,240
+ I'm just gonna go ahead and ping the office hours roll again so people know that we're here
+
+5
+00:00:17,240 --> 00:00:21,380
+ It does take people like I don't know ten minutes to arrive. It's like seven people right now
+
+6
+00:00:21,380 --> 00:00:27,280
+ Thank you so much those seven people for being here. We get to like 20 past. It's like 20 people. It's strange
+
+7
+00:00:27,280 --> 00:00:29,840
+ But there we go
+
+8
+00:00:30,120 --> 00:00:34,560
+ Try to keep this at the same time every single week for as long as possible
+
+9
+00:00:34,560 --> 00:00:39,860
+ Just so people think of it like a TV show. So we have one question right now from specs this question
+
+10
+00:00:39,860 --> 00:00:44,080
+ I'm going to delay reading just for a little bit whilst I open up the code base
+
+11
+00:00:44,080 --> 00:00:49,320
+ Excuse me. Oh, it's because I checked out a branch yesterday
+
+12
+00:00:49,320 --> 00:00:56,120
+ I tried to open Visual Studio Visual Studio and can't find that solution file. It's like oh, yeah, I'm on a branch one second
+
+13
+00:00:56,120 --> 00:01:00,960
+ I'll read the question whilst the code base is loading that takes a while anyone who's opened a Visual Studio project, you know
+
+14
+00:01:00,960 --> 00:01:01,840
+ It's just like oh, yes
+
+15
+00:01:01,840 --> 00:01:08,600
+ I'm gonna spin your computer fans up as loud as they will go just to read some text files because that's Visual Studio for you
+
+16
+00:01:08,600 --> 00:01:10,440
+ So specs this question is
+
+17
+00:01:10,440 --> 00:01:16,740
+ Do wigglers or and wobblers and other components that run on T incur much in the way of network traffic or do they basically run locally?
+
+18
+00:01:16,740 --> 00:01:23,720
+ Masking from matter how much how many might be too many in a world surprised to find how many we could sit you without seeing
+
+19
+00:01:23,720 --> 00:01:28,080
+ Which impact so I know that spinner for example runs locally and that's why
+
+20
+00:01:28,080 --> 00:01:30,960
+ Spinners can actually desync for various people
+
+21
+00:01:30,960 --> 00:01:37,720
+ So spinners are really only good for what I call sort of visual animations rather than sort of functional animations
+
+22
+00:01:37,720 --> 00:01:43,580
+ What I mean by that is let's say you're in a wizard study as a part of an RPG game
+
+23
+00:01:43,580 --> 00:01:47,400
+ And there's one of those like mobile, you know small planetariums in the corner
+
+24
+00:01:47,400 --> 00:01:51,780
+ If those planets on that planetarium are running on a spinner, that's probably okay, right?
+
+25
+00:01:51,780 --> 00:01:55,760
+ Because it's just there to add ambience to the to the scene. It's not there to
+
+26
+00:01:55,760 --> 00:02:03,560
+ Do anything functional so you people being desync is totally fine with that. It's just a you know background piece of art
+
+27
+00:02:03,560 --> 00:02:11,920
+ If however that wasn't a planetarium and instead it was actually like a solar system and you're making a space game where you fly between
+
+28
+00:02:11,920 --> 00:02:17,240
+ Planets using a spaceship you wouldn't be able to use spinner in that case because the planet might be in a completely different
+
+29
+00:02:17,540 --> 00:02:21,520
+ Location for half the crew of your ship which would kind of be a deal breaker
+
+30
+00:02:21,520 --> 00:02:28,820
+ So there you go. There's the difference on spinner at least now the code base is open and responding to control T requests
+
+31
+00:02:28,820 --> 00:02:30,820
+ I can go ahead and look at wobbler
+
+32
+00:02:30,820 --> 00:02:35,920
+ Yeah, so wobble is also local so local drive
+
+33
+00:02:35,920 --> 00:02:40,400
+ And the same with wiggler. We'll go wiggle and wobble
+
+34
+00:02:40,400 --> 00:02:46,720
+ Almost said what what what would too many w words wobble and wiggle do not sync any data
+
+35
+00:02:47,000 --> 00:02:51,460
+ Other than their settings if you change the speed the magnitude etc those will sync
+
+36
+00:02:51,460 --> 00:02:54,240
+ The actual state does not sync so again
+
+37
+00:02:54,240 --> 00:02:59,980
+ they are used for local effects like I mentioned the difference between the model planetarium and a wizard's office and the
+
+38
+00:02:59,980 --> 00:03:04,540
+ Space game where you're flying between planets, and that's why you can get away with quite a lot of them
+
+39
+00:03:04,540 --> 00:03:06,160
+ But do you remember that they don't sync?
+
+40
+00:03:06,160 --> 00:03:12,220
+ Moving forwards to the next question has been difficult to manage the development of multiple versions of Nia since you've said in the past you
+
+41
+00:03:12,220 --> 00:03:18,000
+ Have quite a few things were pretty much ready for an update and there's also small update required like the one we had
+
+42
+00:03:18,000 --> 00:03:22,560
+ But they score is it difficult to track all that considering how large the project is it get get is very good at that
+
+43
+00:03:22,560 --> 00:03:25,180
+ In some cases get isn't like I just had
+
+44
+00:03:25,180 --> 00:03:30,560
+ I don't know why but because I had a branch checked out the shortcut file
+
+45
+00:03:30,560 --> 00:03:33,760
+ I usually used to launch the solution didn't work for some reason
+
+46
+00:03:33,760 --> 00:03:37,800
+ Occasionally I have to remake that shortcut file. I don't really understand why but whatever
+
+47
+00:03:38,440 --> 00:03:45,620
+ Other than that it's good. There are some cases where like mergers are problematic a good example of this that has been in public before so
+
+48
+00:03:45,620 --> 00:03:46,900
+ It's you know
+
+49
+00:03:46,900 --> 00:03:50,200
+ Do you know about it already is color management in color management?
+
+50
+00:03:50,200 --> 00:03:55,400
+ We introduced a new data type color X which I believe you can still see inside Neos right now. It's just not finished
+
+51
+00:03:55,400 --> 00:03:57,400
+ Don't use it. Don't use it
+
+52
+00:03:57,400 --> 00:04:00,440
+ But it's there inside the code base
+
+53
+00:04:00,440 --> 00:04:08,280
+ When we are trying to make the full cut over to color management every version of color in our code base
+
+54
+00:04:08,320 --> 00:04:10,320
+ needs to turn to color X
+
+55
+00:04:10,320 --> 00:04:15,000
+ And so while that is only a one character change just imagine everywhere
+
+56
+00:04:15,000 --> 00:04:20,920
+ Why color is used as a good example there the delete button the default inspector is red and the reason why it's red is
+
+57
+00:04:20,920 --> 00:04:26,500
+ Because someone has typed the word color dot red at some point in the code base that needs to be color X dot red
+
+58
+00:04:26,500 --> 00:04:30,820
+ And so what that leads to sometimes is a lot of merge conflicts particularly when?
+
+59
+00:04:30,820 --> 00:04:38,180
+ You know the color management build is is you know trying to desperately stay up to date with anything else for the video
+
+60
+00:04:38,180 --> 00:04:42,640
+ It's that question, but get pick is designed to be there. I'm still trying to teach members of the team
+
+61
+00:04:42,640 --> 00:04:44,640
+ How get works etc for example?
+
+62
+00:04:44,640 --> 00:04:51,020
+ If you are one of the people who commits to get with the git commit message of update I will
+
+63
+00:04:51,020 --> 00:04:54,260
+ Do the leader Liam?
+
+64
+00:04:54,260 --> 00:04:57,140
+ Who's the guy that plays the wanted guy?
+
+65
+00:04:57,140 --> 00:05:04,360
+ No, no that's wanted the movie of bending bullets
+
+66
+00:05:04,360 --> 00:05:09,660
+ I want the one I was a new one he played memory Liam Neeson. Yeah, Liam Neeson
+
+67
+00:05:09,660 --> 00:05:15,780
+ You know he plays the same person in every single film. He's the guy who gets stuff done
+
+68
+00:05:15,780 --> 00:05:18,300
+ Taken is the film that I was
+
+69
+00:05:18,300 --> 00:05:21,020
+ Referring to that's the mean
+
+70
+00:05:21,020 --> 00:05:24,640
+ Yeah, so if you
+
+71
+00:05:24,640 --> 00:05:29,940
+ Get commits that was it yeah, if you use git commits with just a simple of like update
+
+72
+00:05:29,940 --> 00:05:32,480
+ I will find you and I will kill you
+
+73
+00:05:33,220 --> 00:05:37,080
+ Git commit should describe the change there is no such thing as a
+
+74
+00:05:37,080 --> 00:05:42,900
+ Too long and get commit you should keep the first line of the git commit very short
+
+75
+00:05:42,900 --> 00:05:47,820
+ But you can push enter and then type an essay and git will just handle it
+
+76
+00:05:47,820 --> 00:05:52,600
+ It's beautiful when you do that because people have context about why you made that change
+
+77
+00:05:52,600 --> 00:05:56,560
+ And then you don't do something like at 3 a.m.. Go why did
+
+78
+00:05:56,560 --> 00:06:00,000
+ Bob who isn't at work today because they're on vacation
+
+79
+00:06:00,460 --> 00:06:07,000
+ Why did he make this change because it just broke everything sure you doing that and then secondarily don't commit commented out code
+
+80
+00:06:07,000 --> 00:06:09,960
+ You need to comment something out, and you think you might use it later
+
+81
+00:06:09,960 --> 00:06:15,820
+ you should wrap it in a configuration block or a build flag or you should delete it and
+
+82
+00:06:15,820 --> 00:06:22,940
+ Leave a reference somewhere in your own personal notes about where you can find it in the git tree if you don't have personal notes
+
+83
+00:06:22,940 --> 00:06:25,380
+ Without your code then I don't know what you doing
+
+84
+00:06:25,380 --> 00:06:31,140
+ I just like keep notes for everything like I was setting up the MMC voting server for this year
+
+85
+00:06:31,140 --> 00:06:32,900
+ And I had no idea how it worked
+
+86
+00:06:32,900 --> 00:06:37,220
+ I completely forgot everything because I didn't make notes so I have made notes and I know how it works
+
+87
+00:06:37,220 --> 00:06:40,420
+ And I'll know how it works next year. Oh, it's an interesting question
+
+88
+00:06:40,420 --> 00:06:43,020
+ They say what is a part of Neos that you wish you understood better?
+
+89
+00:06:43,020 --> 00:06:50,040
+ I understood the actual like lower level data stuff the synchronization for anyone who's written a plug-in or a mod
+
+90
+00:06:50,040 --> 00:06:56,720
+ Maybe you'll understand that the majority of fields that do synchronize in Neos are just called what are called sinks
+
+91
+00:06:56,720 --> 00:07:02,140
+ Sink and then not sink the kitchen sink sinkers in to sink synchronize
+
+92
+00:07:02,140 --> 00:07:05,880
+ if you make something a sink it will just
+
+93
+00:07:05,880 --> 00:07:12,380
+ Magically appear on everyone's computer, and I have no real idea how or why because I don't really need to touch it
+
+94
+00:07:12,380 --> 00:07:15,640
+ I wish understood that more simply because if there are problems of it
+
+95
+00:07:15,640 --> 00:07:21,160
+ Which there are I could go ahead and fix them if that questions answered moving forwards to Riggs question
+
+96
+00:07:21,160 --> 00:07:23,700
+ Riggs says well the new Neos have
+
+97
+00:07:23,700 --> 00:07:28,700
+ Different collision physics than the current build asks because I'm trying to make a pool of table
+
+98
+00:07:28,700 --> 00:07:33,260
+ I don't know what you mean by a new Neos, so we do have an item on our roadmap
+
+99
+00:07:33,260 --> 00:07:37,060
+ rigid body physics and rigid body physics will enable you to
+
+100
+00:07:37,060 --> 00:07:45,380
+ Make things like a pool table that isn't spotted right now. It's not like a physics system or anything to do with collisions
+
+101
+00:07:45,380 --> 00:07:47,320
+ It's just an unsupported feature. Yes
+
+102
+00:07:47,320 --> 00:07:52,280
+ You'll be able to do stuff like that in fact a pool table is actually like a really good example of the difference between
+
+103
+00:07:52,280 --> 00:07:56,920
+ Rigid body physics and what we currently have what we currently have is character physics
+
+104
+00:07:56,920 --> 00:07:59,400
+ Which is hey I can jump in the world and I don't fall through the floor
+
+105
+00:07:59,400 --> 00:08:05,040
+ Which you can sort of coerce into making balls and stuff that you can throw around
+
+106
+00:08:05,040 --> 00:08:11,640
+ But it's difficult laggy etc. And there's a huge warning when you do that like literally built into the inspector
+
+107
+00:08:12,240 --> 00:08:16,560
+ That won't be the case when we have rigid body physics if you like more information on rigid body physics
+
+108
+00:08:16,560 --> 00:08:19,440
+ Take a look at the character controller component inside the game
+
+109
+00:08:19,440 --> 00:08:22,760
+ Which has a list of you know talks all about it or take a look at the issue
+
+110
+00:08:22,760 --> 00:08:28,380
+ Which is reference from that character controller component or just search for rigid body physics
+
+111
+00:08:28,380 --> 00:08:34,480
+ Okay, moving forwards to Lex's question. What is the timeout for certain network related actions for example?
+
+112
+00:08:34,480 --> 00:08:39,860
+ How long it takes to automatically get set offline when you crash or how long it takes for a session to disappear off the session
+
+113
+00:08:39,860 --> 00:08:43,120
+ This one you crash. I'd have to look up each of those in turn
+
+114
+00:08:43,120 --> 00:08:45,680
+ Because they're they're probably different
+
+115
+00:08:45,680 --> 00:08:50,980
+ Some of them might just be sort of a function of other matters as well. For example the session lister
+
+116
+00:08:50,980 --> 00:08:54,620
+ I know that that has a couple of update mechanisms
+
+117
+00:08:54,620 --> 00:09:00,140
+ So there's the update mechanism that occurs on our end as in the cloud and then there's the update mechanism that happens
+
+118
+00:09:00,140 --> 00:09:04,360
+ on your end, which is periodically your world browser will
+
+119
+00:09:04,880 --> 00:09:12,540
+ Ask the server for new sessions, and so if those don't sync up exactly like a sort of weird orchestra
+
+120
+00:09:12,540 --> 00:09:16,860
+ Then things that aren't valid might be there. The breaking questions
+
+121
+00:09:16,860 --> 00:09:21,620
+ I'm going to mute and slurp and humongous amount of coffee. Okay, that was half a pint of coffee
+
+122
+00:09:21,620 --> 00:09:27,100
+ I should be good to go now. Why are there two threads? Oh someone speaking the thread from February
+
+123
+00:09:27,100 --> 00:09:33,520
+ Let's go ahead and lock that thread. I will answer the question. It's our fault if it's confusing, but I'll go ahead and lock that one
+
+124
+00:09:34,520 --> 00:09:40,500
+ So Rico says will near support non humanoid avatars from the VR chat depends what you mean by non humanoid
+
+125
+00:09:40,500 --> 00:09:46,420
+ I think that due to a certain population on our platform will probably look into
+
+126
+00:09:46,420 --> 00:09:49,120
+ different leg types at some point
+
+127
+00:09:49,120 --> 00:09:52,300
+ If you mean things like spiders quadrupeds
+
+128
+00:09:52,300 --> 00:09:56,820
+ Any millipedes probably not millipedes, but you know well
+
+129
+00:09:56,820 --> 00:10:01,660
+ I think you're probably asking there for is more generic IK which is a feature that we're interested in
+
+130
+00:10:02,260 --> 00:10:08,980
+ So for those who aren't aware IK and also FK aren't just things are used for avatars or
+
+131
+00:10:08,980 --> 00:10:12,200
+ You know moving arms or whatever inside of
+
+132
+00:10:12,200 --> 00:10:18,880
+ In you know inside video games they're used for the actual fully definite process of those
+
+133
+00:10:18,880 --> 00:10:23,700
+ Which is inverse kinematics or forward kinematics if you don't understand what kinematics are
+
+134
+00:10:23,700 --> 00:10:29,500
+ I want you to think about the cup of water glass soda, whatever it is on your desk that you're drinking
+
+135
+00:10:29,500 --> 00:10:35,540
+ Hopefully you've got a drink on your desk and what you think about you picking up and drinking them the fact that your body
+
+136
+00:10:35,540 --> 00:10:41,060
+ Knows the sequence of muscles to pull and push to make that happen
+
+137
+00:10:41,060 --> 00:10:44,180
+ automatically is
+
+138
+00:10:44,180 --> 00:10:51,180
+ Forward kinematics that's like where you you know where stuff needs to be and so you you know
+
+139
+00:10:51,180 --> 00:10:55,380
+ Just you adjust stuff until it works that way so it comes up in a lot of stuff
+
+140
+00:10:56,100 --> 00:11:00,060
+ It comes up in a good example being of like generic IK would be like a robot arm
+
+141
+00:11:00,060 --> 00:11:02,520
+ So you think about a factory where robot arms may be?
+
+142
+00:11:02,520 --> 00:11:06,500
+ Lifting a piece into place someone I always think about as a car manufacturing line
+
+143
+00:11:06,500 --> 00:11:09,860
+ You know when they take like half the car and this robot arm goes like
+
+144
+00:11:09,860 --> 00:11:15,340
+ Like sucks it to the other side of the car yeah that needs kinematics
+
+145
+00:11:15,340 --> 00:11:20,080
+ So you know where the robot arm is in space that the human body just knows that is is amazing
+
+146
+00:11:20,080 --> 00:11:22,080
+ We don't really understand how it works
+
+147
+00:11:22,660 --> 00:11:27,540
+ Everyone's now sort of waving their arms around and thinking about it next question here from Ozi who says
+
+148
+00:11:27,540 --> 00:11:32,620
+ Not sure how to phrase this right, but how odd is the facial tracking implementation for Nia's?
+
+149
+00:11:32,620 --> 00:11:36,700
+ It seems like the facial tracking software is well buggy horrible and annoying so imagine for Nia's is trying its best
+
+150
+00:11:36,700 --> 00:11:38,900
+ You have to remember that do everything through a layer
+
+151
+00:11:38,900 --> 00:11:41,420
+ so we do
+
+152
+00:11:41,420 --> 00:11:44,660
+ Device integration, and then we do what we sort of like
+
+153
+00:11:44,660 --> 00:11:49,080
+ I don't know if it's literally called this but in my head like sanitization and conversion
+
+154
+00:11:49,080 --> 00:11:54,540
+ So we take the data that the device gives us we sanitize it and we convert it into data which Nia's
+
+155
+00:11:54,540 --> 00:11:58,300
+ Understands and then we blast it out there in Nia's functionality
+
+156
+00:11:58,300 --> 00:12:02,400
+ And that's the biggest example of this that doesn't actually make sense to be integrated
+
+157
+00:12:02,400 --> 00:12:05,460
+ But is integrated right now is that for haptic systems?
+
+158
+00:12:05,460 --> 00:12:12,200
+ We support both the be haptic suit and the oboe suit if anyone who doesn't know what the o suit is good
+
+159
+00:12:13,100 --> 00:12:19,360
+ It's a alternative haptic base suit which requires sticky gel to be affixed to your skin via a tight jacket
+
+160
+00:12:19,360 --> 00:12:21,260
+ It looks interesting
+
+161
+00:12:21,260 --> 00:12:25,940
+ But I don't know if I want to get naked and sticky with the lads just to have some haptic feedback
+
+162
+00:12:25,940 --> 00:12:31,200
+ The point there being both of those systems work and have vastly different API's
+
+163
+00:12:31,200 --> 00:12:35,620
+ But they come out the same as the haptic components inside of Nia's
+
+164
+00:12:35,620 --> 00:12:40,300
+ We want to make that sort of first part like the device integration layer
+
+165
+00:12:40,300 --> 00:12:45,880
+ We want to make that open to you guys to write plugins is the wrong word because everyone goes like but then I can't join other
+
+166
+00:12:45,880 --> 00:12:51,100
+ People we want to make it so you can join other people and you'll be able to write your own device integrators
+
+167
+00:12:51,100 --> 00:12:53,100
+ So if you make a headset in your bedroom
+
+168
+00:12:53,100 --> 00:12:58,560
+ using a workbench and you know an Arduino ever you'd be able to
+
+169
+00:12:58,560 --> 00:13:06,760
+ Integrate it into our systems and it would pretend from the view of other people in the session that you are just wearing a regular
+
+170
+00:13:06,880 --> 00:13:11,400
+ Headset because that would stop the sort of arms race. It's not arms race is the wrong word
+
+171
+00:13:11,400 --> 00:13:13,720
+ But you know, I mean like we have when a new device comes out
+
+172
+00:13:13,720 --> 00:13:17,780
+ Well, I mean my arms race which is the wrong word, but I'll run with it is that you know
+
+173
+00:13:17,780 --> 00:13:21,440
+ New headset comes out does VR chat support it does
+
+174
+00:13:21,440 --> 00:13:29,400
+ Rec room support it does roblox support it does meta horizon support it does neo support it and the answer to those questions is
+
+175
+00:13:29,400 --> 00:13:32,960
+ the first person to support it usually gets like a
+
+176
+00:13:32,960 --> 00:13:36,440
+ Boost because they're like, yeah, we support it blah blah blah
+
+177
+00:13:36,920 --> 00:13:38,920
+ moving on to additional questions
+
+178
+00:13:38,920 --> 00:13:42,280
+ Alex says what did I miss what you can do the recording?
+
+179
+00:13:42,280 --> 00:13:47,920
+ There's also a transcription available which does stress out my computer, which is why it sometimes takes a while
+
+180
+00:13:47,920 --> 00:13:52,960
+ It's like ah VR platform developer is slow on AI thing. Yay
+
+181
+00:13:52,960 --> 00:13:55,480
+ I need like more computers
+
+182
+00:13:55,480 --> 00:14:01,500
+ I know that it's the stereotypical thing for people who work in the tech sector like me in this area to have like server racks in
+
+183
+00:14:01,500 --> 00:14:05,480
+ Their houses or something so many people I know have just got like a full server rack in their house
+
+184
+00:14:05,480 --> 00:14:11,600
+ And they're just like, oh, yes, I could process this transcription through my server rack. I don't I used to it's off
+
+185
+00:14:11,600 --> 00:14:15,600
+ It's the tree. It's been I shipped it from the UK where I lived
+
+186
+00:14:15,600 --> 00:14:18,080
+ To Germany where I live for 18 months
+
+187
+00:14:18,080 --> 00:14:21,600
+ I didn't turn it on and then I shipped it to America and I still haven't got it turned on
+
+188
+00:14:21,600 --> 00:14:25,000
+ There's actually still packing tape on it from when I moved in here five years ago
+
+189
+00:14:25,000 --> 00:14:28,960
+ It's not even really a server. It's just a tiny box that can do what I want to
+
+190
+00:14:28,960 --> 00:14:32,720
+ But yeah, there will be a transcription and there will be a recording
+
+191
+00:14:34,240 --> 00:14:39,020
+ Alex then extends this question with talked about Nia's future. We have not talked about Nia's future
+
+192
+00:14:39,020 --> 00:14:43,380
+ If you like to ask a question, please go ahead and do so moving on to the next question
+
+193
+00:14:43,380 --> 00:14:49,000
+ Riggs says full body locking to hip or head feature possibly on the horizon. I'm used this might be a thing
+
+194
+00:14:49,000 --> 00:14:50,280
+ I seem to be hip-locked
+
+195
+00:14:50,280 --> 00:14:50,760
+ Ah, yeah
+
+196
+00:14:50,760 --> 00:14:55,960
+ So there is a large collection of issues to do with IK particularly when it comes to full body tracking
+
+197
+00:14:55,960 --> 00:15:01,220
+ That we want to look at and improve. Frix is quite sure of what he needs to do there, though
+
+198
+00:15:01,220 --> 00:15:06,020
+ He just needs to you know, have the time and capability to do it. He spends a lot of time in full body understanding
+
+199
+00:15:06,020 --> 00:15:07,600
+ What's going on there?
+
+200
+00:15:07,600 --> 00:15:12,660
+ We get it's problematic. We're just there's nothing we can do about it right now. There's a bunch of changes there
+
+201
+00:15:12,660 --> 00:15:15,640
+ Erin asked what's the difference between forward and inverse kinematics?
+
+202
+00:15:15,640 --> 00:15:22,600
+ I've had a forward kinematics before so inverse is you take the end position and you figure out the joints going backwards
+
+203
+00:15:22,600 --> 00:15:26,980
+ So in the case of a robot arm, you would take the position of the clasper
+
+204
+00:15:26,980 --> 00:15:31,380
+ You know the grabby bit at the end of the arm and you would work backwards from the grabber to figure out
+
+205
+00:15:31,380 --> 00:15:36,120
+ Where the joints of the arm need to be to make sure that that grabber is there?
+
+206
+00:15:36,120 --> 00:15:40,840
+ Whereas forward kinematics is the other way around you start at the top and you are down
+
+207
+00:15:40,840 --> 00:15:44,620
+ I don't know much about it, but I presume like inverse is more
+
+208
+00:15:44,620 --> 00:15:47,500
+ Easy to wrap your head around because you're like, yeah
+
+209
+00:15:47,500 --> 00:15:50,840
+ I want I want the grasp or of my arm to be here
+
+210
+00:15:50,840 --> 00:15:54,480
+ Work out where the elbow needs to be work out where the shoulder needs to be
+
+211
+00:15:54,520 --> 00:15:58,360
+ And that is I don't know because we don't know what mathematics our brains are running
+
+212
+00:15:58,360 --> 00:16:01,160
+ But I believe that's kind of sort of how our brains interpret it as well
+
+213
+00:16:01,160 --> 00:16:06,240
+ Like I don't ever think about my shoulder or my elbow and I reach out and grab my giant mug of coffee
+
+214
+00:16:06,240 --> 00:16:09,660
+ I just grab my giant mug of coffee because that's where I want my hand to be
+
+215
+00:16:09,660 --> 00:16:11,760
+ So I believe that's that question
+
+216
+00:16:11,760 --> 00:16:17,920
+ Moving forwards to Rico's question Rico says will there be more features to make easier to create things for desktop users?
+
+217
+00:16:17,920 --> 00:16:22,460
+ Depends what you mean there if you could elaborate on what difficulties were having as a desktop user
+
+218
+00:16:22,460 --> 00:16:26,480
+ I might be able to answer you more effectively Aaron asks. Is there a question you're surprised?
+
+219
+00:16:26,480 --> 00:16:28,480
+ Nobody has been asking an office hours yet
+
+220
+00:16:28,480 --> 00:16:33,260
+ I'm always curious about sort of like some of the weirder parts of news that no one seems to use
+
+221
+00:16:33,260 --> 00:16:37,120
+ I would love to answer questions about the areas which I use
+
+222
+00:16:37,120 --> 00:16:42,020
+ every day that no one else uses like let's get some more questions about the
+
+223
+00:16:42,020 --> 00:16:45,380
+ 3d volumes
+
+224
+00:16:45,380 --> 00:16:50,500
+ Slices the measure tip the meter tip the distance meter component
+
+225
+00:16:51,740 --> 00:16:56,760
+ You know more questions like that like if I haven't heard of the component and you ask about it
+
+226
+00:16:56,760 --> 00:17:01,220
+ You should get like a badge you get like oh my god prime hasn't heard of this component badge
+
+227
+00:17:01,220 --> 00:17:04,500
+ Alex you can watch the recording. I
+
+228
+00:17:04,500 --> 00:17:09,100
+ Can't continually repeat myself. It's it's like we run on into the future
+
+229
+00:17:09,100 --> 00:17:13,640
+ Ozzy says there was a new tip added to initial tools recently. What's that intended? It was intended
+
+230
+00:17:13,640 --> 00:17:19,680
+ I did it and I don't really like I don't care what anyone thinks what I did was I took the mesh visibility
+
+231
+00:17:20,060 --> 00:17:26,840
+ Tooltip and I made it visible inside essential tools. It was completely invisible. I also updated the
+
+232
+00:17:26,840 --> 00:17:30,440
+ this visual for the
+
+233
+00:17:30,440 --> 00:17:37,140
+ component clone tip so that you can actually see it's the yellow one because again like the picture like I basically just
+
+234
+00:17:37,140 --> 00:17:40,880
+ updated the pictures because it was bothering me the
+
+235
+00:17:40,880 --> 00:17:47,520
+ Three people in that week had asked about the mesh visibility tip and I'm like, it's there
+
+236
+00:17:47,520 --> 00:17:52,600
+ It's just the invisible one and I'm like hang on a minute. Why can't I just update this and I'm like I can so I did
+
+237
+00:17:52,600 --> 00:17:56,000
+ I understand that that breaks muscle memory. There's nothing I can do about that
+
+238
+00:17:56,000 --> 00:18:01,200
+ I think it's better in the long run that the mesh visibility tip is now actually visible
+
+239
+00:18:01,200 --> 00:18:02,720
+ I just found it ridiculous
+
+240
+00:18:02,720 --> 00:18:08,020
+ like and then someone needed the component clone tip and they didn't realize that that was the component clone tip because again it was you
+
+241
+00:18:08,020 --> 00:18:11,360
+ Know the picture was very small. What I'd love us to do is get
+
+242
+00:18:11,360 --> 00:18:15,380
+ You know probably get some like good UI
+
+243
+00:18:15,960 --> 00:18:20,760
+ not designers illustrators would be the appropriate term for this particular task to make
+
+244
+00:18:20,760 --> 00:18:25,440
+ Diagrams and pictures for each tool that we would then replace in the inventory
+
+245
+00:18:25,440 --> 00:18:27,720
+ Rather than a picture of the tool tip
+
+246
+00:18:27,720 --> 00:18:32,560
+ It would be like a square with the word developer tip and then a picture of the developer tip
+
+247
+00:18:32,560 --> 00:18:37,120
+ you know like a billboard ad sort of I just think that'd be a lot clearer and better than
+
+248
+00:18:37,120 --> 00:18:44,960
+ An often weirdly stretched blurry photo that you can only really tell which tip it is by the color. So
+
+249
+00:18:45,560 --> 00:18:49,640
+ To summarize I guess it is not a new tip. I just updated it so you can see it
+
+250
+00:18:49,640 --> 00:18:51,640
+ If anyone has a problem with that
+
+251
+00:18:51,640 --> 00:18:54,920
+ I will turn invisible and you won't be able to find me
+
+252
+00:18:54,920 --> 00:19:03,160
+ Just like the mesh visibility tip which is designed to make stuff invisible, but itself was invisible very confusing
+
+253
+00:19:03,160 --> 00:19:10,360
+ Alex's where is the recording the recording will be up between one and seven days from the time of this
+
+254
+00:19:10,960 --> 00:19:15,880
+ Session it really does depend on what I need to do immediately following this if I get distracted
+
+255
+00:19:15,880 --> 00:19:19,960
+ It's suddenly midnight and I haven't done it which then means it's Wednesday and I haven't done it
+
+256
+00:19:19,960 --> 00:19:23,960
+ And then if I have way too much like 3d graphic stuff to do on Wednesday
+
+257
+00:19:23,960 --> 00:19:29,840
+ I just can't I can't run the eye. Rusio says has prime heard of the linear map of 3d or
+
+258
+00:19:29,840 --> 00:19:34,280
+ We're just gonna like test me out. Like do I know these components?
+
+259
+00:19:34,280 --> 00:19:39,080
+ The reason why I'm delaying is because I'm actually going to my youtube channel because I think I have a video on the linear mappers
+
+260
+00:19:40,480 --> 00:19:45,520
+ Yeah, I do 31st October 2019, yeah, I know about the linear mappers
+
+261
+00:19:45,520 --> 00:19:52,720
+ Moving forwards to stifle says I wonder if prime has heard of the lapping multi clip player before. Yes
+
+262
+00:19:52,720 --> 00:19:58,960
+ I have someone was asking about that misunderstanding what was going on. There's one of those that is broken
+
+263
+00:19:58,960 --> 00:20:03,560
+ One of the clip players is broken. I can't remember which one is broken. I need to look at both of their names
+
+264
+00:20:03,560 --> 00:20:07,840
+ I'm in Neo, so I'll just empty object attach component media and see if I can find it
+
+265
+00:20:09,120 --> 00:20:15,260
+ It's in players. It's an audio then. Yeah, there's the lapping multi clip player and the multi audio clip player
+
+266
+00:20:15,260 --> 00:20:18,480
+ And one of those is broken. There was an issue I was reading about moving forwards
+
+267
+00:20:18,480 --> 00:20:25,460
+ Rusio said that they assumed it would be invisible like an in joke. I don't agree of in jokes the hamper
+
+268
+00:20:25,460 --> 00:20:30,380
+ Uses freedom like an in joke is totally fine. For example
+
+269
+00:20:30,380 --> 00:20:33,520
+ Really don't know of a good example
+
+270
+00:20:33,520 --> 00:20:35,360
+ I guess the example is when you like, you know
+
+271
+00:20:35,360 --> 00:20:41,500
+ I mean in the bottom left of discord when you click like the area that's got your your doobly-doo your numbers on it
+
+272
+00:20:41,500 --> 00:20:46,460
+ You can copy actually that's changed recently because now it just brings up that used to be that when you click that it would copy
+
+273
+00:20:46,460 --> 00:20:50,900
+ It to clipboard and if you clicked it like a few times like there'd be a little white to die like the elephant
+
+274
+00:20:50,900 --> 00:20:58,240
+ Logo person would not the logo one but the one that they animate sometimes would come up and go to die or something
+
+275
+00:20:58,240 --> 00:21:00,240
+ That's that's a fun joke
+
+276
+00:21:01,200 --> 00:21:05,240
+ Something that like is a detriment to uses is not a fun joke though. Oh, yeah, Sasha
+
+277
+00:21:05,240 --> 00:21:12,140
+ I do want to ask why is the clear logics interface but icon in there called clear logics which ends born actually called clear
+
+278
+00:21:12,140 --> 00:21:17,360
+ Interfaces no actual confused problem. Just confused me and how that desync. I don't know how that desync either
+
+279
+00:21:17,360 --> 00:21:21,860
+ I'd have to look into it. Maybe they did the picture thing
+
+280
+00:21:21,860 --> 00:21:26,180
+ You can customize inventory thumbnails and maybe they customize the inventory thumbnail for it
+
+281
+00:21:26,200 --> 00:21:33,000
+ But just didn't update the thumbnail being forwards Tiki says there's the new neat say the MMC 23 map
+
+282
+00:21:33,000 --> 00:21:37,280
+ When I play it, I find myself missing blocks if I never actually see the saber inside the block
+
+283
+00:21:37,280 --> 00:21:41,760
+ Especially when the framerate is low. Do you think it'd be possible to make more efficient block hit detection using logics?
+
+284
+00:21:41,760 --> 00:21:45,280
+ Just to know if colliders the most efficient solution to the already
+
+285
+00:21:45,280 --> 00:21:49,120
+ Colliders should be the most efficient solution. I've had people before
+
+286
+00:21:49,920 --> 00:21:56,920
+ That have said something on the lines of like but my logic's collision code is better and I've come like do you have any idea?
+
+287
+00:21:56,920 --> 00:21:58,800
+ What you're saying?
+
+288
+00:21:58,800 --> 00:22:02,280
+ Inside the physics engine that we use to do collisions is
+
+289
+00:22:02,280 --> 00:22:06,720
+ Awesome. Awesome code that you just can't do like overlaps
+
+290
+00:22:06,720 --> 00:22:14,960
+ Intersections all that sort of like terminology for the physics and that's how it works out whether to colliders are colliding and that's how it works
+
+291
+00:22:14,960 --> 00:22:22,760
+ Out if mesh colliders are colliding it's like it's insane. It's examining each individual triangle and seeing if it overlaps of another triangle
+
+292
+00:22:22,760 --> 00:22:26,440
+ It's crazy. You can't do some of that in logic, but not all of it
+
+293
+00:22:26,440 --> 00:22:31,200
+ I've had someone literally say that they were going to take their object and sort of surround it in
+
+294
+00:22:31,200 --> 00:22:36,880
+ Ray cast a little bit like pinhead from Hellraiser to try and see if it's colliding in anything and I'm like
+
+295
+00:22:36,880 --> 00:22:39,160
+ Could you not just put an active collider on it?
+
+296
+00:22:39,160 --> 00:22:43,520
+ And I heard active colliders were bad and I said yeah, but what you're suggesting is much worse
+
+297
+00:22:44,040 --> 00:22:46,120
+ Active colliders are not bad by the way
+
+298
+00:22:46,120 --> 00:22:49,380
+ You just need to use them carefully spec says on that note if you're working with a team
+
+299
+00:22:49,380 --> 00:22:53,640
+ Please don't name your slots after memes instead of meaningful descriptions working with a team is an interesting
+
+300
+00:22:53,640 --> 00:23:00,060
+ Exploration and I'm happy to see that there are you know some standard teams that always come out MSC and do a really good job
+
+301
+00:23:00,060 --> 00:23:05,340
+ but I'm also happy to see as well that there are a lot of people who maybe haven't worked in a team before and are
+
+302
+00:23:05,340 --> 00:23:06,760
+ learning the
+
+303
+00:23:06,760 --> 00:23:11,680
+ quirks of doing that there is a lot of stuff that goes into there for anyone who doesn't know by
+
+304
+00:23:12,720 --> 00:23:15,920
+ By trade is wrong because I don't actually do it right now, but I spent
+
+305
+00:23:15,920 --> 00:23:20,840
+ Five six years as an engineer, and I've spent five or six years as a product manager
+
+306
+00:23:20,840 --> 00:23:24,440
+ I didn't understand what a product manager did but now I do
+
+307
+00:23:24,440 --> 00:23:28,240
+ People often get that role confused as well because a couple word manager and
+
+308
+00:23:28,240 --> 00:23:35,400
+ Manager has sort of connotations of being sort of like a leader or in charge or a boss in quotes
+
+309
+00:23:35,400 --> 00:23:40,600
+ When it comes to product manager, it's anything but our job is basically to orchestrate chaos
+
+310
+00:23:41,000 --> 00:23:47,680
+ And and that's what we do if you're a people manager. That's the traditional management thing that guys are
+
+311
+00:23:47,680 --> 00:23:54,300
+ Afraid of or apprehensive about if you're a product manager your job is to manage the product don't manage people so it's different
+
+312
+00:23:54,300 --> 00:23:56,640
+ Lex looked up. Yep. It's a custom thumbnail
+
+313
+00:23:56,640 --> 00:24:03,560
+ Item texture thumbnail source, I don't think has been renamed I can check for you. I go here
+
+314
+00:24:03,560 --> 00:24:06,420
+ I can go to item texture thumbnail source
+
+315
+00:24:07,680 --> 00:24:12,360
+ Looks like it used to be called texture thumbnail source. I don't know if that was before or after I made a video on it
+
+316
+00:24:12,360 --> 00:24:14,820
+ So I will check my channel make sure that's up to date item
+
+317
+00:24:14,820 --> 00:24:16,880
+ customize
+
+318
+00:24:16,880 --> 00:24:18,100
+ inventory
+
+319
+00:24:18,100 --> 00:24:20,360
+ Customize inventory thumbnails, let's see what I call it
+
+320
+00:24:20,360 --> 00:24:21,480
+ Oh
+
+321
+00:24:21,480 --> 00:24:26,960
+ Dear this is a three minute video run this at five times speed. I am running it faster than YouTube can keep up
+
+322
+00:24:26,960 --> 00:24:30,440
+ Give me a second here YouTube buffer the video
+
+323
+00:24:30,440 --> 00:24:34,460
+ Okay, I'll leave that buffering for a bit. I'll see if my tutorials up to that
+
+324
+00:24:34,960 --> 00:24:41,680
+ There are some frame synchronization issues for physics, which I think we're planning on looking at later. Thanks. Hey, look
+
+325
+00:24:41,680 --> 00:24:44,920
+ so the update was
+
+326
+00:24:44,920 --> 00:24:47,960
+ September 20th, and I did this
+
+327
+00:24:47,960 --> 00:24:53,080
+ Wish here September 20th 2021. Yeah, my videos are date. That's fine
+
+328
+00:24:53,080 --> 00:24:56,400
+ When we when we get going again with updates, I'll
+
+329
+00:24:56,400 --> 00:25:00,380
+ Start having some sort of policy on how I update videos and stuff
+
+330
+00:25:00,380 --> 00:25:03,920
+ I have a lot of people that comment on my world creation video and they're like this is all day
+
+331
+00:25:03,920 --> 00:25:09,480
+ I understand that the - is different but like if you just ignored the - everything's still valid
+
+332
+00:25:09,480 --> 00:25:15,680
+ Think says now that's where you trust on users to understand the names of the UI same but different UI homeless
+
+333
+00:25:15,680 --> 00:25:20,400
+ Wanna step by step holding the hand the exact same, you know, yeah, you are right and I've always said this
+
+334
+00:25:20,400 --> 00:25:23,200
+ I'm just you know reset it we are at time, but I'll restate it
+
+335
+00:25:23,200 --> 00:25:30,200
+ Anyone is free to make Neos tutorial videos and at some point I do hope that the Neos team themselves
+
+336
+00:25:30,200 --> 00:25:32,920
+ make
+
+337
+00:25:32,920 --> 00:25:38,520
+ Their own tutorials at which point they will be much better orchestrated planned and scripted
+
+338
+00:25:38,520 --> 00:25:41,140
+ You know, I'll probably be involved in those etc
+
+339
+00:25:41,140 --> 00:25:48,120
+ The the reason why my channel exists is to do tutorials in my style and my brand which is just like I hit go and I
+
+340
+00:25:48,120 --> 00:25:51,280
+ Record none of my videos are planned actually a couple of them are planned
+
+341
+00:25:51,280 --> 00:25:53,820
+ But like they still aren't planned when I hit there's no script
+
+342
+00:25:53,820 --> 00:25:57,420
+ The one where I did mineable or for example, that one was planned
+
+343
+00:25:57,420 --> 00:25:59,440
+ I had to go get some assets for that one, etc
+
+344
+00:25:59,440 --> 00:26:05,800
+ But I hit go and I just started talking I didn't have any script in mind. It's working out great
+
+345
+00:26:05,800 --> 00:26:10,640
+ Hence why everyone likes them, but there is a point in
+
+346
+00:26:10,640 --> 00:26:15,600
+ Neos's future I hope where my tutorials are sin as
+
+347
+00:26:15,600 --> 00:26:19,560
+ Less good because they are not scripted and that's absolutely fine
+
+348
+00:26:19,560 --> 00:26:21,880
+ And I like that day whenever that day happens
+
+349
+00:26:21,880 --> 00:26:26,800
+ I can we take a look at just a popular tutorial channel for a very popular topic, you know
+
+350
+00:26:26,800 --> 00:26:33,640
+ Maybe web development or something those people they plan and script so so so much
+
+351
+00:26:33,640 --> 00:26:42,580
+ To get the best quality video and then I'm just there like record giggle. Stop recording start recording again giggle
+
+352
+00:26:42,580 --> 00:26:47,640
+ Yeah, I don't like editing if I have to edit it would take me longer to learn to edit than it would to
+
+353
+00:26:47,640 --> 00:26:53,260
+ Just rerecord it. Well, there's been a couple of times where I've accidentally leaked like personal information or something
+
+354
+00:26:53,280 --> 00:26:57,420
+ You know what happens with OBS and I've gone I'll have to edit that out and blur it
+
+355
+00:26:57,420 --> 00:26:59,840
+ I've gone or I could just rerecord it and that'll take me ten minutes
+
+356
+00:26:59,840 --> 00:27:04,020
+ But I just rerecord it take a look at the outtakes video if you'd like to see some of those outtakes
+
+357
+00:27:04,020 --> 00:27:09,560
+ there are hundreds of exactly the same thing there Jackal says that the tutorials appealed to them because
+
+358
+00:27:09,560 --> 00:27:14,000
+ They're not polished. Yeah, I know it's exactly why I keep doing them
+
+359
+00:27:14,000 --> 00:27:18,320
+ I do need to I've got this idea for a meme video where I do a mock
+
+360
+00:27:18,760 --> 00:27:23,440
+ Video in the star everyone else does tutorials. We're gonna have dubstep. We're gonna have intros
+
+361
+00:27:23,440 --> 00:27:26,960
+ We have like a subscriber met thing would have the bell up here
+
+362
+00:27:26,960 --> 00:27:31,640
+ We're gonna have a raid shadow legend sponsor and it's gonna be a very simple tutorial
+
+363
+00:27:31,640 --> 00:27:35,000
+ It's gonna be like how to click a button in Neos like
+
+364
+00:27:35,000 --> 00:27:41,400
+ 20 minutes with just like a single like second of left click. I should also you're right
+
+365
+00:27:41,400 --> 00:27:45,680
+ I should also do a hyper cam video. That would be great. I couldn't actually do raid shadow legends
+
+366
+00:27:45,680 --> 00:27:50,760
+ I I put ready to add a legend through the thesaurus and I came up with a very close title
+
+367
+00:27:50,760 --> 00:27:56,260
+ Which I'll make up and trust me that the sponsorship segment will have like a dragon downloaded from sketch fair
+
+368
+00:27:56,260 --> 00:28:00,120
+ But like reading and stuff, it'll be awesome. Okay, we have one final question
+
+369
+00:28:00,120 --> 00:28:04,480
+ I was just about to end but Zach did ask a question says how do I set up a dove dev tooltip again?
+
+370
+00:28:04,480 --> 00:28:06,820
+ You attach the dev to totally
+
+371
+00:28:06,820 --> 00:28:11,680
+ You attach the dev
+
+372
+00:28:12,040 --> 00:28:17,440
+ Tooltip component and everything will just work I can get you the name of that that component. Give me a second
+
+373
+00:28:17,440 --> 00:28:24,840
+ No, that's the logic step dev tooltip. There you go. Yeah, the actual whole part of the video will take
+
+374
+00:28:24,840 --> 00:28:31,000
+ 300 times longer than the actual tutorial content of the video, which is just how to click a button
+
+375
+00:28:31,000 --> 00:28:33,040
+ So but that's the kind of the point
+
+376
+00:28:33,040 --> 00:28:36,800
+ Anyway with that we are at time we've been at time for like 10 minutes
+
+377
+00:28:38,240 --> 00:28:42,840
+ I will go ahead and leave us off here if you have any additional questions in the tight in the meantime
+
+378
+00:28:42,840 --> 00:28:46,280
+ Drop them questions and help channel DM me. Send me a carrier pigeon
+
+379
+00:28:46,280 --> 00:28:53,080
+ Whatever you want to do. I will get back to you with another office hours in a week. I will speak to them
+
+380
+00:28:53,080 --> 00:28:53,580
+ Bye bye.
+

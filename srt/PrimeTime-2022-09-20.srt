@@ -1,0 +1,1520 @@
+1
+0:00:00.000 --> 0:00:04.220
+So for those on the recording, I forgot to hit record for like half a minute, I'm sorry
+
+2
+0:00:04.220 --> 0:00:08.440
+for those hearing on the recording, please, please do forgive me.
+
+3
+0:00:08.440 --> 0:00:10.440
+Let's get started with questions.
+
+4
+0:00:10.440 --> 0:00:15.600
+Tronas asks, I haven't played a good RTS in like forever.
+
+5
+0:00:15.600 --> 0:00:20.800
+I used to play Red Bullet 2 a lot with some friends, and my friend had this ability where
+
+6
+0:00:20.800 --> 0:00:25.840
+it was just sort of, I don't know, he spawned tanks, like some sort of insect or something.
+
+7
+0:00:25.840 --> 0:00:28.480
+Tanks just appeared out of everywhere and I could never keep up.
+
+8
+0:00:28.480 --> 0:00:34.180
+I don't like playing RTS games with other players, like I don't really like PvP games
+
+9
+0:00:34.180 --> 0:00:38.700
+in general, particularly with friends, and the reason behind that is someone is always
+
+10
+0:00:38.700 --> 0:00:43.400
+having a bad time when I play PvP, at least I find that.
+
+11
+0:00:43.400 --> 0:00:50.960
+So someone is not doing well, and they're losing, and then therefore they are sad.
+
+12
+0:00:50.960 --> 0:00:51.960
+And so I don't like that.
+
+13
+0:00:51.960 --> 0:00:54.520
+So I tend to only play cooperative games.
+
+14
+0:00:54.520 --> 0:01:00.360
+I can play with, you know, like player versus player games if there's a team, but if there's
+
+15
+0:01:00.360 --> 0:01:03.800
+a team, all the people I'm in communication with, all the people I'm playing with have
+
+16
+0:01:03.800 --> 0:01:09.420
+to be on the same team, otherwise I get a bit, I don't know, it just feels weird.
+
+17
+0:01:09.420 --> 0:01:16.040
+Another RTS game which I really, really wish that someone would own and understand and
+
+18
+0:01:16.040 --> 0:01:20.120
+try and play with me, because I don't know, like no one plays the game and it's kind of
+
+19
+0:01:20.120 --> 0:01:24.840
+weird, but I have a time traveling RTS game in my library.
+
+20
+0:01:24.840 --> 0:01:29.640
+It is an RTS game where you can time travel, and it is insane.
+
+21
+0:01:29.640 --> 0:01:34.260
+To list the sort of ways that time travel play out, you can do things, for example,
+
+22
+0:01:34.260 --> 0:01:40.140
+build a tank creator, so a vehicle factory, spawn a tank, the tank comes out of the vehicle
+
+23
+0:01:40.140 --> 0:01:46.120
+factory, send the tank into the past before the tank was created, and explode the tank
+
+24
+0:01:46.120 --> 0:01:47.200
+factory.
+
+25
+0:01:47.200 --> 0:01:52.160
+At that point, a regular game engine would just be like, what the hell is going on?
+
+26
+0:01:52.160 --> 0:01:58.580
+But this particular time traveling RTS engine figures it out, and it will propagate what's
+
+27
+0:01:58.580 --> 0:02:03.640
+called the grandfather paradox through the game until one of the states resolves sort
+
+28
+0:02:03.640 --> 0:02:05.280
+of randomly.
+
+29
+0:02:05.280 --> 0:02:13.740
+The two states being the tank factory doesn't exist, or the tank doesn't exist, or both
+
+30
+0:02:13.740 --> 0:02:19.040
+don't exist, and it will figure it all out, and it's multiplayer as well, and so in a
+
+31
+0:02:19.040 --> 0:02:24.240
+multiplayer game, you might be trying to do the usual red alert 2 style thing and build
+
+32
+0:02:24.240 --> 0:02:31.240
+up your base, but someone has time traveled their entire attack force back in time and
+
+33
+0:02:31.240 --> 0:02:36.300
+is attacking you before you had any units, so you always have to be sending units forwards
+
+34
+0:02:36.300 --> 0:02:37.300
+and backwards.
+
+35
+0:02:37.300 --> 0:02:38.300
+Acron is the name of the game.
+
+36
+0:02:38.300 --> 0:02:40.040
+It is incredibly confusing.
+
+37
+0:02:40.040 --> 0:02:43.480
+I have not been able to win a match or even survive.
+
+38
+0:02:43.480 --> 0:02:49.760
+It is painfully overcomplicated, yes, but it is very, I don't know, I want to learn
+
+39
+0:02:49.760 --> 0:02:54.720
+it, and it died, right, no one wants to play it, but I would love it if there had been
+
+40
+0:02:54.720 --> 0:03:00.120
+a little pro series, even if it was just a season, and then we'll be able to take a look
+
+41
+0:03:00.120 --> 0:03:03.080
+at pro players doing it.
+
+42
+0:03:03.080 --> 0:03:07.280
+Similar to a game called Splitgate, Splitgate's an FPS game where you can make portals, similar
+
+43
+0:03:07.280 --> 0:03:08.280
+to the game Portal.
+
+44
+0:03:08.280 --> 0:03:11.040
+I think they originally called it like Portal Shooter or something, but they couldn't due
+
+45
+0:03:11.040 --> 0:03:16.400
+to branding and terms of trademarks, et cetera, but Splitgate you can portal, and the pro
+
+46
+0:03:16.400 --> 0:03:20.960
+players are just constantly portaling, and for Splitgate, I never portal, but Splitgate
+
+47
+0:03:20.960 --> 0:03:25.080
+is dead now as well, he does announce that they're not doing updates for anyone.
+
+48
+0:03:25.080 --> 0:03:27.720
+Anyway, we should get back on track, we're four minutes in and we've just been talking
+
+49
+0:03:27.720 --> 0:03:31.720
+about video games that are not Neos, so let's go ahead and take a look at the next question.
+
+50
+0:03:31.720 --> 0:03:35.360
+Waffler, the protogen, says, so I'm trying to make an avatar complete with a Neos, it
+
+51
+0:03:35.360 --> 0:03:37.900
+is made up of precisely placed boxes and such.
+
+52
+0:03:37.900 --> 0:03:41.880
+I glue it together with a glue tool, but then rotating the thing makes it rotate around
+
+53
+0:03:41.880 --> 0:03:44.000
+the center of the world instead of its own center.
+
+54
+0:03:44.000 --> 0:03:47.760
+Yeah, don't glue it, the glue tool is not the tool you want to use for that.
+
+55
+0:03:47.760 --> 0:03:53.240
+There are a bunch of people inside Neos that do this activity, so speak to Rusty and Sloppy
+
+56
+0:03:53.240 --> 0:03:58.280
+McFloppy and they'll be able to help you out, they make avatars entirely inside Neos.
+
+57
+0:03:58.280 --> 0:04:02.080
+Origins are very important, so don't glue them, manually pair them together and then
+
+58
+0:04:02.080 --> 0:04:09.480
+you won't lose those origin datas, datatars, datutus, daties, what's the plural of data?
+
+59
+0:04:09.480 --> 0:04:11.080
+I don't know.
+
+60
+0:04:11.080 --> 0:04:15.600
+Anyway, Yoho asks, are there any cool things you can tell us about the work that's happening
+
+61
+0:04:15.600 --> 0:04:18.840
+while we wait for this Neos issue to take the time to pass?
+
+62
+0:04:18.840 --> 0:04:19.840
+No.
+
+63
+0:04:19.840 --> 0:04:23.520
+Moving onwards, Waffler says, much more general question, I'm interested in being a world
+
+64
+0:04:23.520 --> 0:04:26.200
+creator and logic user, what other steps I should go through on this journey to be a
+
+65
+0:04:26.200 --> 0:04:27.200
+good creator in Neos?
+
+66
+0:04:27.200 --> 0:04:28.200
+Do it.
+
+67
+0:04:28.200 --> 0:04:32.320
+I know that's a sort of brash and harsh answer, but that's the answer.
+
+68
+0:04:32.320 --> 0:04:37.480
+So even the statement, I want to be a world creator, you are a world creator, Waffler,
+
+69
+0:04:37.480 --> 0:04:40.720
+I know that you haven't built a world yet, but you are a world creator, there isn't really
+
+70
+0:04:40.720 --> 0:04:45.840
+anything that you need to do to become a world creator except to do it.
+
+71
+0:04:45.840 --> 0:04:48.320
+There are a bunch of tutorials on my channel and a few other channels that will get you
+
+72
+0:04:48.320 --> 0:04:51.840
+started with world creation, I have a full world creation series, it is a little bit
+
+73
+0:04:51.840 --> 0:04:56.320
+on the old side now, uses the old UI, but still should be mappable to the new UI, so
+
+74
+0:04:56.320 --> 0:04:58.240
+go ahead and take a look at that.
+
+75
+0:04:58.240 --> 0:05:03.000
+My advice is start small, in that series we make a world, we put a picnic table and some
+
+76
+0:05:03.000 --> 0:05:07.800
+trees in and we save it, and that just gets you around the loader world, add something
+
+77
+0:05:07.800 --> 0:05:10.500
+to the world, save the world, teach you to do that.
+
+78
+0:05:10.500 --> 0:05:13.760
+As for logics, I don't have a beginner logics tutorial, I do need to fill that gap at some
+
+79
+0:05:13.760 --> 0:05:18.040
+point, but Basement Node has a really good one, and then once you do know logic, I have
+
+80
+0:05:18.040 --> 0:05:22.280
+a lot more sort of how to create specific thing tutorials.
+
+81
+0:05:22.280 --> 0:05:26.160
+Its original name was Puddle Wars or something, they are not, Splitgate is not doing updates,
+
+82
+0:05:26.160 --> 0:05:30.320
+they released their final update recently, and they are no longer doing updates.
+
+83
+0:05:30.320 --> 0:05:35.240
+They'll do like bug fixes or exploit fixes, but they're not doing any more content.
+
+84
+0:05:35.240 --> 0:05:39.280
+What's annoying is the cash shop is still up, so they'll still be doing cash stuff.
+
+85
+0:05:39.280 --> 0:05:45.440
+You know, you can still buy whatever their equivalent of e-books is.
+
+86
+0:05:45.440 --> 0:05:49.320
+Splitgate coins or something like that, I don't know, who knows.
+
+87
+0:05:49.320 --> 0:05:51.080
+Split coins, says Aaron.
+
+88
+0:05:51.080 --> 0:05:52.660
+Thank you Mr. Aaron.
+
+89
+0:05:52.660 --> 0:05:56.320
+With that, all of the questions have been answered, that we currently have, so if you
+
+90
+0:05:56.320 --> 0:06:00.560
+have any more questions, do get them typed up, otherwise we're going to sit here in unimaginable
+
+91
+0:06:00.560 --> 0:06:01.560
+silence.
+
+92
+0:06:01.560 --> 0:06:03.920
+I'll just scroll up and down the list looking for any questions I might have missed.
+
+93
+0:06:03.920 --> 0:06:05.480
+There are no questions which I have missed.
+
+94
+0:06:05.480 --> 0:06:08.920
+Are there any other Neos tutorial channels you would like to add to the list?
+
+95
+0:06:08.920 --> 0:06:18.320
+Uh, yeah, there's actually a bunch, so Basement Node is doing a bunch now, even June is.
+
+96
+0:06:18.320 --> 0:06:21.160
+Check the tutorials channel and scroll up recently, like I haven't posted that much
+
+97
+0:06:21.160 --> 0:06:26.720
+because I've been away for a bit, but you'll see Paddy done one, doesn't sound like a correct
+
+98
+0:06:26.720 --> 0:06:27.720
+sentence.
+
+99
+0:06:27.720 --> 0:06:31.040
+Paddy did one, I think they've done a couple.
+
+100
+0:06:31.040 --> 0:06:40.800
+And then, this is exactly what I was looking for, is Alex from Alaska has this amazing
+
+101
+0:06:40.800 --> 0:06:46.400
+list which does need translating, so if you are not technical, please wait for someone
+
+102
+0:06:46.400 --> 0:06:49.360
+slightly more technical to translate it.
+
+103
+0:06:49.360 --> 0:06:56.000
+But this list here is a list of playlist IDs, and you can put those into YouTube by just
+
+104
+0:06:56.000 --> 0:07:01.280
+expanding the URL a little bit, and that will get you to tutorial channels that do exist.
+
+105
+0:07:01.280 --> 0:07:10.080
+So yeah, me, Jax did a few back in the day, Fruxy of course has a lot, Coffee, Turk, Circuitry,
+
+106
+0:07:10.080 --> 0:07:15.880
+even Alex has done a few, June, NG, Nicole did a few, I forgot Nicole did a few, of course
+
+107
+0:07:15.880 --> 0:07:16.880
+that's great.
+
+108
+0:07:16.880 --> 0:07:21.640
+And then Svekin did a bunch as well, I like those ones.
+
+109
+0:07:21.640 --> 0:07:27.720
+I love this question from Rock and Nook, because it's sometimes difficult to speak about.
+
+110
+0:07:27.720 --> 0:07:32.760
+I am not aware of what the Quest Pro is, now of course I am, I've seen the leaks, but as
+
+111
+0:07:32.760 --> 0:07:36.160
+a company we can't do anything about the leaks.
+
+112
+0:07:36.160 --> 0:07:41.320
+For us to make, integrate new hardware, we need the hardware to be released and given
+
+113
+0:07:41.320 --> 0:07:43.140
+to us in some form.
+
+114
+0:07:43.140 --> 0:07:48.240
+Now in some cases I'm happy buying the hardware and just integrating it, but if it's not out
+
+115
+0:07:48.240 --> 0:07:53.520
+yet, we don't have any plans, it needs to be out before we have plans.
+
+116
+0:07:53.520 --> 0:07:56.760
+The general statement on hardware though is that we'll try and integrate as much as we
+
+117
+0:07:56.760 --> 0:08:02.120
+can, it does depend on development priorities, hashtag announcements, and like the actual
+
+118
+0:08:02.120 --> 0:08:03.600
+hardware itself.
+
+119
+0:08:03.600 --> 0:08:10.720
+For example the HP Omnicept, whatchamacallit2, has a mouth tracking camera, but it only provides
+
+120
+0:08:10.720 --> 0:08:16.880
+a black and white camera feed, it doesn't do any of the AI that the HTC face tracker
+
+121
+0:08:16.880 --> 0:08:21.840
+does which converts those mouth movements into actual data we can use.
+
+122
+0:08:21.840 --> 0:08:28.380
+So if we wanted to use the HP Doodaddy, we would have to write our own AI, which is something
+
+123
+0:08:28.380 --> 0:08:32.080
+that we probably wouldn't want to do, because at that point we have to maintain it and we
+
+124
+0:08:32.080 --> 0:08:35.440
+turn it into basically machine and learning engineers, which is a very complicated Doodaddy
+
+125
+0:08:35.440 --> 0:08:36.440
+to do.
+
+126
+0:08:36.440 --> 0:08:44.160
+So once the Quest 2 Pro is officially released and has information about how developers can
+
+127
+0:08:44.160 --> 0:08:51.240
+access it, and has developer documentation or integration, then we can go ahead and take
+
+128
+0:08:51.240 --> 0:08:52.860
+a look at it.
+
+129
+0:08:52.860 --> 0:08:58.560
+Same goes with any hardware, if you read on the bus in a newspaper, LEAK, amazing headset
+
+130
+0:08:58.560 --> 0:09:04.680
+costs 50 bucks, does everything, works as well as a Quest Pro and an Index all combined
+
+131
+0:09:04.680 --> 0:09:09.160
+into one, and it's got a battery and it lasts infinity.
+
+132
+0:09:09.160 --> 0:09:14.160
+It's useless to us until there's actually in our hands details about it out in the world
+
+133
+0:09:14.160 --> 0:09:15.160
+that are not leaked.
+
+134
+0:09:15.160 --> 0:09:18.200
+Right, moving onwards, I've got a long question here, I will read it out for the purposes
+
+135
+0:09:18.200 --> 0:09:19.520
+of the recording from Zygmuntz.
+
+136
+0:09:19.520 --> 0:09:23.000
+Zygmuntz says, many users have voiced concern about the state of Neos and the uncertainty
+
+137
+0:09:23.000 --> 0:09:27.520
+of its future, with tentative inte-te-te, with tentative inte-te, I'll get through that,
+
+138
+0:09:27.520 --> 0:09:32.500
+with tentative interest in continuing to use the platform as normal despite the closed
+
+139
+0:09:32.500 --> 0:09:36.680
+nature of ongoing negotiations behind the scenes, I and some others have unfortunately
+
+140
+0:09:36.680 --> 0:09:40.520
+been met with much resistance getting news of something on the platform, not only due
+
+141
+0:09:40.520 --> 0:09:47.560
+to obvious UX issues, but also the observance of dismissive and sometimes overtly rude behaviour
+
+142
+0:09:47.560 --> 0:09:51.400
+of Neos mentors, moderators and Neos team members when addressing these other concerns
+
+143
+0:09:51.400 --> 0:09:55.840
+directly, including yourself, oh no, what message can you give to potential Neos players
+
+144
+0:09:55.840 --> 0:09:59.880
+to give them hope the platform is in good hands and to give them a platform chance to,
+
+145
+0:09:59.880 --> 0:10:04.960
+right, the top-down opacity of the current situation, I don't know, we are doing our
+
+146
+0:10:04.960 --> 0:10:12.080
+best to exist in this current scenario, we don't have any additional news about that,
+
+147
+0:10:12.080 --> 0:10:15.880
+if you have any complaints about the behaviour of mentors, moderators and the Neos team members,
+
+148
+0:10:15.880 --> 0:10:19.960
+please feel free to file a moderation ticket, I will move on.
+
+149
+0:10:19.960 --> 0:10:24.760
+Tiki, is there a quick way to layer a second emissive texture to a zyxy material, like
+
+150
+0:10:24.760 --> 0:10:30.920
+pile up another material on top, if I have a texture as a pen apparent, you might have
+
+151
+0:10:30.920 --> 0:10:36.040
+to add another mesh renderer to do that to like material stack things, I'd have to look
+
+152
+0:10:36.040 --> 0:10:41.920
+at the zyxy one again, no, like material stack in the good way, not the bad way, if you duplicate
+
+153
+0:10:41.920 --> 0:10:46.160
+the mesh renderer and add a different material to the mesh renderer, that's okay, if you
+
+154
+0:10:46.160 --> 0:10:51.240
+put another material on top of the same material in the same mesh renderer, that's material
+
+155
+0:10:51.240 --> 0:10:56.540
+stacking, which is on the things to avoid list, has asks, I know this isn't really supported,
+
+156
+0:10:56.540 --> 0:11:00.920
+but I heard you could possibly do cloud spawning with our record URLs, Neos rec, Neos DB links,
+
+157
+0:11:00.920 --> 0:11:05.240
+which is apparently better, I don't support cloud spawning because it's on the things
+
+158
+0:11:05.240 --> 0:11:09.680
+to avoid list, so I won't be answering that, however, Neos rec, Neos DB, we don't care,
+
+159
+0:11:09.680 --> 0:11:13.720
+neither of them are better, so if you do it with one, you do it with the other one, as
+
+160
+0:11:13.720 --> 0:11:20.120
+it's an unsupported feature, I can't provide support, you can check the things to avoid
+
+161
+0:11:20.120 --> 0:11:21.560
+list for that.
+
+162
+0:11:21.560 --> 0:11:25.760
+Anadiya says, since we spoke about the facial tracker, do you know if the vive focus 3 facial
+
+163
+0:11:25.760 --> 0:11:30.840
+tracker has the idea to work with Neos or does it work, I don't know, because it's vive
+
+164
+0:11:30.840 --> 0:11:37.440
+stroke htc, it might use the same library, I don't know, I haven't looked into it yet,
+
+165
+0:11:37.440 --> 0:11:41.120
+when new hardware comes out, it takes a little bit to take a look at, so Zlinka says that
+
+166
+0:11:41.120 --> 0:11:45.320
+they have information that they're dropping sr-anypal, which is great, because I don't
+
+167
+0:11:45.320 --> 0:11:50.080
+like sr-anypal, and they'll use some other format, so that will take longer to integrate,
+
+168
+0:11:50.080 --> 0:11:55.800
+and of course, because the current stuffs, we can't integrate, so we'll take a look at
+
+169
+0:11:55.800 --> 0:11:57.200
+it when we can take a look at it.
+
+170
+0:11:57.200 --> 0:12:01.520
+Let's make sure there's a github issue open with this new hardware coming out.
+
+171
+0:12:01.520 --> 0:12:05.920
+If the hardware is released and you would like to see it integrated, please make one
+
+172
+0:12:05.920 --> 0:12:10.120
+github issue, please don't make 17 for the same headset, but maybe collate with some
+
+173
+0:12:10.120 --> 0:12:12.920
+other people that are interested in it, or if you have your hands on it, let me know.
+
+174
+0:12:12.920 --> 0:12:18.660
+For example, I have the EttVR controllers coming, I preordered them back when I had
+
+175
+0:12:18.660 --> 0:12:22.360
+an opinion on them, and it's got to the point where it's like, what are those preorders
+
+176
+0:12:22.360 --> 0:12:25.680
+where I just want them, like I don't even care if they're good at this point, I just
+
+177
+0:12:25.680 --> 0:12:26.680
+want them.
+
+178
+0:12:26.680 --> 0:12:30.880
+I stopped subscribing to any kickstarters for that same reason, it was just like, at
+
+179
+0:12:30.880 --> 0:12:36.080
+the time I back a kickstarter project, I like it, and by the time it arrives, I've almost
+
+180
+0:12:36.080 --> 0:12:39.920
+forgotten what it even is, but seeing as I do have eddy controllers arriving at some
+
+181
+0:12:39.920 --> 0:12:46.440
+point in the future, I will get those up to date and integrated, because they'll be in
+
+182
+0:12:46.440 --> 0:12:49.000
+my hands.
+
+183
+0:12:49.000 --> 0:12:55.040
+It's not, like, it's not Eddy's fault, they've had to contend with the pandemic and also
+
+184
+0:12:55.040 --> 0:13:01.400
+some circuit board shortage, not circuit board shortage, component shortage that occurs over
+
+185
+0:13:01.400 --> 0:13:02.400
+in China.
+
+186
+0:13:02.400 --> 0:13:06.280
+They also had some quality issues with their manufacturers, they had to swap to a different
+
+187
+0:13:06.280 --> 0:13:08.320
+manufacturer, I mean, keeping eye on that.
+
+188
+0:13:08.320 --> 0:13:11.400
+If there's a standard, that's great, Link, as well, they've updated their link to have
+
+189
+0:13:11.400 --> 0:13:15.640
+the Cronus OpenXR standard for face tracking, which is great.
+
+190
+0:13:15.640 --> 0:13:20.240
+Moving forwards, Neosmotic says, is there any government to help users optimize worlds
+
+191
+0:13:20.240 --> 0:13:21.240
+in Neosmotic?
+
+192
+0:13:21.240 --> 0:13:27.760
+There is not an official guide, there is a wiki page that was written, I don't remember
+
+193
+0:13:27.760 --> 0:13:31.960
+if I wrote it or some other people did, I could look at the history, but I was on a
+
+194
+0:13:31.960 --> 0:13:36.400
+plane when I found it the other day.
+
+195
+0:13:36.400 --> 0:13:43.480
+But that's usually for avatars, but it does have some hints that might help.
+
+196
+0:13:43.480 --> 0:13:50.440
+I could go through, like, a bunch, but I would be missing a bunch, so don't take anything
+
+197
+0:13:50.440 --> 0:13:55.040
+I say as sort of, like, gospel, I actually don't know where I'd even start, I'll have
+
+198
+0:13:55.040 --> 0:14:01.320
+to pass on that one and collect my thoughts and actually do a video update that page to
+
+199
+0:14:01.320 --> 0:14:05.040
+include some map or world information.
+
+200
+0:14:05.040 --> 0:14:09.160
+And then, Neosmotic also asks about screen sharing, are there any hacks available to
+
+201
+0:14:09.160 --> 0:14:11.680
+get screen sharing working in Neosmotic?
+
+202
+0:14:11.680 --> 0:14:18.280
+I would use the coco.live that the Japanese community are using a lot, that makes it really
+
+203
+0:14:18.280 --> 0:14:19.280
+easy to do.
+
+204
+0:14:19.280 --> 0:14:22.800
+I think it's in one of their folders, I'll get you the tweet, I know I can find the tweet,
+
+205
+0:14:22.800 --> 0:14:27.960
+and if anyone knows the folder, they can go ahead and post that down, is it coco or kovo
+
+206
+0:14:27.960 --> 0:14:28.960
+or k-something?
+
+207
+0:14:28.960 --> 0:14:31.760
+That's probably the easiest way to do it right now.
+
+208
+0:14:31.760 --> 0:14:38.360
+Yeah, delay's gonna be a thing, strangely I'm a little bit of an expert in video streaming,
+
+209
+0:14:38.360 --> 0:14:40.440
+for historical reasons, how?
+
+210
+0:14:40.440 --> 0:14:45.760
+Anyway, yeah, coco, it would be my recommendation simply for ease of use right now.
+
+211
+0:14:45.760 --> 0:14:52.880
+Moving forwards to harmonica-fennacat, is there any way to check the cloud storage that
+
+212
+0:14:52.880 --> 0:14:55.280
+we have used up, as in knowing what's using up the storage space?
+
+213
+0:14:55.280 --> 0:15:00.100
+Yes, there are a bunch of commands you can use, they are on the Neos bot command, I just
+
+214
+0:15:00.100 --> 0:15:05.440
+typed bepis instead of Neos, I have no idea why, into my search to find this bot page.
+
+215
+0:15:05.440 --> 0:15:10.360
+Neos bot, Neos wiki, that should get me out.
+
+216
+0:15:10.360 --> 0:15:11.360
+Okay.
+
+217
+0:15:11.360 --> 0:15:17.280
+So there is the request usage report, ah yes, I think it's got me covered there, so I type
+
+218
+0:15:17.280 --> 0:15:22.080
+in bepis, which I know is like a meme phrase, I didn't intend to type bepis, and sometimes
+
+219
+0:15:22.080 --> 0:15:25.680
+the keyboard just explodes with stuff that doesn't make any sense.
+
+220
+0:15:25.680 --> 0:15:28.800
+Moving forwards to iMarin's question says, speaking of new VR stuff, what's an upcoming
+
+221
+0:15:28.800 --> 0:15:31.000
+VR thing, physical or not, that you're very most excited for?
+
+222
+0:15:31.000 --> 0:15:36.440
+I'm excited to see this next generation of headsets and sort of innovation that exists,
+
+223
+0:15:36.440 --> 0:15:41.080
+I'm liking the fact that all of the headsets coming out now don't have Vive ones, I still
+
+224
+0:15:41.080 --> 0:15:44.680
+have no idea what Vive were thinking when they made the Vive ones, I've used them a
+
+225
+0:15:44.680 --> 0:15:51.160
+couple of times and hated them, I think that Vive ones probably actually put VR back like
+
+226
+0:15:51.160 --> 0:15:55.900
+maybe a year, maybe six months in terms of design simply by existing, and they will also
+
+227
+0:15:55.900 --> 0:16:01.020
+have some inertia as VR continues to improve from people that like the ones, or have only
+
+228
+0:16:01.020 --> 0:16:09.760
+used the ones to play VR, and now suddenly have to use a more regular controller, I know
+
+229
+0:16:09.760 --> 0:16:15.720
+some people like them, if you like them, nothing against you, but seriously, try some other
+
+230
+0:16:15.720 --> 0:16:16.720
+controllers.
+
+231
+0:16:16.720 --> 0:16:20.160
+Now I get the index controllers are basically a piece of cardboard, if you look at them
+
+232
+0:16:20.160 --> 0:16:27.840
+they'll fall apart, but look at every other headset that exists does not use giant donut
+
+233
+0:16:27.840 --> 0:16:35.200
+stick controllers, yeah I don't want the sword controllers either, I did see the PS PlayStation
+
+234
+0:16:35.200 --> 0:16:39.680
+VR 2 controllers the other day, because I was watching a video about them, and they
+
+235
+0:16:39.680 --> 0:16:46.880
+look kind of identical to the Quest controllers except they'd added more guards, it almost
+
+236
+0:16:46.880 --> 0:16:53.600
+looked like again a sword, but wasn't a sword, it's probably better tracking fidelity because
+
+237
+0:16:53.600 --> 0:16:58.440
+the additional plastic on those, the electronic says Vive needs to share whatever they were
+
+238
+0:16:58.440 --> 0:17:04.360
+on when making those, I can tell you, so when Vive originally made the VR headset they were
+
+239
+0:17:04.360 --> 0:17:10.760
+thinking more about business and educational uses, where a pointing device similar to what
+
+240
+0:17:10.760 --> 0:17:16.960
+you would point at for like a PowerPoint presentation made more sense, it seems odd as a sort of
+
+241
+0:17:16.960 --> 0:17:21.440
+random anecdote, but like that's what these office hours turn into sometimes, I was watching
+
+242
+0:17:21.440 --> 0:17:27.000
+a documentary about megastructures and how they were built, and it was a documentary
+
+243
+0:17:27.000 --> 0:17:33.240
+about how they laid a pipeline from I think it was Norway down to the UK for natural gas,
+
+244
+0:17:33.240 --> 0:17:37.080
+and I was just watching it and like fascinated about how they were doing it from an engineering
+
+245
+0:17:37.080 --> 0:17:42.720
+perspective, and then there was a guy in a cave system holding something similar to a
+
+246
+0:17:42.720 --> 0:17:48.800
+Vive wand, now when I say cave someone's like a cave, like cave is an earlier version of
+
+247
+0:17:48.800 --> 0:17:53.800
+virtual reality where you kind of go into a room and it projects on all walls and so
+
+248
+0:17:53.800 --> 0:17:57.600
+you feel like you're in the room, it's called CAVE, it stands for something, it's an abbreviation
+
+249
+0:17:57.600 --> 0:18:01.960
+I don't know, I'll get you a picture so you can understand why the hell I'm repeatedly
+
+250
+0:18:01.960 --> 0:18:07.580
+saying the word cave, like it makes sense, it does if you know what it is, I just Google
+
+251
+0:18:07.580 --> 0:18:13.600
+image search cave system and got lots of pictures of cave, of caves, I don't want a picture
+
+252
+0:18:13.600 --> 0:18:22.280
+of a cave, there's a cave system, so it's basically like a cube map that you stand in
+
+253
+0:18:22.280 --> 0:18:31.000
+and then you point, and the person was using that as a tool to figure out the route for
+
+254
+0:18:31.000 --> 0:18:36.800
+the undersea pipe, it was like amazing documentary, I'll try and link it, I watched it late at
+
+255
+0:18:36.800 --> 0:18:41.600
+night and I was just sort of blown away by like how complicated that was, I knew that
+
+256
+0:18:41.600 --> 0:18:46.480
+pipelines existed, I just didn't know there were A so many and B that it was so complicated,
+
+257
+0:18:46.480 --> 0:18:50.360
+as an example here there is a pipe laying ship, and there's only three of them in the
+
+258
+0:18:50.360 --> 0:18:55.320
+world, and so if you want a pipeline laid in water you need one of the pipeline ships
+
+259
+0:18:55.320 --> 0:19:00.800
+and there are three, and they will load segments on, I don't know how long they are, let's
+
+260
+0:19:00.800 --> 0:19:05.280
+just say they're 20 minutes long, they will weld the segments to the pipeline as they're
+
+261
+0:19:05.280 --> 0:19:09.920
+coming off the back of the ship, so it's almost like, similar to a spider, I was gonna say
+
+262
+0:19:09.920 --> 0:19:14.760
+similar to pooping but that's kind of gross, similar to a spider, it's generating as it's
+
+263
+0:19:14.760 --> 0:19:19.720
+going and just like pulling pipe out of its back whilst it's welding them, it's crazy,
+
+264
+0:19:19.720 --> 0:19:23.720
+anyway they were planning that with a cave system and it was using a pointing device
+
+265
+0:19:23.720 --> 0:19:31.600
+and that reminded me, gadgets are fun yo, let's move forwards, Fecken says, so I think
+
+266
+0:19:31.600 --> 0:19:37.680
+Neos can import HDR textures but does Neo support HDR displays work in HDR, I don't
+
+267
+0:19:37.680 --> 0:19:43.240
+know, it's kind of a graphics-y rendering question which I'm not very good at, mostly
+
+268
+0:19:43.240 --> 0:19:52.040
+because of the color-blind-ish, so I think the better question there is to ask what headset
+
+269
+0:19:52.040 --> 0:19:55.880
+or display you're talking about and then we can take a look, we do have HDR in the color
+
+270
+0:19:55.880 --> 0:20:00.920
+spaces etc, but I don't know depending on which display you mean, alright next, actually
+
+271
+0:20:00.920 --> 0:20:08.760
+do I miss any more, we've got Cocoa, yes, Colza sums it up, Vibe ones were fine for
+
+272
+0:20:08.760 --> 0:20:12.800
+one of the first VR systems, agreed, but everyone decided a better direction and Vibe just kept
+
+273
+0:20:12.800 --> 0:20:18.920
+selling them, yep, they just kept selling them, they did try I guess with the Cosmos
+
+274
+0:20:18.920 --> 0:20:24.400
+controllers, you know the ones that look like the tribal Gameboy SP that everyone had, but
+
+275
+0:20:24.400 --> 0:20:27.460
+those are just eight batteries, I remember speaking to Engie about that, they're just
+
+276
+0:20:27.460 --> 0:20:31.200
+eight batteries, Lex says there are multiple questions, these tangents are getting out
+
+277
+0:20:31.200 --> 0:20:35.800
+of hand, you think, nah, it's my office hours, I'll tangent as much as I like, I'm still
+
+278
+0:20:35.800 --> 0:20:39.640
+staying over the time, we've still got four minutes and we'll probably get through them.
+
+279
+0:20:39.640 --> 0:20:43.040
+Alright, moving forwards to Zigman's follow up question, file moderation ticket has been
+
+280
+0:20:43.040 --> 0:20:45.480
+considered in multiple times to be a cop-out answer to this question, are there any comments
+
+281
+0:20:45.480 --> 0:20:49.040
+you can provide to hesitant new users beyond immediately filing complaint to existing users
+
+282
+0:20:49.040 --> 0:20:54.560
+concerned about this as well, especially after reserving conversion rate after the VRCEAC
+
+283
+0:20:54.560 --> 0:20:59.800
+update, so the file moderation ticket is not a cop-out, the file moderation ticket is,
+
+284
+0:20:59.800 --> 0:21:03.520
+if you have behaviour that you don't like, it is inappropriate to talk about it in a
+
+285
+0:21:03.520 --> 0:21:08.640
+public setting, and so file moderation ticket isn't a cop-out, it takes that behavioural
+
+286
+0:21:08.640 --> 0:21:14.360
+complaint to the appropriate authorities who can then enact on that, I'll also take behavioural
+
+287
+0:21:14.360 --> 0:21:18.160
+complaints in direct messages, but if they are about players inside NES, I need them
+
+288
+0:21:18.160 --> 0:21:23.600
+to be a ticket, that is just a thing that occurs at companies, you go to any company,
+
+289
+0:21:23.600 --> 0:21:28.840
+any sort of behavioural based thing, rural breachy thing, needs to either go in modmail,
+
+290
+0:21:28.840 --> 0:21:33.240
+go to a popular community, let's just say path of exile community, everything there
+
+291
+0:21:33.240 --> 0:21:37.280
+is done through modmail, take any popular reddit, it's all done through modmail over
+
+292
+0:21:37.280 --> 0:21:40.560
+there, and the reason is you take it out of the public eye, it's just standard operating
+
+293
+0:21:40.560 --> 0:21:44.920
+procedure for many things, if there is a problem with behaviour, we take it to a moderation
+
+294
+0:21:44.920 --> 0:21:48.240
+system, it's not a cop-out, it's just what needs to happen.
+
+295
+0:21:48.240 --> 0:21:51.400
+Are there any comments you could provide to hesitant users beyond immediately filing complaint,
+
+296
+0:21:51.400 --> 0:21:55.560
+if the first thing that a new user needs to do is to file a complaint, then something's
+
+297
+0:21:55.560 --> 0:21:59.220
+wrong there, I'm not quite understanding what's going on there, I see new users coming in
+
+298
+0:21:59.220 --> 0:22:03.800
+all the time, they seem to love us, we do lose users after the YALC update, and I knew
+
+299
+0:22:03.800 --> 0:22:08.160
+that that would happen, they came, they checked us out, we're a bit like broken and rusty
+
+300
+0:22:08.160 --> 0:22:11.120
+right now, and then they went elsewhere, they went where their friends are, that's totally
+
+301
+0:22:11.120 --> 0:22:14.760
+fine, I'm going to read your original question again Zygmund, one second, so the behaviour
+
+302
+0:22:14.760 --> 0:22:20.200
+might just be because what we have is a lot of users just poking and prodding at us, and
+
+303
+0:22:20.200 --> 0:22:23.640
+there's really nothing we can say, if we want to say something, we'll say it, but there's
+
+304
+0:22:23.640 --> 0:22:27.480
+nothing that we can say, I could give you a blow-by-blow of every single message that
+
+305
+0:22:27.480 --> 0:22:32.040
+I have received from anyone in the internal team about this dispute, but it wouldn't do
+
+306
+0:22:32.040 --> 0:22:39.280
+any good, there's nothing that is a good announcement, and so therefore following, again, common
+
+307
+0:22:39.280 --> 0:22:43.280
+PR stuff that you'll find at any company, which we sometimes do lax on, because we let
+
+308
+0:22:43.280 --> 0:22:48.280
+information go, or we give more information than we should, we're doing the right thing,
+
+309
+0:22:48.280 --> 0:22:54.200
+and if you don't like that, then you don't like the public relations community or industry,
+
+310
+0:22:54.200 --> 0:22:58.920
+and that's unfortunate, but it's a way to just keep it going, I don't know, do you want
+
+311
+0:22:58.920 --> 0:23:08.840
+like an egg timer, or like a pie chart, or like a countdown, I can't give you any information,
+
+312
+0:23:08.840 --> 0:23:14.160
+like there's no information, the moment I can give you information, I'll give you information,
+
+313
+0:23:14.160 --> 0:23:19.640
+until then there is none, do we have any additional questions in the office hours text chat?
+
+314
+0:23:19.640 --> 0:23:23.520
+That's a better question, actually, let me take a look at, make sure I'm not missing
+
+315
+0:23:23.520 --> 0:23:28.280
+any questions, Linker says, will you give me new shader processing back on asset variation
+
+316
+0:23:28.280 --> 0:23:32.040
+side so I can make funny material orbs in the future, maybe exception to plugins if
+
+317
+0:23:32.040 --> 0:23:38.000
+they have been loaded, no, sorry, we really cannot have custom shaders, if you can get
+
+318
+0:23:38.000 --> 0:23:42.920
+them to work for the plugin, fantastic, but we can't do any work that would allow them
+
+319
+0:23:42.920 --> 0:23:49.160
+even if it's full of plugins, because they will simply just break, they will break.
+
+320
+0:23:49.160 --> 0:23:55.840
+And while the Neos Plus community may understand the implications there, some random user that
+
+321
+0:23:55.840 --> 0:24:00.120
+you set up with a custom shader on Neos Plus and then suddenly Neos Plus doesn't work,
+
+322
+0:24:00.120 --> 0:24:05.800
+they won't understand in the future, and they'll probably misdirect their anger towards the
+
+323
+0:24:05.800 --> 0:24:11.560
+Neos community and the Neos team, and they'll say things like, I know that you said that
+
+324
+0:24:11.560 --> 0:24:16.920
+this is going to break, and now it's broken, but it's broken and I'm still mad, and that's
+
+325
+0:24:16.920 --> 0:24:22.240
+a problem, and so we kind of need to mitigate that a bit, it is problematic, it is sad,
+
+326
+0:24:22.240 --> 0:24:28.200
+but like, we're trying to protect you, I don't know why it popped into my head, but you know,
+
+327
+0:24:28.200 --> 0:24:31.400
+Undertale popped into my head there, you know, and Toriel's trying to protect you from going
+
+328
+0:24:31.400 --> 0:24:37.520
+into the rest of the game, they're like, no, stay here, it's nice here, it's not an apt
+
+329
+0:24:37.520 --> 0:24:41.920
+analogy because, you know, through that door would be full custom shaders, I do get the
+
+330
+0:24:41.920 --> 0:24:46.040
+complaints that I do understand, it's just like, it would be a, it's a lesser of two
+
+331
+0:24:46.040 --> 0:24:48.680
+evils to block it on the server side, basically.
+
+332
+0:24:48.680 --> 0:24:52.840
+Moving forward to Zigman's additional question, thank you for rephrasing this one, the question
+
+333
+0:24:52.840 --> 0:24:55.660
+was less about the behavior and more about the reassurance and the belief that Neos is
+
+334
+0:24:55.660 --> 0:24:57.360
+changing, adapting and moving to the future.
+
+335
+0:24:57.360 --> 0:25:02.280
+We are moving into the future as best as we can, negotiations are ongoing between Carol's
+
+336
+0:25:02.280 --> 0:25:06.720
+and Fritz's side of the things, there's stuff going on behind the scenes, we have nothing
+
+337
+0:25:06.720 --> 0:25:11.460
+to share on that because we are taking the recommendations to not share what's going
+
+338
+0:25:11.460 --> 0:25:16.440
+on, mostly from various people that are telling us not to.
+
+339
+0:25:16.440 --> 0:25:21.040
+If Neos was not changing, adapting and moving into the future, I would not be here every
+
+340
+0:25:21.040 --> 0:25:24.700
+week except for the past two weeks answering your guys' questions.
+
+341
+0:25:24.700 --> 0:25:27.440
+I don't know how else to reassure you of this fact.
+
+342
+0:25:27.440 --> 0:25:31.760
+I think, yes, I know it hurts and I know it's sad, but it's actually going to happen a
+
+343
+0:25:31.760 --> 0:25:36.120
+bunch of times with all aspects of Neos.
+
+344
+0:25:36.120 --> 0:25:39.480
+You'll discover something and then it will suddenly not work.
+
+345
+0:25:39.480 --> 0:25:43.680
+If you look at the issues I've been making on Neos Public, you'll see examples of that
+
+346
+0:25:43.680 --> 0:25:45.680
+everywhere.
+
+347
+0:25:45.680 --> 0:25:51.000
+For example, the slice shader that goes through 3D volumes like MRI data, that has to work
+
+348
+0:25:51.000 --> 0:25:57.680
+with a uniform unit cube, it cannot work with anything that is long, which is really annoying
+
+349
+0:25:57.680 --> 0:26:03.760
+because most CTs and MRIs that we've had are sort of cubular things like the upper chest,
+
+350
+0:26:03.760 --> 0:26:10.280
+the head, those are regular shapes, they're approximately a cube, but I have a CT scan
+
+351
+0:26:10.280 --> 0:26:14.720
+of an entire body, where of course the length is greater than the width, and we had to do
+
+352
+0:26:14.720 --> 0:26:16.600
+some really hacky stuff there.
+
+353
+0:26:16.600 --> 0:26:21.160
+And that is not only a limitation of the Neo source code, it's a limitation of the shader
+
+354
+0:26:21.160 --> 0:26:22.160
+as well.
+
+355
+0:26:22.160 --> 0:26:25.800
+I looked at the shader code and got really scared, it's sort of re-marched, so it needs
+
+356
+0:26:25.800 --> 0:26:29.080
+a lot of updating to work with non-uniform-ness-ness.
+
+357
+0:26:29.080 --> 0:26:31.480
+It's just going to keep happening though, unfortunately.
+
+358
+0:26:31.480 --> 0:26:35.840
+If you're looking at integrating a Wii scale, I would sure go for it.
+
+359
+0:26:35.840 --> 0:26:36.840
+People still have those.
+
+360
+0:26:36.840 --> 0:26:42.600
+In fact, actually I predict that there is a bunch of houses around the world that have
+
+361
+0:26:42.600 --> 0:26:47.240
+got Wii scales from Wii Fit, just sort of tucked under their TV stand, and they've been
+
+362
+0:26:47.240 --> 0:26:49.880
+there for years and they're gathering dust.
+
+363
+0:26:49.880 --> 0:26:50.880
+That's where mine used to go.
+
+364
+0:26:50.880 --> 0:26:54.780
+You know, it's sort of like, oh, you used it, and then you tuck it underneath the TV
+
+365
+0:26:54.780 --> 0:26:57.040
+stand and it gathers dust.
+
+366
+0:26:57.040 --> 0:26:59.900
+Is it under a TV stand though, Stifle?
+
+367
+0:26:59.900 --> 0:27:05.040
+When my mother had a Wii, um, strange phrase, when my mother had a Wii, when my mother got
+
+368
+0:27:05.040 --> 0:27:09.960
+her Wii, she lost a lot of weight on that, it was great, it was really, really good.
+
+369
+0:27:09.960 --> 0:27:10.960
+And then she stopped playing.
+
+370
+0:27:10.960 --> 0:27:14.360
+She didn't put back on the weight, she kept it off, but you know, she was up there all
+
+371
+0:27:14.360 --> 0:27:15.360
+the time.
+
+372
+0:27:15.360 --> 0:27:18.480
+Vturexulus says, will there be cake after office hours?
+
+373
+0:27:18.480 --> 0:27:21.280
+Unfortunately I don't have cake, I also don't have cheese, I should probably go grocery
+
+374
+0:27:21.280 --> 0:27:22.280
+shopping after this.
+
+375
+0:27:22.280 --> 0:27:25.800
+With that, there are no additional questions though, so rather than talking about Wii scales
+
+376
+0:27:25.800 --> 0:27:28.560
+for the rest of the evening, I'm going to go ahead and leave off here.
+
+377
+0:27:28.560 --> 0:27:31.760
+If you have any additional questions, feel free to direct message me, post in the questions
+
+378
+0:27:31.760 --> 0:27:35.800
+and help section, I'll take a look at the various YouTube channels, etc.
+
+379
+0:27:35.800 --> 0:27:40.120
+I will get back to you next week, I know there was a break for two weeks, I was away, but
+
+380
+0:27:40.120 --> 0:27:59.800
+we'll be back for the weekly office hours, and enjoy!
+

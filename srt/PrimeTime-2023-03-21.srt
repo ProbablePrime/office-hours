@@ -1,0 +1,1128 @@
+1
+00:00:00,000 --> 00:00:03,840
+ Welcome to Office Hours, it's your weekly half hour segment where I answer questions
+
+2
+00:00:03,840 --> 00:00:04,840
+ about Neos.
+
+3
+00:00:04,840 --> 00:00:09,760
+ We go ahead and get questions answered based on the questions and the order that they appear
+
+4
+00:00:09,760 --> 00:00:13,620
+ inside the thread, so get those questions entered into that thread, and I'll get them
+
+5
+00:00:13,620 --> 00:00:15,120
+ not answered in the order that they appear in.
+
+6
+00:00:15,120 --> 00:00:18,920
+ If you're not sure what's going on, check the Office Hours check chat, the chat is above
+
+7
+00:00:18,920 --> 00:00:20,120
+ the one you're currently in.
+
+8
+00:00:20,120 --> 00:00:23,800
+ Looking at the list we have a few questions lined up, so go ahead and get those answered
+
+9
+00:00:23,800 --> 00:00:27,040
+ whilst I try and find my English language inside my brain.
+
+10
+00:00:27,040 --> 00:00:32,240
+ Spex asks, "Now that MMC is done this year, what's on your plate for Neos things?
+
+11
+00:00:32,240 --> 00:00:34,680
+ Got any projects you're waiting to get into?"
+
+12
+00:00:34,680 --> 00:00:38,280
+ Not really, just the same projects that existed that were kind of just delayed by MMC.
+
+13
+00:00:38,280 --> 00:00:44,640
+ I got to the end of last week, sort of Sunday, which is yesterday, no day before yesterday,
+
+14
+00:00:44,640 --> 00:00:47,280
+ and I sort of thought like, "I haven't done anything this week!" and then I looked and
+
+15
+00:00:47,280 --> 00:00:52,320
+ was like, "Um, no, you kind of, you know, ran the voting for the rest of the weekend,
+
+16
+00:00:52,320 --> 00:00:56,920
+ that's last weekend, or weekend before last, sorry, time is confusing."
+
+17
+00:00:56,920 --> 00:01:03,840
+ You know, ran the voting, judged the entries, rehearsed the award show, went to the award
+
+18
+00:01:03,840 --> 00:01:09,000
+ show, like lots went on, it just didn't feel like it did, so I was productive last week.
+
+19
+00:01:09,000 --> 00:01:14,120
+ But yeah, that's all over now, so back on other things.
+
+20
+00:01:14,120 --> 00:01:18,120
+ As a reminder for those who don't know what the MMC is, or even those that do, even if
+
+21
+00:01:18,120 --> 00:01:22,520
+ you won, lost, entered, didn't enter, whatever it is, just remember that the stuff that is
+
+22
+00:01:22,520 --> 00:01:27,240
+ created at the MMC can be created at any point during the year, you don't need the MMC as
+
+23
+00:01:27,240 --> 00:01:31,560
+ an excuse to make it, so carry on making cool stuff in EOS, I love seeing it.
+
+24
+00:01:31,560 --> 00:01:36,040
+ Moving forwards to the next question there, which is from Lex, who says "When silencing
+
+25
+00:01:36,040 --> 00:01:40,120
+ a user through the sessions tab, the one that mutes a user for everyone, does that user's
+
+26
+00:01:40,120 --> 00:01:44,440
+ voice audio stream stop being transmitted, or does it set the volume to zero?"
+
+27
+00:01:44,440 --> 00:01:47,280
+ I don't know, I'd have to open the codebase and go take a look, I'll go ahead and get
+
+28
+00:01:47,280 --> 00:01:52,480
+ that open, and then I'll dig back into it when I get a chance, as we go through the
+
+29
+00:01:52,480 --> 00:01:55,160
+ normal ebb and flow of questions.
+
+30
+00:01:55,160 --> 00:01:58,120
+ Unnamed Cyborg Cat says "Ever heard of Copy Kitty?
+
+31
+00:01:58,120 --> 00:02:00,880
+ It's an amazing game the devs worked on very hard on, super underrated."
+
+32
+00:02:00,880 --> 00:02:01,880
+ I have not.
+
+33
+00:02:01,880 --> 00:02:10,400
+ I have like 1,800 games on Steam, and like 2,000+ on my wishlist, so probably it's on
+
+34
+00:02:10,400 --> 00:02:12,540
+ there, I don't know though.
+
+35
+00:02:12,540 --> 00:02:16,560
+ And with that, all the questions are over, I'm gonna mute Tech Humongous, Tech Humongous
+
+36
+00:02:16,560 --> 00:02:18,440
+ scops of water, and then I'll be back.
+
+37
+00:02:18,440 --> 00:02:21,340
+ And I'm back, there are no additional questions, if you have additional questions drop them
+
+38
+00:02:21,340 --> 00:02:25,360
+ in the office hours texture, I'll get to them in the order that they appear in, whilst there
+
+39
+00:02:25,360 --> 00:02:27,760
+ are no questions I'm just gonna sit here and think about cheese.
+
+40
+00:02:27,760 --> 00:02:31,160
+ You'll be pleased to know my Amazon order has shipped, I don't know what it is, I don't
+
+41
+00:02:31,160 --> 00:02:33,440
+ remember what it is.
+
+42
+00:02:33,440 --> 00:02:34,440
+ What shipped?
+
+43
+00:02:34,440 --> 00:02:36,040
+ I don't know, I'll figure that out later.
+
+44
+00:02:36,040 --> 00:02:39,400
+ I was just reading the code on silence, looks like it will actually prevent the audio from
+
+45
+00:02:39,400 --> 00:02:46,200
+ being transmitted, don't quote me, do your own testing, but based on my limited understanding
+
+46
+00:02:46,200 --> 00:02:48,640
+ of how that works, it won't write to the value stream.
+
+47
+00:02:48,640 --> 00:02:52,640
+ We have a question here from UnnamedCyborgCat, who says "Does Nio support any proprietary
+
+48
+00:02:52,640 --> 00:02:56,360
+ mobile formats in the Source Engine?"
+
+49
+00:02:56,360 --> 00:03:04,440
+ So the Nio's wiki has a list of stuff which people have looked at, and sort of work-ish.
+
+50
+00:03:04,440 --> 00:03:09,800
+ Some of the problem here is that we, it's like, what we support isn't entirely up to
+
+51
+00:03:09,800 --> 00:03:17,280
+ us, it's more up to Asimp, which we use to import assets.
+
+52
+00:03:17,280 --> 00:03:21,360
+ If it's supported by those, then it will sometimes work.
+
+53
+00:03:21,360 --> 00:03:24,840
+ Sometimes there's extra work we have to do once Asimp has handed it to us, but you can
+
+54
+00:03:24,840 --> 00:03:25,840
+ see a list there.
+
+55
+00:03:25,840 --> 00:03:26,840
+ Is that an alphabetical?
+
+56
+00:03:26,840 --> 00:03:27,840
+ Yeah, that's an alphabetical.
+
+57
+00:03:27,840 --> 00:03:28,840
+ Alphabetical.
+
+58
+00:03:28,840 --> 00:03:38,120
+ It's difficult because things like FBX are technically proprietary, so yeah, BS supports
+
+59
+00:03:38,120 --> 00:03:43,560
+ a proprietary file format, FBX is technically proprietary.
+
+60
+00:03:43,560 --> 00:03:44,560
+ Don't use FBX, by the way.
+
+61
+00:03:44,560 --> 00:03:48,080
+ I read this question like three times before unmuting it, so I'll just go ahead and read
+
+62
+00:03:48,080 --> 00:03:50,480
+ it again and then think about it some more.
+
+63
+00:03:50,480 --> 00:03:54,800
+ Lex asks "Why does setting the parent of a slot using the set parent node of an invalid
+
+64
+00:03:54,800 --> 00:04:02,280
+ or null to slot parents the from slot to root?"
+
+65
+00:04:02,280 --> 00:04:05,720
+ Set parent with an invalid to parents the from slot to root.
+
+66
+00:04:05,720 --> 00:04:08,760
+ I mean, it should just cancel the operation.
+
+67
+00:04:08,760 --> 00:04:12,680
+ I also wish more nodes had failure states.
+
+68
+00:04:12,680 --> 00:04:16,280
+ Let me take a look here.
+
+69
+00:04:16,280 --> 00:04:21,960
+ What I want is more nodes to have on failure, so if it pulsed with onFail coming out of
+
+70
+00:04:21,960 --> 00:04:32,440
+ set parent, then it would be good to do that.
+
+71
+00:04:32,440 --> 00:04:42,080
+ The new parent will default to the root slot if you pass in null or an invalid value.
+
+72
+00:04:42,080 --> 00:04:46,420
+ I think a lot of this is just like various sort of hacky patches that we've been doing
+
+73
+00:04:46,420 --> 00:04:50,520
+ over the years to try and prevent null parents from happening.
+
+74
+00:04:50,520 --> 00:04:55,920
+ Anywhere that touches the slot hierarchy model, we try and basically interject and say "hey,
+
+75
+00:04:55,920 --> 00:04:59,160
+ you're about to null parent this, don't do that!"
+
+76
+00:04:59,160 --> 00:05:01,360
+ No, don't do that.
+
+77
+00:05:01,360 --> 00:05:07,240
+ The behavior change that you're requesting where it doesn't do that is something that
+
+78
+00:05:07,240 --> 00:05:08,240
+ would be cool.
+
+79
+00:05:08,240 --> 00:05:14,440
+ Unfortunately it would also be a somewhat breaking change though, because it would increase
+
+80
+00:05:14,440 --> 00:05:19,320
+ the amount of times where the set parent node wouldn't do something.
+
+81
+00:05:19,320 --> 00:05:27,640
+ Like ran out, it would basically not do something if the thing you're trying to parent is null,
+
+82
+00:05:27,640 --> 00:05:34,600
+ or if the new parent is a child of the target object, so you can't put something inside
+
+83
+00:05:34,600 --> 00:05:35,760
+ itself.
+
+84
+00:05:35,760 --> 00:05:40,000
+ In those cases it won't output failure, it will just literally do nothing, there will
+
+85
+00:05:40,000 --> 00:05:41,000
+ be no output.
+
+86
+00:05:41,000 --> 00:05:46,640
+ I hate nodes that don't have an output, because it's just very difficult to operate with.
+
+87
+00:05:46,640 --> 00:05:48,960
+ It just defaults to world root if there's a problem.
+
+88
+00:05:48,960 --> 00:05:52,560
+ Rampa says "nulling parent should just make nears destroy stuff, it has no parent so it
+
+89
+00:05:52,560 --> 00:05:53,560
+ can't exist."
+
+90
+00:05:53,560 --> 00:05:58,880
+ No not really, so while you, and I say you with a bunch of people who write mods in here
+
+91
+00:05:58,880 --> 00:06:05,480
+ that know I'm wrong, but generally speaking, you are only able to access one hierarchy,
+
+92
+00:06:05,480 --> 00:06:08,120
+ which is the world root hierarchy.
+
+93
+00:06:08,120 --> 00:06:12,680
+ There are other hierarchies of slots and other types of components, and other lists and other
+
+94
+00:06:12,680 --> 00:06:19,920
+ tree-based systems that exist outside of that system that some of this stuff operates in,
+
+95
+00:06:19,920 --> 00:06:25,800
+ and so it's incorrect to say that if it's outside of the world root, it should be deleted.
+
+96
+00:06:25,800 --> 00:06:29,040
+ It's kind of correct to say that it should be deleted if it doesn't have a parent, but
+
+97
+00:06:29,040 --> 00:06:33,200
+ then again we should try and correct that rather than deleting it.
+
+98
+00:06:33,200 --> 00:06:37,920
+ Your MMC project accidentally parents itself to null.
+
+99
+00:06:37,920 --> 00:06:41,320
+ Yeah we delete it instead of trying to save your work for you and send it back to the
+
+100
+00:06:41,320 --> 00:06:42,320
+ world root.
+
+101
+00:06:42,320 --> 00:06:48,160
+ It's one of those things where it's like, this is gonna, yeah, um, I, Lex says "people
+
+102
+00:06:48,160 --> 00:06:51,280
+ who are intentionally using that to parent things to root, or people who have different
+
+103
+00:06:51,280 --> 00:06:54,000
+ logics to catch an unintentional root parent shouldn't be doing that."
+
+104
+00:06:54,000 --> 00:06:55,680
+ Yeah, they shouldn't be doing that.
+
+105
+00:06:55,680 --> 00:07:00,840
+ In fact if you're using root slot and you're not the owner of the world, I question your
+
+106
+00:07:00,840 --> 00:07:01,840
+ motives.
+
+107
+00:07:01,840 --> 00:07:09,440
+ Always use local user space, it is for the most part the world root, but in those one
+
+108
+00:07:09,440 --> 00:07:14,560
+ few cases where you have world management systems using local user space, will keep
+
+109
+00:07:14,560 --> 00:07:18,400
+ those world management systems more performant and easier to use.
+
+110
+00:07:18,400 --> 00:07:20,400
+ So local user space.
+
+111
+00:07:20,400 --> 00:07:25,880
+ Local user space returns the parent of the user who is running the set parent operation.
+
+112
+00:07:25,880 --> 00:07:29,800
+ There is usually no downside of using local user space, I can think of a couple of cases
+
+113
+00:07:29,800 --> 00:07:33,780
+ but only in world management systems where that might be problematic, so just use local
+
+114
+00:07:33,780 --> 00:07:34,780
+ user space.
+
+115
+00:07:34,780 --> 00:07:43,680
+ The amount of guns, RPGs, rocket launchers, grenades, bows and arrows, rifles, crossbows,
+
+116
+00:07:43,680 --> 00:07:49,620
+ drink systems I see that are just like "cool, because I'm inconsiderate, I'll parent a bunch
+
+117
+00:07:49,620 --> 00:07:51,680
+ of stuff to root when people use me."
+
+118
+00:07:51,680 --> 00:07:54,520
+ It's like "cool, how about no."
+
+119
+00:07:54,520 --> 00:07:56,320
+ So yeah, do think about that.
+
+120
+00:07:56,320 --> 00:08:01,920
+ If you have a gun that produces, I should say entities, in a more traditional gaming
+
+121
+00:08:01,920 --> 00:08:07,880
+ sense, like for those who are unaware, most guns in games are non-entity producing, so
+
+122
+00:08:07,880 --> 00:08:16,280
+ they do bullets, and yeah sure bullets have animations, muzzle flash, smoke, explosions,
+
+123
+00:08:16,280 --> 00:08:19,120
+ that sometimes traces the line that they take etc.
+
+124
+00:08:19,120 --> 00:08:23,120
+ Those don't produce additional entities in the world, there's basically sort of a hitscan
+
+125
+00:08:23,120 --> 00:08:26,320
+ with various complexities depending on what type of game it is.
+
+126
+00:08:26,320 --> 00:08:30,040
+ Guns that produce entities are things like grenades, rocket launchers, the Needler from
+
+127
+00:08:30,040 --> 00:08:32,400
+ Halo would be another good example.
+
+128
+00:08:32,400 --> 00:08:35,280
+ They add additional stuff to the world when they are fired.
+
+129
+00:08:35,280 --> 00:08:38,960
+ Crossbow and bow and arrow being a good sense, it sticks an entity to you.
+
+130
+00:08:38,960 --> 00:08:44,400
+ Like a big rifle doesn't stick a world entity to the person, a bow and arrow does.
+
+131
+00:08:44,400 --> 00:08:51,440
+ Which is kind of strange, because all weapons leave residue, guns leave impacted bullets
+
+132
+00:08:51,440 --> 00:08:53,240
+ and casings and stuff like that.
+
+133
+00:08:53,240 --> 00:08:57,280
+ I've never really seen a game make use of casings, sometimes they'll fall on the floor
+
+134
+00:08:57,280 --> 00:09:01,280
+ but usually they're particle systems so they'll clear up after a bit, but I dunno, maybe it'll
+
+135
+00:09:01,280 --> 00:09:07,240
+ be funny in a random shooting game, you start tripping over yourself if you stand still
+
+136
+00:09:07,240 --> 00:09:11,680
+ for too long and start firing, you just can't keep your feet still when there's like casings
+
+137
+00:09:11,680 --> 00:09:12,680
+ rolling under your feet.
+
+138
+00:09:12,680 --> 00:09:18,400
+ Casings are usually quite easy to squish though, like dropping a bag of marbles on the floor
+
+139
+00:09:18,400 --> 00:09:22,240
+ but just because you've been firing in the same place for too long.
+
+140
+00:09:22,240 --> 00:09:27,760
+ Specs, actually let's go through a couple of comments here, so, Rampus says "the only
+
+141
+00:09:27,760 --> 00:09:29,840
+ thing I can imagine not using user space is death effect".
+
+142
+00:09:29,840 --> 00:09:36,200
+ No, user space should still work, because it'll parent above the user, not in the user.
+
+143
+00:09:36,200 --> 00:09:40,080
+ If your world management system deletes the slot pertaining to the user when they leave,
+
+144
+00:09:40,080 --> 00:09:43,800
+ then yes though, depends what's going on.
+
+145
+00:09:43,800 --> 00:09:46,600
+ And test those, like extremely test them, it's difficult to test something where it's
+
+146
+00:09:46,600 --> 00:09:50,560
+ like "when I leave the world, do something I can't see", because you're gone, but you
+
+147
+00:09:50,560 --> 00:09:52,640
+ know what I mean, be careful.
+
+148
+00:09:52,640 --> 00:09:56,080
+ Lex says "it's always funny when I see people using custom parenting systems to attach to
+
+149
+00:09:56,080 --> 00:09:59,640
+ someone, then de-parent themselves to what a parent or parent thought they were in, and
+
+150
+00:09:59,640 --> 00:10:03,000
+ get deleted when the user they previously parented to leaves".
+
+151
+00:10:03,000 --> 00:10:05,800
+ Yeah, I've seen that happen a lot.
+
+152
+00:10:05,800 --> 00:10:10,560
+ Virtual parent might be a solution there, if you know that it might be an unstable user
+
+153
+00:10:10,560 --> 00:10:12,640
+ connection who might leave.
+
+154
+00:10:12,640 --> 00:10:15,480
+ Specs says "there's a lot of cases where I've seen folks rely on uninitialized behaviour
+
+155
+00:10:15,480 --> 00:10:18,720
+ and logics like that, and I have to admit it makes me wince.
+
+156
+00:10:18,720 --> 00:10:23,640
+ No should users specifically initialize logics nodes with values instead of relying on default
+
+157
+00:10:23,640 --> 00:10:27,680
+ behaviour that may change at any moment, unless a node is like a specifically duplicated design
+
+158
+00:10:27,680 --> 00:10:32,040
+ to have an initial value that has some promise not to change without notice".
+
+159
+00:10:32,040 --> 00:10:35,440
+ Yeah, nulls are terrible.
+
+160
+00:10:35,440 --> 00:10:43,280
+ I am quite liking nullables in some C# projects I'm in right now, but it's just really annoying
+
+161
+00:10:43,280 --> 00:10:45,200
+ like how much it comes up.
+
+162
+00:10:45,200 --> 00:10:49,320
+ If you look it up, there's various articles, various quotes, various versions of it.
+
+163
+00:10:49,320 --> 00:10:52,480
+ Someone in the computing world invented null, and they regret it.
+
+164
+00:10:52,480 --> 00:10:55,840
+ I don't remember exactly who it was, it was either, I don't remember the name, it was
+
+165
+00:10:55,840 --> 00:11:00,080
+ one of the big computer people from early on in computing.
+
+166
+00:11:00,080 --> 00:11:04,760
+ It's the same thing with, the easiest way to identify null is if you look at a boolean.
+
+167
+00:11:04,760 --> 00:11:08,840
+ So a boolean has true or false, on or off, yes or no, whatever you want to say.
+
+168
+00:11:08,840 --> 00:11:13,280
+ But then with null, you introduce a third state of boolean, which is "I don't have a
+
+169
+00:11:13,280 --> 00:11:16,900
+ value", and that's what null means in that case, "I don't have a value".
+
+170
+00:11:16,900 --> 00:11:20,980
+ And that's perfectly fine to be used as "I don't know" or "I don't have a value because
+
+171
+00:11:20,980 --> 00:11:25,540
+ I'm not initialised yet", but make that a value in your program.
+
+172
+00:11:25,540 --> 00:11:28,960
+ Make the value be "I am initialised", not "I am null".
+
+173
+00:11:28,960 --> 00:11:35,600
+ A good example of that comes up is in the sort of task-based system that C# has.
+
+174
+00:11:35,600 --> 00:11:39,000
+ You have to wait for a task to complete, that's great.
+
+175
+00:11:39,000 --> 00:11:42,640
+ Instead you could have written that and C# developers would have had hate about it, where
+
+176
+00:11:42,640 --> 00:11:47,680
+ whilst you're waiting for a web request to happen, you have to while loop over the result
+
+177
+00:11:47,680 --> 00:11:51,720
+ of that web request and check if it's not null, and you'd be like "Ah, it's happened!"
+
+178
+00:11:51,720 --> 00:11:55,220
+ Instead they made this whole task system where it's like "Has the task completed?
+
+179
+00:11:55,220 --> 00:11:58,540
+ The task has completed, here is the task's result".
+
+180
+00:11:58,540 --> 00:12:02,820
+ And so it's like sort of implicitly built into the API that null doesn't occur, even
+
+181
+00:12:02,820 --> 00:12:07,740
+ though it still does when people do tasks that return null for some reason.
+
+182
+00:12:07,740 --> 00:12:13,040
+ When you're programming you should always be wondering "What do I do when X Y Z happens?
+
+183
+00:12:13,040 --> 00:12:14,980
+ What do I do when X Y Z happens?"
+
+184
+00:12:14,980 --> 00:12:19,740
+ If the code is telling you there's a possibility that null could exist here, you need to handle
+
+185
+00:12:19,740 --> 00:12:20,740
+ it.
+
+186
+00:12:20,740 --> 00:12:26,020
+ Like "Oh, the result of this method operation could be null, what are we going to do about
+
+187
+00:12:26,020 --> 00:12:27,020
+ that?"
+
+188
+00:12:27,020 --> 00:12:29,140
+ Same thing with objects though, we need more onFails.
+
+189
+00:12:29,140 --> 00:12:31,660
+ What if the parenting fails, I need to know about it.
+
+190
+00:12:31,660 --> 00:12:33,480
+ Yeah I don't like people who do that.
+
+191
+00:12:33,480 --> 00:12:40,080
+ I always add the default of 0 anyway and people question why and I say "Well, it's there,
+
+192
+00:12:40,080 --> 00:12:44,760
+ I can change it if I need to, I don't usually need to, but I also find it a little bit easier
+
+193
+00:12:44,760 --> 00:12:50,580
+ to sort of compute in my head when I can see the default value, otherwise I have to remember
+
+194
+00:12:50,580 --> 00:12:55,440
+ extra information, not only what the default value is, but is the default value acceptable
+
+195
+00:12:55,440 --> 00:12:56,700
+ for that occurrence?"
+
+196
+00:12:56,700 --> 00:12:59,420
+ For those who are like "Well I don't like adding the default value because that's an
+
+197
+00:12:59,420 --> 00:13:02,340
+ extra slot", just go away.
+
+198
+00:13:02,340 --> 00:13:04,380
+ Like it's one extra slot, come on.
+
+199
+00:13:04,380 --> 00:13:08,220
+ I mean in most cases it will default to 0.
+
+200
+00:13:08,220 --> 00:13:12,240
+ In cases where we have changed the default value of something, we are able to upgrade
+
+201
+00:13:12,240 --> 00:13:15,940
+ logics to inject the old default value.
+
+202
+00:13:15,940 --> 00:13:19,700
+ We did that once with findChildByName or something like that.
+
+203
+00:13:19,700 --> 00:13:24,780
+ Say for example, I don't know, the inputs to + default to 0, let's say they change to
+
+204
+00:13:24,780 --> 00:13:29,120
+ 1, for some ungodly reason, the world would be quite screwed up for that to happen.
+
+205
+00:13:29,120 --> 00:13:33,580
+ But we would basically, when we load your logics back in, we would detect "Hey you haven't
+
+206
+00:13:33,580 --> 00:13:40,660
+ specified a default, so we will default this to 0".
+
+207
+00:13:40,660 --> 00:13:51,860
+ And preserve the old behavior by automatically injecting a 0 input node for you, and that
+
+208
+00:13:51,860 --> 00:13:52,860
+ way you'll be fine.
+
+209
+00:13:52,860 --> 00:13:59,460
+ It might be the divide node, let me see, div float, nah, I forgot about that, yeah.
+
+210
+00:13:59,460 --> 00:14:05,220
+ The divide nodes will allow divide by 0 errors, I forgot about that.
+
+211
+00:14:05,220 --> 00:14:08,680
+ That's why we have the filter invalid node, to get rid of those cases where you have an
+
+212
+00:14:08,680 --> 00:14:09,680
+ invalid value.
+
+213
+00:14:09,680 --> 00:14:16,460
+ I always put, or try to, I often forget, I try to put filter invalid in places where
+
+214
+00:14:16,460 --> 00:14:19,140
+ a 0 might occur with user input.
+
+215
+00:14:19,140 --> 00:14:25,260
+ For example if there's a form field where they're entering a number, if they need to
+
+216
+00:14:25,260 --> 00:14:29,500
+ clear out all of the number to enter their new number, then it might, for an update or
+
+217
+00:14:29,500 --> 00:14:31,260
+ two, it might have a 0 in it.
+
+218
+00:14:31,260 --> 00:14:34,580
+ And a couple of times that stung me and broken something, because I don't expect there to
+
+219
+00:14:34,580 --> 00:14:37,580
+ be a 0 there, so filter invalid helps with that.
+
+220
+00:14:37,580 --> 00:14:42,440
+ For example the value graph recorder, or it might be the graphing mesh, can't remember
+
+221
+00:14:42,440 --> 00:14:48,280
+ which, it doesn't like if the number of values that it can store is less than 2.
+
+222
+00:14:48,280 --> 00:14:52,720
+ It has to be 2 or greater, or it breaks and disables itself.
+
+223
+00:14:52,720 --> 00:14:54,240
+ >> Are there any additional questions?
+
+224
+00:14:54,240 --> 00:14:58,040
+ We've got about 5 minutes left in this office hours segment, we could talk about much more
+
+225
+00:14:58,040 --> 00:15:02,640
+ programming stuff for a long time, or we could, any questions that happen, go for them.
+
+226
+00:15:02,640 --> 00:15:04,440
+ Whatever you feel like.
+
+227
+00:15:04,440 --> 00:15:07,080
+ >> Whilst I wait for questions.
+
+228
+00:15:07,080 --> 00:15:13,360
+ There's a TV show on Netflix called Shadow and Bone, I don't know what it's called.
+
+229
+00:15:13,360 --> 00:15:15,240
+ Shadow and Bone, yeah there we go.
+
+230
+00:15:15,240 --> 00:15:16,240
+ Shadow and Bone.
+
+231
+00:15:16,240 --> 00:15:20,280
+ I was quite enjoying it until they literally resolved the entire storyline in the finale.
+
+232
+00:15:20,280 --> 00:15:24,000
+ Like there were a couple of episodes in the middle of the first season where nothing was
+
+233
+00:15:24,000 --> 00:15:28,400
+ happening, and in the last episode an entire season worth of content happens and I'm just
+
+234
+00:15:28,400 --> 00:15:31,240
+ like, "Guys, this isn't how you end a season."
+
+235
+00:15:31,240 --> 00:15:37,040
+ You know, it's just like, "Oh yeah, it's mid-season episode, the characters have a cup of tea."
+
+236
+00:15:37,040 --> 00:15:38,880
+ End of the season.
+
+237
+00:15:38,880 --> 00:15:44,200
+ The characters travel halfway across the world, defeat the big baddie, throw the ring into
+
+238
+00:15:44,200 --> 00:15:46,240
+ Mordor, and go home.
+
+239
+00:15:46,240 --> 00:15:47,240
+ Very annoying.
+
+240
+00:15:47,240 --> 00:15:50,560
+ >> So Lex asks, "Would you possibly know when closing a session, sometimes it doesn't happen,
+
+241
+00:15:50,560 --> 00:15:53,320
+ immediately it takes a few seconds to kick everyone and then close."
+
+242
+00:15:53,320 --> 00:15:55,560
+ I think it's resolving stuff.
+
+243
+00:15:55,560 --> 00:15:56,560
+ There's stuff it has to resolve.
+
+244
+00:15:56,560 --> 00:15:59,360
+ Like for example if you're saving the world, that's going to add extra time to it closing
+
+245
+00:15:59,360 --> 00:16:03,320
+ of course, but if you're not saving the world, there's got to be something that's resolving.
+
+246
+00:16:03,320 --> 00:16:04,960
+ I'd have to look into it.
+
+247
+00:16:04,960 --> 00:16:08,300
+ There's got to be something that's preventing it from closing, some sort of process that
+
+248
+00:16:08,300 --> 00:16:09,800
+ needs to finish or something.
+
+249
+00:16:09,800 --> 00:16:13,520
+ >> Nationwide asks, "Why do sessions that have been open for about three days start
+
+250
+00:16:13,520 --> 00:16:14,520
+ to get all funky?
+
+251
+00:16:14,520 --> 00:16:19,280
+ Do my headless pack all logics into the world into a single random thought?"
+
+252
+00:16:19,280 --> 00:16:23,040
+ It did that by itself, or did it do that when you next tried to pack logics?
+
+253
+00:16:23,040 --> 00:16:24,520
+ That sounds like it shouldn't...
+
+254
+00:16:24,520 --> 00:16:27,680
+ I can understand if it's funky how you packed it.
+
+255
+00:16:27,680 --> 00:16:30,480
+ Yeah, so after about three days, numbers start getting weird.
+
+256
+00:16:30,480 --> 00:16:33,640
+ Like I know tea has issues, but I haven't really worried about that.
+
+257
+00:16:33,640 --> 00:16:38,300
+ Like if you see tea getting issues, it's like you're doing something wrong probably.
+
+258
+00:16:38,300 --> 00:16:41,280
+ So input tea will get funky after a little while.
+
+259
+00:16:41,280 --> 00:16:45,640
+ I don't remember exactly how long, but it's basically when floating point imprecision
+
+260
+00:16:45,640 --> 00:16:51,320
+ takes over and the value of tea starts getting funky if you use tea for everything.
+
+261
+00:16:51,320 --> 00:16:53,440
+ Then maybe it ran out of like...
+
+262
+00:16:53,440 --> 00:16:56,000
+ I don't know if it ran out of references or something?
+
+263
+00:16:56,000 --> 00:16:59,080
+ I don't know why that would happen.
+
+264
+00:16:59,080 --> 00:17:00,480
+ Dynamic impulses should be fine as well.
+
+265
+00:17:00,480 --> 00:17:05,320
+ I'd have to look into the numbers involved with packing.
+
+266
+00:17:05,320 --> 00:17:07,400
+ It's by sure a number problem.
+
+267
+00:17:07,400 --> 00:17:09,060
+ It just doesn't look like it.
+
+268
+00:17:09,060 --> 00:17:10,060
+ It's something...
+
+269
+00:17:10,060 --> 00:17:12,200
+ We have one more question.
+
+270
+00:17:12,200 --> 00:17:16,920
+ So I was distracted by reading through the logics to see what was going on there.
+
+271
+00:17:16,920 --> 00:17:21,460
+ Ishimwade asks, "one more very quick, does the headless client have a memory leak?"
+
+272
+00:17:21,460 --> 00:17:25,740
+ It's possible that the entirety of Neos has a memory leak.
+
+273
+00:17:25,740 --> 00:17:29,560
+ Sometimes I have to remind people, and I get all the circumstances and everything, I'm
+
+274
+00:17:29,560 --> 00:17:32,480
+ not here to talk about them, but I'm here to state facts.
+
+275
+00:17:32,480 --> 00:17:39,000
+ When it comes to the headless client, you are playing with an alpha pre-release of a
+
+276
+00:17:39,000 --> 00:17:44,480
+ feature for an early access beta video game.
+
+277
+00:17:44,480 --> 00:17:47,360
+ So yeah, it's possible it has a memory leak.
+
+278
+00:17:47,360 --> 00:17:50,760
+ All right, that is half past and I don't see any more questions coming.
+
+279
+00:17:50,760 --> 00:17:52,240
+ So I'm going to go ahead and leave things there.
+
+280
+00:17:52,240 --> 00:17:55,160
+ As a reminder, if you have questions, please feel free to direct message them, drop them
+
+281
+00:17:55,160 --> 00:17:57,680
+ in the questions and help channel, or send a carrier pigeon my way.
+
+282
+00:17:57,680 --> 00:18:01,120
+ I'll get to them as soon as I can and I will speak to you guys next week
+

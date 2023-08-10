@@ -1,0 +1,980 @@
+1
+0:00:00.000 --> 0:00:05.560
+All right everyone welcome to prime time the office hours stroke am a or prime man whatever questions
+
+2
+0:00:05.560 --> 0:00:10.760
+You might have for me, please thrill free to drop the questions in the office hours chat, and I'll get to them as soon as I can
+
+3
+0:00:12.080 --> 0:00:14.520
+With there being no questions in place right now
+
+4
+0:00:14.640 --> 0:00:21.560
+just a quick reminder to everyone to continue reading our roadmap reading the Neos wiki for the contact in the news team page and
+
+5
+0:00:22.000 --> 0:00:25.200
+Playing yes. I am a fun quiet bunch today
+
+6
+0:00:25.200 --> 0:00:31.300
+I mean if you have any questions any questions at all drop them in the office hours chat. I'll be happy to answer them
+
+7
+0:00:31.300 --> 0:00:34.080
+That's why you're all here. You have no questions. That's totally fine, too
+
+8
+0:00:34.080 --> 0:00:41.200
+But we're just gonna sit here in silence, so I'm making awkward. Oh the most amazing amazing sentence someone has a question
+
+9
+0:00:41.200 --> 0:00:45.960
+I'm amazed please please delight me with your question. I can't wait to answer it
+
+10
+0:00:46.560 --> 0:00:49.200
+Okay, so we have a question from bad. This is a good question
+
+11
+0:00:49.200 --> 0:00:54.720
+So thank you for asking it that says is there any plan for account management as in changing usernames or emails and such?
+
+12
+0:00:55.880 --> 0:00:58.000
+Right now lots of that stuff goes through shifty
+
+13
+0:00:58.000 --> 0:01:02.480
+She's amazing at her job and helping people out, but I would love for that to be automated
+
+14
+0:01:03.160 --> 0:01:07.480
+That will go into a lot of what will happen with like the website, so
+
+15
+0:01:08.280 --> 0:01:13.260
+If you visit like the author on the ice calm you'll see the sort of new
+
+16
+0:01:13.260 --> 0:01:19.860
+A website framework, that's not what it'll look like that's just sort of like a technicality thing as a technical thing
+
+17
+0:01:20.020 --> 0:01:22.660
+There's a lot of new endpoints and authorization there
+
+18
+0:01:23.420 --> 0:01:25.420
+That will allow things like
+
+19
+0:01:25.500 --> 0:01:27.500
+Changing username email and stuff like that
+
+20
+0:01:28.180 --> 0:01:32.220
+Those would be most of the website features that you you know find on many other web providers
+
+21
+0:01:32.260 --> 0:01:37.980
+I'd also like to see if we can get those abilities in the actual game from of them being in the actual game sometimes this
+
+22
+0:01:37.980 --> 0:01:42.080
+Processes are a little bit complicated and so when I usually do them on a website because it's easier, but
+
+23
+0:01:42.080 --> 0:01:45.520
+We'll see what we can do. Honestly though being yes
+
+24
+0:01:45.520 --> 0:01:50.480
+I would I would love it if shifty's primary job throughout the day was not
+
+25
+0:01:50.840 --> 0:01:53.960
+Doing stuff which could easily be automatable by a screen
+
+26
+0:01:54.200 --> 0:01:59.720
+I'm happy that she does it for us, but it would be great if you know she didn't do same goes for patreon
+
+27
+0:01:59.720 --> 0:02:01.720
+I want like automated patreon linkage
+
+28
+0:02:01.840 --> 0:02:07.520
+That'll be interesting because we need would basically need you to do is link your account met like you know how right now
+
+29
+0:02:07.520 --> 0:02:09.840
+Yeah, like it'll link automatically of the emails match
+
+30
+0:02:09.840 --> 0:02:16.920
+If emails don't match you have to like speak to shifty etc. It'll be like instead login to
+
+31
+0:02:17.960 --> 0:02:19.240
+patreon and allow
+
+32
+0:02:19.240 --> 0:02:20.920
+Like login to Neos allow
+
+33
+0:02:20.920 --> 0:02:24.320
+Neos to access your patreon data, and it'll be able to see that you have a pledge to it
+
+34
+0:02:24.320 --> 0:02:26.120
+And I'll be able to link those together
+
+35
+0:02:26.120 --> 0:02:31.880
+I strangely have the sort of policy of always trying to make myself redundant when it comes to any sort of process that I don't
+
+36
+0:02:31.880 --> 0:02:35.120
+Think I should do you know when you think about like vacuuming you're like oh
+
+37
+0:02:35.120 --> 0:02:42.080
+can I automate vacuum cleaning and that's how things like Roombas came up and they haven't yet found a Roomba that doesn't eat my
+
+38
+0:02:42.080 --> 0:02:46.840
+Socks, so I don't like this okay. We have some new questions, but a little bit about the Roomba first of all
+
+39
+0:02:47.360 --> 0:02:52.920
+Yeah, I agree like half the cleaning power of a Roomba is just making you pick up stuff like I I used to use a Roomba
+
+40
+0:02:52.920 --> 0:02:56.040
+I wouldn't turn it on as much as I would like because I had to babysit it
+
+41
+0:02:56.480 --> 0:03:01.200
+It could never do like a full cleaning job and even when it could I didn't think it was doing a good job
+
+42
+0:03:01.200 --> 0:03:08.280
+So I purchased a regular vacuum cleaner, and I pushed the vacuum cleaner around my apartment. How he would do it normally and manually and
+
+43
+0:03:09.080 --> 0:03:13.640
+It collected like way more dust and then I thought it should have and so I just haven't used it
+
+44
+0:03:13.640 --> 0:03:16.960
+I don't think it's effective. It might be on like an exceptionally clean house
+
+45
+0:03:16.960 --> 0:03:23.300
+But like it's like three pairs of slippers like in my like living room, and I don't really know why and there's a sock over there
+
+46
+0:03:23.300 --> 0:03:26.640
+I don't know how long that's been there. You know you got a tidy up. It's crazy
+
+47
+0:03:26.640 --> 0:03:29.580
+I bought a second pair because I needed to launder my first pair
+
+48
+0:03:29.580 --> 0:03:34.860
+But then I realized my first pad couldn't be laundered. It's not like like they're fluffy insides, right?
+
+49
+0:03:34.860 --> 0:03:38.020
+But I wanted to clean the fluffy insides, and I had I clean the fluffy insides
+
+50
+0:03:38.020 --> 0:03:41.340
+And it's like maybe just throw it in the laundry no you can't do that
+
+51
+0:03:41.340 --> 0:03:43.340
+So I specifically bought a new pair of slippers
+
+52
+0:03:43.500 --> 0:03:48.140
+Could be thrown in the laundry obviously by itself you wouldn't put it in with a full load of laundry
+
+53
+0:03:48.540 --> 0:03:52.140
+Excuse me. You wouldn't throw it in with a full load of laundry, but like you
+
+54
+0:03:52.900 --> 0:03:54.900
+You just put them in separately
+
+55
+0:03:54.900 --> 0:03:59.260
+As for the actual questions, sorry getting back on topic here. Ruscio asks
+
+56
+0:03:59.260 --> 0:04:01.940
+I have a question about the WebSocket text message sender node
+
+57
+0:04:02.180 --> 0:04:08.700
+node not note if the WebSocket client component has a separate user than user responsible for the impulse that is received at the
+
+58
+0:04:09.540 --> 0:04:17.220
+WebSocket text message sender node does the event get networked back to the other user as a rejected outright
+
+59
+0:04:17.220 --> 0:04:22.580
+I have opened up the code base to take a look at that, and I'll also take a look at
+
+60
+0:04:22.580 --> 0:04:24.580
+the
+
+61
+0:04:26.740 --> 0:04:28.740
+Follow-up question there, which is
+
+62
+0:04:28.780 --> 0:04:32.580
+Can I localize the WebSocket client component or would that not be advisable?
+
+63
+0:04:32.740 --> 0:04:39.300
+I'm go ahead and open up the WebSocket client component first and just sort of take a look at the I pushed the wrong thing
+
+64
+0:04:40.180 --> 0:04:46.100
+Control no, I don't run Neos. Stop. Stop. Don't run. Oh, it's just building. That's fine
+
+65
+0:04:47.780 --> 0:04:51.020
+WebSocket client here is a component as the
+
+66
+0:04:51.020 --> 0:04:57.700
+Handling user property here. Handling user is null. Cool. Cool. Cool. Cool. Cool. Cool
+
+67
+0:04:58.220 --> 0:05:00.220
+Text message received dot invoke
+
+68
+0:05:01.820 --> 0:05:03.820
+Okay, so that would be the Web
+
+69
+0:05:04.780 --> 0:05:07.340
+Text WebSocket text message receiver here
+
+70
+0:05:08.300 --> 0:05:10.300
+client text message
+
+71
+0:05:10.500 --> 0:05:16.500
+received there is no network synchronization of the event so should only be from the user which the
+
+72
+0:05:16.500 --> 0:05:22.580
+The WebSocket is done by basically we only open up the connection on the
+
+73
+0:05:23.220 --> 0:05:25.660
+on the user that is in the
+
+74
+0:05:26.660 --> 0:05:29.940
+Handling user so that's good there
+
+75
+0:05:30.540 --> 0:05:33.580
+Now you could by the looks of things you could
+
+76
+0:05:34.660 --> 0:05:40.460
+You could values override or localize in whatever way you want to the the component
+
+77
+0:05:40.620 --> 0:05:45.340
+The only issue there is that you would have to localize as effectively as you can
+
+78
+0:05:45.340 --> 0:05:50.500
+I don't know how effectively to do this across the board all of the properties. So there's URI
+
+79
+0:05:51.620 --> 0:05:53.620
+access reason and connect retry interval
+
+80
+0:05:54.380 --> 0:06:01.380
+Those all sync as in the value of those sync. And so if those all aren't localized then you'll have a problem same with the is
+
+81
+0:06:01.380 --> 0:06:02.580
+connected
+
+82
+0:06:02.580 --> 0:06:06.020
+Those are all syncs. You'll basically have to like localize the entire thing
+
+83
+0:06:06.860 --> 0:06:09.140
+As it only connects to the handling user
+
+84
+0:06:09.140 --> 0:06:15.820
+It might be better to just like make you know, say there's four users make four copies of that component on a slot
+
+85
+0:06:15.820 --> 0:06:18.700
+So four slots and use and use that right?
+
+86
+0:06:18.700 --> 0:06:24.740
+There'll be no overhead from doing that because it's only connecting on the user that is in the handling user property
+
+87
+0:06:24.900 --> 0:06:27.740
+See what happens if the handling user is null
+
+88
+0:06:29.300 --> 0:06:31.420
+Connect to references
+
+89
+0:06:31.420 --> 0:06:35.020
+It's helping out here, thanks. Oh, cool.
+
+90
+0:06:35.660 --> 0:06:37.660
+Connecting user not equal to local user
+
+91
+0:06:37.660 --> 0:06:44.260
+Parallels not. Yeah, should be good. Just make a yeah make four if there's four people etc
+
+92
+0:06:44.980 --> 0:06:51.660
+So Gun Griffin then asks does the bhaptics port open automatically or does it require enable? It opens up automatically
+
+93
+0:06:52.660 --> 0:06:55.780
+Make sure that the bhaptics software, the bhaptics player
+
+94
+0:06:55.780 --> 0:07:01.380
+has like a green status and that you've tested it if it's your first time and then it should just run it a little
+
+95
+0:07:01.380 --> 0:07:03.380
+bit like the
+
+96
+0:07:03.380 --> 0:07:07.940
+VIVE face tracker. I know the face tracker like when we initialize it we actually like will
+
+97
+0:07:08.620 --> 0:07:15.060
+Cause the the software to run which I think is quite cool, but I found that would be haptics better to run the software first
+
+98
+0:07:15.980 --> 0:07:21.660
+Particularly because you know putting it on is an activity. So I put it on and then I make sure it's okay and then I
+
+99
+0:07:21.660 --> 0:07:28.340
+I will then start Neos. With the face tracker like it's easy to start Neos with the headset on your head like the
+
+100
+0:07:29.100 --> 0:07:34.340
+Vhaptics vest is a conscious decision. In fact all the Vhaptics stuff is it's like let's shoot up and get it
+
+101
+0:07:35.340 --> 0:07:39.260
+All right, I think we're up to date on questions. So if you have any other further questions keep them coming
+
+102
+0:07:39.260 --> 0:07:44.540
+It's pretty quiet one today, but I'll still upload the recording. I'll try and trim the silence though
+
+103
+0:07:44.540 --> 0:07:49.260
+It's also awesome to see when you trim the silence how much time is actually spent on the office hours
+
+104
+0:07:49.260 --> 0:07:53.660
+We're sitting here for 30 minutes. That's the time but maybe once we've trimmed the silence
+
+105
+0:07:53.660 --> 0:07:59.180
+It's actually 22 minutes and that means who I've saved listeners eight minutes by trimming the silence from my recording
+
+106
+0:07:59.460 --> 0:08:03.780
+Rafi I see you type in I'm expecting good things. Ah, we already answered that one
+
+107
+0:08:03.780 --> 0:08:06.340
+I'm not sure if you're here when we did. Thank you for Rafi
+
+108
+0:08:06.340 --> 0:08:10.340
+Rafi was asking if I had answered a previously asked question and I did no worries
+
+109
+0:08:10.580 --> 0:08:15.780
+We all need more sleep these days. So wait for another question. I had checked my emails
+
+110
+0:08:15.780 --> 0:08:19.460
+I know this is nothing to do with you, but I have zero emails. I have no
+
+111
+0:08:19.980 --> 0:08:24.260
+I'm ecstatic that that is the case. Oh, I just dropped
+
+112
+0:08:26.300 --> 0:08:28.300
+Yes
+
+113
+0:08:28.380 --> 0:08:31.640
+Anyway when you question from sorta super who says a question
+
+114
+0:08:32.180 --> 0:08:34.540
+with all the tools for geometry creation in here
+
+115
+0:08:34.540 --> 0:08:41.900
+So their plans to implement a material remover of some form or eraser would be wonderful when creating rough drafts of an FBX to export
+
+116
+0:08:42.020 --> 0:08:44.500
+More mesh editing tools are on our roadmap
+
+117
+0:08:44.500 --> 0:08:50.060
+I'm not quite sure what like sort of form they'll take something that comes up. A lot is
+
+118
+0:08:50.740 --> 0:08:54.960
+Terrain generation of the sort of brush kind, you know, and you can sort of like go
+
+119
+0:08:54.960 --> 0:09:00.580
+Hey this area higher this area lower and also sort of carve through the terrain a little bit
+
+120
+0:09:00.620 --> 0:09:01.740
+That'll be cool
+
+121
+0:09:01.740 --> 0:09:07.220
+The tooling there could also probably used for like an eraser when you're using the pen like, you know
+
+122
+0:09:07.220 --> 0:09:08.980
+When you use the the tube pen
+
+123
+0:09:08.980 --> 0:09:13.820
+Which is most pens that you use they're just they don't look like tubes because the the dots been trunk small
+
+124
+0:09:13.820 --> 0:09:15.660
+It would allow you to do an eraser there
+
+125
+0:09:15.660 --> 0:09:19.740
+You can kind of do that right now, but that's only if you sort of write in a very specific way
+
+126
+0:09:19.740 --> 0:09:21.740
+You'll be able to just erase portions of it
+
+127
+0:09:22.540 --> 0:09:28.180
+We have the mesh editing tools. You might be able to erase it like it was an actual, you know pencil on paper
+
+128
+0:09:28.540 --> 0:09:30.980
+Let's say you draw. I don't know like let's say
+
+129
+0:09:31.580 --> 0:09:37.500
+H you might be able to just like erase half the H because you put the eraser tool through half the H
+
+130
+0:09:37.500 --> 0:09:43.820
+Thank you properly linked the topic shoes for those if you want to like see what might be possible
+
+131
+0:09:44.420 --> 0:09:47.340
+go back through Frixus's Frixus's
+
+132
+0:09:48.100 --> 0:09:50.100
+YouTube channel and
+
+133
+0:09:51.340 --> 0:09:53.340
+You'll see that there is a
+
+134
+0:09:54.140 --> 0:09:57.720
+Video, I don't know what's called. I think it's water water clean is or something like that
+
+135
+0:09:57.820 --> 0:10:04.860
+It's an earlier version of Neos that was mostly sort of a tech demo for the leap motion that had terrain generation in it
+
+136
+0:10:04.860 --> 0:10:09.580
+And Griffin is asking for a could we get a separate by loose parts option?
+
+137
+0:10:11.300 --> 0:10:18.580
+Depends like how that would work. I'd have to look entirely like how the mesh is converted. There's a concept in in
+
+138
+0:10:19.300 --> 0:10:25.220
+Assimp yeah, okay. It was out of the way, which is what's called sub meshes also exists in the file formats
+
+139
+0:10:25.220 --> 0:10:29.860
+We use etc. It just sort of refers to like how a mesh is bucketed down
+
+140
+0:10:30.260 --> 0:10:33.100
+Separate by loose parts in blender does it by
+
+141
+0:10:33.100 --> 0:10:40.940
+Its internal format as other applications, and that's more sort of like you know if it can see that those vertices are separated
+
+142
+0:10:40.940 --> 0:10:45.340
+I'm just not sure like like if the data structure is there that we can use. It's certainly a good idea
+
+143
+0:10:45.580 --> 0:10:47.620
+So hop it over to the github
+
+144
+0:10:47.620 --> 0:10:54.940
+It's not already there and do double check the static mesh ready because there are a bunch of options there one might function
+
+145
+0:10:55.060 --> 0:11:00.840
+Close enough like split sub meshes. I thought that was an option which reminds me if you're building stuff in blender
+
+146
+0:11:00.840 --> 0:11:03.420
+Please rename your objects and make them make sense
+
+147
+0:11:03.420 --> 0:11:10.220
+I'm so tired of downloading new avatars or new models and open them in blender and like the model is just called like
+
+148
+0:11:10.820 --> 0:11:12.300
+Cylinder it's like great
+
+149
+0:11:12.300 --> 0:11:14.300
+So you made this fantastic avatar?
+
+150
+0:11:14.340 --> 0:11:22.060
+Which I just paid 20 bucks for and you couldn't be bothered to rename the cylinder to body which is anything other than just
+
+151
+0:11:22.620 --> 0:11:27.220
+Cylinder cube or box or whatever same with hard surface modeling as well
+
+152
+0:11:27.220 --> 0:11:32.100
+It's so much easier to navigate through let's say. I don't know it's a
+
+153
+0:11:33.340 --> 0:11:35.340
+architectural piece and
+
+154
+0:11:35.420 --> 0:11:37.980
+You know I let's say it's a you know conference room
+
+155
+0:11:37.980 --> 0:11:44.380
+That's an always an easy example like the wall object is called box 22 and the floor is called box 50
+
+156
+0:11:44.580 --> 0:11:48.140
+There's no rhyme or reason there. You know what it is because you're just clicking it just
+
+157
+0:11:48.820 --> 0:11:50.660
+It'll be really easy inside
+
+158
+0:11:50.660 --> 0:11:56.060
+Neos to figure out what if you want to delete or move the walls of the floor and it reminds me of them some shoes
+
+159
+0:11:56.060 --> 0:11:59.220
+So I don't want to harp too much on sort of you know
+
+160
+0:11:59.500 --> 0:12:05.260
+People who are not as familiar with the tools that they're using as possible, but I do occasionally find
+
+161
+0:12:06.300 --> 0:12:11.660
+Usually more sort of like anime starred models where they've got shoes, and they're wearing a particular type of shoes and the reason
+
+162
+0:12:11.660 --> 0:12:17.540
+They're wearing those shoes because that's the customization they wanted. That's the identity they wanted they wanted those cool shoes
+
+163
+0:12:17.780 --> 0:12:20.620
+That's fantastic you you've decided the pair of shoes that you want
+
+164
+0:12:20.620 --> 0:12:26.540
+but then you went ahead and you downloaded an architecturally correct or anatomically correct shoe model and
+
+165
+0:12:26.800 --> 0:12:30.020
+Brought that into your avatar, and then just glued it to the bone
+
+166
+0:12:30.660 --> 0:12:32.980
+At that point you have like an a million
+
+167
+0:12:33.820 --> 0:12:35.380
+polygon shoe
+
+168
+0:12:35.380 --> 0:12:41.700
+And you go down and I've done this a few times you go down and you realize each individual eyelet for the laceless
+
+169
+0:12:41.700 --> 0:12:46.460
+That's the the hole what the laces go through on the side of the lacing area of the shoe is
+
+170
+0:12:46.460 --> 0:12:52.620
+Is like 20 20 K tries itself because it was meant to be a sort of close-up
+
+171
+0:12:53.340 --> 0:12:59.700
+rendering model for maybe sort of promotional renders of the shoe or to show off the shoe as like a skill of
+
+172
+0:13:00.700 --> 0:13:07.500
+3d modelism 3d model realism it does feel like I'm griffin says polygon ballast that it does feel like that sometimes
+
+173
+0:13:07.780 --> 0:13:12.260
+it makes perfect sense like if you're doing sort of like a promotional model for a shoe or
+
+174
+0:13:12.260 --> 0:13:15.980
+You're testing rendering rather than gameplay design
+
+175
+0:13:16.380 --> 0:13:21.580
+You render that shoe as many triangles as you want like it's just it's gonna render and it's gonna look cool
+
+176
+0:13:21.580 --> 0:13:25.940
+And you're gonna get the effect that you want if you're putting that onto an avatar though need to use different
+
+177
+0:13:26.460 --> 0:13:31.860
+Models different materials it also happened once with I think it was like a wedding ring or something
+
+178
+0:13:32.020 --> 0:13:34.500
+but you know that was like a VR chat wedding and
+
+179
+0:13:35.260 --> 0:13:38.360
+Someone was like could you put like a wedding ring on my avatar for me?
+
+180
+0:13:38.360 --> 0:13:42.740
+And I'm like sure send me the unity package I can sort that out and open it up and then I open up the ring
+
+181
+0:13:42.740 --> 0:13:44.740
+They wanted on there and again. It was like in a million
+
+182
+0:13:45.380 --> 0:13:51.140
+Polygon ring I said you realize you're gonna see like 0% of this yeah, but it looks cool and some okay
+
+183
+0:13:51.140 --> 0:13:55.180
+Let me try and decimate it so I decimated it down and I sent it to them
+
+184
+0:13:55.180 --> 0:13:56.700
+And they're like it doesn't look as cool now
+
+185
+0:13:56.700 --> 0:14:02.340
+It's gonna be like a pixel or two on most people's screens, and if you're close up
+
+186
+0:14:02.340 --> 0:14:08.460
+It's still only gonna be like a tiny square. Yes. That is a perfect representation of the problem
+
+187
+0:14:08.460 --> 0:14:14.340
+Imagine that a wedding ring or the eyelet of a shoelace. I do have a lot of architectural models as well
+
+188
+0:14:14.340 --> 0:14:16.340
+Those are interesting because those are made in
+
+189
+0:14:16.460 --> 0:14:20.100
+architectural modeling applications, they're more designed to be
+
+190
+0:14:21.260 --> 0:14:24.620
+True to the word what you actually need to build at the building from that
+
+191
+0:14:24.780 --> 0:14:27.140
+Maybe it will output blueprints
+
+192
+0:14:27.140 --> 0:14:32.380
+You know that the the foreman for a project will actually look at and build something for
+
+193
+0:14:32.940 --> 0:14:37.780
+And so the the model format comes out not that optimized for Neos
+
+194
+0:14:37.820 --> 0:14:43.760
+But the reason why it's not optimized is because it's like extreme detail and this isn't even really in polygons
+
+195
+0:14:43.760 --> 0:14:46.100
+It's in sort of like all the sort of like gubbins
+
+196
+0:14:46.940 --> 0:14:48.700
+Just if you're in a building
+
+197
+0:14:48.700 --> 0:14:52.540
+That's an apartment block like I am walking your stairwell and just like look at everything
+
+198
+0:14:52.540 --> 0:14:57.020
+I look at the way that like the stairs above you look the stairs below you look
+
+199
+0:14:57.020 --> 0:15:03.220
+I just like the handrails how they're affixed right because it's an architectural model. They've modeled all of that
+
+200
+0:15:03.220 --> 0:15:08.460
+And it's just like ah well. It was cool once we were doing a sort of walkthrough of something
+
+201
+0:15:08.460 --> 0:15:10.460
+we based on one of those models and
+
+202
+0:15:10.540 --> 0:15:14.820
+The person that was looking at it was like be great if the curtains were open
+
+203
+0:15:14.980 --> 0:15:22.060
+And I just shot one curtain with a mesh visibility tip because I had a feeling and that feeling was correct
+
+204
+0:15:22.060 --> 0:15:26.260
+Which was every single curtain was its own object within Neos
+
+205
+0:15:26.260 --> 0:15:29.460
+and so I shot the curtains with the mesh visibility tip one curtain and
+
+206
+0:15:29.980 --> 0:15:36.580
+The curtains throughout the entire building just vanished, and it was beautiful. They're just like that was quick
+
+207
+0:15:36.580 --> 0:15:41.500
+This is really cool, and it like you know showed the power of them sort of using it as a tool for visualization
+
+208
+0:15:41.660 --> 0:15:48.580
+But I was also scared because if I shot the wrong thing half the building would disappear like if you shoot
+
+209
+0:15:48.580 --> 0:15:54.860
+generic white wall it might take out like all of the walls because they're all sort of linked together because they want to export the
+
+210
+0:15:54.860 --> 0:16:01.020
+Mesh into like blueprint layers where it's like you know put up drywall here concrete here stuff like that
+
+211
+0:16:01.020 --> 0:16:03.460
+I think I just explained the odd interactions
+
+212
+0:16:03.460 --> 0:16:09.700
+Yoho asked about the odd interactions with those architecturally thingies. Lux has a question which looks to be interesting
+
+213
+0:16:09.700 --> 0:16:11.140
+So go ahead and read it out for the recording
+
+214
+0:16:11.140 --> 0:16:17.780
+I have a rather more abstract involved question about data types and inheritance is there a plan to add detailed documentation about how data types
+
+215
+0:16:17.780 --> 0:16:21.380
+Actually inherit properties from one another on the wiki for a contrived example
+
+216
+0:16:21.380 --> 0:16:24.940
+I know I collider is probably interface for box collider mesh collider, etc
+
+217
+0:16:25.060 --> 0:16:31.300
+So with this knowledge I could presumably store just an I collide a data type and store of the derived types into it
+
+218
+0:16:31.460 --> 0:16:34.340
+It would help to get a more general sense of how all the different types fit together
+
+219
+0:16:34.540 --> 0:16:38.140
+The answer is yes, but only to an extent there is some
+
+220
+0:16:38.900 --> 0:16:43.700
+Occurrences, I'm gonna see you so I'm gonna sneeze or is it a sneeze it's gonna disappear. It's it's disappearing okay um
+
+221
+0:16:43.700 --> 0:16:50.380
+Damn it. I wanted to sneeze um there are some occurrences in that area where you guys are going too detailed
+
+222
+0:16:51.140 --> 0:16:59.580
+If you're using like sync sync ref field ref you're usually doing really advanced stuff, and I always worry about that
+
+223
+0:16:59.580 --> 0:17:02.860
+I'm like how can we make that easier for you to do?
+
+224
+0:17:03.220 --> 0:17:10.940
+Because you shouldn't have to understand the entire sort of object orientated hierarchy of Neos to build something inside Neos
+
+225
+0:17:10.940 --> 0:17:17.260
+Collider is a good example of a case where you probably should but additionally I would probably want to
+
+226
+0:17:17.820 --> 0:17:22.900
+Like abstract the whole I collider concept into just a collider data type that
+
+227
+0:17:23.820 --> 0:17:30.140
+Transparently told you what was going on, but also made easier for people that didn't understand what an interface was programmatically
+
+228
+0:17:30.380 --> 0:17:35.100
+What I mean by that is like if you pull away all the layers you're basically dealing with raw C-sharp types
+
+229
+0:17:35.100 --> 0:17:37.100
+But should you have to?
+
+230
+0:17:37.100 --> 0:17:40.740
+Regardless of that though there will be documentation on that in the future
+
+231
+0:17:40.740 --> 0:17:44.700
+And they'll also be tooling like I just said to make those sort of easier processes for you
+
+232
+0:17:45.020 --> 0:17:49.300
+I see some people are just like if I put this like incredibly weird
+
+233
+0:17:49.300 --> 0:17:55.260
+I know you sometimes have to put weird symbols in various components, but they're like incredibly weird symbols in a component
+
+234
+0:17:55.260 --> 0:17:59.900
+I can do all these crazy things, and I'm just like that's actually a feature request in disguise
+
+235
+0:17:59.900 --> 0:18:04.220
+There's no way you should have to do all of that craziness just to get that effect
+
+236
+0:18:04.220 --> 0:18:07.220
+So yoho if you have a question locks if your question, that's good
+
+237
+0:18:07.220 --> 0:18:11.620
+Otherwise I want to cut it there as we are nearing the half hour so please go for some paper
+
+238
+0:18:11.620 --> 0:18:13.620
+If you have a question if not whatever
+
+239
+0:18:14.380 --> 0:18:16.380
+You have the opportunity
+
+240
+0:18:16.460 --> 0:18:19.040
+You know I wanted to see the April 1st badges for me
+
+241
+0:18:19.040 --> 0:18:24.580
+I couldn't get into a session with the limited time I had on yes that day to see them as I am a developer I
+
+242
+0:18:25.020 --> 0:18:27.700
+Can actually just turn on April Fools mode?
+
+243
+0:18:28.780 --> 0:18:32.860
+Myself and then run the game, so I'll go ahead and do that and get a picture when I get
+
+244
+0:18:32.860 --> 0:18:39.700
+Oh, it's otherwise. I think that's it so I will speak to you guys next week look for this to be up on the wiki
+
+245
+0:18:39.700 --> 0:19:04.700
+Etc later, and I'll get back to you soon. Bye
+

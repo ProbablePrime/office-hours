@@ -1,0 +1,2300 @@
+1
+0:00:00.000 --> 0:00:04.720
+All right. Recordings active. We'll go ahead and just type in office hours. We're live.
+
+2
+0:00:04.720 --> 0:00:14.720
+And then we'll get going. Okay. So, as we had no, like, form up there,
+
+3
+0:00:14.720 --> 0:00:20.160
+we'll go straight into questions with Specs's question. Specs asks, the VRIK component is
+
+4
+0:00:20.160 --> 0:00:23.840
+very useful to know for avatar setup, but it doesn't seem well covered for how important
+
+5
+0:00:23.840 --> 0:00:26.960
+it is. It helped me debug a friend's bone assignments this weekend. Sorry to discover
+
+6
+0:00:26.960 --> 0:00:31.040
+the shorter role settings have been useful in adjusting shorter bone behavior for us.
+
+7
+0:00:31.040 --> 0:00:35.120
+I'm sure it will be a lot of work, but a detailed overview of this component may be extremely
+
+8
+0:00:35.120 --> 0:00:37.920
+useful to experienced users. Is there any chance we get a prime video on the topic?
+
+9
+0:00:39.280 --> 0:00:44.160
+Maybe. The problem with the VRIK and the VRIK avatar components is that they have so many
+
+10
+0:00:44.160 --> 0:00:48.800
+properties that I just don't know what they do. I know what, like, five of them do, but the rest
+
+11
+0:00:48.800 --> 0:00:54.080
+of them I'm just not sure. There's a lot of numbers there, a lot of, like, sliders, a lot
+
+12
+0:00:54.080 --> 0:00:59.360
+of random fields that don't seem to make sense. But they have lots of power in them. I did drop
+
+13
+0:00:59.360 --> 0:01:03.040
+some content into the tutorials channel. I'm calling them pointers, because they're just,
+
+14
+0:01:03.040 --> 0:01:08.400
+like, stuff I make in one minute. Not produced at all. But I was showing someone how to do
+
+15
+0:01:09.120 --> 0:01:13.680
+custom walk animations with that. And a few other things there. And it was just, like,
+
+16
+0:01:13.680 --> 0:01:17.600
+I don't know how half this component works, but if you mess with these numbers, you're going to
+
+17
+0:01:17.600 --> 0:01:23.680
+get a different result. So, in the future, sure. Not quite sure when. I actually just need to go
+
+18
+0:01:23.680 --> 0:01:27.360
+ahead and figure out a description for each of those properties, even if it means I, like,
+
+19
+0:01:27.360 --> 0:01:32.240
+I don't know, I take fruits out for some fruit and I'm just like, all right, fruits. We've got
+
+20
+0:01:32.240 --> 0:01:41.120
+400 fields to go, fruits. Let's do it. What does blah, blah, blah, blah do? However, there is one
+
+21
+0:01:41.120 --> 0:01:46.000
+field which is really useful, which is arm length multiplier. I think it's in IK avatar, I'm not
+
+22
+0:01:46.000 --> 0:01:50.480
+quite sure. It's in one of the two. Arm length multiplier will let you make your arms longer or
+
+23
+0:01:50.480 --> 0:01:56.320
+shorter. I kept doing that for new users last week. Someone said, oh, how am I going to remember
+
+24
+0:01:56.320 --> 0:02:00.960
+this, you know, if I need to change my arms later? And I said, well, you could remember it by the
+
+25
+0:02:00.960 --> 0:02:06.160
+name I remember it internally, which is arm length my little pony and then you'll never forget it.
+
+26
+0:02:06.160 --> 0:02:11.120
+So, remember, if your arms need to be shorter or longer, adjust your arm length, my little pony.
+
+27
+0:02:11.120 --> 0:02:17.760
+But that's just me. Moving forwards. Yeah, actually, we didn't do any of that. Good call,
+
+28
+0:02:17.760 --> 0:02:23.680
+Mr. Easton. So, for anyone who's new here or isn't familiar with office hours or hasn't seen them
+
+29
+0:02:23.680 --> 0:02:28.320
+before, I sit here and answer questions and I inevitably start ranting about various objects
+
+30
+0:02:28.320 --> 0:02:33.360
+or stories or experiences in life. But I'm meant to be answering nice questions. If you have any
+
+31
+0:02:33.360 --> 0:02:38.560
+questions, please drop them in the office hours text chat that is it used to be two above the one
+
+32
+0:02:38.560 --> 0:02:43.680
+that you're currently looking at for community meetings, but now it's one, two, three, four,
+
+33
+0:02:43.680 --> 0:02:47.040
+five. So, it's five above the one that you're currently in because we added some extra voice
+
+34
+0:02:47.040 --> 0:02:52.000
+chat channels just to spread out the load from the oncoming people. So, if you have questions
+
+35
+0:02:52.000 --> 0:02:55.520
+about Neos, drop them into the office hours text chat. I'll get to them as soon as I can.
+
+36
+0:02:56.080 --> 0:03:00.880
+Keep them coming and we'll keep answering them. Let's go ahead and move on to the next question
+
+37
+0:03:00.880 --> 0:03:06.800
+here. So, Alex says made of interesting Neos lately. Yeah, you can actually find it I think
+
+38
+0:03:06.800 --> 0:03:13.360
+it's in like the full dive Neos discussions and questions and help kind of just blur into my brain
+
+39
+0:03:13.360 --> 0:03:18.320
+sometimes and I need to like remember which one I actually like posted it in. I'll drop it down to,
+
+40
+0:03:18.320 --> 0:03:24.640
+here we go, let me see if I can just copy these holistically down. Where are we? Office hours,
+
+41
+0:03:24.640 --> 0:03:32.320
+office hours, office hours, paste. Oh yes, a blank thing pasting. I'll just upload them again from
+
+42
+0:03:32.320 --> 0:03:38.080
+my actual computer. We were looking at doing more, I'm doing like a lot of like science and
+
+43
+0:03:38.080 --> 0:03:45.600
+sciency stuff with a user name shfr and we were doing science involving eye exams and so we had
+
+44
+0:03:45.600 --> 0:03:50.160
+to come up with an anchor that forcibly put your head in a head restraint which is not something
+
+45
+0:03:50.160 --> 0:03:56.640
+like anyone would probably do but it's something that we were doing for a particular goal. You can
+
+46
+0:03:56.640 --> 0:04:01.760
+see that sphere there is me positioning a avatar pose filter so I can get the head in the right
+
+47
+0:04:01.760 --> 0:04:08.560
+spot so it looks convincing. It is fun, you never quite know what you're gonna do. Everyone else is
+
+48
+0:04:08.560 --> 0:04:12.160
+like oh let's make a game, let's make a world and those are fantastic, please keep making them.
+
+49
+0:04:12.160 --> 0:04:17.600
+When it comes to science we're just like what? You need what? You sure? Okay.
+
+50
+0:04:20.480 --> 0:04:27.120
+Ozzy asks what's your funniest unique encounter with users so far? So I always get like weirded
+
+51
+0:04:27.120 --> 0:04:31.760
+out by the people who don't realize that like yes I am the YouTube person. It happens a lot. They're
+
+52
+0:04:31.760 --> 0:04:35.760
+like you're the guy I watched YouTube videos on. I'm like yep that's me and they're like thanks for
+
+53
+0:04:35.760 --> 0:04:39.680
+the videos. I'm like yep thank you for watching them. It's very simple. If you watch them,
+
+54
+0:04:39.680 --> 0:04:43.280
+fantastic. If they help you, fantastic. If they don't help you, also fantastic. I don't mind.
+
+55
+0:04:43.920 --> 0:04:49.280
+So it's always good to see those people. The funny or unique encounters usually occur when
+
+56
+0:04:50.320 --> 0:04:56.320
+I'll suddenly go into like parent or teacher mode and I'll be like hey we don't do that here. So
+
+57
+0:04:56.320 --> 0:05:02.720
+I was in a world this is actually just before the VRChat like big boom over here due to all
+
+58
+0:05:02.720 --> 0:05:10.640
+that stuff and a kid came in. They sounded quite young and they walked up to an uninhabited avatar
+
+59
+0:05:10.640 --> 0:05:14.720
+and started bullying it. You know they're insulting it, swearing at it, etc. And I walked
+
+60
+0:05:14.720 --> 0:05:19.840
+over there I'm like hey we don't do that here. We're nice here. And you know the kid persisted
+
+61
+0:05:19.840 --> 0:05:25.440
+for a little bit and eventually they stopped because I just wouldn't let them do it. I was
+
+62
+0:05:25.440 --> 0:05:29.600
+like hey we don't do that here. I wouldn't argue with them. I was just like hey we just don't do
+
+63
+0:05:29.600 --> 0:05:35.120
+that here. Eventually they got the picture and they apologized to the uninhabited avatar
+
+64
+0:05:35.120 --> 0:05:41.040
+that no one was wearing. They're like sorry I was mean or whatever and that was that was that was
+
+65
+0:05:41.040 --> 0:05:49.280
+fun. Alrighty scrolling down. Alright Shy River says can public avatars be fully exported from
+
+66
+0:05:49.280 --> 0:05:54.800
+Neos? No you cannot export any type of avatar from Neos currently and that's because the moment you
+
+67
+0:05:54.800 --> 0:06:00.560
+bring a skinned mesh which is what an avatar is into Neos it uh it gets uh garbled is the
+
+68
+0:06:00.560 --> 0:06:06.240
+wrong word it gets translated into Neos format which is not currently exportable. That might
+
+69
+0:06:06.240 --> 0:06:13.280
+change in the future but right now go ahead turn off this ac we'll have less brr noises.
+
+70
+0:06:13.280 --> 0:06:17.760
+Let's move on to the next question here from unnamed cyborg cat. How exactly does the nitty
+
+71
+0:06:17.760 --> 0:06:21.520
+gritty of avatar creation work? Like yeah there's a thing you put on the head and hands and stuff
+
+72
+0:06:21.520 --> 0:06:25.120
+but what about where your eyes are or how to calibrate how big you are in comparison to
+
+73
+0:06:25.120 --> 0:06:30.000
+the avatar itself? How does it all work? That depends exactly on what you want. You like you
+
+74
+0:06:30.000 --> 0:06:34.800
+have like a couple of questions there which are sort of hidden behind that larger question like
+
+75
+0:06:34.800 --> 0:06:42.400
+how does the avatar system work? It's very very very very complicated but for where the eyes are
+
+76
+0:06:42.400 --> 0:06:46.720
+that is usually turned by we try and figure out if we can find the eyes if we see a bone called
+
+77
+0:06:46.720 --> 0:06:51.200
+right eye left eye hey that's an eye bone. How big you are in comparison to the avatar itself
+
+78
+0:06:51.200 --> 0:06:57.520
+is controlled by a height compensation field on the avatar that'll be under vrik or vrik avatar.
+
+79
+0:06:57.520 --> 0:07:03.040
+Please for the love of god and everything that has ever been ever said to anyone in the planet
+
+80
+0:07:03.920 --> 0:07:10.400
+both in vr chat and on neos in the settings there is a height setting you set it to your real world
+
+81
+0:07:10.400 --> 0:07:15.840
+height or i will personally come and send you angry cat gifs the reason is because uh we get
+
+82
+0:07:15.840 --> 0:07:19.120
+a lot of people changing the height setting so that they can change how big they are in comparison
+
+83
+0:07:19.120 --> 0:07:24.160
+the avatar completely wrong way of doing it there's height compensation which will map how
+
+84
+0:07:24.160 --> 0:07:29.440
+tall the avatar is compared to your real world height and then there's also um the default user
+
+85
+0:07:29.440 --> 0:07:32.720
+scale component which allows you to be small should you want to be small so not actually to
+
+86
+0:07:32.720 --> 0:07:36.480
+be big although i don't know anyone that does that but uh default user scale is how you become sort
+
+87
+0:07:36.480 --> 0:07:42.320
+of smaller than than you want to be uh do not set your height to anything other than your real world
+
+88
+0:07:42.320 --> 0:07:47.600
+height otherwise i will send you angry cat gifs you quite clearly like it says put in your height
+
+89
+0:07:47.600 --> 0:07:52.000
+and everyone's like if i put in a smaller height my avatar looks better and i'm like well just to
+
+90
+0:07:52.000 --> 0:07:56.000
+use the appropriate tools for the job please please erin doesn't know their real height you
+
+91
+0:07:56.000 --> 0:08:03.040
+you get a ruler and you figure it out moving forwards now he asks uh will there be unity
+
+92
+0:08:03.040 --> 0:08:07.600
+package support eventually that is a difficult answer because what i want you to remember is
+
+93
+0:08:07.600 --> 0:08:13.680
+that we aren't unity we are right now but we're going aiming to not be unity now a unity package
+
+94
+0:08:13.680 --> 0:08:19.120
+is essentially just like a zip archive with a bunch of like crap on top of it and so me
+
+95
+0:08:19.120 --> 0:08:24.000
+personally even before i knew what neos was i got really annoyed at unity packages it seems like a
+
+96
+0:08:24.000 --> 0:08:30.480
+really inefficient way to submit avatars across like i don't understand like it just just the
+
+97
+0:08:30.480 --> 0:08:35.440
+problem that the largest problem with unity packages being hey hey it's a format that we
+
+98
+0:08:35.440 --> 0:08:40.880
+don't really own and then be the materials we can't map one to one the material so it doesn't
+
+99
+0:08:40.880 --> 0:08:44.400
+really work the best thing that we can do currently i know there's some mods out there that
+
+100
+0:08:44.400 --> 0:08:49.680
+do it but like you know the best thing that we as neos could do is scan through that unity package
+
+101
+0:08:49.680 --> 0:08:54.640
+find the assets and dump them into a world for you which is really what the the mod does it's
+
+102
+0:08:54.640 --> 0:09:01.360
+just not that simple right we're not unity and so that needs to be respected by our users we of
+
+103
+0:09:01.360 --> 0:09:06.320
+course can make the avatar setup process more easier more better more intuitive and stuff like
+
+104
+0:09:06.320 --> 0:09:12.400
+that but i don't think we're going to get to the point where it is like a vrchat import it actually
+
+105
+0:09:12.400 --> 0:09:18.160
+probably diverge further and further away from what our vrchat import is uh whilst also still
+
+106
+0:09:18.160 --> 0:09:24.640
+being easier and that might lead to oddities that haven't been foreseen but uh the best way to look
+
+107
+0:09:24.640 --> 0:09:30.080
+at that is hey if you had started making avatars uh with neos and not vrchat you'd probably be
+
+108
+0:09:30.080 --> 0:09:36.080
+saying the other way around you'd be like whoa you know vrchat doesn't just take my fbx
+
+109
+0:09:36.080 --> 0:09:42.640
+file and make it into an avatar so i guess in summary an easier process yes specifically unity
+
+110
+0:09:42.640 --> 0:09:50.000
+packages possibly but also possibly not you really i guess need to ask um like more questions there
+
+111
+0:09:50.000 --> 0:09:55.760
+like why don't you have your files knocked in here that's another interesting and unique experience
+
+112
+0:09:55.760 --> 0:10:00.640
+with with new users is uh when i'm helping them import their avatar and they manage to find the
+
+113
+0:10:00.640 --> 0:10:06.560
+fbx for their you know their avatars like being the flesh and the skin the the armature etc they
+
+114
+0:10:06.560 --> 0:10:09.680
+bring it in and i'm like great now import your textures and they're like i don't know where those
+
+115
+0:10:09.680 --> 0:10:15.040
+are and i just give them instructions and uh it always goes fun i've had someone manage to
+
+116
+0:10:15.040 --> 0:10:19.280
+import the fbx and then two hours later they're still trying to find their textures it's it's
+
+117
+0:10:19.280 --> 0:10:27.680
+i don't know i don't understand sometimes why um like finding files on your computer is difficult
+
+118
+0:10:27.680 --> 0:10:32.240
+i see people within like my downloads folder is full of like thousands of items just clean it up
+
+119
+0:10:32.240 --> 0:10:35.920
+if you're watching a film clean it up if you're watching some tv clean up you'll have a lot better
+
+120
+0:10:35.920 --> 0:10:44.320
+time let's go ahead and move down into more and more questions all right here we are uh slide
+
+121
+0:10:44.320 --> 0:10:51.280
+swap region what does the slide slot what does this slide swap region component do under uix
+
+122
+0:10:51.280 --> 0:10:58.160
+utility is there any there there isn't any documentation on the wiki i don't know um i do
+
+123
+0:10:58.160 --> 0:11:04.160
+have the code base open so i can just have a quick look based on what i'm reading here it isn't usable
+
+124
+0:11:04.160 --> 0:11:12.320
+by uh yes find all references let's see if there's a way that does it okay yeah um so the uh login
+
+125
+0:11:12.320 --> 0:11:22.080
+dialog uses it and the uh file browser uses it uh for similar functionality you probably want what's
+
+126
+0:11:22.080 --> 0:11:28.960
+it called as a component um that i'm thinking of access multi-viewport panel would be exactly the
+
+127
+0:11:28.960 --> 0:11:35.920
+same as slide swap region it's in uix uh utility access multi-viewport panel will do identical
+
+128
+0:11:35.920 --> 0:11:41.200
+things to slide swap region based on my current reading of it fenre who um asks what's your
+
+129
+0:11:41.200 --> 0:11:45.360
+current thoughts on the rise of the player base uh in the game compared before i don't really have
+
+130
+0:11:45.360 --> 0:11:51.200
+any thoughts about it it's great to see you all um i love that all of you are trying neos but um
+
+131
+0:11:51.200 --> 0:11:57.280
+you know it's for us a lot it's just sort of like hey welcome try us out we're a lot busier i guess
+
+132
+0:11:57.280 --> 0:12:02.320
+but like i don't know it's it's a strange question if you can elaborate on that question or ask in
+
+133
+0:12:02.320 --> 0:12:06.960
+the area that you're asking for that'd be great kind of struggle with generic questions sometimes
+
+134
+0:12:06.960 --> 0:12:12.720
+toasty my roasty amazing username here uh they ask are there any new worlds places recommend new
+
+135
+0:12:12.720 --> 0:12:19.840
+players uh should see visit to experience new unique features i want everyone to see uh like
+
+136
+0:12:19.840 --> 0:12:25.760
+all of the sort of the spectrum right so i want you to see a game world to try um abandonware
+
+137
+0:12:26.720 --> 0:12:34.320
+ncr the heist uh cabin of the seasons even fropey's i can't remember fropey's entry name
+
+138
+0:12:34.320 --> 0:12:40.160
+something dark something i don't know it's really really good though i've just forgot its name
+
+139
+0:12:40.160 --> 0:12:44.800
+uh those are games try some social worlds yep we do have uh rim of the rain we also do have midnight
+
+140
+0:12:44.800 --> 0:12:50.880
+rooftop but we do have ones that vrchat doesn't have um 72 groove lake um hole in the wall one
+
+141
+0:12:50.880 --> 0:12:56.240
+of my favorites um uh various other ones there that i'm i'm not gonna be able to remember by
+
+142
+0:12:56.240 --> 0:13:01.600
+name if i didn't mention your um your world don't be sad it's just like there are thousands of
+
+143
+0:13:01.600 --> 0:13:04.640
+worlds i need to get to them so make sure take a look at those social worlds make sure you also
+
+144
+0:13:04.640 --> 0:13:09.920
+take a look at sort of experiential worlds as well um go touch grass is kind of like a game
+
+145
+0:13:09.920 --> 0:13:14.960
+but more like an experience right uh if it was on steam it would probably be tagged walking simulator
+
+146
+0:13:14.960 --> 0:13:20.720
+uh just just like see what there is to offer i see so many people treat this game as like
+
+147
+0:13:21.280 --> 0:13:26.320
+gary's mod you know they'll just load into like in some cases literally a gary's mod map
+
+148
+0:13:26.320 --> 0:13:32.640
+um and then they'll just spawn guns all day like that isn't like that isn't in my view what neos
+
+149
+0:13:32.640 --> 0:13:37.520
+is for like all the gadgets are great but like um i don't know it's like a year or two ago i
+
+150
+0:13:37.520 --> 0:13:43.040
+just stopped saving cool stuff right i i don't need the latest guns someone shows me in their
+
+151
+0:13:43.040 --> 0:13:49.040
+world i don't need the latest like weird thing that i've i've seen i know where like loads of
+
+152
+0:13:49.040 --> 0:13:53.520
+them are in public folders but like i don't feel the need to without a gun start shooting people
+
+153
+0:13:53.520 --> 0:13:58.480
+like it is gary's mod um so do make sure that you're seeing all of the stuff that we've got
+
+154
+0:13:58.480 --> 0:14:04.400
+to offer neos universe is another good suggestion as is um gas station that may mentions neos
+
+155
+0:14:04.400 --> 0:14:09.360
+festival is amazing it's just started i know that content is being raised for neos festival as it
+
+156
+0:14:09.360 --> 0:14:14.640
+continues to come out so do keep an eye on that one the the weird thing with neos festival is like
+
+157
+0:14:14.640 --> 0:14:22.080
+it is identical in in some aspects to the previous neos festers but it feels great because they've
+
+158
+0:14:22.080 --> 0:14:29.920
+managed to make like an art browsing like or a booth browsing sort of system that that feels fun
+
+159
+0:14:29.920 --> 0:14:37.520
+you ride on this skyship and uh you know it takes you between the booths it's really like a another
+
+160
+0:14:37.520 --> 0:14:44.240
+way of also hiding that loading bar so uh that's cool moving forwards to pyro shade who says uh
+
+161
+0:14:44.240 --> 0:14:48.320
+i had noticed while bringing an fbx drag from unity project window that neos importing mentioned
+
+162
+0:14:48.320 --> 0:14:52.160
+something about converting a scene i haven't tried this here but what happens if i dragged in scene
+
+163
+0:14:52.160 --> 0:14:57.280
+or objects from a scene hierarchy you can't do that uh we don't support any unity files like
+
+164
+0:14:57.280 --> 0:15:02.880
+doesn't work um when it's just converting the scene um it means it's looking at the fbx because
+
+165
+0:15:02.880 --> 0:15:08.000
+like although for avatars you don't usually see it uh for like a level that's an fbx you would
+
+166
+0:15:08.000 --> 0:15:12.720
+like it is a scene right that's what fbx is it's a whole scene what converting scene means is it's
+
+167
+0:15:12.720 --> 0:15:17.920
+like well what's in the scene so neos knows enough about avatar imports to understand that it should
+
+168
+0:15:17.920 --> 0:15:22.800
+ignore cameras and lights that you import especially if it's an avatar i don't need those
+
+169
+0:15:22.800 --> 0:15:26.080
+and then it converts that into something that makes sense to it that's that's all it means
+
+170
+0:15:26.080 --> 0:15:31.520
+it's not like we don't support scenes from unity um alex is one of the editorial delegates would
+
+171
+0:15:31.520 --> 0:15:35.600
+have to be more specific there delegates aren't something you should usually be playing with if
+
+172
+0:15:35.600 --> 0:15:39.280
+you have any particular questions about where you might be wanting to use them or how you might want
+
+173
+0:15:39.280 --> 0:15:45.440
+to be using them let me know um you don't really need them uh lou says news from vr share is the
+
+174
+0:15:45.440 --> 0:15:51.600
+way to dynamically change avatar parts absolutely there is um you said rgb cycling um i have a video
+
+175
+0:15:51.600 --> 0:15:55.840
+i'm going to link in the video description about a rainbow shader i call it shader just for search
+
+176
+0:15:55.840 --> 0:16:04.160
+terms it's a material that is um uh targeted using logics and you can basically do triple quadruple
+
+177
+0:16:04.160 --> 0:16:11.200
+like quintuple 10 times the stuff i show in this video just by iterating over the properties of a
+
+178
+0:16:11.200 --> 0:16:16.320
+material um and that's something which i really wish more newer players would understand as well
+
+179
+0:16:16.320 --> 0:16:21.920
+as like yes our material options are limited but all of our materials are dynamic and live
+
+180
+0:16:21.920 --> 0:16:28.640
+updating on as many of uh the as many of the places as as we can right you want to change
+
+181
+0:16:28.640 --> 0:16:32.720
+the color you can do it live you want to change the color 50 times a second to your favorite
+
+182
+0:16:32.720 --> 0:16:40.080
+color of sandwich done um if you're talking more about like changing parts as in like hats scarves
+
+183
+0:16:40.080 --> 0:16:46.560
+bracelets jackets than yet again like that that's totally fine um you can use snappers for that
+
+184
+0:16:46.560 --> 0:16:51.040
+context menus for that check boxes for that cloud very there's so much stuff there like again here's
+
+185
+0:16:51.040 --> 0:16:55.760
+a video where i uh i put on a hat and bracelet and i'll show you how i do that because like what
+
+186
+0:16:55.760 --> 0:17:01.920
+what what unity does and sort of by extension vr chat right is it is it when you hit play or
+
+187
+0:17:01.920 --> 0:17:07.040
+when you compile it like freezes everything that exists in place and doesn't let you change it like
+
+188
+0:17:07.040 --> 0:17:11.680
+sure if you've got code in your unity game that says like hey the hat changes that's great but
+
+189
+0:17:11.680 --> 0:17:16.880
+that's code that has to be sort of pre-thought out ahead of time whereas what we've done is we've
+
+190
+0:17:16.880 --> 0:17:21.520
+said like hey we don't know if you're going to wear a hat but what allow you to wear a hat like
+
+191
+0:17:21.520 --> 0:17:25.760
+you don't need to pre-think of it like anything you can think of you can probably do moving
+
+192
+0:17:25.760 --> 0:17:29.600
+forwards for questions aaron says my working progress photo is getting too big and suggestions
+
+193
+0:17:29.600 --> 0:17:34.880
+on how to start finishing my projects stop giving up stop giving up that would be my suggestion for
+
+194
+0:17:34.880 --> 0:17:39.280
+mr aaron i see them like they're like i'm tired and then they delete it and it's like go back to
+
+195
+0:17:39.280 --> 0:17:43.840
+it benry has elaborated on the question thank you they've said uh like did you ever think you would
+
+196
+0:17:43.840 --> 0:17:47.360
+suddenly get a blow up of people do you feel prepared uh to get so many people or not are
+
+197
+0:17:47.360 --> 0:17:52.640
+you just going to the flow of that really really plan uh there is a plan um and the plan is
+
+198
+0:17:52.640 --> 0:18:00.800
+spearheaded by both of our fantastic volunteer teams so we over provisioned and i knew why we
+
+199
+0:18:00.800 --> 0:18:06.720
+were doing that but we over provisioned our mentor team and in some regards our moderator team such
+
+200
+0:18:06.720 --> 0:18:10.720
+that we could handle the load so we got a bunch of mentors on in fact mentor applications have
+
+201
+0:18:10.720 --> 0:18:14.240
+like been open and closed a little bit but they've just been like wide open recently
+
+202
+0:18:14.240 --> 0:18:21.120
+and uh a lot of times the mentors were not not doing anything right but like we only needed like
+
+203
+0:18:21.120 --> 0:18:27.520
+two or three to help out at like certain busy periods during our regular play but we've had
+
+204
+0:18:27.520 --> 0:18:32.960
+this big rush and the mentors have just gone like yep we'll help out and then there's been 10 20 40
+
+205
+0:18:32.960 --> 0:18:38.480
+50 mentors flooding in to try and help you guys out and that's great to see and the reason why
+
+206
+0:18:38.480 --> 0:18:42.560
+that worked is because we had over provisioned that that volunteer team if you're interested
+
+207
+0:18:42.560 --> 0:18:48.400
+in becoming a mentor do you check out the wiki um wiki.neos.com forward slash mentors will get you
+
+208
+0:18:48.400 --> 0:18:53.360
+information on how to be a mentor there one quick note to know that if you're here um you do not
+
+209
+0:18:53.360 --> 0:18:57.520
+need to be a mentor to help people and if a mentor appears and you are helping someone you should
+
+210
+0:18:57.520 --> 0:19:02.000
+continue helping them don't yield to a mentor because you feel that they are more qualified
+
+211
+0:19:02.000 --> 0:19:06.880
+or that it's more correct that they help people uh mentor is just someone who wants to go through
+
+212
+0:19:06.880 --> 0:19:10.560
+that process and have the green badge to be recognized as someone who can help you can help
+
+213
+0:19:10.560 --> 0:19:14.880
+without being a mentor and as for mentors if you go into a world and someone is helping read the
+
+214
+0:19:14.880 --> 0:19:20.080
+room and uh maybe don't take over i've heard a lot of feedback about that recently and it bothers me
+
+215
+0:19:20.080 --> 0:19:25.200
+that we keep hearing that feedback so do keep that in mind um our servers were less prepared
+
+216
+0:19:25.200 --> 0:19:29.600
+than we realized which is a shame but uh that's the way it is sometimes um most of our stuff can
+
+217
+0:19:29.600 --> 0:19:35.120
+scale uh quite dynamically but sometimes there's like an upper or lower limit on that so you can
+
+218
+0:19:35.120 --> 0:19:40.560
+think of it like uh you know a dial on like a stereo or something right we can turn it up by
+
+219
+0:19:40.560 --> 0:19:44.480
+like two points but suddenly it was like hey we need to go to like we need to go to 11 we need to
+
+220
+0:19:44.480 --> 0:19:49.040
+go to 11 on these dials anyone that gets this reference you're amazing we need to go 11 on these
+
+221
+0:19:49.040 --> 0:19:53.360
+dials and it's like cool we have to remove like a couple of blocks there to allow it to go to 11
+
+222
+0:19:53.360 --> 0:19:57.360
+moving on ones two additional questions we have from olaf who says it's a way to have an avatar
+
+223
+0:19:57.360 --> 0:20:01.920
+return to t pose to more easily add things on like hats or clothing and over the character avatar
+
+224
+0:20:01.920 --> 0:20:08.720
+changes pose yes uh go inside inspect the root of the avatar it's vrik or vrik avatar i just can't
+
+225
+0:20:08.720 --> 0:20:12.560
+remember the difference between those two the reason is they're just really big components that
+
+226
+0:20:12.560 --> 0:20:16.800
+are on top of each other they're always on the same slot and i just i can't one of them will have
+
+227
+0:20:16.800 --> 0:20:22.000
+ik position wait drag that down to zero and your avatar will t pose just making sure i'm missing
+
+228
+0:20:22.000 --> 0:20:28.240
+any questions before i scroll down scrolling down mattie says that the mentor team was not prepared
+
+229
+0:20:28.240 --> 0:20:33.520
+for the exponential growth i think you were more prepared than if you'd like said yo we we only
+
+230
+0:20:33.520 --> 0:20:39.200
+have like we're only allowing five mentors this year like you were basically like anyone can apply
+
+231
+0:20:39.200 --> 0:20:44.160
+uh sir says hey don't forget the community members they did as well i did not mean to say that they
+
+232
+0:20:44.160 --> 0:20:48.480
+didn't in fact i made a particular call out to hell if you're not a mentor you don't need to be
+
+233
+0:20:48.480 --> 0:20:53.920
+one if you want to help like anyone can help uh i've seen crazy amounts of help going on uh i have
+
+234
+0:20:53.920 --> 0:20:58.000
+a really weird way of doing anyone that saw me drop into your mtc if there was a user there that
+
+235
+0:20:58.000 --> 0:21:02.080
+had more than five badges i'm like are you helping these guys out and they're like yep i'm like i'll
+
+236
+0:21:02.080 --> 0:21:05.440
+leave you to it if you got any questions let me know and i'll just instantly disconnect like i
+
+237
+0:21:05.440 --> 0:21:10.240
+don't want to crowd them like if they're helping someone out just disconnect uh moving onwards
+
+238
+0:21:10.240 --> 0:21:15.680
+foxbox says i had a session um hoping to help new users and they filled my session it was just me
+
+239
+0:21:15.680 --> 0:21:20.560
+and nine other new users asking for my help it wasn't too bad because they uh goofed off in the
+
+240
+0:21:20.560 --> 0:21:25.200
+background waited their turn yeah i also had that i was in a world of like six people and by the
+
+241
+0:21:25.200 --> 0:21:30.160
+time i got to the last person who wanted an avatar set up it was 5 a.m i did all their materials and
+
+242
+0:21:30.160 --> 0:21:36.720
+texturing um and they sort of timidly asked about dynamic bones and i just went tomorrow please
+
+243
+0:21:36.720 --> 0:21:40.480
+tomorrow that's another thing for the mentors out there and for the community members that are
+
+244
+0:21:40.480 --> 0:21:45.600
+helping out you guys can go to bed it's not a job there are no minimum hours there's no maximum
+
+245
+0:21:45.600 --> 0:21:50.640
+hours either work will uh fill the available space and the available time that exists in the day
+
+246
+0:21:50.640 --> 0:21:57.280
+so stop don't play nios for the entire 24 hours that you're awake um or exist on the planet if
+
+247
+0:21:57.280 --> 0:22:02.320
+you're not awake for the entire 24 hours you know i mean it's like go play i don't know have a kitty
+
+248
+0:22:02.320 --> 0:22:07.040
+online adventure instead of nios for a bit and chill out get some water in you and then chill
+
+249
+0:22:07.040 --> 0:22:13.680
+out moving forwards we have jelly gecko hello who says i'm in the process of creating avatars capable
+
+250
+0:22:13.680 --> 0:22:18.080
+of shape-shifting in this case shape-shifting implies going from a character to a monstrous form
+
+251
+0:22:18.080 --> 0:22:22.560
+i'm also interested in oh kitting i thought it said knitting and then i thought it said kiting
+
+252
+0:22:22.560 --> 0:22:28.560
+knit kitting out to the human character of different outfits in addition to uh his default
+
+253
+0:22:28.560 --> 0:22:32.240
+getup obviously there's a lot of data to be dealing with though can the idea of an avatar be
+
+254
+0:22:32.240 --> 0:22:36.720
+broken up into different files that components we can load as needed uh not dynamically but in some
+
+255
+0:22:36.720 --> 0:22:43.120
+regards yes um so just as you might have a hat that can be snapped on if you do it correctly
+
+256
+0:22:43.120 --> 0:22:50.320
+and amati if you're still in chat they have a um good example um you can do like snappable clothing
+
+257
+0:22:50.320 --> 0:22:56.560
+snappable ab um uh outfits uh snappable systems and all sorts of stuff like that which means you
+
+258
+0:22:56.560 --> 0:23:01.200
+should just load it from the inventory um i do have actually a note on that one but i'll leave
+
+259
+0:23:01.200 --> 0:23:04.320
+that until we run out of questions because i didn't do it at the start because i was running
+
+260
+0:23:04.320 --> 0:23:10.880
+late so uh yes moving uh forwards oh left says is this office hours audio getting recorded yes
+
+261
+0:23:10.880 --> 0:23:16.800
+everything gets recorded sometimes i do get um like uh forgetful in uploading it but like there
+
+262
+0:23:16.800 --> 0:23:25.040
+is a recording and it will be on sounder.fm as soon as i can get it there uh yes um there is
+
+263
+0:23:25.040 --> 0:23:30.240
+before i started using sounder i did text based notes those just got like really unwieldy um if
+
+264
+0:23:30.240 --> 0:23:33.840
+you'd like to see more text based notes you're more than welcome to transcribe the recordings
+
+265
+0:23:33.840 --> 0:23:37.840
+um there is an automatic transcription feature which i'm working with sounder on improving
+
+266
+0:23:37.840 --> 0:23:43.520
+because right now it lags at my computer um let's move on to pyroshade why is that green
+
+267
+0:23:43.520 --> 0:23:47.600
+tick not as green today like do i have a colorblind filter or something i'm very confused
+
+268
+0:23:47.600 --> 0:23:52.560
+anyway um pyroshade says something has went on my mind is level building in respect to custom
+
+269
+0:23:52.560 --> 0:23:57.120
+geometry while blender is a fantastic tool i can't help imagine there's liable to in-game
+
+270
+0:23:57.120 --> 0:24:00.400
+tools someone has likely created for creating geometry on the fly do you have any tools for
+
+271
+0:24:00.400 --> 0:24:06.560
+this and what you recommend um there's two types of of like buildings or geometry that uh you'd
+
+272
+0:24:06.560 --> 0:24:11.920
+likely need to create for a world one of them would be terrain so we're talking like grass
+
+273
+0:24:11.920 --> 0:24:19.040
+hills etc stuff like that and then the other one would be buildings you know a house a warehouse a
+
+274
+0:24:19.040 --> 0:24:26.240
+hut a shed a bridge or whatever for uh terrain um there are some terrain editors the problem with
+
+275
+0:24:26.240 --> 0:24:31.920
+those is that they are usually not as flexible as a mainstream terrain editors that you might find
+
+276
+0:24:31.920 --> 0:24:36.880
+are but you can still go ahead and get away with them uh the terrain editor that i'm thinking of
+
+277
+0:24:36.880 --> 0:24:40.400
+was when mmc entries so you should be able to find it just by searching for terrain editor
+
+278
+0:24:40.400 --> 0:24:44.640
+it lets you edit terrain in in game uva editing is another problem you might have with editing
+
+279
+0:24:44.640 --> 0:24:51.680
+creating game um as for buildings uh the builder tip by gahape which is one of the members of our
+
+280
+0:24:51.680 --> 0:24:57.520
+fantastic news community is what i would recommend i don't have a link to it or a tutorial for it
+
+281
+0:24:57.520 --> 0:25:01.840
+um so it might be a little bit difficult to find but if you go to essential tools jp tools it
+
+282
+0:25:01.840 --> 0:25:06.880
+should be somewhere in there uh look for gappy's builder tip it allows you to snap stuff together
+
+283
+0:25:06.880 --> 0:25:11.760
+on a grid how all sorts of parts have custom parts it's it's really good really quick um
+
+284
+0:25:11.760 --> 0:25:15.360
+if i can remember where it is i've been trying to find it for a couple of days i haven't managed
+
+285
+0:25:15.360 --> 0:25:20.960
+to find it there is a video i think by kahape which is like here's me building a house in 45
+
+286
+0:25:20.960 --> 0:25:26.880
+minutes and they just use the the builder tip and make a whole house it's crazy uh matty says i've
+
+287
+0:25:26.880 --> 0:25:33.360
+threatened a public banner and mentor leads before overworking yeah rest rest mentors community
+
+288
+0:25:33.360 --> 0:25:40.640
+members moderators rest it can wait it can wait it can wait alex says that they are using uh
+
+289
+0:25:40.640 --> 0:25:45.920
+they're using green tick rather than white check mark which is why i'm i'm not crazy excellent
+
+290
+0:25:45.920 --> 0:25:52.080
+thank you uh i i don't know where like i don't know how to get a happy tool other than like just
+
+291
+0:25:52.080 --> 0:25:55.920
+browsing through my folders which of course i can do whilst we wait for a few more questions
+
+292
+0:25:55.920 --> 0:25:59.040
+so i'm just gonna go ahead and do that let me just make sure i'm not missing any yeah i'm not
+
+293
+0:25:59.040 --> 0:26:07.440
+missing any questions uh is it even in this folder these days uh grab body node pack cd player gimbal
+
+294
+0:26:07.440 --> 0:26:12.720
+gimbal no it's not okay so their folder isn't in there i'll have to find that in the public folder
+
+295
+0:26:12.720 --> 0:26:20.720
+listing then uh gee items okay yeah i got it let me just get a link that for you there you go if
+
+296
+0:26:20.720 --> 0:26:27.600
+you paste that in the game uh you'll get a gap is a public folder get these items inside that
+
+297
+0:26:27.600 --> 0:26:36.080
+folder you will find a folder called tool tip go inside there and you will uh see a bunch of tips
+
+298
+0:26:36.080 --> 0:26:43.360
+uh look for the builder tip um build it at 1.1 and then it's there unfortunately i have no guide on
+
+299
+0:26:43.360 --> 0:26:48.560
+how to use it if someone else would like to make one of those fantastic uh great but uh i haven't
+
+300
+0:26:48.560 --> 0:26:52.720
+actually managed to like make a guide for how to use it yet mostly because i'm like not quite sure
+
+301
+0:26:52.720 --> 0:26:57.760
+but i know it's really cool and a lot of people have a lot of a great time with it mellow has
+
+302
+0:26:57.760 --> 0:27:02.000
+a question which says i really apologize if this discussed already if it was discussed already it's
+
+303
+0:27:02.000 --> 0:27:05.760
+totally fine i would answer anyway you just keep asking questions and don't worry about what you
+
+304
+0:27:05.760 --> 0:27:11.440
+worry about what the question is um i will answer it all day if i if i need to um they say is there
+
+305
+0:27:11.440 --> 0:27:15.280
+a plan to implement client-side filters for other people's advertisement how optimized they are
+
+306
+0:27:15.280 --> 0:27:22.880
+not currently our um approach there would probably be what can we remove um from your cognitive load
+
+307
+0:27:22.880 --> 0:27:27.760
+i mean by that is i'm always looking for stuff i can remove from your mental load not because i
+
+308
+0:27:27.760 --> 0:27:32.320
+don't think anyone can do it but just because like hey it's a game it's a platform we should make
+
+309
+0:27:32.320 --> 0:27:37.920
+things easy where if we can for our users so if there is a performance problem with a particular
+
+310
+0:27:37.920 --> 0:27:45.360
+avatar we'd like to see what we can do to edit that to make that better um so an example there
+
+311
+0:27:45.360 --> 0:27:50.960
+being hey let's actually start with user to user blocking um which we don't have currently and we
+
+312
+0:27:50.960 --> 0:27:57.120
+need before we go on to any sort of performance based stuff bean bean m chocolate that's kind of
+
+313
+0:27:57.120 --> 0:28:01.360
+difficult to phrase there um they said they've got something weird attached to them if you're
+
+314
+0:28:01.360 --> 0:28:06.400
+worried about what you've got um attached to you parented to you or like what's going on best
+
+315
+0:28:06.400 --> 0:28:12.000
+result is to leave the world and rejoin or respawn or change avatar it should go away if it doesn't
+
+316
+0:28:12.000 --> 0:28:16.880
+um that may be something malicious in which case please open a report at moderation.neos.com for
+
+317
+0:28:16.880 --> 0:28:22.800
+us to take a look um from the pictures it appears to be a multi-tool that you've somehow equipped
+
+318
+0:28:22.800 --> 0:28:28.160
+um you can just de-equip that tool and it should go away respawning is the the best way to like
+
+319
+0:28:28.160 --> 0:28:33.600
+get get that sorted um jelly yeah i'm not sure if we have like a cross communication there like
+
+320
+0:28:33.600 --> 0:28:38.000
+i'm not saying you could split them into separate avatars and ultimately that's what i would probably
+
+321
+0:28:38.000 --> 0:28:44.480
+advise but if you wanted a jacket a hat i don't know whatever that you could attach to the avatar
+
+322
+0:28:44.480 --> 0:28:50.960
+there are ways to do that as linked in matty's post above i have a hat which i don't ever wear
+
+323
+0:28:50.960 --> 0:28:57.040
+but sometimes can if i want to wear for example moving forwards to more questions so robo man
+
+324
+0:28:57.040 --> 0:29:01.920
+410 hello what are some of the top games activities the community has made um i don't like
+
+325
+0:29:01.920 --> 0:29:06.800
+doing that because like i would have to then choose my favorites and that's wrong um do you remember
+
+326
+0:29:06.800 --> 0:29:11.840
+that the world browser has um a game selection and you can go ahead and click that and then you'll
+
+327
+0:29:11.840 --> 0:29:17.040
+see a bunch of stuff there uh at the top of my head thinking about things if you want to go see
+
+328
+0:29:17.040 --> 0:29:22.080
+like crazy crazy crazy stuff this isn't good this isn't bad this is just crazy stuff from memory
+
+329
+0:29:22.080 --> 0:29:28.080
+go take a look at h&l uh ironworks that lets you smith smith weapons um the newest fishing lets
+
+330
+0:29:28.080 --> 0:29:34.080
+you fish aerial garden guardian mmc feels like a whole game really like it's it's uh it needs
+
+331
+0:29:34.080 --> 0:29:37.840
+some more polish before i would you know be okay of like launching on steam or anything but like
+
+332
+0:29:37.840 --> 0:29:42.800
+it's a it's a good game there is uh there is lots lots there please build more as well if you have
+
+333
+0:29:42.800 --> 0:29:47.120
+an idea for a game just go ahead and build it if you need help ask us all right let's move on to
+
+334
+0:29:47.120 --> 0:29:51.440
+question olef says how would you make an emitter of some sorts that spawns a random model plus
+
+335
+0:29:51.440 --> 0:29:57.920
+texture from a list of models that move and move rotate said spawned model on a path from a to b
+
+336
+0:29:57.920 --> 0:30:04.560
+and how to make the model gets despawned watch it reads its destination there's a component called
+
+337
+0:30:04.560 --> 0:30:08.160
+random object spawner it's a target for one of my next tutorials because i saw some people
+
+338
+0:30:08.160 --> 0:30:11.520
+discussing it earlier today and they didn't know how to use it so they didn't use it it's quite
+
+339
+0:30:11.520 --> 0:30:17.200
+cool uh you should probably use that um and if you want to go from point a to point b you could use
+
+340
+0:30:17.200 --> 0:30:22.320
+a uh skinned not skin mesh render what we're talking about a line transform
+
+341
+0:30:22.880 --> 0:30:28.720
+axis panner or the tween node to move that uh as for despawning it there is logic node called
+
+342
+0:30:28.720 --> 0:30:34.960
+delete destroy slot which will destroy the slot and anything underneath it uh so your approximate
+
+343
+0:30:34.960 --> 0:30:42.240
+plan would be spawn the thingy uh move it using tween axis panner line transform even alert would
+
+344
+0:30:42.240 --> 0:30:48.400
+do it actually and then destroy or destroy slot moving uh forwards if you've got any specific
+
+345
+0:30:48.400 --> 0:30:55.280
+questions about uh that particular setup do let me know um because uh i can just give you like
+
+346
+0:30:55.280 --> 0:31:00.560
+a bunch of videos like basically there's a video i made on reciprocal motion which means back and
+
+347
+0:31:00.560 --> 0:31:04.800
+forth like that should apply to sort of one direction as well if you just take off half of it
+
+348
+0:31:04.800 --> 0:31:10.320
+uh hack 13 asks what is the what is the too much respawn disconnect gestures i get them mixed up and
+
+349
+0:31:10.320 --> 0:31:14.000
+i want to make sure i remember which combos the buttons on next my head do it uh go look at the
+
+350
+0:31:14.000 --> 0:31:18.080
+basic controls page on the wiki because i always forget them too and therefore don't use them
+
+351
+0:31:18.640 --> 0:31:24.160
+but basic control should have a list and remind you what which ones which etc okay let's continue
+
+352
+0:31:24.160 --> 0:31:27.360
+erin says this is a moderation question but i'm never here for these office hours things
+
+353
+0:31:27.360 --> 0:31:30.160
+are you informed about the outcome of the moderation tickets you filed example you're
+
+354
+0:31:30.160 --> 0:31:34.160
+asked by something and something then decided to stay away from public worlds worth being taken
+
+355
+0:31:34.160 --> 0:31:39.360
+care of you are notified when we receive a ticket some people say that that is like a robot thing
+
+356
+0:31:39.360 --> 0:31:44.720
+like that's not actually a person yes it is automated in some aspects but it's like we've
+
+357
+0:31:44.720 --> 0:31:50.400
+received it we're processing it you'll also um get various messages sometimes we ask for more
+
+358
+0:31:50.400 --> 0:31:55.120
+information uh if we ask you for more information please provide it and you'll also get the sort of
+
+359
+0:31:55.120 --> 0:32:00.000
+ticket closed i don't remember the exact phrasing of that um but to sort of back that up we're
+
+360
+0:32:00.000 --> 0:32:04.400
+never going to tell you what we did and the reason behind that is because it just leads to it just
+
+361
+0:32:04.400 --> 0:32:08.720
+leads to drama right so it's you're never going to get like you say you put in a ticket which is like
+
+362
+0:32:08.720 --> 0:32:13.600
+yo i'm being harassed by erin you're never getting a response which is hi yeah we banned erin for the
+
+363
+0:32:13.600 --> 0:32:17.920
+rest of their life from neo so you're not going to get that like you'll get like hey moderation
+
+364
+0:32:17.920 --> 0:32:21.760
+has taken appropriate action or moderation has reviewed this and taken appropriate action or
+
+365
+0:32:21.760 --> 0:32:25.680
+something like that isn't because like we're hiding it from you it just it prevents all
+
+366
+0:32:25.680 --> 0:32:30.640
+sorts of like weird cases where people yell at each other people are strange when it comes to
+
+367
+0:32:30.640 --> 0:32:37.280
+moderation uh moving forwards let's take a look so dat uh asks is there any documentation for
+
+368
+0:32:37.280 --> 0:32:40.880
+networking because i'm struggling a lot with my current game that needs a lot of sync um
+
+369
+0:32:40.880 --> 0:32:45.840
+do you mean like the sync progress thing like syncing five items at the top etc
+
+370
+0:32:45.840 --> 0:32:51.520
+because like i've noticed that being a problem in users but i i don't know why i have been playing
+
+371
+0:32:51.520 --> 0:32:58.320
+the game for many many years and i've never had a sync issue um the usual ways to like avoid having
+
+372
+0:32:58.320 --> 0:33:03.520
+sync issues are to make sure that your hard drive space is not going to fill up and also that your
+
+373
+0:33:03.520 --> 0:33:09.440
+cloud space is not going to fill up and also that you are only saving the stuff that you need i see
+
+374
+0:33:09.440 --> 0:33:14.960
+people that are pack riding stuff away and it's like ah please stop saving that like do you need
+
+375
+0:33:14.960 --> 0:33:22.640
+the 5000 weapons that you're saving please no um okay sold that has as a clarified network sync
+
+376
+0:33:22.640 --> 0:33:26.800
+between players that is largely dependent on where you are located and where those players are
+
+377
+0:33:26.800 --> 0:33:32.560
+located and how fast your internet is um so we we do have a way of going between players it's
+
+378
+0:33:32.560 --> 0:33:37.920
+called our relay um but if that relay isn't used then you're either using steam sockets
+
+379
+0:33:37.920 --> 0:33:42.800
+or using a direct connection to that person's computer and so if you are in australia and
+
+380
+0:33:42.800 --> 0:33:48.800
+they're in america then you'll have less of an ability to sync between players if you connect
+
+381
+0:33:48.800 --> 0:33:55.360
+to the same country you'll have better uh stuff there yeah big red wolfie is one of our australian
+
+382
+0:33:55.360 --> 0:34:00.240
+players we have quite a few and uh they're just like they've just learned to cope with it
+
+383
+0:34:00.240 --> 0:34:04.240
+sometimes it depends what's going on as well depends how many people are in the world um
+
+384
+0:34:05.440 --> 0:34:09.920
+depends how many people are in the world um if like a world gets busy you'll have more and more
+
+385
+0:34:09.920 --> 0:34:14.000
+sync issues jumping down to it eastern says private doesn't have to get issues that isn't
+
+386
+0:34:14.000 --> 0:34:19.760
+what i was saying what i was saying is like i gave people advice about how to avoid it um
+
+387
+0:34:19.760 --> 0:34:25.760
+on the topic of sync issues there is something i need to say which is stop again for the love
+
+388
+0:34:25.760 --> 0:34:32.400
+of everything stop deleting your local nearest database you can delete your cash that's fine
+
+389
+0:34:32.400 --> 0:34:38.480
+just stop deleting the local nearest database unless support or something you read tells you to
+
+390
+0:34:38.480 --> 0:34:44.320
+what i see a lot is people going like x or y didn't work so i you know reinstalled my entire
+
+391
+0:34:44.320 --> 0:34:50.240
+computer and i i rebuilt the building i live in and i deleted everything and i sold all my worldly
+
+392
+0:34:50.240 --> 0:34:54.720
+possessions and i moved into the mountains and it still doesn't work and it's like well like the
+
+393
+0:34:54.720 --> 0:35:00.240
+fix for that wasn't any of that so make sure it's clear that you have gone through prior
+
+394
+0:35:00.240 --> 0:35:04.480
+debug steps to do it uh there are some sections on the frequently asked questions that do cover
+
+395
+0:35:04.480 --> 0:35:09.040
+that those do need to be better we just need to write some better ones there uh so jumping back
+
+396
+0:35:09.040 --> 0:35:13.680
+up now we're away from uh actually electron it says deleting your database can make issues worse
+
+397
+0:35:13.680 --> 0:35:19.280
+correct it can um in computing there's like a few ways to solve a problem there's fix the problem
+
+398
+0:35:19.280 --> 0:35:23.360
+which means hey it doesn't reoccur and you learn something there is delete the problem that's
+
+399
+0:35:23.360 --> 0:35:27.440
+usually where you reinstall the game you reinstall your computer or even when you reboot your computer
+
+400
+0:35:27.440 --> 0:35:32.320
+when you reboot your computer you're just flushing all the bits back down to to zero not of course on
+
+401
+0:35:32.320 --> 0:35:36.160
+the you know the hard drive storage but like all of the bits in your cpu all of the bits in your
+
+402
+0:35:36.160 --> 0:35:41.200
+memory is just like flushed back to zero and so the problem just gets deleted it doesn't get fixed
+
+403
+0:35:41.200 --> 0:35:46.720
+or you can ignore the problem so your choices are fixed delete or ignore and uh i never want to do
+
+404
+0:35:46.720 --> 0:35:51.200
+the delete i frequently do the ignore though let's move back to other questions that we got here so
+
+405
+0:35:51.200 --> 0:35:54.640
+uh actually we'll have to end at the top of the hour so i'm going to try and get through this
+
+406
+0:35:54.640 --> 0:36:01.280
+quick as i can um so bean says uh thanks that got off there's a train brain treat fair is there a
+
+407
+0:36:01.280 --> 0:36:06.080
+terrain build a system i can use like a voxel system where i can just dig into the terrain or
+
+408
+0:36:06.080 --> 0:36:10.960
+add on to it i saw some terrain but i don't know if that was built outside of neos um not to that
+
+409
+0:36:10.960 --> 0:36:16.080
+level it's not like how some of those like voxel based games um hydrogen air comes to mind we can
+
+410
+0:36:16.080 --> 0:36:21.520
+just like dig a massive hole or like some of the minecraft inspired games where you can just like
+
+411
+0:36:21.520 --> 0:36:27.920
+dig more sort of smoother terrain in not like that no but the terrain editor that we do have in game
+
+412
+0:36:27.920 --> 0:36:33.840
+is uh cool for making just sort of like larger more general structures we're able to say like
+
+413
+0:36:33.840 --> 0:36:39.360
+here's a hill here's a mountain here's a valley etc but you wouldn't be able to be like i want
+
+414
+0:36:39.360 --> 0:36:44.960
+the mountain to be in the shape of my favorite dog potato munchkin that that's that you'll need
+
+415
+0:36:44.960 --> 0:36:49.040
+the outside terrain systems for that and that's because the outside outside terrain systems have
+
+416
+0:36:49.040 --> 0:36:54.320
+like brushes and you can go in and you can brush onto that terrain with various sets of brushes and
+
+417
+0:36:54.320 --> 0:36:58.480
+pull things around such that it looks how you want it to look you can sometimes get away with just
+
+418
+0:36:58.480 --> 0:37:05.920
+like drawing like a height map and to make terrain as well um again then there's like a loss of detail
+
+419
+0:37:05.920 --> 0:37:10.400
+jelly says that uh they're in a session and someone spawned stuff and it wasn't visible
+
+420
+0:37:10.400 --> 0:37:16.160
+interactable into almost an hour that's a uh that's a synchronization thing um check your
+
+421
+0:37:16.160 --> 0:37:20.240
+queued packets there are various ways to do that various uis very spawnable thing even bobs there's
+
+422
+0:37:20.240 --> 0:37:26.400
+even a logics node for it um queue packets are basically how many messages are waiting on the
+
+423
+0:37:26.400 --> 0:37:32.320
+server to be delivered to you and if all of your queued packets are zero then that means you are
+
+424
+0:37:32.320 --> 0:37:37.680
+up to date with the server there's nothing being waited wait waited wait waited being there's
+
+425
+0:37:37.680 --> 0:37:43.120
+nothing waiting to come down to you there you go take a sentence the right way around uh night
+
+426
+0:37:43.120 --> 0:37:48.320
+nitrous 96 says i was wondering on the status of the quest to port of neos is um it is in the
+
+427
+0:37:48.320 --> 0:37:53.440
+android testers channel if you don't have patreon at 12 or more you cannot see it it is a testing
+
+428
+0:37:53.440 --> 0:37:58.960
+build it is not suitable for mainstream use it crashes about every 45 minutes for various reasons
+
+429
+0:37:58.960 --> 0:38:02.960
+and if you go into average session on neo she'll probably crash due to the amount of blend shapes
+
+430
+0:38:02.960 --> 0:38:07.360
+that exist on people's avatars right now um more work needs to happen on it before it become
+
+431
+0:38:07.360 --> 0:38:12.240
+mainstream and before it can become optimized um that work is not happening right now see the
+
+432
+0:38:12.240 --> 0:38:17.760
+answers channel um so that's really the state isn't it okay solder has a further expanded the
+
+433
+0:38:17.760 --> 0:38:22.000
+question totally fine that this that happens just keep on asking the question in different ways
+
+434
+0:38:22.000 --> 0:38:26.720
+till i actually answer something that makes sense and and we'll get there i apologize for that so
+
+435
+0:38:26.720 --> 0:38:30.000
+they said that they're making a game and are struggling to sync the game state because there's
+
+436
+0:38:30.000 --> 0:38:34.320
+almost no documentation about sync what type of stuff would you like to sync so as an example here
+
+437
+0:38:34.320 --> 0:38:41.040
+if you'd like to sync like ammo on a gun um you might want to sync that locally or something like
+
+438
+0:38:41.040 --> 0:38:46.960
+that um you need to learn a couple of preset thingies so you would need to learn take a look
+
+439
+0:38:46.960 --> 0:38:52.720
+at dynamic impulses dynamic variables cloud variables and just logics in general and then
+
+440
+0:38:52.720 --> 0:38:57.600
+you should know how to sync it isn't something that like you usually need to think about and
+
+441
+0:38:57.600 --> 0:39:02.720
+that's why there isn't much documentation on it right because you don't usually need to do like
+
+442
+0:39:02.720 --> 0:39:06.560
+when it comes to game design you don't usually need to do synchronization with neos you just need
+
+443
+0:39:06.560 --> 0:39:12.400
+to know the tools that are available and build the game around that there is a video i did recently
+
+444
+0:39:12.400 --> 0:39:19.680
+about mindable ore in a game that will sync across everyone without any additional work
+
+445
+0:39:20.560 --> 0:39:24.720
+in that mindable or tutorial you have to hit a pickaxe three times into an ore node and it will
+
+446
+0:39:24.720 --> 0:39:29.920
+drop a piece of ore which is an item none of that has to be synced manually by you uh the moment you
+
+447
+0:39:29.920 --> 0:39:35.040
+hit it once of a pickaxe every single user provided they're not queued of course will get a message
+
+448
+0:39:35.040 --> 0:39:38.400
+that you've hit it and that you need to hit it two more times before it comes out like you don't
+
+449
+0:39:38.400 --> 0:39:42.960
+need to do anything extra there alex has found a skipped question which is fantastic thank you for
+
+450
+0:39:42.960 --> 0:39:48.160
+doing that um alex uh has pointed to it is there a good guide for explaining layering for worlds
+
+451
+0:39:48.160 --> 0:39:54.960
+like separation or instancing uh no um be careful when you're doing that like uh if you're doing it
+
+452
+0:39:54.960 --> 0:40:01.360
+for coloring culling coloring if you don't have color reasons fantastic um uh for culling you
+
+453
+0:40:01.360 --> 0:40:06.320
+need to keep in mind that people will insist that they need to be in noclip even when they don't
+
+454
+0:40:06.320 --> 0:40:10.240
+need to be in noclip so you'll have to do some sort of culling system that works in noclip that's
+
+455
+0:40:10.240 --> 0:40:13.600
+one of the reasons why i haven't documented it because i just disagree with that i'm like if you
+
+456
+0:40:13.600 --> 0:40:18.400
+need culling you should not be in noclip noclip is called noclip because you don't clip we actually
+
+457
+0:40:18.400 --> 0:40:24.480
+had a github issue a long time ago just like can you make noclip clip i'm like no no we can't make
+
+458
+0:40:24.480 --> 0:40:28.560
+no clip clip so by my knowledge there isn't any guide on it uh what you're looking for is culling
+
+459
+0:40:28.560 --> 0:40:32.400
+system if you ask in other channels in discord for a culling system some people will show you
+
+460
+0:40:32.400 --> 0:40:38.400
+what they've got nitrous asks uh uh if there's any plans to optimize the game yes optimization
+
+461
+0:40:38.400 --> 0:40:42.640
+is like always something i'm thinking about but always something everyone else is thinking about
+
+462
+0:40:42.640 --> 0:40:46.160
+as well that's also why sometimes features don't come out as quickly as you would like
+
+463
+0:40:46.160 --> 0:40:49.600
+we could quite easily throw out collections tomorrow for example but it would not be
+
+464
+0:40:49.600 --> 0:40:56.240
+optimized there'd be more key packets um it will be largely and holistically more frustrated than
+
+465
+0:40:56.240 --> 0:41:00.320
+the lack of collections that's why it doesn't exist um we're always planning on optimizing it
+
+466
+0:41:01.120 --> 0:41:06.800
+fruits has a list of stuff they just need to do to be more optimized and with that we've reached
+
+467
+0:41:06.800 --> 0:41:10.320
+the bottom of the questions so i want to do i should have given this at the start but i do
+
+468
+0:41:10.320 --> 0:41:15.440
+want to give one more message joniel that's still listening here slots do not cause lag
+
+469
+0:41:15.440 --> 0:41:21.120
+stop proliferating that rumor i will chase you with cat gifs until you stop i was in a several
+
+470
+0:41:21.120 --> 0:41:26.240
+worlds over the week and people like yeah slots cause they don't slots count the slot count of
+
+471
+0:41:26.240 --> 0:41:33.520
+an avatar the slot count of an item is a symptom not a cause the symptom is there are a lot of
+
+472
+0:41:33.520 --> 0:41:37.520
+slots and the reason why there are a lot of slots is because there's too much on that particular
+
+473
+0:41:37.520 --> 0:41:42.240
+system so if you want to optimize an avatar start by removing systems don't remove slots remove
+
+474
+0:41:42.240 --> 0:41:48.160
+systems do you need to tell us your favorite cabbage variety above your head in your name
+
+475
+0:41:48.160 --> 0:41:52.080
+badge do you need to tell me your fps do you need to tell me your battery control level
+
+476
+0:41:52.080 --> 0:41:57.360
+do you need to tell me that your uh local time do you need to tell me the weather in your location
+
+477
+0:41:57.360 --> 0:42:03.360
+do you need to do any of that no you don't so remove that remove that before you start removing
+
+478
+0:42:03.360 --> 0:42:09.200
+slots remove systems do you need a gun at your hip for every single session that you're in no
+
+479
+0:42:09.200 --> 0:42:17.040
+remove that do you need um do you need a custom inspector parented to your avatar no spawn it in
+
+480
+0:42:17.040 --> 0:42:23.360
+with the tool when you need to do build let's move uh so yeah just just think about like it's it's
+
+481
+0:42:23.360 --> 0:42:29.120
+like a it's like a stacked order of things because like electronics points out like shifty has said
+
+482
+0:42:29.120 --> 0:42:36.400
+the uh slot transforms due to ik cause some lag yes they do cause some lag but not compared to
+
+483
+0:42:36.400 --> 0:42:42.480
+the like a million systems that are on your avatar that you don't need like it's all relative right
+
+484
+0:42:42.480 --> 0:42:48.080
+so think about what you're loading into the world before you think about how many slots it has
+
+485
+0:42:48.080 --> 0:42:52.400
+because like the slots are just a symptom right if it's a complicated system it's going to have
+
+486
+0:42:52.400 --> 0:42:57.600
+a lot of slots and if it's complicated it's probably causing lag by itself and doesn't need
+
+487
+0:42:57.600 --> 0:43:03.600
+to care about the slot count like i could probably rig up a 1 million slot thing that has the same
+
+488
+0:43:03.600 --> 0:43:09.600
+that has the same performance as like one rex avatar it's not slots moving uh forwards for the
+
+489
+0:43:09.600 --> 0:43:16.000
+last few questions uh cloud cloud support says uh your vision aware virtual worlds building and
+
+490
+0:43:16.000 --> 0:43:21.680
+hanging out and special communities are i don't quite understand the question i don't personally
+
+491
+0:43:21.680 --> 0:43:28.640
+have a vision there i just want to enable people to like build cool shit and that's the the vision
+
+492
+0:43:28.640 --> 0:43:33.120
+i know that's a poor answer but like it's difficult to answer that one unless there's
+
+493
+0:43:33.120 --> 0:43:37.280
+more specificity about what's going on just notice that you've clarified some specificity
+
+494
+0:43:38.800 --> 0:43:43.600
+specificity there by saying curious about where things are headed uh you can see our roadmap that's
+
+495
+0:43:43.600 --> 0:43:47.680
+on the github which has all the sort of features that we're looking for and stuff like that uh
+
+496
+0:43:47.680 --> 0:43:51.680
+aside from those features the general goal is to just enable you guys to create more and more stuff
+
+497
+0:43:51.680 --> 0:43:56.720
+with more and more tools more and more abilities and to be more optimized and easier to use so
+
+498
+0:43:56.720 --> 0:44:04.720
+that's our like forward progression okay moving forwards to nitrous's next question um how do i
+
+499
+0:44:04.720 --> 0:44:09.680
+go about completely wiping my home worlds because i messed up and now have a giant miku that i can't
+
+500
+0:44:09.680 --> 0:44:16.080
+delete uh you can delete that open up the um inspector and just go through each item in the
+
+501
+0:44:16.080 --> 0:44:20.080
+inspector and you'll find the miku and you can delete it you can reset those home worlds but
+
+502
+0:44:20.080 --> 0:44:23.840
+it'll be a lot easier to just go through the inspector and find that miku and you also learn
+
+503
+0:44:23.840 --> 0:44:29.760
+about how to do that process for next time that happens um i don't know if anyone in here was
+
+504
+0:44:29.760 --> 0:44:36.240
+aware it was around we were in uh raivi's nest world and uh i noticed in the middle of spawn
+
+505
+0:44:36.240 --> 0:44:42.080
+was a single flame badge and siro then spent like 30 minutes trying to figure out where that flame
+
+506
+0:44:42.080 --> 0:44:48.160
+badge was and we eventually got there like we eventually found it it was a null parented slot
+
+507
+0:44:48.160 --> 0:44:53.120
+which sometimes does happen it's a bug and it's problematic uh and then uh actually so nitro has
+
+508
+0:44:53.120 --> 0:44:57.280
+a second question which is i've seen people with custom menus of different sounds what mod is that
+
+509
+0:44:57.280 --> 0:45:02.720
+that's not a mod um that's another thing like i like like the policy like i wrote the policy on
+
+510
+0:45:02.720 --> 0:45:07.440
+modding the modern community are fantastic if there's one thing i could say and you know you're
+
+511
+0:45:07.440 --> 0:45:12.880
+entitled to go do your own research etc it's stop looking for mods when you initially join the game
+
+512
+0:45:12.880 --> 0:45:17.360
+learn about our existing features before you go look for mods like we had someone in the modding
+
+513
+0:45:17.360 --> 0:45:22.640
+discord the other day asking for a mod to enable flying and it's like that's just part of neos you
+
+514
+0:45:22.640 --> 0:45:29.600
+can just fly you don't need a mod for that and so again for um custom menus of different sounds you
+
+515
+0:45:29.600 --> 0:45:34.400
+don't need a mod for that you just build it um when building those things do keep in mind that
+
+516
+0:45:34.400 --> 0:45:39.040
+some users myself included are sound sensitive and that we don't care when you open up your context
+
+517
+0:45:39.040 --> 0:45:43.680
+menu and so if you should for example use kingdom hearts sound effects from the menu noises of
+
+518
+0:45:43.680 --> 0:45:50.160
+kingdom hearts on the global audio channel at 150 volume every time you open your context menu
+
+519
+0:45:50.160 --> 0:45:55.760
+i'm likely to kick you from my world it is like no offense like i don't i'm not angry of you
+
+520
+0:45:55.760 --> 0:46:00.400
+i just don't want to hear kingdom hearts music menu every time you open your context menu so
+
+521
+0:46:00.400 --> 0:46:06.320
+don't do that maybe play it locally and maybe make it situational if it's locally actually i
+
+522
+0:46:06.320 --> 0:46:14.160
+don't care but like if it's not local make it situational and make it sound reasonable
+
+523
+0:46:14.160 --> 0:46:20.160
+well now you open up a context menu i don't want to hear the entire halo soundtrack you know the
+
+524
+0:46:20.160 --> 0:46:26.160
+choral like r's and o's from the main soundtrack don't need that don't know why anyone does please
+
+525
+0:46:26.160 --> 0:46:29.120
+don't do it okay i'm going to go through these really really quick i do have to go at the behalf
+
+526
+0:46:29.120 --> 0:46:35.360
+as i said um electronicis ought to know about more slot transforms what exactly is that and what be
+
+527
+0:46:35.360 --> 0:46:39.440
+the way to minimize that that's about calculating where our slot is relative to another slot so i
+
+528
+0:46:39.440 --> 0:46:44.000
+don't know and i'm not going to give out false information so i don't know but i would think
+
+529
+0:46:44.000 --> 0:46:49.840
+theoretically theoretically say the um parenting logic systems to the top of your avatar would
+
+530
+0:46:49.840 --> 0:46:54.640
+probably be best as there are low less transforms there but again it's not about slots just just
+
+531
+0:46:54.640 --> 0:47:00.320
+reiterating that it's just like uh an idea shark says when you talk about slots but you meet the
+
+532
+0:47:00.320 --> 0:47:03.920
+do you mean by slots every clothing option reduces performance even if it's not in use
+
+533
+0:47:03.920 --> 0:47:08.880
+uh slot you if you're familiar with unity vr chat stuff like that slot is basically an empty game
+
+534
+0:47:08.880 --> 0:47:12.480
+object it's anything with a transform anything in the hierarchy that appears on the left side of
+
+535
+0:47:12.480 --> 0:47:18.320
+ninos of unity uh over in unity it's called game object over here it's called slots it's basically
+
+536
+0:47:18.320 --> 0:47:23.280
+just like a position a rotation and a scale of which things can be attached to including other
+
+537
+0:47:23.280 --> 0:47:29.280
+slots um so you want to keep that count low but you want to look at other stuff before you worry
+
+538
+0:47:29.280 --> 0:47:36.160
+about slot count so if you're like yes my avatar is 800 slots but it also has like 50 000 logics
+
+539
+0:47:36.160 --> 0:47:40.880
+nodes on it talking to a web socket server so i can see the uh temperature of your hamster's
+
+540
+0:47:40.880 --> 0:47:46.560
+rear end that's probably what's causing lag and not the slots uh so that says what's the best and
+
+541
+0:47:46.560 --> 0:47:51.520
+most optimized way to do quaternion look rotations uh check the components we have uh transform
+
+542
+0:47:51.520 --> 0:47:55.600
+drivers look at look at user and auto look at user i don't know the difference between all those
+
+543
+0:47:55.600 --> 0:47:59.520
+three i just pick one and mess with it till it works and if it doesn't work i'll load the other
+
+544
+0:47:59.520 --> 0:48:03.520
+ones and take a look at those those are the best ways to do it because those are the simplest ways
+
+545
+0:48:03.520 --> 0:48:06.320
+you don't have to do any of the maths yourself you just put in some details and it'll do the
+
+546
+0:48:06.320 --> 0:48:11.040
+look rotation for you we also have in logics we have math rotation and then there is look
+
+547
+0:48:11.040 --> 0:48:16.160
+rotation as a node which would work in a similar way to how the unity function would work if you're
+
+548
+0:48:16.160 --> 0:48:21.040
+familiar with that one i used that one the other day both of those are as optimized as we can get
+
+549
+0:48:21.040 --> 0:48:26.320
+them uh so use those don't wherever possible see if there's a node that does the mathematical
+
+550
+0:48:26.320 --> 0:48:31.520
+calculation for you because in those aspects we're able to optimize it for you basement says
+
+551
+0:48:31.520 --> 0:48:35.840
+what's wrong with the entire helo centric the helo centric is fantastic someone opening their
+
+552
+0:48:35.840 --> 0:48:41.280
+context menu and then a halo spawning around it the halo from halo and then the the coral
+
+553
+0:48:41.280 --> 0:48:46.640
+main track going off whilst they fumble around with equipping a tool and then close it again
+
+554
+0:48:47.280 --> 0:48:52.880
+not cool uh aaron says that that's not an actual question great skipping it uh no more questions
+
+555
+0:48:52.880 --> 0:48:58.400
+after aaron i gotta run it's it's getting late but i'll get uh olaf's and i'll get nate's uh
+
+556
+0:48:58.400 --> 0:49:02.640
+olaf says which trial subjects are planned to cover in the near future i don't know i had the
+
+557
+0:49:02.640 --> 0:49:08.400
+covid booster yesterday and i'm alternating between shivering and boiling everyone's like
+
+558
+0:49:08.400 --> 0:49:13.840
+you should skip office hours and i'm like no i've been doing office hours like every week for a solid
+
+559
+0:49:13.840 --> 0:49:21.200
+like year i'm not losing my streak uh so i don't know today maybe some tara who knows i want to do
+
+560
+0:49:21.200 --> 0:49:26.720
+um like i said i want to do random object spawner and i want to do a few on stuff which i just i
+
+561
+0:49:26.720 --> 0:49:33.680
+just see questioned and aren't covered that may involve some of the um the walking animation stuff
+
+562
+0:49:33.680 --> 0:49:38.880
+etc but like it basically is like when i start recording is what i feel like it used to be i
+
+563
+0:49:38.880 --> 0:49:42.240
+could do like i knew i was planning out because i hadn't done tutorials and everything but now
+
+564
+0:49:42.240 --> 0:49:47.760
+it's harder and harder to find something that i like go yep i can do that um nate wrench says
+
+565
+0:49:47.760 --> 0:49:53.680
+can we filter uh worlds that have potato modes uh yes if you would like to contact a user that
+
+566
+0:49:53.680 --> 0:49:59.440
+has a potato mode in their world and ask them to add the potato tag to their world tags then you'll
+
+567
+0:49:59.440 --> 0:50:03.360
+be able to search for worlds by the potato tag and then you'll be able to find worlds that have the
+
+568
+0:50:03.360 --> 0:50:07.520
+potato modes uh worlds can have tags tags are very powerful make sure that your worlds have
+
+569
+0:50:07.520 --> 0:50:10.880
+appropriate tags if your world is a game make sure it has the game tag give us a piece of art make
+
+570
+0:50:10.880 --> 0:50:16.240
+sure it's the art tag uh i split shots when is the office house hosted each week um i will post
+
+571
+0:50:16.240 --> 0:50:21.200
+a wiki link in just a moment and uh my last final message before i go because i really don't have to
+
+572
+0:50:21.200 --> 0:50:26.480
+run is make tickets if someone is bad to you in a session if they harass you if there's a problem
+
+573
+0:50:26.480 --> 0:50:31.920
+if you want to get someone banned because you don't like them moderation.neos.com we won't
+
+574
+0:50:31.920 --> 0:50:38.000
+penalize you for invalid tickets we would rather hear about it moderation.neos.com best way to get
+
+575
+0:50:38.000 --> 0:50:52.160
+in touch with moderation fastest way to get in touch with moderation thank you and goodbye
+

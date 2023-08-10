@@ -1,0 +1,1404 @@
+1
+00:00:00,000 --> 00:00:04,480
+All right everyone, welcome to prime time. Again, it's a half hour AMA where you can ask any questions about Neos.
+
+2
+00:00:04,480 --> 00:00:08,560
+We don't have any questions today, we just actually have people complaining about my microphone,
+
+3
+00:00:08,560 --> 00:00:14,000
+which is perfectly natural and please thank you for continuing doing so. If there are any issues,
+
+4
+00:00:14,000 --> 00:00:19,280
+please do let me know. Microphone's a difficult year. But yeah, we have no questions, so I don't
+
+5
+00:00:19,280 --> 00:00:22,960
+need to use the microphone. If you have questions, please put them in the thread and I'll get them as
+
+6
+00:00:22,960 --> 00:00:26,640
+I can, otherwise I'm going to go ahead and mute and we're going to sit here for the entire office
+
+7
+00:00:26,640 --> 00:00:31,600
+house segment. We have nothing to talk about. Grace says, can I ask something not to do with
+
+8
+00:00:31,600 --> 00:00:36,960
+Neos? Usually it depends on sort of how busy we are. I usually skip personal questions because
+
+9
+00:00:36,960 --> 00:00:42,160
+we're busy, but if there are no questions here, go for it. Do whatever you want. I may reject the
+
+10
+00:00:42,160 --> 00:00:46,160
+question depending on what it is. I am only sort of guaranteed to answer Neos questions.
+
+11
+00:00:47,040 --> 00:00:52,160
+That kind of controls a little bit of the sort of off the track, off the beaten path stuff that we
+
+12
+00:00:52,160 --> 00:00:57,760
+have got going sometimes, but doesn't usually control it. Maybe we're talking about jelly
+
+13
+00:00:57,760 --> 00:01:03,120
+sandwiches before we know about it. Okay, so our first actual question from Lex who says,
+
+14
+00:01:03,120 --> 00:01:06,560
+apart from settings menu, what would be one of the first things in the UI to redesign that would
+
+15
+00:01:06,560 --> 00:01:12,480
+change? Not quite sure we got any further than talking about the settings menu. I know that the
+
+16
+00:01:12,480 --> 00:01:16,160
+settings menu was going to happen because it would allow us to do a whole lot of other stuff.
+
+17
+00:01:16,160 --> 00:01:20,560
+Basically, we'd be able to throw check boxes, sliders, drop downs and input boxes for basically
+
+18
+00:01:20,560 --> 00:01:26,080
+everything that people don't like. That's why we wanted to do it because right now we're sort of
+
+19
+00:01:26,080 --> 00:01:32,480
+limited in that. For those who are unsure what that means, I would like you to go Google images
+
+20
+00:01:32,480 --> 00:01:37,440
+of an airplane cockpit and imagine that you were designing that for the first time and needed a
+
+21
+00:01:37,440 --> 00:01:41,680
+switch for literally everything that the plane could do and how you would design that. That's
+
+22
+00:01:41,680 --> 00:01:48,800
+what the settings UI redesign does. You want to make sure that everything can fit. But no, after
+
+23
+00:01:48,800 --> 00:01:54,320
+that we were looking into user blocking, which of course would have UI, but it wouldn't be UI
+
+24
+00:01:54,320 --> 00:02:00,480
+redesign. It would be like new UI. However, with that might have come, I don't know, this is just
+
+25
+00:02:00,480 --> 00:02:05,920
+me speaking hypothetically, might have come some edits to the contact screen because of course the
+
+26
+00:02:06,720 --> 00:02:12,720
+contact screen would have needed new buttons for blocking if we were to do user blocking.
+
+27
+00:02:12,720 --> 00:02:17,040
+For those in the modding community, I'm sure you're aware of the contact screen needing more
+
+28
+00:02:17,040 --> 00:02:24,000
+space to put buttons. For those unaware of the modding scene, Neos mods in the Neos modding group,
+
+29
+00:02:24,000 --> 00:02:28,240
+not moderators mods, it's really difficult. The two things have the same phrase, but whatever.
+
+30
+00:02:30,320 --> 00:02:35,120
+They kept adding new buttons to the buttons that appear when you select someone in your contact
+
+31
+00:02:35,120 --> 00:02:40,960
+screen and eventually it got to the point where like people's Neos contact buttons were overflowing
+
+32
+00:02:40,960 --> 00:02:46,080
+and people were like, hey, can we stop adding context buttons? That was a good discussion that
+
+33
+00:02:46,080 --> 00:02:50,560
+occurred over in the modding community. For those who are unaware, modding is perfectly fine and
+
+34
+00:02:51,440 --> 00:02:55,040
+not against our terms of service. You can just go do it. Provided it's not malicious or breaks
+
+35
+00:02:55,040 --> 00:03:02,240
+any of the other guidelines, go do it. You don't need mods for a lot of things. Some people come
+
+36
+00:03:02,240 --> 00:03:08,560
+into our Discord or come into the modding Discord and be like, where's the flying mod? That's a
+
+37
+00:03:08,560 --> 00:03:17,600
+native feature, guys. You don't need a mod for that. Gray has a question here. Are you going to
+
+38
+00:03:17,600 --> 00:03:24,160
+MFF? I didn't know Canadian was going. That's interesting. I was in him at a convention before.
+
+39
+00:03:25,840 --> 00:03:30,480
+Yeah, so MFF is Midwest fur fest. I knew it was fur fest. I just didn't know what it was.
+
+40
+00:03:30,480 --> 00:03:34,240
+That's a furry convention that's in the Midwest. I don't know anything about it.
+
+41
+00:03:34,240 --> 00:03:38,560
+No, I won't be going. I currently don't have a job for those who don't know.
+
+42
+00:03:38,560 --> 00:03:45,600
+And so I can't fly random places on a whim because it's expensive. I'd actually cancel a visit to
+
+43
+00:03:45,600 --> 00:03:50,240
+a friend's wedding. I had a really good friend, but I just couldn't justify the cost. So I had
+
+44
+00:03:50,240 --> 00:03:54,560
+to cancel the visit to their wedding. That made me sad. And yeah, I can't attend conventions.
+
+45
+00:03:54,560 --> 00:03:59,760
+When I had a job like I had before, I could totally just randomly fly around to wherever
+
+46
+00:03:59,760 --> 00:04:04,480
+the hell I wanted to because I had a salary, but I don't currently. So I have to avoid travel.
+
+47
+00:04:05,040 --> 00:04:10,560
+I'm trying to navigate and negotiate holiday travel plans, which my family are making endlessly
+
+48
+00:04:10,560 --> 00:04:14,480
+complicated and I don't want it to be complicated. I just want to hop on a plane and get off and no
+
+49
+00:04:14,480 --> 00:04:18,720
+one to yell at me. That's actually always the plan for the holiday period is like, no one to yell at
+
+50
+00:04:18,720 --> 00:04:25,920
+me. That's all I want. If it were up to me, I'd probably just shut my door and do what I wanted
+
+51
+00:04:25,920 --> 00:04:30,720
+over the holiday period. But hey, holidays are about family obligations. On a side note,
+
+52
+00:04:30,720 --> 00:04:35,520
+whilst I wait for additional questions, I kind of like I do and don't understand fairy conventions.
+
+53
+00:04:35,520 --> 00:04:42,320
+So let me just imagine a scenario. OK, so most people at fairy conventions just want to see
+
+54
+00:04:42,320 --> 00:04:47,120
+people that they know or friends of theirs that they know to see people. And so what they do is
+
+55
+00:04:47,120 --> 00:04:52,160
+they pay thousands of dollars to travel halfway around the world or whatever to essentially be
+
+56
+00:04:52,160 --> 00:04:57,600
+in the most cramped space possible. Instead, what you could just do is say,
+
+57
+00:04:59,120 --> 00:05:03,760
+this month, this date, where there's no fairy convention happening, this group of people can
+
+58
+00:05:03,760 --> 00:05:08,400
+go to this town and hang out. And it costs so much less because you don't need fairy convention
+
+59
+00:05:08,400 --> 00:05:12,560
+tickets. The hotels aren't ram packed because of all the other people that you'll never interact
+
+60
+00:05:12,560 --> 00:05:19,200
+with. It's just pick a random time, go to a random town. You'll save so much more money
+
+61
+00:05:19,200 --> 00:05:24,320
+and you basically make your own convention when that happens, of course. But it's easier to
+
+62
+00:05:24,320 --> 00:05:28,960
+control than I'm going to go to this place where everyone else is going, these hotels,
+
+63
+00:05:28,960 --> 00:05:35,920
+which are already rammed full of people to see a great group of people that I do want to speak,
+
+64
+00:05:35,920 --> 00:05:40,800
+but also hang out with a bunch of people that I don't know that are basically raising the prices
+
+65
+00:05:40,800 --> 00:05:47,280
+of everything. Lex says, wouldn't conventions be more about booths and discover a wider community?
+
+66
+00:05:47,280 --> 00:05:54,080
+Yes, there is also that. But if that's what you're going for, that's great. From experience,
+
+67
+00:05:54,080 --> 00:05:57,520
+a lot of people are going just to see each other. And if that's the case, then don't go to a
+
+68
+00:05:57,520 --> 00:06:03,840
+convention. It's much cheaper to just visit each other. But yeah, no, booths and stuff like that.
+
+69
+00:06:03,840 --> 00:06:07,600
+A lot of the convention though is just wandering around and speaking to people. While I haven't
+
+70
+00:06:07,600 --> 00:06:12,160
+been to any specifically fairy conventions, I have been to various other types of conventions,
+
+71
+00:06:12,160 --> 00:06:20,800
+including ones where I have been working there as a person of worky. I actually have in my bedroom
+
+72
+00:06:20,800 --> 00:06:26,160
+hung around a large teddy bear is my collection of event passes. Every time you go to an event,
+
+73
+00:06:26,160 --> 00:06:35,120
+you get like a lanyard. And I've collected all of them. And it is crazy because I had,
+
+74
+00:06:35,120 --> 00:06:41,680
+as an example, I have an exhibitor badge for E3 a few years back. An exhibitor badge for E3, yes.
+
+75
+00:06:41,680 --> 00:06:46,320
+It's one of my proudest moments. That is, I have an exhibitor E3 badge.
+
+76
+00:06:51,360 --> 00:06:54,800
+Let's take a look. Oh, we have an actual Neos question. That's great. Let's get off the
+
+77
+00:06:54,800 --> 00:07:00,800
+convention track. So Ozi asks, I noticed volume unlit materials are not super popular due to 3D
+
+78
+00:07:00,800 --> 00:07:05,040
+textures being hard to understand outside of medical scans. Have you seen them used in Neos?
+
+79
+00:07:05,040 --> 00:07:09,280
+If so, how? Well, outside of medical scans, no, I haven't seen them. Although there is this
+
+80
+00:07:09,280 --> 00:07:14,560
+tutorial where I talk about making a GIF. And I think I make one as a joke. I import all the
+
+81
+00:07:14,560 --> 00:07:19,760
+frames of a GIF as a 3D texture. And it's kind of creepy. I think it's in my public folder somewhere.
+
+82
+00:07:20,560 --> 00:07:26,160
+It's a Doctor Who GIF of David Tennant as a doctor saying, oh, yes. And you kind of sort
+
+83
+00:07:26,160 --> 00:07:31,280
+of scroll through it with the slicer. I don't know what you would use a 3D thingy for.
+
+84
+00:07:31,280 --> 00:07:38,320
+I don't really know, like, when it comes to Neos features, you always need to start with,
+
+85
+00:07:38,320 --> 00:07:41,760
+what are you trying to do? Otherwise, you'll just be lost. Like, what are you trying to do?
+
+86
+00:07:42,960 --> 00:07:48,240
+I'm trying to build a boat. OK, then you need prims. You need a design for the boat. You can't
+
+87
+00:07:48,240 --> 00:07:54,000
+just build a boat. But I want to build a boat. You know, you need to figure out what you want
+
+88
+00:07:54,000 --> 00:08:01,200
+to do before you build a boat. For anyone who got that meme, congratulations. For anyone who did not
+
+89
+00:08:01,200 --> 00:08:07,440
+get that meme, I'll link a video in a moment. So I don't really know what you'd use them for.
+
+90
+00:08:07,440 --> 00:08:13,520
+Theoretically, you could use them for things like fog. But then a fog material would be better for
+
+91
+00:08:13,520 --> 00:08:22,480
+that. The 3D texture stuff inside volume unlit is really stressful on your resources.
+
+92
+00:08:22,480 --> 00:08:29,520
+I don't know enough about shader language to say this for certain. So if you quote me,
+
+93
+00:08:29,520 --> 00:08:33,200
+quote me with this disclaimer, I don't know what I'm doing. I'm not a shader expert.
+
+94
+00:08:34,960 --> 00:08:41,600
+When I read the shader code for volume unlit, it appears to be remarched. So just be careful with
+
+95
+00:08:41,600 --> 00:08:47,040
+that shader. It is very intense. Particularly if you drop what's called the step size property
+
+96
+00:08:47,040 --> 00:08:52,480
+down to zero, you can lower someone's frames. If you drop their step size down to zero and put their
+
+97
+00:08:52,480 --> 00:08:58,320
+head inside it, you can lower their frames incredibly quickly. I don't know what you'd use it
+
+98
+00:08:58,320 --> 00:09:04,800
+for other than, of course, medical scans. We've also used it for basically anything that can get
+
+99
+00:09:04,800 --> 00:09:12,000
+like an image of slices work. Sometimes there are other data sources that can do this. I want to say
+
+100
+00:09:12,000 --> 00:09:17,120
+something like a radar scan might be possible. I'm not sure. I'm sort of thinking about those
+
+101
+00:09:18,080 --> 00:09:23,920
+shockwave things they do to survey ground. You know, there's usually a man. It basically looks
+
+102
+00:09:23,920 --> 00:09:27,360
+like they're shotgunning the floor. They're not. They're sending a shockwave through the floor so
+
+103
+00:09:27,360 --> 00:09:31,920
+they can measure the sort of density of the rocks beneath them. I wonder if that sort of data would
+
+104
+00:09:31,920 --> 00:09:36,080
+be able to sort of be 3D visualized. I don't know what sort of format it comes back in. Anyway,
+
+105
+00:09:36,080 --> 00:09:42,000
+we'll move on. They go to show off their bespoke carpet suit. That is another thing. The sort of
+
+106
+00:09:42,000 --> 00:09:48,160
+publicity of your character and all of the pictures and stuff like that. Yeah, that's
+
+107
+00:09:48,160 --> 00:09:54,080
+always good. Moving on to Lex's question who said, so you know how people go to Wikipedia and browse
+
+108
+00:09:54,080 --> 00:09:57,520
+for ages clicking a bunch of links. It's near so large. Would you happen to do that for the code?
+
+109
+00:09:58,400 --> 00:10:04,560
+Yeah, that happens a lot. I have a renewed interest in this thing which I don't think
+
+110
+00:10:04,560 --> 00:10:11,920
+it ever got finished or it's not up to date. It's called Code Bubbles. See if I can...
+
+111
+00:10:11,920 --> 00:10:17,520
+I just searched that on Instagram. Curse my shortcuts. Code Bubbles. I have the DuckDuckGo
+
+112
+00:10:18,640 --> 00:10:24,080
+browser doodads. If you do exclamation mark gi space, it will search Google Images. If you
+
+113
+00:10:24,080 --> 00:10:29,440
+do exclamation mark i space, it will search Instagram. I just dropped the g. It's really
+
+114
+00:10:29,440 --> 00:10:36,320
+old but I have a renewed interest in maybe making it figure out maybe if it's suitable.
+
+115
+00:10:36,320 --> 00:10:41,040
+So there's a picture of it. So instead of navigating code via files, you navigate them
+
+116
+00:10:41,040 --> 00:10:47,040
+via bubbles. The reason why that's great is because I can control click about 20 times before
+
+117
+00:10:47,040 --> 00:10:51,920
+I actually get to the code I need inside the Neos codebase because I'm not familiar with all aspects
+
+118
+00:10:51,920 --> 00:11:00,000
+of it. As an example, the other day I needed to figure out why... like the context menu code I
+
+119
+00:11:00,000 --> 00:11:05,920
+needed to figure out the other day and it was just very thick. I don't mean thick as in silly,
+
+120
+00:11:05,920 --> 00:11:12,640
+it's quite well written, but it was very thick as in I was in the input drivers and all sorts
+
+121
+00:11:12,640 --> 00:11:17,760
+before I found out exactly what I needed to do. There was also a problem I was having with the
+
+122
+00:11:17,760 --> 00:11:24,640
+world browser another day where I'd added a bunch of log statements to half of Neos to figure out
+
+123
+00:11:24,640 --> 00:11:29,120
+something that was going wrong and then I figured out I just made an oopsie and it was a single line
+
+124
+00:11:29,120 --> 00:11:33,200
+change. I'd actually then go like pull out all those log statements. It took like half an hour
+
+125
+00:11:33,200 --> 00:11:38,560
+to pull out all those logs and get rid of them. That is kind of a meme though, removing log
+
+126
+00:11:38,560 --> 00:11:42,240
+statements once you've fixed a bug. It's kind of sort of a thing that you'll know if you're a
+
+127
+00:11:42,240 --> 00:11:46,720
+programmer. Arguably you should leave those log statements in there and then just sort of flag
+
+128
+00:11:46,720 --> 00:11:51,600
+them off, but flag logging isn't something we have currently. I'll probably sort of try and get that
+
+129
+00:11:51,600 --> 00:11:58,320
+in when I can. So moving on to Ozzy's question who says, related to Lexi's question, what's a funny
+
+130
+00:11:58,320 --> 00:12:03,040
+Easter egg in the Neos code base? There's a bunch. You'll see actually one of them that exists in the
+
+131
+00:12:03,040 --> 00:12:07,040
+latest tutorial I did which is in desktop mode. In desktop mode my cursor is a piece of cheese,
+
+132
+00:12:07,040 --> 00:12:15,200
+it isn't the usual desktop cursor. That's because when Frix was creating the desktop mode he needed
+
+133
+00:12:15,200 --> 00:12:20,160
+to make a cursor image and I don't know why it came up but I was just like maybe custom cursor
+
+134
+00:12:20,160 --> 00:12:24,240
+images in the future? Mine would be cheese and then he just added it to the code base.
+
+135
+00:12:25,520 --> 00:12:30,160
+We are removing some of the sort of old memes, particularly ones that have caused some confusion
+
+136
+00:12:30,160 --> 00:12:37,600
+in the past. For example there is a joke screen which can be added to your assets, your dash.
+
+137
+00:12:37,600 --> 00:12:40,960
+I don't remember the circumstances in which it was added but it adds a screenshot of discord because
+
+138
+00:12:40,960 --> 00:12:48,000
+someone asked for a discord like tab on the dash and so we added a screenshot as a joke but then
+
+139
+00:12:48,000 --> 00:12:54,560
+someone wrote a mod to re-enable that dash facet screen and then a lot of people got confused in
+
+140
+00:12:54,560 --> 00:12:59,440
+the modding community and thought that we'd somehow got a discord client into Neos which is incorrect
+
+141
+00:12:59,440 --> 00:13:05,920
+because that is against the discord terms of service so thumbs up. So yeah there's stuff like
+
+142
+00:13:05,920 --> 00:13:11,840
+that that we're kind of removing. Sometimes it's just the comments that are funny though.
+
+143
+00:13:12,560 --> 00:13:16,240
+When code doesn't make sense you know there's all the memes about sort of comments that say things
+
+144
+00:13:16,240 --> 00:13:20,640
+like don't edit this code you'll die if you edit this code or this code is really difficult to
+
+145
+00:13:20,640 --> 00:13:26,320
+understand but sometimes there's just like funny stuff that exists there and you can kind of feel
+
+146
+00:13:26,320 --> 00:13:31,040
+and see their pain but in a more comical way than the standard sort of like this code is bad it's
+
+147
+00:13:31,040 --> 00:13:36,720
+sort of you know I don't know why this works but it does and those are those are some funny easter
+
+148
+00:13:36,720 --> 00:13:40,560
+eggs. With that we're out of questions so if anyone has any additional questions do let me know
+
+149
+00:13:40,560 --> 00:13:46,080
+let somebody go look up that build a boat meme. Oh I got an email that's cool I'll have to deal with
+
+150
+00:13:46,080 --> 00:13:52,160
+that later. There we go there's the build a boat meme it comes from Second Life. I don't answer
+
+151
+00:13:52,160 --> 00:13:57,200
+cheese questions Gray Foxen. Cheese questions have all been answered in prior office hours please
+
+152
+00:13:57,200 --> 00:14:01,920
+check the notes. Okay looking through oh we have another question fantastic thank you for the
+
+153
+00:14:01,920 --> 00:14:06,880
+additional question. When working on the spirit sweepers game we found almost every action
+
+154
+00:14:06,880 --> 00:14:10,160
+involving the player equipping, dequipping, avatars, moving the character, installing
+
+155
+00:14:10,160 --> 00:14:16,000
+locomotions was best performed by the user versus another user or host. I understand networking is
+
+156
+00:14:16,000 --> 00:14:23,360
+typically the go-to thing to blame but I'm wondering why that is. I think that's probably
+
+157
+00:14:23,360 --> 00:14:29,440
+a function of synchronization so as a good analogy here when you think about a first-person
+
+158
+00:14:29,440 --> 00:14:35,200
+shooter game two things happen when you shoot a gun in a first-person shooter game and this is
+
+159
+00:14:35,200 --> 00:14:41,280
+like maybe older information from my brain I haven't looked at how new FPSs work but there are
+
+160
+00:14:41,280 --> 00:14:45,920
+two things that happen and they are separate. Number one is animations happen so you shoot a
+
+161
+00:14:45,920 --> 00:14:50,480
+game in an FPS animations happen you see the bullet leave the gun you see noise you see the
+
+162
+00:14:50,480 --> 00:14:55,760
+muzzle flash you see whatever it hits you see particles from whatever it hits that is separate
+
+163
+00:14:56,640 --> 00:15:02,000
+from what is actually happening to figure out if you actually hit them which is usually what's
+
+164
+00:15:02,000 --> 00:15:06,960
+called a hit scan which is basically just a physics raycast right that is a separate operation
+
+165
+00:15:06,960 --> 00:15:13,680
+now sometimes that physics hit scan is performed locally which gets a result but that is also then
+
+166
+00:15:13,680 --> 00:15:17,600
+sent to the server to perform a server-side calculation to see if that actually happened
+
+167
+00:15:17,600 --> 00:15:23,760
+from an authoritative point of view and depending on the synchronization of those events you can get
+
+168
+00:15:23,760 --> 00:15:29,600
+sort of the gun doesn't fire but you kill someone the gun does fire but you don't kill someone
+
+169
+00:15:29,600 --> 00:15:33,440
+and then you know the actual one that you want which is the gun does fire visually and you
+
+170
+00:15:33,440 --> 00:15:38,800
+actually kill someone and you get the points and if all of those aren't synced up then you end up
+
+171
+00:15:38,800 --> 00:15:45,040
+with a game which is not satisfying excuse me there I almost died for a second words are
+
+172
+00:15:45,040 --> 00:15:53,280
+difficult sometimes for neos that's sort of the same thing kind of happens there are nodes and
+
+173
+00:15:53,280 --> 00:16:00,240
+operations which are validated by the host but the trigger of that event should be as close to
+
+174
+00:16:00,240 --> 00:16:04,960
+the event as possible so you're right in saying it should be the user carrying out the interaction
+
+175
+00:16:04,960 --> 00:16:09,040
+and that is because they will start to see the results of that interaction first and it'll be
+
+176
+00:16:09,040 --> 00:16:15,920
+snappy additionally if you trigger an event for a user from another user then that other user has
+
+177
+00:16:15,920 --> 00:16:19,120
+to send that message to the host and then the host has to send that message to the user that
+
+178
+00:16:19,120 --> 00:16:24,800
+actually the event is for so just try and keep that smaller right so if you're equipping an
+
+179
+00:16:24,800 --> 00:16:29,360
+avatar you want that to come from the person which is equipping the avatar you don't want
+
+180
+00:16:29,360 --> 00:16:37,280
+that coming from OZ or Lex you know on other sides of the planet like let's say you know Lex
+
+181
+00:16:37,280 --> 00:16:43,280
+is over in Australia I'm over in America and Lex equips an avatar for me that's like okay cool
+
+182
+00:16:43,840 --> 00:16:49,440
+Lex sends a message to the host let's say the host is in Europe it says equip an avatar for Prime and
+
+183
+00:16:49,440 --> 00:16:53,760
+then the host has to send that message to me and it says yo you've equipped another avatar there's
+
+184
+00:16:53,760 --> 00:17:00,080
+latency there yeah things things can get really really strange and like the most annoying thing
+
+185
+00:17:00,080 --> 00:17:06,160
+as well like desync is one of the most annoying things you just don't feel like a human great
+
+186
+00:17:06,160 --> 00:17:12,800
+asks a metaphysical question which is always interesting what kind of life form would you be
+
+187
+00:17:12,800 --> 00:17:17,200
+if you couldn't be a carbon-based one I have like a interesting answer on that one which is like
+
+188
+00:17:18,240 --> 00:17:25,120
+I don't particularly enjoy biological life if that makes sense we're gross like humans are gross
+
+189
+00:17:25,120 --> 00:17:33,440
+right we constantly need to like shove crap in our face and every like every pore in your skin
+
+190
+00:17:33,440 --> 00:17:38,080
+is currently producing like goop that you don't want and so periodically you have to go wash it
+
+191
+00:17:38,080 --> 00:17:46,480
+off it's gross so I think like the idea of identity being just floating there is good
+
+192
+00:17:47,200 --> 00:17:50,480
+there are lots of films which try to do that but they usually do it as like
+
+193
+00:17:50,480 --> 00:17:55,520
+oh it's a floating cloud of like glowy mist or glowy light and I'm just like
+
+194
+00:17:55,520 --> 00:18:05,200
+oh yeah look into that non-corporeal I guess would be the thing right I don't
+
+195
+00:18:05,200 --> 00:18:11,440
+I don't I don't want to leak goop everywhere but I do leak goop everywhere like right now I'm warm
+
+196
+00:18:11,440 --> 00:18:16,400
+right so I'm leaking more goop than I should be doing I should take off my sweater anyway
+
+197
+00:18:16,400 --> 00:18:22,800
+let's move on and stop talking about goop who's he asked do you have a strategy with best
+
+198
+00:18:22,800 --> 00:18:26,960
+combating corrections and sessions or what to exactly look for sometimes it can be massively
+
+199
+00:18:26,960 --> 00:18:30,240
+annoying trying to understand what could be causing them like apparently world intensity
+
+200
+00:18:30,240 --> 00:18:38,640
+world color systems being driven which is saddening that like could be a bunch of problems
+
+201
+00:18:38,640 --> 00:18:44,960
+all in one and I think the best answer there would be of course in terms of features to wait
+
+202
+00:18:44,960 --> 00:18:49,360
+for hard permissions at that point we can sort of say hey you can't drive this particular system
+
+203
+00:18:49,360 --> 00:18:59,760
+because it's it's not yours to drive but whilst that doesn't occur I always like to
+
+204
+00:18:59,760 --> 00:19:05,840
+sort of restart the world with no one in it and see what the problems and then journey around the
+
+205
+00:19:05,840 --> 00:19:12,560
+world looking for those problems it's it's always difficult to figure out what's going on there
+
+206
+00:19:12,560 --> 00:19:21,040
+lots of stuff which people do can be undesirable but they don't know it's undesirable or
+
+207
+00:19:21,040 --> 00:19:25,280
+they've put something on the avatar and they don't even know how it works and it's undesirable
+
+208
+00:19:25,280 --> 00:19:29,440
+I'm looking at you with the bells on your collars please configure your bells such that they have
+
+209
+00:19:29,440 --> 00:19:34,880
+a localized volume and not global volume and maybe use your own sound effect not the common
+
+210
+00:19:34,880 --> 00:19:40,000
+sound effect which is used on 99% of bells now I have seen some good bells out there like I'm
+
+211
+00:19:40,000 --> 00:19:44,960
+seeing a change there are some good bells out there but the majority of bells are exactly the
+
+212
+00:19:44,960 --> 00:19:50,320
+same as I've been seeing for years and they are incredibly loud incredibly annoying in global
+
+213
+00:19:50,320 --> 00:19:58,880
+audio space and I can't like they're so shrill as well I know that kind of went to like my common
+
+214
+00:19:58,880 --> 00:20:06,240
+rant about bells but you know um if you have like a specific circumstance let me know it's
+
+215
+00:20:06,240 --> 00:20:10,080
+difficult to answer sort of generically about saying like hard permissions would probably help
+
+216
+00:20:10,080 --> 00:20:16,480
+with that no no bells bells aren't bad it's the way that they're configured I've changed my
+
+217
+00:20:16,480 --> 00:20:22,560
+opinion on bells recently to be 99% of bells are bad because I have seen a few that are okay
+
+218
+00:20:23,440 --> 00:20:30,560
+maybe I should go to MFF I'll take like a church bell with me and just constantly ring it I'll put
+
+219
+00:20:30,560 --> 00:20:35,120
+it like on a dolly and just like push it around the convention and just be like ringing it
+
+220
+00:20:35,120 --> 00:20:39,520
+continually I'm also waiting for additional questions Lex is that interstellar does it well
+
+221
+00:20:39,520 --> 00:20:46,480
+with a fourth dimensional being that does it well yep I agree um star trek discovery one of the
+
+222
+00:20:46,480 --> 00:20:50,960
+later seasons does it well I can't really say much without doing spoilers but there is a creature in
+
+223
+00:20:50,960 --> 00:21:00,000
+there which which is great um if I said like cosmic horror you'd see like you know the additional
+
+224
+00:21:00,000 --> 00:21:07,120
+forms of life that aren't goop bags are interesting to me I think although the aliens in arrival are
+
+225
+00:21:07,120 --> 00:21:16,240
+good and are very strange they still are goop bags so no goop speaking of goop after this
+
+226
+00:21:16,240 --> 00:21:24,160
+office hours I'm gonna go get another another mug of coffee which is just goop I'm gonna go drink
+
+227
+00:21:24,160 --> 00:21:32,880
+some goop I see what you mean Ozi so Ozi says um that they were trying to optimize uh some session
+
+228
+00:21:32,880 --> 00:21:36,480
+performance issues and they found some funny systems such as a fire on change of no user
+
+229
+00:21:36,480 --> 00:21:41,760
+attached a localized dine bar that did a loop through of hundred slots to turn off lights
+
+230
+00:21:41,760 --> 00:21:46,160
+all sorts of stuff like that if using dynamic variables why do you need to loop to turn off
+
+231
+00:21:46,160 --> 00:21:50,000
+lights just use a dynamic variable driver and a world scoped variable and you can turn off all
+
+232
+00:21:50,000 --> 00:21:56,480
+the lights without a loop what the hell maybe I should do a tutorial on that just turning off
+
+233
+00:21:56,480 --> 00:22:01,840
+a hundred lights with a dynamic variable because like without dynamic variables I can agree that
+
+234
+00:22:01,840 --> 00:22:08,000
+would probably be difficult but with dynamic variables holy crap that's like most great
+
+235
+00:22:08,000 --> 00:22:14,480
+thing ever I know that there is a little bit of a stigma around using the world dynamic variable
+
+236
+00:22:14,480 --> 00:22:19,920
+space but if the lights and the objects are part of the world which you own which you are building
+
+237
+00:22:21,360 --> 00:22:27,840
+use the world dynamic variable space exclusively it's great I use it a lot for the science that
+
+238
+00:22:27,840 --> 00:22:31,920
+I'm doing because I'm like this isn't a world for socialness this is a world for science so I can
+
+239
+00:22:31,920 --> 00:22:37,440
+just shove stuff in the world dynamic variable space all day it's great like if you go into a
+
+240
+00:22:37,440 --> 00:22:44,720
+world of mine where we're doing science it's eye movements eye rotation the secret to the life
+
+241
+00:22:44,720 --> 00:22:49,600
+that you diverse and everything it's all in the wild the world uh the variable space but if I'm
+
+242
+00:22:49,600 --> 00:22:54,000
+building like an avatar or I'm building an object which is designed to go into other people's worlds
+
+243
+00:22:54,000 --> 00:22:58,880
+then it doesn't use world because that is kind of rude. Grace says if you go to mmf would you
+
+244
+00:22:58,880 --> 00:23:03,920
+consider wearing a tf2 spy costume with a paper furry mask as a disguise no there's a 3d printer
+
+245
+00:23:03,920 --> 00:23:08,240
+in my bedroom which I packed up because I was going to move apartments then didn't I would
+
+246
+00:23:08,240 --> 00:23:14,800
+unpack that up I would print off my mask I have links saved in my browser for everything I would
+
+247
+00:23:14,800 --> 00:23:22,080
+need to authentically recreate my avatar irl and that is what you would see I would even take a
+
+248
+00:23:22,080 --> 00:23:27,440
+drill and drill like a hole into the mouth hole so I can like put a straw in there and drink from it
+
+249
+00:23:27,440 --> 00:23:34,000
+because I think a that would be funny and b it would be ironic people like ah it's lunchtime
+
+250
+00:23:34,000 --> 00:23:39,120
+Prime's finally going to remove his mask of like nope as I just like cram goop in my mouth hole
+
+251
+00:23:40,080 --> 00:23:44,800
+okay we're at 28 so if there are no more questions we'll be closing down shortly I see
+
+252
+00:23:44,800 --> 00:23:48,560
+Ruscio's typing if you have a question please go ahead Lex if you're typing you can get a question
+
+253
+00:23:48,560 --> 00:23:55,520
+as well otherwise we'll be ending after these questions are sorted out. Lex asks how do you
+
+254
+00:23:55,520 --> 00:23:58,480
+feel about sounder shutting down its podcast hosting service are you going to migrate to
+
+255
+00:23:58,480 --> 00:24:08,560
+another podcast hosting service or just use the wiki um I don't know right now it kind of
+
+256
+00:24:08,560 --> 00:24:12,480
+agitates me that the reason why I picked sounder in the first place is because they had automatic
+
+257
+00:24:12,480 --> 00:24:17,360
+transcription and then they turned off automatic transcription and now they're shutting down so
+
+258
+00:24:17,360 --> 00:24:22,640
+it's really annoying I'll look around and see what like stuff is there I just want it to be like
+
+259
+00:24:22,640 --> 00:24:27,680
+automatic I kind of know that Lex does a bunch of work after office hours to to process the audio
+
+260
+00:24:27,680 --> 00:24:32,000
+and then put it on the wiki I want it to be automatic and that's my like goal so that's why
+
+261
+00:24:32,000 --> 00:24:39,920
+I started with sounder and then just went downhill I will do what I can I don't really know what I'm
+
+262
+00:24:39,920 --> 00:24:44,080
+going to do though it is on my to-do list to look at it's just not very high enough to do this right
+
+263
+00:24:44,080 --> 00:24:49,600
+now okay um cutting off questions after Ramper because because Stifle you snuck one in there
+
+264
+00:24:49,600 --> 00:24:55,040
+that's absolutely fine but but Ramper if you've got a question perfect otherwise no more questions
+
+265
+00:24:56,640 --> 00:25:02,160
+you know when like an umpire declares safe on umpires that the baseball I don't know baseball
+
+266
+00:25:02,160 --> 00:25:06,400
+terms the guy wearing all the armor he's like they're they're saying that that that's the
+
+267
+00:25:06,400 --> 00:25:10,880
+motion I'm doing right now if you know baseball let me know what I'm saying yeah cool
+
+268
+00:25:14,000 --> 00:25:17,520
+Rusev says I've been hearing more and more users coming into worlds for starting point in logic so
+
+269
+00:25:17,520 --> 00:25:22,240
+particularly I would typically take the time to start showing them but unfortunately been too
+
+270
+00:25:22,240 --> 00:25:25,280
+busy to provide building stuff to provide assistance you know any good starting points
+
+271
+00:25:25,280 --> 00:25:32,320
+to recommend when you can't provide direct help um I you know in the military where people do drills
+
+272
+00:25:32,320 --> 00:25:38,480
+and part of the reason there is that they want they want users of of you know weapons or equipment
+
+273
+00:25:38,480 --> 00:25:42,800
+or orders like half the point for you know militaries so that people follow orders of that
+
+274
+00:25:42,800 --> 00:25:48,800
+question to just do what they're told without thinking about it and that's why you know you
+
+275
+00:25:48,800 --> 00:25:53,840
+clean your gun you just you you know you dismantle the gun you put it back together you load it you
+
+276
+00:25:53,840 --> 00:25:58,960
+unload it you check the chain you do all that stuff so you know when it's drummed into you
+
+277
+00:25:58,960 --> 00:26:04,000
+I want people to do that when they learn logics with the logics tip I see so many people struggle
+
+278
+00:26:04,000 --> 00:26:10,080
+because they don't take the time to understand the like the terminology and the mechanics of just
+
+279
+00:26:10,080 --> 00:26:16,160
+using the logics tip um so a good example there that I have I don't know where I put it in my
+
+280
+00:26:16,160 --> 00:26:23,120
+public folder um someone knows because it's in the um the mentor workshop world so glad to see that
+
+281
+00:26:23,120 --> 00:26:30,240
+I edited a logics tip to um have a node menu attached to it which just has maths nodes
+
+282
+00:26:30,240 --> 00:26:34,480
+and I think I removed some of the sort of options on the context menu somehow or maybe I didn't I
+
+283
+00:26:34,480 --> 00:26:39,120
+can't remember um that's good though because what that does is it's purely there to teach you
+
+284
+00:26:39,120 --> 00:26:43,520
+spawning nodes and linking two nodes together and that's what I want people to start with I don't
+
+285
+00:26:43,520 --> 00:26:47,600
+want people to start with I want to build a boat or on a boat again I want people to start with
+
+286
+00:26:47,600 --> 00:26:52,400
+spawning a node connecting a node to another node disconnecting a node from another node
+
+287
+00:26:52,400 --> 00:26:59,120
+packing and unpacking and so when we get into complex tutorials and I say and then spawn this
+
+288
+00:26:59,120 --> 00:27:03,840
+node I don't get wait how do I do that again like I want that to be like memory and for those of you
+
+289
+00:27:03,840 --> 00:27:08,000
+who have been doing logics for a while you know that that's memory you know if I say to you oh
+
+290
+00:27:08,000 --> 00:27:13,360
+yeah you'll need a four node for that you like automatically half the people in this office hours
+
+291
+00:27:13,360 --> 00:27:19,600
+are like oh yeah flow loop right you know like you did it in your head really quickly and it was
+
+292
+00:27:19,600 --> 00:27:23,600
+almost subconscious right I want that to happen for people who are learning logics so many people
+
+293
+00:27:23,600 --> 00:27:29,040
+get like down in the depths of logics and then I don't understand how anything works it's like
+
+294
+00:27:29,040 --> 00:27:35,600
+okay do you know how to spawn a node well I keep forgetting that okay cool welcome to boot camp
+
+295
+00:27:35,600 --> 00:27:41,280
+today we'll be sporting a node 400 times and then you'll know how to do it additionally a good
+
+296
+00:27:41,280 --> 00:27:46,080
+tip as well is for that that mathematical logics node browser I talked about the reason why I did
+
+297
+00:27:46,080 --> 00:27:52,080
+that is because the logic nodes for maths don't have any confusion they all spawn with float the
+
+298
+00:27:52,080 --> 00:27:56,080
+data types by default which means you don't have to worry about data types none of them have
+
+299
+00:27:56,080 --> 00:28:01,440
+impulse lines because impulse lines are confusing when you start none of them have reference lines
+
+300
+00:28:01,440 --> 00:28:05,120
+which are confusing when you start by references I mean things like slots and users and then
+
+301
+00:28:05,120 --> 00:28:10,960
+it's just mathematics and you connect them two together I remember Zane I haven't really seen
+
+302
+00:28:10,960 --> 00:28:15,760
+Zane on Neos that much but for those who know Zane I saw Zane and he didn't know logics and I gave him
+
+303
+00:28:15,760 --> 00:28:20,480
+like I didn't have that an logic node browser at the time but I drew like a box like a rectangle
+
+304
+00:28:20,480 --> 00:28:25,600
+around a grouping of nodes and it was just plus minus divided in times and I said just link these
+
+305
+00:28:25,600 --> 00:28:30,800
+together those are the only nodes that you can you can use you can't use any other folders you can't
+
+306
+00:28:30,800 --> 00:28:36,320
+use any nodes that have white ribbons you can just use these nodes and he put them together and he
+
+307
+00:28:36,320 --> 00:28:41,600
+was doing mathematics and learning how the you know the techniques of that worked and he said
+
+308
+00:28:41,600 --> 00:28:46,080
+well what can I do I'm kind of comfortable with that and so I gave him the t node the t node that
+
+309
+00:28:46,080 --> 00:28:51,600
+just counts up and he plugged that into all of his maths and he's like well t isn't round over here
+
+310
+00:28:51,600 --> 00:28:57,840
+but over here I have a round number and it's like cool that that's that's great you appear to have
+
+311
+00:28:57,840 --> 00:29:03,600
+rounded a number accidentally by using a bunch of mathematics that's cool and they were enjoying it
+
+312
+00:29:04,480 --> 00:29:08,400
+and then I think I plugged their random mathematics into the shape of a sphere or
+
+313
+00:29:08,400 --> 00:29:14,640
+something and it was like jumping around and then they got the picture I don't I don't like how you
+
+314
+00:29:14,640 --> 00:29:18,400
+know we start with like I want to make a gun or I want to make a custom multi-tool or a custom
+
+315
+00:29:18,400 --> 00:29:23,920
+inspector start with can you spawn a node and can you link them together okay moving down to
+
+316
+00:29:23,920 --> 00:29:27,760
+stifle who says when a user is under a slot with a tag and I think created not spawned from the
+
+317
+00:29:27,760 --> 00:29:31,440
+inventory will have that tag that is created including object logic's important assets what
+
+318
+00:29:31,440 --> 00:29:37,680
+are some good use cases for it I don't know that can be useful for like tags are meant to sort of
+
+319
+00:29:37,680 --> 00:29:43,200
+be like categorization of objects so I don't really know why that functionality was originally
+
+320
+00:29:43,200 --> 00:29:51,200
+added I would ask freaks freaks is kind of busy right now so I don't really know what might be
+
+321
+00:29:51,200 --> 00:29:59,440
+uses for that kind of have an example I guess from a world I'm building where I need I need
+
+322
+00:29:59,440 --> 00:30:05,120
+every object that has a certain tag to be parented under at least some other object right it can't
+
+323
+00:30:05,120 --> 00:30:10,560
+go to root so many things in news that are either written by users or not written by users sometimes
+
+324
+00:30:10,560 --> 00:30:14,880
+it's you know nodes or components or just accidentally parent stuff to root and that
+
+325
+00:30:14,880 --> 00:30:19,840
+cannot happen for this world and so I start attacking stuff that needed to not be under root
+
+326
+00:30:19,840 --> 00:30:25,280
+as a certain tag and then I could I could pick that up and repairing it to where it needed to
+
+327
+00:30:25,280 --> 00:30:30,960
+go that was useful yes that's a use remember guys though tags aren't evil I made a whole tutorial
+
+328
+00:30:30,960 --> 00:30:35,360
+on that because tags used to be used for data storage and people are like tags are bad no tags
+
+329
+00:30:35,360 --> 00:30:41,360
+are fantastic you just need to use them correctly braces this is a podcast no not really but I was
+
+330
+00:30:41,360 --> 00:30:46,800
+struggling to get it up on the wiki because the wiki is you know kind of unreliable sometimes
+
+331
+00:30:46,800 --> 00:30:50,560
+and I found this service called sounder and I put it on sounder and it turns out you know
+
+332
+00:30:50,560 --> 00:30:57,840
+sounder is a podcast platform and it automatically dumps my episodes into spotify so I'm podcast now
+
+333
+00:30:57,840 --> 00:31:08,000
+hi all right then the last question that we have is from ramp who says I mean the transcriber could
+
+334
+00:31:08,000 --> 00:31:12,640
+be made for you by community with some good ml people otherwise I heard my question just answered
+
+335
+00:31:12,640 --> 00:31:17,680
+not to ask if there any form of I'll figure something out like I'll probably move it to
+
+336
+00:31:17,680 --> 00:31:24,240
+another podcasting platform I just don't know which one it would need I guess better transcription
+
+337
+00:31:24,240 --> 00:31:28,800
+like I would love if like if it did whisper api just like just by itself that would be great
+
+338
+00:31:28,800 --> 00:31:32,800
+because it means that that Lex wouldn't have to do it not that I don't want him to do it it's just
+
+339
+00:31:32,800 --> 00:31:38,640
+I want it to be as automatic as possible as automatic as possible you know it's up to me
+
+340
+00:31:38,640 --> 00:31:43,280
+every time I made a tutorial I make a page of notes about it that includes everything you see
+
+341
+00:31:43,280 --> 00:31:48,400
+in the description field I would love it if I could basically hand the video file and the
+
+342
+00:31:48,400 --> 00:31:55,680
+description text file to some program and be like do it right and it would like I don't know make a
+
+343
+00:31:55,680 --> 00:32:01,520
+thumbnail upload it post it on twitter post it in discord and I wouldn't have to deal with it because
+
+344
+00:32:01,520 --> 00:32:09,760
+automation is cool as linker says tags as in tags on the item inspector yeah in slot tags tags are
+
+345
+00:32:09,760 --> 00:32:15,440
+used like everywhere like there's tags on records there's tags on assets there's tags on contacts
+
+346
+00:32:15,440 --> 00:32:21,120
+there's tags on users tags on slots within a world with that I believe we're done so I'm gonna go
+
+347
+00:32:21,120 --> 00:32:24,640
+ahead and end off here if you guys have any additional questions please do direct message
+
+348
+00:32:24,640 --> 00:32:29,120
+me post them in questions and help or speak to anyone else that might be able to help you out
+
+349
+00:32:29,120 --> 00:32:35,200
+I will see you again next week do you remember that you can submit questions before the session
+
+350
+00:32:35,200 --> 00:32:38,720
+as well you can find that form on the office hours wiki pages along with
+
+351
+00:32:38,720 --> 00:32:59,440
+prior notes from all the other sessions I hope you all have a fantastic day
+

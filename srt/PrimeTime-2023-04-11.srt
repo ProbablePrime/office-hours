@@ -1,0 +1,1944 @@
+1
+00:00:00,000 --> 00:00:03,800
+ Welcome to Office Hours, it's now 4pm so we're going to go ahead and get started.
+
+2
+00:00:03,800 --> 00:00:10,840
+ Right on cue, my living room lights just turned on because I got them set to turn on at 4pm.
+
+3
+00:00:10,840 --> 00:00:14,920
+ And we're going to go ahead and get started by scrolling through the list of questions.
+
+4
+00:00:14,920 --> 00:00:19,200
+ So Lou Zanth says, "Is there a list of slot names for temporary badges, fruits, account
+
+5
+00:00:19,200 --> 00:00:20,200
+ creation, bread, etc?"
+
+6
+00:00:20,200 --> 00:00:26,080
+ There is not, it particularly doesn't help that a lot of those are, what we do is we
+
+7
+00:00:26,080 --> 00:00:29,680
+ copy the previous slot when we're generating them so the name gets longer and longer.
+
+8
+00:00:29,680 --> 00:00:36,200
+ You also shouldn't, like, what's the word, you shouldn't make your system with those
+
+9
+00:00:36,200 --> 00:00:40,600
+ slot names as guarantees because they may change at any time.
+
+10
+00:00:40,600 --> 00:00:46,680
+ Depending on what you want to do with your badges, you have a few options, one is the
+
+11
+00:00:46,680 --> 00:00:51,000
+ various aligner components or just doing it numerically, like stepping through each element
+
+12
+00:00:51,000 --> 00:00:53,480
+ in the list etc.
+
+13
+00:00:53,480 --> 00:00:58,600
+ Or you could just make your own icon to-ble-do, you know, whatever sort of scheme you want.
+
+14
+00:00:58,600 --> 00:01:02,120
+ There's a lot of people doing that recently, they don't show their actual badges, they've
+
+15
+00:01:02,120 --> 00:01:04,160
+ got like a custom list of badges.
+
+16
+00:01:04,160 --> 00:01:08,760
+ Not to call anyone out here, but I believe that Shifty for example, she went down to
+
+17
+00:01:08,760 --> 00:01:12,400
+ just the Neos team badge.
+
+18
+00:01:12,400 --> 00:01:16,340
+ I think she was just done with badges and I perfectly understand that as the person
+
+19
+00:01:16,340 --> 00:01:17,340
+ with the most.
+
+20
+00:01:17,340 --> 00:01:19,760
+ So yeah, try that out.
+
+21
+00:01:19,760 --> 00:01:23,800
+ Moving forwards, like, "Is there any updates on the fix for the native build of Neos being
+
+22
+00:01:23,800 --> 00:01:25,140
+ unusable?"
+
+23
+00:01:25,140 --> 00:01:28,900
+ We are taking a look at that and we'll get to it as soon as we can.
+
+24
+00:01:28,900 --> 00:01:31,940
+ Grey says, "Is there a way to stop getting office hours pings?"
+
+25
+00:01:31,940 --> 00:01:32,940
+ Yes.
+
+26
+00:01:32,940 --> 00:01:38,940
+ So, the problem with that one is, it's not the office hours role isn't anything to do
+
+27
+00:01:38,940 --> 00:01:39,940
+ with that one.
+
+28
+00:01:39,940 --> 00:01:44,860
+ The problem is that stages like to add everyone even though they shouldn't.
+
+29
+00:01:44,860 --> 00:01:49,020
+ When you start a stage, there's like a button for it, but like I continually forget that
+
+30
+00:01:49,020 --> 00:01:54,140
+ that button is there, it's just like notify the server or something like that.
+
+31
+00:01:54,140 --> 00:01:59,180
+ I will go ahead and remember to use that setting next time I start a stage.
+
+32
+00:01:59,180 --> 00:02:02,840
+ But if you do what the slinker posted, then you'll be able to mute that stage.
+
+33
+00:02:02,840 --> 00:02:05,960
+ It's actually nothing to do with the office hours role, the office hours role is just
+
+34
+00:02:05,960 --> 00:02:07,820
+ when I hang at office hours.
+
+35
+00:02:07,820 --> 00:02:11,460
+ When I start a stage though, it's like at everyone pretty much.
+
+36
+00:02:11,460 --> 00:02:14,380
+ Moving forwards to the next question here.
+
+37
+00:02:14,380 --> 00:02:17,220
+ Fuzzy says, "Can you speak faster by watching your YouTube videos at 1.5 speed?"
+
+38
+00:02:17,220 --> 00:02:18,740
+ No, you sound oddly slow.
+
+39
+00:02:18,740 --> 00:02:19,740
+ Interesting.
+
+40
+00:02:19,740 --> 00:02:22,820
+ I've always said to people, you can slow my videos down and I know a lot of people do
+
+41
+00:02:22,820 --> 00:02:26,100
+ do that because apparently I'm too fast.
+
+42
+00:02:26,100 --> 00:02:30,700
+ As I've said a few times before, I'm running at probably like 50% speed during a recording
+
+43
+00:02:30,700 --> 00:02:35,220
+ of a tutorial because I need to explain things.
+
+44
+00:02:35,220 --> 00:02:38,260
+ Whereas when I'm building, I can sort of barely explain anything.
+
+45
+00:02:38,260 --> 00:02:40,300
+ Someone will watch me build and be like, "What are you doing now?"
+
+46
+00:02:40,300 --> 00:02:42,740
+ And I'll just be like, "I don't know.
+
+47
+00:02:42,740 --> 00:02:44,820
+ I don't know.
+
+48
+00:02:44,820 --> 00:02:47,980
+ Just let me do it, please."
+
+49
+00:02:47,980 --> 00:02:52,940
+ Ray asks, "Are we required to have internal organs to use NeoSwati?
+
+50
+00:02:52,940 --> 00:02:55,120
+ We have external organs."
+
+51
+00:02:55,120 --> 00:03:02,080
+ The state of your organs is not a topic that is covered by the Neos usage guidelines.
+
+52
+00:03:02,080 --> 00:03:05,300
+ If it would be, there would be an update to the Neos usage guidelines.
+
+53
+00:03:05,300 --> 00:03:08,700
+ I don't think your organs have anything to do with that.
+
+54
+00:03:08,700 --> 00:03:11,740
+ Next question is, "Linka asks, "Any comment on the active sessions bot being down?
+
+55
+00:03:11,740 --> 00:03:13,820
+ It kind of died when the SSL cert on the old API."
+
+56
+00:03:13,820 --> 00:03:18,340
+ So I assume it's polling the old API in an ever-ending loop, most likely no idea who
+
+57
+00:03:18,340 --> 00:03:19,780
+ hosts it.
+
+58
+00:03:19,780 --> 00:03:21,460
+ That one I had not realized.
+
+59
+00:03:21,460 --> 00:03:23,700
+ I will raise that with the team when I can.
+
+60
+00:03:23,700 --> 00:03:25,940
+ Let me just make a note of that one.
+
+61
+00:03:25,940 --> 00:03:28,260
+ And with that, we are currently out of questions.
+
+62
+00:03:28,260 --> 00:03:30,660
+ If you would go ahead and come up with more questions.
+
+63
+00:03:30,660 --> 00:03:33,060
+ Or don't, it's completely up to you.
+
+64
+00:03:33,060 --> 00:03:36,980
+ Ray asks, "Does the drive node constantly update whenever it's driving, or only when
+
+65
+00:03:36,980 --> 00:03:39,100
+ the input value updates?"
+
+66
+00:03:39,100 --> 00:03:46,100
+ That is -- do you mean the drive drive node, the one that's in actions?
+
+67
+00:03:46,100 --> 00:03:49,380
+ Or do you mean just the arrow, like a regular drive?
+
+68
+00:03:49,380 --> 00:03:51,140
+ Okay, you mean the drive drive node.
+
+69
+00:03:51,140 --> 00:03:57,860
+ So the drive drive node is effectively equivalent to the drive arrow, for those who are unaware.
+
+70
+00:03:57,860 --> 00:04:01,740
+ If you see an arrow that's sort of got rounded corners in logic, that's a drive.
+
+71
+00:04:01,740 --> 00:04:06,660
+ If you see a pointy sharp arrow, which is more transparent in the center of it, that's
+
+72
+00:04:06,660 --> 00:04:07,660
+ a reference arrow.
+
+73
+00:04:07,660 --> 00:04:10,340
+ So there's a good sort of rule of thumb to identify the difference.
+
+74
+00:04:10,340 --> 00:04:12,740
+ If it's rounded, it's a drive.
+
+75
+00:04:12,740 --> 00:04:19,020
+ But the drive drive node basically sets up one of those drive arrows, but programmatically
+
+76
+00:04:19,020 --> 00:04:22,420
+ allowing you to sort of start and stop it with that node.
+
+77
+00:04:22,420 --> 00:04:28,540
+ So it functions identically to an actual drive, it just has more controls, and you can start
+
+78
+00:04:28,540 --> 00:04:30,740
+ and stop that drive.
+
+79
+00:04:30,740 --> 00:04:33,860
+ So therefore it has the same rules as a regular drive.
+
+80
+00:04:33,860 --> 00:04:40,900
+ And the regular drive is based on a sort of notification system that sort of floods through
+
+81
+00:04:40,900 --> 00:04:44,400
+ the wires a little bit, like electricity would.
+
+82
+00:04:44,400 --> 00:04:50,120
+ So if we think about the simplest logic circuit that you can think of, which is adding two
+
+83
+00:04:50,120 --> 00:04:56,860
+ numbers together and then driving the result of how big a sphere is with the result.
+
+84
+00:04:56,860 --> 00:05:01,060
+ Let's say you put 1+1, you add it together, you get 2, and then you drive the size of
+
+85
+00:05:01,060 --> 00:05:02,260
+ the sphere with that.
+
+86
+00:05:02,260 --> 00:05:07,420
+ At that state, nothing is changing, nothing is updating, because the value of 1+1 equaling
+
+87
+00:05:07,420 --> 00:05:11,020
+ 2 is constant, and Neos knows that.
+
+88
+00:05:11,020 --> 00:05:14,940
+ If you then edit one of those input nodes to maybe change that 1 to a 2 or whatever
+
+89
+00:05:14,940 --> 00:05:19,900
+ number it is, you cause an update, both on the network to sort of say to anyone else
+
+90
+00:05:19,900 --> 00:05:24,660
+ in the session, "hey, this value is now 3" or whatever you put in, but also in terms
+
+91
+00:05:24,660 --> 00:05:27,820
+ of logic where it will re-evaluate that chain.
+
+92
+00:05:27,820 --> 00:05:33,700
+ It will flow out of the input node into the plus node and tell the plus node "yo man,
+
+93
+00:05:33,700 --> 00:05:38,460
+ update your value" and then the plus node goes "got it bro, updating my value" and
+
+94
+00:05:38,460 --> 00:05:40,700
+ then it passes that on to the drive system.
+
+95
+00:05:40,700 --> 00:05:41,700
+ So that's how it works.
+
+96
+00:05:41,700 --> 00:05:45,900
+ There are of course exceptions, things like updating relay which will force stuff to continually
+
+97
+00:05:45,900 --> 00:05:53,180
+ evaluate and various nodes which just by their nature force stuff to continually evaluate.
+
+98
+00:05:53,180 --> 00:05:54,860
+ So it does depend.
+
+99
+00:05:54,860 --> 00:05:59,580
+ The goal is basically to not do mathematics twice, we don't need to.
+
+100
+00:05:59,580 --> 00:06:01,260
+ 1+1 is always 2.
+
+101
+00:06:01,260 --> 00:06:06,140
+ Although I did watch a long time ago, someone linked me this video of this, it was either
+
+102
+00:06:06,140 --> 00:06:12,260
+ a retired military person or it was like a retired teacher, professor, scientist or something
+
+103
+00:06:12,260 --> 00:06:18,060
+ like that, and they were just rambling in front of a whiteboard about how they'd invented
+
+104
+00:06:18,060 --> 00:06:24,260
+ a new form of power based on the principle that 1+1 equaled 1 and it went on forever
+
+105
+00:06:24,260 --> 00:06:27,980
+ and it was like a fever dream, it was amazing.
+
+106
+00:06:27,980 --> 00:06:31,820
+ They were talking about the east and west magnetic poles as well and it was just like
+
+107
+00:06:31,820 --> 00:06:32,820
+ "what?"
+
+108
+00:06:32,820 --> 00:06:37,260
+ It was very confusing, but there we go.
+
+109
+00:06:37,260 --> 00:06:39,260
+ The CloutPanda says "how's my week been?
+
+110
+00:06:39,260 --> 00:06:44,980
+ Also we had a comment on hope you have a headache-free day from Jackal at the start of office hours"
+
+111
+00:06:44,980 --> 00:06:45,980
+ yeah, pretty good day.
+
+112
+00:06:45,980 --> 00:06:48,940
+ I'm probably going to TMI for a moment here.
+
+113
+00:06:48,940 --> 00:06:52,460
+ I was cleaning my bathroom yesterday right, and I needed to replace the toilet seat because
+
+114
+00:06:52,460 --> 00:06:57,340
+ it's old and it was cracking and I wanted to replace it, so I bought what I thought
+
+115
+00:06:57,340 --> 00:06:58,580
+ was an identical toilet seat.
+
+116
+00:06:58,580 --> 00:07:00,660
+ It turns out it was the wrong size.
+
+117
+00:07:00,660 --> 00:07:05,260
+ So just imagine me holding this new toilet seat triumphantly over my toilet, trying to
+
+118
+00:07:05,260 --> 00:07:10,380
+ affix it, screwing it all down, looking at it and being like "that looks stupid" because
+
+119
+00:07:10,380 --> 00:07:16,740
+ it was the wrong shape, and then having to unscrew it gently with much aggression, throw
+
+120
+00:07:16,740 --> 00:07:21,980
+ place gently the new toilet seat to the side and then re-affix the old one, grumpily.
+
+121
+00:07:21,980 --> 00:07:26,480
+ Well it was gently, because if I throw it I'd probably damage a wall and it's a rental,
+
+122
+00:07:26,480 --> 00:07:31,860
+ so it was as aggressive as gentle can be to not damage anything.
+
+123
+00:07:31,860 --> 00:07:36,420
+ I do wish I owned my own place outright, because then I could do what my dad does when stuff
+
+124
+00:07:36,420 --> 00:07:40,460
+ annoys him, he just says "that's going up the garden" and he means it.
+
+125
+00:07:40,460 --> 00:07:44,680
+ So there was this one time where there was a party, and he was using a blender to make
+
+126
+00:07:44,680 --> 00:07:50,180
+ a sauce or something, I don't remember, but the blender just stopped working, and
+
+127
+00:07:50,180 --> 00:07:56,180
+ he just opened the back door and just yeeted it into the garden, because that's where it
+
+128
+00:07:56,180 --> 00:07:57,900
+ belonged apparently.
+
+129
+00:07:57,900 --> 00:08:06,300
+ Moving forwards to Fuzzy's question, which says "been having trouble" exactly like that
+
+130
+00:08:06,300 --> 00:08:08,300
+ gif, that's from the office isn't it?
+
+131
+00:08:08,300 --> 00:08:09,300
+ I don't know.
+
+132
+00:08:09,300 --> 00:08:13,780
+ Fuzzy's question "been having trouble working out the various inn, user inn headset,
+
+133
+00:08:13,780 --> 00:08:17,740
+ etc. knows this, they don't appear to work agree with each other, trying to take AFK
+
+134
+00:08:17,740 --> 00:08:24,260
+ type situations, things seem inconsistent" You need an updating relay for those, and
+
+135
+00:08:24,260 --> 00:08:28,180
+ then you should be able to work out the difference, just make sure you've got an updating relay
+
+136
+00:08:28,180 --> 00:08:29,180
+ for those.
+
+137
+00:08:29,180 --> 00:08:33,460
+ I think Is User Present is like an "and" between the other ones.
+
+138
+00:08:33,460 --> 00:08:38,500
+ I can open up Is User Present now, just go to the tab to the correct Visual Studio project,
+
+139
+00:08:38,500 --> 00:08:42,260
+ seeing as I have 1, 2, 3, 4 open today, I don't know why.
+
+140
+00:08:42,260 --> 00:08:45,340
+ Is User Present.
+
+141
+00:08:45,340 --> 00:08:53,740
+ Is User Present will swap itself with Is User Present in World when it loads.
+
+142
+00:08:53,740 --> 00:08:58,700
+ Is User Present is not a node that we have, it will just swap around.
+
+143
+00:08:58,700 --> 00:09:01,060
+ Looks like we didn't remove it from the list, which is weird.
+
+144
+00:09:01,060 --> 00:09:04,800
+ No no no no no, hold on, hold on, I read that wrong.
+
+145
+00:09:04,800 --> 00:09:06,300
+ One moment here.
+
+146
+00:09:06,300 --> 00:09:14,340
+ If your Is User Present node existed before a certain date, when you load it will be swapped
+
+147
+00:09:14,340 --> 00:09:16,300
+ with Is User Present in World.
+
+148
+00:09:16,300 --> 00:09:20,180
+ After that fact, it will still work as Is Present.
+
+149
+00:09:20,180 --> 00:09:22,100
+ Is Present.
+
+150
+00:09:22,100 --> 00:09:35,420
+ Is Present is present in headset, or not VR active and is present in world.
+
+151
+00:09:35,420 --> 00:09:39,860
+ So are they in the headset and are they in the session?
+
+152
+00:09:39,860 --> 00:09:44,420
+ Is Present inside the world, are they in this world?
+
+153
+00:09:44,420 --> 00:09:47,880
+ No man, they're totally out of this world.
+
+154
+00:09:47,880 --> 00:09:52,060
+ Is Present in headset, is their headset working?
+
+155
+00:09:52,060 --> 00:09:55,020
+ Sorry, is their headset on?
+
+156
+00:09:55,020 --> 00:10:02,580
+ Yeah, our version management systems are fantastic.
+
+157
+00:10:02,580 --> 00:10:06,940
+ I've been trying to encourage us to do as a team, is to when we do that stuff, leave
+
+158
+00:10:06,940 --> 00:10:10,060
+ a comment saying why.
+
+159
+00:10:10,060 --> 00:10:16,500
+ There's a lot in programming and opinions about how useful comments are, etc.
+
+160
+00:10:16,500 --> 00:10:21,580
+ Some people say that the code should explain the why, and I'm just like nope.
+
+161
+00:10:21,580 --> 00:10:24,620
+ Code sometimes cannot explain why.
+
+162
+00:10:24,620 --> 00:10:27,040
+ So comments are needed to explain why.
+
+163
+00:10:27,040 --> 00:10:32,140
+ And then code purists will come after me and they'll say "oh but if you update the code
+
+164
+00:10:32,140 --> 00:10:36,320
+ then the comments are out of date" and I say well then your pull request or your code
+
+165
+00:10:36,320 --> 00:10:41,220
+ review process should include an item saying "I have updated comments around this area
+
+166
+00:10:41,220 --> 00:10:44,820
+ to make it make sense" and if it doesn't then that's a bad engineer.
+
+167
+00:10:44,820 --> 00:10:47,160
+ You know, it should just be no excuse for it.
+
+168
+00:10:47,160 --> 00:10:54,140
+ So if it's unclear why, or you think "hey 3am prime won't understand what I was doing
+
+169
+00:10:54,140 --> 00:10:58,020
+ here later" then I add a comment.
+
+170
+00:10:58,020 --> 00:11:01,160
+ There are actually some times where I add a comment with a link to the Stack Overflow
+
+171
+00:11:01,160 --> 00:11:02,960
+ question where I got the stuff from.
+
+172
+00:11:02,960 --> 00:11:04,740
+ That's good because it provides credit.
+
+173
+00:11:04,740 --> 00:11:09,440
+ But it's also good because I go back to it and I'm like "what is this eldritch chicken
+
+174
+00:11:09,440 --> 00:11:10,440
+ scratch here?
+
+175
+00:11:10,440 --> 00:11:12,320
+ Why have you done it this way?"
+
+176
+00:11:12,320 --> 00:11:16,260
+ And the answer is "because you spent 3 hours and here was the answer you found on Stack
+
+177
+00:11:16,260 --> 00:11:21,660
+ Overflow after 3 hours" so I've even said "hey we can even reference issues, for example
+
+178
+00:11:21,660 --> 00:11:26,440
+ if something weird happened we can just put a comment saying 'this is why we did it'
+
+179
+00:11:26,440 --> 00:11:30,140
+ and then we can literally reference the github issue because it'll be there as long as github
+
+180
+00:11:30,140 --> 00:11:33,680
+ is up" which I don't imagine it going down any time soon.
+
+181
+00:11:33,680 --> 00:11:40,560
+ That's that question, I want to scroll through and make sure we got... okay that's that done.
+
+182
+00:11:40,560 --> 00:11:45,940
+ I think we're out of questions now.
+
+183
+00:11:45,940 --> 00:11:50,800
+ Fuzzy is asking a cloud variable question which is why I'm giggling because cloud variables
+
+184
+00:11:50,800 --> 00:11:55,980
+ are... cloud variables are unfinished which is why they're so confusing.
+
+185
+00:11:55,980 --> 00:12:00,240
+ I'm so sorry that cloud variables are so confusing.
+
+186
+00:12:00,240 --> 00:12:01,560
+ I have to consult the oracle.
+
+187
+00:12:01,560 --> 00:12:02,560
+ Give me a second.
+
+188
+00:12:02,560 --> 00:12:07,640
+ By the oracle I mean my documentation on the wiki which is sometimes wrong.
+
+189
+00:12:07,640 --> 00:12:13,000
+ It was wrong, I updated a bunch of it but like it's always wrong.
+
+190
+00:12:13,000 --> 00:12:17,960
+ You're asking about definition only... definition owner only unsafe.
+
+191
+00:12:17,960 --> 00:12:22,300
+ Okay definition own own... do you... can't even say it.
+
+192
+00:12:22,300 --> 00:12:24,820
+ Definition owner... no.
+
+193
+00:12:24,820 --> 00:12:29,560
+ Definition owner only unsafe can be used by users and groups.
+
+194
+00:12:29,560 --> 00:12:38,600
+ Definition owner only unsafe is only used for a singular value and it's in read write
+
+195
+00:12:38,600 --> 00:12:41,840
+ permissions though so it's useful for version control systems.
+
+196
+00:12:41,840 --> 00:12:51,760
+ I don't know if you uclops here but like definition owner only unsafe would be what I might use
+
+197
+00:12:51,760 --> 00:12:57,200
+ if the wiki is correct which it might not be for the version detection system which
+
+198
+00:12:57,200 --> 00:12:59,320
+ redprint has for example.
+
+199
+00:12:59,320 --> 00:13:04,020
+ I would probably use definition owner only there which means I could set the version
+
+200
+00:13:04,020 --> 00:13:09,840
+ number inside the dash because I didn't want someone doing some hacky logics to do it in
+
+201
+00:13:09,840 --> 00:13:14,640
+ an unsafe way with like "you guys there's a new version of redprint and it's called
+
+202
+00:13:14,640 --> 00:13:23,360
+ version 17400 and cheese" which could theoretically happen if you use definition owner only unsafe
+
+203
+00:13:23,360 --> 00:13:27,680
+ because it can be set in an unsafe context.
+
+204
+00:13:27,680 --> 00:13:35,520
+ You set that for a read permission on a variable and it's still readable in world using a user
+
+205
+00:13:35,520 --> 00:13:39,880
+ from username node unless read by... you set it for...
+
+206
+00:13:39,880 --> 00:13:44,120
+ I'd have to look at like the setup and the configuration and which logics nodes you're
+
+207
+00:13:44,120 --> 00:13:48,120
+ doing so if you can share that we can look at it more.
+
+208
+00:13:48,120 --> 00:13:53,080
+ Great like it's not like there is no node by that name.
+
+209
+00:13:53,080 --> 00:13:58,640
+ Can we like yeah can we can we just you know tone that down I'm looking at the full node
+
+210
+00:13:58,640 --> 00:13:59,640
+ list here.
+
+211
+00:13:59,640 --> 00:14:01,800
+ Yep I know that name.
+
+212
+00:14:01,800 --> 00:14:07,440
+ Oh confusing the stage also has a chat channel oh my god we should probably like switch to
+
+213
+00:14:07,440 --> 00:14:08,880
+ that at some point yeah.
+
+214
+00:14:08,880 --> 00:14:12,520
+ Anyway moving on to questions.
+
+215
+00:14:12,520 --> 00:14:17,940
+ Fuzzy wants a variable only they could okay so if you want it only that you can read it
+
+216
+00:14:17,940 --> 00:14:22,280
+ definition owner only without the unsafe would be the way that you do it because with the
+
+217
+00:14:22,280 --> 00:14:28,280
+ unsafe it means that people can read it if you're in the session and they know their
+
+218
+00:14:28,280 --> 00:14:29,800
+ way around logics.
+
+219
+00:14:29,800 --> 00:14:35,680
+ The oo node is a joke node you're not meant to use it for anything concrete it's just
+
+220
+00:14:35,680 --> 00:14:43,000
+ outputs what's this much like the b0 3 all node which is just a typo that for example
+
+221
+00:14:43,000 --> 00:14:44,800
+ funny so put it into the code.
+
+222
+00:14:44,800 --> 00:14:48,600
+ I was actually thinking about this the other day and hey this is this is my space to talk
+
+223
+00:14:48,600 --> 00:14:56,440
+ about random stuff including toilet seats so Microsoft has a policy where we don't do
+
+224
+00:14:56,440 --> 00:15:03,080
+ April Fools jokes and because of my time at that company I agree I completely agree that
+
+225
+00:15:03,080 --> 00:15:11,520
+ companies should not do April Fools jokes and what happened is that order or like directive
+
+226
+00:15:11,520 --> 00:15:15,360
+ or I guess policy but the right word since we're not talking about military came directly
+
+227
+00:15:15,360 --> 00:15:23,180
+ from like the chief legal officer of Microsoft and the reason behind that is like they calculated
+
+228
+00:15:23,180 --> 00:15:29,720
+ the like cost in terms of sort of marketing legal financial etc about putting out something
+
+229
+00:15:29,720 --> 00:15:35,680
+ that was confusing and it was large like say for example you put out like you know today
+
+230
+00:15:35,680 --> 00:15:43,480
+ Microsoft is releasing Microsoft cheese because it's April Fools or Microsoft Pi 3.1.4 etc
+
+231
+00:15:43,480 --> 00:15:50,080
+ some person somewhere is going to be confused by that and they're going to have some action
+
+232
+00:15:50,080 --> 00:15:57,080
+ that may lead to a decline in reputation revenue legal standing stock price whatever so they
+
+233
+00:15:57,080 --> 00:16:02,080
+ were just like nope we don't do it anymore and I just completely agree with that so I
+
+234
+00:16:02,080 --> 00:16:06,000
+ want more companies to sort of do that measurement if they're like really small it's probably
+
+235
+00:16:06,000 --> 00:16:09,320
+ not going to matter but like when it comes to like a gigantic company like Microsoft
+
+236
+00:16:09,320 --> 00:16:10,840
+ it just like makes sense.
+
+237
+00:16:10,840 --> 00:16:16,240
+ Zari says it always backfires it's not like it always backfires it's like the potential
+
+238
+00:16:16,240 --> 00:16:23,120
+ for backfiring is higher than the reward right if you want to be funny be funny 365 days
+
+239
+00:16:23,120 --> 00:16:27,360
+ a year you can see that with the social media accounts for brands where they're trying to
+
+240
+00:16:27,360 --> 00:16:33,360
+ be funny sometimes they aren't funny sometimes they are but they are consistently trying
+
+241
+00:16:33,360 --> 00:16:38,600
+ if the brand is only quote funny on April 1st then it's just it's really weird like
+
+242
+00:16:38,600 --> 00:16:44,080
+ I kind of like for example I like Discord's brand Discord's brand is it feels quite young
+
+243
+00:16:44,080 --> 00:16:49,680
+ it doesn't feel stuffy it doesn't feel you know too corporate like and that's because
+
+244
+00:16:49,680 --> 00:16:53,600
+ they work on that brand every single time they do an announcement every single time
+
+245
+00:16:53,600 --> 00:16:59,080
+ they do a release there's a frog on my head for example.
+
+246
+00:16:59,080 --> 00:17:05,040
+ I don't answer cheese questions here yes questions or questions about toilet seats those are
+
+247
+00:17:05,040 --> 00:17:09,280
+ mine today all right I don't see any other questions although fuzzy does say sorry for
+
+248
+00:17:09,280 --> 00:17:15,000
+ all the dumb questions there is no such thing as a dumb question if you don't understand
+
+249
+00:17:15,000 --> 00:17:19,520
+ something you have two choices in the world and that is to try and understand it or to
+
+250
+00:17:19,520 --> 00:17:24,240
+ give up and trying to understand it is always the best option so please ask questions there
+
+251
+00:17:24,240 --> 00:17:30,500
+ are like dumbly worded questions I guess would be the sort of term to use it you can read
+
+252
+00:17:30,500 --> 00:17:37,760
+ all of that that at a page called asking good questions you could just Google I can't remember
+
+253
+00:17:37,760 --> 00:17:41,420
+ the exact one I was looking for but yeah just how to ask good questions that's also the
+
+254
+00:17:41,420 --> 00:17:48,260
+ XY problem etc let's take a look I have questions Tiki says to save something like a personal
+
+255
+00:17:48,260 --> 00:17:53,880
+ playlist what kind of storage should I use playlist of videos I wouldn't recommend cloud
+
+256
+00:17:53,880 --> 00:18:01,260
+ variables for that because lists are of course difficult you could comma separate value or
+
+257
+00:18:01,260 --> 00:18:06,120
+ tab separated value or whatever the hell you want separated value a list of videos into
+
+258
+00:18:06,120 --> 00:18:11,880
+ a cloud variable definition owner again is the sort of variant of permissions that you
+
+259
+00:18:11,880 --> 00:18:15,740
+ need as as fuzzy as struggling with those you'll probably have to do some experimentation
+
+260
+00:18:15,740 --> 00:18:20,500
+ but I wouldn't recommend cloud variables for a personal playlist when it comes to music
+
+261
+00:18:20,500 --> 00:18:24,860
+ and playlists I actually recommend especially if it's a YouTube playlist make a YouTube
+
+262
+00:18:24,860 --> 00:18:29,180
+ playlist and then you can like put that YouTube playlist into some of the players we have
+
+263
+00:18:29,180 --> 00:18:34,460
+ in game and it will play that playlist and in some cases and I apologize for bringing
+
+264
+00:18:34,460 --> 00:18:38,100
+ this up in some cases consider whether you need to play your music to everyone else in
+
+265
+00:18:38,100 --> 00:18:43,140
+ the world gray says just check I think the user mesh hide component is broken yeah I
+
+266
+00:18:43,140 --> 00:18:46,840
+ don't know what that one is either like this is another sort of like we need we need comments
+
+267
+00:18:46,840 --> 00:18:53,260
+ and it's like avatar user mesh hider what do you think it does because I've just read
+
+268
+00:18:53,260 --> 00:18:57,940
+ what it does and to answer your question I need to know what you think it does I've just
+
+269
+00:18:57,940 --> 00:19:02,420
+ been through the entire node list gray like there's not a node by that name like I did
+
+270
+00:19:02,420 --> 00:19:07,480
+ control T typed in that and then I scroll through the entire list and I need to scroll
+
+271
+00:19:07,480 --> 00:19:12,420
+ down I'm sorry I don't realize I was gonna scroll down apologies for that I'll take a
+
+272
+00:19:12,420 --> 00:19:17,940
+ look now sometimes I just forget a scroll bar exists I blame it being like almost the
+
+273
+00:19:17,940 --> 00:19:22,080
+ same color as the background angry pilot says is it technically possible for users in the
+
+274
+00:19:22,080 --> 00:19:25,800
+ US to load a resource pics videos etc from other user host if it's only available on
+
+275
+00:19:25,800 --> 00:19:33,440
+ a local server for that host I don't know what you're asking let me read it again is
+
+276
+00:19:33,440 --> 00:19:38,240
+ it any possible for users in news to load a resource from other users or the host if
+
+277
+00:19:38,240 --> 00:19:42,440
+ it's only available on a local server for that host no the load would have to be triggered
+
+278
+00:19:42,440 --> 00:19:48,080
+ by the person who owns it a good example for that would be let's say you have the latest
+
+279
+00:19:48,080 --> 00:19:54,000
+ funny meme tik tok video on your hard drive you would have to import it for people to
+
+280
+00:19:54,000 --> 00:19:58,880
+ be able to see it okay so catching up on the composition but use a mesh hider yeah it's
+
+281
+00:19:58,880 --> 00:20:07,160
+ for like hair and stuff like that it should work I'm reading the code for it now basically
+
+282
+00:20:07,160 --> 00:20:15,520
+ on equip it says yeah whoever's wearing the avatar we go through all the mesh renderers
+
+283
+00:20:15,520 --> 00:20:20,240
+ are the ones that aren't on the exclude list it will just hide which which sounds backwards
+
+284
+00:20:20,240 --> 00:20:30,160
+ I feel it should be like an include not an exclude list like hide the hair hide the hat
+
+285
+00:20:30,160 --> 00:20:35,120
+ linker says that it does work people just think it hides the other yeah yeah people
+
+286
+00:20:35,120 --> 00:20:41,920
+ I remember also thinking that the avatar mesh avatar user mesh hider was also some sort
+
+287
+00:20:41,920 --> 00:20:47,280
+ of like safety feature right it sounds like user blocking it is not all of that will be
+
+288
+00:20:47,280 --> 00:20:53,840
+ fixed by you know documentation it also be fixed in some cases by just having those features
+
+289
+00:20:53,840 --> 00:20:59,880
+ generically yeah it just like it does a value user override for the for the hair etc it
+
+290
+00:20:59,880 --> 00:21:06,960
+ will include mirrors it will include cameras anything rendered from the point of view of
+
+291
+00:21:06,960 --> 00:21:13,200
+ the user who has it equipped camera avatar mirror whatever will have the effect like
+
+292
+00:21:13,200 --> 00:21:16,200
+ if you wanted to do it if I don't know a photo shoot let's say you're dancing or whatever
+
+293
+00:21:16,200 --> 00:21:21,600
+ you would have to get a camera person that didn't do that yeah it probably I mean I don't
+
+294
+00:21:21,600 --> 00:21:25,720
+ know there's no comments in the code base around why it was added but it probably existed
+
+295
+00:21:25,720 --> 00:21:30,440
+ before we had the net the near clip adjustments and it was probably something for excited
+
+296
+00:21:30,440 --> 00:21:36,840
+ to give people additional options that weren't hey just do it do it vrchat does guys just
+
+297
+00:21:36,840 --> 00:21:42,400
+ just do it just do what vrchat does which is where they like shrink your head to zero
+
+298
+00:21:42,400 --> 00:21:48,880
+ from your head camera only right let's move forwards fuzzy says had some witness today
+
+299
+00:21:48,880 --> 00:21:52,440
+ running headless or custom URL one person couldn't join through a button facet I made
+
+300
+00:21:52,440 --> 00:21:55,920
+ although it's been working for weeks and work for me after giving them a regular invite
+
+301
+00:21:55,920 --> 00:22:00,840
+ they were able to join the world and come back again using the facet not really a question
+
+302
+00:22:00,840 --> 00:22:06,160
+ but moreover that was an odd moment if I was gonna manage try to report it yeah depending
+
+303
+00:22:06,160 --> 00:22:13,400
+ on like the invite settings and the privacy settings even if you have a custom URL you
+
+304
+00:22:13,400 --> 00:22:17,800
+ sometimes can't join it without an invite like the fact that you gave them an invite
+
+305
+00:22:17,800 --> 00:22:22,400
+ and then the facet works makes me think it was like a permission II thing like if you
+
+306
+00:22:22,400 --> 00:22:27,240
+ did like I don't know I'd have to I'd have to do an entire test matrix on it and I haven't
+
+307
+00:22:27,240 --> 00:22:31,760
+ done that but like you could totally do that and figure out what the options are there
+
+308
+00:22:31,760 --> 00:22:35,600
+ switch this is just out of curiosity any info what the universe ID is for what does for
+
+309
+00:22:35,600 --> 00:22:40,720
+ I don't know if it works I don't think anyone's used it but universe ID is to segregate parts
+
+310
+00:22:40,720 --> 00:22:45,160
+ of the Neos community this sounds so like the touristic is to segregate parts of the
+
+311
+00:22:45,160 --> 00:22:49,560
+ Neos community into separate universes you can think of it a little bit like subreddits
+
+312
+00:22:49,560 --> 00:22:54,320
+ so there's an example here a school my enter universe ID of hopefully something that isn't
+
+313
+00:22:54,320 --> 00:22:58,240
+ just the name of the school but they're an entire universe ID and all the computers that
+
+314
+00:22:58,240 --> 00:23:02,440
+ run Neos and then they wouldn't be able to see us us fairies hanging out in the corner
+
+315
+00:23:02,440 --> 00:23:07,200
+ you know making fairy noises because they're a school they'll be on the school universe
+
+316
+00:23:07,200 --> 00:23:11,380
+ I've not seen anyone use it successfully I've had many occurrence where we should be using
+
+317
+00:23:11,380 --> 00:23:15,120
+ it but it's just not being used I don't know if that's because it doesn't work or because
+
+318
+00:23:15,120 --> 00:23:22,240
+ people aren't aware of it but there we go as an example the user Peck is a professor
+
+319
+00:23:22,240 --> 00:23:28,160
+ at the University of somewhere in Prague sometimes his students come in and they flood the active
+
+320
+00:23:28,160 --> 00:23:34,360
+ session list with a bunch of sort of new users who are also your students and so that's always
+
+321
+00:23:34,360 --> 00:23:39,320
+ fun to see that should probably be on its own universe like says what you think of this
+
+322
+00:23:39,320 --> 00:23:45,720
+ show 256 it's impressive I hope you had fun I won't be reading it further because it makes
+
+323
+00:23:45,720 --> 00:23:50,880
+ my head spin I am impressed that you got it done though picture says Aggie parts question
+
+324
+00:23:50,880 --> 00:23:54,860
+ was more related to network and powers if it was linked to local server on another user
+
+325
+00:23:54,860 --> 00:23:58,880
+ could it be opened on another user through the hose sort of similar to relaying RPCs
+
+326
+00:23:58,880 --> 00:24:06,100
+ from loading no that can't be done the avatar use a mesh
+
+327
+00:24:06,100 --> 00:24:13,840
+ is broken there's a difference between broken and not designed well it's working I guarantee
+
+328
+00:24:13,840 --> 00:24:19,240
+ that reading the code it's really really simple guarantee it works it's just not designed
+
+329
+00:24:19,240 --> 00:24:23,940
+ for the way that you want to use it so the avatar user mesh is broken it's just not designed
+
+330
+00:24:23,940 --> 00:24:27,000
+ the way that you want to use it there's a there's a difference there that's also why
+
+331
+00:24:27,000 --> 00:24:32,520
+ we have the bug issue type on GitHub and the tweak issue type on GitHub like that isn't
+
+332
+00:24:32,520 --> 00:24:36,740
+ a bug that's it that's a tweak you are requesting additional functionality to be added to the
+
+333
+00:24:36,740 --> 00:24:43,400
+ component thank you parlor elaborates and talks about them having a local FTP server
+
+334
+00:24:43,400 --> 00:24:47,740
+ and asking if news users could go through that and talk to them no that would be would
+
+335
+00:24:47,740 --> 00:24:53,040
+ have to bring would have to bring the external news user into your network which just doesn't
+
+336
+00:24:53,040 --> 00:24:57,480
+ exist could we ferry packets somehow there's probably some sort of protocol where we can
+
+337
+00:24:57,480 --> 00:25:03,560
+ sort of proxy or something yes so like ultimately that's possible but no you can't right now
+
+338
+00:25:03,560 --> 00:25:10,440
+ gray asks so you can make an adult universe maybe gray needs a cold shower theoretically
+
+339
+00:25:10,440 --> 00:25:17,680
+ yes but you'd have to abide by all nearest usage guidelines even on that universe so
+
+340
+00:25:17,680 --> 00:25:23,500
+ nothing in public sessions etc etc go read the guidelines there would be not much reason
+
+341
+00:25:23,500 --> 00:25:27,040
+ to do it is what I'm saying because you would still be breaking the guidelines if anything
+
+342
+00:25:27,040 --> 00:25:35,200
+ was public in the future perhaps eventually not now not now you might be able to do and
+
+343
+00:25:35,200 --> 00:25:41,120
+ have public adult sessions Yuki asks so question though would would wouldn't even with separate
+
+344
+00:25:41,120 --> 00:25:45,640
+ university you'd have access to both essential photos I think you would yeah I don't know
+
+345
+00:25:45,640 --> 00:25:50,440
+ how much the universe system has been implemented I just haven't had a chance to try it zinc
+
+346
+00:25:50,440 --> 00:25:54,920
+ has followed up with some information that says you can send it to anything really and
+
+347
+00:25:54,920 --> 00:25:58,880
+ then only works the world browser and you can still join in contacts it's literally
+
+348
+00:25:58,880 --> 00:26:03,600
+ hidden but allowed in contacts page it does nothing to folders see it's purely session
+
+349
+00:26:03,600 --> 00:26:07,720
+ listing gray is still claiming it's broken yeah it only does it when you equip it so
+
+350
+00:26:07,720 --> 00:26:11,320
+ you need to once you've set it up you need to re-equip the avatar Lex is seeing how to
+
+351
+00:26:11,320 --> 00:26:16,320
+ break the guidelines if someone else uses your universe ID then the universe sessions
+
+352
+00:26:16,320 --> 00:26:21,860
+ would show up publicly in the session browser of that content so it would still be public
+
+353
+00:26:21,860 --> 00:26:27,840
+ because it's still viewable to the public and yeah you might make a universe ID like
+
+354
+00:26:27,840 --> 00:26:36,120
+ a random alphanumeric string that is like very long but someone could still guess it
+
+355
+00:26:36,120 --> 00:26:42,700
+ gray says please don't put whatever my sorry it wasn't intention I will go ahead and make
+
+356
+00:26:42,700 --> 00:26:48,920
+ a tutorial on it for you and that way we'll see if it works Yuki says a school setting
+
+357
+00:26:48,920 --> 00:26:53,180
+ universe ID isn't enough they would have to delete those fault yeah I'm trying to sort
+
+358
+00:26:53,180 --> 00:26:57,460
+ of figure out and have a conversation with the team about what we do about near essentials
+
+359
+00:26:57,460 --> 00:27:01,440
+ and central tools I want to combine them together essential tools should just be near essentials
+
+360
+00:27:01,440 --> 00:27:10,000
+ tools and I also want to sort of come up with a way where we don't have as many orange folders
+
+361
+00:27:10,000 --> 00:27:20,200
+ inside news essentials as we do like I don't I don't like how there are team folders in
+
+362
+00:27:20,200 --> 00:27:24,880
+ multiple locations like I would love if it was just like in those actually a folder for
+
+363
+00:27:24,880 --> 00:27:29,040
+ a community folders and then inside the community folders we put all the team folders in there
+
+364
+00:27:29,040 --> 00:27:33,360
+ because then it would be it just like it's clear that you're entering an area that is
+
+365
+00:27:33,360 --> 00:27:37,440
+ not near essentials because right now they're just everywhere I also think as a team we
+
+366
+00:27:37,440 --> 00:27:40,740
+ need to come up with a policy of what goes in near essentials and what doesn't because
+
+367
+00:27:40,740 --> 00:27:45,200
+ it's very clear that some team members put useful items in there whilst those items are
+
+368
+00:27:45,200 --> 00:27:49,400
+ useful it's sort of like do we have a policy and what should be included and what shouldn't
+
+369
+00:27:49,400 --> 00:27:55,200
+ be included I don't so we need one those sorts of things are things that you only think about
+
+370
+00:27:55,200 --> 00:27:58,980
+ when you start getting into like a larger company when you're like oh you know it's
+
+371
+00:27:58,980 --> 00:28:03,440
+ beyond sort of like a few hundred people playing now it's a few thousand people playing now
+
+372
+00:28:03,440 --> 00:28:07,240
+ it's ten thousand people playing and you're like okay we need to make sure nothing goes
+
+373
+00:28:07,240 --> 00:28:12,960
+ wrong we also need a policy for what gets featured how stuff gets featured etc word
+
+374
+00:28:12,960 --> 00:28:16,760
+ policy might sound scary to some people but it's basically just like let's discuss it
+
+375
+00:28:16,760 --> 00:28:22,200
+ and then record that we've discussed it so that we're not confused later tiki says it
+
+376
+00:28:22,200 --> 00:28:27,420
+ often happens in desktop mode the world goes fully white on a session switching session
+
+377
+00:28:27,420 --> 00:28:31,480
+ everything's okay coming back it's still white until I respawn and ideas how this happens
+
+378
+00:28:31,480 --> 00:28:37,160
+ I had that for months literally months and then it just randomly stops so I never looked
+
+379
+00:28:37,160 --> 00:28:42,000
+ into it I apologize I don't have much more information on that one that literally happened
+
+380
+00:28:42,000 --> 00:28:47,360
+ for months and I've only really just now remind remembered it I could look the flashbang right
+
+381
+00:28:47,360 --> 00:28:51,760
+ sometimes it would happen and used to go like what's up and I like I don't mind me the flashbangs
+
+382
+00:28:51,760 --> 00:28:56,780
+ got off I'm gonna respond sorry says the new shield has always struck me as not being well
+
+383
+00:28:56,780 --> 00:29:01,080
+ placed in the official news folder yeah I don't like the new shield I don't think it
+
+384
+00:29:01,080 --> 00:29:05,120
+ should be there now to be clear because I know we have this issue and then in this community
+
+385
+00:29:05,120 --> 00:29:09,400
+ that doesn't mean I dislike the owner or the author it just means I don't personally like
+
+386
+00:29:09,400 --> 00:29:14,680
+ that particular item and I don't think it should be exactly writers jackal says very
+
+387
+00:29:14,680 --> 00:29:17,760
+ good point about nice essentials I mean there's interesting stuff in news essentials but as
+
+388
+00:29:17,760 --> 00:29:23,700
+ a relative newbie a lot of things have for me meaningless names because they are named
+
+389
+00:29:23,700 --> 00:29:29,440
+ for the people who built them and such and such so-and-so is creative stuff yeah there's
+
+390
+00:29:29,440 --> 00:29:34,760
+ also a problem where some of the items are named like you'd name a book or a film not
+
+391
+00:29:34,760 --> 00:29:39,080
+ how you'd name a tool like for example a screwdriver is called a screwdriver because it drives
+
+392
+00:29:39,080 --> 00:29:46,080
+ screws but in neo sland a screwdriver might be called like primes super fantastic ultimate
+
+393
+00:29:46,080 --> 00:29:54,920
+ RGB tag special ultimate RGB tag version 17 thing and you're like yeah I have no idea
+
+394
+00:29:54,920 --> 00:29:58,880
+ what that does and then you spawn it and there's no instructions it's just like a tool you
+
+395
+00:29:58,880 --> 00:30:04,320
+ hook up but you don't know what it does some people do have like ways around that the basic
+
+396
+00:30:04,320 --> 00:30:08,720
+ is one I say movies where a gearball will like parent a piece of text to the object
+
+397
+00:30:08,720 --> 00:30:13,100
+ which is set to non persistent when it loads so it's sort of like spawns in the text but
+
+398
+00:30:13,100 --> 00:30:19,500
+ won't hang around and it says like equip this and push left trigger to fly or whatever if
+
+399
+00:30:19,500 --> 00:30:24,480
+ you look inside the examples folder inside news essentials that's kind of sort of my
+
+400
+00:30:24,480 --> 00:30:28,360
+ playing ground is a little bit more organized there and sort of functional units although
+
+401
+00:30:28,360 --> 00:30:33,160
+ of course there's always more work to do on that line gray says why don't you like the
+
+402
+00:30:33,160 --> 00:30:38,240
+ shield the shield teaches the wrong solution to a problem so the solution to the problem
+
+403
+00:30:38,240 --> 00:30:44,060
+ is to combat the culture that you're experiencing which requires you to have the shield now
+
+404
+00:30:44,060 --> 00:30:48,440
+ of course you'll say yeah but so many new people come in and then they get our hands
+
+405
+00:30:48,440 --> 00:30:54,680
+ on stuff the you know do does stuff that the shield protects against which like okay can
+
+406
+00:30:54,680 --> 00:31:00,440
+ a people stop making that stuff be can we stop handing out to new users see can we start
+
+407
+00:31:00,440 --> 00:31:06,600
+ educating new users on our rules and guidelines and then like D E F and G and H is like please
+
+408
+00:31:06,600 --> 00:31:11,840
+ report people who are consistently harassing you to moderation they need to know it's bad
+
+409
+00:31:11,840 --> 00:31:15,560
+ we are running over time here but I'll give you a quick example of the story I was in
+
+410
+00:31:15,560 --> 00:31:21,360
+ a world there was some unoccupied avatars in the corner a brand new user who was young
+
+411
+00:31:21,360 --> 00:31:26,620
+ but old enough to play the game so 13 or above came into the session and started verbally
+
+412
+00:31:26,620 --> 00:31:31,720
+ abusing an unoccupied avatar in the corner now of course this unoccupied avatar was unoccupied
+
+413
+00:31:31,720 --> 00:31:37,000
+ so they weren't verbally abusing some actual person but I went over and I told them off
+
+414
+00:31:37,000 --> 00:31:42,600
+ and I said hey this behavior isn't appropriate on this platform we don't insult each other
+
+415
+00:31:42,600 --> 00:31:46,240
+ we you know we have fun we hang out and they didn't really get the message for a little
+
+416
+00:31:46,240 --> 00:31:49,680
+ bit but a bit later they did get the message and they actually went back over to this under
+
+417
+00:31:49,680 --> 00:31:54,080
+ completed avatar and apologized to it and I thought that was kind of sweet I have never
+
+418
+00:31:54,080 --> 00:31:58,400
+ seen that user ever again I presume they went on to go play gorilla tag or something but
+
+419
+00:31:58,400 --> 00:32:04,920
+ it was just like a perfect example of I taught them the culture that I wish that the entirety
+
+420
+00:32:04,920 --> 00:32:09,440
+ of Neos had which is we see an issue we talk to them about the issue until they understand
+
+421
+00:32:09,440 --> 00:32:13,680
+ it and if they don't understand it we continue to talk to them about the consequences of
+
+422
+00:32:13,680 --> 00:32:18,880
+ them not understanding that issue which is the consequences are you will be kicked like
+
+423
+00:32:18,880 --> 00:32:22,960
+ here are the consequences of your action Lexus how do we currently change the culture without
+
+424
+00:32:22,960 --> 00:32:27,840
+ changes to soften it Neos essentials and updates of the platform to make it easier one way
+
+425
+00:32:27,840 --> 00:32:34,280
+ would be to I guess a few ways would be first of all recognized as a session host you do
+
+426
+00:32:34,280 --> 00:32:38,520
+ actually unfortunately have to go into teacher mode sometimes and do what I was just describing
+
+427
+00:32:38,520 --> 00:32:42,080
+ which is you explain to someone why their behavior is inappropriate you talk about the
+
+428
+00:32:42,080 --> 00:32:46,680
+ consequences for if they continue the behavior and then you you you kick them I've seen a
+
+429
+00:32:46,680 --> 00:32:50,800
+ lot of users who sort of come forward or talk about it where they are the session host but
+
+430
+00:32:50,800 --> 00:32:55,760
+ they feel bad about maybe kicking or banning people because they don't want to cause strife
+
+431
+00:32:55,760 --> 00:33:00,760
+ or upset etc that's the sort of thing that we need to change like it also happens in
+
+432
+00:33:00,760 --> 00:33:04,760
+ in the real world there's whole sort of I think it's called like bystander training
+
+433
+00:33:04,760 --> 00:33:08,240
+ or something there's a whole name for it like green green dot or something I can't remember
+
+434
+00:33:08,240 --> 00:33:12,880
+ what it is it's basically like if and this is a horrible topic but let's say I don't
+
+435
+00:33:12,880 --> 00:33:20,500
+ know you're on a subway train and you see I don't know let's say someone being harassed
+
+436
+00:33:20,500 --> 00:33:26,240
+ in the corner like are you going to intervene with that and if you are going to intervene
+
+437
+00:33:26,240 --> 00:33:31,040
+ do you know how to intervene appropriately would other people on the train back you up
+
+438
+00:33:31,040 --> 00:33:34,180
+ not in a way where they're going to throw fists or anything but like would they back
+
+439
+00:33:34,180 --> 00:33:40,440
+ you up in the ways of sort of correctly de-escalating the situation and you know getting the person
+
+440
+00:33:40,440 --> 00:33:45,080
+ to safety etc would they and the answer is probably no and bystander training is the
+
+441
+00:33:45,080 --> 00:33:49,720
+ idea of trying to improve that situation there are a couple of updates that can be made to
+
+442
+00:33:49,720 --> 00:33:55,300
+ worlds to help things as well if you go into the permission system you can set the max
+
+443
+00:33:55,300 --> 00:33:59,680
+ scale and min scale they're currently set to a little bit of a weird number if you just
+
+444
+00:33:59,680 --> 00:34:06,320
+ raise those up and down a little bit that will help you can also set the full respawn
+
+445
+00:34:06,320 --> 00:34:10,160
+ position to a little bit higher that will also help because that means that when people
+
+446
+00:34:10,160 --> 00:34:14,720
+ do fall off terrain they won't spend forever falling they'll just fall for a little bit
+
+447
+00:34:14,720 --> 00:34:19,520
+ and then immediately respawn so it minimizes them for time where they're disturbed there's
+
+448
+00:34:19,520 --> 00:34:23,880
+ probably like other stuff you can do in the character controller to like limit the velocity
+
+449
+00:34:23,880 --> 00:34:30,800
+ of people like globally I know that you'll be able to do it with the the locomotion modifiers
+
+450
+00:34:30,800 --> 00:34:36,480
+ that I've seen that I did that big world on it is a difficult problem and like it's it's
+
+451
+00:34:36,480 --> 00:34:40,600
+ not like I'm asking you guys to solve it and we won't like trust me like I want to solve
+
+452
+00:34:40,600 --> 00:34:44,600
+ it I want to like provide as many tools as possible to solve it it's just we are currently
+
+453
+00:34:44,600 --> 00:34:49,400
+ stuck in that situation where we can't there's a particular variant of the bystander training
+
+454
+00:34:49,400 --> 00:34:54,040
+ I just can't like it's something like green green light green dot it was all sort of like
+
+455
+00:34:54,040 --> 00:34:58,720
+ trying to sort of like change the mindset from sort of like that isn't happening I should
+
+456
+00:34:58,720 --> 00:35:04,240
+ ignore it into I am an active participant in this event and it's on me to try and do
+
+457
+00:35:04,240 --> 00:35:09,340
+ something or something like that green dot find standard intervention training that's
+
+458
+00:35:09,340 --> 00:35:14,020
+ the one yeah there we go Specs has an amazing statement which I'll read we are leaving off
+
+459
+00:35:14,020 --> 00:35:18,920
+ so please drop down the level of questions I'm trying to wrap things up here now but
+
+460
+00:35:18,920 --> 00:35:22,520
+ Specs says confrontation can be scary most time people will listen I've had people quite
+
+461
+00:35:22,520 --> 00:35:28,080
+ firmly hey please don't keep sporting noise color vomit 5000 or I'll have to kick you
+
+462
+00:35:28,080 --> 00:35:32,920
+ and they stop doing it do you remember when it turns when it comes to loading stuff as
+
+463
+00:35:32,920 --> 00:35:37,240
+ as grace's collide initialization route it was literally the first tutorial I did please
+
+464
+00:35:37,240 --> 00:35:41,200
+ go watch it you'll learn a lot about like paroms first tutorial and it tells you how
+
+465
+00:35:41,200 --> 00:35:46,420
+ to fix up your collisions so that you don't fall through the ground on load whilst I'm
+
+466
+00:35:46,420 --> 00:35:52,360
+ here because I came up in conversation at some point as well consider not spawning the
+
+467
+00:35:52,360 --> 00:35:58,080
+ hermit meter by the way the hermit meter for those who are not aware is a meter which gets
+
+468
+00:35:58,080 --> 00:36:01,880
+ the percentage of people in private worlds and it's an unhealthy metric that I don't
+
+469
+00:36:01,880 --> 00:36:06,380
+ think you should do what it does is it points a massive big finger at those people hiding
+
+470
+00:36:06,380 --> 00:36:14,180
+ in private worlds and says haha you're a problem and that isn't a healthy way to get them out
+
+471
+00:36:14,180 --> 00:36:18,400
+ of private sessions like if you want to get people out of private sessions you need to
+
+472
+00:36:18,400 --> 00:36:22,560
+ give them a reason to come out of private sessions and if the first thing they see when
+
+473
+00:36:22,560 --> 00:36:27,680
+ they come out of private sessions is people discussing people in private sessions it doesn't
+
+474
+00:36:27,680 --> 00:36:32,840
+ encourage them like it's basically just going like these people are a problem and when they
+
+475
+00:36:32,840 --> 00:36:36,120
+ come out of private sessions we're going to talk about them even though they've they've
+
+476
+00:36:36,120 --> 00:36:41,300
+ braved a public session it's it's just like it's it's the wrong way to do it like give
+
+477
+00:36:41,300 --> 00:36:47,200
+ them a reason encourage them and invite them very good specs you've won the sort of analogy
+
+478
+00:36:47,200 --> 00:36:53,120
+ award for today specs is if you've ever been told by parents or family oh so you've come
+
+479
+00:36:53,120 --> 00:36:57,880
+ out of your cave as an introvert you know how much that sucks good good good analogy
+
+480
+00:36:57,880 --> 00:37:02,160
+ uh yeah i'll speak to major about i didn't realize it was in the creator jam uh template
+
+481
+00:37:02,160 --> 00:37:05,960
+ like if you want a hermit meter flip it upside down have the non-hermit meter and then try
+
+482
+00:37:05,960 --> 00:37:10,640
+ and increase that it but like the number of people in public sessions right now the social
+
+483
+00:37:10,640 --> 00:37:16,720
+ meter the potential friends meter i'll go ahead and leave off there if you have any
+
+484
+00:37:16,720 --> 00:37:20,080
+ additional questions please feel free to dm me tag me send me pigeons whatever you want
+
+485
+00:37:20,080 --> 00:37:24,000
+ to do i will go ahead and answer them to the best of my ability i am starving i'm gonna
+
+486
+00:37:24,000 --> 00:37:26,880
+ go feed myself cheese will be involved
+

@@ -1,0 +1,1612 @@
+1
+00:00:00,000 --> 00:00:03,880
+ Welcome to office hours, it's the top of the hour so we'll go ahead and get started.
+
+2
+00:00:03,880 --> 00:00:08,360
+ This is the half hour-ish segment where I talk about Neos and get Neos questions answered
+
+3
+00:00:08,360 --> 00:00:09,360
+ that you may have.
+
+4
+00:00:09,360 --> 00:00:13,460
+ If you have a question please drop in the prime time questions for the day's date up
+
+5
+00:00:13,460 --> 00:00:14,640
+ in the office hours text chat.
+
+6
+00:00:14,640 --> 00:00:17,400
+ There's a few channels about this one, you'll be able to find it.
+
+7
+00:00:17,400 --> 00:00:20,680
+ I'm going to go ahead and ping the office hours group again so people know that it's
+
+8
+00:00:20,680 --> 00:00:23,700
+ starting and then we can go ahead and get going on any questions that we have.
+
+9
+00:00:23,700 --> 00:00:27,700
+ Right now we have none so if you want questions answered get them typed into that thread.
+
+10
+00:00:27,700 --> 00:00:31,520
+ As a reminder with a lack of questions we just sit here and we talk about nothing a
+
+11
+00:00:31,520 --> 00:00:32,520
+ bit different etc.
+
+12
+00:00:32,520 --> 00:00:36,440
+ Alright there we go, a question here from Stella who says "How do you feel MMC is going
+
+13
+00:00:36,440 --> 00:00:39,020
+ to go this year, size and world complexity wise?"
+
+14
+00:00:39,020 --> 00:00:44,280
+ I'm not quite sure, it's been a little bit of a while since we did one, it was last February,
+
+15
+00:00:44,280 --> 00:00:49,960
+ we moved it from October to February so it was better for sort of an international market.
+
+16
+00:00:49,960 --> 00:00:55,760
+ There's not much changes in terms of sort of rules and categories so the same freedom
+
+17
+00:00:55,760 --> 00:00:58,660
+ that we had is still there.
+
+18
+00:00:58,660 --> 00:01:00,380
+ So we'll just have to see what happens.
+
+19
+00:01:00,380 --> 00:01:05,140
+ I'm hoping that we have a comparable amount of entries, although it might be more, if
+
+20
+00:01:05,140 --> 00:01:08,700
+ it's more that's great, if it's the same that's great, if it's slightly less that's great.
+
+21
+00:01:08,700 --> 00:01:09,700
+ I'm not fussed.
+
+22
+00:01:09,700 --> 00:01:11,920
+ Soap says "Have you had your daily dose of cheese today?"
+
+23
+00:01:11,920 --> 00:01:12,920
+ I have not.
+
+24
+00:01:12,920 --> 00:01:14,660
+ I did go grocery shopping though.
+
+25
+00:01:14,660 --> 00:01:19,840
+ I had a bunch of errands to do, I had to go to the post office and I had to go grocery
+
+26
+00:01:19,840 --> 00:01:23,300
+ shopping and then I got back and I'm like "Wow that was exhausting" and I fell asleep
+
+27
+00:01:23,300 --> 00:01:27,860
+ on the couch forever so I'm here, hello.
+
+28
+00:01:27,860 --> 00:01:30,580
+ Jekyll Girl says "Are you going to be building anything for MMC?"
+
+29
+00:01:30,580 --> 00:01:35,200
+ I actually do chuck in an entry in, my actual entry for MMC every year is actually the voting
+
+30
+00:01:35,200 --> 00:01:42,700
+ system that's used to allow you to vote on entries though so that will for sure be built.
+
+31
+00:01:42,700 --> 00:01:45,260
+ Rampa says "Better for international market unless you have an exam period going straight
+
+32
+00:01:45,260 --> 00:01:46,260
+ over at prime."
+
+33
+00:01:46,260 --> 00:01:51,180
+ Well there's a problem here which is that we can't please everyone and sometimes it
+
+34
+00:01:51,180 --> 00:01:56,500
+ feels like people are trying to ask us to do that and it's just not possible.
+
+35
+00:01:56,500 --> 00:02:00,980
+ We figured out that by making it in February, last year we had a little bit of a weird one
+
+36
+00:02:00,980 --> 00:02:06,300
+ where we did it in October and then February so you know it was a bit like "This again?
+
+37
+00:02:06,300 --> 00:02:08,300
+ We've only just finished it!"
+
+38
+00:02:08,300 --> 00:02:13,260
+ But now we're locked to February February February February, it should be good and it's
+
+39
+00:02:13,260 --> 00:02:16,500
+ better for the international market overall.
+
+40
+00:02:16,500 --> 00:02:18,020
+ The greater good needs to come up.
+
+41
+00:02:18,020 --> 00:02:23,380
+ Sorry that you have exams during it but the rest of the world has other stuff elsewhere.
+
+42
+00:02:23,380 --> 00:02:28,740
+ Specs is talking about squeezing time in with their full time job etc as a reminder which
+
+43
+00:02:28,740 --> 00:02:33,420
+ we remind people every single year, don't overdo it.
+
+44
+00:02:33,420 --> 00:02:39,860
+ You have the ability to plan ahead, reduce scope, don't submit your world within the
+
+45
+00:02:39,860 --> 00:02:42,180
+ last five minutes of the competition.
+
+46
+00:02:42,180 --> 00:02:46,540
+ People will do it, at least one person in here will do it but please don't, you know,
+
+47
+00:02:46,540 --> 00:02:47,540
+ plan ahead.
+
+48
+00:02:47,540 --> 00:02:53,500
+ I know, Specs, their team is about overdoing it but you know, I also say it every year
+
+49
+00:02:53,500 --> 00:03:01,500
+ as well, practice publishing a world, saving a world, managing a world, creating a world.
+
+50
+00:03:01,500 --> 00:03:05,180
+ Don't make the first world that you publish, the first world that you save, the first world
+
+51
+00:03:05,180 --> 00:03:06,900
+ that you create your entry.
+
+52
+00:03:06,900 --> 00:03:11,140
+ You may come across issues that you don't expect to happen if you've never done it before.
+
+53
+00:03:11,140 --> 00:03:15,140
+ Also did you know that you can publish your entry and then continue working on it?
+
+54
+00:03:15,140 --> 00:03:19,700
+ So let's say it gets to the last week and you're still making polishing changes, publish
+
+55
+00:03:19,700 --> 00:03:22,860
+ the entry and then continue working on it.
+
+56
+00:03:22,860 --> 00:03:27,420
+ That way you don't have to panic, right?
+
+57
+00:03:27,420 --> 00:03:30,660
+ You just have to make sure that the world continues to function roughly.
+
+58
+00:03:30,660 --> 00:03:35,220
+ For example if you're tweaking visuals towards the end in that last week, it can be published,
+
+59
+00:03:35,220 --> 00:03:36,300
+ you're just tweaking visuals.
+
+60
+00:03:36,300 --> 00:03:41,380
+ If you're just swapping out some textures or whatever or maybe some colours, publish
+
+61
+00:03:41,380 --> 00:03:42,380
+ it!
+
+62
+00:03:42,380 --> 00:03:43,380
+ There's no reason for it not to be published.
+
+63
+00:03:43,380 --> 00:03:47,380
+ It's not like it's going to get a bad judgement just for being published early, it'll probably
+
+64
+00:03:47,380 --> 00:03:50,740
+ get a better one because you've managed to publish it without stress.
+
+65
+00:03:50,740 --> 00:03:54,100
+ Moving onwards we have a question here from Ozi who says "In a recent build I've been
+
+66
+00:03:54,100 --> 00:03:59,380
+ trying to use completely local variables to do this, a value copy on a value register
+
+67
+00:03:59,380 --> 00:04:01,780
+ the same one you spawn at Viologics with writeback.
+
+68
+00:04:01,780 --> 00:04:06,540
+ Is this fine to do or is there anything I should worry about pathability update wise?"
+
+69
+00:04:06,540 --> 00:04:11,300
+ Not quite sure, that's like, I don't understand the value copy.
+
+70
+00:04:11,300 --> 00:04:16,940
+ For local variables just use a value user override with create override on write on
+
+71
+00:04:16,940 --> 00:04:20,580
+ like a value field or something, that'll probably be a better idea.
+
+72
+00:04:20,580 --> 00:04:25,780
+ Probably also work on a value register but I don't know why the value copy comes in.
+
+73
+00:04:25,780 --> 00:04:28,820
+ Oh don't value copy itself, just values override.
+
+74
+00:04:28,820 --> 00:04:33,480
+ Mr Damon asks "Very broad question but how do you feel about the future of Neos?
+
+75
+00:04:33,480 --> 00:04:37,860
+ It will continue forwards until the heat death of the universe so there's lots of future."
+
+76
+00:04:37,860 --> 00:04:41,500
+ Uh, don't, don't do that.
+
+77
+00:04:41,500 --> 00:04:44,580
+ I don't really have a reason to tell you not to do it other than don't.
+
+78
+00:04:44,580 --> 00:04:49,180
+ I'd have to look into why there but I just have a visceral reaction when looking at that
+
+79
+00:04:49,180 --> 00:04:50,940
+ image to say don't.
+
+80
+00:04:50,940 --> 00:04:58,460
+ Yeah I hear lots of advice from people that really isn't researched or validated or tested
+
+81
+00:04:58,460 --> 00:05:02,900
+ in any way, they just discover some sort of hacky thing that's going on and then it spreads
+
+82
+00:05:02,900 --> 00:05:08,420
+ by word of mouth and at no point do people think "hmm I should maybe research exactly
+
+83
+00:05:08,420 --> 00:05:09,420
+ what's going on here."
+
+84
+00:05:09,420 --> 00:05:14,820
+ I would have to look into a lot of the data model code to figure out what's going on there.
+
+85
+00:05:14,820 --> 00:05:17,340
+ It shouldn't be possible to do that.
+
+86
+00:05:17,340 --> 00:05:20,340
+ For example there's a thing here like there is no networking.
+
+87
+00:05:20,340 --> 00:05:21,340
+ Have you tested that?
+
+88
+00:05:21,340 --> 00:05:26,100
+ Have you opened a world of two people in it and default avatars and created I don't know
+
+89
+00:05:26,100 --> 00:05:28,580
+ like 20 of those and sent it around.
+
+90
+00:05:28,580 --> 00:05:33,700
+ Leo asks how would you go about creating better debugging tools?
+
+91
+00:05:33,700 --> 00:05:36,060
+ It depends what you're trying to debug.
+
+92
+00:05:36,060 --> 00:05:39,940
+ There is the debug menu that not enough people use really.
+
+93
+00:05:39,940 --> 00:05:44,740
+ It's difficult to sort of isolate what's going on there particularly when your avatars are
+
+94
+00:05:44,740 --> 00:05:47,300
+ complex or you know crazy.
+
+95
+00:05:47,300 --> 00:05:51,660
+ Hence why I say try the default avatar or try you know an avatar made entirely out of
+
+96
+00:05:51,660 --> 00:05:59,140
+ frames or like a single mesh and then try your world or your creation and see what's going on.
+
+97
+00:05:59,140 --> 00:06:02,980
+ There's also that thing where if you spawn out like 10 copies of your avatar you can
+
+98
+00:06:02,980 --> 00:06:08,060
+ sort of see what the performance is at scale with other people have avatars.
+
+99
+00:06:08,060 --> 00:06:12,820
+ Beyond that we don't really have the suitable debugging tools to give you right now.
+
+100
+00:06:12,820 --> 00:06:16,140
+ It will probably be an initiative that we have at some point once we've got some more
+
+101
+00:06:16,140 --> 00:06:17,500
+ features under our belt.
+
+102
+00:06:17,500 --> 00:06:22,780
+ I also get bothered when people are doing weird things like the above just because they're
+
+103
+00:06:22,780 --> 00:06:24,380
+ like there's no networking.
+
+104
+00:06:24,380 --> 00:06:27,540
+ It doesn't it's a single float.
+
+105
+00:06:27,540 --> 00:06:29,900
+ It's not going to cause much networking load right.
+
+106
+00:06:29,900 --> 00:06:34,460
+ There are hundreds of floats just for like an avatar existing in the world that are sort
+
+107
+00:06:34,460 --> 00:06:37,380
+ of like ping ponging around.
+
+108
+00:06:37,380 --> 00:06:38,380
+ Optimize better.
+
+109
+00:06:38,380 --> 00:06:44,620
+ If you want a local variable then you know you should network sync the parameters and
+
+110
+00:06:44,620 --> 00:06:48,260
+ then drive the result and then you minimize network traffic that way.
+
+111
+00:06:48,260 --> 00:06:53,500
+ Who says is there a way to see what types Bool user component field accepts?
+
+112
+00:06:53,500 --> 00:06:56,340
+ There is a little hack I sometimes do for that.
+
+113
+00:06:56,340 --> 00:06:59,180
+ There are some mods to do it you know more effectively of course.
+
+114
+00:06:59,180 --> 00:07:06,380
+ But what I do is I grab a logic interface card for the component and then if you pull
+
+115
+00:07:06,380 --> 00:07:11,100
+ a ribbon out of any of the properties on that component and push secondary it will sometimes
+
+116
+00:07:11,100 --> 00:07:18,500
+ glitch out and just create a blank sort of dark blue dark purple ref arrow and then you
+
+117
+00:07:18,500 --> 00:07:21,900
+ can look at that ref arrow with your logic step and it will tell you the data type that
+
+118
+00:07:21,900 --> 00:07:26,060
+ it's expecting usually surrounded with other weird stuff etc.
+
+119
+00:07:26,060 --> 00:07:33,340
+ It's usually only reference types that you will have an issue there with because reference
+
+120
+00:07:33,340 --> 00:07:35,820
+ types are less clear.
+
+121
+00:07:35,820 --> 00:07:41,380
+ If it's a basic value such as Bool then the colors match up to our standard coloring and
+
+122
+00:07:41,380 --> 00:07:45,820
+ that secondary tip won't help.
+
+123
+00:07:45,820 --> 00:07:49,940
+ The get type node is also a good suggestion there so keep that one in mind.
+
+124
+00:07:49,940 --> 00:07:50,940
+ Do you expand on that question?
+
+125
+00:07:50,940 --> 00:07:54,940
+ If I'd like to see runtime performance at a per slot level like a color coded heat map
+
+126
+00:07:54,940 --> 00:07:55,940
+ results?
+
+127
+00:07:55,940 --> 00:08:00,740
+ I would too but I also wouldn't because people would use that to judge people so we'd have
+
+128
+00:08:00,740 --> 00:08:03,660
+ to sort of see how we can do that effectively.
+
+129
+00:08:03,660 --> 00:08:04,660
+ We already get that.
+
+130
+00:08:04,660 --> 00:08:10,100
+ It's like you have 101 slots the limit on avatars for this world is 100 slots.
+
+131
+00:08:10,100 --> 00:08:12,100
+ It's like guys grow up please.
+
+132
+00:08:12,100 --> 00:08:15,220
+ Yeah exactly exactly what Lex says.
+
+133
+00:08:15,220 --> 00:08:23,620
+ He can fill 100 slots with access aligners and they will have humongous performance implications
+
+134
+00:08:23,620 --> 00:08:31,620
+ compared to I don't know an avatar that has 101 slots or 200 slots or 500 slots and it's
+
+135
+00:08:31,620 --> 00:08:33,980
+ just you know an avatar existing in the world.
+
+136
+00:08:33,980 --> 00:08:37,500
+ Clots are the last thing you should look at for performance reasons.
+
+137
+00:08:37,500 --> 00:08:41,780
+ Start with what it does and also examine why it does it.
+
+138
+00:08:41,780 --> 00:08:45,500
+ A good example which I always go for and I don't know if it's just me being British or
+
+139
+00:08:45,500 --> 00:08:50,900
+ something is why do like loads of people just have guns on their avatar?
+
+140
+00:08:50,900 --> 00:08:52,860
+ Do you need to have a gun on your avatar?
+
+141
+00:08:52,860 --> 00:08:54,700
+ Are you going to shoot people?
+
+142
+00:08:54,700 --> 00:08:57,060
+ Like why are you going to shoot people?
+
+143
+00:08:57,060 --> 00:08:59,000
+ If you need a gun spawn a gun.
+
+144
+00:08:59,000 --> 00:09:00,700
+ You don't need a gun on your avatar.
+
+145
+00:09:00,700 --> 00:09:04,580
+ You know what McCree or whatever his name is from Overwatch who has a gun like that
+
+146
+00:09:04,580 --> 00:09:07,660
+ or any of the other characters that I've ever got I realise but you know McCree has one
+
+147
+00:09:07,660 --> 00:09:09,140
+ and Holsters is what I meant.
+
+148
+00:09:09,140 --> 00:09:10,620
+ I was talking about Holsters.
+
+149
+00:09:10,620 --> 00:09:13,020
+ Anyway point being I don't need it.
+
+150
+00:09:13,020 --> 00:09:19,420
+ Does your context menu need to play the Halo theme tune orchestral chorus thingy opera
+
+151
+00:09:19,420 --> 00:09:22,220
+ version when you open your context menu?
+
+152
+00:09:22,220 --> 00:09:26,900
+ No so that's a better way to optimise your avatar than worrying about slots.
+
+153
+00:09:26,900 --> 00:09:34,540
+ Ozzy has a fun one who says do you know how to or point to how to go about slot sorting
+
+154
+00:09:34,540 --> 00:09:40,100
+ try making racing god have say first second third place using slot order offset.
+
+155
+00:09:40,100 --> 00:09:45,940
+ Order offsets are good but you need to make sure that you're actually setting them.
+
+156
+00:09:45,940 --> 00:09:50,740
+ Sometimes in UI I've built I've relied on the fact that new slots will occur after previous
+
+157
+00:09:50,740 --> 00:09:56,660
+ slots and that has screwed up when the gadget or the utility has then reloaded because when
+
+158
+00:09:56,660 --> 00:10:02,020
+ it reloads it's sort of not random but sort of indeterminate what ones might load first
+
+159
+00:10:02,020 --> 00:10:04,420
+ so sometimes they get out of order.
+
+160
+00:10:04,420 --> 00:10:09,820
+ So as long as you're setting that slot order offset on creation when you drop it into like
+
+161
+00:10:09,820 --> 00:10:14,800
+ a collection of slots then it should be okay particularly if you're using UIX which plays
+
+162
+00:10:14,800 --> 00:10:16,820
+ attention more to that.
+
+163
+00:10:16,820 --> 00:10:24,700
+ If you're still having issues with that you can also do it mathematically and in mathematical
+
+164
+00:10:24,700 --> 00:10:31,080
+ sense you'll have to adjust rect transforms or the positioning of individual rect transforms
+
+165
+00:10:31,080 --> 00:10:35,060
+ to make them in the order that you want which would be hilariously bad.
+
+166
+00:10:35,060 --> 00:10:39,200
+ Stella asks is there any way to write driver nullable value?
+
+167
+00:10:39,200 --> 00:10:42,940
+ You can write it yes I'm not sure about driving but absolutely oh no you can drive it as well
+
+168
+00:10:42,940 --> 00:10:43,940
+ yeah sure.
+
+169
+00:10:43,940 --> 00:10:46,940
+ You're looking for the nullable nodes once you have the nullable nodes you'll have the
+
+170
+00:10:46,940 --> 00:10:48,820
+ ability to drive and write them.
+
+171
+00:10:48,820 --> 00:10:52,160
+ I think I have a video on the nullable nodes do I not?
+
+172
+00:10:52,160 --> 00:10:55,580
+ I will have a video on the nullable nodes very shortly because that's a really easy
+
+173
+00:10:55,580 --> 00:10:57,860
+ one to do.
+
+174
+00:10:57,860 --> 00:11:04,420
+ I can't remember which folder of the Logix browser they're in but there we go actually
+
+175
+00:11:04,420 --> 00:11:09,620
+ Lex found it for me so operators nullable use those nodes they are pretty self-explanatory
+
+176
+00:11:09,620 --> 00:11:15,340
+ but I have just added onto my to-do list a task to go ahead and make a video on that
+
+177
+00:11:15,340 --> 00:11:20,500
+ one because it's really simple once you know Eden and thank you for the example as well
+
+178
+00:11:20,500 --> 00:11:23,840
+ I probably haven't done a video before because I can never remember where nullable show up
+
+179
+00:11:23,840 --> 00:11:26,840
+ but the the near and far clip is a good example.
+
+180
+00:11:26,840 --> 00:11:31,160
+ Skant talks about the horrible Logix from before that said would this be the component
+
+181
+00:11:31,160 --> 00:11:35,780
+ equivalent of log of using Logix to drive itself quite possibly yes internally value
+
+182
+00:11:35,780 --> 00:11:40,880
+ copy and the drive system use the same sort of code internally there's just like a piece
+
+183
+00:11:40,880 --> 00:11:44,500
+ it's not exactly this but there's a piece of code which is like you know drive this
+
+184
+00:11:44,500 --> 00:11:50,080
+ field by this field and value copy operates on that but sets up some other settings for
+
+185
+00:11:50,080 --> 00:11:52,840
+ various reasons so yeah pretty much.
+
+186
+00:11:52,840 --> 00:11:58,920
+ Hanu says what causes the lag spike and voice dropouts when people join a session that is
+
+187
+00:11:58,920 --> 00:12:05,020
+ the usually avatars or some parts of the syncing process so when you load in you load your
+
+188
+00:12:05,020 --> 00:12:09,440
+ avatar and loading your avatar will load all of the data about your avatar includes all
+
+189
+00:12:09,440 --> 00:12:15,820
+ the slots or the assets or the Logix or the equipment or the guns or the halo context
+
+190
+00:12:15,820 --> 00:12:23,960
+ menu opera singers that you've got in and that is what causes the hitches we do have
+
+191
+00:12:23,960 --> 00:12:29,040
+ the ability to optimize that with some work we just haven't done that work people get
+
+192
+00:12:29,040 --> 00:12:37,120
+ a bad rap for that so you know maybe experiment with your avatar and trying to make it better
+
+193
+00:12:37,120 --> 00:12:41,880
+ there are optimization techniques on the wiki under optimization guidelines on the wiki
+
+194
+00:12:41,880 --> 00:12:46,160
+ or something like that big main ones are bake your blend shapes try and reduce the amount
+
+195
+00:12:46,160 --> 00:12:55,560
+ of materials textures etc try to avoid gadgets and stuff you don't need on your avatar and
+
+196
+00:12:55,560 --> 00:12:58,020
+ it's about it really you know.
+
+197
+00:12:58,020 --> 00:13:04,040
+ Ozzy asked an interesting question which actually drives me mad I just haven't had the opportunity
+
+198
+00:13:04,040 --> 00:13:08,540
+ to like write up my thoughts on it and be like here's what we should do they say if
+
+199
+00:13:08,540 --> 00:13:12,600
+ you are in charge of organizing discord channels in here is I think you would change for the
+
+200
+00:13:12,600 --> 00:13:16,140
+ better in your opinion absolutely let's go top to bottom top to bottom all right okay
+
+201
+00:13:16,140 --> 00:13:23,000
+ cool so we need to get rid of the distinction between community and Neos channels because
+
+202
+00:13:23,000 --> 00:13:30,120
+ it's very confusing the Neos development staff needs to go above the Neos channels probably
+
+203
+00:13:30,120 --> 00:13:37,080
+ in the welcome and basic info thing welcome links is good guidelines needs to be removed
+
+204
+00:13:37,080 --> 00:13:42,080
+ and just referred to the wiki or any of the Google docs that we have the FAQ channel needs
+
+205
+00:13:42,080 --> 00:13:47,580
+ to be removed and just referred to the wiki or any other FAQ source that we have the discord
+
+206
+00:13:47,580 --> 00:13:52,260
+ groups channel needs to be deleted it was part of a promotional thing in 2019 that no
+
+207
+00:13:52,260 --> 00:13:56,900
+ longer exists so it can just go the welcome lobby needs to be deleted we don't need to
+
+208
+00:13:56,900 --> 00:14:01,460
+ see when people join the server for administration and moderation reasons we have another channel
+
+209
+00:14:01,460 --> 00:14:06,720
+ that does that you guys can't see it's just a member log common with many discord servers
+
+210
+00:14:06,720 --> 00:14:10,980
+ the welcome lobby is just a place where it says that people have joined and we don't
+
+211
+00:14:10,980 --> 00:14:14,780
+ need that our scale we have thousands of people in this discord it's just it's not a functional
+
+212
+00:14:14,780 --> 00:14:21,620
+ channel then coming down to this just the weird gap where we have Neos developments
+
+213
+00:14:21,620 --> 00:14:27,860
+ and community just needs to not be there the the the what else have we got coming down
+
+214
+00:14:27,860 --> 00:14:35,840
+ here and then we need to enable the the like flashcard badge thingy that pops up when you
+
+215
+00:14:35,840 --> 00:14:39,660
+ join a server that other servers have but ours doesn't for some reason it sort of says
+
+216
+00:14:39,660 --> 00:14:44,340
+ like here are the rules here's where the channels are here's what you can do in each channel
+
+217
+00:14:44,340 --> 00:14:47,700
+ here's a channel we recommend you know that's all sort of configurable he's got like a welcome
+
+218
+00:14:47,700 --> 00:14:53,420
+ screen feature or something we need that fixed announcements probably needs to go into the
+
+219
+00:14:53,420 --> 00:14:58,180
+ Neos development section or move higher into welcome and basic info so it's clearer right
+
+220
+00:14:58,180 --> 00:15:02,020
+ now it's sort of like at the bottom of the Neos channels section which doesn't make any
+
+221
+00:15:02,020 --> 00:15:09,640
+ sense we need to reorganize the community meetings channel so that it is more centrally
+
+222
+00:15:09,640 --> 00:15:13,360
+ located around office hours so I don't have to say several channels above I just have
+
+223
+00:15:13,360 --> 00:15:18,120
+ to say one channel above etc that happened when we created voice chat two three and four
+
+224
+00:15:18,120 --> 00:15:25,080
+ because it was busy the patreon voice chat needs to be deleted because it doesn't matter
+
+225
+00:15:25,080 --> 00:15:31,120
+ why does it exist voice chat text needs to be deleted the reason behind that is because
+
+226
+00:15:31,120 --> 00:15:38,340
+ Neos not Neos Discord now natively has a text chat per voice channel and if you don't like
+
+227
+00:15:38,340 --> 00:15:42,720
+ that feature because it's not obvious that it's there I completely understand but there's
+
+228
+00:15:42,720 --> 00:15:47,940
+ no way to turn it off and therefore what you end up with is two voice text channels per
+
+229
+00:15:47,940 --> 00:15:51,900
+ voice text the one that like Discord wants to you to use and then the one that which
+
+230
+00:15:51,900 --> 00:15:57,240
+ a server creator has created and it gets really confusing so the best way around that is basically
+
+231
+00:15:57,240 --> 00:16:02,760
+ to go use the discord provided one yeah we know the experience is a bit bad but it's
+
+232
+00:16:02,760 --> 00:16:07,600
+ better than the alternative where the conversation ends up happening in two separate places then
+
+233
+00:16:07,600 --> 00:16:10,600
+ I would combine alpha testing and testing I don't know what difference between alpha
+
+234
+00:16:10,600 --> 00:16:16,560
+ testing and testing is so that would be combined I would move the preview features above the
+
+235
+00:16:16,560 --> 00:16:22,300
+ international channels whilst I you know like on love our international you know channels
+
+236
+00:16:22,300 --> 00:16:27,940
+ etc there and international communities having those features above might cut down in the
+
+237
+00:16:27,940 --> 00:16:31,500
+ amount of people getting lost and confused yeah there's there's another testing channel
+
+238
+00:16:31,500 --> 00:16:34,340
+ I forgot what we're alpha testing but there's another testing channel I don't remember what
+
+239
+00:16:34,340 --> 00:16:38,140
+ we're testing in it I think it's something to do with Beppu too I really don't remember
+
+240
+00:16:38,140 --> 00:16:41,120
+ I think you can if you have the danger tester role I don't know I don't know I would also
+
+241
+00:16:41,120 --> 00:16:46,060
+ consider deleting the archive channels you know how we archive each MMC we archive the
+
+242
+00:16:46,060 --> 00:16:51,780
+ asset variant system and GDC 2020 while an archive channel can make sense to sort of
+
+243
+00:16:51,780 --> 00:16:56,200
+ preserve the conversation that occurred a certain point it just becomes a detriment
+
+244
+00:16:56,200 --> 00:17:00,220
+ because it appears in my search results when I'm trying to find information and it's usually
+
+245
+00:17:00,220 --> 00:17:03,940
+ old because no one can type in there anymore I'm gonna move on like I would change basically
+
+246
+00:17:03,940 --> 00:17:09,860
+ everything about the discord layout but it's not up to me so moving forwards ramp it says
+
+247
+00:17:09,860 --> 00:17:13,420
+ how about a new component to trickle load heavy avatars when it's added on world route
+
+248
+00:17:13,420 --> 00:17:19,100
+ and make it run by a priority of model textures that's not the solution so a lot of times
+
+249
+00:17:19,100 --> 00:17:23,940
+ we come up with we have with this issue which is is people come up with a solution and then
+
+250
+00:17:23,940 --> 00:17:28,660
+ they occasionally ramp hasn't done this but occasionally it does happen so ramp are you're
+
+251
+00:17:28,660 --> 00:17:33,060
+ not doing this but I'm about to rant about it anyway people go I have a solution for
+
+252
+00:17:33,060 --> 00:17:36,180
+ this problem and then they explain it and then they get mad that we haven't implemented
+
+253
+00:17:36,180 --> 00:17:46,260
+ it the the best way to ensure that that doesn't happen is to state your problem not your solution
+
+254
+00:17:46,260 --> 00:17:51,140
+ it's called the XY problem so we do have a couple of issues open about sort of world
+
+255
+00:17:51,140 --> 00:17:57,340
+ load order controlling the load order etc the best way to do is to go to those issues comment
+
+256
+00:17:57,340 --> 00:18:02,580
+ on them with any information or stuff that you need thumbs up them etc and then we know
+
+257
+00:18:02,580 --> 00:18:07,660
+ that people want us to work on that and then we'll we'll solve the solution there because
+
+258
+00:18:07,660 --> 00:18:13,280
+ the solution unfortunately is not a component to trickle load heavy avatars trickle loading
+
+259
+00:18:13,280 --> 00:18:20,120
+ heavy avatars would be more about the interfacing between the actual loading process in C sharp
+
+260
+00:18:20,120 --> 00:18:26,380
+ and Neos itself to make that better like I don't particularly know what's wrong I haven't
+
+261
+00:18:26,380 --> 00:18:31,420
+ looked into it enough but examples and again this is examples because I have not looked
+
+262
+00:18:31,420 --> 00:18:37,180
+ into this so don't quote me perhaps the loading of avatars isn't multi-threaded enough I don't
+
+263
+00:18:37,180 --> 00:18:42,340
+ know perhaps the order in which we load an avatar could be flipped upside down or sideways
+
+264
+00:18:42,340 --> 00:18:47,040
+ to make certain bits load before other bits you know that's all data model stuff that
+
+265
+00:18:47,040 --> 00:18:51,280
+ isn't component stuff that components are on top of the data model stella asks what
+
+266
+00:18:51,280 --> 00:18:54,400
+ are your thoughts on avatar culling systems and you think they can integrate as a native
+
+267
+00:18:54,400 --> 00:18:57,980
+ feature they should be integrated as a native feature while I like all of the avatar culling
+
+268
+00:18:57,980 --> 00:19:03,900
+ systems that exist you shouldn't have to do that like that is firmly in my mind is one
+
+269
+00:19:03,900 --> 00:19:08,420
+ of the features you shouldn't have to do and while it's great and I love seeing those spread
+
+270
+00:19:08,420 --> 00:19:12,740
+ and being used in worlds and they do make the world better there's like a twang in my
+
+271
+00:19:12,740 --> 00:19:17,020
+ heart or whatever where I'm like we should have solved this for you we should have solved
+
+272
+00:19:17,020 --> 00:19:20,620
+ this for you like every single time there's something complicated that all of you guys
+
+273
+00:19:20,620 --> 00:19:24,260
+ are doing I'm like we should have solved this for you you know another good example would
+
+274
+00:19:24,260 --> 00:19:31,380
+ be Syro wrote an entire mod for this game so they could avoid logics interface cards
+
+275
+00:19:31,380 --> 00:19:36,180
+ because they got so bothered by logics interface cards and I've been there you know it's like
+
+276
+00:19:36,180 --> 00:19:41,420
+ 3 a.m you've been working on logics for hours you unpack the logics and then like the logic
+
+277
+00:19:41,420 --> 00:19:46,780
+ interface cards are like yo let's party and then they're just like everywhere and you
+
+278
+00:19:46,780 --> 00:19:50,300
+ can't do anything about it uh rampant says I thought the spike was called by everything
+
+279
+00:19:50,300 --> 00:19:55,020
+ starting to load at one moment uh yeah that again that like fixing that would be data
+
+280
+00:19:55,020 --> 00:20:00,140
+ model that wouldn't be the component layer oh yes my uh some people I needed to respond
+
+281
+00:20:00,140 --> 00:20:04,560
+ with tax uh information I've got back to the tax information which means I need to process
+
+282
+00:20:04,560 --> 00:20:09,080
+ about 40 pdf files and send them to my accountant I'm gonna have so much fun after this office
+
+283
+00:20:09,080 --> 00:20:14,620
+ hours oh so much fun um I just thought I'd let you know that sorry the email came in
+
+284
+00:20:14,620 --> 00:20:19,180
+ and I saw it was taxed and I'm just like damn it uh dia says how much of the performance
+
+285
+00:20:19,180 --> 00:20:23,940
+ issues are caused by unity not quite sure like how to measure that like you can measure
+
+286
+00:20:23,940 --> 00:20:29,800
+ it in in various ways so there are issues caused by um unity forcing us to be sort of
+
+287
+00:20:29,800 --> 00:20:35,440
+ down rev on the basic c-sharp language there are also issues which caused by unity forcing
+
+288
+00:20:35,440 --> 00:20:40,580
+ us to be on a downward version of dotnet which is built on top of the c-sharp language and
+
+289
+00:20:40,580 --> 00:20:44,940
+ both of those things can lead to performance issues then there's rendering which can lead
+
+290
+00:20:44,940 --> 00:20:49,260
+ to additional performance issues then there's just how unity puts stuff together in the
+
+291
+00:20:49,260 --> 00:20:53,180
+ render which can cause performance issues there's the interop which is how we communicate
+
+292
+00:20:53,180 --> 00:20:56,860
+ with unity that can cause performance issues there's just so many angles there and I don't
+
+293
+00:20:56,860 --> 00:21:02,920
+ really know how to measure that in a way that would make sense it would be quite considerable
+
+294
+00:21:02,920 --> 00:21:09,520
+ but the amount of work required to replace unity is also quite considerable Lou asks
+
+295
+00:21:09,520 --> 00:21:13,500
+ uh do we know why logic cards seem to multiply when I'm packing with multiple users in the
+
+296
+00:21:13,500 --> 00:21:17,860
+ session yes that is a long-standing bug which every single person that has ever had access
+
+297
+00:21:17,860 --> 00:21:23,220
+ to the code base has tried to fix and fail it you know there's um there's that image
+
+298
+00:21:23,220 --> 00:21:29,180
+ about a comment um I'll try and find it really quickly yep here we go there's there's various
+
+299
+00:21:29,180 --> 00:21:36,220
+ parts of this but uh this this is you know that that is logic's interface cards um so
+
+300
+00:21:36,220 --> 00:21:41,260
+ yeah freaks of course try to fix it they of course understand it the most um but when
+
+301
+00:21:41,260 --> 00:21:45,460
+ new people are added to the team that have access to the code base they're like cool
+
+302
+00:21:45,460 --> 00:21:51,180
+ I'll try and fix that too and then they can't um so yeah I know coffee tried when they're
+
+303
+00:21:51,180 --> 00:21:56,500
+ on the team I know outsider tried I know I've tried I know gains took a look at one point
+
+304
+00:21:56,500 --> 00:22:02,400
+ like we've all tried to fix it but uh it's it's been difficult so what's meant to happen
+
+305
+00:22:02,400 --> 00:22:09,100
+ is that when um the logic's interface cards spawn um either by unpacking or when you spawn
+
+306
+00:22:09,100 --> 00:22:14,700
+ them because you're creating your logics that logic's interface proxy component is meant
+
+307
+00:22:14,700 --> 00:22:19,420
+ to sort of mark one that exists and the whole system is meant to pick up on that and say
+
+308
+00:22:19,420 --> 00:22:23,280
+ like all right this one is the one that we should use we don't need to generate another
+
+309
+00:22:23,280 --> 00:22:27,940
+ one but something really confusing in the engine goes like yeah I don't know I can't
+
+310
+00:22:27,940 --> 00:22:32,340
+ see that one or something along the lines of that so it makes a new one on top of that
+
+311
+00:22:32,340 --> 00:22:36,380
+ though I don't know why they move like if they didn't move I would have less of an issue
+
+312
+00:22:36,380 --> 00:22:42,820
+ about it but they randomly move and it's really confusing to me um they usually seem to just
+
+313
+00:22:42,820 --> 00:22:47,420
+ get further and further away from things I don't really understand that like I understand
+
+314
+00:22:47,420 --> 00:22:51,300
+ when it's like a tool or a gun or a weapon whatever you want to call it um because that's
+
+315
+00:22:51,300 --> 00:22:57,300
+ being rotated and spun around and passed between people etc but in that case I don't understand
+
+316
+00:22:57,300 --> 00:23:02,220
+ why they're not just sort of turning upside down or sideways and stuff they appear to
+
+317
+00:23:02,220 --> 00:23:07,020
+ just sort of be like orbiting and going further and further out I don't understand.
+
+318
+00:23:07,020 --> 00:23:12,740
+ Let's take a look next uh Ozzy says uh is there a way to change the maximum of undo
+
+319
+00:23:12,740 --> 00:23:16,900
+ steps in the world you can do it via the slot that's non-persistent doesn't save uh probably
+
+320
+00:23:16,900 --> 00:23:21,180
+ a feature request for that one there's probably a reason we have it at a certain level I know
+
+321
+00:23:21,180 --> 00:23:26,260
+ that we need to do a lot of work on undo undo is fantastic but um if you've been playing
+
+322
+00:23:26,260 --> 00:23:30,500
+ Neos enough you'll know that some cases undo doesn't do what you want it to do and it can
+
+323
+00:23:30,500 --> 00:23:34,580
+ actually cause problems um it's either an operation that you've done does not register
+
+324
+00:23:34,580 --> 00:23:40,140
+ via the undo system or it does but not in an order that you can control or it's a multi-step
+
+325
+00:23:40,140 --> 00:23:45,060
+ process and so what you get is you do undo and you've only done like half of it and then
+
+326
+00:23:45,060 --> 00:23:48,980
+ you need to undo again and then you start spamming it and you undo too much like I had
+
+327
+00:23:48,980 --> 00:23:53,260
+ the grab I was recording a video the other day and I had a grab and so I let go of the
+
+328
+00:23:53,260 --> 00:23:56,820
+ grab I don't remember what it was I was just grabbing something and it was in the wrong
+
+329
+00:23:56,820 --> 00:24:00,660
+ position so I thought I'll undo it but for some reason the undo system didn't register
+
+330
+00:24:00,660 --> 00:24:07,220
+ that grab and so it popped up the undo tree um to the next undo which unscrubbed through
+
+331
+00:24:07,220 --> 00:24:11,700
+ a video which is a key part of the recording we were um some of the medical stuff we were
+
+332
+00:24:11,700 --> 00:24:18,340
+ following a video which is a patient exam letter by letter procedure by procedure and
+
+333
+00:24:18,340 --> 00:24:23,640
+ we were using the video as a sort of like um reference about what we needed to do so
+
+334
+00:24:23,640 --> 00:24:28,440
+ I unscrubbed the video like back to the start of the video and then we'd lost our place
+
+335
+00:24:28,440 --> 00:24:33,620
+ we didn't know which test was next and it was just like yeah undo system why all right
+
+336
+00:24:33,620 --> 00:24:38,740
+ moving forwards uh Lex says there's quite a few features in Neos that people use stroke
+
+337
+00:24:38,740 --> 00:24:43,340
+ exploit they're only possible due to the components logics having side effects for example the
+
+338
+00:24:43,340 --> 00:24:46,580
+ component that manages the whisper bubble allows you to distinguish between a normal
+
+339
+00:24:46,580 --> 00:24:51,620
+ whisper bubble a voice message bubble only due to the fact that it's a different color
+
+340
+00:24:51,620 --> 00:24:54,980
+ gets set on the bubble material for a voice message or standard bubble would you rather
+
+341
+00:24:54,980 --> 00:24:58,700
+ people use these kind of set effects or have separate options for every single component
+
+342
+00:24:58,700 --> 00:25:04,780
+ logic snow to properly expose those features um I would rather there be a separate um property
+
+343
+00:25:04,780 --> 00:25:11,420
+ etc um so trying to just double check I understand here okay so you're detecting that a voice
+
+344
+00:25:11,420 --> 00:25:16,780
+ message is happening on your avatar because it uses a different color on the bubble yeah
+
+345
+00:25:16,780 --> 00:25:22,900
+ instead there may be on the whisper bubble manager or whatever we should have check boxes
+
+346
+00:25:22,900 --> 00:25:28,580
+ which are like in conversational bubble in voice message bubble and then that way you
+
+347
+00:25:28,580 --> 00:25:33,380
+ can key off those booleans um keying off that material would probably be problematic because
+
+348
+00:25:33,380 --> 00:25:38,500
+ if we change the default way that bubble works then suddenly the color isn't changing and
+
+349
+00:25:38,500 --> 00:25:43,980
+ then your code breaks that problem that Lex um has described here is identical to the
+
+350
+00:25:43,980 --> 00:25:48,140
+ problem behind the whole permission thing um people are like I want to get the permission
+
+351
+00:25:48,140 --> 00:25:52,840
+ role etc and it's like yeah you can get it in like five different ways but like none
+
+352
+00:25:52,840 --> 00:25:57,500
+ of those are recommended and they're all of the things to avoid list because they're hacky
+
+353
+00:25:57,500 --> 00:26:01,620
+ and we want to provide a way to do it properly um but to do that we need to do it sort of
+
+354
+00:26:01,620 --> 00:26:06,100
+ securely and we're not quite sure how to do that one yet people say why securely think
+
+355
+00:26:06,100 --> 00:26:11,220
+ about it right there's a piece of logics which says if you are a builder you can do super
+
+356
+00:26:11,220 --> 00:26:16,820
+ awesome admin thing and it's using strings for comparison uh well I could write some
+
+357
+00:26:16,820 --> 00:26:21,220
+ logics which finds that string or write a mod which finds that string and update it
+
+358
+00:26:21,220 --> 00:26:26,900
+ to if you're any any role you can do super super admin stuff and it's not it's not secure
+
+359
+00:26:26,900 --> 00:26:32,100
+ uh Troppy gives examples of the undo system being weird they say drawing uh move or delete
+
+360
+00:26:32,100 --> 00:26:37,380
+ a stroke or hit and hit undo maybe it's the wrong spot or doesn't underly yeah the drawing
+
+361
+00:26:37,380 --> 00:26:41,320
+ system is kind of weird it's like one of the examples of where the undo system is usually
+
+362
+00:26:41,320 --> 00:26:45,860
+ good is the drawing system but I understand how like there's there's sometimes gaps there
+
+363
+00:26:45,860 --> 00:26:49,180
+ uh with that I've seen chat die down so we're gonna go ahead and call it here we are at
+
+364
+00:26:49,180 --> 00:26:53,320
+ eight minutes over thank you so much for joining me today I hope you enjoyed um the questions
+
+365
+00:26:53,320 --> 00:26:56,060
+ that we've answered if you have any more questions please drop them in the questions and help
+
+366
+00:26:56,060 --> 00:27:01,180
+ channel um or ping me directly or open up a GitHub issue if it's a feature request um
+
+367
+00:27:01,180 --> 00:27:05,700
+ quick reminder just uh randomly if you have an issue that is moderation in nature make
+
+368
+00:27:05,700 --> 00:27:10,820
+ a ticket don't DM me I'm just gonna ask you to to make a ticket uh Fakir if you have a
+
+369
+00:27:10,820 --> 00:27:15,340
+ question please go for it I will make an exception for you because you seem sad that you are
+
+370
+00:27:15,340 --> 00:27:21,860
+ too late so go ahead um I will wait um for one more minute so you better type quickly
+
+371
+00:27:21,860 --> 00:27:25,060
+ uh whilst I talk about moderation some more yeah if you have an issue that's moderation
+
+372
+00:27:25,060 --> 00:27:29,140
+ related make a ticket don't DM me don't come into Neos and talk to me about it just make
+
+373
+00:27:29,140 --> 00:27:34,200
+ a ticket um you're free feel free to come and talk to me about it but I'm gonna tell
+
+374
+00:27:34,200 --> 00:27:42,300
+ you to make a ticket the whole world has their eyes on oh there we go um Faku says when you
+
+375
+00:27:42,300 --> 00:27:49,420
+ scale under a very small height the lighting gets very buggy um yes that is caused by um
+
+376
+00:27:49,420 --> 00:27:56,500
+ that is caused by floating point imprecision um floating point imprecision is caused by
+
+377
+00:27:56,500 --> 00:28:02,380
+ the computer that you're running um Neos on being unable to represent such small numbers
+
+378
+00:28:02,380 --> 00:28:06,620
+ um you need to understand how floating points work to like really understand why that's
+
+379
+00:28:06,620 --> 00:28:15,100
+ the case um the only way for us to fix it at that scale is for um us to switch to using
+
+380
+00:28:15,100 --> 00:28:21,820
+ doubles which are double length um double width uh floats uh for position which isn't
+
+381
+00:28:21,820 --> 00:28:28,580
+ something that is popular or common in computing right now I'm sure it will be as we sort of
+
+382
+00:28:28,580 --> 00:28:35,020
+ move towards better computers bigger processes etc um but it just isn't right now uh the
+
+383
+00:28:35,020 --> 00:28:41,540
+ one thing I will say to that though is remember that you have a lot of headroom above compared
+
+384
+00:28:41,540 --> 00:28:48,280
+ to below and so something I've been experimenting in with worlds that require smallness is um
+
+385
+00:28:48,280 --> 00:28:53,740
+ making the default scale of the world times 10 or times 100 and what that gives you is
+
+386
+00:28:53,740 --> 00:28:57,940
+ a little bit more precision back the other way you know you don't have to start at one
+
+387
+00:28:57,940 --> 00:29:01,860
+ move the needle to the left make everything 10 times big including users you can do that
+
+388
+00:29:01,860 --> 00:29:06,140
+ you can make them 10 times bigger they won't even realize it if you do it correctly and
+
+389
+00:29:06,140 --> 00:29:10,620
+ when they shrink themselves they'll be a little bit more room in the maths um not much but
+
+390
+00:29:10,620 --> 00:29:16,660
+ a little bit more room it occurs in in basically every game um good example be I know they
+
+391
+00:29:16,660 --> 00:29:20,460
+ fixed it but uh in Minecraft there used to be this thing called the far lands where when
+
+392
+00:29:20,460 --> 00:29:25,060
+ you went really really really far out in the world generation it would get weird because
+
+393
+00:29:25,060 --> 00:29:29,260
+ math was breaking down um there's an example of it in VR chat I know there's actually a
+
+394
+00:29:29,260 --> 00:29:36,060
+ world where you can go through doors and they'll teleport you large magnitudes away from spawn
+
+395
+00:29:36,060 --> 00:29:41,060
+ until floating point stuff happens I have one of those worlds half built I stopped building
+
+396
+00:29:41,060 --> 00:29:45,020
+ it when froukes made it so that when you get to the really really problematic floating
+
+397
+00:29:45,020 --> 00:29:51,220
+ point numbers you just respawn um because then it was is less less fun um more recently
+
+398
+00:29:51,220 --> 00:29:56,340
+ siro found siro it must have been sorry it was there they found this weird component
+
+399
+00:29:56,340 --> 00:30:01,380
+ in uncategorized which is called like up down button control or something anyway we made
+
+400
+00:30:01,380 --> 00:30:06,340
+ an instant willy wonka elevator and took us up into the sky to floating point range that
+
+401
+00:30:06,340 --> 00:30:11,420
+ was fun uh with that we'll go ahead and leave off as I said before ask questions wherever
+
+402
+00:30:11,420 --> 00:30:16,100
+ you want them aim me um DM me whatever you'd like and I'll get back to you whenever I can
+
+403
+00:30:16,100 --> 00:30:17,260
+ I will speak to you next time bye bye
+

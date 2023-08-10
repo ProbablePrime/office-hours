@@ -1,0 +1,1156 @@
+1
+00:00:00,000 --> 00:00:03,000
+ Welcome to Office Hours, it is 4pm so we're going to go ahead and get started.
+
+2
+00:00:03,000 --> 00:00:09,000
+ As a reminder, if you have any questions to ask us, please go ahead and drop them in the prime time thread,
+
+3
+00:00:09,000 --> 00:00:12,000
+ which is a couple of channels up in the Office Hours text channel.
+
+4
+00:00:12,000 --> 00:00:16,000
+ Before we get onto questions, I do have a couple of sort of announcement-y things,
+
+5
+00:00:16,000 --> 00:00:21,000
+ something new for Office Hours going forwards whenever I remember to do it, of course.
+
+6
+00:00:21,000 --> 00:00:25,000
+ So getting started, first of all, it is MMC. MMC starts tomorrow.
+
+7
+00:00:25,000 --> 00:00:40,000
+ You can start making your creations from 2pm Eastern Time, 4am Japanese Standard Time, I think that's JST, and then UTC 1900.
+
+8
+00:00:40,000 --> 00:00:49,000
+ Lots of people forget this, and it can technically cause disqualifications, so make sure you're starting at 2pm Eastern Time.
+
+9
+00:00:49,000 --> 00:00:59,000
+ There is a post in the MMC channel which has a camera time, also a timestamp-y thing to let you know when you can start.
+
+10
+00:00:59,000 --> 00:01:06,000
+ We do it at that because it's difficult otherwise because it's an international competition.
+
+11
+00:01:06,000 --> 00:01:08,000
+ So that's that.
+
+12
+00:01:08,000 --> 00:01:16,000
+ Secondarily, and only when I have something of note, I will mention it in this case, but I'm going to do a shout-out of the week.
+
+13
+00:01:16,000 --> 00:01:20,000
+ It's not going to be every week, but I'm going to do a shout-out of the week this week.
+
+14
+00:01:20,000 --> 00:01:25,000
+ So a shout-out of the week this week goes to... let me just make sure I get the name correct.
+
+15
+00:01:25,000 --> 00:01:28,000
+ I did have it on my notes, but I have lost my notes.
+
+16
+00:01:28,000 --> 00:01:32,000
+ Yes, Amber in the Discord, who made a tutorial on refhacking.
+
+17
+00:01:32,000 --> 00:01:40,000
+ I talk about refhacking a lot as being things to avoid, but things to avoid doesn't mean don't share the knowledge.
+
+18
+00:01:40,000 --> 00:01:44,000
+ So they made a tutorial on refhacking, it's in the tutorials channel, go ahead and read it.
+
+19
+00:01:44,000 --> 00:01:52,000
+ If you're not sure what refhacking is, it's the ability to peek into the internals of Neos and how we store data structures in Neos
+
+20
+00:01:52,000 --> 00:02:00,000
+ and get a hacky way of doing component editing and component property reading.
+
+21
+00:02:00,000 --> 00:02:06,000
+ It is good that there is information out there about how to do it, but do remember it is on the things to avoid list.
+
+22
+00:02:06,000 --> 00:02:13,000
+ Certainly don't treat anyone negatively for the fact that they are talking about that or giving tutorial information about that.
+
+23
+00:02:13,000 --> 00:02:21,000
+ It is perfectly fine to use, you just need to know that it is not supported and it will break at a certain date.
+
+24
+00:02:21,000 --> 00:02:24,000
+ That I don't know by the way, but it will break at some point.
+
+25
+00:02:24,000 --> 00:02:28,000
+ It can also be used for malicious users, but is not inherently malicious.
+
+26
+00:02:28,000 --> 00:02:35,000
+ So if you notice anyone breaching guidelines using refhacking or not using refhacking, just in general,
+
+27
+00:02:35,000 --> 00:02:40,000
+ you can report them at moderation.neos.com where the moderation team will take care of it.
+
+28
+00:02:40,000 --> 00:02:45,000
+ With announcements out of the way, I'll go ahead and get started with questions that we have.
+
+29
+00:02:45,000 --> 00:02:50,000
+ So first of all, we have a question from Tiki who says
+
+30
+00:02:50,000 --> 00:02:53,000
+ "I copied a world to make it local on the headless and for some reason each time I copied the world,
+
+31
+00:02:53,000 --> 00:02:58,000
+ roles permissions are completely reset so everyone was adamant. Is there an easy fix to reset roles to default?"
+
+32
+00:02:58,000 --> 00:03:01,000
+ No, there isn't an easy way to do that. There is a GitHub issue open on that,
+
+33
+00:03:01,000 --> 00:03:08,000
+ it's something along the lines of permission roles being corrupted or something with various phrases that people have used for it.
+
+34
+00:03:08,000 --> 00:03:16,000
+ The best way to avoid that happening, I found, is to make sure that you are saving a headless world as the headless user.
+
+35
+00:03:16,000 --> 00:03:24,000
+ So log in as the headless user into your regular Neos, then you can use save as or save copy to save a copy of that world.
+
+36
+00:03:24,000 --> 00:03:30,000
+ Alternatively, and I understand that this requires a Patreon subscription, but it's probably the best way to do it,
+
+37
+00:03:30,000 --> 00:03:37,000
+ set up a group for you and your headless, save the world into the headless's inventory, sorry, the group's inventory,
+
+38
+00:03:37,000 --> 00:03:41,000
+ and then the group will own it and then any members of the group can update it,
+
+39
+00:03:41,000 --> 00:03:46,000
+ which leads to much less issues when it comes to management of that.
+
+40
+00:03:46,000 --> 00:03:56,000
+ I've recently moved a bunch of worlds into a group inventory and I haven't had to rebuild the permissions on a particular world that it kept doing that for.
+
+41
+00:03:56,000 --> 00:04:04,000
+ That also allows you to do sort of paralysed running of a world, for example, let's say that your headless was running a super cool hangout map,
+
+42
+00:04:04,000 --> 00:04:11,000
+ and then in another session you open from the group inventory, you open that same world,
+
+43
+00:04:11,000 --> 00:04:17,000
+ and you change the colour of the seats because you wanted the seats to be different, and then you save that world.
+
+44
+00:04:17,000 --> 00:04:21,000
+ All you'd then have to do is restart the headless and those updates would happen,
+
+45
+00:04:21,000 --> 00:04:25,000
+ and many people have their headless's restart sort of every six hours anyway,
+
+46
+00:04:25,000 --> 00:04:33,000
+ so it means that then then becomes sort of like a six hour cycle of updates to a headless's world where it restarts and it gets the latest changes.
+
+47
+00:04:33,000 --> 00:04:40,000
+ So that's what I recommend. If someone's available they can find the GitHub issue for that, I'll get it when we run out of questions.
+
+48
+00:04:40,000 --> 00:04:47,000
+ Moving down the list, we've got various comments about hold music being scary,
+
+49
+00:04:47,000 --> 00:04:51,000
+ Windows search being the worst, yep, Rain asks a question,
+
+50
+00:04:51,000 --> 00:04:55,000
+ "Create some figurines of my avatar, but when I try to download them it always resulted in error."
+
+51
+00:04:55,000 --> 00:05:01,000
+ Depends what you're doing there, if you're using the figurine maker from a few MMCS ago,
+
+52
+00:05:01,000 --> 00:05:07,000
+ that will convert your avatar and figurine mode into a static mesh which should be exportable.
+
+53
+00:05:07,000 --> 00:05:13,000
+ Just as a general statement for everyone, I don't want to pick on you Rain too much,
+
+54
+00:05:13,000 --> 00:05:20,000
+ one of my pet peeves when it comes to helping people with Neos is when people say it resulted in an error or something happened,
+
+55
+00:05:20,000 --> 00:05:26,000
+ I'm like, "What happened?" So if you can elaborate what you saw, then I can absolutely help you out more.
+
+56
+00:05:26,000 --> 00:05:30,000
+ Like what error did you see? What happened when you tried?
+
+57
+00:05:30,000 --> 00:05:36,000
+ There's a meme from... I accidentally, here we go.
+
+58
+00:05:36,000 --> 00:05:40,000
+ It's like missing information that enables me to help.
+
+59
+00:05:40,000 --> 00:05:46,000
+ The version of that one which I remember seeing is "I accidentally a flashlight"
+
+60
+00:05:46,000 --> 00:05:50,000
+ and everyone's like "Oh, what what?" and then they just went with the whole thing!
+
+61
+00:05:50,000 --> 00:05:53,000
+ It's like, did you eat it? Did you put it somewhere you shouldn't have?
+
+62
+00:05:53,000 --> 00:05:57,000
+ What did you do with the flashlight? It's like "I accidentally a flashlight!"
+
+63
+00:05:57,000 --> 00:06:03,000
+ But apparently that is an offshoot from the original one which appears to be about a .rar file.
+
+64
+00:06:03,000 --> 00:06:06,000
+ So if you have any more information about what's going on there, I'll be able to help you out.
+
+65
+00:06:06,000 --> 00:06:13,000
+ Moving forwards, Rain asks what headless means. Headless are sort of servers, they're not really servers.
+
+66
+00:06:13,000 --> 00:06:16,000
+ Later on we'll have a feature which is actual servers.
+
+67
+00:06:16,000 --> 00:06:19,000
+ It's a way to run Neos without a graphical user interface.
+
+68
+00:06:19,000 --> 00:06:26,000
+ You can put it onto a server or you can put it onto a spare laptop that you haven't used in five years and it's just under a desk somewhere.
+
+69
+00:06:26,000 --> 00:06:33,000
+ And then it allows you to have a permanent 24/7 uptime world on Neos that you can join.
+
+70
+00:06:33,000 --> 00:06:39,000
+ There are lots of them available, frankly too many, but enough.
+
+71
+00:06:39,000 --> 00:06:44,000
+ People use them to... it sort of reduces the stress and pressure of hosting a world,
+
+72
+00:06:44,000 --> 00:06:48,000
+ because when you host a world currently, if you need to go to bed or you've got to go,
+
+73
+00:06:48,000 --> 00:06:50,000
+ that world will close and everyone will have to leave.
+
+74
+00:06:50,000 --> 00:06:55,000
+ But if you have that laptop I mentioned that's under your desk, then people can continue.
+
+75
+00:06:55,000 --> 00:07:00,000
+ They can continue operating on that world. You go to bed, you wake up, the world's still running.
+
+76
+00:07:00,000 --> 00:07:04,000
+ Headless clients, as they're called, are locked behind a Patreon tier.
+
+77
+00:07:04,000 --> 00:07:09,000
+ So you have to go to patreon.com/neosvr or there's a link somewhere to get there.
+
+78
+00:07:09,000 --> 00:07:14,000
+ And subscribe to the appropriate tier to get headless access and then you gain access to it.
+
+79
+00:07:14,000 --> 00:07:16,000
+ That's also what I meant by subscription.
+
+80
+00:07:16,000 --> 00:07:20,000
+ Going on to Rain's next question, which is what is a subscription? I really want to fund Neosys development.
+
+81
+00:07:20,000 --> 00:07:27,000
+ So there is a Neos Patreon, which is how you can get various perks in Neos.
+
+82
+00:07:27,000 --> 00:07:33,000
+ Right now, due to various reasons, that Patreon doesn't actually really fund development.
+
+83
+00:07:33,000 --> 00:07:40,000
+ So please only use it for stuff that you need, such as storage space, groups and access to the headless client.
+
+84
+00:07:40,000 --> 00:08:00,000
+ Thanks, Rabber. So Rabber, yesterday, last, last yesterday, last week, Rabber was asking about locale files being updated, the Neos locale repository.
+
+85
+00:08:00,000 --> 00:08:10,000
+ And I mentioned that you could download the locale files manually and put them into a folder and Neos would then pick them up and use them.
+
+86
+00:08:10,000 --> 00:08:15,000
+ And since then, Rabber has created a mod which does just that.
+
+87
+00:08:15,000 --> 00:08:19,000
+ That has put a reminder, it is on my to-do list, but my to-do list is like insane.
+
+88
+00:08:19,000 --> 00:08:33,000
+ Next to process locale PRs is do the dishes. So I've done the dishes because my to-do list also had several other copies of do the dishes because my life is a chaotic mess.
+
+89
+00:08:33,000 --> 00:08:38,000
+ But I will ensure, let me just move that down to there.
+
+90
+00:08:38,000 --> 00:08:42,000
+ I scrolled through it and it had like vacuum on it four times and I'd actually already vacuumed.
+
+91
+00:08:42,000 --> 00:08:45,000
+ But I do need to vacuum again, so it needs to go back on the to-do list.
+
+92
+00:08:45,000 --> 00:08:53,000
+ It's just like a big notepad document I keep. I've tried all sorts of systems for making to-do lists better, but this is the one that works for me.
+
+93
+00:08:53,000 --> 00:09:02,000
+ So Rain elaborates on their figuring downloading issues and they said it was taking forever and then it gave up trying to download issues because it was not compressed into a single mesh.
+
+94
+00:09:02,000 --> 00:09:08,000
+ Are you using the export dialogue? Like it should be fine. Depends how you're doing it though.
+
+95
+00:09:08,000 --> 00:09:15,000
+ Again, need slightly more information I guess. Maybe I could do like a tutorial on exporting. I might have some of it somewhere.
+
+96
+00:09:15,000 --> 00:09:28,000
+ It should be fine unless your avatar is like a mess. Like if it's got like thousands of materials, like humongous amounts of meshes, half of IKEA stuck to your face, then it might take a long time.
+
+97
+00:09:28,000 --> 00:09:33,000
+ But otherwise it should be fine. Most avatars are simple enough once they're in figuring mode.
+
+98
+00:09:33,000 --> 00:09:38,000
+ As for your next question, which is "Is there a newest development channel or a feature request section?"
+
+99
+00:09:38,000 --> 00:09:44,000
+ So development, you can take a look at devlog or announcements. I'll just drop those in the chat so you can see those.
+
+100
+00:09:44,000 --> 00:09:49,000
+ There isn't much there right now due to various things that are on announcements I don't want to get into.
+
+101
+00:09:49,000 --> 00:10:00,000
+ For feature requests, you can go ahead and drop them into GitHub. Please do search before you make an issue as there are like 1,700 issues open.
+
+102
+00:10:00,000 --> 00:10:06,000
+ 1,783, we're almost at 1,800. And lots of stuff there.
+
+103
+00:10:06,000 --> 00:10:11,000
+ A good example being we get a lot of users asking about dark mode for things like our inventory and contact screen.
+
+104
+00:10:11,000 --> 00:10:18,000
+ That is a feature which is on that list. It's understandable why people would be asking for it, but it is on that list.
+
+105
+00:10:18,000 --> 00:10:24,000
+ Now I've got that open, I'll go ahead and find the rolls being corrupted thing that Tiki was asking about.
+
+106
+00:10:24,000 --> 00:10:32,000
+ "Rolls corrupted. Cohesion rolls are being destroyed." Yeah, actually made by Wraith, a member of the Neos team here. Here it is.
+
+107
+00:10:32,000 --> 00:10:38,000
+ As you can see by the commentary on it, people really, really dislike the fact that this is happening.
+
+108
+00:10:38,000 --> 00:10:44,000
+ Even by shadowpamper, there's even a testing on what's going on.
+
+109
+00:10:44,000 --> 00:10:48,000
+ I do have a tutorial for exporting something? Okay. Oh, I don't remember making that one.
+
+110
+00:10:48,000 --> 00:10:53,000
+ I do have over 300 now, so it's getting a bit difficult to remember all the ones that I've done.
+
+111
+00:10:53,000 --> 00:10:56,000
+ It's been like three years, so...
+
+112
+00:10:56,000 --> 00:11:02,000
+ "What did you eat for dinner last week Tuesday?" No idea. No idea.
+
+113
+00:11:02,000 --> 00:11:09,000
+ With that, we are out of questions. So if you do have any additional questions, please do drop them down into the office hours text chat.
+
+114
+00:11:09,000 --> 00:11:13,000
+ That's a couple of channels above the one you're currently in, looking at the office hours.
+
+115
+00:11:13,000 --> 00:11:18,000
+ Lost. That is not occurring. Hope you're all having a good day, I guess.
+
+116
+00:11:18,000 --> 00:11:23,000
+ I've got a giant box by my front door. It's just a giant box.
+
+117
+00:11:23,000 --> 00:11:30,000
+ And the way what giant boxes work in my huge apartment building is, I have to take them via the elevator down to the parking floor,
+
+118
+00:11:30,000 --> 00:11:38,000
+ get lost like seven times to find the actual room, which is where the trash chutes terminate.
+
+119
+00:11:38,000 --> 00:11:46,000
+ So there's a trash chute on my floor and it terminates in that floor I'm talking about, and then I have to put it into a bin there, because it can't fit down the trash chute.
+
+120
+00:11:46,000 --> 00:11:54,000
+ For those wondering, "Oh, you could cut up the box." Yeah, I could cut up the box, but that would take so long, and it also still might clog the trash chute.
+
+121
+00:11:54,000 --> 00:12:01,000
+ And if I clog the trash chute, and they can prove that I've clogged the trash chute, they charge me $100 fine, so I will venture down to the parking area.
+
+122
+00:12:01,000 --> 00:12:06,000
+ And you'll be like, "Well, how do they know you did it?" And I'm like, "Well, it's almost like the box has my name and address on it."
+
+123
+00:12:06,000 --> 00:12:14,000
+ It's actually really problematic. You see some residents who do clog the trash chute with big boxes, who have pulled off the mailing labels
+
+124
+00:12:14,000 --> 00:12:17,000
+ so that people can't identify it's them that have clogged the trash chute.
+
+125
+00:12:17,000 --> 00:12:24,000
+ That's like when you know as a child you've done something wrong, but you're trying to not get in trouble anyway. That's exactly that.
+
+126
+00:12:24,000 --> 00:12:26,000
+ It's like, guys, come on.
+
+127
+00:12:26,000 --> 00:12:28,000
+ RTX says, "Does Nenus have a mascot?"
+
+128
+00:12:28,000 --> 00:12:30,000
+ Nenus has many mascots.
+
+129
+00:12:30,000 --> 00:12:35,000
+ So some of our mascots are just common memes that we have.
+
+130
+00:12:35,000 --> 00:12:42,000
+ You can see from, if you watch our streams on Fridays, etc., you'll see various things continually come up.
+
+131
+00:12:42,000 --> 00:12:49,000
+ In some aspects, Yellow Dog Man is one of our mascots. It's just sort of a colloquial name for Frixius.
+
+132
+00:12:49,000 --> 00:12:56,000
+ Frixius is also kind of a mascot, as are the rest of the team members, including me.
+
+133
+00:12:56,000 --> 00:12:59,000
+ If you're talking like an official mascot, no.
+
+134
+00:12:59,000 --> 00:13:07,000
+ Like for example, Discord's official mascot is kind of its logo, because its logo is a character with eyes, etc.
+
+135
+00:13:07,000 --> 00:13:12,000
+ PHP has an elephant or something. You know, all sorts of stuff like that.
+
+136
+00:13:12,000 --> 00:13:17,000
+ Chuck E. Cheese has Chuck E. Cheese. I don't know why Chuck E. Cheese came up, I apologize for that.
+
+137
+00:13:17,000 --> 00:13:21,000
+ Someone in here has Chuck E. Cheese's theme tune playing in their head now, I apologize.
+
+138
+00:13:21,000 --> 00:13:25,000
+ Tiki says, "Seems I'm hitting all those nice bugs that are already documented on GitHub every week."
+
+139
+00:13:25,000 --> 00:13:29,000
+ Feel free to ask anyway. I am happy to be your search engine.
+
+140
+00:13:29,000 --> 00:13:36,000
+ I'm more familiar with some of the common problems that users come across, so if I need to find it for you, that's absolutely fine.
+
+141
+00:13:36,000 --> 00:13:40,000
+ So we have another question here from Rain. Rain says, "Can you procedurally generate a world using logics?
+
+142
+00:13:40,000 --> 00:13:44,000
+ You'd be able to generate worlds based on scenes and explore and build on them?"
+
+143
+00:13:44,000 --> 00:13:48,000
+ If you want to, yeah. It'll be a lot of work, but you absolutely can.
+
+144
+00:13:48,000 --> 00:13:53,000
+ There's been various types of that that are similar to that, but nothing explicitly like that.
+
+145
+00:13:53,000 --> 00:13:57,000
+ I believe that you're talking about something similar to probably Minecraft.
+
+146
+00:13:57,000 --> 00:14:02,000
+ So just to let you know, there's various caveats to it, because it has been updated in a while,
+
+147
+00:14:02,000 --> 00:14:07,000
+ but you can actually import your Minecraft world into Nius, if you'd like.
+
+148
+00:14:07,000 --> 00:14:12,000
+ As for non-Minecraft generation, let's take a simple example.
+
+149
+00:14:12,000 --> 00:14:18,000
+ Let's say you had five random shapes. You know, you've got a sphere, a torus, a cube, a cone.
+
+150
+00:14:18,000 --> 00:14:22,000
+ Name a few other random shapes. I've ran out of random shapes in my brain.
+
+151
+00:14:22,000 --> 00:14:28,000
+ You could write logics which randomly picks between those five shapes every meter for the world,
+
+152
+00:14:28,000 --> 00:14:34,000
+ and places one of them at a random size, rotation, and color. You could absolutely do that.
+
+153
+00:14:34,000 --> 00:14:39,000
+ And while that doesn't look that good, it's still random and procedurally generated.
+
+154
+00:14:39,000 --> 00:14:43,000
+ If you do that with trees, you could actually get a visual thing.
+
+155
+00:14:43,000 --> 00:14:45,000
+ But when you're learning, try doing those shapes.
+
+156
+00:14:45,000 --> 00:14:51,000
+ Foxbox says, "Gemini has an issue with Nius. Will it not play videos using the native Unity player?
+
+157
+00:14:51,000 --> 00:14:54,000
+ The video will be a missing image. There are no jobs for it, no errors in the Nius log.
+
+158
+00:14:54,000 --> 00:15:00,000
+ We've tried clearing the cache, fixing the DirectX libraries. We're at a loss."
+
+159
+00:15:00,000 --> 00:15:02,000
+ Sorry to hear that. Have you tried the VLC player?
+
+160
+00:15:02,000 --> 00:15:09,000
+ I actually don't know which player my computer prefers, because I never go into the settings and edit it.
+
+161
+00:15:09,000 --> 00:15:15,000
+ We would need a bug report for that one, though, with more information including those log files.
+
+162
+00:15:15,000 --> 00:15:18,000
+ So please open one over on the GitHub.
+
+163
+00:15:18,000 --> 00:15:23,000
+ Something which I've been playing with in my head about trying to do inside Nius using logics as well
+
+164
+00:15:23,000 --> 00:15:26,000
+ is an algorithm called...
+
+165
+00:15:26,000 --> 00:15:27,000
+ Gee, what's it called?
+
+166
+00:15:27,000 --> 00:15:29,000
+ Wavefunction Collapse. There we go.
+
+167
+00:15:29,000 --> 00:15:30,000
+ Wavefunction Collapse.
+
+168
+00:15:30,000 --> 00:15:33,000
+ Wavefunction Collapse is... it sounds really complicated.
+
+169
+00:15:33,000 --> 00:15:37,000
+ Trust me, you're not going to tear open the world with a black hole or something.
+
+170
+00:15:37,000 --> 00:15:40,000
+ It's just an algorithm for building worlds.
+
+171
+00:15:40,000 --> 00:15:43,000
+ And I think it's probably possible in logics to do Wavefunction Collapse.
+
+172
+00:15:43,000 --> 00:15:47,000
+ With Wavefunction Collapse, you can have an entirely procedural world with all sorts of stuff going on.
+
+173
+00:15:47,000 --> 00:15:49,000
+ It would be a lot of work, though.
+
+174
+00:15:49,000 --> 00:15:57,000
+ For those of you who are VRChat people, or play VRChat, there is a world on VRChat called Stairs or something.
+
+175
+00:15:57,000 --> 00:16:04,000
+ It's elaborate gold staircases with a red carpet, you know, sort of fancy palace-style stairs.
+
+176
+00:16:04,000 --> 00:16:09,000
+ And the stairs go on for infinity. I think that is Wavefunction Collapse.
+
+177
+00:16:09,000 --> 00:16:13,000
+ You can just fall for five minutes and you're still on stairs.
+
+178
+00:16:13,000 --> 00:16:17,000
+ What I want to do is a map similar to that where there's a goal.
+
+179
+00:16:17,000 --> 00:16:21,000
+ The wavefunction does occur, but there is a goal, so there's a path to go through it.
+
+180
+00:16:21,000 --> 00:16:23,000
+ Moving forwards, because we have another question.
+
+181
+00:16:23,000 --> 00:16:30,000
+ Mingyu says "I use a Pimax 8K X with 200 degree FOV. Mirrors will display a double image for me."
+
+182
+00:16:30,000 --> 00:16:34,000
+ This is a known issue with mirrors. I will get you the GitHub link.
+
+183
+00:16:34,000 --> 00:16:38,000
+ I think it's this one. There's lots of issues with Pimax and stuff.
+
+184
+00:16:38,000 --> 00:16:41,000
+ There's lots of issues with mirrors, generally, it seems.
+
+185
+00:16:41,000 --> 00:16:45,000
+ Yeah, I see "First Shader renders oddly a mirror's quest mirror doubling."
+
+186
+00:16:45,000 --> 00:16:48,000
+ "Mirrors not reflecting each other when one is used in blah blah blah blah."
+
+187
+00:16:48,000 --> 00:16:53,000
+ That's by design. Why was it not closed? Oh, they've opened.
+
+188
+00:16:53,000 --> 00:16:56,000
+ Seems like Fruch is saying we could maybe do it later.
+
+189
+00:16:56,000 --> 00:16:59,000
+ So yeah, there's the issue that you're dealing with.
+
+190
+00:16:59,000 --> 00:17:02,000
+ Follow that issue for more information about it.
+
+191
+00:17:02,000 --> 00:17:10,000
+ Rain has a question who says "Is there a way to open any link in NES like it's its own Chromium-based window and use that window similar to any other?"
+
+192
+00:17:10,000 --> 00:17:12,000
+ No, there's not currently.
+
+193
+00:17:12,000 --> 00:17:16,000
+ The closest thing that we'd have to that on our roadmap right now would be screen sharing.
+
+194
+00:17:16,000 --> 00:17:19,000
+ So we hope to have that implemented when we can get to it.
+
+195
+00:17:19,000 --> 00:17:25,000
+ And that would allow you to share a screen from outside of NES on your computer into the NES world.
+
+196
+00:17:25,000 --> 00:17:30,000
+ That's more complicated than people realize because it's basically video streaming.
+
+197
+00:17:30,000 --> 00:17:37,000
+ What we have to do is capture your stream, turn that into a video stream, and then stream that to everyone else in the session.
+
+198
+00:17:37,000 --> 00:17:41,000
+ Rain, welcome to NES. You must be a new player with these questions, which is absolutely fine, by the way.
+
+199
+00:17:41,000 --> 00:17:43,000
+ I don't mind answering them at all.
+
+200
+00:17:43,000 --> 00:17:49,000
+ It's just when I see this many questions, I'm like, it means someone is excited to play NES, and that makes me excited.
+
+201
+00:17:49,000 --> 00:17:51,000
+ So thank you so much for all the questions.
+
+202
+00:17:51,000 --> 00:17:57,000
+ So Rain, again, with a question, says "I'd like to hide my head bone locally instead of just adjusting NCCLIP. Is there a way to do that?"
+
+203
+00:17:57,000 --> 00:18:01,000
+ Currently there is not. We don't support that natively.
+
+204
+00:18:01,000 --> 00:18:06,000
+ There are a few mods that allow you to do it, and someone's going to talk to you about mods eventually.
+
+205
+00:18:06,000 --> 00:18:12,000
+ Neos allows modding, whereas VRChat does not, and there is a Neos mod for that.
+
+206
+00:18:12,000 --> 00:18:19,000
+ If you'd like to have more information about that, you need to go ahead and take a look at the modding discord, where we keep modding content, basically.
+
+207
+00:18:19,000 --> 00:18:28,000
+ Shadow proposes an interesting solution, but that will not work in Mirrors. Like, in Mirrors, you'll have a very small head.
+
+208
+00:18:28,000 --> 00:18:34,000
+ It is a little bit similar to other mods that have existed, but I understand how it might be difficult.
+
+209
+00:18:34,000 --> 00:18:41,000
+ I was playing Stranded Deep the other day. Stranded Deep is... I don't want to say Raft Clone, but Raft Clone?
+
+210
+00:18:41,000 --> 00:18:47,000
+ Raft's like a clearly superior game to Stranded Deep, but Stranded Deep does cool stuff as well.
+
+211
+00:18:47,000 --> 00:18:58,000
+ And Stranded Deep has mods, and installing Stranded Deep mods was almost equivalent to the Neos mod, except there was of course a GUI visual thing for it.
+
+212
+00:18:58,000 --> 00:19:06,000
+ It was basically like, download the mod manager, drag in some zips, hit go. The only mod I needed was... I only needed three mods.
+
+213
+00:19:06,000 --> 00:19:15,000
+ One added a map, because navigating Stranded Deep is terrible. Another one added the ability to use the label maker in multiplayer, which for some reason doesn't work in multiplayer.
+
+214
+00:19:15,000 --> 00:19:24,000
+ And then the third mod was right at the end of the game, to allow me to spawn items, because at the end of the game you need fuel, and to make fuel you need to boil potatoes.
+
+215
+00:19:24,000 --> 00:19:30,000
+ And I was not going to sit there and wait for, I don't know, like 40 potatoes to grow just for the end of the game.
+
+216
+00:19:30,000 --> 00:19:35,000
+ I'd done everything in the game, except the end game, which requires about 40 potatoes to be boiled.
+
+217
+00:19:35,000 --> 00:19:41,000
+ I'm like, I'm spawning 40 potatoes. I'm not waiting for these 40 potatoes to grow. No way.
+
+218
+00:19:41,000 --> 00:19:49,000
+ It's weird because when I was young I saw cheating in video games as something fun, and something that could be done if you wanted to.
+
+219
+00:19:49,000 --> 00:19:58,000
+ But it felt cheating. It felt cheating. But as I've got older, I'm like, cheating is purely because I need to go to bed. I'm tired. I don't want to play this game anymore.
+
+220
+00:19:58,000 --> 00:20:01,000
+ Give me my 40 potatoes and go away.
+
+221
+00:20:01,000 --> 00:20:08,000
+ Rain says they like Neos because you can basically recreate any game if you tried hard enough, or I'd assume that's the goal if not true.
+
+222
+00:20:08,000 --> 00:20:15,000
+ That is kind of the goal. Lots of people call Neos a game, but that's sort of like, not correct, but no one's going to tell you off at doing it.
+
+223
+00:20:15,000 --> 00:20:20,000
+ It's just whatever you refer it to is fine. But you can do whatever you want in there.
+
+224
+00:20:20,000 --> 00:20:26,000
+ We do have first person shooters, we do have card games, we do have parkour, all sorts of things.
+
+225
+00:20:26,000 --> 00:20:32,000
+ I haven't seen an RTS yet. I've seen stuff similar to an RTS. That's things like Command and Conquer, etc.
+
+226
+00:20:32,000 --> 00:20:38,000
+ Someone should build an RTS, that'd be cool. Those are the games where you create units and then order them around a battlefield. That'd be cool.
+
+227
+00:20:38,000 --> 00:20:47,000
+ Racing happens a lot, RPGs happen a lot, there's quite a few systems there. There's even a world where you can blacksmith various types of weapons. They're really cool.
+
+228
+00:20:47,000 --> 00:20:55,000
+ In about a month's time, you'll be able to see additional more games, because there will be some games created for the MMC competition which starts tomorrow.
+
+229
+00:20:55,000 --> 00:21:04,000
+ We have four minutes left, so if anyone has any additional questions please get them typed into the thread, otherwise I'm going to sit here and maybe rant about video games that I've used cheats on.
+
+230
+00:21:04,000 --> 00:21:11,000
+ Someone play Grounded. Grounded is like, really cool, but towards the end it just got really grindy, so again, I cheated on that one.
+
+231
+00:21:11,000 --> 00:21:14,000
+ I wanna go to bed. Let me cheat.
+
+232
+00:21:14,000 --> 00:21:17,000
+ Oh, your questions, so I'll swap to that rather than ranting about Grounded.
+
+233
+00:21:17,000 --> 00:21:24,000
+ So Lex asks "Is it intended for people to be able to view session details of contacts and contacts plus sessions even though they're not a contact of anyone in the world?"
+
+234
+00:21:24,000 --> 00:21:29,000
+ Note this is only possible through the API and not the world browser. "What details can you view?"
+
+235
+00:21:29,000 --> 00:21:35,000
+ Ooh. I could understand the... you're not able to join, right Lex? Cool.
+
+236
+00:21:35,000 --> 00:21:44,000
+ I know that we do consider contacts and contacts plus air quotes "public" for the purposes of guidelines, particularly the adult content guideline.
+
+237
+00:21:44,000 --> 00:21:55,000
+ But, I will have to bring that one up with the team. I will make a note of that right now. Excuse any incredibly loud typing noises that occur.
+
+238
+00:21:55,000 --> 00:21:59,000
+ Okay, good, you can't do it. At least you can't join, that's good.
+
+239
+00:21:59,000 --> 00:22:06,000
+ So for a private session that is a session set to private, not a session that's set to hidden, but that will also work, and it's complicated.
+
+240
+00:22:06,000 --> 00:22:16,000
+ For a session set to private, and you can prove this with the lovely application called Wireshark, private sessions don't even tell the Neos cloud that they exist.
+
+241
+00:22:16,000 --> 00:22:32,000
+ So we get a lot of comments sometimes, and rumors, because I don't know in terms of VRChat if it's possible, but over in VRChat people are like "Yeah, VRChat staff can join your private sessions and be a peer invisible."
+
+242
+00:22:32,000 --> 00:22:39,000
+ And I always say "In Neos that's not possible and you can literally prove it. If you set it to private, the API does not know that you exist."
+
+243
+00:22:39,000 --> 00:22:52,000
+ So we would be able to find it even if we needed to. It will show up in your contacts list that that user is in a private world, but the status of what a contact is doing is separate from the actual instance, so we don't get any instance details.
+
+244
+00:22:52,000 --> 00:23:02,000
+ But it sounds like it might be like a bypass or like a thing, because contacts in contacts plus is something that might change, particularly contacts plus, right?
+
+245
+00:23:02,000 --> 00:23:11,000
+ It might be suddenly you are able to join because someone that is on your contacts list joins, but I will double check with the rest of the team when I get the chance.
+
+246
+00:23:11,000 --> 00:23:17,000
+ I see lots of people typing, but it is half past, so those people who are typing, please continue typing.
+
+247
+00:23:17,000 --> 00:23:21,000
+ But no more questions after those people that are typing have finished typing.
+
+248
+00:23:21,000 --> 00:23:24,000
+ It's probably the most complicated way to say what I just said, but whatever.
+
+249
+00:23:24,000 --> 00:23:27,000
+ I have coffee. Do you like coffee? Coffee's great.
+
+250
+00:23:27,000 --> 00:23:37,000
+ Slinker says "Discord only just gave me a notification about this, Ted." Well Slinker, it has been the same time each week for I think almost a year now.
+
+251
+00:23:37,000 --> 00:23:42,000
+ I'll double check. It's probably over a year. I missed the year anniversary of this event.
+
+252
+00:23:42,000 --> 00:23:46,000
+ So you can just go ahead and put it in your calendar and it will always be this time.
+
+253
+00:23:46,000 --> 00:23:52,000
+ Very, very rarely I do cancel it. Usually when I fly to Spain. If I'm flying to Spain, I cancel it, but otherwise it's still there.
+
+254
+00:23:52,000 --> 00:24:04,000
+ I will move things around, cancel things, and make sure I make it purely so that you have a defined weekly occurrence of me talking about coffee and weird video games to you.
+
+255
+00:24:04,000 --> 00:24:16,000
+ Yeah, I actually have on my to-do list, it's actually an issue assigned to me, is we're gonna re-look at the Discord integration a little bit.
+
+256
+00:24:16,000 --> 00:24:30,000
+ Currently the Discord integration exists in the Unity portion of Nios, and I've already moved it to the Fruits Engine portion of it, which gives us a little bit more control.
+
+257
+00:24:30,000 --> 00:24:35,000
+ Because the Unity project's a bit of a mess. I'll look at that one as well.
+
+258
+00:24:35,000 --> 00:24:40,000
+ Dante says "Hidden is not private. Anyone who finds out the session ID could still join a hidden session."
+
+259
+00:24:40,000 --> 00:24:45,000
+ You have to set it to private if you actually want it private, I see people confused and think misunderstanding has caused a lot of the rumors.
+
+260
+00:24:45,000 --> 00:24:56,000
+ I think, Dante, we as the Nios team, in moderation, we just need to... there's that table that goes around where people are like "yeah, you can do adult content in this table"
+
+261
+00:24:56,000 --> 00:25:04,000
+ I think we just need to make an official one. Yeah, it's like a table of green and red squares about when the adult content policy applies and stuff like that.
+
+262
+00:25:04,000 --> 00:25:10,000
+ I think we just need to make it official at this point. Then we can sort of plaster it all over the walls.
+
+263
+00:25:10,000 --> 00:25:17,000
+ For reference, for everyone that is here, if you go to the guidelines wiki page, and I'm going to read it from the guidelines because I want to misspeak,
+
+264
+00:25:17,000 --> 00:25:21,000
+ I'm literally going to go to the guidelines page and read it straight off there.
+
+265
+00:25:21,000 --> 00:25:30,000
+ I tapped in "Guidelines Nios Wiki" into Google and it sent me to "Optimization Guidelines" which is close but not quite.
+
+266
+00:25:30,000 --> 00:25:31,000
+ Alright, here we are.
+
+267
+00:25:31,000 --> 00:25:42,000
+ "To make use of adult content without violating the Nios usage guidelines, we recommend hosting adult content in a private private world. Private sessions are sessions that require an invitation to join.
+
+268
+00:25:42,000 --> 00:25:50,000
+ Hosting adult content in a world where all users who access it and can view it have consented to view the content and are of appropriate age."
+
+269
+00:25:50,000 --> 00:25:56,000
+ That is adult content 3, 1 and 2. We actually don't mention hidden at all I think in that.
+
+270
+00:25:56,000 --> 00:26:02,000
+ Yeah, we don't mention hidden at all. Yeah, we should make that matrix and make it done and official.
+
+271
+00:26:02,000 --> 00:26:06,000
+ With that though, I think we are done with our questions.
+
+272
+00:26:06,000 --> 00:26:14,000
+ So I'm going to go ahead and leave off here and we will start back up again next week at exactly the same time, at which point MMC will be fully underway.
+
+273
+00:26:14,000 --> 00:26:18,000
+ Please do consider entering the MMC, it is not too late to make an entry.
+
+274
+00:26:18,000 --> 00:26:26,000
+ You have until February 1st to enter your entry and I hope to see exciting things that you've made.
+
+275
+00:26:26,000 --> 00:26:39,000
+ In the meantime, if you have any additional questions, please feel free to drop them in the questions and help channel, direct message me directly, or make up issues, make moderation tickets, whatever type of question it is, there is a way for it to be answered.
+
+276
+00:26:39,000 --> 00:26:41,000
+ Please ask questions wherever you can.
+
+277
+00:26:41,000 --> 00:26:43,000
+ I will speak to you all again next week.
+
+278
+00:26:43,000 --> 00:26:50,000
+ Shadow, yeah, you can enter, I'm sorry, I say goodbye and then someone asks a question, I'm like, sure, go for it.
+
+279
+00:26:50,000 --> 00:26:55,000
+ You could make an entry until February 1st, like there is no entry deadline.
+
+280
+00:26:55,000 --> 00:27:02,000
+ Like people, because there's a form you have to fill in to like enter and it is not required to fill in that form before the first.
+
+281
+00:27:02,000 --> 00:27:08,000
+ You can fill in that form at any point during February, during, wait a minute, I've got my months confused.
+
+282
+00:27:08,000 --> 00:27:20,000
+ Let me restate this, I mean March, I mean March, I'm sorry, it's like the boundary between January and the rest of the year just makes everyone confused about calendars.
+
+283
+00:27:20,000 --> 00:27:27,000
+ You know, like the first couple of days of January where you write 2022 and you're just like, ugh, happens for the entirety of January.
+
+284
+00:27:27,000 --> 00:27:28,000
+ Yeah, don't worry about it.
+
+285
+00:27:28,000 --> 00:27:35,000
+ Okay, I got to restate, you have until March 1st to make, fill in the entry form and submit your world.
+
+286
+00:27:35,000 --> 00:27:39,000
+ Apologies for that one, months, time zones and dates are fun.
+
+287
+00:27:39,000 --> 00:27:42,000
+ Okay, for real now, this time, for real.
+
+288
+00:27:42,000 --> 00:27:46,000
+ If you have any other questions about MMC, just DM me or post to the MMC channel.
+
+289
+00:27:46,000 --> 00:27:48,000
+ I'll see you again next week.
+

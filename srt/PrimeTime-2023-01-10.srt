@@ -1,0 +1,1340 @@
+1
+00:00:00,000 --> 00:00:03,800
+ Okay, welcome to Prime Time. It is 4 p.m. so we need to go ahead and get started.
+
+2
+00:00:03,800 --> 00:00:08,300
+ We've got some questions lined up in the Office Hours text chat, so if you have additional questions, please line them up.
+
+3
+00:00:08,300 --> 00:00:13,720
+ I'll get to them in the order that I appear. I'm just gonna @tag Office Hours one more time to let them know that we're starting, and then we'll get going.
+
+4
+00:00:13,720 --> 00:00:20,980
+ All right, so questions. So, Alex says, "Hey Prime, how does Neos generate thumbnails for inventory items?"
+
+5
+00:00:20,980 --> 00:00:25,060
+ I know approximately, but I don't know where in the code it might be.
+
+6
+00:00:25,060 --> 00:00:32,060
+ I can probably get there if I go to the inventory browser and I look at the code for the plus button.
+
+7
+00:00:32,060 --> 00:00:39,060
+ I think that should be easier to find than the context menu one, so I'll look for that.
+
+8
+00:00:39,060 --> 00:00:43,060
+ And I'll save and held items to the inventory. Here it is.
+
+9
+00:00:43,060 --> 00:00:46,060
+ Add item. Here it is. Here we go. Add item.
+
+10
+00:00:46,060 --> 00:00:47,060
+ inventory link.
+
+11
+00:00:47,060 --> 00:00:49,060
+ Link for save and handle.
+
+12
+00:00:49,060 --> 00:00:53,060
+ Here we go. Item helper.SaveItem. This looks like a good thing.
+
+13
+00:00:53,060 --> 00:00:58,060
+ Save item internal. Reference proxies can save item slot.
+
+14
+00:00:58,060 --> 00:01:01,060
+ It's an avatar. If there's metadata.
+
+15
+00:01:01,060 --> 00:01:03,060
+ Okay, if there's no thumbnail...
+
+16
+00:01:03,060 --> 00:01:12,060
+ Yeah, so there's a function on slots called renderToAsset, which will basically take a screenshot of a particular slot hierarchy.
+
+17
+00:01:12,060 --> 00:01:14,060
+ That's a cool function.
+
+18
+00:01:14,060 --> 00:01:23,060
+ It does that by looking at your head position, but it also tries to take into account bounding box and stuff like that.
+
+19
+00:01:23,060 --> 00:01:29,060
+ Which gets annoying sometimes when you've got really large items, and sometimes there's like...
+
+20
+00:01:29,060 --> 00:01:35,060
+ Either a baby or a small deer is injured in the corridor. I apologize for that delay in my brain.
+
+21
+00:01:35,060 --> 00:01:41,060
+ You know when deers make really loud noises? That's what I just heard from my corridor.
+
+22
+00:01:41,060 --> 00:01:51,060
+ Anyway, yeah. So it basically just takes a photo of the item from your head as like a source position, but trying to encompass the entire item's bounding box.
+
+23
+00:01:51,060 --> 00:01:57,060
+ It is similar to the renderToTextureLogix node. Everything's kind of like the same code path.
+
+24
+00:01:57,060 --> 00:02:01,060
+ I wouldn't be surprised if they used like the same code. I'd have to dig into it more though.
+
+25
+00:02:01,060 --> 00:02:05,060
+ I've stepped into about five functions. I think I'll do for now.
+
+26
+00:02:05,060 --> 00:02:07,060
+ So we'll move on to the next question.
+
+27
+00:02:07,060 --> 00:02:10,060
+ So Erin says, "How do stencils work?"
+
+28
+00:02:10,060 --> 00:02:17,060
+ I actually found a good guide to stencils in Unity, which helped me understand them inside Neos.
+
+29
+00:02:17,060 --> 00:02:27,060
+ So I looked for stencils from probable crime in our Discord. No, not pro scrub. I don't know who pro scrub is, but hooray.
+
+30
+00:02:27,060 --> 00:02:29,060
+ Is that the guide I meant? I don't know.
+
+31
+00:02:29,060 --> 00:02:35,060
+ This is the one that I previously linked to a few people. It's a guide about how stencil shaders work.
+
+32
+00:02:35,060 --> 00:02:43,060
+ It isn't directly applicable to Neos, but you can kind of figure it out if you are technically minded and you take a look at that.
+
+33
+00:02:43,060 --> 00:02:49,060
+ Additionally, do check a look at Visualibo's public folder. They've got a bunch of stencil stuff there.
+
+34
+00:02:49,060 --> 00:02:56,060
+ A variant of which is inside my meme or cheese folder, which is the cheese hole, that again is a stencil.
+
+35
+00:02:56,060 --> 00:03:06,060
+ They are like weird ways to write on top of or below the current render buffer, so you can do really cool stuff.
+
+36
+00:03:06,060 --> 00:03:11,060
+ It's similar to how portals and stuff work, although portals are usually just cameras these days.
+
+37
+00:03:11,060 --> 00:03:16,060
+ He wanted a link to Visualibo's public folder. Okay, let me see if I can get that as well.
+
+38
+00:03:16,060 --> 00:03:24,060
+ I feel like a weird data retrieval person right now, because my tax accountant is asking for 2022's documents today.
+
+39
+00:03:24,060 --> 00:03:31,060
+ I've spent three hours just downloading PDFs and documents from various places I don't remember my passwords for.
+
+40
+00:03:31,060 --> 00:03:33,060
+ So that's been fun.
+
+41
+00:03:33,060 --> 00:03:40,060
+ I need every document that has a single dollar sign on it ever. Please, please.
+
+42
+00:03:40,060 --> 00:03:42,060
+ Oh, Froppy's got it. Fantastic.
+
+43
+00:03:42,060 --> 00:03:47,060
+ We'll move on to the next question, depending on what you want to do, Aaron. Maybe I can help you out later.
+
+44
+00:03:47,060 --> 00:03:55,060
+ Fuzzy says, "Is there a way to edit something in Neos that has been baked already?"
+
+45
+00:03:55,060 --> 00:03:57,060
+ Depends what type of baking you're after.
+
+46
+00:03:57,060 --> 00:04:04,060
+ If you mean the sort of baking where you're baking a procedural mesh, you can't unbake a procedural mesh. Nope.
+
+47
+00:04:04,060 --> 00:04:11,060
+ If you mean an avatar into a static avatar like the statue maker, then again, nope. That's not possible.
+
+48
+00:04:11,060 --> 00:04:17,060
+ So it really does depend on what you mean explicitly, but usually the answer is no, you can't unbake it.
+
+49
+00:04:17,060 --> 00:04:21,060
+ You can take it to Blender and then do stuff there, resplit it apart.
+
+50
+00:04:21,060 --> 00:04:31,060
+ Do remember that if you export it with a type of model file that supports complex stuff, then you'll be able to do more than if you export it with something that does simple stuff.
+
+51
+00:04:31,060 --> 00:04:37,060
+ For example, if you export as SDL or OBJ, it will usually collapse the materials down to something sort of unusable.
+
+52
+00:04:37,060 --> 00:04:44,060
+ But if you use glTF, which I recommend, then you should be able to pull apart the different materials that exist up there.
+
+53
+00:04:44,060 --> 00:04:48,060
+ Those who are unaware, glTF for everything, please.
+
+54
+00:04:48,060 --> 00:04:52,060
+ If you have any issues with glTF, please do let me know because it worked for everything I could do.
+
+55
+00:04:52,060 --> 00:04:56,060
+ GLB is OK. Basically, if your file format starts in GL, you're totally fine.
+
+56
+00:04:56,060 --> 00:05:03,060
+ If it starts in FBX, come on guys, it's 2023. Let's make 2023 the year of the glTF.
+
+57
+00:05:03,060 --> 00:05:08,060
+ Ozi asks a good question actually. I read it really fast and now I have to read it out loud for the recording.
+
+58
+00:05:08,060 --> 00:05:13,060
+ Hey Prime, a bit of a cloud feature question, but from my understanding, the nearest cloud has a lot of moving parts and services.
+
+59
+00:05:13,060 --> 00:05:18,060
+ Is there any plans to expose the state of health of these individual services similar to how the other cloud-based services show such?
+
+60
+00:05:18,060 --> 00:05:29,060
+ I would love to do that. One of the initiatives I want to do once this whole mess, C announcements channel, is fixed is sort of up our transparency on stuff.
+
+61
+00:05:29,060 --> 00:05:34,060
+ Like there's of course stuff that we can't tell you, for example like legal stuff or anything like that,
+
+62
+00:05:34,060 --> 00:05:40,060
+ but there's a bunch of stuff that we just aren't telling you for just sort of like, we're just not, and we totally can.
+
+63
+00:05:40,060 --> 00:05:46,060
+ Examples there might be what percentage of the Patreon fund goes to paying for the servers? That's good information.
+
+64
+00:05:46,060 --> 00:05:49,060
+ We could even do what percentage goes to wages if we want to.
+
+65
+00:05:49,060 --> 00:05:53,060
+ That wouldn't be what individual people's wages were, that would just be like,
+
+66
+00:05:53,060 --> 00:06:00,060
+ "Patreon, this percentage goes to the actual developers so they can buy cheese." It's all information that we can do.
+
+67
+00:06:00,060 --> 00:06:06,060
+ Of course, with each of those pieces of information, I have to get clearance from the rest of the team, and fruits of course, to share it,
+
+68
+00:06:06,060 --> 00:06:10,060
+ but there isn't anything preventing us from sharing some of that information.
+
+69
+00:06:10,060 --> 00:06:17,060
+ I always post this, and people get tired of it sometimes, but if you take a look at the platform Glimmish, Glimmish.tv,
+
+70
+00:06:17,060 --> 00:06:22,060
+ they're one of the streaming platforms for video game streaming that sprung up when Mixer died.
+
+71
+00:06:22,060 --> 00:06:29,060
+ They try and do everything as open as possible, so their board meetings are just entirely open, you can go watch a YouTube video of them,
+
+72
+00:06:29,060 --> 00:06:33,060
+ and I don't see why that can't happen with us. And then they share metrics.
+
+73
+00:06:33,060 --> 00:06:40,060
+ They share their daily active users, their monthly active users, how much money they made in t-shirt sales, how much money they made with subscriptions.
+
+74
+00:06:40,060 --> 00:06:45,060
+ And this is above and beyond what I think we'll be able to do, but there's no reason why we can't.
+
+75
+00:06:45,060 --> 00:06:51,060
+ So I'd like to see what we can do in that regard. So hopefully server status will be included in that.
+
+76
+00:06:51,060 --> 00:06:55,060
+ So Rickerbus asks what normals are, and a few people answered below.
+
+77
+00:06:55,060 --> 00:07:02,060
+ So Lou said normals are textures, that's a normal map, not normals.
+
+78
+00:07:02,060 --> 00:07:08,060
+ Normal maps are a way of mapping normal data into an image.
+
+79
+00:07:08,060 --> 00:07:11,060
+ So, how to explain this about visuals.
+
+80
+00:07:11,060 --> 00:07:16,060
+ Okay, so if you shine a light at a mirror, let's say a laser actually, that's a bit better.
+
+81
+00:07:16,060 --> 00:07:25,060
+ A laser at a mirror, it will reflect off of that mirror, according to a certain mathematical calculation that we have determined.
+
+82
+00:07:25,060 --> 00:07:32,060
+ So if you do that in the real world with a laser pointer, if you've got one, I have one, long story, it'll just work, right?
+
+83
+00:07:32,060 --> 00:07:36,060
+ But in computing and in games, we need to write code and maths to make that work.
+
+84
+00:07:36,060 --> 00:07:44,060
+ And part of what we need to know there is the normal, which is sort of like the way that the surface of the object points.
+
+85
+00:07:44,060 --> 00:07:49,060
+ So if you think of that mirror, the normal of the mirror is straight back towards you.
+
+86
+00:07:49,060 --> 00:07:54,060
+ That's the normal of that mirror, because it's a flat rectangular surface pointing directly at you.
+
+87
+00:07:54,060 --> 00:07:57,060
+ The normal of that surface is straight back at you.
+
+88
+00:07:57,060 --> 00:08:01,060
+ However, let's think about the normal of maybe a sphere, right?
+
+89
+00:08:01,060 --> 00:08:11,060
+ That's complicated, because for each point that you hit in the sphere, it's got to then bounce straight back up towards you from every point.
+
+90
+00:08:11,060 --> 00:08:22,060
+ And that's complicated. So if you go into Blender, you can go ahead and just add a sphere, and then exactly exactly exactly what Froppy has posted for a sphere.
+
+91
+00:08:22,060 --> 00:08:25,060
+ So that's the normal for a sphere.
+
+92
+00:08:25,060 --> 00:08:33,060
+ So the normal map then encodes that data from your texture creating application or your baking application into an image, which then saves the data.
+
+93
+00:08:33,060 --> 00:08:39,060
+ Because we don't need so much data in the actual mesh, we can use it from the normal map.
+
+94
+00:08:39,060 --> 00:08:47,060
+ So for example, on Froppy's visual there, you'll see that there is quite large quads, like for example, the quad right in the middle of it.
+
+95
+00:08:47,060 --> 00:08:49,060
+ Just pick any of the quads right in the middle of it.
+
+96
+00:08:49,060 --> 00:08:51,060
+ There is only one normal for that quad.
+
+97
+00:08:51,060 --> 00:09:01,060
+ But if you have a normal map with an appropriate UV, you could have, I don't know, 10, 20, 30, 50 normal values for that quad that is in the middle of that sphere.
+
+98
+00:09:01,060 --> 00:09:09,060
+ And that's why you might get, I don't know, a divot or a raised part, like maybe it's been roughed up with some sandpaper or something.
+
+99
+00:09:09,060 --> 00:09:17,060
+ And that's why when you combine all of that together, you get normal maps, which allow you to make surfaces rough or patchy and stuff like that.
+
+100
+00:09:17,060 --> 00:09:25,060
+ Do take a look inside the Neosessentials materials, and then just pick something that you wouldn't think would have normal.
+
+101
+00:09:25,060 --> 00:09:26,060
+ So pick metal or something like that.
+
+102
+00:09:26,060 --> 00:09:30,060
+ And then try one of the really rusted metals in there and look at its normal map.
+
+103
+00:09:30,060 --> 00:09:33,060
+ And then look at it on a flat surface like a quad.
+
+104
+00:09:33,060 --> 00:09:38,060
+ And then you'll start seeing, remove the normal, add the normal, you'll start seeing what's going on there.
+
+105
+00:09:38,060 --> 00:09:45,060
+ Moving forward, the programmer says, "Is there a way to save the texture of a material back to the computer?"
+
+106
+00:09:45,060 --> 00:09:50,060
+ Yeah, sure. So if you grab the texture, and you need to make sure you grab the texture itself.
+
+107
+00:09:50,060 --> 00:09:53,060
+ So like drag it out from the inspector or something.
+
+108
+00:09:53,060 --> 00:09:57,060
+ Like if you grab like a quad that has the texture on it, then that might not work.
+
+109
+00:09:57,060 --> 00:10:00,060
+ So make sure it's like the texture itself.
+
+110
+00:10:00,060 --> 00:10:04,060
+ Like as an example here, if you bring in an image and then you grab the image, that's the texture itself.
+
+111
+00:10:04,060 --> 00:10:09,060
+ Like it's, but if you put that image on another object, then that might not work.
+
+112
+00:10:09,060 --> 00:10:11,060
+ If you want more on that, I'll make a video or something.
+
+113
+00:10:11,060 --> 00:10:18,060
+ Anyway, you grab the image itself, you go to the file browser, and then you hit like the plus in the file browser.
+
+114
+00:10:18,060 --> 00:10:19,060
+ That'll let you save it.
+
+115
+00:10:19,060 --> 00:10:24,060
+ There's also, depending on the component setup, it's a exportable component.
+
+116
+00:10:24,060 --> 00:10:28,060
+ There'll be like export in the context menu, that's usually for screenshots and things like that.
+
+117
+00:10:28,060 --> 00:10:31,060
+ It'll be able to export that image back there.
+
+118
+00:10:31,060 --> 00:10:38,060
+ Same with meshes, again, grab the mesh, go to the file browser, hit plus, select glTF.
+
+119
+00:10:38,060 --> 00:10:43,060
+ Moving forwards, I found there's a tween node. This is from Tiki, sorry.
+
+120
+00:10:43,060 --> 00:10:47,060
+ I found there's a tween node to transition from one value to another, and it seemed very interesting to drive a float for some effects,
+
+121
+00:10:47,060 --> 00:10:52,060
+ but the output seems to be only possible on a component variables and not a generic register.
+
+122
+00:10:52,060 --> 00:10:55,060
+ It's another node that would work around, so I don't need to create a component.
+
+123
+00:10:55,060 --> 00:11:00,060
+ I thought tween would work for registers. I don't know why it wouldn't.
+
+124
+00:11:00,060 --> 00:11:07,060
+ I'm not in Neos right now, but if anyone is inside Neos, could you try making a tween node and targeting a value register?
+
+125
+00:11:07,060 --> 00:11:08,060
+ Thanks, that should work.
+
+126
+00:11:08,060 --> 00:11:14,060
+ If it doesn't work, you can also inspect the register in the inspector and find the component which represents the register,
+
+127
+00:11:14,060 --> 00:11:19,060
+ and then just tween the value of the register from the component version of the register.
+
+128
+00:11:19,060 --> 00:11:24,060
+ Because remember, Logix is just components with squares.
+
+129
+00:11:24,060 --> 00:11:27,060
+ Ogeba says, what is the maximum number of trackers Neos can use?
+
+130
+00:11:27,060 --> 00:11:33,060
+ There isn't a limit. There probably is a limit. It probably is close to a binary number, I think like 32, 64, 128, something like that.
+
+131
+00:11:33,060 --> 00:11:40,060
+ But you'd probably run out of body space before you run out of trackers inside Neos.
+
+132
+00:11:40,060 --> 00:11:46,060
+ The reason I say that is because at a certain point they'll start overlapping in terms of their dots and stuff,
+
+133
+00:11:46,060 --> 00:11:50,060
+ and then the base stations will get confused or whatever.
+
+134
+00:11:50,060 --> 00:11:56,060
+ 11 point tracking is all we recommend for avatars, but you can add additional trackers to track things such as,
+
+135
+00:11:56,060 --> 00:12:02,060
+ someone has a drink tracker, someone had a cat tracker, someone in the really, really, really early days of Neos had a chair tracker,
+
+136
+00:12:02,060 --> 00:12:10,060
+ which I thought was brilliant. They put one on their desk chair, and then they knew where their chair was if they needed to sit down in VR.
+
+137
+00:12:10,060 --> 00:12:15,060
+ And I've had that problem where I don't know where my chair is, and I've had a couple of close calls with the floor.
+
+138
+00:12:15,060 --> 00:12:20,060
+ You know, you keep lowering your butt and you're like, that's not a chair, that's not a chair, that's not a chair,
+
+139
+00:12:20,060 --> 00:12:25,060
+ and at some point you're like, I'm going to fall over if I keep going. Let me double check where my chair is.
+
+140
+00:12:25,060 --> 00:12:28,060
+ So they did that. Random anecdote here, we do have time though.
+
+141
+00:12:28,060 --> 00:12:37,060
+ I saw on a TV show called Station 19, which is a firefighter show, which was spun off from Grey's Anatomy,
+
+142
+00:12:37,060 --> 00:12:43,060
+ they were doing firefighter training where they had the nozzle of a firefighter's hose, a fake one of course,
+
+143
+00:12:43,060 --> 00:12:49,060
+ but it had a vive tracker on the end of it, so they could track where the nozzle was.
+
+144
+00:12:49,060 --> 00:12:55,060
+ And I was like, cool. That's actually what people at Vive thought that you would use vive trackers for.
+
+145
+00:12:55,060 --> 00:13:00,060
+ They thought that you would be adding it to objects such as firefighter hoses, tools, maybe even sort of, you know,
+
+146
+00:13:00,060 --> 00:13:03,060
+ mock weapons, et cetera, for training and management, et cetera.
+
+147
+00:13:03,060 --> 00:13:09,060
+ And then VRChat and Social VR came along and was like, we're going to put like 11 of them on us,
+
+148
+00:13:09,060 --> 00:13:15,060
+ and then lie in front of a mirror for 12 hours. And Vive's like, what?
+
+149
+00:13:15,060 --> 00:13:18,060
+ And that's why sometimes when you're like, Vive stuff seems a bit weird.
+
+150
+00:13:18,060 --> 00:13:23,060
+ That's because they clearly were targeting a more professional market to start with.
+
+151
+00:13:23,060 --> 00:13:29,060
+ That's also why the Vive ones exist and are really bad. We're targeting a non-gaming market by looks of things.
+
+152
+00:13:29,060 --> 00:13:35,060
+ Anyway, moving forwards, Kazu says, for import of GLTF data, and you know,
+
+153
+00:13:35,060 --> 00:13:40,060
+ sometimes it emits shape keys from the original data with this mechanism. Also sometimes Neos emits necessary shape keys.
+
+154
+00:13:40,060 --> 00:13:47,060
+ How to disable this emitting heuristics. I'm not sure. We'll have to get a Neos GitHub issue on that one with a model that has that issue.
+
+155
+00:13:47,060 --> 00:13:51,060
+ And then I can run it through the importer whilst adding some debug stuff.
+
+156
+00:13:51,060 --> 00:13:56,060
+ Rampa says that, I mentioned that FBX is a fossil. The problem is that people are used to Unity.
+
+157
+00:13:56,060 --> 00:14:01,060
+ Unity does FBX. Yeah, I get it. Like, Unity does FBX. But when you're doing like, Neos stuff,
+
+158
+00:14:01,060 --> 00:14:10,060
+ what I want you to do is when you export from Blender or something, take like a split second and be like, hmm, FBX? No. GLTF.
+
+159
+00:14:10,060 --> 00:14:16,060
+ Skant says, for meshes exporting, you need to grab the slot, right? There are like seven different ways to export a mesh.
+
+160
+00:14:16,060 --> 00:14:21,060
+ And sometimes you literally get the mesh export dialog exported.
+
+161
+00:14:21,060 --> 00:14:28,060
+ And it's a sort of running joke or problem because every time Fruxereye adds an additional way to export mesh,
+
+162
+00:14:28,060 --> 00:14:34,060
+ someone else finds an additional way to export the mesh exported dialog. And it does get frustrating.
+
+163
+00:14:34,060 --> 00:14:39,060
+ Like sometimes I'll get the mesh orb. That's the green orb with the mesh inside it.
+
+164
+00:14:39,060 --> 00:14:43,060
+ Sometimes I'll get the mesh exported dialog. A couple of times I've got some tools.
+
+165
+00:14:43,060 --> 00:14:51,060
+ Just try grabbing, if in doubt, find the static mesh component, grab that component and export that. That should work.
+
+166
+00:14:51,060 --> 00:14:57,060
+ Interesting that the tween node doesn't accept registers. If someone could make that a bug on the GitHub, that would be good.
+
+167
+00:14:57,060 --> 00:15:00,060
+ I'm certain that that is a bug.
+
+168
+00:15:00,060 --> 00:15:03,060
+ So a group of us says, how does peer-to-peer networking system works?
+
+169
+00:15:03,060 --> 00:15:07,060
+ Rooters don't let other computers connect to my computer. How does Neos make that possible?
+
+170
+00:15:07,060 --> 00:15:13,060
+ So Neos uses UDP for like most of its main core networking.
+
+171
+00:15:13,060 --> 00:15:16,060
+ That isn't for like downloading assets or messages or anything like that.
+
+172
+00:15:16,060 --> 00:15:23,060
+ But if you're in a session and you're looking at me, talking to me or handing me an object, that's going over UDP.
+
+173
+00:15:23,060 --> 00:15:34,060
+ So UDP is the, I don't want to say newer because I don't know, but it is newer than the traditional TCP, transfer control protocol.
+
+174
+00:15:34,060 --> 00:15:37,060
+ This stuff's all kind of like computer science-y weirdness stuff.
+
+175
+00:15:37,060 --> 00:15:42,060
+ Essentially, TCP is like more controlled. It's like a conversation.
+
+176
+00:15:42,060 --> 00:15:46,060
+ You're like, ah, yes, I would like the next packet, please, waiter.
+
+177
+00:15:46,060 --> 00:15:50,060
+ And then the server's like, here you go. It's the cheeseburger you ordered. Please eat it.
+
+178
+00:15:50,060 --> 00:15:53,060
+ Whereas UDP is basically people screaming.
+
+179
+00:15:53,060 --> 00:15:58,060
+ Like you just go into a room, there's people just screaming and projectile vomiting everywhere. That's UDP.
+
+180
+00:15:58,060 --> 00:16:02,060
+ So that's UDP. So that's the first benefit that we get there is UDP.
+
+181
+00:16:02,060 --> 00:16:12,060
+ And then what we do there is we put UDP over what's called NAT punch through or universal plug and play stuff.
+
+182
+00:16:12,060 --> 00:16:21,060
+ And what that can do is it can sort of set up a way to get through your router's port forwarding and stuff like that, such that you don't need it.
+
+183
+00:16:21,060 --> 00:16:31,060
+ If that doesn't work or your router is incompatible with that, then we also do what's called UDP relay, where we go via a relay server.
+
+184
+00:16:31,060 --> 00:16:36,060
+ So your computer receives the UDP stuff from a relay server.
+
+185
+00:16:36,060 --> 00:16:39,060
+ You can find out more information about that on the network information page.
+
+186
+00:16:39,060 --> 00:16:46,060
+ I made a pig's ear of explaining that because it's very complicated.
+
+187
+00:16:46,060 --> 00:16:51,060
+ But here you go. Networking information. You can see all the information there.
+
+188
+00:16:51,060 --> 00:16:58,060
+ People often ask like, what port? And it's like, whatever port works. Networking is very complicated.
+
+189
+00:16:58,060 --> 00:17:03,060
+ I'm so glad the days of port forwarding are behind us though. It's good.
+
+190
+00:17:03,060 --> 00:17:09,060
+ I do hope at some point we'll be able to move forwards with Steam networking sockets for like everyone.
+
+191
+00:17:09,060 --> 00:17:12,060
+ I know some people don't like those or something. I don't know. We'll figure it out.
+
+192
+00:17:12,060 --> 00:17:15,060
+ All right, moving down, making sure we're not missing any questions.
+
+193
+00:17:15,060 --> 00:17:18,060
+ Froppy posted the cat tracking video. Thank you.
+
+194
+00:17:18,060 --> 00:17:24,060
+ So Svekn says, "Am I right in thinking that drives aren't really affected by desync but impulses and writes are?"
+
+195
+00:17:24,060 --> 00:17:28,060
+ Yes. Okay. So I've been trying to explain this in a way that makes sense for a long time.
+
+196
+00:17:28,060 --> 00:17:33,060
+ Each time I do it, I try and get a little bit better at doing it, so I'll try again.
+
+197
+00:17:33,060 --> 00:17:41,060
+ Drives are local. And so it's the equivalent of, let's say, the server host to the session host telling your computer,
+
+198
+00:17:41,060 --> 00:17:50,060
+ "This cat that is spinning is spinning at this speed. Take care of it. Don't talk to me about it. Don't inform me about it.
+
+199
+00:17:50,060 --> 00:17:53,060
+ Don't tell me about it. Just keep the cat spinning at this speed."
+
+200
+00:17:53,060 --> 00:17:56,060
+ And that would be the spinner, right? The spinner is a drive component.
+
+201
+00:17:56,060 --> 00:18:03,060
+ That doesn't have any network traffic, right? For the rest of time, your computer is like, "All right, I'm going to make the cat spin."
+
+202
+00:18:03,060 --> 00:18:11,060
+ Until such time as maybe you, as a Logix developer, you write the enabled property to false using an impulse.
+
+203
+00:18:11,060 --> 00:18:17,060
+ At that point, there needs to be a network packet that goes from the person that initiated that write or that impulse
+
+204
+00:18:17,060 --> 00:18:23,060
+ through the server host and then back down to you, which says, "Yo, bro, stop spinning the cat."
+
+205
+00:18:23,060 --> 00:18:28,060
+ And then your computer is like, "Okay, I've stopped spinning the cat." That's the difference there.
+
+206
+00:18:28,060 --> 00:18:33,060
+ So desync isn't affected by that. But the control signals for those drives are.
+
+207
+00:18:33,060 --> 00:18:39,060
+ For example, if you're desynced, that "please stop the cat spinning right" packet might not come through
+
+208
+00:18:39,060 --> 00:18:47,060
+ because it's queued behind, I don't know, 5,000 other packets that are more there.
+
+209
+00:18:47,060 --> 00:18:52,060
+ I hope that made sense. If it didn't, I don't know. Ask again. I'll try again.
+
+210
+00:18:52,060 --> 00:18:56,060
+ Lou, let me just double check. I haven't missed any questions before. Lou's question, I haven't.
+
+211
+00:18:56,060 --> 00:19:03,060
+ So, oh, Specs does say that glTF will darken vertex colors. Do you know if that's glTF itself,
+
+212
+00:19:03,060 --> 00:19:07,060
+ or is that something Neos is doing? If that's something Neos is doing, make sure there's a bug open up on our GitHub.
+
+213
+00:19:07,060 --> 00:19:13,060
+ We'll take a look at vertex colors. If it's something glTF is doing, then maybe we can detect vertex colors on glTF
+
+214
+00:19:13,060 --> 00:19:21,060
+ and brighten them inside Neos. I don't know. More information, GitHub was, if there is already one, great.
+
+215
+00:19:21,060 --> 00:19:27,060
+ I don't know if there's actually one. So Lou's question says, when teaching new users about things that involve the dashboard,
+
+216
+00:19:27,060 --> 00:19:32,060
+ we're usually leading blindly. Is there a way to show a mirror of the dashboard in world space like the latency inventory?
+
+217
+00:19:32,060 --> 00:19:37,060
+ There is not, but what you can actually do, and some people have done for parts of the dash,
+
+218
+00:19:37,060 --> 00:19:44,060
+ is you can kind of export that dash into world space as a copy of it. Lots of stuff won't work, but the visuals will.
+
+219
+00:19:44,060 --> 00:19:47,060
+ And so you can basically be like, this is your dash, this is what it looks like.
+
+220
+00:19:47,060 --> 00:19:52,060
+ You can also take videos and pictures and stuff like that to kind of help.
+
+221
+00:19:52,060 --> 00:19:56,060
+ There is not a way to show it, like, your actual dash inside world.
+
+222
+00:19:56,060 --> 00:20:01,060
+ Tiki says, in telephony, stun and ice are usually used for networking.
+
+223
+00:20:01,060 --> 00:20:06,060
+ I have heard so much about stun and ice for a long time. I don't want to know.
+
+224
+00:20:06,060 --> 00:20:09,060
+ You can look them up. There are networking protocols used for telephoning.
+
+225
+00:20:09,060 --> 00:20:13,060
+ Moving forwards, I'm Aaron says, do you think there will ever be the functionality to transfer hosts to another player?
+
+226
+00:20:13,060 --> 00:20:17,060
+ Yes, there is a GitHub issue open for that. Go ahead and look for it.
+
+227
+00:20:17,060 --> 00:20:21,060
+ Arigabus asks, is there a way I can check my messages and neos without opening neos, like a web interface or something?
+
+228
+00:20:21,060 --> 00:20:26,060
+ There is not an official one. There are some community-made things that will allow you to do that.
+
+229
+00:20:26,060 --> 00:20:31,060
+ I can't vouch for them. I haven't used them. I don't know how they work. I haven't read their code.
+
+230
+00:20:31,060 --> 00:20:37,060
+ But not currently. We do have plans for one in the future, but we don't have one currently.
+
+231
+00:20:37,060 --> 00:20:42,060
+ I'd like to get it to the point where we have a similar web UI to VR chats, hopefully better.
+
+232
+00:20:42,060 --> 00:20:48,060
+ I'd like it to be similar in some respects to Steam's, but you don't have to go to a website. It's like an application.
+
+233
+00:20:48,060 --> 00:20:53,060
+ It's like, here, people are here, people are here. You can talk to them.
+
+234
+00:20:53,060 --> 00:20:56,060
+ All sorts of stuff like that. I'd love to get that in the future.
+
+235
+00:20:56,060 --> 00:21:01,060
+ Kazu says, update Blender to see if the glTF is better there.
+
+236
+00:21:01,060 --> 00:21:05,060
+ glTF is a new standard, so there are people that are doing it more and more.
+
+237
+00:21:05,060 --> 00:21:08,060
+ For example, the glTF standard is why VRMs exist.
+
+238
+00:21:08,060 --> 00:21:13,060
+ VRMs are basically just syntaxical sugar on top of the glTF spec.
+
+239
+00:21:13,060 --> 00:21:18,060
+ And the glTF spec, by the way, has, like, it can have behaviour in it.
+
+240
+00:21:18,060 --> 00:21:24,060
+ It's not just models and armature and blend shapes. It can have behaviour in it and lights and cameras. It's really cool.
+
+241
+00:21:24,060 --> 00:21:28,060
+ There's also this other thing, like sometimes you'll see it when you download from Sketchfab.
+
+242
+00:21:28,060 --> 00:21:31,060
+ It's like another file format. I don't know anything about it.
+
+243
+00:21:31,060 --> 00:21:34,060
+ I don't even know if Blender or Neo supports it.
+
+244
+00:21:34,060 --> 00:21:39,060
+ I'll try and get its name. I need to log into Sketchfab to get that.
+
+245
+00:21:39,060 --> 00:21:42,060
+ I'll log in with Google on Sketchfab. Yeah, I do.
+
+246
+00:21:42,060 --> 00:21:45,060
+ Welcome to Prime Time, where I log into Sketchfab.
+
+247
+00:21:45,060 --> 00:21:49,060
+ Yeah, USDZ. Universal Scene Description.
+
+248
+00:21:49,060 --> 00:21:54,060
+ Don't know anything about it, but something it's new and cool to.
+
+249
+00:21:54,060 --> 00:21:58,060
+ Tiki talks about ice and stone and turn not being used yet. Probably not.
+
+250
+00:21:58,060 --> 00:22:02,060
+ You can take a look at network information for all the information there. If you've got more questions, please let me know.
+
+251
+00:22:02,060 --> 00:22:05,060
+ Zvekin says, "Is it the USDZ?" Yeah, it is. It's the USDZ. Yeah.
+
+252
+00:22:05,060 --> 00:22:10,060
+ I don't know anything about it. I just know that it's also on Sketchfab and that Sketchfab were trying to push it at a certain point.
+
+253
+00:22:10,060 --> 00:22:11,060
+ So, yeah.
+
+254
+00:22:11,060 --> 00:22:14,060
+ Oh, I missed a question from Skant. I'm sorry. Let me take a look.
+
+255
+00:22:14,060 --> 00:22:18,060
+ Oh, I did. I did. Yeah, it didn't have the question emoji when I went through it last time.
+
+256
+00:22:18,060 --> 00:22:24,060
+ "Does Neo see a VPN network like Tailscale or Zero-Tiers local networks?" I don't know.
+
+257
+00:22:24,060 --> 00:22:29,060
+ I'll go ahead and try it. I'm not quite sure how LAN works in that regard.
+
+258
+00:22:29,060 --> 00:22:32,060
+ I want to try Hamachi. Someone should try Hamachi.
+
+259
+00:22:32,060 --> 00:22:37,060
+ Sometimes when I think of Hamachi, I think of Hibachi, which is the food restaurant.
+
+260
+00:22:37,060 --> 00:22:40,060
+ Let's do Hibachi.
+
+261
+00:22:40,060 --> 00:22:42,060
+ Anyway, moving forwards.
+
+262
+00:22:42,060 --> 00:22:49,060
+ Rigby says, "Is there a way I can block someone's avatar? Sometimes people join with avatars, lots of shaders, and my FPS goes to zero."
+
+263
+00:22:49,060 --> 00:22:54,060
+ Not currently, but there is a user-to-user blocking system which is on our feature list.
+
+264
+00:22:54,060 --> 00:23:02,060
+ And that will be more for sort of moderation, personal space, harassment reasons, rather than performance reasons.
+
+265
+00:23:02,060 --> 00:23:07,060
+ I'm not sure on our current reasoning about performance blocking.
+
+266
+00:23:07,060 --> 00:23:13,060
+ I haven't spoken to any of the team about performance blocking features that are similar to VRChat.
+
+267
+00:23:13,060 --> 00:23:20,060
+ For those who are unaware who maybe don't use VRChat, there is a performance blocking system there whereby
+
+268
+00:23:20,060 --> 00:23:30,060
+ if an avatar is at a certain limit in terms of mesh, shaders, renderers, materials, particle effects, and stuff like that,
+
+269
+00:23:30,060 --> 00:23:33,060
+ you can elect to not see it.
+
+270
+00:23:33,060 --> 00:23:39,060
+ And I have my settings on very high, and 95% of the avatars on VRChat are not rendered, so it's really fun.
+
+271
+00:23:39,060 --> 00:23:42,060
+ But there we go. Maybe that will be a feature in the future.
+
+272
+00:23:42,060 --> 00:23:45,060
+ A feature in the future, not a future in the future.
+
+273
+00:23:45,060 --> 00:23:48,060
+ I'll have to look through the GitHub and see if there's anything open about that.
+
+274
+00:23:48,060 --> 00:23:51,060
+ Specs says that Blender 3.4 might have fixed the vertex colors.
+
+275
+00:23:51,060 --> 00:23:56,060
+ That's a really short fix. I have no idea on the context, but it sounds good.
+
+276
+00:23:56,060 --> 00:24:05,060
+ Kazi says VRM is compatible with GTF, so they've been telling people to rename VRM to GLTF and try and put it into Neos.
+
+277
+00:24:05,060 --> 00:24:07,060
+ That's a good thing, yeah, that might work.
+
+278
+00:24:07,060 --> 00:24:11,060
+ Tiki asks, there is a normal scale slider in most materials but couldn't figure out how to make it work.
+
+279
+00:24:11,060 --> 00:24:13,060
+ I don't see any change in normal heights while changing it.
+
+280
+00:24:13,060 --> 00:24:21,060
+ That slider might not be big enough, so try typing in a really large number and a really small number and seeing if there's any changes.
+
+281
+00:24:21,060 --> 00:24:23,060
+ I have definitely seen changes.
+
+282
+00:24:23,060 --> 00:24:29,060
+ Usually what it'll do is make things look really, really weird at a certain place, and then you know you've got sort of the sweet spot.
+
+283
+00:24:29,060 --> 00:24:34,060
+ And again, try it with some of the CC0 materials that we've got inside Neos Essentials, because those have really good normals.
+
+284
+00:24:34,060 --> 00:24:43,060
+ Rigabet says, does Neos use mono or .NET cores at C# runtime? It uses mono as part of Unity, unfortunately.
+
+285
+00:24:43,060 --> 00:24:59,060
+ We would love to not be dependent on mono, we would love to be free to do all the cool new C# stuff, but we are stuck on C# .NET Framework 4.7.2 or 4.7.6, I can never remember which, because Unity is stuck on that one.
+
+286
+00:24:59,060 --> 00:25:05,060
+ 4.6.2, you see, I can never remember which way around it is, like 4.7, 4.6, I know it's 4-something.
+
+287
+00:25:05,060 --> 00:25:09,060
+ When I need to check, I just right-click the project in Visual Studio and I go like, "Here, what are you again?"
+
+288
+00:25:09,060 --> 00:25:14,060
+ And it's like, "Yeah, I'm 4.6.2." It's like, "Thank you for telling me I will forget this in three seconds."
+
+289
+00:25:14,060 --> 00:25:23,060
+ Seeing the Hibachi GIF above from Fuzzy reminds me to remind you all, if you haven't seen it yet, go watch the film Everything, Everywhere, all at once.
+
+290
+00:25:23,060 --> 00:25:30,060
+ And you'll eventually see a hanamachi scene, which is really good, and won't make any sense without you seeing the film.
+
+291
+00:25:30,060 --> 00:25:32,060
+ So please go look at the film, it's a good film.
+
+292
+00:25:32,060 --> 00:25:37,060
+ Rampa doesn't want to throw dirt, but Unity not only has bad rap, but I feel it's more duct tape together with each version.
+
+293
+00:25:37,060 --> 00:25:47,060
+ The problem there is stability. What they need is, they've got so many moving parts that they need to keep working, and that's why they are down-rev.
+
+294
+00:25:47,060 --> 00:25:53,060
+ If you think that's bad, remember that there are still many, many organizations on the planet that require Internet Explorer 6.
+
+295
+00:25:53,060 --> 00:26:07,060
+ Even though 6 is just completely gone, 7's gone, 11's gone, I remember having weird arguments with the web dev team, like the front-end team at Mixer, about our support of Internet Explorer 11.
+
+296
+00:26:07,060 --> 00:26:16,060
+ I'm like, "You know, like, 1% use it or something?" And they're like, "Show me the data." And I'm like, "Okay, 1% of our viewers use 11. Can we just drop it, please?"
+
+297
+00:26:16,060 --> 00:26:21,060
+ At a certain point, what you have to do in web dev, especially in web front-end, is basically be like, "No."
+
+298
+00:26:21,060 --> 00:26:27,060
+ Because if you're like, "Yes," then you start going like, "Oh, but we don't support Safari Mobile 2!"
+
+299
+00:26:27,060 --> 00:26:32,060
+ "One person who lives in the middle of nowhere uses that, don't worry about it."
+
+300
+00:26:32,060 --> 00:26:38,060
+ You can always go to, where are we, caniuse.com, is it? Yeah, caniuse.com.
+
+301
+00:26:38,060 --> 00:26:43,060
+ That shows you if you can use various browser features. It even has a browser usage table.
+
+302
+00:26:43,060 --> 00:26:50,060
+ Ramper points out that ActiveX is the reason why IE6 is being used. Yep, ActiveX is. ActiveX is really insecure. That's cool.
+
+303
+00:26:50,060 --> 00:26:56,060
+ I was reading some messages from someone the other day that said that they were using a DOS program at work.
+
+304
+00:26:56,060 --> 00:27:01,060
+ And this is like a big company that they work with. I won't tell you what company it is or anything like that, but you know,
+
+305
+00:27:01,060 --> 00:27:04,060
+ it's a big company that they worked at, they needed to use a DOS program.
+
+306
+00:27:04,060 --> 00:27:10,060
+ So Rigibus says, "Actually, we're bad on time here, so Ramper, Lax, and Tiki, if you have a question, go for it, otherwise we'll go ahead and stop."
+
+307
+00:27:10,060 --> 00:27:17,060
+ Kazu will also add you to that, because I was mid-saying. So any more questions other than those people? Nope, we are running out of time.
+
+308
+00:27:17,060 --> 00:27:22,060
+ So Rigibus has a question which says, "How does the voice transmission component of Neos work?
+
+309
+00:27:22,060 --> 00:27:28,060
+ Is it like Discord with Web or to see a WebSocket? So what type of data does it transmit? Is it pieces of an audio file?" No.
+
+310
+00:27:28,060 --> 00:27:38,060
+ So the voices are an Opus stream. And again, streams are literally like walking into a room and everyone's vomiting data everywhere.
+
+311
+00:27:38,060 --> 00:27:50,060
+ It's not transactional. WebSockets are transactional, WebRTC is not, it's Opus stream. Over that UDP.
+
+312
+00:27:50,060 --> 00:27:58,060
+ Lexis, "Speech to text for browsers is Chrome only." Interesting. What can I use for that?
+
+313
+00:27:58,060 --> 00:28:08,060
+ Speech recognition, "Method to provide speech input in web browser." It is partially supported everywhere.
+
+314
+00:28:08,060 --> 00:28:14,060
+ And not supported everywhere else. It's only partially supported in Chrome, wow. So yeah, no one really supports that.
+
+315
+00:28:14,060 --> 00:28:20,060
+ Speech synthesis though, everywhere except IE supports that. Or Opera Mobile doesn't support it.
+
+316
+00:28:20,060 --> 00:28:24,060
+ So you know, if you use Opera Mobile, it uses that.
+
+317
+00:28:24,060 --> 00:28:28,060
+ Speech to text is also supported by Edge. Well, Edge is Chrome, so yeah.
+
+318
+00:28:28,060 --> 00:28:38,060
+ No, it says, uh, Edge speech recognition, Edge version 108 does not support it. Maybe that's out of date, I don't know.
+
+319
+00:28:38,060 --> 00:28:43,060
+ I haven't looked at, uh, can I use in a long time, because I don't really do much web development these days.
+
+320
+00:28:43,060 --> 00:28:46,060
+ Anyway, that is all the questions that I have got here.
+
+321
+00:28:46,060 --> 00:29:01,060
+ On another note of DOS and ActiveX and old software, take a look into what happened with Southwest. Southwest did a bad bad during the winter storm in America and cancelled like 2,000 flights or something.
+
+322
+00:29:01,060 --> 00:29:08,060
+ It was a complete mess. And the reason behind that is that their scheduling software was incredibly ancient and just couldn't cope with the load.
+
+323
+00:29:08,060 --> 00:29:12,060
+ So look into that if you want to hear horror stories about how out of date software is.
+
+324
+00:29:12,060 --> 00:29:16,060
+ Other than that, yep, I will see you again next week. I'll be processing the notes and recording.
+
+325
+00:29:16,060 --> 00:29:26,060
+ I'm using, just a shout out here, I'm using Lex Super Cool Script to process all the Office Server stuff now that Sounder has shut down. Very annoying.
+
+326
+00:29:26,060 --> 00:29:31,060
+ That does mean, however, that we are not on any podcasting platforms or Spotify or RSS feeds right now.
+
+327
+00:29:31,060 --> 00:29:40,060
+ I'll also be making slight edits to Lex's script such that we don't have the naming issues we had last week, but you have already fixed them. I don't know, I'm just going to make it anyway.
+
+328
+00:29:40,060 --> 00:29:49,060
+ I'm looking for an alternative source, but whilst this current issue exists, like it's just, the Wiki seems like the place to go.
+
+329
+00:29:49,060 --> 00:29:53,060
+ Once we start getting back into the swing of things, maybe we'll do something else.
+
+330
+00:29:53,060 --> 00:30:02,060
+ Like I would love for these office hours, for example, and for Canadian Gits Office Hours to be actually uploaded to an official Neos channel.
+
+331
+00:30:02,060 --> 00:30:08,060
+ Like maybe there's an official Neos presence on Spotify or other podcasting platforms and all of the office hours go there.
+
+332
+00:30:08,060 --> 00:30:19,060
+ You could go there and be like, yo, give me Prime's office hours, give me the moderation office hours, give me the Workshop Wednesday stream, the Friday stream, just like, wah wah wah wah wah wah wah wah.
+
+333
+00:30:19,060 --> 00:30:30,060
+ Anyway, I will see you guys next week. Spotify is just like, it's a podcast aggregator, right? It'll collect it from wherever the hell it is. Like you can listen to other platforms.
+
+334
+00:30:30,060 --> 00:30:37,060
+ It's just an example. When I say Spotify, I mean like streaming things. Anyway, see you next week.
+
+335
+00:30:37,060 --> 00:31:06,940
+ [
+

@@ -1,0 +1,1084 @@
+1
+0:00:00.000 --> 0:00:04.200
+Okie dokie welcome to prime time this is the half hour segment where I answer
+
+2
+0:00:04.200 --> 0:00:07.560
+questions from you guys so drop questions in the questions and help
+
+3
+0:00:07.560 --> 0:00:11.080
+channel. Go ahead and just ping the role again just let people know that we are
+
+4
+0:00:11.080 --> 0:00:15.520
+getting started and then I'll get started with the first question which
+
+5
+0:00:15.520 --> 0:00:19.680
+has been queued up here by Zetaphor. Thank you for that question. They are
+
+6
+0:00:19.680 --> 0:00:23.160
+asking hey prime we're all noticing some interesting arrow logs showing up in our
+
+7
+0:00:23.160 --> 0:00:28.280
+temp folder indicating the use of caffe2, a machine learning library these
+
+8
+0:00:28.280 --> 0:00:31.360
+spaces to be correlated with us running our Neos clients and only started
+
+9
+0:00:31.360 --> 0:00:36.120
+around a week ago. Do you have any insight on this discussion here? Are you
+
+10
+0:00:36.120 --> 0:00:40.640
+sure you can't find that like anywhere else? We haven't updated any of our like
+
+11
+0:00:40.640 --> 0:00:44.400
+libraries or anything. Alright let me go to my temp folder like it's not that I
+
+12
+0:00:44.400 --> 0:00:46.840
+don't believe you guys it's just that I'm trying to find the fastest way to
+
+13
+0:00:46.840 --> 0:00:56.400
+get an answer here and so if I have files as well data doesn't exist for
+
+14
+0:00:56.400 --> 0:01:02.760
+some reason. Local temp just in local temp like no other folder or anything
+
+15
+0:01:02.760 --> 0:01:07.760
+like in the root of local temp yeah I got them. Weird. Alright I'll have to dig
+
+16
+0:01:07.760 --> 0:01:12.320
+into that one some more it's a good on the ping there I did see the ping come
+
+17
+0:01:12.320 --> 0:01:17.880
+in before but we'll start it with like I'll dig into this after after this
+
+18
+0:01:17.880 --> 0:01:21.120
+office hours segment we'll move on to questions if they are there if they're
+
+19
+0:01:21.120 --> 0:01:25.000
+not I'll just mute and dig into this way let's take a look there are no
+
+20
+0:01:25.000 --> 0:01:28.200
+additional questions right now so please get some questions into the questions
+
+21
+0:01:28.200 --> 0:01:32.520
+and helps channel not the questions help channel sorry the questions prime time
+
+22
+0:01:32.520 --> 0:01:35.000
+thread within the office hours text channel I'll get to them as soon as I
+
+23
+0:01:35.000 --> 0:01:39.400
+can whilst we wait for questions I'll be looking into this log awareness I thank
+
+24
+0:01:39.400 --> 0:01:43.640
+you I don't answer questions about food it's just questions about Neos so one of
+
+25
+0:01:43.640 --> 0:01:46.920
+things about these log files is that is the temp directory and that the temp
+
+26
+0:01:46.920 --> 0:01:56.080
+directory is bombarded with just absolute bullshit 24-7 so yeah no it's
+
+27
+0:01:56.080 --> 0:02:00.040
+not so the next question we have from Zetta is it's possible to drive
+
+28
+0:02:00.040 --> 0:02:04.160
+rotation from a pan of 3d or other 3d components no quaternions are
+
+29
+0:02:04.160 --> 0:02:09.880
+four-dimensional vectors that are like they have different rules completely
+
+30
+0:02:09.880 --> 0:02:13.520
+different rules to regular mathematics because of what they need to do and how
+
+31
+0:02:13.520 --> 0:02:18.120
+they need to work wiggly would be the any way that you could do that honestly
+
+32
+0:02:18.120 --> 0:02:24.200
+like some form of other components would be better at that point it is float to
+
+33
+0:02:24.200 --> 0:02:30.980
+Q not float 3 we render it as float Q and sorry we render it as float 3 in the
+
+34
+0:02:30.980 --> 0:02:36.640
+inspectors because float Q's don't make sense to the average user so we do
+
+35
+0:02:36.640 --> 0:02:41.720
+Euler Euler and interpolation in the in the inspector so that's just a display
+
+36
+0:02:41.720 --> 0:02:45.800
+thing it's not something that you can like use so just like find a component
+
+37
+0:02:45.800 --> 0:02:50.080
+that works if look you maybe value gradient drive will be a good way to do
+
+38
+0:02:50.080 --> 0:02:55.280
+Pana or just use logics the you know the amazing feature that we added to Neos
+
+39
+0:02:55.280 --> 0:02:59.360
+for you to use that it also says that they didn't using logics in the end for
+
+40
+0:02:59.360 --> 0:03:02.160
+their rotational issues just great they want to make sure that they weren't
+
+41
+0:03:02.160 --> 0:03:05.960
+reinventing a component yeah um there are a few like mapper components that
+
+42
+0:03:05.960 --> 0:03:10.120
+might do it for you but don't worry about like reinventing a component just
+
+43
+0:03:10.120 --> 0:03:14.040
+just do it whatever way works for you obviously if you need to optimize later
+
+44
+0:03:14.040 --> 0:03:18.240
+do it but for the most part it'll be okay just reminder for those who are
+
+45
+0:03:18.240 --> 0:03:22.440
+just joining or have not heard before this is office hours if your questions
+
+46
+0:03:22.440 --> 0:03:25.760
+please drop them in the office hours text chats thread for this particular
+
+47
+0:03:25.760 --> 0:03:29.040
+session that's a few channels about the one that you're currently in I'll ask
+
+48
+0:03:29.040 --> 0:03:32.400
+them in the order that they appear any questions will do thank you so no
+
+49
+0:03:32.400 --> 0:03:35.520
+question here from Zari who asks is there a way to load assets when joining
+
+50
+0:03:35.520 --> 0:03:39.360
+a world before one actually spawns into it for the chugging lagging when one
+
+51
+0:03:39.360 --> 0:03:43.040
+joints more properly session yes you need to customize it yourself though or
+
+52
+0:03:43.040 --> 0:03:48.120
+build a tool to do it there is a functionality in the open world logics
+
+53
+0:03:48.120 --> 0:03:52.200
+node which will prevent loading into like switching until the world is ready
+
+54
+0:03:52.200 --> 0:03:57.480
+I have heard it can be flaky but people use a lot for portals and well
+
+55
+0:03:57.480 --> 0:04:01.120
+transition systems to take a look at that there we get Lex has made a world
+
+56
+0:04:01.120 --> 0:04:05.040
+preloader which is the the tool that I was referring to moving almost stars as
+
+57
+0:04:05.040 --> 0:04:07.920
+a question is there any way to get a single float value to drive let's say
+
+58
+0:04:07.920 --> 0:04:13.120
+just a Y value in a float to with just components of needs to be done in logic
+
+59
+0:04:13.120 --> 0:04:18.080
+that's fun too well in logic you would just do a pack XYZ or a pack XY to get
+
+60
+0:04:18.080 --> 0:04:22.960
+it into the appropriate data type that you wish to get into for non logics
+
+61
+0:04:22.960 --> 0:04:27.520
+methodologies look at the mapper component so there's a transform drivers
+
+62
+0:04:27.520 --> 0:04:31.280
+mapper something there those do very specific things which are often not
+
+63
+0:04:31.280 --> 0:04:36.280
+usable for this situation but like sometimes are if those don't work try
+
+64
+0:04:36.280 --> 0:04:40.400
+the swizzle drivers which are in relation swizzle drivers or I think
+
+65
+0:04:40.400 --> 0:04:44.920
+relations yeah the swizzle drivers kind of snuck in mostly because people don't
+
+66
+0:04:44.920 --> 0:04:48.360
+know what swizzling means it kind of sounds weird
+
+67
+0:04:48.360 --> 0:04:54.840
+swizzling is really much what you're after though it just means rearranging
+
+68
+0:04:54.840 --> 0:04:58.600
+like a vector a little bit don't answer questions about cheese in the prime time
+
+69
+0:04:58.600 --> 0:05:02.800
+office hours I ask questions about Neos what is your favorite type of cheese is
+
+70
+0:05:02.800 --> 0:05:06.240
+rejected you can search the previous notes for answers to that particular
+
+71
+0:05:06.240 --> 0:05:10.960
+question for example that's a new cheese question so Fuzzy Fox you'll manage to
+
+72
+0:05:10.960 --> 0:05:15.520
+get that new cheese question that I haven't had before but we'll go to
+
+73
+0:05:15.520 --> 0:05:19.000
+pandas question first which is what you like to do on your spare time lost or
+
+74
+0:05:19.000 --> 0:05:24.160
+Neos I have no spare time on Neos like if I'm not testing random bugs or
+
+75
+0:05:24.160 --> 0:05:28.640
+helping out people then I'm just trying to chill in the world but often when I'm
+
+76
+0:05:28.640 --> 0:05:32.560
+trying to chill in a to a world it turns into someone will come in and start
+
+77
+0:05:32.560 --> 0:05:36.280
+talking about mods or plugins someone will start coming in and talking about
+
+78
+0:05:36.280 --> 0:05:40.240
+how so-and-so feature of Neos needs to be written because they poked around in
+
+79
+0:05:40.240 --> 0:05:43.160
+the source code and they found out that they didn't like the way it is written
+
+80
+0:05:43.160 --> 0:05:46.800
+and I'm right there with you I just can't really do anything about it right
+
+81
+0:05:46.800 --> 0:05:52.920
+now so maybe don't do that to a Neos team member thanks or someone will come in and
+
+82
+0:05:52.920 --> 0:05:56.280
+complain about something which is understandable given the current climate
+
+83
+0:05:56.280 --> 0:05:59.600
+those are kind of like bad interactions but then if people come in and ask
+
+84
+0:05:59.600 --> 0:06:02.280
+questions that's usually the best interactions right they come in and
+
+85
+0:06:02.280 --> 0:06:07.680
+they're just like I'm trying to learn how to do X I'm you know I'm trying to
+
+86
+0:06:07.680 --> 0:06:11.320
+build this avatar make this thing I love those questions right because we're not
+
+87
+0:06:11.320 --> 0:06:16.000
+like it it's almost like meta conversations about Neos are thrown in
+
+88
+0:06:16.000 --> 0:06:18.460
+the same bucket as like crypto conversations you know how I'm like no
+
+89
+0:06:18.460 --> 0:06:21.720
+one wants to talk about crypto and Neos this like signs and various worlds
+
+90
+0:06:21.720 --> 0:06:26.560
+crypto conversation users will be shot or whatever I want like meta-Neos
+
+91
+0:06:26.560 --> 0:06:30.040
+discussions to also be in that bucket what do I mean by meta-Neos discussions
+
+92
+0:06:30.040 --> 0:06:34.880
+I mean discussions about the current situation about the code base about the
+
+93
+0:06:34.880 --> 0:06:41.320
+lack of certain features about the roadmap about like plans like accepting
+
+94
+0:06:41.320 --> 0:06:45.440
+Neos at face value and moving forwards with that to build something is my
+
+95
+0:06:45.440 --> 0:06:50.200
+favorite interaction with other users rather than being in a corner talking
+
+96
+0:06:50.200 --> 0:06:53.680
+about mods plugins or which part of the code base they'd like to read right if
+
+97
+0:06:53.680 --> 0:06:57.440
+they could it's all good like I get why you're doing it I'm not faulting you for
+
+98
+0:06:57.440 --> 0:07:02.280
+it it's just you know I've been working for like 12 hours today and trying to
+
+99
+0:07:02.280 --> 0:07:06.600
+hit chill out and someone's like this so-and-so thing makes no sense and I'm
+
+100
+0:07:06.600 --> 0:07:13.880
+like yeah I agree so now jumping down to what's your favorite cheese model that
+
+101
+0:07:13.880 --> 0:07:18.040
+you've come across so that's actually a cheese sandwich made by sloppy
+
+102
+0:07:18.040 --> 0:07:21.800
+mcfloppy using the ring of the neolander they just pulled out then area in the
+
+103
+0:07:21.800 --> 0:07:24.540
+lander they made a cheese sandwich it is in the cheese folder which is in my
+
+104
+0:07:24.540 --> 0:07:29.220
+public folder art and then cheese that is full of like basically everything
+
+105
+0:07:29.220 --> 0:07:35.520
+there including cheese wisdom which is a series of audio clips which apanda not
+
+106
+0:07:35.520 --> 0:07:40.560
+cloud panda recorded with my permission I didn't realize the recording I gave
+
+107
+0:07:40.560 --> 0:07:45.000
+them permission post afterwards and then I misspelled cheese wisdom very badly in
+
+108
+0:07:45.000 --> 0:07:48.080
+the folder name so I need to remit the folder by keep forgetting to anyway
+
+109
+0:07:48.080 --> 0:07:53.240
+there's some funny sound effects in there including explanation of why
+
+110
+0:07:53.240 --> 0:07:59.120
+platypuses do not have udders or nipples I promise you that audio is in there and
+
+111
+0:07:59.120 --> 0:08:02.720
+it's interesting because platypuses are mammals which is very confusing when you
+
+112
+0:08:02.720 --> 0:08:07.920
+look at a platypus it's like that's a duck or a beaver I'm very confused sir
+
+113
+0:08:07.920 --> 0:08:10.480
+asks have you ever thought about an alt if you haven't trouble in game
+
+114
+0:08:10.480 --> 0:08:14.480
+recognition I've never used an alt it's just like bad like I understand why
+
+115
+0:08:14.480 --> 0:08:21.440
+people do it I just like it's it's it's not my my dealio the the gains that you
+
+116
+0:08:21.440 --> 0:08:26.640
+get are not that much as well because like even though now people don't know
+
+117
+0:08:26.640 --> 0:08:30.200
+that you're a Neos team member some people will then know that you're a
+
+118
+0:08:30.200 --> 0:08:34.400
+Neos team member and then you've been decloaked and then even if no one knows
+
+119
+0:08:34.400 --> 0:08:38.120
+that you're a Neos team member you know you don't speak like for example has
+
+120
+0:08:38.120 --> 0:08:42.960
+anyone thought maybe froppy is actually frugs they both start with F and froppy
+
+121
+0:08:42.960 --> 0:08:47.320
+is mute and they never speak and they're really cool and frugs is really cool so
+
+122
+0:08:47.320 --> 0:08:53.120
+like is froppy frugs or vice versa like who knows anyway that is you know one
+
+123
+0:08:53.120 --> 0:08:59.760
+way of doing it is being mute but so like even with that right if no one
+
+124
+0:08:59.760 --> 0:09:05.200
+knows who you are you still have that burden there right so if you're inside a
+
+125
+0:09:05.200 --> 0:09:09.840
+session and people are complaining then you can still hear that feedback and
+
+126
+0:09:09.840 --> 0:09:13.520
+internalize that feedback even though you're on your own so it just wouldn't
+
+127
+0:09:13.520 --> 0:09:17.720
+work out froppy you're cool I've seen froppy and frugs in the same
+
+128
+0:09:17.720 --> 0:09:21.280
+session so that they're fine unless they're like multi boxing and like you
+
+129
+0:09:21.280 --> 0:09:25.840
+know splicing their VR into multiple computers at once you know yeah they do
+
+130
+0:09:25.840 --> 0:09:32.080
+both have two O's let's move forwards on some additional questions sorry says
+
+131
+0:09:32.080 --> 0:09:34.400
+have you felt that the videos about reading the room have had a tangible
+
+132
+0:09:34.400 --> 0:09:36.920
+impact on the behavior in Neos or do you wish people would point people more to
+
+133
+0:09:36.920 --> 0:09:41.920
+them in game I wish people would point people to whatever resource helps them
+
+134
+0:09:41.920 --> 0:09:47.200
+understand how that sort of avenue of stuff needs to work maybe my video
+
+135
+0:09:47.200 --> 0:09:52.200
+doesn't work for you for whatever reason and you need some other sort of resource
+
+136
+0:09:52.200 --> 0:09:58.640
+or mechanism for that I wish we had more I wish had faster ways of doing it as
+
+137
+0:09:58.640 --> 0:10:03.040
+well a good example of that would be over on VR chat where in the loading
+
+138
+0:10:03.040 --> 0:10:06.800
+screen they'll put up random messages I'm one of the like your best messages
+
+139
+0:10:06.800 --> 0:10:12.160
+there is like don't do shit without people's consent or well banya but like
+
+140
+0:10:12.160 --> 0:10:16.640
+really worthy nicely worded I'd car with exact wording so I was like paraphrasing
+
+141
+0:10:16.640 --> 0:10:20.840
+there it's a good message right and yeah people don't read it because it's a
+
+142
+0:10:20.840 --> 0:10:24.600
+loading screen and they kind of just zone out but it's about like making that
+
+143
+0:10:24.600 --> 0:10:29.600
+information available to people and available in a way that can be consumed
+
+144
+0:10:29.600 --> 0:10:33.640
+that video might not be like the best way to do that I don't know what the
+
+145
+0:10:33.640 --> 0:10:38.160
+best way is what I do know though is that that video has led to a lot of
+
+146
+0:10:38.160 --> 0:10:40.960
+people give me feedback that they have enjoyed it and I also know that has
+
+147
+0:10:40.960 --> 0:10:46.240
+shaped a lot of people's way of you know interacting with people on Neos which
+
+148
+0:10:46.240 --> 0:10:51.400
+evidently you know will rub off on some other parts of the population as it sort
+
+149
+0:10:51.400 --> 0:10:56.480
+of spreads culturally in a sort of tribal way right so it has done good I
+
+150
+0:10:56.480 --> 0:11:00.600
+just wish there was some mechanism we could do to sort of like you know swoop
+
+151
+0:11:00.600 --> 0:11:04.440
+down into your brain you put a headset right we could add some like surgical
+
+152
+0:11:04.440 --> 0:11:08.240
+instruments to your VR headset and just let you know slot it directly into your
+
+153
+0:11:08.240 --> 0:11:11.800
+brain with some drills and stuff it's really the only way we'd get everyone
+
+154
+0:11:11.800 --> 0:11:16.420
+like on that information and hey my my videos terrible on all of the social
+
+155
+0:11:16.420 --> 0:11:22.040
+videos I'm like disclaimer I might be poo-poo poo-poo pee-peeing this up I
+
+156
+0:11:22.040 --> 0:11:25.320
+might be like literally being hypocritical and sometimes I am and
+
+157
+0:11:25.320 --> 0:11:28.520
+that's because we're all not perfect right sometimes I might fail to read
+
+158
+0:11:28.520 --> 0:11:32.280
+the room sometimes I might but in an accident they take over when someone's
+
+159
+0:11:32.280 --> 0:11:36.200
+helping someone like we're not perfect and so I keep that disclaimer there
+
+160
+0:11:36.200 --> 0:11:39.840
+because like hey you want to call me out on something go for it if we learn and
+
+161
+0:11:39.840 --> 0:11:42.760
+grow together we'll learn and grow together or as if we just like I don't
+
+162
+0:11:42.760 --> 0:11:45.720
+know get scared about and hide in the corner we'll get scared about it and hide
+
+163
+0:11:45.720 --> 0:11:49.560
+in the corner Zachary has a question here which is if I built a world and I'm
+
+164
+0:11:49.560 --> 0:11:52.240
+not sure if I did something an efficient way could I ping you and let you swing
+
+165
+0:11:52.240 --> 0:11:56.240
+by to take a look I do not have time to do that best bet is to ask in the
+
+166
+0:11:56.240 --> 0:11:59.840
+discord for a mentor specifically a mentor that is suitable for world
+
+167
+0:11:59.840 --> 0:12:05.360
+building the efficient in air quotes ways of building a world do spread
+
+168
+0:12:05.360 --> 0:12:08.480
+around a little bit again like that tribal knowledge we do want to write
+
+169
+0:12:08.480 --> 0:12:12.820
+them up on the wiki given the current climate wiki editing is is less of a
+
+170
+0:12:12.820 --> 0:12:16.520
+priority for me right now but we do want to write that up on the wiki
+
+171
+0:12:16.520 --> 0:12:19.480
+particularly dispelling any myths about stuff which does not improve world
+
+172
+0:12:19.480 --> 0:12:24.320
+performance such as the video I did on asset the asset the duplication system
+
+173
+0:12:24.320 --> 0:12:30.240
+and how that is frequently bypassed almost accidentally dorky confirms that
+
+174
+0:12:30.240 --> 0:12:34.480
+as an Australian who has studied wildlife that they are still confused by
+
+175
+0:12:34.480 --> 0:12:38.360
+the platypus fantastic thank you for being confused by the panelists also get
+
+176
+0:12:38.360 --> 0:12:41.660
+confused by the pangolin which I believe is also like a rodent or maybe they're
+
+177
+0:12:41.660 --> 0:12:44.200
+a mammal I can't remember pangolins are interesting moving towards two
+
+178
+0:12:44.200 --> 0:12:48.560
+additional questions Ruscio says for the delay or delay with value node when used
+
+179
+0:12:48.560 --> 0:12:51.360
+with no input can you blame the default behavior it seems like it's performing
+
+180
+0:12:51.360 --> 0:12:55.040
+some kind of delay based on its ability to prevent some loops going red is it
+
+181
+0:12:55.040 --> 0:12:59.280
+equivalent to a single update delay you mean the delay one with time I mean I
+
+182
+0:12:59.280 --> 0:13:04.120
+guess you can just look at both let me take a look delay no this is a base
+
+183
+0:13:04.120 --> 0:13:11.080
+class interesting delay the dot evaluate cool start with that so start delay
+
+184
+0:13:11.080 --> 0:13:17.880
+gets a second it looks like it'll do whatever the default value for a float
+
+185
+0:13:17.880 --> 0:13:23.240
+is but by its nature if you know anything about C sharp you can just go
+
+186
+0:13:23.240 --> 0:13:28.760
+figure out right it does task dot delay and then whatever the default value for
+
+187
+0:13:28.760 --> 0:13:36.240
+a float is and so I believe if you do like the equivalent of a weight a weight
+
+188
+0:13:36.240 --> 0:13:43.280
+task delay zero you still bump execution out of the synchronous you bump it you
+
+189
+0:13:43.280 --> 0:13:46.660
+still bump it to an asynchronous location even though there is a zero
+
+190
+0:13:46.660 --> 0:13:50.380
+second delay so that might be the update cycle that you're saying basically it's
+
+191
+0:13:50.380 --> 0:13:54.800
+like diverting to the next update loop because you basically said hey break
+
+192
+0:13:54.800 --> 0:13:59.740
+here we're going into async land and then come back literally less than a
+
+193
+0:13:59.740 --> 0:14:03.600
+second exactly zero seconds after that so yeah even if it was zero you'd get
+
+194
+0:14:03.600 --> 0:14:10.360
+that basically one update cycle delay I would much rather you use the updates
+
+195
+0:14:10.360 --> 0:14:14.480
+delay for those who are aware the delay and delay with value nodes take a time
+
+196
+0:14:14.480 --> 0:14:18.720
+so that's good if you want sort of like cooldowns or a time sequence or
+
+197
+0:14:18.720 --> 0:14:23.800
+something like that the updates delay node will delay events by a number of
+
+198
+0:14:23.800 --> 0:14:27.880
+updates which is basically just sort of everything updating in the world that's
+
+199
+0:14:27.880 --> 0:14:31.920
+sometimes needed you'll frequently come across it with dynamic variables and
+
+200
+0:14:31.920 --> 0:14:36.040
+reparenting sort of creating dynamic variables dynamic variable spaces you'll
+
+201
+0:14:36.040 --> 0:14:42.880
+know when you need an update delay node eventually again I'd love to wrap some
+
+202
+0:14:42.880 --> 0:14:45.760
+guidelines on those but like sometimes I literally just throw them in there
+
+203
+0:14:45.760 --> 0:14:48.680
+because stuff isn't working like if you've ever like got logics and you're
+
+204
+0:14:48.680 --> 0:14:52.520
+like I really really think that this should work and it doesn't work and it's
+
+205
+0:14:52.520 --> 0:14:56.560
+like 5 a.m. and I haven't had any sleep and I need it to work try throwing in
+
+206
+0:14:56.560 --> 0:15:02.640
+some updating relays try floring in some to update delay nodes two is usually a
+
+207
+0:15:02.640 --> 0:15:06.440
+good number and see if it works and then slowly start removing those elements
+
+208
+0:15:06.440 --> 0:15:09.480
+until it you know stops working again and then you'll figure out where you
+
+209
+0:15:09.480 --> 0:15:14.040
+need those particular items all right I didn't realize that I needed to scroll
+
+210
+0:15:14.040 --> 0:15:16.680
+down so if I was just sitting there in silence just cuz I didn't realize I
+
+211
+0:15:16.680 --> 0:15:20.580
+needed to scroll down so give me a second once I catch up just make sure I
+
+212
+0:15:20.580 --> 0:15:26.080
+haven't delayed any questions here so Zetta says during performance penalty to
+
+213
+0:15:26.080 --> 0:15:29.020
+the initial load of an avatar for slot strict assets that are marked as
+
+214
+0:15:29.020 --> 0:15:32.680
+inactive are they loaded and left inactive yes that exactly actually comes
+
+215
+0:15:32.680 --> 0:15:36.200
+up good way of thinking about that one is the good old sort of like drummed in
+
+216
+0:15:36.200 --> 0:15:40.800
+via moderation thing about do not have appendages on your avatar right even if
+
+217
+0:15:40.800 --> 0:15:46.160
+the mesh loader the mesh is right even if the slot is disabled the mesh renderer
+
+218
+0:15:46.160 --> 0:15:49.520
+is disabled I'm still going to end up with an appendage on my computer in my
+
+219
+0:15:49.520 --> 0:15:54.920
+cache so don't put appendages on your avatars by default and you load cloud
+
+220
+0:15:54.920 --> 0:16:00.300
+avatars instead if you need your appendage load into the avatar that has
+
+221
+0:16:00.300 --> 0:16:05.400
+the appendage or spawn the appendage and attach it to yourself don't keep it
+
+222
+0:16:05.400 --> 0:16:10.200
+there same thing goes with Zetta's question there which is if you don't
+
+223
+0:16:10.200 --> 0:16:14.800
+need the object in this case it could be something more innocuous than an
+
+224
+0:16:14.800 --> 0:16:20.520
+appendage don't have it on the avatar good example being like guns right so I
+
+225
+0:16:20.520 --> 0:16:24.280
+see a lot of people will have like a holstered gun on their avatar which they
+
+226
+0:16:24.280 --> 0:16:29.400
+shoot I don't know like once a week you don't need that on your avatar or maybe
+
+227
+0:16:29.400 --> 0:16:34.200
+you need one that is inactive and doesn't have logic on it if it's part of
+
+228
+0:16:34.200 --> 0:16:37.880
+the character that you want part of it to be you know it's there then they're
+
+229
+0:16:37.880 --> 0:16:42.360
+just it's an inactive gun then you'd have less of a cost there because you
+
+230
+0:16:42.360 --> 0:16:45.600
+won't be loading the logics on the gun and then hey if you need the gun you can
+
+231
+0:16:45.600 --> 0:16:51.120
+support it in or update it or cloud spawn it or do all sorts of stuff like
+
+232
+0:16:51.120 --> 0:16:55.480
+that socks I don't respond well to dots you'll please need to enunciate and
+
+233
+0:16:55.480 --> 0:17:02.040
+elaborate on your your thought Lux asks what kind of world building tools that
+
+234
+0:17:02.040 --> 0:17:04.920
+don't exist ready do you think people who are more artistically orientated
+
+235
+0:17:04.920 --> 0:17:08.160
+appreciate to help their creative flow I haven't seen some people get hung up
+
+236
+0:17:08.160 --> 0:17:11.000
+making stuff because they don't want to bother with delving deep into inspectors
+
+237
+0:17:11.000 --> 0:17:14.560
+or the gizmos and kind of wonky doing architecturally precise things
+
+238
+0:17:14.560 --> 0:17:17.880
+architectural tools are certainly something that we need a really good
+
+239
+0:17:17.880 --> 0:17:22.480
+example being the builder tip by Gehepe which is one of the amazing Japanese
+
+240
+0:17:22.480 --> 0:17:26.640
+creators that we have that lets you snap together various tile sets to really
+
+241
+0:17:26.640 --> 0:17:30.360
+really quickly make buildings and objects a little known fact about the
+
+242
+0:17:30.360 --> 0:17:33.680
+builder tip is that you can make your own sets so let's say that you just got
+
+243
+0:17:33.680 --> 0:17:39.400
+an amazing I don't know let's say city pack on the sketch fab and you know it's
+
+244
+0:17:39.400 --> 0:17:43.600
+got snappable stuff like a park and then like a bank or whatever you could load
+
+245
+0:17:43.600 --> 0:17:46.960
+that into the builder tip like it doesn't have to be walls it doesn't have
+
+246
+0:17:46.960 --> 0:17:51.680
+to be doors it could be like road pieces for a racetrack it could be stairs it
+
+247
+0:17:51.680 --> 0:17:55.900
+could be you know it could be fruit that you want to like tessellate for some
+
+248
+0:17:55.900 --> 0:18:00.960
+reason like it could be hexagons that you want to tessellate on a floor like it
+
+249
+0:18:00.960 --> 0:18:05.840
+doesn't need to be the default pack you can just add stuff to it
+
+250
+0:18:05.840 --> 0:18:09.520
+additionally sort of architecturally speaking it's just sort of like more
+
+251
+0:18:09.520 --> 0:18:15.400
+tools that like feel good to use a good example which I use a lot right now but
+
+252
+0:18:15.400 --> 0:18:18.220
+not a lot of people realize exist is if you go to essential tools and you look
+
+253
+0:18:18.220 --> 0:18:21.340
+around there there's the meter tool tip the meter tool tip allows you to measure
+
+254
+0:18:21.340 --> 0:18:26.320
+stuff in the world and not a lot of people need to measure stuff I do because
+
+255
+0:18:26.320 --> 0:18:30.640
+I do a lot of science it's important to make things off to scale but once you
+
+256
+0:18:30.640 --> 0:18:34.600
+start using the meter tip you feel like it feels good right there's no
+
+257
+0:18:34.600 --> 0:18:39.820
+inspectors to it you're like I want to know how big this appendage is I can
+
+258
+0:18:39.820 --> 0:18:44.200
+measure it using the meter tip I don't need to get an inspector it was too good
+
+259
+0:18:44.200 --> 0:18:51.080
+not to carrying on peach says do mirrors have an option to not show other
+
+260
+0:18:51.080 --> 0:18:55.560
+mirrors reflections if so please do a video I don't believe that is a thing
+
+261
+0:18:55.560 --> 0:19:00.080
+right now that would be more of a gains question I do believe we have a github
+
+262
+0:19:00.080 --> 0:19:05.680
+issue open about it where there's talk of mirrors and stuff like that my advice
+
+263
+0:19:05.680 --> 0:19:09.860
+there is just don't show a mirror to another mirror which I know is like sort
+
+264
+0:19:09.860 --> 0:19:15.600
+of a cop-out but like it depends on your scenario there was that MMC entry forget
+
+265
+0:19:15.600 --> 0:19:20.340
+what it was called but it had lots of reflection based mechanics as a puzzle
+
+266
+0:19:20.340 --> 0:19:23.960
+game so sorry I forgot its name but they must have done some tricks there to
+
+267
+0:19:23.960 --> 0:19:26.720
+figure that out with that I don't believe we got any additional questions
+
+268
+0:19:26.720 --> 0:19:29.520
+I'm gonna go ahead and cool things here if you have any additional questions
+
+269
+0:19:29.520 --> 0:19:33.360
+please drop them in questions and help DM me or anything like that and I will
+
+270
+0:19:33.360 --> 0:19:37.800
+get back to you as soon as I can thank you for sitting here with me today to
+
+271
+0:19:37.800 --> 0:19:50.600
+talk about tools and I will see you again next week
+

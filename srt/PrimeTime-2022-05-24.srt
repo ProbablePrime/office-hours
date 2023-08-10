@@ -1,0 +1,1164 @@
+1
+0:00:00.000 --> 0:00:03.560
+Okay everyone, welcome to office hours, it is the top of the arse so we're gonna get
+
+2
+0:00:03.560 --> 0:00:04.560
+started.
+
+3
+0:00:04.560 --> 0:00:07.880
+There are only three people listening, probably my fault because I forgot to do reminders,
+
+4
+0:00:07.880 --> 0:00:12.160
+I was running a bit late with a bunch of things going on today so I didn't put out any reminders,
+
+5
+0:00:12.160 --> 0:00:17.720
+but hopefully they'll flood in soon, tis that same time every week for about a year now,
+
+6
+0:00:17.720 --> 0:00:18.720
+so yeah.
+
+7
+0:00:18.720 --> 0:00:23.880
+Anyway, if you have any questions, please drop them in the office hours channel, that
+
+8
+0:00:23.880 --> 0:00:28.520
+is two above the channel that we're currently in, just look up to and drop down questions
+
+9
+0:00:28.520 --> 0:00:31.480
+and we'll get to them as soon as we can.
+
+10
+0:00:31.480 --> 0:01:00.920
+Until there are any questions though, I'm going to sit in absolute silence.
+
+11
+0:01:00.920 --> 0:01:18.360
+So, if anyone has any questions, drop them by in the office hours text channel, that
+
+12
+0:01:18.360 --> 0:01:21.760
+is two channels above the one that you're looking at for this particular office hours
+
+13
+0:01:21.760 --> 0:01:27.840
+segment, so please get me those if you need them, otherwise I'll be here doing absolute
+
+14
+0:01:27.840 --> 0:01:33.840
+silence.
+
+15
+0:01:57.840 --> 0:02:21.840
+Okay, thank you.
+
+16
+0:02:21.840 --> 0:02:40.640
+So, if you have any questions, please drop them through in the office hours text channel,
+
+17
+0:02:40.640 --> 0:02:56.000
+three channels above this.
+
+18
+0:02:56.000 --> 0:03:20.960
+Okay, thank you.
+
+19
+0:03:20.960 --> 0:03:46.320
+Okay, thank you.
+
+20
+0:03:46.320 --> 0:04:13.520
+That's totally fine, so Fussy's asking about the fact that there aren't any questions today,
+
+21
+0:04:13.520 --> 0:04:14.520
+that's totally fine.
+
+22
+0:04:14.520 --> 0:04:19.600
+That's why it's called office hours, AMA also works, but basically some people come in here
+
+23
+0:04:19.600 --> 0:04:26.040
+and they expect constant commentary, it's not this event, this isn't like a stream where
+
+24
+0:04:26.040 --> 0:04:33.960
+we're designed to entertain the audience, it's a voice chat where I answer questions.
+
+25
+0:04:33.960 --> 0:04:39.160
+It's modeled after university office hours where the professor of a particular module
+
+26
+0:04:39.160 --> 0:04:43.000
+or unit during university course would open up their office for a particular amount of
+
+27
+0:04:43.000 --> 0:04:48.040
+time, and it basically means my office is open, you can come in and ask whatever you
+
+28
+0:05:18.600 --> 0:05:21.680
+There we go, you have a natural question, hell yeah, okay.
+
+29
+0:05:21.680 --> 0:05:28.680
+So Specs asks, I'm working on a mod that lets you pipe data about hosted sessions into another
+
+30
+0:05:28.680 --> 0:05:32.240
+service like a tic stack for logging analysis, but I'm a little blind on what might be the
+
+31
+0:05:32.240 --> 0:05:35.560
+most useful to measure, any advice on what key metrics would be useful to take a look
+
+32
+0:05:35.560 --> 0:05:41.200
+for the health of a session, talking about properties that exist in the world manager.
+
+33
+0:05:41.200 --> 0:05:45.960
+I would look at uptime, just a sort of measure of, hey, we know things get ropey if a server's
+
+34
+0:05:45.960 --> 0:05:47.920
+been up too long.
+
+35
+0:05:47.920 --> 0:05:54.320
+And then I would look at things such as the count of objects in the root slot.
+
+36
+0:05:54.320 --> 0:05:57.960
+The reason why I look at that is because ideally the count of objects in a root slot should
+
+37
+0:05:57.960 --> 0:06:02.960
+be zero, well not zero, but you know what I mean, it should be really, really low.
+
+38
+0:06:02.960 --> 0:06:06.320
+If there's lots of objects in the root slot, it means that you've had a lot of users that
+
+39
+0:06:06.320 --> 0:06:12.120
+have been playing on that particular server, right, they've been spawning stuff and dragging
+
+40
+0:06:12.120 --> 0:06:15.520
+it around and playing around with it a lot.
+
+41
+0:06:15.520 --> 0:06:21.120
+So I take that as an example where the world might need a little bit of a cleanup.
+
+42
+0:06:21.120 --> 0:06:23.760
+Additionally to that is to take a look at the count of assets.
+
+43
+0:06:23.760 --> 0:06:26.840
+I think you can pick that up via the asset manager or something like that, but the count
+
+44
+0:06:26.840 --> 0:06:30.800
+of assets, the more stuff that's loaded into a world, the more stuff that gets referenced
+
+45
+0:06:30.800 --> 0:06:31.800
+in its asset index.
+
+46
+0:06:31.800 --> 0:06:35.000
+If it's not like in the world, usually that won't actually be loaded onto your client,
+
+47
+0:06:35.000 --> 0:06:39.680
+but it's still referenced there just in case the session needs to reload it, so take a
+
+48
+0:06:39.680 --> 0:06:42.760
+look at that as well.
+
+49
+0:06:42.760 --> 0:06:44.920
+Other than that, I think you're good.
+
+50
+0:06:44.920 --> 0:06:48.680
+I mean, take a look at the debug tab, but if you can access all of the metrics in the
+
+51
+0:06:48.680 --> 0:06:53.520
+debug tab, I might suggest graphing those, because those can spike and will show you
+
+52
+0:06:53.520 --> 0:06:54.920
+stuff going on.
+
+53
+0:06:54.920 --> 0:07:02.320
+A sideline, and related to the root slot thing, when you're building things such as gadgets,
+
+54
+0:07:02.320 --> 0:07:07.600
+tools, guns, utilities, grenades, whatever the hell you want to call it, stop using the
+
+55
+0:07:07.600 --> 0:07:08.880
+root slot node.
+
+56
+0:07:08.880 --> 0:07:11.360
+Just stop using it.
+
+57
+0:07:11.360 --> 0:07:13.120
+Use instead local user space.
+
+58
+0:07:13.120 --> 0:07:17.480
+Local user space refers to the slot which the user is parented to.
+
+59
+0:07:17.480 --> 0:07:22.840
+So if you drop an empty ammo clip on the floor, there's lots of people that will code logics
+
+60
+0:07:22.840 --> 0:07:26.520
+there that goes like, oh, hey, M-E-Mto clip on the floor, I will parent it to the root
+
+61
+0:07:26.520 --> 0:07:27.520
+slot.
+
+62
+0:07:27.520 --> 0:07:28.520
+That's rude.
+
+63
+0:07:28.520 --> 0:07:29.520
+It's not your world.
+
+64
+0:07:29.520 --> 0:07:33.480
+It's local user space, which is the slot which the user is parented to.
+
+65
+0:07:33.480 --> 0:07:39.440
+That will keep it ostracized away from the root slot in locations that are more suitable
+
+66
+0:07:39.440 --> 0:07:48.480
+for things like that.
+
+67
+0:07:48.480 --> 0:07:51.040
+I know I can't make people do that, but please do that.
+
+68
+0:07:51.040 --> 0:07:52.360
+And also clean up.
+
+69
+0:07:52.360 --> 0:07:56.920
+What I see usually in open sessions that have been open for a long time is this huge swave
+
+70
+0:07:56.920 --> 0:08:01.800
+of pictures and objects that are just lying forgotten.
+
+71
+0:08:01.800 --> 0:08:06.960
+It honestly resembles a children's playroom in a house where the parents are desperately
+
+72
+0:08:06.960 --> 0:08:09.720
+trying to keep it clean, but it's just not.
+
+73
+0:08:09.720 --> 0:08:11.720
+Be considerate.
+
+74
+0:08:11.720 --> 0:08:12.720
+Tidy up.
+
+75
+0:08:12.720 --> 0:08:13.720
+Do you need that anymore?
+
+76
+0:08:13.720 --> 0:08:14.720
+No.
+
+77
+0:08:14.720 --> 0:08:15.720
+Delete it.
+
+78
+0:08:15.720 --> 0:08:20.720
+For pictures, what I usually like to do, because I understand how people might want to make
+
+79
+0:08:20.720 --> 0:08:24.260
+sure they got all the pictures from that session, because those are memories, right, is I will
+
+80
+0:08:24.260 --> 0:08:27.200
+gather them into one place, into a photo wall.
+
+81
+0:08:27.200 --> 0:08:31.600
+Not like a technical photo wall as an object, but I'll just place them in the same area.
+
+82
+0:08:31.600 --> 0:08:36.400
+And that way, again, there's not this sort of sprawling mass of just photos floating
+
+83
+0:08:36.400 --> 0:08:37.720
+in a session.
+
+84
+0:08:37.720 --> 0:08:42.360
+Bring them back together, put them all in one pile, and people can go through them.
+
+85
+0:08:42.360 --> 0:08:45.200
+It's just like, oh, look, there's an inspector over here that hasn't been touched in like
+
+86
+0:08:45.200 --> 0:08:46.680
+three hours.
+
+87
+0:08:46.680 --> 0:08:48.020
+Why isn't someone closed there?
+
+88
+0:08:48.020 --> 0:09:16.120
+Be considerate.
+
+89
+0:09:16.120 --> 0:09:19.740
+So Zlinko states that, yep, they have a user management system.
+
+90
+0:09:19.740 --> 0:09:20.740
+That's common.
+
+91
+0:09:20.740 --> 0:09:24.700
+So a user management system is something you place in your world, and it kind of does organization
+
+92
+0:09:24.700 --> 0:09:25.700
+for you.
+
+93
+0:09:25.700 --> 0:09:27.260
+My parent uses their own slots.
+
+94
+0:09:27.260 --> 0:09:28.700
+You can see who owns what.
+
+95
+0:09:28.700 --> 0:09:37.580
+Very, very useful things to figure out why the hell there's a mess in various places.
+
+96
+0:09:37.580 --> 0:09:42.060
+Finger photos is something I'd have to look into.
+
+97
+0:09:42.060 --> 0:09:44.060
+Open a bug on that one, maybe.
+
+98
+0:09:44.060 --> 0:09:47.540
+That might be a working as intended thing, but no, it's not an issue.
+
+99
+0:09:47.540 --> 0:09:51.180
+If it's not on the GitHub, it's not an issue.
+
+100
+0:09:51.180 --> 0:09:56.300
+And then Zlinko also talks about how e-items or grabables are on the route.
+
+101
+0:09:56.300 --> 0:09:57.820
+It's honestly a mess.
+
+102
+0:09:57.820 --> 0:10:00.460
+Every single session I've seen is there.
+
+103
+0:10:00.460 --> 0:10:05.180
+There's also a cultural problem there, which is where people treat Neos like it's Garry's
+
+104
+0:10:05.180 --> 0:10:06.180
+Mod, really.
+
+105
+0:10:06.180 --> 0:10:11.060
+And Garry's Mod, the sort of culture is to leave all those sort of stuff around and make
+
+106
+0:10:11.060 --> 0:10:28.260
+a mess.
+
+107
+0:10:28.260 --> 0:10:31.660
+So Ozi mentions a component which deletes the slot when the children is empty.
+
+108
+0:10:31.660 --> 0:10:39.620
+That is no children deleter, children delete on empty.
+
+109
+0:10:39.620 --> 0:10:40.620
+Something like that.
+
+110
+0:10:40.620 --> 0:10:41.820
+That does exactly that.
+
+111
+0:10:41.820 --> 0:10:42.820
+That's actually really useful.
+
+112
+0:10:42.820 --> 0:10:44.300
+I have a video on that one.
+
+113
+0:10:44.300 --> 0:10:48.180
+I'm going to go ahead and see if I can find it for you, because it is a really useful
+
+114
+0:10:48.180 --> 0:10:49.180
+component.
+
+115
+0:10:49.180 --> 0:10:50.380
+You just might not know that it's there.
+
+116
+0:10:50.380 --> 0:10:59.380
+I use that for a lot of sort of like pickup systems or like resource room, I guess would
+
+117
+0:10:59.380 --> 0:11:00.380
+be a thing.
+
+118
+0:11:00.380 --> 0:11:04.500
+I don't know, like you know the Left 4 Dead restroom between levels.
+
+119
+0:11:04.500 --> 0:11:08.740
+That would be a good example of sort of an area where delete without children.
+
+120
+0:11:08.740 --> 0:11:10.460
+That's it.
+
+121
+0:11:10.460 --> 0:11:11.460
+That's where that might be useful.
+
+122
+0:11:11.460 --> 0:11:16.580
+You know, you've got like a table and then like the table's empty, it deletes or whatever.
+
+123
+0:11:16.580 --> 0:11:19.580
+So it's a good component.
+
+124
+0:11:19.580 --> 0:11:23.340
+Delete without children.
+
+125
+0:11:23.340 --> 0:11:26.980
+I can't find the video.
+
+126
+0:11:26.980 --> 0:11:35.220
+I definitely did a video on it, I just can't find it.
+
+127
+0:11:35.220 --> 0:11:42.980
+It's really useful.
+
+128
+0:11:42.980 --> 0:11:56.260
+That's a component which is...
+
+129
+0:11:56.260 --> 0:11:58.260
+When it...
+
+130
+0:11:58.260 --> 0:12:03.220
+When you're doing something, always think like could this be done better and then like
+
+131
+0:12:03.220 --> 0:12:08.140
+ask around, see if there's people that might know a solution or whatever.
+
+132
+0:12:08.140 --> 0:12:13.220
+Like the delete without children or whatever, there's various other sort of examples of
+
+133
+0:12:13.220 --> 0:12:14.220
+that.
+
+134
+0:12:14.220 --> 0:12:17.940
+Especially in the tagging, like the tagging components, duplicate, block, destroy, block,
+
+135
+0:12:17.940 --> 0:12:23.020
+stuff like that, that exists there to make your life easier, but I see a lot of people
+
+136
+0:12:23.020 --> 0:12:27.660
+not using them sometimes, and they're just like, oh, I'm going to code an entirely custom
+
+137
+0:12:27.660 --> 0:12:28.660
+logic system.
+
+138
+0:12:28.660 --> 0:12:33.900
+And I'm just like, excuse me?
+
+139
+0:12:33.900 --> 0:12:34.900
+Why don't you just not?
+
+140
+0:12:34.900 --> 0:12:59.860
+Have you considered not?
+
+141
+0:12:59.860 --> 0:13:29.620
+As he says, they thought that block meant block as in a category of things.
+
+142
+0:13:29.620 --> 0:13:32.740
+Like a wooden block.
+
+143
+0:13:32.740 --> 0:13:34.060
+Those tagging components are great.
+
+144
+0:13:34.060 --> 0:13:38.340
+When we're able to, which I've spoken about a lot of times before, but when we're able
+
+145
+0:13:38.340 --> 0:13:44.020
+to sort of organize the component list a lot better, all of those tagging components will
+
+146
+0:13:44.020 --> 0:13:48.840
+go to one location, hopefully, and of course I'll get sort of documentation sorted out
+
+147
+0:13:48.840 --> 0:14:13.940
+for them in their particular spot so we know what's going on there.
+
+148
+0:14:13.940 --> 0:14:19.940
+It's also good, as he says, it would be good for clicking around.
+
+149
+0:14:19.940 --> 0:14:24.380
+It's also good for, like, you know, documenting, like, oh, I wonder if there's a tagging component
+
+150
+0:14:24.380 --> 0:14:25.380
+that does that.
+
+151
+0:14:25.380 --> 0:14:29.740
+Cool, I'll go to the one unified tagging folder, and then it's right there, something that
+
+152
+0:14:29.740 --> 0:14:36.540
+sounds like exactly what you need.
+
+153
+0:14:36.540 --> 0:14:49.660
+All right.
+
+154
+0:14:49.660 --> 0:14:51.660
+.
+
+155
+0:15:19.660 --> 0:15:26.220
+I think that conversational topic has ended. So if any other conversational topics just let me
+
+156
+0:15:28.540 --> 0:15:31.180
+Just keep asking yeah
+
+157
+0:15:31.180 --> 0:15:59.180
+So epic Eastern mentions a favoriting tab for the component here like you've got to remember that the component adder that we currently have is like completely not finished. So here, maybe we will in the future add something where you can favorite the component and add it to the component.
+
+158
+0:16:01.180 --> 0:16:29.180
+If you know the the way that we're building UI, we're going to try and make it so everything as much as possible is customizable. So what that will allow you to do is like be like, hey, I'm going to make a brand new component searcher and install it into my systems. And if you don't like it, that's cool. I like it. And you won't need mods for that either. You just do it right because everything will just be a facet.
+
+159
+0:16:31.180 --> 0:16:59.180
+Yeah, you can go out there and find mods. I don't tend to recommend them or use them in conversation because
+
+160
+0:17:01.180 --> 0:17:06.180
+Every mod I see is an opportunity for Neos to do better.
+
+161
+0:17:06.180 --> 0:17:22.180
+And I intend to wear license allows me to with full credit, of course, from the community just outright implement some of those mods in Neos actual. Of course, we have to make sure it's suitable, which is where the sort of interesting interplay between mods and not mods exists.
+
+162
+0:17:22.180 --> 0:17:36.180
+But most of the time it's like, cool, that's just a one line change, which freaks hasn't had a chance to do. I can totally go do that because, you know, I have a little bit of time here or there. I'll go do it. That's what happened with the inspector alignment.
+
+163
+0:17:36.180 --> 0:17:56.180
+Yeah. A question here from Ozi who asks, actually, I've got a question by proxy from a friend. Is there a nice way to get random publish world information inside of Neos? No, you might be able to via the API.
+
+164
+0:17:56.180 --> 0:18:08.180
+We do have that random that shuffle endpoint, but that shuffle endpoint is actually done in a way to kind of sort of make it not cost a lot where it will shuffle the world list periodically on like a batch job.
+
+165
+0:18:08.180 --> 0:18:18.180
+And then everyone else will get the same random view that happens periodically. You could get that list and then get a random item from that list using the Neos API.
+
+166
+0:18:18.180 --> 0:18:27.180
+And that would get you sort of what you're after. I mean, not exactly, but sort of.
+
+167
+0:18:27.180 --> 0:18:52.180
+There's nothing in that.
+
+168
+0:18:52.180 --> 0:19:00.180
+You could also abuse the world menu, which is what Ozi suggested. You could totally do that. I'm not sure what success you would have.
+
+169
+0:19:00.180 --> 0:19:11.180
+Go to, there's a world in the world browser from myself. I think it's called like world portals or world annex portal room, something like that.
+
+170
+0:19:11.180 --> 0:19:25.180
+What it does is it creates like physical portals in a sort of circle aligner for some subset of the of the walls that are open and abuses the world manager to do that is very hacky.
+
+171
+0:19:25.180 --> 0:19:30.180
+And I don't advise doing it, but it is an option available to take a look at how I did it.
+
+172
+0:19:30.180 --> 0:19:34.180
+There's also a really old option, which I didn't release, but I believe it's on my YouTube channel.
+
+173
+0:19:34.180 --> 0:19:42.180
+So you can see what you can do by abusing the world manager. If you look up missed linking books for Neos, it should be on my channel.
+
+174
+0:19:42.180 --> 0:19:48.180
+And then you'll be able to see something there that is basically.
+
+175
+0:19:48.180 --> 0:19:53.180
+Me making missed linking books, which link between worlds, for those unfamiliar with the series mystical play.
+
+176
+0:19:53.180 --> 0:20:00.180
+It's a great series where you play as a stranger exploring worlds, which you get to by touching books.
+
+177
+0:20:00.180 --> 0:20:08.180
+He just like rub the book of your hand and you get in there and like rubby rub.
+
+178
+0:20:08.180 --> 0:20:37.180
+There's a window inside the book which sort of gives you a preview of the world that you go traveling to.
+
+179
+0:20:37.180 --> 0:20:41.180
+Yep, Scranier is agreeing with me, mods are an opportunity to make Neos better.
+
+180
+0:20:41.180 --> 0:20:46.180
+Yep, totally. Like I would be happy if you guys didn't have an excuse to mod.
+
+181
+0:20:46.180 --> 0:20:51.180
+Now, of course, there's like funny mods or really, really obscure mods, but like.
+
+182
+0:20:51.180 --> 0:20:56.180
+Most of them, I'm just like, we can make that happen. We can make that happen.
+
+183
+0:20:56.180 --> 0:21:01.180
+Why don't we just make it happen?
+
+184
+0:21:01.180 --> 0:21:04.180
+So, yeah.
+
+185
+0:21:04.180 --> 0:21:09.180
+The other thing then there is plugins. Like, I wish we would see more plugin use.
+
+186
+0:21:09.180 --> 0:21:12.180
+I know it like isolates you from the community, but I find it more respectful.
+
+187
+0:21:12.180 --> 0:21:19.180
+Like if you're doing something like really, really, really crazy, please make a plugin like.
+
+188
+0:21:19.180 --> 0:21:24.180
+You know, some people are like, yeah, I want to talk to like this very specific piece of hardware and they're like, I should do it as a mod.
+
+189
+0:21:24.180 --> 0:21:27.180
+I should probably do it as a plugin. And they're like, why?
+
+190
+0:21:27.180 --> 0:21:35.180
+And I'm like, because like as a mod, you're probably just going to crash Neos when like some multiplayer component that doesn't have that particular reference is going to touch it.
+
+191
+0:21:35.180 --> 0:21:38.180
+And then they're like, yeah, but that isolates me from the community.
+
+192
+0:21:38.180 --> 0:21:42.180
+And I'm like, well, if you're using that particular bit of hardware, you're kind of already isolating yourself from the community.
+
+193
+0:21:42.180 --> 0:21:45.180
+I don't know. It's up to you. Use whichever.
+
+194
+0:21:45.180 --> 0:22:12.180
+It just depends on which one is your target to be used.
+
+195
+0:22:12.180 --> 0:22:21.180
+Yeah, so Screna talks about a mod that allows you to see what's driving something that's totally a good a good sort of use for a mod.
+
+196
+0:22:21.180 --> 0:22:24.180
+That's also an opportunity for us to do that, though.
+
+197
+0:22:24.180 --> 0:22:28.180
+You'll notice in the mod that it is displayed in a good enough way for you to be able to use it.
+
+198
+0:22:28.180 --> 0:22:31.180
+But I think there's also an opportunity there to do it better.
+
+199
+0:22:31.180 --> 0:22:36.180
+Should it be native Neos functionality to display that a whole lot better?
+
+200
+0:22:36.180 --> 0:22:50.180
+I'm talking like some sort of better representation of it is possible, particularly when it's, you know, Neos rather than a mod and everyone has the ability to see it, et cetera.
+
+201
+0:22:50.180 --> 0:23:00.180
+I also see mods which do things like change the color of your inspector, make it so you spawn, you know, your inspector rather than the default inspector, make your inspector the color of your cloud variable.
+
+202
+0:23:00.180 --> 0:23:28.180
+All stuff like that should be possible in Neos Fire, like our facet-based system. It's just not right now.
+
+203
+0:23:28.180 --> 0:23:37.180
+Eastern asks, is there a way to do seamless portals like in the Stanley Parable? Because every single time I do it, it's never sin one and never works right.
+
+204
+0:23:37.180 --> 0:23:46.180
+You'll have to break that down out of the game. I'm very familiar with Stanley Parable, but like I don't know if there's any actual portals in there.
+
+205
+0:23:46.180 --> 0:23:54.180
+They're just using like they load and unload parts of the map periodically. That's what they do.
+
+206
+0:23:54.180 --> 0:24:05.180
+I don't think there's like any actual portaling there.
+
+207
+0:24:05.180 --> 0:24:14.180
+That's how I would recommend doing it as well. If you're having trouble sort of getting teleportation lined up, just do.
+
+208
+0:24:14.180 --> 0:24:20.180
+Oh, okay.
+
+209
+0:24:20.180 --> 0:24:29.180
+Oh, yeah, the looping stuff. Excellent. You can totally do that. It's really rough unless you do it correctly, though.
+
+210
+0:24:29.180 --> 0:24:35.180
+For the wall of the portal, as in what they're looking at, imagine looking at a portal in the game. Portal.
+
+211
+0:24:35.180 --> 0:24:40.180
+And you see the other side of the portal. Use the portal option from create new object portal.
+
+212
+0:24:40.180 --> 0:24:46.180
+That is like a mirror, but actually has stereoscopicness. So if you're in VR, you'll see everything there.
+
+213
+0:24:46.180 --> 0:24:54.180
+And then you just have to line it up correctly. Like it does take a little bit to line up correctly, but it should be unnoticeable if you line up correctly.
+
+214
+0:24:54.180 --> 0:24:59.180
+I don't remember how smooth it is, but if you go take a look at I think it's called Infinite Staircase. It's another world by me.
+
+215
+0:24:59.180 --> 0:25:04.180
+I made it like a super long time ago. We're talking twenty nineteen.
+
+216
+0:25:04.180 --> 0:25:08.180
+One play experience. We do two players. It will just break. I do want to make a multiplayer version of it, though.
+
+217
+0:25:08.180 --> 0:25:13.180
+And it's just a staircase that you can continually go down and down and down and down and down and down at the time.
+
+218
+0:25:13.180 --> 0:25:21.180
+I didn't know logic as well, but I wanted it to be like as you got lower, more randomized events would occur such that, you know, spooky noises would go off, et cetera.
+
+219
+0:25:21.180 --> 0:25:28.180
+But I think I just had like a random chance to play a particular audio sound. I don't remember. I want to make it like a whole experience.
+
+220
+0:25:28.180 --> 0:25:34.180
+I love the sort of I don't want to say back rooms because people just go like the background game and the background map.
+
+221
+0:25:34.180 --> 0:25:43.180
+I like that feeling like I'm not after the exact clone of the back rooms. I'm after the feeling you get there,
+
+222
+0:25:43.180 --> 0:25:52.180
+which is an infinite spreading mazy void liminal spaces. Exactly.
+
+223
+0:25:52.180 --> 0:25:57.180
+It's just it's it's beautiful. There's a couple of CPs that do that.
+
+224
+0:25:57.180 --> 0:26:01.180
+There's one about a staircase. There's multiple ones about like rooms and stuff.
+
+225
+0:26:01.180 --> 0:26:07.180
+I believe there was one about sort of like a weird watch tower or something that might be in the staircase.
+
+226
+0:26:07.180 --> 0:26:19.180
+I seem to remember like the immersion, sort of like a fire watch tower, like from the game Firewatch when they went through one of those sort of staircases.
+
+227
+0:26:19.180 --> 0:26:28.180
+There is like a concept that exists, mostly I'm stalling this from one of the creators of Lost, the TV show called the Mystery Box.
+
+228
+0:26:28.180 --> 0:26:36.180
+And in his like physical representation of it, it's literally a box he bought from one of these sort of like mystery box retailers.
+
+229
+0:26:36.180 --> 0:26:43.180
+You can think of it like one of those boxes that you can subscribe to. They get delivered to your door each month, but he's never opened it.
+
+230
+0:26:43.180 --> 0:26:51.180
+He leaves it like he leaves it in wherever he is, usually his office to just remind him of what he's creating in his shows,
+
+231
+0:26:51.180 --> 0:26:54.180
+which is a mystery that needs to be unfolded. And that's what happens with Lost.
+
+232
+0:26:54.180 --> 0:27:00.180
+And you can also like, if you look into the history of how Lost was created, you can see why that kept happening and why it got as crazy as it did,
+
+233
+0:27:00.180 --> 0:27:06.180
+because his principle was like, I need another mystery box, which is like, what is through here? What is going on?
+
+234
+0:27:06.180 --> 0:27:11.180
+You also do that, like if you mix that with cosmic horror as well, you get like a really cool mix.
+
+235
+0:27:11.180 --> 0:27:16.180
+For example, I hate jump scares. Like if you're talking like Five Nights at Freddy's, Amnesia, stuff like that.
+
+236
+0:27:16.180 --> 0:27:20.180
+That's not a horror game for me. Take a look at the film Annihilation.
+
+237
+0:27:20.180 --> 0:27:31.180
+Annihilation is a great example of sort of cosmic horror in the horror that is created in that isn't jump scares, vampires.
+
+238
+0:27:31.180 --> 0:27:36.180
+There's a killer in the woods. It is something completely different, particularly the finale.
+
+239
+0:27:36.180 --> 0:27:41.180
+And the finale still makes me scared. Right. And that's cool.
+
+240
+0:27:41.180 --> 0:27:47.180
+I know that's sort of like a sidetrack from those portals. Just going back to the standing parable portals, you just have to line them up perfectly.
+
+241
+0:27:47.180 --> 0:27:52.180
+It's going to take a little bit. Make sure you're in through some of the advanced settings on the character teleporter component.
+
+242
+0:27:52.180 --> 0:27:57.180
+I'll see if I can get like a seamless example going.
+
+243
+0:27:57.180 --> 0:28:04.180
+Make sure your collider is a primitive collider as well, otherwise you may have sort of false collisions, which means you won't teleport at some point.
+
+244
+0:28:04.180 --> 0:28:18.180
+Also, make sure that you have lined things up as perfectly as you can and take a look at the infinite staircase.
+
+245
+0:28:18.180 --> 0:28:26.180
+There's also an MMC entry. I'm going to do a great disservice because I don't remember the name of it, but it was a narrative experience which was sort of open to interpretation.
+
+246
+0:28:26.180 --> 0:28:32.180
+But my take was it is sort of emulating dementia where you woke up in a bedroom and you had to do a variety of tasks.
+
+247
+0:28:32.180 --> 0:28:35.180
+It was like clean your teeth, make coffee and stuff like that.
+
+248
+0:28:35.180 --> 0:28:47.180
+And every time you woke up, like the world would distort more and things would change and look different.
+
+249
+0:28:47.180 --> 0:28:54.180
+A burning memory, that's the one. Thank you.
+
+250
+0:28:54.180 --> 0:28:59.180
+There are ways to do infinite staircases that do not use portals.
+
+251
+0:28:59.180 --> 0:29:06.180
+The way that they do that is through scrolling.
+
+252
+0:29:06.180 --> 0:29:09.180
+There's multiple ways to do that and it's kind of difficult to explain scrolling.
+
+253
+0:29:09.180 --> 0:29:13.180
+I guess I'm going to just sort of like throw an example out there and hope that people have seen this.
+
+254
+0:29:13.180 --> 0:29:21.180
+There are a multitude of maps that exist in VRChat where there's a train, a car, a boat, whatever the hell it is.
+
+255
+0:29:21.180 --> 0:29:24.180
+And you think that you're in the car moving.
+
+256
+0:29:24.180 --> 0:29:27.180
+What's actually happening is the map is moving around you and you're stationary.
+
+257
+0:29:27.180 --> 0:29:32.180
+So they get to load in new chunks, they get to load in new resources and you are just stationary.
+
+258
+0:29:32.180 --> 0:29:37.180
+You can see this usually if you get outside one of those cars, you'll see it's just the land coming towards you.
+
+259
+0:29:37.180 --> 0:29:41.180
+Someone had a train ride kind of map going for Neos which used that.
+
+260
+0:29:41.180 --> 0:29:45.180
+And it was fantastic, but they don't think they released it or finished it.
+
+261
+0:29:45.180 --> 0:29:48.180
+I do believe there is a car driving one that does that.
+
+262
+0:29:48.180 --> 0:29:53.180
+I also know that Stardust, another MSC entry there, does that sort of.
+
+263
+0:29:53.180 --> 0:30:01.180
+They model distances between objects based on mathematics and then they just unload or load those objects into the view.
+
+264
+0:30:01.180 --> 0:30:14.180
+So when you go between planets, instead of going between planets literally, as in the space that exists, you go between the planets mathematically and then the planets just turn on or off.
+
+265
+0:30:14.180 --> 0:30:18.180
+That's another way of doing it.
+
+266
+0:30:18.180 --> 0:30:27.180
+There's also that world in VRChat called Infinite Staircase or something. It's just like a crazy mix of staircases that goes on forever.
+
+267
+0:30:27.180 --> 0:30:33.180
+I don't know how they're doing that, particularly because I don't know if they can do it the way I think they're doing it.
+
+268
+0:30:33.180 --> 0:30:44.180
+There's this function thingy technique called wave function collapse, which is a defined way of making level designs in Unity procedurally.
+
+269
+0:30:44.180 --> 0:30:57.180
+You do a wave function collapse live in a regular Unity game where it's just constantly applying, and that way you'll get a kind of sprawling landscape or maze.
+
+270
+0:30:57.180 --> 0:31:04.180
+So give those things a go.
+
+271
+0:31:04.180 --> 0:31:09.180
+Go watch Annihilation, really creepy film.
+
+272
+0:31:09.180 --> 0:31:21.180
+If there are any other questions, those who are typing, please feel free to get your questions out. Otherwise we'll end there.
+
+273
+0:31:21.180 --> 0:31:27.180
+So I presume that's Russian. So hello from there.
+
+274
+0:31:27.180 --> 0:31:35.180
+Is there a practical limit to world size? There is simply because of the floating point precision that you get when you go further out.
+
+275
+0:31:35.180 --> 0:31:45.180
+Ways to combat that are, like I said, block loading where you unload and load the area so they're still in the same area, but they don't know it because previous content has been unloaded.
+
+276
+0:31:45.180 --> 0:31:51.180
+See how abandonware does that. Go to abandonware and go into edit mode and then noclip and fly outside.
+
+277
+0:31:51.180 --> 0:32:00.180
+You'll see everything's really compact, but it doesn't feel like that because you're constantly being teleported around and focused in a particular direction such that it doesn't become an issue.
+
+278
+0:32:00.180 --> 0:32:10.180
+Make sure you're counting vertical space as well. You can do, again, tricks of teleportation or just sort of clever ways to sort of spin someone around so they don't realize it.
+
+279
+0:32:10.180 --> 0:32:22.180
+But let's say you have, you know, like 100 by 100 grid at one Y level. You can also do 100 by 100 grid at another Y level and not run into floating point problems.
+
+280
+0:32:22.180 --> 0:32:33.180
+Because floating point problems won't be a problem if you are using up available space. It's just if you go to that space, you'll have a problem there.
+
+281
+0:32:33.180 --> 0:32:44.180
+Anything in unity that is sort of world loading or anything like that should be applicable to Neos as well.
+
+282
+0:32:44.180 --> 0:32:54.180
+So just waiting on specs question and then we'll close off for the day.
+
+283
+0:32:54.180 --> 0:33:23.180
+Make yourself small does, but making yourself a little bit small, I'm talking like, you know, maybe 90% of the usual scale or maybe even 50% shouldn't have floating point issues, but does give you a lot more room.
+
+284
+0:33:23.180 --> 0:33:39.180
+I'll give everyone a minute to finish up their questions and then I'll head off.
+
+285
+0:33:39.180 --> 0:34:08.180
+Okay.
+
+286
+0:34:08.180 --> 0:34:25.180
+So quick question dropped in there from the end is who says does near far clip take into account scale?
+
+287
+0:34:25.180 --> 0:34:33.180
+I don't know what measurement it's in. It's more to do with the camera, though. So maybe, maybe not. I'm not certain.
+
+288
+0:34:33.180 --> 0:34:42.180
+You can adjust near and far clip using avatar render settings. What's sort of unknown is that I think you can also do that as a sort of a world level.
+
+289
+0:34:42.180 --> 0:34:56.180
+You just put avatar render settings on the injectable slot that gets injected when a user spawns the auto inject slot option on the user spawner.
+
+290
+0:34:56.180 --> 0:35:07.180
+And I believe that's all the questions. So I'm going to go ahead and leave off here and I will speak to you later. If you have any other questions, feel free to DM me or asking the questions in the help section and I'll get back to you as soon as possible.
+
+291
+0:35:07.180 --> 0:35:27.180
+And I will speak to you later. Bye bye.
+

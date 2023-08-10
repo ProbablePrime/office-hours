@@ -1,0 +1,1920 @@
+1
+00:00:00,000 --> 00:00:03,440
+ Welcome to Office Hours, the weekly AMA where I ask your questions.
+
+2
+00:00:03,440 --> 00:00:06,320
+ If you have any questions, please drop them in the Office Hours text chat.
+
+3
+00:00:06,320 --> 00:00:08,120
+ There's a couple of channels above this one.
+
+4
+00:00:08,120 --> 00:00:10,160
+ Office Hours, look for the thread, drop your questions in.
+
+5
+00:00:10,160 --> 00:00:12,360
+ We'll answer them in the order that they appear.
+
+6
+00:00:12,360 --> 00:00:18,320
+ I see a few people in the audience, so do get those questions coming in.
+
+7
+00:00:18,320 --> 00:00:22,160
+ I'm going to go ahead and ping people again, just so they know that people are, you know,
+
+8
+00:00:22,160 --> 00:00:25,240
+ where we're starting.
+
+9
+00:00:25,240 --> 00:00:26,560
+ And we'll see what comes up.
+
+10
+00:00:26,560 --> 00:00:29,800
+ Alright, looking at the questions list, we have one question from Lex, who says,
+
+11
+00:00:29,800 --> 00:00:32,640
+ "Any in-progress MMC submissions you've enjoyed looking at?"
+
+12
+00:00:32,640 --> 00:00:37,900
+ The MMC Analyzer, which appears to now be a yearly, you know, appears every single competition
+
+13
+00:00:37,900 --> 00:00:40,680
+ project is always fascinating to see.
+
+14
+00:00:40,680 --> 00:00:45,560
+ They publish it as quick as they can, and it sort of details sort of the entries that
+
+15
+00:00:45,560 --> 00:00:48,960
+ have been submitted and lets you see them.
+
+16
+00:00:48,960 --> 00:00:54,720
+ Now those are always good to see, and this year they're kind of themed around the MMC
+
+17
+00:00:54,720 --> 00:00:57,460
+ poster, which is also good to see.
+
+18
+00:00:57,460 --> 00:01:01,120
+ There are quite a lot of entries which have been submitted which are empty worlds, and
+
+19
+00:01:01,120 --> 00:01:02,520
+ I love that.
+
+20
+00:01:02,520 --> 00:01:06,580
+ Remember that you can submit an entry before it's finished, and it massively, massively
+
+21
+00:01:06,580 --> 00:01:08,060
+ reduces your stress on the day.
+
+22
+00:01:08,060 --> 00:01:12,600
+ You can edit an entry after it is submitted, you just need to save the world again.
+
+23
+00:01:12,600 --> 00:01:15,280
+ You don't need to resubmit, you just save the world again.
+
+24
+00:01:15,280 --> 00:01:19,200
+ So I highly recommend publishing your world as soon as possible.
+
+25
+00:01:19,200 --> 00:01:23,940
+ If you leave publishing your world to the last minute, you may have issues that you
+
+26
+00:01:23,940 --> 00:01:27,000
+ cannot resolve, and therefore you may be disqualified.
+
+27
+00:01:27,000 --> 00:01:30,940
+ So publish early, and then you're fine.
+
+28
+00:01:30,940 --> 00:01:33,820
+ Additionally in the last couple of days, please don't be rushing.
+
+29
+00:01:33,820 --> 00:01:36,760
+ Like the last couple of days, just polish, right?
+
+30
+00:01:36,760 --> 00:01:43,100
+ Think about audio, think about desktop users, think about testing and things like that.
+
+31
+00:01:43,100 --> 00:01:46,300
+ There are no further questions currently, so we're going to sit here in absolute silence
+
+32
+00:01:46,300 --> 00:01:47,780
+ till there are further questions.
+
+33
+00:01:47,780 --> 00:01:50,820
+ Another question from Lexi which says "Do you think there will be an update to NIRS
+
+34
+00:01:50,820 --> 00:01:56,540
+ to change the default world filter facet for MMC23 like there was last year for MMC2022?"
+
+35
+00:01:56,540 --> 00:02:02,040
+ I don't know, I haven't spoken to Fruks about it, the MMC team certainly do not require
+
+36
+00:02:02,040 --> 00:02:05,260
+ it, it's just a nice to have thing that sometimes occurs.
+
+37
+00:02:05,260 --> 00:02:09,320
+ Amber asks "Will there be a revamp rework of the wiki, the NIRS wiki plugin generates
+
+38
+00:02:09,320 --> 00:02:12,240
+ all of a default type of float and might be confusing, any possibility for interactive
+
+39
+00:02:12,240 --> 00:02:13,240
+ cards etc."
+
+40
+00:02:13,240 --> 00:02:18,020
+ I have huge plans for documentation and the wiki, which are all on hold, whilst I have
+
+41
+00:02:18,020 --> 00:02:19,840
+ zero control over the wiki.
+
+42
+00:02:19,840 --> 00:02:21,420
+ So yeah.
+
+43
+00:02:21,420 --> 00:02:26,120
+ I am continually backing up the contents of the wiki as my main promise when it comes
+
+44
+00:02:26,120 --> 00:02:30,900
+ to the wiki and internal documentation, and any documentation that people write is I will
+
+45
+00:02:30,900 --> 00:02:33,740
+ preserve it to the best of my ability.
+
+46
+00:02:33,740 --> 00:02:39,220
+ So even if I have to stay up till 4am copying and pasting your text from the odd wiki into
+
+47
+00:02:39,220 --> 00:02:42,620
+ whatever new system might exist in the future, I will.
+
+48
+00:02:42,620 --> 00:02:45,540
+ Your contributions are not lost.
+
+49
+00:02:45,540 --> 00:02:47,080
+ Neutron Star asks "How are you?
+
+50
+00:02:47,080 --> 00:02:48,080
+ Has life been good?
+
+51
+00:02:48,080 --> 00:02:50,720
+ I am answering questions about NIRS, not myself."
+
+52
+00:02:50,720 --> 00:02:52,340
+ Let's keep it to NIRS.
+
+53
+00:02:52,340 --> 00:02:57,020
+ As we have no questions for the moment though, I just drank a ginormous amount of coffee.
+
+54
+00:02:57,020 --> 00:03:02,000
+ I've got to do a couple of errands after the office hours segment here, but then I hope
+
+55
+00:03:02,000 --> 00:03:05,100
+ to not leave the house for the rest of the evening which will be fantastic.
+
+56
+00:03:05,100 --> 00:03:06,420
+ Who wants to go outside?
+
+57
+00:03:06,420 --> 00:03:07,420
+ Outside's weird.
+
+58
+00:03:07,420 --> 00:03:08,780
+ There's stuff out there.
+
+59
+00:03:08,780 --> 00:03:09,780
+ Things.
+
+60
+00:03:09,780 --> 00:03:10,780
+ People.
+
+61
+00:03:10,780 --> 00:03:13,980
+ Hey, there are no other questions Lex, there's not much else to talk about.
+
+62
+00:03:13,980 --> 00:03:17,820
+ Question from Amber who says "Is the renderer Geens was working on made any progress?
+
+63
+00:03:17,820 --> 00:03:23,260
+ I believe you can take a look at the voidanchor discord or voidanchor patreon and voidanchor
+
+64
+00:03:23,260 --> 00:03:24,260
+ twitter for that.
+
+65
+00:03:24,260 --> 00:03:26,060
+ I will get links to those shortly."
+
+66
+00:03:26,060 --> 00:03:29,500
+ Okay, I found their github.
+
+67
+00:03:29,500 --> 00:03:31,820
+ Voidanchor is the group which are making the renderer.
+
+68
+00:03:31,820 --> 00:03:34,420
+ It's a complicated story.
+
+69
+00:03:34,420 --> 00:03:36,300
+ Sure they had a twitter, let me find it.
+
+70
+00:03:36,300 --> 00:03:39,780
+ You know when you're like typing in the search of twitter and it's just like I'm gonna show
+
+71
+00:03:39,780 --> 00:03:45,300
+ you exactly what you want but because you like stopped typing or continued typing I'm
+
+72
+00:03:45,300 --> 00:03:47,400
+ gonna remove that from the search list?
+
+73
+00:03:47,400 --> 00:03:49,240
+ It's like it's very confusing.
+
+74
+00:03:49,240 --> 00:03:55,700
+ I typed in the word voi and it came up with that tweet, that twitter account I just linked
+
+75
+00:03:55,700 --> 00:04:00,100
+ and then I typed D and it disappeared from the search results and I'm like what?
+
+76
+00:04:00,100 --> 00:04:04,620
+ I literally continued the name of the account and it's like no I'll remove that from the
+
+77
+00:04:04,620 --> 00:04:05,820
+ search results.
+
+78
+00:04:05,820 --> 00:04:07,300
+ What the hell twitter?
+
+79
+00:04:07,300 --> 00:04:10,820
+ Anyway Amber asks "Will Neos ever go open?
+
+80
+00:04:10,820 --> 00:04:12,780
+ Copy left in codebase licensing?"
+
+81
+00:04:12,780 --> 00:04:17,280
+ There is an issue on the Neos public issue list about open sourcing which you can go
+
+82
+00:04:17,280 --> 00:04:18,800
+ ahead and read.
+
+83
+00:04:18,800 --> 00:04:20,440
+ Open source.
+
+84
+00:04:20,440 --> 00:04:22,560
+ There it is.
+
+85
+00:04:22,560 --> 00:04:26,920
+ Shadow says "You're probably hearing this for the thousandth time and for that I'm sorry
+
+86
+00:04:26,920 --> 00:04:28,480
+ but there's only sort of plan when we get updates again.
+
+87
+00:04:28,480 --> 00:04:31,760
+ Do you have any idea whether it will be a gradual start or one massive update?
+
+88
+00:04:31,760 --> 00:04:35,520
+ Please read the announcements channel for any more updates on that situation."
+
+89
+00:04:35,520 --> 00:04:38,680
+ Blue says "With the dispute going on have the Neos team been allowed to work on the
+
+90
+00:04:38,680 --> 00:04:41,280
+ code and just not send it to prod or are you guys not allowed to search the code?"
+
+91
+00:04:41,280 --> 00:04:44,420
+ I am still touching the code, Frix is still touching the code, we're just not sending
+
+92
+00:04:44,420 --> 00:04:47,100
+ it to prod and yeah.
+
+93
+00:04:47,100 --> 00:04:49,440
+ Please read the announcements channel for more information.
+
+94
+00:04:49,440 --> 00:04:54,140
+ For those who are about ready to type but there are no updates in announcements, yeah
+
+95
+00:04:54,140 --> 00:04:57,020
+ like the most recent update is in announcements.
+
+96
+00:04:57,020 --> 00:04:58,020
+ That's all I got to tell.
+
+97
+00:04:58,020 --> 00:05:01,620
+ For those who are then about to tell are from that, well that's frustrating.
+
+98
+00:05:01,620 --> 00:05:02,620
+ Yeah I know.
+
+99
+00:05:02,620 --> 00:05:04,940
+ Quit my job for this stuff, it's really frustrating.
+
+100
+00:05:04,940 --> 00:05:07,300
+ Amber says "Any new components?"
+
+101
+00:05:07,300 --> 00:05:08,700
+ None which I can talk about.
+
+102
+00:05:08,700 --> 00:05:12,160
+ The remote connection point driver was added ages ago, I think you can search it in the
+
+103
+00:05:12,160 --> 00:05:13,400
+ update logs to find it.
+
+104
+00:05:13,400 --> 00:05:19,000
+ It was back when Frix was working on the circuit simulator stuff which is an educational product
+
+105
+00:05:19,000 --> 00:05:25,400
+ to teach children circuit boards and stuff like that using circuit board stuff.
+
+106
+00:05:25,400 --> 00:05:29,000
+ Sorry, it's been a while since that project existed.
+
+107
+00:05:29,000 --> 00:05:33,480
+ We had hoped eventually we would be able to release that to the whole like crew, like
+
+108
+00:05:33,480 --> 00:05:34,480
+ to everyone on Neos.
+
+109
+00:05:34,480 --> 00:05:41,460
+ It would allow you to like, using Neos interaction that you're aware of, drag and drop capacitors
+
+110
+00:05:41,460 --> 00:05:44,460
+ onto a circuit board and then have electricity go through them.
+
+111
+00:05:44,460 --> 00:05:49,740
+ Of course simulate it, but like it would almost be like an additional language available to
+
+112
+00:05:49,740 --> 00:05:55,460
+ you built using the languages available in Neos so it was quite cool.
+
+113
+00:05:55,460 --> 00:05:58,100
+ I mentioned for medical, yeah for, so for the medical project that's actually a third
+
+114
+00:05:58,100 --> 00:05:59,380
+ party thing.
+
+115
+00:05:59,380 --> 00:06:06,640
+ I work for myself slash a sort of company that we haven't incorporated yet doing medical
+
+116
+00:06:06,640 --> 00:06:12,160
+ research with another user, but then with SHFR here on the Neos Discord we do medical
+
+117
+00:06:12,160 --> 00:06:13,160
+ projects.
+
+118
+00:06:13,160 --> 00:06:22,800
+ I need updates to the tube wire mesh to make it less twisty and seeing as I can read the
+
+119
+00:06:22,800 --> 00:06:26,580
+ source code, there is a humongous block of code in the tube wire mesh that's combated
+
+120
+00:06:26,580 --> 00:06:31,340
+ out that says this reduces twisting but I don't know how to fix it or something to that
+
+121
+00:06:31,340 --> 00:06:34,960
+ effect and that was made by Shrix.
+
+122
+00:06:34,960 --> 00:06:39,680
+ So at some point when I am able to I'm going to be looking at that code and trying to reduce
+
+123
+00:06:39,680 --> 00:06:41,040
+ the twist there.
+
+124
+00:06:41,040 --> 00:06:46,300
+ It's a complicated matter but it's nothing to do with actual Neos team stuff.
+
+125
+00:06:46,300 --> 00:06:51,100
+ Jackal says if there were one thing in the world of building that you would recommend
+
+126
+00:06:51,100 --> 00:06:54,000
+ a newbie go after first, what is it?
+
+127
+00:06:54,000 --> 00:06:55,820
+ Keep your ideas small.
+
+128
+00:06:55,820 --> 00:06:59,480
+ I've heard a lot of people who struggle to learn logics, I've said this a few times,
+
+129
+00:06:59,480 --> 00:07:04,600
+ I apologize if you've heard this rant before, who want to learn logics and their mechanism
+
+130
+00:07:04,600 --> 00:07:08,360
+ for learning logics is different than their mechanism for learning sort of everything
+
+131
+00:07:08,360 --> 00:07:12,660
+ else that they have in their life, which is very common and understandable.
+
+132
+00:07:12,660 --> 00:07:16,440
+ So their motivation for learning logics is probably like let's build a gun or maybe a
+
+133
+00:07:16,440 --> 00:07:19,200
+ game map or something really, really complicated like that.
+
+134
+00:07:19,200 --> 00:07:22,400
+ And so when they ask for help in learning logics, they want to jump ahead and they want
+
+135
+00:07:22,400 --> 00:07:26,400
+ to build a gun or they want to build something really, really complicated.
+
+136
+00:07:26,400 --> 00:07:30,320
+ It's important to remember to learn the basics before you learn the advanced stuff.
+
+137
+00:07:30,320 --> 00:07:34,540
+ So if you're struggling to learn logics, try adding two numbers together.
+
+138
+00:07:34,540 --> 00:07:37,260
+ And if you don't know how to do that, learn how to do that in logics.
+
+139
+00:07:37,260 --> 00:07:41,820
+ And then the moment that you can spawn those nodes which add two numbers together, you
+
+140
+00:07:41,820 --> 00:07:44,580
+ are not allowed to say that you don't know logics anymore because you know how to add
+
+141
+00:07:44,580 --> 00:07:45,920
+ two numbers together.
+
+142
+00:07:45,920 --> 00:07:49,140
+ You can say that you're not proficient or that you're a beginner in logics, but you
+
+143
+00:07:49,140 --> 00:07:52,260
+ actually know how to spawn those nodes.
+
+144
+00:07:52,260 --> 00:07:56,720
+ That's another part of learning is make sure that you are giving yourself credit where
+
+145
+00:07:56,720 --> 00:07:57,720
+ it's due.
+
+146
+00:07:57,720 --> 00:07:59,660
+ Yeah, okay, you don't know everything.
+
+147
+00:07:59,660 --> 00:08:04,240
+ You're not like a prime or a ukulele of the world who can do basically anything with a
+
+148
+00:08:04,240 --> 00:08:07,880
+ moment's notice, but you know how to add two numbers together.
+
+149
+00:08:07,880 --> 00:08:09,160
+ What do you want to do next?
+
+150
+00:08:09,160 --> 00:08:11,440
+ Let's try subtracting two numbers.
+
+151
+00:08:11,440 --> 00:08:14,180
+ And then you've learned two nodes, right?
+
+152
+00:08:14,180 --> 00:08:15,960
+ And then just keep building it from there.
+
+153
+00:08:15,960 --> 00:08:20,160
+ Good point of view on learning logics is to avoid any node which has an impulse, which
+
+154
+00:08:20,160 --> 00:08:21,640
+ is the white data type.
+
+155
+00:08:21,640 --> 00:08:27,100
+ Any impulse receiving or using node is a little bit more complicated.
+
+156
+00:08:27,100 --> 00:08:29,240
+ So try to stick to nodes that don't have impulses.
+
+157
+00:08:29,240 --> 00:08:33,700
+ Just start just whilst you're learning and you'll have a better time learning because
+
+158
+00:08:33,700 --> 00:08:35,840
+ the impulse nodes are more complicated.
+
+159
+00:08:35,840 --> 00:08:41,640
+ And then introduce a few impulse nodes later once you've learned those.
+
+160
+00:08:41,640 --> 00:08:48,560
+ Outside the world of logics, also consider learning just basic planning and sort of management
+
+161
+00:08:48,560 --> 00:08:50,060
+ of projects.
+
+162
+00:08:50,060 --> 00:08:54,640
+ We have this every single year with the MMC, and it's not reared its head yet, but I guarantee
+
+163
+00:08:54,640 --> 00:08:59,020
+ it will on what I call submission week, which is the week leading up to the first of March.
+
+164
+00:08:59,020 --> 00:09:02,540
+ People have no idea how to publish, they have no idea how to save a world, they have no
+
+165
+00:09:02,540 --> 00:09:04,060
+ idea how to edit the tags.
+
+166
+00:09:04,060 --> 00:09:06,020
+ It's like, go learn that right now.
+
+167
+00:09:06,020 --> 00:09:12,060
+ Contrary to popular opinion, I don't care, and the team don't care if you publish junk.
+
+168
+00:09:12,060 --> 00:09:18,620
+ So if you want to make a red grassy world and call it, sorry to pick on you but you
+
+169
+00:09:18,620 --> 00:09:22,300
+ are asking the question, jackal girls, red grass world, and you want to publish that
+
+170
+00:09:22,300 --> 00:09:23,700
+ as a world, go for it.
+
+171
+00:09:23,700 --> 00:09:26,740
+ It's great, thank you for making a world and publishing it to Neos.
+
+172
+00:09:26,740 --> 00:09:30,900
+ And in doing that, you'll learn how to publish and save worlds and edit tags and things like
+
+173
+00:09:30,900 --> 00:09:32,840
+ that before the submission deadline.
+
+174
+00:09:32,840 --> 00:09:36,900
+ And that leads to, again, just generic learning.
+
+175
+00:09:36,900 --> 00:09:40,980
+ On the topic of planning, the reason why that one's coming up a lot is, again, you know
+
+176
+00:09:40,980 --> 00:09:44,540
+ how many days there are till the end of the month, till the end of the MMC, yet we still
+
+177
+00:09:44,540 --> 00:09:48,780
+ have people that get to the end of it and their entry is not finished, or their entry
+
+178
+00:09:48,780 --> 00:09:51,260
+ is rushed.
+
+179
+00:09:51,260 --> 00:09:52,620
+ Those things can sort of do that.
+
+180
+00:09:52,620 --> 00:09:54,740
+ There's an article on learning things faster.
+
+181
+00:09:54,740 --> 00:10:03,060
+ I haven't validated every single part of this article, but I like the abbreviation, which
+
+182
+00:10:03,060 --> 00:10:04,140
+ keeps getting more letters.
+
+183
+00:10:04,140 --> 00:10:08,140
+ It used to be faster, now it's faster.
+
+184
+00:10:08,140 --> 00:10:11,180
+ So take a look at that one.
+
+185
+00:10:11,180 --> 00:10:15,540
+ So I'll summarize, but first of all, it's forget.
+
+186
+00:10:15,540 --> 00:10:20,660
+ So forget comes up a lot when it comes to logics, because people, they try to compare
+
+187
+00:10:20,660 --> 00:10:21,660
+ it to other programming languages.
+
+188
+00:10:21,660 --> 00:10:25,180
+ They're like, but I know Python, and it's like, okay, well, let's assume you didn't
+
+189
+00:10:25,180 --> 00:10:26,180
+ know Python.
+
+190
+00:10:26,180 --> 00:10:30,340
+ Would it make it easier to learn logics if you didn't think about Python all the time?
+
+191
+00:10:30,340 --> 00:10:33,540
+ And in some cases, yes, because it means that you wouldn't be comparing it back.
+
+192
+00:10:33,540 --> 00:10:37,900
+ So if we get people all the time that do this, they come in, and they're like, where are
+
+193
+00:10:37,900 --> 00:10:41,760
+ variables, where are ifs, where are functions, where are classes in logics?
+
+194
+00:10:41,760 --> 00:10:45,260
+ And those things, while they do exist, they exist in different ways.
+
+195
+00:10:45,260 --> 00:10:50,220
+ So if you forget what you know about the existing programming languages, but take the technical
+
+196
+00:10:50,220 --> 00:10:55,500
+ intuition, the technical logic, and apply that to logics, you might have a better time
+
+197
+00:10:55,500 --> 00:10:57,700
+ learning it.
+
+198
+00:10:57,700 --> 00:10:59,300
+ Active is a very important one as well.
+
+199
+00:10:59,300 --> 00:11:03,780
+ I've seen a lot of people who are unfortunately just lazy when it comes to learning.
+
+200
+00:11:03,780 --> 00:11:08,380
+ If you remember learning your ABCs, I mean, I can't speak for everyone, of course, but
+
+201
+00:11:08,380 --> 00:11:12,940
+ I had to write the word "a" on a piece of paper like 400 times.
+
+202
+00:11:12,940 --> 00:11:16,860
+ Like, it was an exercise sheet at school, and it just had like "a" and a line, and
+
+203
+00:11:16,860 --> 00:11:20,220
+ I had to just continually write "a," and I continually wrote "a" to learn how
+
+204
+00:11:20,220 --> 00:11:21,220
+ to write.
+
+205
+00:11:21,220 --> 00:11:22,780
+ And then I continually wrote "b," and it was boring.
+
+206
+00:11:22,780 --> 00:11:24,220
+ It was boring as hell.
+
+207
+00:11:24,220 --> 00:11:25,220
+ But I did that.
+
+208
+00:11:25,220 --> 00:11:26,220
+ I don't remember why.
+
+209
+00:11:26,220 --> 00:11:29,020
+ I was too young to remember it, but I do remember writing it.
+
+210
+00:11:29,020 --> 00:11:31,540
+ And now I can write the letter "a," and I don't even think about it.
+
+211
+00:11:31,540 --> 00:11:32,660
+ You need to be active in it.
+
+212
+00:11:32,660 --> 00:11:35,820
+ If you look at it, you're like, "Yeah, okay, learning is... you need active learning."
+
+213
+00:11:35,820 --> 00:11:38,340
+ State, that's a good one as well.
+
+214
+00:11:38,340 --> 00:11:42,220
+ I see a lot of people who try and learn in occupied worlds or try and learn whilst they're
+
+215
+00:11:42,220 --> 00:11:45,300
+ watching videos or try and learn whilst they're playing games.
+
+216
+00:11:45,300 --> 00:11:48,620
+ You need to focus on it a little bit.
+
+217
+00:11:48,620 --> 00:11:49,620
+ Teach is very good.
+
+218
+00:11:49,620 --> 00:11:51,300
+ You can see that through my stuff.
+
+219
+00:11:51,300 --> 00:11:53,340
+ If you learn something, great.
+
+220
+00:11:53,340 --> 00:11:56,540
+ If you then teach someone else what you've learned, you'll remember it better.
+
+221
+00:11:56,540 --> 00:12:00,540
+ It sort of activates different areas of your brain and makes the information easier.
+
+222
+00:12:00,540 --> 00:12:04,180
+ And we'll stop there, because that's the original abbreviation, which is FAST.
+
+223
+00:12:04,180 --> 00:12:10,020
+ There are two more letters in the new one.
+
+224
+00:12:10,020 --> 00:12:14,460
+ Amber asks, "Will there be updates for critical issues on the client side, such as memory
+
+225
+00:12:14,460 --> 00:12:16,580
+ leaker for WebM videos of a negative changing scale?"
+
+226
+00:12:16,580 --> 00:12:17,580
+ That's still a problem right now.
+
+227
+00:12:17,580 --> 00:12:21,420
+ "We will update if there are major breaking issues."
+
+228
+00:12:21,420 --> 00:12:25,780
+ That one comes into the sort of category of "Dr. Doctor, it hurts when I do this, so don't
+
+229
+00:12:25,780 --> 00:12:26,780
+ do this."
+
+230
+00:12:26,780 --> 00:12:30,420
+ The recent update -- well, I say recent, it's last year -- that we did was actually sort
+
+231
+00:12:30,420 --> 00:12:35,300
+ of like a remote code execution thing with Blender.
+
+232
+00:12:35,300 --> 00:12:39,380
+ So we patched that one, because that was like a high security issue.
+
+233
+00:12:39,380 --> 00:12:46,820
+ Whereas this one is like, maybe don't spawn WebM videos of negative changing scale.
+
+234
+00:12:46,820 --> 00:12:51,940
+ Critical is like an overused word when it comes to issues, when it comes to security,
+
+235
+00:12:51,940 --> 00:12:53,620
+ when it comes to urgency.
+
+236
+00:12:53,620 --> 00:12:55,700
+ If everything is critical, nothing is critical.
+
+237
+00:12:55,700 --> 00:13:00,580
+ So we evaluate stuff when we see it, and if we do evaluate it as critical, we will usually
+
+238
+00:13:00,580 --> 00:13:02,140
+ do a patch for it.
+
+239
+00:13:02,140 --> 00:13:03,900
+ That is evaluated on a case-by-case basis.
+
+240
+00:13:03,900 --> 00:13:07,580
+ "Which reminds me, if you have a security issue like the Blender one, which we patched,
+
+241
+00:13:07,580 --> 00:13:11,220
+ see the changelog for information, please submit a security report following our security
+
+242
+00:13:11,220 --> 00:13:12,220
+ reporting policy."
+
+243
+00:13:12,220 --> 00:13:16,620
+ Lex says, "When publishing will already get set to public and submit it to the record
+
+244
+00:13:16,620 --> 00:13:21,500
+ to the G-NEO's group, would there be any way to even submit publish to another group?"
+
+245
+00:13:21,500 --> 00:13:23,820
+ There is actually a way to do that, but I don't know what it does.
+
+246
+00:13:23,820 --> 00:13:26,980
+ If you look at the world publishing platform, that's the thing you put the orb in and
+
+247
+00:13:26,980 --> 00:13:31,380
+ then it flies up, you can inspect that and then find the component which is responsible
+
+248
+00:13:31,380 --> 00:13:32,380
+ for publishing.
+
+249
+00:13:32,380 --> 00:13:34,500
+ I don't know what it's called.
+
+250
+00:13:34,500 --> 00:13:37,540
+ On there, there's a field which just says G-NEO's, and you can change that to whatever
+
+251
+00:13:37,540 --> 00:13:38,540
+ you want.
+
+252
+00:13:38,540 --> 00:13:40,620
+ But I don't know what the effect of that is.
+
+253
+00:13:40,620 --> 00:13:43,260
+ It's likely that that has no effect.
+
+254
+00:13:43,260 --> 00:13:47,980
+ There is like a more complicated sort of cataloging system for records, which are what worlds
+
+255
+00:13:47,980 --> 00:13:54,240
+ and items are, that may enable some functionality of that in the future, but is not enabling
+
+256
+00:13:54,240 --> 00:13:55,240
+ it right now.
+
+257
+00:13:55,240 --> 00:13:59,980
+ So I don't know what it does when you do that, but hey, maybe in the future.
+
+258
+00:13:59,980 --> 00:14:05,300
+ Brix talks a lot about the sort of system of subreddits occasionally, likening that
+
+259
+00:14:05,300 --> 00:14:10,340
+ to how that could be applied to, you know, maybe there are different lists for different
+
+260
+00:14:10,340 --> 00:14:14,660
+ things and you can publish it to, I don't know, let's just say there's a furry world
+
+261
+00:14:14,660 --> 00:14:18,060
+ list and then a regular world list and stuff like that.
+
+262
+00:14:18,060 --> 00:14:19,060
+ Skin on my fingers is flaking.
+
+263
+00:14:19,060 --> 00:14:20,740
+ I'm going to sort of touch something weird.
+
+264
+00:14:20,740 --> 00:14:25,260
+ Sometimes this happens when you do too much laundry or dishes.
+
+265
+00:14:25,260 --> 00:14:27,100
+ Laundry detergent is horrible, by the way.
+
+266
+00:14:27,100 --> 00:14:28,380
+ Use less of it.
+
+267
+00:14:28,380 --> 00:14:29,380
+ Look it up.
+
+268
+00:14:29,380 --> 00:14:32,180
+ You don't need to use as much as it says that you need to use.
+
+269
+00:14:32,180 --> 00:14:33,180
+ Anyway.
+
+270
+00:14:33,180 --> 00:14:36,940
+ Shadow says, is there documentation on previous exploits or do you prefer to keep that secret
+
+271
+00:14:36,940 --> 00:14:37,940
+ for safety reasons?
+
+272
+00:14:37,940 --> 00:14:40,460
+ NeoRc via Blender sounds interesting.
+
+273
+00:14:40,460 --> 00:14:43,500
+ I believe it's logged how it was done in the updates.
+
+274
+00:14:43,500 --> 00:14:46,940
+ Maybe we try and sort of talk about it a little bit in the updates.
+
+275
+00:14:46,940 --> 00:14:49,340
+ I don't think we'd ever be publishing reports on it.
+
+276
+00:14:49,340 --> 00:14:51,180
+ I hope that we would do in the future.
+
+277
+00:14:51,180 --> 00:14:52,740
+ Let me see.
+
+278
+00:14:52,740 --> 00:14:54,340
+ Yeah, you can see it.
+
+279
+00:14:54,340 --> 00:15:03,260
+ It's 2022, 128, 1335, emergency security fix, added URL input sanitation to end YouTube
+
+280
+00:15:03,260 --> 00:15:06,700
+ DL to prevent remote code execution with malicious video URLs.
+
+281
+00:15:06,700 --> 00:15:08,140
+ That was the issue there.
+
+282
+00:15:08,140 --> 00:15:09,700
+ Something to do with Blender.
+
+283
+00:15:09,700 --> 00:15:14,100
+ I think it was the when you open Blender on the way to end YouTube, there was another
+
+284
+00:15:14,100 --> 00:15:15,100
+ one with Blender.
+
+285
+00:15:15,100 --> 00:15:18,220
+ I might be confusing two of them because we had basically the same thing, one on end YouTube
+
+286
+00:15:18,220 --> 00:15:19,420
+ and one on Blender.
+
+287
+00:15:19,420 --> 00:15:23,540
+ The Blender one was there's a command line flag you can open Blender with where it will
+
+288
+00:15:23,540 --> 00:15:24,540
+ run a Python script.
+
+289
+00:15:24,540 --> 00:15:33,240
+ And so there would be a way to put a Python script somewhere in a Blender file and then
+
+290
+00:15:33,240 --> 00:15:36,980
+ run it via importing a file in Neos or something.
+
+291
+00:15:36,980 --> 00:15:42,380
+ So we just disabled the dash whatever it is in the Blender XE.
+
+292
+00:15:42,380 --> 00:15:47,740
+ There's an RC you can load with a postfix harmony patch of the world spawner.
+
+293
+00:15:47,740 --> 00:15:54,140
+ That sounds like a model plugin issue which doesn't have the same issues.
+
+294
+00:15:54,140 --> 00:15:57,700
+ There is not a list of open security issues for the reason that like they're security
+
+295
+00:15:57,700 --> 00:15:58,700
+ issues.
+
+296
+00:15:58,700 --> 00:16:01,700
+ So if you think it's serious, then please open a security report and we'll get back
+
+297
+00:16:01,700 --> 00:16:02,700
+ to you.
+
+298
+00:16:02,700 --> 00:16:05,840
+ Check the security reporting policy for more information on what we consider a security
+
+299
+00:16:05,840 --> 00:16:07,260
+ thing as well.
+
+300
+00:16:07,260 --> 00:16:11,560
+ We had a very nice report a while back that was unfortunately invalid because they had
+
+301
+00:16:11,560 --> 00:16:13,980
+ not read the security reporting policy.
+
+302
+00:16:13,980 --> 00:16:16,940
+ Morph says this is a UX question but I'm new to it and still looking through the videos
+
+303
+00:16:16,940 --> 00:16:20,860
+ you've made but is there a way to make a background of a mask 100% invisible while not using any
+
+304
+00:16:20,860 --> 00:16:21,860
+ text images on it?
+
+305
+00:16:21,860 --> 00:16:27,040
+ I can only seem to get it 99% before any text child disappears.
+
+306
+00:16:27,040 --> 00:16:31,740
+ Not quite sure what you're talking about there because when you add a mask, it by default
+
+307
+00:16:31,740 --> 00:16:40,080
+ will turn invisible until you check that like show mask graphic checkbox and then it'll
+
+308
+00:16:40,080 --> 00:16:41,940
+ like appear visible again.
+
+309
+00:16:41,940 --> 00:16:44,940
+ So I'm not quite sure.
+
+310
+00:16:44,940 --> 00:16:49,420
+ Either you're using a mask incorrectly or maybe you're misunderstanding what a mask
+
+311
+00:16:49,420 --> 00:16:50,420
+ does.
+
+312
+00:16:50,420 --> 00:16:51,420
+ I'm not sure.
+
+313
+00:16:51,420 --> 00:16:54,820
+ Yeah, anyone that should be able to help you out.
+
+314
+00:16:54,820 --> 00:16:56,780
+ Amber says any plans for ermai compliance?
+
+315
+00:16:56,780 --> 00:16:58,580
+ I don't know what ermai is.
+
+316
+00:16:58,580 --> 00:17:02,740
+ Is that open metaverse institute?
+
+317
+00:17:02,740 --> 00:17:07,980
+ There's a group of people that call themselves the metaverse standards group or something
+
+318
+00:17:07,980 --> 00:17:15,140
+ and they have documents, github issues, meetings, all sorts of stuff but I've yet to understand
+
+319
+00:17:15,140 --> 00:17:16,980
+ what they're producing and how they're producing it.
+
+320
+00:17:16,980 --> 00:17:24,580
+ It seems like there's a lot of conversation and information but not many actual specifications.
+
+321
+00:17:24,580 --> 00:17:30,700
+ I went through that entire website and I'm like can I find like an RFC or something and
+
+322
+00:17:30,700 --> 00:17:31,700
+ it was very confusing.
+
+323
+00:17:31,700 --> 00:17:32,940
+ I don't mean to insult them.
+
+324
+00:17:32,940 --> 00:17:35,260
+ I'm sure they're trying to get stuff together.
+
+325
+00:17:35,260 --> 00:17:38,060
+ It felt like there was a lot of bureaucracy going on there.
+
+326
+00:17:38,060 --> 00:17:40,900
+ Ozi has a question.
+
+327
+00:17:40,900 --> 00:17:45,260
+ Speaking of UX, a friend was using a UX text component and disabling the slot for visual
+
+328
+00:17:45,260 --> 00:17:46,260
+ effect.
+
+329
+00:17:46,260 --> 00:17:49,580
+ Even disabling the text component itself caused this too and disabling there is sometimes
+
+330
+00:17:49,580 --> 00:17:54,500
+ a frame or two of the entire alphabet of the font being displayed before fully going away.
+
+331
+00:17:54,500 --> 00:17:55,500
+ Do you know what happened?
+
+332
+00:17:55,500 --> 00:17:56,500
+ What's the cause of this?
+
+333
+00:17:56,500 --> 00:17:57,500
+ We couldn't nail it down.
+
+334
+00:17:57,500 --> 00:18:02,380
+ There is another one like identical to that which is when you'd like to disable an image
+
+335
+00:18:02,380 --> 00:18:06,580
+ slot sometimes you'll get like a flash of either the color of the image or a flash of
+
+336
+00:18:06,580 --> 00:18:07,580
+ pink.
+
+337
+00:18:07,580 --> 00:18:14,860
+ And I think that's got an issue so it might be the same thing.
+
+338
+00:18:14,860 --> 00:18:16,740
+ Yes I believe it's this issue here.
+
+339
+00:18:16,740 --> 00:18:19,740
+ So it might be the same thing as that one.
+
+340
+00:18:19,740 --> 00:18:23,020
+ UX sprite providers flash on image sprite changes.
+
+341
+00:18:23,020 --> 00:18:27,420
+ And there's another one, I think there's another one for like this one too.
+
+342
+00:18:27,420 --> 00:18:31,420
+ It all appears to be the same thing, which is like when you disable or enable stuff,
+
+343
+00:18:31,420 --> 00:18:32,420
+ weird stuff happen.
+
+344
+00:18:32,420 --> 00:18:37,220
+ Alright, let's head down to questions.
+
+345
+00:18:37,220 --> 00:18:43,260
+ Tiki says "Is there a goob way to reduce emissive on a Fresno material?"
+
+346
+00:18:43,260 --> 00:18:47,620
+ I haven't seen much use of the Fresno Imperial.
+
+347
+00:18:47,620 --> 00:18:50,780
+ Usually I don't have emissive on it, so unfortunately I don't know.
+
+348
+00:18:50,780 --> 00:18:53,380
+ Someone else may know the answer to that one.
+
+349
+00:18:53,380 --> 00:18:55,900
+ Amber says "What is the experimental write to file node?
+
+350
+00:18:55,900 --> 00:18:57,660
+ I can't find an edox on it."
+
+351
+00:18:57,660 --> 00:19:00,360
+ That's because it's experimental, so not many people use it.
+
+352
+00:19:00,360 --> 00:19:05,100
+ It's also difficult to find because it's hidden behind the show experimental checkbox in the
+
+353
+00:19:05,100 --> 00:19:06,980
+ logics tip.
+
+354
+00:19:06,980 --> 00:19:10,700
+ That one is best found in the update logs.
+
+355
+00:19:10,700 --> 00:19:18,660
+ I get that that's a really bad answer to that question, but we live in a society.
+
+356
+00:19:18,660 --> 00:19:24,580
+ The write to file node will write to a file, but only if your session is set to an unsafe
+
+357
+00:19:24,580 --> 00:19:25,580
+ mode.
+
+358
+00:19:25,580 --> 00:19:28,020
+ The unsafe mode is a checkbox when starting a session.
+
+359
+00:19:28,020 --> 00:19:32,700
+ When you set unsafe mode to true, you will be restricted to LAN-only sessions.
+
+360
+00:19:32,700 --> 00:19:37,860
+ That node was added for scientific research purposes, and is not designed to be used outside
+
+361
+00:19:37,860 --> 00:19:42,780
+ of unsafe mode sessions outside of not unsafe mode sessions.
+
+362
+00:19:42,780 --> 00:19:47,060
+ It's not designed to be used and cannot be used outside of sessions that do not have
+
+363
+00:19:47,060 --> 00:19:48,380
+ unsafe mode set.
+
+364
+00:19:48,380 --> 00:19:50,220
+ There we go, that's a mouthful.
+
+365
+00:19:50,220 --> 00:19:54,780
+ This is a big one.
+
+366
+00:19:54,780 --> 00:19:56,660
+ Threw things across the room accidentally.
+
+367
+00:19:56,660 --> 00:19:59,700
+ Let me read it.
+
+368
+00:19:59,700 --> 00:20:02,420
+ Raid says "Might not be able to explain this best, but there are cases when using dynamic
+
+369
+00:20:02,420 --> 00:20:05,020
+ variables for global values is better for performance.
+
+370
+00:20:05,020 --> 00:20:08,660
+ An example comes to mind that we'll be using user from username many times across multiple
+
+371
+00:20:08,660 --> 00:20:11,700
+ different systems in an avatar, but to be able to replace that with a dynamic variable
+
+372
+00:20:11,700 --> 00:20:17,020
+ of active user, your user is referred to a single global check for your user is not insignificant
+
+373
+00:20:17,020 --> 00:20:19,780
+ enough to be worth it outside of the workflow."
+
+374
+00:20:19,780 --> 00:20:23,780
+ If you are using user from username on an avatar, you're doing it wrong.
+
+375
+00:20:23,780 --> 00:20:26,540
+ You should use get active user or get active user self.
+
+376
+00:20:26,540 --> 00:20:28,620
+ But as an example, it's good.
+
+377
+00:20:28,620 --> 00:20:30,860
+ I understand what you're saying.
+
+378
+00:20:30,860 --> 00:20:37,060
+ This comes up a lot in various things I'm doing and I've kind of found a way to do it.
+
+379
+00:20:37,060 --> 00:20:39,260
+ Which is I always make a dynamic variable for it.
+
+380
+00:20:39,260 --> 00:20:43,140
+ So if like for example, I've got a bunch of panels, it's hard, like I've got a ton of panels.
+
+381
+00:20:43,140 --> 00:20:50,420
+ Like I've got like a graphing panel, like an avatar, impairment panel, a file writing
+
+382
+00:20:50,420 --> 00:20:55,980
+ panel, eye movement simulator panel, all sorts of medical stuff.
+
+383
+00:20:55,980 --> 00:21:01,020
+ And on all of those cases, I have a dynamic variable on that panel, which is just like
+
+384
+00:21:01,020 --> 00:21:02,460
+ panel stroke user.
+
+385
+00:21:02,460 --> 00:21:06,180
+ And it usually means like either the user we're targeting, the user who's in charge
+
+386
+00:21:06,180 --> 00:21:10,620
+ of updating the panel in the cases of like fire on true and stuff like that.
+
+387
+00:21:10,620 --> 00:21:13,620
+ I will always use that dynamic variable.
+
+388
+00:21:13,620 --> 00:21:18,280
+ There are more reasons to do that beyond performance.
+
+389
+00:21:18,280 --> 00:21:21,300
+ It's really good for sort of like updates and stuff like that.
+
+390
+00:21:21,300 --> 00:21:24,860
+ For example, if you suddenly realize, hey, the user that should be updating the system
+
+391
+00:21:24,860 --> 00:21:29,460
+ isn't the one I thought it would be, you don't have to then go unpack a bunch of logics and
+
+392
+00:21:29,460 --> 00:21:31,540
+ pull it apart and find something.
+
+393
+00:21:31,540 --> 00:21:35,860
+ You have a single place where you manage the value of that user dynamic variable and then
+
+394
+00:21:35,860 --> 00:21:37,780
+ you use that throughout there.
+
+395
+00:21:37,780 --> 00:21:42,060
+ And it sets up a sort of like, for those who know traditional programming, I apologize
+
+396
+00:21:42,060 --> 00:21:48,540
+ because I know it's not this, but it sets up separation of concerns such that the logic
+
+397
+00:21:48,540 --> 00:21:52,180
+ over here on the right doesn't care about the user at all.
+
+398
+00:21:52,180 --> 00:21:56,700
+ It just listens to the dynamic variable and the logics on the left is the only thing that
+
+399
+00:21:56,700 --> 00:22:00,500
+ deals with the user and it just saves it to a single dynamic variable and you don't have
+
+400
+00:22:00,500 --> 00:22:01,500
+ to use for it.
+
+401
+00:22:01,500 --> 00:22:02,980
+ So I do recommend that approach.
+
+402
+00:22:02,980 --> 00:22:07,660
+ When it comes to performance, it depends what nodes you use and it's really hard to measure
+
+403
+00:22:07,660 --> 00:22:12,740
+ that on like a generic area.
+
+404
+00:22:12,740 --> 00:22:19,680
+ User from username does have a single like update thing that occurs when the inputted
+
+405
+00:22:19,680 --> 00:22:21,740
+ username values change.
+
+406
+00:22:21,740 --> 00:22:27,020
+ The user from username node will have to run its code to then find that user.
+
+407
+00:22:27,020 --> 00:22:31,060
+ Additionally, when any user leaves or joins a world, it might have to run again to double
+
+408
+00:22:31,060 --> 00:22:35,980
+ check that the user from username that it returned a user for didn't disappear.
+
+409
+00:22:35,980 --> 00:22:39,020
+ So there is a cost to that.
+
+410
+00:22:39,020 --> 00:22:44,380
+ But I wouldn't be able to tell you like five, seven, like two.
+
+411
+00:22:44,380 --> 00:22:45,380
+ I don't know.
+
+412
+00:22:45,380 --> 00:22:51,320
+ I don't know like how, what percentage of that or what like part of that would be measurable.
+
+413
+00:22:51,320 --> 00:22:56,240
+ So purely from a functional point of view, I do recommend using a global user thing.
+
+414
+00:22:56,240 --> 00:23:00,280
+ If it is something that's on avatar or a tool, though, and you know it's always going to
+
+415
+00:23:00,280 --> 00:23:03,540
+ be, and I said you know it's always going to be, you have to think about the design
+
+416
+00:23:03,540 --> 00:23:04,540
+ of your system.
+
+417
+00:23:04,540 --> 00:23:08,100
+ If you know that it's always going to be the user that is holding, equipping, parenting
+
+418
+00:23:08,100 --> 00:23:13,380
+ to, wearing, using active user would be absolutely fine as well.
+
+419
+00:23:13,380 --> 00:23:16,280
+ Get active user self as a node is quite performance.
+
+420
+00:23:16,280 --> 00:23:18,120
+ So don't worry about using that.
+
+421
+00:23:18,120 --> 00:23:21,700
+ I myself would always use the dynamic variable because there's been like hundreds of times
+
+422
+00:23:21,700 --> 00:23:25,940
+ where I'm like, yeah, it's always the person that's wearing the avatar until it suddenly
+
+423
+00:23:25,940 --> 00:23:26,940
+ isn't.
+
+424
+00:23:26,940 --> 00:23:35,300
+ Like as an example, I had a scientificy thing where there was a experiment patient, I guess
+
+425
+00:23:35,300 --> 00:23:37,180
+ like patient would be a better word.
+
+426
+00:23:37,180 --> 00:23:38,260
+ I don't know.
+
+427
+00:23:38,260 --> 00:23:42,180
+ And so they were wearing an avatar and I was using get active user.
+
+428
+00:23:42,180 --> 00:23:46,260
+ But the experimenter or the researcher, which is the person conducting the experiment was
+
+429
+00:23:46,260 --> 00:23:50,680
+ the person who actually needed to like get values and do stuff with that thing that they
+
+430
+00:23:50,680 --> 00:23:52,860
+ were wearing or using or holding.
+
+431
+00:23:52,860 --> 00:23:56,800
+ And so it made more sense for it to be the experimenter user and not the user that was
+
+432
+00:23:56,800 --> 00:23:58,200
+ wearing the avatar.
+
+433
+00:23:58,200 --> 00:24:02,380
+ And so I had to swap that all over to dynamic variables and now I just do it as a variable.
+
+434
+00:24:02,380 --> 00:24:03,380
+ It's much easier.
+
+435
+00:24:03,380 --> 00:24:05,740
+ Lex has again a good idea there, which is using it for slots.
+
+436
+00:24:05,740 --> 00:24:06,740
+ I do that a lot.
+
+437
+00:24:06,740 --> 00:24:10,440
+ I've actually started writing a lot of logic, which is like self-contained because of that
+
+438
+00:24:10,440 --> 00:24:11,880
+ process.
+
+439
+00:24:11,880 --> 00:24:18,220
+ So it will do a bunch of operations and then it will just set the result of those operations
+
+440
+00:24:18,220 --> 00:24:23,640
+ to either a value field, which is on the slot which I pack the logics into, or on a dynamic
+
+441
+00:24:23,640 --> 00:24:29,040
+ variable that it assumes is there and if it's not there, it will create it.
+
+442
+00:24:29,040 --> 00:24:33,720
+ And that way I can basically sort of, as much as you sort of reparent a cube or something,
+
+443
+00:24:33,720 --> 00:24:36,820
+ you can reparent bits of logics around and it just works.
+
+444
+00:24:36,820 --> 00:24:41,560
+ There is a horrific piece of logic in the virtual surgery world that we have that is
+
+445
+00:24:41,560 --> 00:24:47,640
+ doing exactly that for detecting which bone segment this particular object is nearest
+
+446
+00:24:47,640 --> 00:24:51,680
+ to, which won't make any sense unless you know what I'm doing.
+
+447
+00:24:51,680 --> 00:24:54,400
+ If you don't know what I'm talking about when I talk about virtual surgery, then you can
+
+448
+00:24:54,400 --> 00:24:58,500
+ head over to my channel and watch a three minute presentation about virtual surgical
+
+449
+00:24:58,500 --> 00:25:01,720
+ planning inside of Neos, which I'll go get for you.
+
+450
+00:25:01,720 --> 00:25:02,720
+ Right.
+
+451
+00:25:02,720 --> 00:25:07,440
+ Amber asks, "Does Neos policy say not to harass users in or out of game, which is to specify
+
+452
+00:25:07,440 --> 00:25:09,440
+ in game?"
+
+453
+00:25:09,440 --> 00:25:15,000
+ Please always report stuff that you have concerns with, but we are less able to, and in some
+
+454
+00:25:15,000 --> 00:25:21,040
+ cases, not able to police out of game contact or content.
+
+455
+00:25:21,040 --> 00:25:26,120
+ Example here might be, let's say a Neos user that you know has a Neos account is harassing
+
+456
+00:25:26,120 --> 00:25:29,320
+ you on Roblox or VRChat.
+
+457
+00:25:29,320 --> 00:25:32,180
+ Contact Roblox or VRChat support.
+
+458
+00:25:32,180 --> 00:25:34,180
+ We can't help you.
+
+459
+00:25:34,180 --> 00:25:36,320
+ Do always make a ticket though, just in case.
+
+460
+00:25:36,320 --> 00:25:40,460
+ We'd love to take a look at the situation and can advise you officially there.
+
+461
+00:25:40,460 --> 00:25:43,200
+ There's just less we can do if it's off platform.
+
+462
+00:25:43,200 --> 00:25:46,800
+ And then the final question, because we are actually eight minutes over time from Lex,
+
+463
+00:25:46,800 --> 00:25:50,880
+ is "What's the least amount of users you've seen online in Neos?"
+
+464
+00:25:50,880 --> 00:25:57,200
+ Seeing as I was around back in 2019, where like next to no one played it, I want to say
+
+465
+00:25:57,200 --> 00:26:03,080
+ less than 20, back in those days, I remember the first time I played it, I was looking
+
+466
+00:26:03,080 --> 00:26:09,920
+ around in Business Lawyers Avatar Tool World, and Nexolun came in, and they looked at, like
+
+467
+00:26:09,920 --> 00:26:14,160
+ there was a table in that world, some sort of like, you know, like storage table thing,
+
+468
+00:26:14,160 --> 00:26:18,120
+ and he looked at it, and he just, he made it bigger with the developer tip, and I'm
+
+469
+00:26:18,120 --> 00:26:19,120
+ like, "What?"
+
+470
+00:26:19,120 --> 00:26:21,660
+ And then I just kept playing the game, and here I am.
+
+471
+00:26:21,660 --> 00:26:26,160
+ You can also look back at the videos on Frick's YouTube channel, scroll all the way to the
+
+472
+00:26:26,160 --> 00:26:35,200
+ bottom, and you'll see times where there are two users on Neos, and to illustrate that
+
+473
+00:26:35,200 --> 00:26:40,960
+ there are more than two users for presentational matters, they would spawn headsets in the
+
+474
+00:26:40,960 --> 00:26:43,520
+ world, and they would put Wigglers on them.
+
+475
+00:26:43,520 --> 00:26:49,200
+ The whole reason the Wiggler component exists, and also the Wiggler tip exists, is to pretend
+
+476
+00:26:49,200 --> 00:26:52,120
+ that there are additional users in a world.
+
+477
+00:26:52,120 --> 00:26:53,320
+ And with that, we will leave off there.
+
+478
+00:26:53,320 --> 00:26:56,000
+ If you have any additional questions, please go ahead and drop them in the questions and
+
+479
+00:26:56,000 --> 00:27:01,420
+ help channel, direct message me, or, I don't know, send a carrier pigeon my way, it'll
+
+480
+00:27:01,420 --> 00:27:04,240
+ know where to go, and I will speak to you again next week.
+

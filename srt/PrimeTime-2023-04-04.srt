@@ -1,0 +1,1528 @@
+1
+00:00:00,000 --> 00:00:03,000
+ Welcome to the top of the hour, it is time for office hours.
+
+2
+00:00:03,000 --> 00:00:05,000
+ I'm going to go ahead and get started.
+
+3
+00:00:05,000 --> 00:00:09,000
+ So first we have a question which is about something that happened before the recording started,
+
+4
+00:00:09,000 --> 00:00:10,000
+ so I'll just restate it.
+
+5
+00:00:10,000 --> 00:00:14,000
+ Yeah, today I said I was having computer troubles in the office hours text chat.
+
+6
+00:00:14,000 --> 00:00:18,000
+ What happened there was I have a KVM because I used to have a work machine
+
+7
+00:00:18,000 --> 00:00:21,000
+ and I just set it up at this desk, you know, all like COVID matters.
+
+8
+00:00:21,000 --> 00:00:25,000
+ And I got really used to it because it made a great separation between work and home.
+
+9
+00:00:25,000 --> 00:00:28,000
+ Like I didn't have Discord installed on the work machine, for example,
+
+10
+00:00:28,000 --> 00:00:31,000
+ so you guys couldn't bug me about Neos issues.
+
+11
+00:00:31,000 --> 00:00:34,000
+ But then I didn't need the KVM, but I didn't disconnect the KVM
+
+12
+00:00:34,000 --> 00:00:38,000
+ because I probably will at some point need to use it again.
+
+13
+00:00:38,000 --> 00:00:40,000
+ So it's still plumbed in and it's got a switch,
+
+14
+00:00:40,000 --> 00:00:45,000
+ and the left setting of the switch is "Home computer, Neos, oog oog"
+
+15
+00:00:45,000 --> 00:00:50,000
+ and the right switch of the KVM is "Computer that does not exist".
+
+16
+00:00:50,000 --> 00:00:55,000
+ And in cleaning my desk yesterday I had knocked that switch over to the second computer,
+
+17
+00:00:55,000 --> 00:00:59,000
+ and so when I turned on the computer today it was like "I don't work".
+
+18
+00:00:59,000 --> 00:01:03,000
+ And it was working, it just didn't have any inputs or outputs
+
+19
+00:01:03,000 --> 00:01:09,000
+ because the KVM was like "I'm a KVM, doing my KVM things".
+
+20
+00:01:09,000 --> 00:01:14,000
+ So that's why Lex then asked "How did you figure out it was the KVM?"
+
+21
+00:01:14,000 --> 00:01:19,000
+ KVM's got an LED on it, and as I sort of looked down in despair at my keyboard
+
+22
+00:01:19,000 --> 00:01:22,000
+ as I was whacking keys on my keyboard to see if it worked,
+
+23
+00:01:22,000 --> 00:01:27,000
+ I noticed the LED was in the wrong spot, so I changed it back to the correct position.
+
+24
+00:01:27,000 --> 00:01:28,000
+ And then I felt very silly.
+
+25
+00:01:28,000 --> 00:01:30,000
+ Anyway, moving onwards.
+
+26
+00:01:30,000 --> 00:01:33,000
+ Revi says "Didn't know that there was an Office Hours on Tuesday".
+
+27
+00:01:33,000 --> 00:01:40,000
+ I am the only Office Hours other than the moderation Office Hours on Sunday that exists right now.
+
+28
+00:01:40,000 --> 00:01:42,000
+ You can always check out the schedule on wiki.neos.com.
+
+29
+00:01:42,000 --> 00:01:45,000
+ I am the longest running Office Hours segment,
+
+30
+00:01:45,000 --> 00:01:51,000
+ and I am trying to keep that going, a bit like a streak on a video game.
+
+31
+00:01:51,000 --> 00:01:55,000
+ I do miss some, but when I miss some I let you know ahead of time.
+
+32
+00:01:55,000 --> 00:01:57,000
+ I don't purposely miss some.
+
+33
+00:01:57,000 --> 00:02:00,000
+ There have been a couple occurrences where I've sort of ran across the room
+
+34
+00:02:00,000 --> 00:02:03,000
+ whilst cooking dinner and been like "Oh crap, it's Office Hours!"
+
+35
+00:02:03,000 --> 00:02:08,000
+ and done Office Hours whilst running backwards and forwards across my room, cooking dinner.
+
+36
+00:02:08,000 --> 00:02:12,000
+ If you know which one that is and you find that recording, good.
+
+37
+00:02:12,000 --> 00:02:14,000
+ Because you probably won't be able to tell.
+
+38
+00:02:14,000 --> 00:02:16,000
+ Anyway, moving forwards.
+
+39
+00:02:16,000 --> 00:02:20,000
+ Ozi asks "Do you have any suggestions for doing click videos for Tutorials for Neos?"
+
+40
+00:02:20,000 --> 00:02:26,000
+ For some reason it takes me a good five takes to explain even the simplest piece of logic to know how to use it.
+
+41
+00:02:26,000 --> 00:02:28,000
+ That's what I do.
+
+42
+00:02:28,000 --> 00:02:32,000
+ So, you know, long been told "Hey, no editing".
+
+43
+00:02:32,000 --> 00:02:38,000
+ If a video takes ten minutes to record, and I can do it in five takes,
+
+44
+00:02:38,000 --> 00:02:46,000
+ and the fifth take is a good one, that means the net total time for that video taken to be produced is 50 minutes.
+
+45
+00:02:46,000 --> 00:02:50,000
+ And often it's less than that, right? So 50 minutes for a ten minute video.
+
+46
+00:02:50,000 --> 00:02:57,000
+ If I were to put all of that 50 minutes of footage into an editor, I would start min-maxing it.
+
+47
+00:02:57,000 --> 00:03:01,000
+ Where I'd be like "Oh, I didn't like the delivery of that line".
+
+48
+00:03:01,000 --> 00:03:08,000
+ You had a mild, like, slur of your words, which frequently happen because English is just not my first language apparently, even though it literally is.
+
+49
+00:03:08,000 --> 00:03:12,000
+ In that particular sentence you should re-record it.
+
+50
+00:03:12,000 --> 00:03:16,000
+ People say "Don't use filler words like um or like or uh".
+
+51
+00:03:16,000 --> 00:03:19,000
+ And I'm just like, as you can tell, I'm just "But why?"
+
+52
+00:03:19,000 --> 00:03:32,000
+ So it would then min-max and it would turn into "Great, this 50 minutes of footage now needs to be processed for an hour, maybe two hours, all to get like a perfect ten minute video".
+
+53
+00:03:32,000 --> 00:03:38,000
+ Which of course then needs a thumbnail and an intro and the whole like "like and subscribe" shit.
+
+54
+00:03:38,000 --> 00:03:42,000
+ So it would turn into "Greater than 50 minutes".
+
+55
+00:03:42,000 --> 00:03:48,000
+ And that I think will always be the case, unless I learn editing sufficiently where I can get a video down.
+
+56
+00:03:48,000 --> 00:03:57,000
+ But then even then, with editing added, it adds the whole min-maxing thing where you're like "Hey, I want the best take of this".
+
+57
+00:03:57,000 --> 00:04:06,000
+ There's a great video which I'll dig up in a gap between questions from a creator where they talk about this phenomenon of sort of always acting.
+
+58
+00:04:06,000 --> 00:04:16,000
+ It's in relevance to a show by a - I'll just find the video and it will jog all the memory, my brain is not connecting there right now.
+
+59
+00:04:16,000 --> 00:04:22,000
+ It's a show called this, with this person and about this stuff by this YouTuber.
+
+60
+00:04:22,000 --> 00:04:27,000
+ All of those things are blank, but the moment I find the video I know exactly what I'm looking for.
+
+61
+00:04:27,000 --> 00:04:31,000
+ So I'll be able to remember all of those. Anyway, moving forwards.
+
+62
+00:04:31,000 --> 00:04:40,000
+ Lex asks "Any updates, game-wise, communication-wise on fixes for session thumbnails not working, Neo2p video links not working, Linux native users not being able to use Neo?"
+
+63
+00:04:40,000 --> 00:04:43,000
+ It's okay, I didn't realize that one existed anytime soon.
+
+64
+00:04:43,000 --> 00:04:46,000
+ The team are working on it, we are having communication about it.
+
+65
+00:04:46,000 --> 00:04:53,000
+ I have expressed our need to get everything in sync and working and we will work on it as soon as we can.
+
+66
+00:04:53,000 --> 00:04:56,000
+ I can look for that video now, can't I? Yes, I can.
+
+67
+00:04:58,000 --> 00:05:02,000
+ I think it's this channel.
+
+68
+00:05:02,000 --> 00:05:05,000
+ I'll do videos and then - yeah, there it is.
+
+69
+00:05:05,000 --> 00:05:14,000
+ Okay, this is a one hour video essay, but you'll understand a lot more about how the real world works and how YouTube works.
+
+70
+00:05:14,000 --> 00:05:19,000
+ And you'll also start to appreciate alternative forms of media as well.
+
+71
+00:05:19,000 --> 00:05:25,000
+ Super eye patch warfare about towards the end of that video he illustrates that -
+
+72
+00:05:25,000 --> 00:05:28,000
+ Okay, I'll basically give a brief summary.
+
+73
+00:05:28,000 --> 00:05:37,000
+ Nathan Fielder makes a bunch of documentaries where the longer you watch them, the longer it becomes uncertain if you're actually watching Nathan Fielder.
+
+74
+00:05:37,000 --> 00:05:43,000
+ So there are a variety of actors that exist in the world who are just always acting when they're in the public view.
+
+75
+00:05:43,000 --> 00:05:46,000
+ And so you never actually get their real personality.
+
+76
+00:05:46,000 --> 00:05:50,000
+ You can see this in cases like Nathan Fielder.
+
+77
+00:05:50,000 --> 00:05:56,000
+ There's also other ones - I think, what's her name? Not Miley Cyrus.
+
+78
+00:05:56,000 --> 00:05:58,000
+ There's a few pop singers that do the same thing as well, right?
+
+79
+00:05:58,000 --> 00:06:05,000
+ They are just like 100% like a different character because they are in the public eye than compared to sort of, I don't know, in their own house.
+
+80
+00:06:05,000 --> 00:06:10,000
+ And you know, it's just a really interesting way to look at things like that.
+
+81
+00:06:10,000 --> 00:06:19,000
+ And then throughout the video he says, while this may seem strange, you're actually always seeing it because of the way that YouTube promotes us to, you know, edit our videos.
+
+82
+00:06:19,000 --> 00:06:26,000
+ And so he then shows the like five or six takes of him saying that exact sentence, and he says, "And I pick the one that sounds the best.
+
+83
+00:06:26,000 --> 00:06:31,000
+ Even if I don't know why it sounds the best, I still have to record five and pick the fifth, you know, the best one."
+
+84
+00:06:31,000 --> 00:06:35,000
+ Engineered personality, that is a great term for it there, Evie, thank you.
+
+85
+00:06:35,000 --> 00:06:39,000
+ And that's what you're seeing a lot of the times when people edit their videos.
+
+86
+00:06:39,000 --> 00:06:45,000
+ You are seeing that in some aspects of me, of course, I can't control that because I do record multiple takes.
+
+87
+00:06:45,000 --> 00:06:55,000
+ But if the take is going well and I make a mild mistake, I'm just going to keep rolling so you like see a sort of fractured mirror of that as the video progresses.
+
+88
+00:06:55,000 --> 00:07:00,000
+ If I make more and more mistakes, like you're seeing a fractured vision of that engineered personality.
+
+89
+00:07:00,000 --> 00:07:06,000
+ And if you read the outtakes video, you're kind of seeing what my brain is doing 24/7 and also what most of the outtakes are.
+
+90
+00:07:06,000 --> 00:07:07,000
+ I literally, all of that.
+
+91
+00:07:07,000 --> 00:07:12,000
+ Moving forwards to Fuzzy's question, now we have another question, so I don't rant about Nathan Fielder for about an hour,
+
+92
+00:07:12,000 --> 00:07:15,000
+ but I could, or you could just watch the iPatchibles video about it, which is an hour long.
+
+93
+00:07:15,000 --> 00:07:20,000
+ Anyway, Fuzzy says, "Why is UIX such a pig to work with?"
+
+94
+00:07:20,000 --> 00:07:21,000
+ I totally agree.
+
+95
+00:07:21,000 --> 00:07:27,000
+ But they have a specificity, that's a complicated word to say when you haven't had enough coffee.
+
+96
+00:07:27,000 --> 00:07:33,000
+ "Putting text and images on a facet, then they don't scale down nicely when you install it on the dash and everywhere goes black."
+
+97
+00:07:33,000 --> 00:07:34,000
+ Hmm.
+
+98
+00:07:34,000 --> 00:07:41,000
+ One of the bigger problems of UIX in that area, I'd love to see that link by the way, Tron, sorry I'm like reading messages as they come in.
+
+99
+00:07:41,000 --> 00:07:49,000
+ So Fuzzy, one of the issues in that area is that whenever you develop UIX, you might have the tendency to sort of think about it in absolutes.
+
+100
+00:07:49,000 --> 00:07:56,000
+ So you are, I actually saw Easton do this, I don't know if Easton is here today, if you're here, I'm sorry I just like, called you out, I don't know if you're here.
+
+101
+00:07:56,000 --> 00:08:03,000
+ I saw Easton was developing a card game of some sort, and he was struggling making the sort of icons be the right size, etc.
+
+102
+00:08:03,000 --> 00:08:05,000
+ And again, it was this 'cause this problem.
+
+103
+00:08:05,000 --> 00:08:10,000
+ It's like, yeah, you might think that you want your image to be 50 pixels by 50 pixels on your facet,
+
+104
+00:08:10,000 --> 00:08:14,000
+ but what you're actually saying is, "I want it to take up 50 pixels of the available space to me."
+
+105
+00:08:14,000 --> 00:08:20,000
+ And then based on that facet scaling or shrinking, the available space shrinks and grows.
+
+106
+00:08:20,000 --> 00:08:23,000
+ So that's the problem that you're dealing with with images.
+
+107
+00:08:23,000 --> 00:08:30,000
+ On the image component itself, there is a checkbox called 'preserve aspect ratio', make sure that's checked on,
+
+108
+00:08:30,000 --> 00:08:35,000
+ and then that will preserve the aspect ratio of the image depending on sort of how weirdly it is stretched.
+
+109
+00:08:35,000 --> 00:08:41,000
+ It does that thing where it'll get sort of smaller and towards the center as you scale the facet.
+
+110
+00:08:41,000 --> 00:08:46,000
+ I highly recommend not using exact pixel values when doing facets.
+
+111
+00:08:46,000 --> 00:08:54,000
+ Use the flexible height and flexible width of the layout components to layout your UI, and then it'll work at any scale.
+
+112
+00:08:54,000 --> 00:09:02,000
+ Lex has some additional information here that says that there was a plan to set the scale of the UIX on the dash to be 1 instead of 0.005,
+
+113
+00:09:02,000 --> 00:09:07,000
+ and the unit scale to 1000 instead of 1, but the update never got released when the UIX meant for facets, needs to have this in mind,
+
+114
+00:09:07,000 --> 00:09:11,000
+ and use the old scaling method instead of the unit scale field.
+
+115
+00:09:11,000 --> 00:09:20,000
+ I've not used the unit scale field ever on both facets I've made and UI I've made, so I was not aware of either being a problem.
+
+116
+00:09:20,000 --> 00:09:25,000
+ They had some user like a month or two back that was trying to use unit scale for something and just didn't understand it,
+
+117
+00:09:25,000 --> 00:09:29,000
+ and I looked at the code and I'm like, "I don't understand either. Maybe that was that."
+
+118
+00:09:29,000 --> 00:09:39,000
+ Speaking about the engineer personality, there's also a very good video by philosophy_youtube about Abigail.
+
+119
+00:09:39,000 --> 00:09:42,000
+ Where are we? This one. No no no no no no.
+
+120
+00:09:42,000 --> 00:09:43,000
+ Yeah, this is it.
+
+121
+00:09:43,000 --> 00:09:50,000
+ So, Abigail came out as trans, I think, what's the date of this? I can't see the date, YouTube.
+
+122
+00:09:50,000 --> 00:09:52,000
+ Two years ago, yeah.
+
+123
+00:09:52,000 --> 00:10:02,000
+ And the way that they did it was they actually hired an actor to sort of read a script, and then the actor kind of like fades out,
+
+124
+00:10:02,000 --> 00:10:09,000
+ and then she walks into the room and goes like, "This is me," and it's again sort of like a massive break of the engineered personality,
+
+125
+00:10:09,000 --> 00:10:13,000
+ but then it was instantly into her new personality and it was really good.
+
+126
+00:10:13,000 --> 00:10:15,000
+ So there's that video.
+
+127
+00:10:15,000 --> 00:10:20,000
+ Morph asks, "I know that Sync Delegates is basically stuff behind the scenes, but could we get a better description of it in the future?"
+
+128
+00:10:20,000 --> 00:10:23,000
+ It pops up every now and again and there's no information about it.
+
+129
+00:10:23,000 --> 00:10:26,000
+ In the future, yes, you can get some more information on it.
+
+130
+00:10:26,000 --> 00:10:35,000
+ I still, when I see people overusing them, I like to sort of encourage them to sort of ask questions about what they're doing,
+
+131
+00:10:35,000 --> 00:10:38,000
+ because sometimes people are doing something incredibly wrong.
+
+132
+00:10:38,000 --> 00:10:43,000
+ Like I've seen people messing with Sync Delegates because they just didn't understand the right logic node, for example.
+
+133
+00:10:43,000 --> 00:10:47,000
+ And it's like, you don't need to understand Sync Delegates to use the right logic node.
+
+134
+00:10:47,000 --> 00:10:54,000
+ I also saw someone who was trying to use Sync Delegates to use the right node without unpacking it,
+
+135
+00:10:54,000 --> 00:10:58,000
+ because, you know, logic is quote "bad", it's not.
+
+136
+00:10:58,000 --> 00:11:00,000
+ So be careful.
+
+137
+00:11:00,000 --> 00:11:06,000
+ Lex says, "I'd like to run multiple headless sessions on different accounts. Is the only way to do that using multiple headless clients?"
+
+138
+00:11:06,000 --> 00:11:07,000
+ Currently, yes.
+
+139
+00:11:07,000 --> 00:11:13,000
+ I would love if we could have like a world override for the user,
+
+140
+00:11:13,000 --> 00:11:19,000
+ where you can, you know, for the start words configuration, you could put in a different username and password. That would be good.
+
+141
+00:11:19,000 --> 00:11:22,000
+ I actually don't know, though, if the engine is up to be like that.
+
+142
+00:11:22,000 --> 00:11:25,000
+ I know that like half of you here have decompiled it, so you'll understand what I'm saying.
+
+143
+00:11:25,000 --> 00:11:29,000
+ For those who haven't, or those that aren't technically minded,
+
+144
+00:11:29,000 --> 00:11:33,000
+ when you start up Neos and you log in a user, you basically inform the engine,
+
+145
+00:11:33,000 --> 00:11:35,000
+ "I am logging in as this user. I am this user."
+
+146
+00:11:35,000 --> 00:11:39,000
+ And the engine goes, "Okay, you are this user everywhere."
+
+147
+00:11:39,000 --> 00:11:46,000
+ And it like spreads your username far and wide, so like all things like the dash works, where it says your username,
+
+148
+00:11:46,000 --> 00:11:50,000
+ your contacts work, so you can get your messages, your user space, you know,
+
+149
+00:11:50,000 --> 00:11:54,000
+ it's like "Oh, you're out of space, you can't sync, so that works", you know.
+
+150
+00:11:54,000 --> 00:11:56,000
+ All those things.
+
+151
+00:11:56,000 --> 00:12:01,000
+ And so make multiple accounts working on the same executable would basically be like,
+
+152
+00:12:01,000 --> 00:12:07,000
+ "Don't spread it around so much. Get a smaller spread on that."
+
+153
+00:12:07,000 --> 00:12:16,000
+ Ah, Trom has found the Jacksepticeye video that I was looking for, so I would watch that after this.
+
+154
+00:12:16,000 --> 00:12:20,000
+ Revy commenting, "The headless stuff said it would be a lot of work for something only a few,
+
+155
+00:12:20,000 --> 00:12:22,000
+ very few small amount of people could benefit from."
+
+156
+00:12:22,000 --> 00:12:28,000
+ Yeah. This is again where it comes up, the sort of like juggling of things that we could work on.
+
+157
+00:12:28,000 --> 00:12:33,000
+ For example, would it be more beneficial to enable multiple user accounts for a headless client,
+
+158
+00:12:33,000 --> 00:12:37,000
+ or would it be more beneficial to make the headless client more efficient?
+
+159
+00:12:37,000 --> 00:12:42,000
+ Because if the headless client was more efficient, you could run multiple copies of it on the same hardware,
+
+160
+00:12:42,000 --> 00:12:46,000
+ and then you've got the same thing. And one of those might be easier than the other.
+
+161
+00:12:46,000 --> 00:12:50,000
+ I don't know about looking into it, but one of those may be easier than the other.
+
+162
+00:12:50,000 --> 00:12:54,000
+ And there goes another sort of XY problem, like what is your problem?
+
+163
+00:12:54,000 --> 00:12:58,000
+ Oh, you want to run more headless users on the same hardware, right?
+
+164
+00:12:58,000 --> 00:13:03,000
+ That would also be factored into the official server support that we have.
+
+165
+00:13:03,000 --> 00:13:11,000
+ Remember, headless clients is just sort of like a hold gap between now and when we would have official server support.
+
+166
+00:13:11,000 --> 00:13:14,000
+ That is right, yeah. One user could crash and not the other.
+
+167
+00:13:14,000 --> 00:13:18,000
+ I'm not sure that would occur beyond the world level.
+
+168
+00:13:18,000 --> 00:13:24,000
+ I mean, that's always in the thing. On headlases, you can have a single world on a headless crash,
+
+169
+00:13:24,000 --> 00:13:27,000
+ and you can have the entire headless crash. Like both of those happen.
+
+170
+00:13:27,000 --> 00:13:33,000
+ I don't know if that would change it. But yeah, if you used multiple headless clients on the same hardware,
+
+171
+00:13:33,000 --> 00:13:38,000
+ containerized or VMD or whatever, then even if the headless crashed,
+
+172
+00:13:38,000 --> 00:13:41,000
+ then it would only affect that one user's worlds.
+
+173
+00:13:41,000 --> 00:13:46,000
+ If you have no questions, I'll go ahead and mute, and we'll wait for some additional questions, guys.
+
+174
+00:13:46,000 --> 00:13:48,000
+ Type those questions if you've got them.
+
+175
+00:13:48,000 --> 00:13:53,000
+ Alright, we've got some questions bouncing up, so I'll go ahead and get those answered.
+
+176
+00:13:53,000 --> 00:13:57,000
+ So Ozzy says, "Related to the horrible clock logics I found earlier,
+
+177
+00:13:57,000 --> 00:14:01,000
+ what's the most horrifyingly unoptimized piece of logic you've seen?"
+
+178
+00:14:01,000 --> 00:14:07,000
+ We had an interesting run-in with the... there's like an old calculator, I think Outsider made it.
+
+179
+00:14:07,000 --> 00:14:13,000
+ It's parented to a PHX plate, which is... anyone that's played Garry's Mod knows exactly what that is.
+
+180
+00:14:13,000 --> 00:14:15,000
+ For anyone who doesn't, it's basically a metal plate.
+
+181
+00:14:15,000 --> 00:14:20,000
+ But for those who did play Garry's Mod, their brain just went, "Ooh, I know that!"
+
+182
+00:14:20,000 --> 00:14:24,000
+ It was made really early on in Logix's creation, and...
+
+183
+00:14:24,000 --> 00:14:26,000
+ I don't know, someone asked me, "How does it work?"
+
+184
+00:14:26,000 --> 00:14:29,000
+ And I unpacked it, and I just went, "I don't know."
+
+185
+00:14:29,000 --> 00:14:31,000
+ I have no idea!
+
+186
+00:14:31,000 --> 00:14:34,000
+ If you can find that piece of thing, unpack it, it'll just be like, "What the..."
+
+187
+00:14:34,000 --> 00:14:37,000
+ Ekka says, "Why cheese?" I don't answer cheese questions.
+
+188
+00:14:37,000 --> 00:14:41,000
+ Go all the way back to the first couple of office hours, you'll see the cheese questions there.
+
+189
+00:14:41,000 --> 00:14:46,000
+ That's why I don't, because if I don't have that stance, I'll just answer them every week, and we can't be having that.
+
+190
+00:14:46,000 --> 00:14:53,000
+ Jackal says, "Have you found that someone made an absolutely Rube Goldbergian Logix construction that was so awful it was beautiful?"
+
+191
+00:14:53,000 --> 00:14:57,000
+ Was it done on purpose, or just a miracle to some very strange mode of thinking?
+
+192
+00:14:57,000 --> 00:14:59,000
+ Yeah, Baxter does most of those.
+
+193
+00:14:59,000 --> 00:15:01,000
+ Shifty did one.
+
+194
+00:15:01,000 --> 00:15:06,000
+ She did a helicopter, where the helicopter blades are the Logix which powers the helicopter.
+
+195
+00:15:06,000 --> 00:15:09,000
+ Baxter does a few in that regard.
+
+196
+00:15:09,000 --> 00:15:13,000
+ I kind of see all of the meta memes as kind of that as well.
+
+197
+00:15:13,000 --> 00:15:20,000
+ You're using Logix to sort of break the... it's not the fourth wall because it's a video player,
+
+198
+00:15:20,000 --> 00:15:24,000
+ but I feel like there should be a wall term referred to for the video player, right?
+
+199
+00:15:24,000 --> 00:15:26,000
+ You're breaking the video player.
+
+200
+00:15:26,000 --> 00:15:29,000
+ Yes it is the fourth wall because some of the stuff comes out of the video player.
+
+201
+00:15:29,000 --> 00:15:31,000
+ You know what I mean though.
+
+202
+00:15:31,000 --> 00:15:35,000
+ What I haven't seen though is a true Rube Goldberg machine.
+
+203
+00:15:35,000 --> 00:15:45,000
+ It exists and is created just to have some sort of ever-changing, ever-expanding process or looping animation or something like that.
+
+204
+00:15:45,000 --> 00:15:51,000
+ There was an interesting show on... I'm going to do Minecraft for a second here, welcome to a rant.
+
+205
+00:15:51,000 --> 00:15:56,000
+ Over on a Minecraft YouTuber's channel, Direwolf20, if you know them, quite a big YouTuber.
+
+206
+00:15:56,000 --> 00:16:03,000
+ They did a show called Wrenched for a Bit, where four contestants, sometimes teams but usually just four people,
+
+207
+00:16:03,000 --> 00:16:10,000
+ were split into four quadrants of a map and they were given all of the items in all of the modpacks that were installed on the server.
+
+208
+00:16:10,000 --> 00:16:22,000
+ But they had to, in I think 20 or 30 minutes, create something that used a random block, a random fluid, and a random resource or something along those lines.
+
+209
+00:16:22,000 --> 00:16:28,000
+ So they had to incorporate three random objects and those were always good.
+
+210
+00:16:28,000 --> 00:16:32,000
+ Because sometimes the objects were functional, sometimes the objects were beautiful pieces of art.
+
+211
+00:16:32,000 --> 00:16:41,000
+ The best one I ever made was with Red Power 2 in Minecraft. This is going to be very difficult to explain but I'll try.
+
+212
+00:16:41,000 --> 00:16:49,000
+ So you know how sand falls when you place it above nothing? It'll fall to the ground in Minecraft.
+
+213
+00:16:49,000 --> 00:16:58,000
+ What I made was a Red Power 2 thing where the sand fell and then a Red Power 2 thing would break that block.
+
+214
+00:16:58,000 --> 00:17:07,000
+ The sand block would travel in a Red Power 2 tube up to the top where there was a Red Power 2 placement block which would then place the sand again.
+
+215
+00:17:07,000 --> 00:17:14,000
+ So what we then had is just an infinitely falling piece of sand and it was like, this is artistic.
+
+216
+00:17:14,000 --> 00:17:18,000
+ So I haven't seen anything big like that.
+
+217
+00:17:18,000 --> 00:17:27,000
+ Moving down to the next question, Morph says "How do I get the same function of deselect all from the dev tool as a button in my context menu?"
+
+218
+00:17:27,000 --> 00:17:32,000
+ If you equip the dev tool then it'll appear as a button in your context menu. Troll face.
+
+219
+00:17:32,000 --> 00:17:37,000
+ No, I know what you mean. You want it in there even when maybe you're not equipping the tool.
+
+220
+00:17:37,000 --> 00:17:43,000
+ I don't know if you can. That would be one of the cases where you might need to look into sync delegates.
+
+221
+00:17:43,000 --> 00:17:47,000
+ I wouldn't recommend that approach though. Just equip the tool.
+
+222
+00:17:47,000 --> 00:17:53,000
+ It's still in Neos Essentials? Maybe we should update Neos Essentials. I mean, I always should do that.
+
+223
+00:17:53,000 --> 00:17:58,000
+ So Ozzy was saying that the calculator of Doom is in Neos Essentials. Yeah, it is.
+
+224
+00:17:58,000 --> 00:18:03,000
+ Probably shouldn't be, but it is there. Yeah, it doesn't make any sense to me.
+
+225
+00:18:03,000 --> 00:18:05,000
+ There we go.
+
+226
+00:18:05,000 --> 00:18:10,000
+ Lex says "Would you know of an easy way to bake lighting into textures for a model?" I would use Blender.
+
+227
+00:18:10,000 --> 00:18:17,000
+ There's a couple of Blender add-ons which I purchased long ago, and I don't really remember purchasing them.
+
+228
+00:18:17,000 --> 00:18:23,000
+ But one of them just does all my light baking for me, but I can't remember what it's called because I haven't done light baking in about six months.
+
+229
+00:18:23,000 --> 00:18:26,000
+ So I'd have to go remind myself what it was called. There we go.
+
+230
+00:18:26,000 --> 00:18:34,000
+ Glavin says "I and several other users have an issue recently where Neos hitches every second or two. Seems to randomly happen, most when joining the world.
+
+231
+00:18:34,000 --> 00:18:38,000
+ Curious if you or others have any experience with this and some insight into what might be causing the issue."
+
+232
+00:18:38,000 --> 00:18:43,000
+ OK, so there could be a number of things. So number one is your avatar is too big. It's got too much stuff on it.
+
+233
+00:18:43,000 --> 00:18:48,000
+ I'm not going to say slot count because it's not related to slot count, despite what people say, it's the amount of stuff on the avatar.
+
+234
+00:18:48,000 --> 00:18:52,000
+ If you reduce the amount of stuff on your avatar, it will naturally reduce the slot count. Anyway.
+
+235
+00:18:52,000 --> 00:19:00,000
+ The worlds are too big and are doing the same thing as the avatar thing, so that could be that.
+
+236
+00:19:00,000 --> 00:19:06,000
+ Because yeah, I have random hitches when joining worlds and have had for like four plus years.
+
+237
+00:19:06,000 --> 00:19:13,000
+ In fact, I had the thing at the start of my playing Neos, but you have to restart it every 45 minutes because the garbage collector was just not doing its job.
+
+238
+00:19:13,000 --> 00:19:20,000
+ As for like recently anything changing, I can't really think. The only thing I can think of is because we're not going via CloudClaire anymore.
+
+239
+00:19:20,000 --> 00:19:29,000
+ Like if you're geographically coded far away from like our main location, then it might be because the assets are taking longer to download.
+
+240
+00:19:29,000 --> 00:19:32,000
+ I don't know. Maybe a log might help.
+
+241
+00:19:32,000 --> 00:19:36,000
+ If you can open an issue with a log file, I might be able to take a look.
+
+242
+00:19:36,000 --> 00:19:40,000
+ If they are increasing, it's definitely something we should look into.
+
+243
+00:19:40,000 --> 00:19:44,000
+ But I do get the hitches that you're describing just all the time.
+
+244
+00:19:44,000 --> 00:19:50,000
+ By the way, and this isn't going to affect the people that aren't in the audience, of course, so spread the word.
+
+245
+00:19:50,000 --> 00:19:56,000
+ When someone is loading into the world, don't run up and say hi to them until they've like moved or something.
+
+246
+00:19:56,000 --> 00:20:01,000
+ In fact, if you're making a world, make a loading hut of some kind in your world.
+
+247
+00:20:01,000 --> 00:20:08,000
+ Big Red Wolfie makes a loading hut in like they've got an island that you spawn in and then you teleport down to the main area.
+
+248
+00:20:08,000 --> 00:20:17,000
+ That's great. Most sort of club or theatre or like hangout worlds sometimes have like an elevator or maybe an entrance hall that you spawn in.
+
+249
+00:20:17,000 --> 00:20:20,000
+ That's fantastic. Don't run up to people who are loading.
+
+250
+00:20:20,000 --> 00:20:24,000
+ I literally can't see who you are and sometimes your audio is garbled as well.
+
+251
+00:20:24,000 --> 00:20:29,000
+ I have someone running up to me. They're entirely invisible. Sometimes their name badge loads first.
+
+252
+00:20:29,000 --> 00:20:31,600
+ They wave at me and they go like, "Ha!
+
+253
+00:20:31,600 --> 00:20:34,440
+ Right, right, right, right, right, right, right, right, right."
+
+254
+00:20:34,440 --> 00:20:39,920
+ And I'm just like, "I don't know who you are, what you look like, or anything like that.
+
+255
+00:20:39,920 --> 00:20:42,080
+ So just don't."
+
+256
+00:20:42,080 --> 00:20:46,400
+ Which also reminds me, move off of spawn.
+
+257
+00:20:46,400 --> 00:20:52,600
+ If spawn is a room or an area that is for loading, move off.
+
+258
+00:20:52,600 --> 00:20:55,680
+ Move off of spawn.
+
+259
+00:20:55,680 --> 00:20:59,720
+ I have no idea who you are, because you haven't loaded yet.
+
+260
+00:20:59,720 --> 00:21:02,080
+ I'm Aaron R. Says "Your headache feeling better?"
+
+261
+00:21:02,080 --> 00:21:04,520
+ No, it's got worse.
+
+262
+00:21:04,520 --> 00:21:09,600
+ Looking down for questions, Morph says "Speaking of avatars being too big, what's a reasonable
+
+263
+00:21:09,600 --> 00:21:10,600
+ sized avatar?
+
+264
+00:21:10,600 --> 00:21:14,600
+ I'm talking full IK for high performance avatars, even in something from 10 megabytes to 200
+
+265
+00:21:14,600 --> 00:21:15,600
+ megabytes."
+
+266
+00:21:15,600 --> 00:21:21,560
+ I don't want to give numbers that aren't researched, or evaluated or established.
+
+267
+00:21:21,560 --> 00:21:25,640
+ I know what I would personally do, but if I say them, people start quoting them, they're
+
+268
+00:21:25,640 --> 00:21:29,640
+ like "Neo's team member states that your avatar must be 100 megabytes.
+
+269
+00:21:29,640 --> 00:21:31,320
+ It is not 100 megabytes.
+
+270
+00:21:31,320 --> 00:21:35,120
+ You will now face the council to have your fate decided."
+
+271
+00:21:35,120 --> 00:21:38,560
+ So I'm not going to say numbers unless they're researched, and if they're researched they'll
+
+272
+00:21:38,560 --> 00:21:39,560
+ go on the wiki.
+
+273
+00:21:39,560 --> 00:21:42,320
+ That's the way I've just been doing information like that.
+
+274
+00:21:42,320 --> 00:21:46,680
+ I'm like, "I don't know, so we'll take it to the wiki."
+
+275
+00:21:46,680 --> 00:21:48,600
+ Even over on VRChat it's unclear as well.
+
+276
+00:21:48,600 --> 00:21:53,840
+ You can specify a limit on VRChat, but they don't really specify a limit for you.
+
+277
+00:21:53,840 --> 00:21:57,400
+ If I could say in a complete sentence that won't be taken out of occurrence what I would
+
+278
+00:21:57,400 --> 00:22:00,360
+ do, then maybe, cool.
+
+279
+00:22:00,360 --> 00:22:02,520
+ You also have to look at is that the right measurement?
+
+280
+00:22:02,520 --> 00:22:09,640
+ In terms of the file space, sometimes no, because it usually is inaccurate because of
+
+281
+00:22:09,640 --> 00:22:11,800
+ the way that we calculate file spaces right now.
+
+282
+00:22:11,800 --> 00:22:14,540
+ Then you sort of think, "Well, cool.
+
+283
+00:22:14,540 --> 00:22:15,880
+ Is it the number of slots?"
+
+284
+00:22:15,880 --> 00:22:17,200
+ It is not the number of slots.
+
+285
+00:22:17,200 --> 00:22:19,840
+ And then it's like, "Well, is there too much logic surrounding it?"
+
+286
+00:22:19,840 --> 00:22:20,840
+ It's probably that.
+
+287
+00:22:20,840 --> 00:22:23,080
+ Have you parented too many guns to it?
+
+288
+00:22:23,080 --> 00:22:24,320
+ Probably.
+
+289
+00:22:24,320 --> 00:22:29,600
+ When you open the context menu, does it spawn the Halo ring from Halo and play the orchestral
+
+290
+00:22:29,600 --> 00:22:34,520
+ choral Halo entrance music which occurs on the main menu of the game?
+
+291
+00:22:34,520 --> 00:22:36,680
+ That is an avatar that's too big.
+
+292
+00:22:36,680 --> 00:22:38,120
+ If it does that, it's too big.
+
+293
+00:22:38,120 --> 00:22:43,200
+ Do you have 17,000 pieces of information in your name badge that I don't need to know?
+
+294
+00:22:43,200 --> 00:22:44,200
+ Then it's too big.
+
+295
+00:22:44,200 --> 00:22:48,080
+ I still need to make the avatar which is entirely comprised of useless information.
+
+296
+00:22:48,080 --> 00:22:52,880
+ What I was going to do is I was going to buy hundreds of IoT sensors and put them in my
+
+297
+00:22:52,880 --> 00:22:53,880
+ apartment.
+
+298
+00:22:53,880 --> 00:23:03,040
+ You know, like, water in my toilet, temperature of my bed, temperature of my doorway, wind
+
+299
+00:23:03,040 --> 00:23:06,240
+ flow through my windows, window moisture sensor.
+
+300
+00:23:06,240 --> 00:23:07,240
+ Yep, you're getting it.
+
+301
+00:23:07,240 --> 00:23:08,760
+ You just keep adding them.
+
+302
+00:23:08,760 --> 00:23:13,400
+ It's like, "Ah, yes, humidity in my bathroom.
+
+303
+00:23:13,400 --> 00:23:14,400
+ The light status.
+
+304
+00:23:14,400 --> 00:23:16,040
+ Are my living room lights on?
+
+305
+00:23:16,040 --> 00:23:18,000
+ Are my bedroom lights on?"
+
+306
+00:23:18,000 --> 00:23:21,600
+ Just keep doing it.
+
+307
+00:23:21,600 --> 00:23:27,000
+ The entire avatar is basically sort of like a collage of information that is technically
+
+308
+00:23:27,000 --> 00:23:29,720
+ accurate but completely useless.
+
+309
+00:23:29,720 --> 00:23:32,640
+ Trom linked another video.
+
+310
+00:23:32,640 --> 00:23:34,880
+ Is that interesting?
+
+311
+00:23:34,880 --> 00:23:36,800
+ That person on the left there, I forget their name.
+
+312
+00:23:36,800 --> 00:23:41,680
+ I just know them as the awesome psychologist YouTuber, that's how I refer to them in my
+
+313
+00:23:41,680 --> 00:23:43,200
+ head.
+
+314
+00:23:43,200 --> 00:23:47,440
+ They have a bunch of conversations with creators that basically look like public therapy sessions
+
+315
+00:23:47,440 --> 00:23:52,760
+ and it felt weird to me because that isn't something I would ever do publicly.
+
+316
+00:23:52,760 --> 00:23:55,240
+ These content creators are okay with it, so it's fine.
+
+317
+00:23:55,240 --> 00:23:58,400
+ Like he did two - Healthy Gamer GG, thank you for the name.
+
+318
+00:23:58,400 --> 00:24:02,320
+ He did one with Asmongold, actually he did two of Asmongold.
+
+319
+00:24:02,320 --> 00:24:06,080
+ I learned more about Asmongold in those two videos than I learned watching any of his
+
+320
+00:24:06,080 --> 00:24:12,080
+ videos and I now understand Asmongold completely and I'm like, "Wow, that's very interesting."
+
+321
+00:24:12,080 --> 00:24:13,440
+ I'll look for other questions.
+
+322
+00:24:13,440 --> 00:24:16,960
+ If you're talking about polygons, I guess is another one.
+
+323
+00:24:16,960 --> 00:24:21,080
+ That one you can keep down.
+
+324
+00:24:21,080 --> 00:24:24,680
+ Just try and get some numbers together that are tested and we can put them on the wiki.
+
+325
+00:24:24,680 --> 00:24:27,320
+ Otherwise it's just gonna be quoted out of context.
+
+326
+00:24:27,320 --> 00:24:28,320
+ Azeal.
+
+327
+00:24:28,320 --> 00:24:30,320
+ What does Azeal do?
+
+328
+00:24:30,320 --> 00:24:31,320
+ Easton?
+
+329
+00:24:31,320 --> 00:24:32,320
+ What do they do?
+
+330
+00:24:32,320 --> 00:24:34,720
+ I don't see any other questions so I'm just ranting at this point.
+
+331
+00:24:34,720 --> 00:24:37,800
+ We are at 37 so what is Azeal?
+
+332
+00:24:37,800 --> 00:24:38,800
+ What do they do?
+
+333
+00:24:38,800 --> 00:24:41,560
+ Oh, a platform for people to tell their stories, that's awesome.
+
+334
+00:24:41,560 --> 00:24:46,920
+ Oh, and because I've got the opportunity to and the audience, where are we?
+
+335
+00:24:46,920 --> 00:24:51,400
+ This person's content very much lines with how chaotic it is every time I leave the house.
+
+336
+00:24:51,400 --> 00:24:55,680
+ If I'm in the house, this sort of stuff doesn't happen, but if I'm outside the house, anything
+
+337
+00:24:55,680 --> 00:24:59,200
+ on her YouTube channel has happened and will happen to me.
+
+338
+00:24:59,200 --> 00:25:00,720
+ Where's the edible wedding?
+
+339
+00:25:00,720 --> 00:25:03,200
+ That's the story I was listening to the other day.
+
+340
+00:25:03,200 --> 00:25:05,240
+ Yes, edible wedding, yes.
+
+341
+00:25:05,240 --> 00:25:07,280
+ This is an amazing story.
+
+342
+00:25:07,280 --> 00:25:08,840
+ There we go.
+
+343
+00:25:08,840 --> 00:25:13,880
+ With that, if there are no additional weddings - if there are no additional weddings today,
+
+344
+00:25:13,880 --> 00:25:15,920
+ if there are no additional questions today, I'll leave off.
+
+345
+00:25:15,920 --> 00:25:19,400
+ I've got some stuff to do.
+
+346
+00:25:19,400 --> 00:25:21,280
+ If you have any other questions, questions and help.
+
+347
+00:25:21,280 --> 00:25:22,920
+ Oh, we've got some questions, we've got some questions!
+
+348
+00:25:22,920 --> 00:25:26,120
+ Oh my god, I'm so sorry, thank you for tagging them, whoever's doing the reactions, you're
+
+349
+00:25:26,120 --> 00:25:28,440
+ amazing and I love you.
+
+350
+00:25:28,440 --> 00:25:29,440
+ What's the weather like today?
+
+351
+00:25:29,440 --> 00:25:30,680
+ I don't know, my curtains are still closed.
+
+352
+00:25:30,680 --> 00:25:33,600
+ I have a headache, I don't want to open them.
+
+353
+00:25:33,600 --> 00:25:40,480
+ I also, because I live in an apartment that's rented, I have those extendable rods for hanging
+
+354
+00:25:40,480 --> 00:25:46,360
+ the curtains, and if I open the curtains, sometimes those rods will pop out, and then
+
+355
+00:25:46,360 --> 00:25:50,720
+ the entire curtain is in my hand, and I have to play with the rods to get them back in,
+
+356
+00:25:50,720 --> 00:25:52,800
+ because they're just tension fit, and it's really annoying.
+
+357
+00:25:52,800 --> 00:25:55,880
+ Sometimes I just don't open the curtains because I don't want to deal with that.
+
+358
+00:25:55,880 --> 00:26:02,120
+ I've been slowly tweaking the tension on those rods so that doesn't happen, but ideally I'd
+
+359
+00:26:02,120 --> 00:26:03,680
+ just like to put actual curtains up.
+
+360
+00:26:03,680 --> 00:26:05,320
+ Okay, that's that question.
+
+361
+00:26:05,320 --> 00:26:08,520
+ What do you think about VRC making an Android client?
+
+362
+00:26:08,520 --> 00:26:13,640
+ I love, generically, where VRC are going in what they're doing.
+
+363
+00:26:13,640 --> 00:26:17,720
+ I don't know if you guys can see it, and you can of course conspiracy theory this as much
+
+364
+00:26:17,720 --> 00:26:24,400
+ as you want, but the moment they were done with EAC, there was a significant uptick in
+
+365
+00:26:24,400 --> 00:26:31,040
+ their plans, their features, and their sort of, like if you imagine that they're a train,
+
+366
+00:26:31,040 --> 00:26:32,040
+ right?
+
+367
+00:26:32,040 --> 00:26:35,840
+ The train massively accelerated the moment they were done with EAC.
+
+368
+00:26:35,840 --> 00:26:39,360
+ So of course you can conspiracy theory that as much as you want, but the way I see it
+
+369
+00:26:39,360 --> 00:26:45,120
+ is the entire engineering team were caught up doing that feature so that they could protect
+
+370
+00:26:45,120 --> 00:26:49,480
+ their users, and now that their users are protected, and again, whatever you want to
+
+371
+00:26:49,480 --> 00:26:53,680
+ say is fine, they can focus on other things.
+
+372
+00:26:53,680 --> 00:26:58,200
+ It's great to see, regardless of your opinion on that whole matter, it is great to see that
+
+373
+00:26:58,200 --> 00:27:03,600
+ now that that is done, they are just like, accelerating, and it's scary, but at the same
+
+374
+00:27:03,600 --> 00:27:04,600
+ time it's good, right?
+
+375
+00:27:04,600 --> 00:27:08,720
+ I never want to wish ill on fellow platforms, they're doing a great job.
+
+376
+00:27:08,720 --> 00:27:11,720
+ And with that, I think we're done on questions, so I'm going to go ahead and lead off here.
+
+377
+00:27:11,720 --> 00:27:16,240
+ If you want to speak to me some more, DM me, post in questions and help, talk to me about
+
+378
+00:27:16,240 --> 00:27:17,840
+ cheese.
+
+379
+00:27:17,840 --> 00:27:25,800
+ Recommend me multiplayer video games that have conveyor belts in them, in my DMs, please.
+
+380
+00:27:25,800 --> 00:27:28,640
+ Conveyor video games that have conveyor belts in them, in my DMs.
+
+381
+00:27:28,640 --> 00:27:29,640
+ Okay, I need them.
+
+382
+00:27:29,640 --> 00:27:30,640
+ I'll speak to you later.
+

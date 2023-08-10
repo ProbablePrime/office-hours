@@ -1,0 +1,1244 @@
+1
+00:00:00,000 --> 00:00:03,480
+ All right everyone, welcome to office hours. It is 4 p.m. So I'm gonna go ahead and get started
+
+2
+00:00:03,480 --> 00:00:08,320
+ So if you have questions, please drop them in the office hours text chat. There's a thread for questions
+
+3
+00:00:08,320 --> 00:00:09,160
+ You're not sure what this is
+
+4
+00:00:09,160 --> 00:00:12,760
+ This is a half hour segment where prime answers any questions that you might have about Neo
+
+5
+00:00:12,760 --> 00:00:14,280
+ So drop those in text format
+
+6
+00:00:14,280 --> 00:00:17,580
+ And I'll go ahead and answer them in the order that they appear if there are no questions
+
+7
+00:00:17,580 --> 00:00:19,580
+ We'll sit here in silence because that's how office hours work
+
+8
+00:00:19,580 --> 00:00:24,880
+ Let's go ahead and get started as we do have a question right now. So Jackal Girl says I do have a question
+
+9
+00:00:24,880 --> 00:00:29,320
+ Could you explain what the ballistic path procedural mesh is for? Someone stated that it had to do a teleportation
+
+10
+00:00:29,600 --> 00:00:35,960
+ Teleporters, but I was hoping for some more detail. Yeah, so that mesh is used for the teleport locomotion, which is in
+
+11
+00:00:35,960 --> 00:00:41,980
+ Default worlds by you know, when you make a new world, it's in there by default. It produces an arc which is
+
+12
+00:00:41,980 --> 00:00:48,560
+ Mathematically a ballistic path. I don't really know why it's called ballistic path because yes ballistic teleporting
+
+13
+00:00:48,560 --> 00:00:50,360
+ anyway
+
+14
+00:00:50,360 --> 00:00:52,080
+ That's what it's used for predominantly
+
+15
+00:00:52,080 --> 00:00:59,340
+ It is not that usable inside of Neos right now because you can't really affect the mathematics of that path that well
+
+16
+00:00:59,340 --> 00:01:02,960
+ But obviously we can from C#
+
+17
+00:01:02,960 --> 00:01:05,140
+ you can
+
+18
+00:01:05,140 --> 00:01:09,820
+ Use it if you want you do need to do mathematics though. If you look at the
+
+19
+00:01:09,820 --> 00:01:17,840
+ Trajectory node, I believe it's in physics that will give you similar inputs and outputs that will be needed for that mesh. It is a
+
+20
+00:01:17,840 --> 00:01:20,400
+ complicated mesh
+
+21
+00:01:20,400 --> 00:01:24,380
+ That's the only question we have so far. So I'll think about something else to say
+
+22
+00:01:25,240 --> 00:01:30,660
+ Revy says updates on world updates check the announcements channel. Thanks. Next question
+
+23
+00:01:30,660 --> 00:01:35,760
+ Okay, for those just joining us if you have any questions, please go ahead and drop them in the office hours text chat
+
+24
+00:01:35,760 --> 00:01:40,680
+ That's a couple of channels above this one in the thread and I'll get to them in order that they appear
+
+25
+00:01:40,680 --> 00:01:44,480
+ I think so for question here from cyber warlock. He says moving to a new render anytime soon
+
+26
+00:01:44,480 --> 00:01:46,480
+ I don't have any updates to share on that one
+
+27
+00:01:46,480 --> 00:01:54,340
+ Rendering is a topic which I am not involved in purely based on sort of I don't have the knowledge there
+
+28
+00:01:54,660 --> 00:02:01,740
+ gains our graphics program it does and they'd be able to answer more about that do check the announcement section and our roadmap on the
+
+29
+00:02:01,740 --> 00:02:10,440
+ On the github for any information about that one moving forwards we have Tyte who's asking a question who says I've been gone for a while
+
+30
+00:02:10,440 --> 00:02:12,680
+ What's the current summed up situation regarding NCR?
+
+31
+00:02:12,680 --> 00:02:18,400
+ You can go ahead and take a look at the announcements channel and read all the announcements in there that have the word NCR in them
+
+32
+00:02:18,400 --> 00:02:20,440
+ And you'll be fully up-to-date if we have any more information
+
+33
+00:02:20,440 --> 00:02:26,440
+ We will put in the announcements channel if you are going to complain immediately following me answering this question that there are no recent
+
+34
+00:02:26,440 --> 00:02:29,800
+ Announcements then I would like you to listen to this present again
+
+35
+00:02:29,800 --> 00:02:33,380
+ The updates are in the announcements channel if there are no updates
+
+36
+00:02:33,380 --> 00:02:38,400
+ They're the most up-to-date updates that we have it's a bit like Windows right no one really thinks about that, right?
+
+37
+00:02:38,400 --> 00:02:41,220
+ You know your own window actually windows is a bad idea
+
+38
+00:02:41,220 --> 00:02:45,380
+ I guess they update like all the time like you know it's like saying there are no recent updates
+
+39
+00:02:45,380 --> 00:02:48,480
+ It's like yeah, but like the most recent updates are there
+
+40
+00:02:48,480 --> 00:02:55,440
+ I had a DM from someone that said will support be coming soon. I don't know what that question means please answer questions in
+
+41
+00:02:55,440 --> 00:03:00,220
+ In the thread so I can get more information about those things
+
+42
+00:03:00,220 --> 00:03:05,960
+ sidewalk has another question here says any updates on stuff you've been excited to work on the stroke a look at
+
+43
+00:03:05,960 --> 00:03:10,560
+ Like personally I've been working a bunch of science projects, so those are cool
+
+44
+00:03:10,560 --> 00:03:16,460
+ I also was working yesterday on an updated document for the MMC to clarify license issues
+
+45
+00:03:16,720 --> 00:03:22,220
+ As you can find that in the MMC text channel that was a document which medros like this is this is needed
+
+46
+00:03:22,220 --> 00:03:24,220
+ We're having lots of questions and confusing
+
+47
+00:03:24,220 --> 00:03:28,360
+ No discussions about it, so I made a document summarizing licenses
+
+48
+00:03:28,360 --> 00:03:34,720
+ For those who are unaware in the MMC one of the rules stipulates that you must have a license to
+
+49
+00:03:34,720 --> 00:03:42,800
+ Use an asset in the MMC and that caused some confusion because apparently no one pays attention to licenses anywhere at all
+
+50
+00:03:43,340 --> 00:03:48,500
+ The loose principle of that is that when you download something from the internet you don't own it
+
+51
+00:03:48,500 --> 00:03:50,600
+ You might think that you automatically own it, but you don't
+
+52
+00:03:50,600 --> 00:03:53,240
+ when you download something you're usually given a
+
+53
+00:03:53,240 --> 00:03:56,000
+ license to that
+
+54
+00:03:56,000 --> 00:03:57,400
+ sometimes it's
+
+55
+00:03:57,400 --> 00:04:03,160
+ Less clear than others, but even in games you're given the license. That's called the end user license agreement. It's a license to the game
+
+56
+00:04:03,160 --> 00:04:06,600
+ So if you don't have a license you can't use it. That's as simple as that
+
+57
+00:04:06,600 --> 00:04:12,240
+ So make sure that you're reading the downloads reading the license of anything that you've downloaded and check that documentation for more information
+
+58
+00:04:12,880 --> 00:04:15,060
+ Jackal says what has been the
+
+59
+00:04:15,060 --> 00:04:20,980
+ most surprising clever thing that you've seen someone do with logics. That's gonna have to be the
+
+60
+00:04:20,980 --> 00:04:26,660
+ Neural network world that was I think last year's MMC, but they did a whole neural network now
+
+61
+00:04:26,660 --> 00:04:32,100
+ It does only do pong which is quite a simple neural network with not that many nodes in between it
+
+62
+00:04:32,100 --> 00:04:38,660
+ But like the whole way that that was put together so that it is actually a neural network working logics is quite cool
+
+63
+00:04:38,660 --> 00:04:41,040
+ Additionally is the like the traffic
+
+64
+00:04:41,960 --> 00:04:46,640
+ NPC system the one that's got all the light little creatures that run around a village. That's really cool use
+
+65
+00:04:46,640 --> 00:04:49,880
+ Easton says gulp. I don't know what that means. Please elaborate
+
+66
+00:04:49,880 --> 00:04:54,160
+ Revy says have the servers been downgraded or heard people in myself noting the landfill server
+
+67
+00:04:54,160 --> 00:04:58,440
+ Nope, not to my knowledge. If you have any issues, please make sure that you're opening up a bug report
+
+68
+00:04:58,440 --> 00:05:01,400
+ There is a particular bug issue that you should go take a look at which is called
+
+69
+00:05:01,400 --> 00:05:05,440
+ Assets loading slowly or something like that is on our github and you can take a look at it
+
+70
+00:05:05,440 --> 00:05:08,520
+ I have a DM that says where do I post questions in the thread you?
+
+71
+00:05:08,920 --> 00:05:14,680
+ Okay, so you're on community meetings you go up one two, three four five channels
+
+72
+00:05:14,680 --> 00:05:19,720
+ You find the office hours text chat you click into the office hours text chat and then right at the bottom of the office hours text
+
+73
+00:05:19,720 --> 00:05:22,880
+ Chat the last message in there is a thread and you put questions in there
+
+74
+00:05:22,880 --> 00:05:27,560
+ If you have any difficulty with that, feel free to just DM me the question, but like it really should be
+
+75
+00:05:27,560 --> 00:05:30,240
+ Easy to type in there
+
+76
+00:05:30,240 --> 00:05:37,860
+ Dio says is the logic structure like a neural net and I'm presuming I'm speaking about the neural network website. Sorry not website entry
+
+77
+00:05:38,420 --> 00:05:41,180
+ no, it's it is but
+
+78
+00:05:41,180 --> 00:05:43,880
+ the logics is just to
+
+79
+00:05:43,880 --> 00:05:49,440
+ Communicate with the nodes the nodes are like separate pieces of logics which are then called between each other
+
+80
+00:05:49,440 --> 00:05:53,100
+ I can't remember the exact specifics. I did unpack something and it looked really cool
+
+81
+00:05:53,100 --> 00:05:58,520
+ For those unaware when it comes down to like simple neural networks. It gets a lot easier to understand
+
+82
+00:05:58,520 --> 00:06:06,040
+ you connect an input and that say an input might be something very simple like the brightness of a pixel and
+
+83
+00:06:06,400 --> 00:06:11,620
+ Then the output might be move left move right and then based on that you can start doing
+
+84
+00:06:11,620 --> 00:06:18,000
+ Information so the neural network might say okay if I see a one on the brightness of a pixel
+
+85
+00:06:18,000 --> 00:06:20,000
+ Then I output one to move left
+
+86
+00:06:20,000 --> 00:06:22,540
+ and that is
+
+87
+00:06:22,540 --> 00:06:24,580
+ Just a very basic example
+
+88
+00:06:24,580 --> 00:06:30,940
+ If you think about it more and more and you look into like how it works you can start to really understand why
+
+89
+00:06:30,940 --> 00:06:33,820
+ really simple creatures are
+
+90
+00:06:34,340 --> 00:06:37,900
+ Really, you know what we call really simple because they have a smaller brain mass
+
+91
+00:06:37,900 --> 00:06:43,320
+ They have a smaller connectome. I believe is the term for it. Now you think about a fly maybe
+
+92
+00:06:43,320 --> 00:06:50,080
+ The fly is just responding to a very simple neural network, which is like seek food avoid people
+
+93
+00:06:50,080 --> 00:06:55,100
+ There is research to say that the size of brains doesn't matter as much as we thought though
+
+94
+00:06:55,100 --> 00:06:58,460
+ I seem to remember it was something like
+
+95
+00:06:58,460 --> 00:07:01,420
+ QI that TV show has been on my
+
+96
+00:07:01,980 --> 00:07:04,740
+ YouTube short feed for a bit and
+
+97
+00:07:04,740 --> 00:07:10,140
+ Something about like something about the size of the brain not being that more, you know, that my point
+
+98
+00:07:10,140 --> 00:07:12,140
+ It's like more the development of the brain
+
+99
+00:07:12,140 --> 00:07:18,460
+ Do clarifies I'm in terms of how graph based data structures are typically visualized by like this explanation more
+
+100
+00:07:18,460 --> 00:07:22,420
+ No logics is not structured like a neural net. Um
+
+101
+00:07:22,420 --> 00:07:26,960
+ Really don't understand the question. Oh, I skipped Eastern's question
+
+102
+00:07:26,960 --> 00:07:32,780
+ I don't know what that is. Like if it's a badge then I can go look at the badge code right now and see what's there
+
+103
+00:07:32,780 --> 00:07:36,460
+ Except I can't because my bookmarks broke to anyway, that would be
+
+104
+00:07:36,460 --> 00:07:38,960
+ common
+
+105
+00:07:38,960 --> 00:07:42,760
+ Avatar builder. Yeah, come on avatar build. All right scroll to the badges section
+
+106
+00:07:42,760 --> 00:07:45,960
+ There is no badge with that name, but there's no standard badge with that name
+
+107
+00:07:45,960 --> 00:07:50,580
+ It's probably a private badge or it might just be a tag. Like the problem is that people like associate tags with
+
+108
+00:07:51,620 --> 00:07:59,900
+ Like badges but like tags aren't badges tags are just tags much how worlds can have tags users can have tags and how we add
+
+109
+00:07:59,900 --> 00:08:07,100
+ Badges to people is usually via tags because it tags a user but tags don't always equate to badges
+
+110
+00:08:07,100 --> 00:08:09,100
+ They just sometimes do
+
+111
+00:08:09,100 --> 00:08:15,080
+ Yes, the neural network world is laid out like that a lot simpler than that, yes
+
+112
+00:08:15,080 --> 00:08:18,480
+ Beagle asks not sure how much you know about custom badge installation
+
+113
+00:08:18,480 --> 00:08:22,360
+ But I want to add a badge in but when I use the badge installer overwrites another badge I've edited and sets it back
+
+114
+00:08:22,360 --> 00:08:29,720
+ default once you've used the badge installer once I would just go ahead and take a look adding the badge manually to the badge installer
+
+115
+00:08:29,720 --> 00:08:35,640
+ It shouldn't be that difficult to go find the existing custom badges and add another one, but if you're using a community-based
+
+116
+00:08:35,640 --> 00:08:40,680
+ Integration then you should go speak to the member of the community that made that integration
+
+117
+00:08:40,680 --> 00:08:44,540
+ I can only help with real badges because I don't know
+
+118
+00:08:45,060 --> 00:08:48,800
+ I don't know like how that one works. It's usually
+
+119
+00:08:48,800 --> 00:08:51,400
+ Episcolians one that people use I don't know how it's work
+
+120
+00:08:51,400 --> 00:08:56,480
+ I don't use it because I have enough badges Beagle clarified that it's the custom badge thing
+
+121
+00:08:56,480 --> 00:08:58,960
+ Yeah, you'll have to speak to the the maker of the custom badge thing
+
+122
+00:08:58,960 --> 00:09:03,400
+ Yeah, corpse just a tag like you can see it there like it's literally it's just a tag like it's not a badge
+
+123
+00:09:03,400 --> 00:09:04,080
+ It's a tag
+
+124
+00:09:04,080 --> 00:09:11,840
+ So you see how this is like it says tags Neos team years admin that allows Fruxius and anyone else with those tags to perform
+
+125
+00:09:12,360 --> 00:09:18,400
+ Things that you guys can't for example I can I can delist an item from the world browser
+
+126
+00:09:18,400 --> 00:09:24,680
+ I can feature an item in the world browser. I can save stuff to the Neos team inventory like you know it's it's tagged
+
+127
+00:09:24,680 --> 00:09:29,060
+ It's not badges, so I would calm down and and enjoy
+
+128
+00:09:29,060 --> 00:09:34,200
+ Knowing that all badges are not tax moving forwards to questions
+
+129
+00:09:34,200 --> 00:09:37,120
+ maestro says
+
+130
+00:09:37,120 --> 00:09:38,320
+ Thank you. I'm in touch discord
+
+131
+00:09:38,320 --> 00:09:42,100
+ What is the license turns that I might need to know about if I want to do it for your project to say requirement?
+
+132
+00:09:42,100 --> 00:09:45,260
+ I mean the license terms of Neos
+
+133
+00:09:45,260 --> 00:09:52,280
+ Take a look at our end user license agreement and our terms of use as well as our user guidelines
+
+134
+00:09:52,280 --> 00:09:58,980
+ That's all you need to abide by you do whatever you want provided. You're abiding by those those are all available on the wiki and
+
+135
+00:09:58,980 --> 00:10:02,040
+ some are available like in in
+
+136
+00:10:02,040 --> 00:10:04,960
+ like in steam and stuff
+
+137
+00:10:04,960 --> 00:10:11,360
+ Eastern there is not a place on the wiki for tags because tags can be literally anything and the amount of tags that you'll see
+
+138
+00:10:11,520 --> 00:10:16,820
+ Will grow exponentially and they don't mean anything. There's also not a page for badges that are
+
+139
+00:10:16,820 --> 00:10:24,920
+ Eastern you need to just chill out because just to tag like it's meaningless right if you look at your world any world that you've published
+
+140
+00:10:24,920 --> 00:10:30,780
+ It's gonna have a tag for like everything that you put into the world name for example if you called the world
+
+141
+00:10:30,780 --> 00:10:35,060
+ The cool cabin by the sea it will have a tag
+
+142
+00:10:35,060 --> 00:10:39,120
+ That's called the because like our tag systems just like bad right now
+
+143
+00:10:39,360 --> 00:10:45,260
+ So it doesn't mean anything. It's just like it usually is signaled in behavior, right?
+
+144
+00:10:45,260 --> 00:10:51,180
+ It's exactly the same as slot tags, but the difference is in then that slot tags. You can only have one
+
+145
+00:10:51,180 --> 00:10:58,460
+ Because we don't have collections yet, whereas we do have collections in the API so you can't do that and we do have
+
+146
+00:10:58,460 --> 00:11:05,360
+ Collection like abilities for the world browser. That's also why the MMC uses tags and not the world name
+
+147
+00:11:05,840 --> 00:11:11,480
+ As a reminder for the MMC you do not need to put MMC or MMC 2023 or MMC 23
+
+148
+00:11:11,480 --> 00:11:14,180
+ In your world name just put it in the tags
+
+149
+00:11:14,180 --> 00:11:15,000
+ It's up to you
+
+150
+00:11:15,000 --> 00:11:20,240
+ But I've seen a bunch of worlds where they've like got like I don't know it still seems like people think that they need to
+
+151
+00:11:20,240 --> 00:11:24,460
+ Put it in the world name, which you do not all right moving forwards. That's done
+
+152
+00:11:24,460 --> 00:11:29,560
+ Wherever says have we turned you into a fairy yet? I don't know maybe you should find out
+
+153
+00:11:31,000 --> 00:11:37,440
+ Pam-pam says how am I today? I have pink lemonade. So I am amazing Jackal says, what is your favorite kind of cheese?
+
+154
+00:11:37,440 --> 00:11:40,800
+ I do not answer cheese questions because I answered them all search back through the notes
+
+155
+00:11:40,800 --> 00:11:44,880
+ Those who are unaware what pink lemonade is pink lemonade is lemonade that has
+
+156
+00:11:44,880 --> 00:11:48,260
+ Raspberry juice in it. Yeah, it's fine on the session names
+
+157
+00:11:48,260 --> 00:11:53,680
+ It's just like when I come to set up the I run the voting systems from see when I come to set up the voting system
+
+158
+00:11:53,680 --> 00:11:57,880
+ And I go into one of the voting booths and like the entire booth is just like water wall MMC
+
+159
+00:11:57,880 --> 00:12:03,800
+ It's so hard to find like a particular entry that you're interested in because they all start with MMC
+
+160
+00:12:03,800 --> 00:12:10,320
+ And you just look at like a sea of MMC space blah blah blah blah, and it's like what like just like what?
+
+161
+00:12:10,320 --> 00:12:14,600
+ You know just like here's an example. Let's say a
+
+162
+00:12:14,600 --> 00:12:21,760
+ Blockbuster film was entered into a competition and you go to the award ceremony, and it's like
+
+163
+00:12:21,760 --> 00:12:24,720
+ Congratulations
+
+164
+00:12:25,040 --> 00:12:29,000
+ MMC the shining has won the award for the best horror film and it's like
+
+165
+00:12:29,000 --> 00:12:37,200
+ Anyway, it's a matter of preference, but just know it's not required like if you still choose to put it in great
+
+166
+00:12:37,200 --> 00:12:39,840
+ It's just if you think you need to you do not
+
+167
+00:12:39,840 --> 00:12:44,360
+ Beagle says have you ever wanted to participate in MMC I participate in every single
+
+168
+00:12:44,360 --> 00:12:50,740
+ MMC do says we needed a vetted wiki article almost at misconceptions that go around Neos
+
+169
+00:12:50,740 --> 00:12:54,940
+ Yeah, well we've got optimization guidelines, which Lexus provided
+
+170
+00:12:55,020 --> 00:12:57,020
+ We've got myths
+
+171
+00:12:57,020 --> 00:13:02,660
+ Haven't actually updated in a while. That's because things calmed down. I guess but yeah his his myths
+
+172
+00:13:02,660 --> 00:13:06,360
+ And then we've got things to avoid as well
+
+173
+00:13:06,360 --> 00:13:11,620
+ Which I recently had to clarify that things to avoid didn't mean against the guidelines because we had a bunch of stuff around that
+
+174
+00:13:11,620 --> 00:13:17,260
+ But those three pages should help as for vetted. We don't like we don't really need them to be vetted
+
+175
+00:13:17,260 --> 00:13:20,020
+ I do check like edits that occur there, but
+
+176
+00:13:21,020 --> 00:13:25,920
+ What amazes me is that even with those pages in existence I still hear things which are like
+
+177
+00:13:25,920 --> 00:13:32,060
+ Literally on that page and I'd understand if they were on Twitter or a different platform because people may and we haven't read that
+
+178
+00:13:32,060 --> 00:13:38,220
+ But like I hear these things from like mentors and mod sometimes and it's like come on Beagle says
+
+179
+00:13:38,220 --> 00:13:41,220
+ What are you working on for this MMC? I don't have any plans right now
+
+180
+00:13:41,220 --> 00:13:47,260
+ What I usually do bear in mind I can't win is I've tended to sort of go for the art category
+
+181
+00:13:47,260 --> 00:13:51,420
+ So if you go back to MMC 2022, you'll see that I have an entry in the art category
+
+182
+00:13:51,420 --> 00:13:55,060
+ the reason behind that is because art is sort of like
+
+183
+00:13:55,060 --> 00:13:57,580
+ subjective and
+
+184
+00:13:57,580 --> 00:14:02,860
+ Open to interpretation and also quite creative. I don't actually need to spend a lot of time on logics, right?
+
+185
+00:14:02,860 --> 00:14:06,780
+ If I make a game I need to spend like hours making the logic for the game
+
+186
+00:14:06,780 --> 00:14:10,900
+ You know making sure all the parts work teams shooting whatever it is that needs to work works
+
+187
+00:14:10,900 --> 00:14:15,660
+ But if I do art, it just needs to look good and in some cases that means like silly stuff
+
+188
+00:14:16,660 --> 00:14:22,200
+ So the art project I did last year was based on I'm not gonna be able to find it
+
+189
+00:14:22,200 --> 00:14:23,420
+ There's there's a note in the world
+
+190
+00:14:23,420 --> 00:14:29,400
+ It's good untitled on purpose because I called it untitled and then lots of people DM me and were like you should title your project
+
+191
+00:14:29,400 --> 00:14:29,760
+ I'm like no
+
+192
+00:14:29,760 --> 00:14:35,780
+ No, it's untitled on purpose and so I just renamed it to untitled on purpose to meme this year's one will also be called untitled
+
+193
+00:14:35,780 --> 00:14:38,380
+ Yes, that is a perfect example of art
+
+194
+00:14:38,380 --> 00:14:45,540
+ Moving forward to additional questions Revy asks. I wonder why unity for rendering back when we picked unity
+
+195
+00:14:45,540 --> 00:14:50,780
+ It was probably the best option available. You have to remember the that Neos has existed since sort of before
+
+196
+00:14:50,780 --> 00:14:55,460
+ Before you can gather right? It's been a long time in the making
+
+197
+00:14:55,460 --> 00:15:01,300
+ Lots of people particularly in the crypto scene. They're like Neos has only existed since 2020
+
+198
+00:15:01,300 --> 00:15:05,900
+ I'm like no Neos has existed like as early as I think 16 17 or 18
+
+199
+00:15:05,900 --> 00:15:09,020
+ But it's you know, and it's like cool
+
+200
+00:15:09,020 --> 00:15:13,900
+ We used unity back then and we're kind of just stuck on it because we've been on it that long
+
+201
+00:15:13,980 --> 00:15:18,500
+ Like the very first sort of idea of Neos like almost predates the Oculus Rift, right?
+
+202
+00:15:18,500 --> 00:15:24,420
+ It was the Oculus Rift dev kits that the freaks was using to sort of pioneer this and look at it
+
+203
+00:15:24,420 --> 00:15:28,860
+ Some of the Neos code predates motion controllers for VR
+
+204
+00:15:28,860 --> 00:15:34,100
+ So back before you you had the vive ones before you had the oculus touch controllers
+
+205
+00:15:34,100 --> 00:15:39,100
+ In fact, there's a footage somewhere on his channel of him using you know
+
+206
+00:15:39,100 --> 00:15:45,860
+ That like razor controller thing that had like a sort of ball in the middle Hydra, I think yeah razor Hydra
+
+207
+00:15:45,860 --> 00:15:52,060
+ That would look really weird. I'm glad razor became less sort of like let's make stuff look like a alien movie. I
+
+208
+00:15:52,060 --> 00:15:57,740
+ Don't remember how that works. If anyone knows how the razor Hydra works. Let me know is it is it like what's the ball do?
+
+209
+00:15:57,740 --> 00:16:03,920
+ Magnetic. Oh, that's cool. Which reminds me. I've seen a recent uptick in controllers, but you use
+
+210
+00:16:05,040 --> 00:16:12,480
+ Magnetic sensors for the joystick which I think is great because it means they don't get as much drift because there isn't like moving parts
+
+211
+00:16:12,480 --> 00:16:17,540
+ There are still more moving parts, but like the moving parts are just moving parts
+
+212
+00:16:17,540 --> 00:16:24,140
+ They're less less like electronical and stuff like that. It also means that are easier to swap out etc. Yes ponder the razor Hydra orb
+
+213
+00:16:24,140 --> 00:16:29,340
+ Magnetic that's interesting. Yeah, Revy says hotspot connectors from an mechanical keyboards
+
+214
+00:16:29,340 --> 00:16:32,260
+ Yeah, similar to that like I can on this keyboard
+
+215
+00:16:32,260 --> 00:16:35,360
+ I've not done it because I don't need to I can pull off the key cap, of course
+
+216
+00:16:35,360 --> 00:16:39,440
+ But I can also pull out the key and just like throw it across the room go pick it up
+
+217
+00:16:39,440 --> 00:16:45,060
+ Put it back in again without unplugging the keyboard. It'll just work. My keyboard's cool. My keyboard uses lasers as well
+
+218
+00:16:45,060 --> 00:16:47,620
+ So the keys I have
+
+219
+00:16:47,620 --> 00:16:51,640
+ Don't mechanically interact with the circuit board at all
+
+220
+00:16:51,640 --> 00:16:59,380
+ All they do is lower a tiny piece of plastic that blocks an LED and that detects the block of the LED as a key
+
+221
+00:16:59,380 --> 00:17:05,340
+ Press it's ridiculous. Like it's absolutely ridiculous. The keyboard needs to do that, but it works nicely. I
+
+222
+00:17:05,340 --> 00:17:07,860
+ Can't adjust the strike depth. No
+
+223
+00:17:07,860 --> 00:17:14,780
+ That would be like like a price point increase. I wouldn't be prepared for I don't want to talk about keyboards too much because I
+
+224
+00:17:14,780 --> 00:17:22,000
+ Really do believe that over like over engineered and overplayed. I do not have any keyboard recommendations at all
+
+225
+00:17:22,000 --> 00:17:24,180
+ What I will tell you is
+
+226
+00:17:24,180 --> 00:17:30,540
+ Consider if you really need RGB or if you just think you need it. I've noticed a lot of people that like have RGB kit
+
+227
+00:17:30,540 --> 00:17:35,580
+ They just like let it do the sort of like RGB strobe where it just goes like I'm blue. I'm purple now
+
+228
+00:17:35,580 --> 00:17:38,920
+ I'm red now. I'm orange. I'm like, do you need do you need that?
+
+229
+00:17:38,920 --> 00:17:45,800
+ I recently went round my bedroom and I did the thing where you put electrical tape over all the LEDs and it's like oh, yeah
+
+230
+00:17:45,800 --> 00:17:49,640
+ Now like it's pitch black when I go to bed and I enjoy that
+
+231
+00:17:49,740 --> 00:17:54,020
+ So do you need light? Do you need it to have light? Oh, but it looks cool
+
+232
+00:17:54,020 --> 00:17:59,940
+ How long do you actually spend looking at your computer? How long I spent forever looking at it in
+
+233
+00:17:59,940 --> 00:18:03,100
+ in terms of looking at the screen, but I
+
+234
+00:18:03,100 --> 00:18:08,180
+ Remember the last time I like detailedly looked at the side of the PC case
+
+235
+00:18:08,180 --> 00:18:12,480
+ It might just be like how I've got mine set up, you know, do we have any more Neos questions?
+
+236
+00:18:12,480 --> 00:18:14,860
+ Let's get back to let's get back to Neos. Oh
+
+237
+00:18:14,860 --> 00:18:17,420
+ Hell yeah, we got three
+
+238
+00:18:17,420 --> 00:18:19,620
+ Neos questions, let's go through them
+
+239
+00:18:20,140 --> 00:18:23,440
+ After MMC, I'm looking to sorry Beagle says after MMC
+
+240
+00:18:23,440 --> 00:18:27,840
+ I'm looking to create an educational world of theoretical physics focusing on studies like black holes and whatnot
+
+241
+00:18:27,840 --> 00:18:31,060
+ What you've been just did working with me on it. Unfortunately, I can't commit to working on any
+
+242
+00:18:31,060 --> 00:18:36,500
+ Additional Neos projects. I just have too many and then Neos itself being a project
+
+243
+00:18:36,500 --> 00:18:39,620
+ It just it really ruins my mood for like working on stuff
+
+244
+00:18:39,620 --> 00:18:45,340
+ you'll know that if you know me enough to know that like occasionally I just make memes because
+
+245
+00:18:45,740 --> 00:18:50,580
+ Like it's easy to make memes because you can stop the moment. The joke isn't funny anymore
+
+246
+00:18:50,580 --> 00:18:56,500
+ Other than that like it's all full of like crazy projects. I don't have time
+
+247
+00:18:56,500 --> 00:19:00,580
+ Lex says well near scene be feet be
+
+248
+00:19:00,580 --> 00:19:05,980
+ Okay, sorry. I'm struggling to read for some reason be a feature eventually worked on when things get wrong again
+
+249
+00:19:05,980 --> 00:19:10,060
+ We still do plan to work on near scene and it will give us a lot more control over
+
+250
+00:19:10,060 --> 00:19:14,020
+ Testing and feature flagging and stuff like that
+
+251
+00:19:14,820 --> 00:19:19,080
+ Revvises are there any plans to support more DIY open source standards for eye and mouth tracking?
+
+252
+00:19:19,080 --> 00:19:27,220
+ Yeah, the way that that works is if we have a headset that has eye or mouth tracking will implement it like almost regardless, right?
+
+253
+00:19:27,220 --> 00:19:31,980
+ But we'll implement it at the speed and timing and planning as we do with all devices
+
+254
+00:19:31,980 --> 00:19:37,600
+ As for open source, I'm aware of a few standards. I don't know which standards winning right now
+
+255
+00:19:37,600 --> 00:19:40,160
+ But yeah, we'll take a look at it
+
+256
+00:19:40,160 --> 00:19:45,160
+ But we'll take a look at it framed around the headset and use like as an example here if there's only one person
+
+257
+00:19:45,160 --> 00:19:49,760
+ Using a headset. It's unlikely to get prioritized, but if someone comes in and says
+
+258
+00:19:49,760 --> 00:19:55,080
+ Five percent of your user base are using quest pros now right now and you don't support it
+
+259
+00:19:55,080 --> 00:20:01,820
+ That's a much easier conversation to have about supporting it. It's a bit like browsers like what percentage are using it in Explorer 6 guys
+
+260
+00:20:01,820 --> 00:20:03,820
+ Do you need to support Internet Explorer 6?
+
+261
+00:20:03,820 --> 00:20:06,460
+ if you're working in
+
+262
+00:20:06,600 --> 00:20:12,640
+ Corporate banking you do need to support Internet Explorer 6 usually. IE6 was out of support many many years ago
+
+263
+00:20:12,640 --> 00:20:16,900
+ But if you're in corporate banking you usually need it or if you're in a nuclear missile silo
+
+264
+00:20:16,900 --> 00:20:19,980
+ You kind of need to support like Internet Explorer 1 in some cases
+
+265
+00:20:19,980 --> 00:20:26,000
+ Not the Internet Explorer should be used inside a missile silo. Hopefully everything in there is like largely offline
+
+266
+00:20:26,000 --> 00:20:29,860
+ Look up and look into the silos and how they're operated by the way. It's kind of interesting
+
+267
+00:20:29,860 --> 00:20:33,180
+ some of those silos are manned 24/7 and
+
+268
+00:20:33,660 --> 00:20:40,720
+ They have various mechanics that basically mean that if like an officer leaves their chair like alarms go off and stuff because someone has to
+
+269
+00:20:40,720 --> 00:20:45,980
+ Be in their chair at that silo 24/7 just in case it's needed. It's it's interesting
+
+270
+00:20:45,980 --> 00:20:49,640
+ There's pictures of some of the rooms and it's just like that looks like a job which is
+
+271
+00:20:49,640 --> 00:20:52,280
+ Depending on how you look at it stressful or not stressful
+
+272
+00:20:52,280 --> 00:20:57,280
+ Because like if you're called on to like launch a missile then you know, the world's kind of messed up
+
+273
+00:20:57,280 --> 00:21:01,480
+ So there's nothing really you can do about it, but most of the time it's not gonna be so you just you know
+
+274
+00:21:01,720 --> 00:21:06,740
+ Sit there. I guess they'd run drills though a bit like firefighters, you know, like what I always used to think like
+
+275
+00:21:06,740 --> 00:21:10,760
+ Oh, you know firefighters do nothing when they're not on cool. No, they do drills or they clean
+
+276
+00:21:10,760 --> 00:21:13,980
+ Revvies clarify and they were talking about I track VR
+
+277
+00:21:13,980 --> 00:21:17,980
+ Which I should add I track into almost any headset go ahead and open up a cab issue for it
+
+278
+00:21:17,980 --> 00:21:19,980
+ We'll see if we can prioritize it
+
+279
+00:21:19,980 --> 00:21:25,360
+ Maestro asks is VR OS program app allowed to be developed or is that too far?
+
+280
+00:21:25,360 --> 00:21:28,760
+ Please restate that question. I have no idea what you're asking
+
+281
+00:21:29,280 --> 00:21:32,020
+ Jackal clarifies. Yeah maintenance is also what they do. Yeah it
+
+282
+00:21:32,020 --> 00:21:38,400
+ Yeah, I remember I was young I wanted to be a firefighter and a policeman at the same time
+
+283
+00:21:38,400 --> 00:21:44,920
+ We are at half past. So anyone that's typing go forward and and ask your questions
+
+284
+00:21:44,920 --> 00:21:49,640
+ Otherwise, we'll be leaving off here once we run out of questions. Okay, so Roussier's question first
+
+285
+00:21:49,640 --> 00:21:54,900
+ What's the determining factor when nodes go red is it based on a process time limit or max iterations?
+
+286
+00:21:54,900 --> 00:21:57,200
+ I'd have to look into it. Not entirely sure
+
+287
+00:21:58,360 --> 00:22:00,640
+ It's running time. I'm not I'm not entirely sure
+
+288
+00:22:00,640 --> 00:22:00,960
+ I'm sorry
+
+289
+00:22:00,960 --> 00:22:06,680
+ And the next question maestro says if I make the time to develop an OS around your program as a soft app
+
+290
+00:22:06,680 --> 00:22:12,280
+ Is built on top of the stack is their core limitation such as running it locally not being allowed as and I'd like to make
+
+291
+00:22:12,280 --> 00:22:17,100
+ The program you guys have linked to a server VM in the US would be provided by your program
+
+292
+00:22:17,100 --> 00:22:23,920
+ But the back end we provided by a programming IDE in VR logic would be placed on a separate server using web
+
+293
+00:22:24,080 --> 00:22:29,440
+ I don't think you'd have much luck doing that because we don't have things like screen sharing
+
+294
+00:22:29,440 --> 00:22:33,040
+ text editing of the kind that you are speaking about
+
+295
+00:22:33,040 --> 00:22:40,300
+ So I don't I just don't know I don't think half of what you're describing there would work though
+
+296
+00:22:40,300 --> 00:22:46,500
+ Particularly whilst we're on unity, but even once we're off unity that may require a commercial license depending on what you're doing on it
+
+297
+00:22:46,500 --> 00:22:48,500
+ so, please go ahead and take a look at
+
+298
+00:22:48,640 --> 00:22:55,400
+ The terms of use and the guidelines and the end user license agreement if you have any more questions about that you can email
+
+299
+00:22:55,400 --> 00:22:57,400
+ hello at neos.com
+
+300
+00:22:57,400 --> 00:22:59,480
+ Shadow says could there be
+
+301
+00:22:59,480 --> 00:23:04,280
+ Controller emulation with logic's node be nice for making VR gloves work without external mapping
+
+302
+00:23:04,280 --> 00:23:08,840
+ We do have an item on our to-do list road map what we want to call it
+
+303
+00:23:08,840 --> 00:23:13,560
+ Which is more sort of generic device support and what that would allow you to do is make
+
+304
+00:23:13,880 --> 00:23:19,240
+ In a similar way, but not identical to a plug-in a way for your device, whatever it might be including
+
+305
+00:23:19,240 --> 00:23:22,040
+ You know if you built it using circuit boards and an Arduino yourself
+
+306
+00:23:22,040 --> 00:23:27,700
+ Support Neo, so that's probably what you're after I believe that's on one of our roadmap boards with that
+
+307
+00:23:27,700 --> 00:23:32,320
+ I'm gonna go ahead and call things closed. That's the end of this office hours if any additional questions
+
+308
+00:23:32,320 --> 00:23:34,320
+ please post in questions and help or
+
+309
+00:23:34,320 --> 00:23:39,020
+ DM me or I don't know like send me a carrier pigeon if you do that
+
+310
+00:23:39,020 --> 00:23:41,060
+ Let me know though because like my curtains are still closed
+
+311
+00:23:41,060 --> 00:23:46,480
+ I won't see outside on my balcony and making pigeon noises at me, and I will see you again next week
+

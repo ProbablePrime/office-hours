@@ -1,0 +1,1732 @@
+1
+00:00:00,000 --> 00:00:13,000
+Okay everyone, welcome to prime time. Please drop questions if you have them in the questions for prime time text thread, which is a few channels by this one, and we'll get started with them on the order that they appear.
+
+2
+00:00:13,000 --> 00:00:26,000
+Let me go ahead and get started. We have just two questions currently, so one question and two questions from Ozi. Fantastic. We'll go straight for those. So Ozi asks, what's the most elusive bug you have yet to catch? Understanding this.
+
+3
+00:00:26,000 --> 00:00:41,000
+It's still going to be like a bunch of the what I call like date time jank bugs that exist and are assigned to me. I'm quite an expert in date time stuff, just generically, and so I thought I could take a look at them.
+
+4
+00:00:41,000 --> 00:00:56,000
+They keep going mad. There's something called round tripping, which is where you want to take a date, do something with it, and get like the same quality of date back.
+
+5
+00:00:56,000 --> 00:01:19,000
+So an example here in terms of like what I mean by doing something is like parsing or formatting or displaying. In Neos, the most problematic one being saving and loading. So when you create a date inside of Neos, which is, you know, using C sharp under the hood,
+
+6
+00:01:19,000 --> 00:01:40,000
+the time zone that that date is created in doesn't really get saved and stuff. It's a long story. And so when you load it, sometimes weird stuff happens because, like, if you load it one way, then C sharp or in some cases Neos or in some cases just like unity or anything in between.
+
+7
+00:01:40,000 --> 00:01:53,000
+It's basically like, oh, this date is UTC. I will touch it and make it local time. And if it keeps doing that because it's not being saved correctly, then you get a date which just sort of slides forwards into infinity.
+
+8
+00:01:53,000 --> 00:02:05,000
+I think that's what's happening with one bug in particular, which is that a date time node of particular futureness crashes some users but not other users.
+
+9
+00:02:05,000 --> 00:02:19,000
+I believe it's still currently any user which is past the international date line, sorry, the meridian line that's past the GMT meridian line will crash, which is a very interesting bug.
+
+10
+00:02:19,000 --> 00:02:35,000
+It's basically if you're east of London, you crash. That's it. It's, like, crazy. If you're America or, you know, anything to the west, you're totally fine.
+
+11
+00:02:35,000 --> 00:02:49,000
+I'm not quite sure it wraps back around the other side, but that's what was happening when I had a chance to look into it. That's just data in is not data out in some cases.
+
+12
+00:02:49,000 --> 00:02:55,000
+I'm trying to sort of make that have tests for it. I haven't looked at that in quite a while, many months at this point.
+
+13
+00:02:55,000 --> 00:03:05,000
+Moving forwards, OZ says, any luck with the world partners? No. I did ask for some stuff. They are traveling right now, though, so they've been less responsive than usual.
+
+14
+00:03:05,000 --> 00:03:14,000
+But they said if it matches the paths used for some other mechanics we do, then it should be fine, and I checked and it does. So I don't know.
+
+15
+00:03:14,000 --> 00:03:30,000
+Also, people who have the ability to decompile, taking a look around for me and they couldn't find anything that made sense. It's interesting because a lot of people are, like, looking into the world loading code, but it's not in there.
+
+16
+00:03:30,000 --> 00:03:40,000
+It's in the record loading code. Anything which is saved in Neos, just like at all is a record, and a record can be an object or a world.
+
+17
+00:03:40,000 --> 00:03:53,000
+And so when you load a world, you're actually loading a record and a record's content. It's just a sort of world is an abstraction on top of record.
+
+18
+00:03:53,000 --> 00:04:11,000
+So when I attempt to expand storage, it doesn't work. You are quite right in receiving advice. But you are going to be today my prime candidate for how to ask better questions.
+
+19
+00:04:11,000 --> 00:04:23,000
+This is probably a video I'll be creating at some point on my channel. But the phrase it doesn't work is the most annoying phrase I've heard in, like, all of existence.
+
+20
+00:04:23,000 --> 00:04:29,000
+So every time I hear it, I have to be, like, it's okay. You don't need it. But it is the most annoying phrase.
+
+21
+00:04:29,000 --> 00:04:41,000
+So I'm going to, you know, we're going to role play a little bit. We're going to just say that your family member of significant age has rung you on the telephone.
+
+22
+00:04:41,000 --> 00:04:48,000
+And on the other end of the telephone, they're, like, hi, my computer doesn't work. It doesn't work.
+
+23
+00:04:48,000 --> 00:04:53,000
+And you ask, could you describe the problem? And they don't. They just say it doesn't work.
+
+24
+00:04:53,000 --> 00:04:59,000
+And what you actually find out is that they haven't plugged it in.
+
+25
+00:04:59,000 --> 00:05:15,000
+The asking good questions is, like, stop for a moment and make sure that you've set your question up so that it could be answered, if possible, without any additional questions being asked back to you.
+
+26
+00:05:15,000 --> 00:05:25,000
+So that relative of significant age could be, like, yeah, I've tried, you know, I've double checked it. It's on. There's no power cut. We're not on an electrical storm.
+
+27
+00:05:25,000 --> 00:05:31,000
+There's no EMPs that have gone off during World War III. We're just, you know, we're fine.
+
+28
+00:05:31,000 --> 00:05:36,000
+And then you're, like, okay, cool. So I know it's not power. I know it's Internet. Great. Okay. You know.
+
+29
+00:05:36,000 --> 00:05:41,000
+Oh, and they told me what's on the screen. Great. So I know that they can see the Windows logo. You know, like, stuff like that, right?
+
+30
+00:05:41,000 --> 00:05:46,000
+So what can you add to your question such that we're able to answer immediately?
+
+31
+00:05:46,000 --> 00:05:54,000
+So, for example, in how do I extend my storage, it doesn't work. You could say you get an error. Because if you say you get an error, then that's fantastic. That's the 2FA error, most likely.
+
+32
+00:05:54,000 --> 00:06:04,000
+The red piece of text, it just says, like, error or it just says, I think it's referred to as TOTP. It just says TOTP in red text. That's 2FA. You need to enable 2FA.
+
+33
+00:06:04,000 --> 00:06:12,000
+But if it happened to say purchase failed because your username starts with A, then I'm, like, oh, cool, that's a weird error.
+
+34
+00:06:12,000 --> 00:06:20,000
+I can then, like, go into the source code and I can take a look and I can be, like, oh, it seems that we don't allow people that have usernames that start with A to buy storage.
+
+35
+00:06:20,000 --> 00:06:28,000
+Like, because I don't know what message or what state or what part of the process that you occur in that you can't get expanding storage, I'm forced to guess.
+
+36
+00:06:28,000 --> 00:06:37,000
+And when I'm forced to guess, sometimes I'll give incorrect answers. Now, while Coffee Kite said something which is absolutely correct and probably what's wrong, it also might be incorrect.
+
+37
+00:06:37,000 --> 00:06:44,000
+Like, by them just saying 2FA, they're trying to be genuinely helpful. But what if you already have 2FA created?
+
+38
+00:06:44,000 --> 00:06:51,000
+You might assume, oh, you cannot create or buy storage if you have 2FA enabled, so I will disable 2FA.
+
+39
+00:06:51,000 --> 00:07:06,000
+Or maybe they're like, oh, I don't know what 2FA is, I'll go Google it. And when they go Google 2FA, because they don't understand what 2FA is, they come across a crypto scam and give their secret wallet phrase to some Elon Musk impersonator on the Internet.
+
+40
+00:07:06,000 --> 00:07:13,000
+It's just like a sort of compounded expansion problem that can be solved by just a better question.
+
+41
+00:07:13,000 --> 00:07:23,000
+There's this film I reference sometimes. It's in some old office hours. It's called The Giver. It's about a dystopian society. It's based on a book. The book's apparently much better.
+
+42
+00:07:23,000 --> 00:07:28,000
+I haven't had time to read a book in many years, but I'm sure the book's probably better. That's usually the case.
+
+43
+00:07:28,000 --> 00:07:34,000
+And they have a society where they've kind of sort of removed most emotions, not in the same way as the film.
+
+44
+00:07:34,000 --> 00:07:45,000
+It's really quite equilibrium, but in a similar way. And so there aren't families anymore. There's family units. And extreme words just aren't really allowed.
+
+45
+00:07:45,000 --> 00:07:58,000
+So things like love aren't used because it's something intangible. So when people use words like that in that society, they don't stop a medication that's making them robotic.
+
+46
+00:07:58,000 --> 00:08:06,000
+So this is why it's happening. They'll just turn around and deadpan look at them and go, precision of language?
+
+47
+00:08:06,000 --> 00:08:16,000
+And what they mean by that is use better phrasing. And I've taken to saying that when people use improper precision of language in statements.
+
+48
+00:08:16,000 --> 00:08:23,000
+But it doesn't make any sense unless you've watched the film and know that I am suggesting that we go to a dystopian society where there exists.
+
+49
+00:08:23,000 --> 00:08:29,000
+And I'm just tired of a lack of precision of language in this particular conversation. It's a good film, anyway.
+
+50
+00:08:29,000 --> 00:08:36,000
+I will leave you alone at progressions. I didn't mean to single you out there. It's just something I continue to say.
+
+51
+00:08:36,000 --> 00:08:42,000
+And I'm just like, I have an opportunity and a forum and a cert box right now to answer it. And we don't have additional questions.
+
+52
+00:08:42,000 --> 00:08:50,000
+So I get to a whole amount of silly stuff like that. Please do let us know if getting 2FA sorted out fixes your issue.
+
+53
+00:08:50,000 --> 00:08:56,000
+If it does not, please provide additional information and I will get it there. Oh, yeah, there were actually questions. Yes.
+
+54
+00:08:56,000 --> 00:09:03,000
+It certainly did. Fantastic. Absolutely, yes. Great. No worries. Enjoy your storage.
+
+55
+00:09:03,000 --> 00:09:09,000
+So unnamed cyborg cat says, is there some kind of text programming language in Neos?
+
+56
+00:09:09,000 --> 00:09:16,000
+There are a couple of attempts to do so. There's a project which looks at doing C sharp into logics. It's quite limited.
+
+57
+00:09:16,000 --> 00:09:28,000
+There's a project which does React JavaScript into Neos, which I question the sanity of, but, hooray, jazz hands, it exists.
+
+58
+00:09:28,000 --> 00:09:36,000
+There is a couple of in Neos stuff that can do basic things. I think it places very snug and connects them.
+
+59
+00:09:36,000 --> 00:09:44,000
+There's also a world where you can enter mathematical equations and get shapes. They use the triangle mesh and they position each triangle's point manually.
+
+60
+00:09:44,000 --> 00:09:52,000
+That's always fun. There's even a plugin made by managed, I guess would be the appropriate word by his linker here.
+
+61
+00:09:52,000 --> 00:10:01,000
+He's also in chat called Neos Plus, which has dynamic mesh creation, which sort of is texty, but not really because it uses logics.
+
+62
+00:10:01,000 --> 00:10:05,000
+So sort of. There's nothing native, though.
+
+63
+00:10:05,000 --> 00:10:15,000
+It looks like the best answer right now is to follow Lex's current process.
+
+64
+00:10:15,000 --> 00:10:22,000
+I'm speaking to them trying to find a better platform or some sort of way to do that that doesn't drive me insane or them insane.
+
+65
+00:10:22,000 --> 00:10:29,000
+I appreciate what they're doing. I just know it's a burden. That's why I started putting them on Sounder so I didn't have to type notes anymore.
+
+66
+00:10:29,000 --> 00:10:36,000
+Because Sounder looked like it was going to be a good platform that is now completely dying in January.
+
+67
+00:10:36,000 --> 00:10:38,000
+Shrug, I guess.
+
+68
+00:10:38,000 --> 00:10:50,000
+If you guys want to make a podcasting platform and have a way to make it incredibly cheap and easy, do what Lex is doing, then you can make some money, I guess.
+
+69
+00:10:50,000 --> 00:10:55,000
+Charge a couple of bucks with some pro features, you've got a business.
+
+70
+00:10:55,000 --> 00:11:01,000
+Just like make a file store, any file store, wherever the hell you want it.
+
+71
+00:11:01,000 --> 00:11:03,000
+AWS, whatever the hell you want it.
+
+72
+00:11:03,000 --> 00:11:05,000
+Make a web page.
+
+73
+00:11:05,000 --> 00:11:07,000
+Publish RSS feeds.
+
+74
+00:11:07,000 --> 00:11:09,000
+Conscribe using Whisper AI.
+
+75
+00:11:09,000 --> 00:11:12,000
+You'll make a couple bucks.
+
+76
+00:11:12,000 --> 00:11:14,000
+We'll keep you updated.
+
+77
+00:11:14,000 --> 00:11:18,000
+For now, the Neos Wiki is the sort of location.
+
+78
+00:11:18,000 --> 00:11:21,000
+Beagle says, how's the medical meeting presentation thing?
+
+79
+00:11:21,000 --> 00:11:29,000
+That was good. For those who don't know what I'm talking about or Beagle and I are talking about, I'll get the link to a video of that presentation.
+
+80
+00:11:29,000 --> 00:11:44,000
+That's a three minute presentation I gave at an event about ear, nose and throat, which is generically all head surgery and surgical conditions and stuff.
+
+81
+00:11:44,000 --> 00:11:48,000
+About some tooling that we're making inside of Neos.
+
+82
+00:11:48,000 --> 00:11:54,000
+That presentation was also given entirely inside of Neos, which some people are quite amazed at.
+
+83
+00:11:54,000 --> 00:12:01,000
+The amount of people that came to that world whilst I was building the presentation was like, could you publish this world so I could use it for my presentations too?
+
+84
+00:12:01,000 --> 00:12:03,000
+And I'm like, yeah, sure.
+
+85
+00:12:03,000 --> 00:12:05,000
+The actual system took about 20 minutes.
+
+86
+00:12:05,000 --> 00:12:10,000
+It's just a tiny piece of logics and that's it.
+
+87
+00:12:10,000 --> 00:12:14,000
+But yeah, we'll take a look at it.
+
+88
+00:12:14,000 --> 00:12:19,000
+There's also some animations in there that are made entirely in Neos using various things and various tools.
+
+89
+00:12:19,000 --> 00:12:27,000
+So I am planning to do a behind the scenes video where I call out all of the public folder madness that is going on in there.
+
+90
+00:12:27,000 --> 00:12:31,000
+I use Gehepe's motion and capture tool.
+
+91
+00:12:31,000 --> 00:12:38,000
+I use Orange and the team that worked on that, the statue generator.
+
+92
+00:12:38,000 --> 00:12:43,000
+I use value gradient driver a ton, which is great because I don't usually use value gradient driver.
+
+93
+00:12:43,000 --> 00:12:46,000
+I do think people still use that for far too many things.
+
+94
+00:12:46,000 --> 00:12:47,000
+Just use logics.
+
+95
+00:12:47,000 --> 00:12:49,000
+We wrote logics for you, right?
+
+96
+00:12:49,000 --> 00:12:52,000
+But sometimes it's useful to do various things.
+
+97
+00:12:52,000 --> 00:13:05,000
+There's even an object grid aligner in there for the single purpose of stacking some cards on a calendar on the Z axis.
+
+98
+00:13:05,000 --> 00:13:09,000
+I used object grid aligner because it's the fastest way I could to stack those.
+
+99
+00:13:09,000 --> 00:13:11,000
+So I'll go through that.
+
+100
+00:13:11,000 --> 00:13:18,000
+So Gehepe also uses avatars from a MIT licensed horrific collection of avatars called the RocketBox collection.
+
+101
+00:13:18,000 --> 00:13:20,000
+They're really good avatars.
+
+102
+00:13:20,000 --> 00:13:26,000
+And a while ago I recommended that they look into adding face blend shapes.
+
+103
+00:13:26,000 --> 00:13:37,000
+And rather than just adding the bare minimum or even like the bare minimum plus some niceties like most avatars have such as the Ready Player Me avatars.
+
+104
+00:13:37,000 --> 00:13:44,000
+The RocketBox team added every single AR kit blend shape without fail.
+
+105
+00:13:44,000 --> 00:13:46,000
+Every single one.
+
+106
+00:13:46,000 --> 00:13:52,000
+The blend shape list on all of those avatars is something like 60 plus blend shapes.
+
+107
+00:13:52,000 --> 00:13:54,000
+There are duplicates that I don't understand.
+
+108
+00:13:54,000 --> 00:13:56,000
+It supports AR kit.
+
+109
+00:13:56,000 --> 00:13:59,000
+It supports HTC facial tracker.
+
+110
+00:13:59,000 --> 00:14:02,000
+It supports, I don't know, stuff I don't even understand.
+
+111
+00:14:02,000 --> 00:14:05,000
+On the top of that there are also facial bones.
+
+112
+00:14:05,000 --> 00:14:10,000
+So if you don't want to use the blend shapes, you can also use facial bones.
+
+113
+00:14:10,000 --> 00:14:27,000
+For those who aren't aware, actually, if you're making an avatar and you want to get all those blend shapes together, creating facial bones, positioning those facial bones in the places that you would like and then deriving shape keys from the facial bones position is a great way to make those blend shapes.
+
+114
+00:14:27,000 --> 00:14:32,000
+Because you can actually think about the movement of the face a lot better with facial bones.
+
+115
+00:14:32,000 --> 00:14:40,000
+Most like films, 3D films, 3D games, et cetera, use facial bones rather than facial blend shapes.
+
+116
+00:14:40,000 --> 00:14:48,000
+That's why I usually get the 5,000% animationy things because they basically find the modifier for that and they crank it up.
+
+117
+00:14:48,000 --> 00:14:52,000
+Things like Beyond Two Souls 500% is good.
+
+118
+00:14:52,000 --> 00:14:55,000
+And that's got a theme to fill in.
+
+119
+00:14:55,000 --> 00:14:57,000
+Take a look at the RocketBox.
+
+120
+00:14:57,000 --> 00:15:01,000
+There's quite a few of the RocketBox avatars inside my public folder now.
+
+121
+00:15:01,000 --> 00:15:03,000
+I don't know what to do with their blend shapes.
+
+122
+00:15:03,000 --> 00:15:07,000
+Blend shapes aren't named in a way that is suitable for the HTC Face Tracker.
+
+123
+00:15:07,000 --> 00:15:09,000
+You can set them up manually.
+
+124
+00:15:09,000 --> 00:15:13,000
+Another thing that really drives me mad is people get so obsessed over the names of their blend shapes.
+
+125
+00:15:13,000 --> 00:15:21,000
+I'm like, if you name your blend shape cow, potato, cheese, onion, sauce, and cabbage, it will still work with the HTC facial tracker.
+
+126
+00:15:21,000 --> 00:15:23,000
+You just need to set it up manually.
+
+127
+00:15:23,000 --> 00:15:25,000
+Which is absolutely fine.
+
+128
+00:15:25,000 --> 00:15:31,000
+By the time you've renamed half your blend shapes in Blender just for Neos, you could have set them up manually inside the game.
+
+129
+00:15:31,000 --> 00:15:34,000
+Beagle says, do you win any awards on that presentation?
+
+130
+00:15:34,000 --> 00:15:36,000
+Unfortunately, no, we did not.
+
+131
+00:15:36,000 --> 00:15:40,000
+There were some really good projects, actually more than I had a preview at.
+
+132
+00:15:40,000 --> 00:15:45,000
+There was a practice run through of the session a couple of days before.
+
+133
+00:15:45,000 --> 00:15:47,000
+Not everyone attended that.
+
+134
+00:15:47,000 --> 00:15:49,000
+So it was really cool.
+
+135
+00:15:49,000 --> 00:15:54,000
+Alex says, on that same day, I thought you might have been in the local news since there's a topic on surgical training in VR.
+
+136
+00:15:54,000 --> 00:15:56,000
+There's a lot of companies doing that.
+
+137
+00:15:56,000 --> 00:16:00,000
+Unfortunately, a lot of companies in the area are doing the same thing.
+
+138
+00:16:00,000 --> 00:16:05,000
+Or in some cases, they're doing what Neos has created to try and solve as well.
+
+139
+00:16:05,000 --> 00:16:09,000
+In that they have a code base that is designed to do one thing.
+
+140
+00:16:09,000 --> 00:16:13,000
+So someone will come to them and say, let's do surgery planning for surgery on the head.
+
+141
+00:16:13,000 --> 00:16:16,000
+They will write an entire Unity code base to do that.
+
+142
+00:16:16,000 --> 00:16:20,000
+And then the next week, someone will say, can we do surgery on the leg?
+
+143
+00:16:20,000 --> 00:16:26,000
+And they go, oh, no, our current code base doesn't support legs, so we'll have to write an entirely new code base.
+
+144
+00:16:26,000 --> 00:16:32,000
+Which, of course, makes them money and garners them potential profits, et cetera.
+
+145
+00:16:32,000 --> 00:16:38,000
+But we turn around as Neo, so we're like, you can do whatever you want.
+
+146
+00:16:38,000 --> 00:16:40,000
+Literally, whatever you want.
+
+147
+00:16:40,000 --> 00:16:45,000
+Legs, heads, necks, bodies, whatever you want.
+
+148
+00:16:45,000 --> 00:16:50,000
+Coffee has had a similar great experience presenting in VR.
+
+149
+00:16:50,000 --> 00:16:51,000
+It's great.
+
+150
+00:16:51,000 --> 00:17:00,000
+For those who aren't aware, new versions of OBS have a virtual webcam feature where you can basically take the output of OBS and turn it into a webcam.
+
+151
+00:17:00,000 --> 00:17:06,000
+And so we capture Neos, take it as a webcam, and shove it into Zoom meetings.
+
+152
+00:17:06,000 --> 00:17:07,000
+It works quite well.
+
+153
+00:17:07,000 --> 00:17:12,000
+We haven't really managed to do the other way around, which is where we take the entire Zoom meeting and put it into a Neos world yet.
+
+154
+00:17:12,000 --> 00:17:16,000
+And so that causes some issues when we're sort of talking about collaboration.
+
+155
+00:17:16,000 --> 00:17:31,000
+There's also issues which I frequently tell other people to do this to look out for, which is that by default, the Neos streaming camera will do like an animation and a wobble in the third-person mode, too.
+
+156
+00:17:31,000 --> 00:17:32,000
+It's good.
+
+157
+00:17:32,000 --> 00:17:34,000
+It gives some sort of natural camera angles to it.
+
+158
+00:17:34,000 --> 00:17:41,000
+But when the entire rest of the Zoom meeting are static sort of above-the-chest shots of people wearing suits, it can be a little bit better.
+
+159
+00:17:41,000 --> 00:17:43,000
+It can be a little bit motion sickness doing.
+
+160
+00:17:43,000 --> 00:17:46,000
+It can also be a little bit sort of showboaty.
+
+161
+00:17:46,000 --> 00:17:49,000
+So I try and sort of static the webcam as much as possible.
+
+162
+00:17:49,000 --> 00:17:54,000
+When I say webcam, I mean webcam in sort of quotes because it's OBS.
+
+163
+00:17:54,000 --> 00:17:56,000
+And you'll see that in the presentation I give.
+
+164
+00:17:56,000 --> 00:17:59,000
+I do do a flyover at the start of that video.
+
+165
+00:17:59,000 --> 00:18:06,000
+That is just because I am obsessed in that presentation with convincing them that it is actually live, even though it's not because that's recording.
+
+166
+00:18:06,000 --> 00:18:10,000
+But the point is it was live at the recording.
+
+167
+00:18:10,000 --> 00:18:15,000
+Because a lot of times we get things like, that was fantastic, but that was prerecorded, right?
+
+168
+00:18:15,000 --> 00:18:17,000
+And it's like, no.
+
+169
+00:18:17,000 --> 00:18:21,000
+Luckily, after I gave the presentation at the actual event, there was time for questions.
+
+170
+00:18:21,000 --> 00:18:31,000
+And during those questions, I was much more freeform with my movement and also what I was doing with my hands, et cetera.
+
+171
+00:18:31,000 --> 00:18:35,000
+So hopefully they didn't think it was prerecorded because it wasn't prerecorded.
+
+172
+00:18:35,000 --> 00:18:42,000
+Although portions of it were prerecorded because I was using the motion capture tool, which prerecords motion.
+
+173
+00:18:42,000 --> 00:18:43,000
+But you know what I mean.
+
+174
+00:18:43,000 --> 00:18:50,000
+They think that we have played a video instead of rendered inside me.
+
+175
+00:18:50,000 --> 00:18:53,000
+Rapper says the value gradient driver is great for precise time animation.
+
+176
+00:18:53,000 --> 00:19:02,000
+You are correct, but I've seen people use value gradient driver for absolutely everything when a couple of logic nodes would do.
+
+177
+00:19:02,000 --> 00:19:05,000
+I've seen people go like, oh, I can't use logic.
+
+178
+00:19:05,000 --> 00:19:09,000
+You absolutely, absolutely can and should use logics.
+
+179
+00:19:09,000 --> 00:19:14,000
+If you're avoiding using logics for any reason, other than you want to, then done.
+
+180
+00:19:14,000 --> 00:19:15,000
+You can use it.
+
+181
+00:19:15,000 --> 00:19:22,000
+Beagle asks how much more work do you think is left on the medical prep thing you've been working on before it's ready for active use?
+
+182
+00:19:22,000 --> 00:19:25,000
+Five plus years.
+
+183
+00:19:25,000 --> 00:19:32,000
+When you're doing stuff that's meant to be used for actual humans, it gets kind of difficult, which is why I say five years.
+
+184
+00:19:32,000 --> 00:19:38,000
+Technically it could probably be ready by the end of the year, but it doesn't work like that.
+
+185
+00:19:38,000 --> 00:19:47,000
+We have to get it ready as much as we understand and then speak to professionals and then they'll come back and they'll say, but you forgot about the neutron flow.
+
+186
+00:19:47,000 --> 00:19:50,000
+And then that takes like three months for us to fix the neutron flow, whatever the hell they say.
+
+187
+00:19:50,000 --> 00:19:52,000
+Sometimes I don't even know.
+
+188
+00:19:52,000 --> 00:20:05,000
+For example, we had a problem a few months back because the leg was upside down and it's difficult to explain.
+
+189
+00:20:05,000 --> 00:20:06,000
+Watch the video.
+
+190
+00:20:06,000 --> 00:20:16,000
+Basically, if the leg is upside down, then it won't work because the blood flow has been interrupted in such a way and then the leg will die when they put it in someone's face.
+
+191
+00:20:16,000 --> 00:20:24,000
+And so they came into our world and they flipped the leg upside down and everything broke because we didn't realize that the leg needed to be upside down.
+
+192
+00:20:24,000 --> 00:20:32,000
+So we had to adjust stuff to allow for legs being upside down, at which point you start questioning your existence because you don't understand.
+
+193
+00:20:32,000 --> 00:20:36,000
+It's also difficult to sort of get that information into a sort of piecemeal thing.
+
+194
+00:20:36,000 --> 00:20:42,000
+If you work in the software industry and you're like, tell me the requirements of your piece of software, you'll know this problem.
+
+195
+00:20:42,000 --> 00:20:46,000
+Just double that if it's medical in nature because it's just like, what are the requirements?
+
+196
+00:20:46,000 --> 00:20:48,000
+No one knows.
+
+197
+00:20:48,000 --> 00:20:53,000
+No one knows because like in some cases, they deal with this planning, they figure it all out.
+
+198
+00:20:53,000 --> 00:21:02,000
+But sometimes when it comes to surgery and it comes to them explaining the requirements, it's like the equivalent of just they make it up.
+
+199
+00:21:02,000 --> 00:21:13,000
+So at the end of the day, they cut out pieces of your leg and pieces of your jaw and have to just sort of like screw those things back together.
+
+200
+00:21:13,000 --> 00:21:16,000
+So sometimes it's just like really confusing.
+
+201
+00:21:16,000 --> 00:21:34,000
+It's an interesting question, which I can't really answer, but I can sort of, which is how does logic initialization time compared to component time for an item appearing in the world?
+
+202
+00:21:34,000 --> 00:21:43,000
+What I mean by that is when it comes to objects being spawned in the world or being duplicated from a template, I've noticed that pure components tend to be faster than if I built the same functionality in logic.
+
+203
+00:21:43,000 --> 00:21:48,000
+Probably because of slot count, right? And I'm going to say this again because people still don't listen.
+
+204
+00:21:48,000 --> 00:21:52,000
+The slot count is the last thing you should be looking at when you're optimizing.
+
+205
+00:21:52,000 --> 00:21:56,000
+Your slot count will be low if you've optimized something.
+
+206
+00:21:56,000 --> 00:22:04,000
+So if you have a slot counter in your world or you're bullying people because of their slot count, I want you to look at your bench shapes and make sure they're baked because I bet you they're not.
+
+207
+00:22:04,000 --> 00:22:07,000
+And that's causing more of an impact than whoever's got the large slot count.
+
+208
+00:22:07,000 --> 00:22:17,000
+Additionally, if you have a high slot count, maybe remove that feature. Do you need the low orbit ion cannon attached to your avatar that you use once in a blue moon?
+
+209
+00:22:17,000 --> 00:22:22,000
+No. Congratulations. You've just deleted a thousand thoughts and a lower ion cannon.
+
+210
+00:22:22,000 --> 00:22:33,000
+But that's probably what you're saying there because logic tends to be one slot per operation, whereas components tends to be multiple components on the same slot that do a lot of stuff.
+
+211
+00:22:33,000 --> 00:22:40,000
+When it comes to initialization of that stuff, there is a bit of an overhead, of course.
+
+212
+00:22:40,000 --> 00:22:51,000
+That word beginning of I, the logic's chain, it has to sort of build a map about which node connects to what node and how to shoulder tap that.
+
+213
+00:22:51,000 --> 00:22:55,000
+But again, that's quite optimized and shouldn't be worried about.
+
+214
+00:22:55,000 --> 00:23:03,000
+Ultimately, it should be a matter of perspective and preference rather than a matter of one does it better than the other.
+
+215
+00:23:03,000 --> 00:23:07,000
+So if you do notice particular issues, please do open issues.
+
+216
+00:23:07,000 --> 00:23:18,000
+This made me realize how much unavailability of pro inhibits adoption of Neos.
+
+217
+00:23:18,000 --> 00:23:20,000
+I don't know. How long is a piece of string?
+
+218
+00:23:20,000 --> 00:23:26,000
+So, for those people that have purchased Neos Pro, I don't even have a list of them.
+
+219
+00:23:26,000 --> 00:23:31,000
+For those people that have asked questions about purchasing Neos Pro, I don't have a list of them.
+
+220
+00:23:31,000 --> 00:23:40,000
+For those people who have ignored the fact that they should have Neos Pro and have done stuff which requires Neos Pro without Neos Pro, I don't have a list of them.
+
+221
+00:23:40,000 --> 00:23:44,760
+For those people who have ignored Neos Pro and done stuff that requires Neos Pro without
+
+222
+00:23:44,760 --> 00:23:50,120
+asking, I have no way to know, and I probably wouldn't go after them anyway, because I don't
+
+223
+00:23:50,120 --> 00:23:52,680
+know that they're doing it.
+
+224
+00:23:52,680 --> 00:23:58,580
+We've always had a sort of, um, it's okay, in air quotes, if it's sort of, like, research
+
+225
+00:23:58,580 --> 00:24:05,440
+educational or medical in nature, but it would be great if that sort of stuff was ratified
+
+226
+00:24:05,440 --> 00:24:07,840
+into a way that could be policed.
+
+227
+00:24:07,840 --> 00:24:10,920
+We also have the problem where moderation do not police the terms of use.
+
+228
+00:24:10,920 --> 00:24:14,800
+They police the user guidelines, which are completely different.
+
+229
+00:24:14,800 --> 00:24:17,760
+For those who don't understand those, it's the difference between interacting with a
+
+230
+00:24:17,760 --> 00:24:20,440
+company and interacting with a community.
+
+231
+00:24:20,440 --> 00:24:23,840
+The Neos user guidelines are protecting the community.
+
+232
+00:24:23,840 --> 00:24:28,520
+The Neos terms of use is protecting business entity.
+
+233
+00:24:28,520 --> 00:24:30,360
+So they are different.
+
+234
+00:24:30,360 --> 00:24:38,080
+They do sometimes overlap in certain ways, but it's just to protect both the moderation
+
+235
+00:24:38,080 --> 00:24:43,320
+team and the business entity that they don't deal with enforcing business entity related
+
+236
+00:24:43,320 --> 00:24:44,320
+stuff.
+
+237
+00:24:44,320 --> 00:24:49,800
+They could, but that would be a discussion with leadership to figure out what paperwork
+
+238
+00:24:49,800 --> 00:24:55,640
+and compensation that they would like to give to the moderation team such that they could
+
+239
+00:24:55,640 --> 00:25:03,880
+sufficiently and adequately legally protect and help a business entity rather than community.
+
+240
+00:25:03,880 --> 00:25:05,200
+It's a complicated problem.
+
+241
+00:25:05,200 --> 00:25:09,400
+I am very happy that the moderation team are focused on what they are doing right now,
+
+242
+00:25:09,400 --> 00:25:11,120
+which is the community.
+
+243
+00:25:11,120 --> 00:25:16,720
+There's a reason why many, many, many companies, if not have their own legal department, have
+
+244
+00:25:16,720 --> 00:25:19,000
+a lawyer on retainer.
+
+245
+00:25:19,000 --> 00:25:22,800
+Sorry, I sighed at this next question.
+
+246
+00:25:22,800 --> 00:25:26,080
+I have heard multiple times from multiple people that Animex animations aren't very
+
+247
+00:25:26,080 --> 00:25:29,000
+component to, say, doing a bit of logic to move something around.
+
+248
+00:25:29,000 --> 00:25:30,400
+I expect the opposite most of the time.
+
+249
+00:25:30,400 --> 00:25:32,760
+Do you know if there's any truth to this and maybe why?
+
+250
+00:25:32,760 --> 00:25:34,340
+Don't know for certain.
+
+251
+00:25:34,340 --> 00:25:38,320
+Those people who are saying things like that need to provide data or I'm going to start
+
+252
+00:25:38,320 --> 00:25:40,840
+sending them angry cat GIFs because I'm tired of it.
+
+253
+00:25:40,840 --> 00:25:44,280
+If you think something is unperformant, test it.
+
+254
+00:25:44,280 --> 00:25:51,360
+There's a brilliant tweet from Orange, it is in Japan, it's in Japanese, so of course
+
+255
+00:25:51,360 --> 00:25:55,080
+you have to translate it, but effectively what they did is they did what we advise as
+
+256
+00:25:55,080 --> 00:25:59,080
+well is they went to an empty world and they spawned 20 copies of their avatar and looked
+
+257
+00:25:59,080 --> 00:26:00,080
+at the FPS.
+
+258
+00:26:00,080 --> 00:26:03,800
+They then made performance optimizations to their avatar and spawned 20 copies of their
+
+259
+00:26:03,800 --> 00:26:04,800
+avatar.
+
+260
+00:26:04,800 --> 00:26:07,900
+They managed to get, I can't remember, I'm just going to pull a number out of my head,
+
+261
+00:26:07,900 --> 00:26:13,840
+they got a 5 FPS increase by doing various things on their 20 avatar army.
+
+262
+00:26:13,840 --> 00:26:19,680
+So if you would like to make those claims about Animex being bad or good, provide some
+
+263
+00:26:19,680 --> 00:26:20,680
+data.
+
+264
+00:26:20,680 --> 00:26:25,800
+I know that there was another member of the Japanese community who made a tool which put
+
+265
+00:26:25,800 --> 00:26:30,800
+profiling data into a way that could be easily visualized and they proved that access aligner
+
+266
+00:26:30,800 --> 00:26:38,720
+was bad and we're like, yep, we totally know that because it updates every frame.
+
+267
+00:26:38,720 --> 00:26:40,080
+But that was good, right?
+
+268
+00:26:40,080 --> 00:26:44,580
+It gave the data in the form of a pie chart, which is super easy to read, but I'm tired
+
+269
+00:26:44,580 --> 00:26:48,480
+of people looking at stuff and going, I think this is bad, therefore I'm going to tell the
+
+270
+00:26:48,480 --> 00:26:53,480
+community that it's bad and therefore people are going to, like, not use it.
+
+271
+00:26:53,480 --> 00:26:57,600
+As far as I'm concerned, Animex animations are there for you to use, as is logic.
+
+272
+00:26:57,600 --> 00:27:00,300
+So it depends entirely on your preference.
+
+273
+00:27:00,300 --> 00:27:07,720
+What I will say is that I don't think we've seen a lot of people using Animex animations
+
+274
+00:27:07,720 --> 00:27:09,360
+and I think that they should be using them.
+
+275
+00:27:09,360 --> 00:27:13,520
+For example, and that is also because we haven't provided the tools to do it.
+
+276
+00:27:13,520 --> 00:27:16,920
+For example, the motion capture tool currently, it's terrible.
+
+277
+00:27:16,920 --> 00:27:19,600
+Like in terms of optimization, it's terrible.
+
+278
+00:27:19,600 --> 00:27:22,760
+But it's fantastic because it's the only thing that allows us to do that.
+
+279
+00:27:22,760 --> 00:27:25,960
+And so it's fantastic and I love it and I keep using it, hence why it's used in the
+
+280
+00:27:25,960 --> 00:27:26,960
+talk above.
+
+281
+00:27:26,960 --> 00:27:33,480
+But it records the slot positions of the hands and head and in my case the position of the
+
+282
+00:27:33,480 --> 00:27:37,120
+avatar every frame into dynamic variables.
+
+283
+00:27:37,120 --> 00:27:43,320
+So if you look through that code of the motion capture tool, you'll find right hand position
+
+284
+00:27:43,320 --> 00:27:51,920
+777, if you record 777 frames, that's how many dynamic variables you'll have.
+
+285
+00:27:51,920 --> 00:27:53,560
+It's bad, but it's good, right?
+
+286
+00:27:53,560 --> 00:27:54,560
+I wish we had better tools.
+
+287
+00:27:54,560 --> 00:27:58,560
+The better way of doing that would be for us to natively take the information and bake
+
+288
+00:27:58,560 --> 00:28:03,400
+it into an Animex animation, which I guarantee would be more performant based on the number
+
+289
+00:28:03,400 --> 00:28:07,400
+of times I accidentally opened the inspector on the slot that contained those dynamic variables
+
+290
+00:28:07,400 --> 00:28:11,280
+and almost died, both in game and out of game.
+
+291
+00:28:11,280 --> 00:28:14,000
+The OZ here has some data, which is fantastic.
+
+292
+00:28:14,000 --> 00:28:19,520
+They should publish a paper in a peer reviewed scientific journal.
+
+293
+00:28:19,520 --> 00:28:24,160
+They say animations, animators with a decent amount of bones attached to it with a looping
+
+294
+00:28:24,160 --> 00:28:26,520
+animation can slowly cause increasing costs for some reason.
+
+295
+00:28:26,520 --> 00:28:29,960
+You see this by duplicating a rig that has an animator a few times and slowly see the
+
+296
+00:28:29,960 --> 00:28:31,480
+CPU frame time go up.
+
+297
+00:28:31,480 --> 00:28:34,240
+So that might be an optimization that we need to perform.
+
+298
+00:28:34,240 --> 00:28:36,480
+Yeah, I know, I understand specs.
+
+299
+00:28:36,480 --> 00:28:41,520
+So I think you should use Animex, though, if you need to.
+
+300
+00:28:41,520 --> 00:28:43,440
+And I think you should use Logix if you need to.
+
+301
+00:28:43,440 --> 00:28:47,680
+If anyone's telling you that you can't use something, they should go look at Anger Cat
+
+302
+00:28:47,680 --> 00:28:48,680
+gifts all day.
+
+303
+00:28:48,680 --> 00:28:54,320
+For anyone who doubts my knowledge about optimization, I haven't been inside and outside of the engine
+
+304
+00:28:54,320 --> 00:28:57,040
+on every single question I get asked about optimization.
+
+305
+00:28:57,040 --> 00:28:59,720
+So in some cases, I literally just don't know, right?
+
+306
+00:28:59,720 --> 00:29:01,480
+But what I want is the data, right?
+
+307
+00:29:01,480 --> 00:29:04,720
+If someone makes a claim, I want the data.
+
+308
+00:29:04,720 --> 00:29:09,600
+I'm like, hey, if you want to say that this is bad, please provide the data.
+
+309
+00:29:09,600 --> 00:29:13,540
+Because in worlds that I build in, where I don't care, and I use whatever tool I need
+
+310
+00:29:13,540 --> 00:29:14,940
+to get the job done.
+
+311
+00:29:14,940 --> 00:29:22,340
+So for example, inside the surgical planning world, there is horrible Logix, which has
+
+312
+00:29:22,340 --> 00:29:26,360
+like duplicated nodes and all sorts of stuff.
+
+313
+00:29:26,360 --> 00:29:29,460
+We use the world dynamic variable space all the time.
+
+314
+00:29:29,460 --> 00:29:34,420
+We run at a solid 90 FPS with about five or six people in there, and that's all we need.
+
+315
+00:29:34,420 --> 00:29:38,280
+Because there's going to be like the surgical team in there, and that's it.
+
+316
+00:29:38,280 --> 00:29:39,280
+And that's fine.
+
+317
+00:29:39,280 --> 00:29:40,280
+And I'm like, cool.
+
+318
+00:29:40,280 --> 00:29:41,800
+What optimization have I done in this world?
+
+319
+00:29:41,800 --> 00:29:42,800
+None.
+
+320
+00:29:42,800 --> 00:29:46,400
+I do occasionally do some on there, but that's mostly because I'm being sort of paranoid
+
+321
+00:29:46,400 --> 00:29:47,400
+about it.
+
+322
+00:29:47,400 --> 00:29:53,180
+But like I'm not continually paranoid about optimization, except in cases where I need
+
+323
+00:29:53,180 --> 00:29:54,180
+to be.
+
+324
+00:29:54,180 --> 00:29:57,120
+And the cases where you need to be are your avatar, the cases where you don't need to
+
+325
+00:29:57,120 --> 00:29:59,240
+be are effectively worlds that you make.
+
+326
+00:29:59,240 --> 00:30:03,040
+If it's a world that you make, take a look at the FPS, if it's good, it's good, right?
+
+327
+00:30:03,040 --> 00:30:07,800
+If someone comes into your world that doesn't have baked blend shapes and et cetera, and
+
+328
+00:30:07,800 --> 00:30:13,040
+they say it's a laggy world, ask them to revisit that world in a default Head and Hands avatar,
+
+329
+00:30:13,040 --> 00:30:15,000
+and they'll figure it out.
+
+330
+00:30:15,000 --> 00:30:18,400
+The goal with Neos is that you don't have to be paranoid about that.
+
+331
+00:30:18,400 --> 00:30:23,400
+The goal with any sort of API is that you should not have to be paranoid about that,
+
+332
+00:30:23,400 --> 00:30:29,860
+and that the API should provide tools, techniques, documentation that guide you into the best
+
+333
+00:30:29,860 --> 00:30:31,600
+way to do something.
+
+334
+00:30:31,600 --> 00:30:32,800
+So are there bad things that you can do?
+
+335
+00:30:32,800 --> 00:30:33,800
+Yes.
+
+336
+00:30:33,800 --> 00:30:36,640
+But there's also documentation in terms of videos and Wiki pages that guide you away
+
+337
+00:30:36,640 --> 00:30:37,640
+from doing that.
+
+338
+00:30:37,640 --> 00:30:41,280
+Biggest example being Fire on True, please put a user in the second input of Fire on
+
+339
+00:30:41,280 --> 00:30:44,840
+True or I will send you angry cat gifts.
+
+340
+00:30:44,840 --> 00:30:49,800
+Ramper asks another question, moving on from I get kind of grumpy when it comes to optimization.
+
+341
+00:30:49,800 --> 00:30:54,240
+I get it, guys, you're just trying to make your stuff better, but when I get people DMing
+
+342
+00:30:54,240 --> 00:31:01,960
+me and say, is there a performance improvement between a value field and a value register?
+
+343
+00:31:01,960 --> 00:31:07,560
+They were manually adding the value register node to slots rather than the value field
+
+344
+00:31:07,560 --> 00:31:13,160
+component slots, because they thought it was more performant, and I'm like, same thing.
+
+345
+00:31:13,160 --> 00:31:18,120
+Anyway, please continue asking performance questions, but understand that you'll probably
+
+346
+00:31:18,120 --> 00:31:19,940
+get the same response.
+
+347
+00:31:19,940 --> 00:31:21,220
+So Ramper's question.
+
+348
+00:31:21,220 --> 00:31:27,000
+One question that is not that much, there is a serious security, but anyway, I'll continue
+
+349
+00:31:27,000 --> 00:31:28,000
+reading.
+
+350
+00:31:28,000 --> 00:31:30,240
+Have you seen the discussion on rumors being spread about Neos?
+
+351
+00:31:30,240 --> 00:31:33,080
+Apparently someone was telling others that we are so insecure that people can key log
+
+352
+00:31:33,080 --> 00:31:36,000
+your PC by joining your session with a key log or a cooked avatar, what do you think
+
+353
+00:31:36,000 --> 00:31:37,000
+about this madness?
+
+354
+00:31:37,000 --> 00:31:40,920
+I think that that person should read our security policy before I send them angry cat gifts
+
+355
+00:31:40,920 --> 00:31:43,780
+and then report them to moderation if I see it.
+
+356
+00:31:43,780 --> 00:31:45,480
+There is a security policy for a reason.
+
+357
+00:31:45,480 --> 00:31:50,920
+If you make a security ticket, we will respond to it with the severity that is needed.
+
+358
+00:31:50,920 --> 00:31:53,800
+In a lot of cases right now, that is, we put it on the back burner, I suppose because of
+
+359
+00:31:53,800 --> 00:31:54,800
+the current issues.
+
+360
+00:31:54,800 --> 00:31:58,540
+If it's a major security issue, we do actually put out security patches, which we have done
+
+361
+00:31:58,540 --> 00:32:02,880
+a couple of times during this madness.
+
+362
+00:32:02,880 --> 00:32:07,400
+I understand that you might not wish to give that person's name, but if that person is
+
+363
+00:32:07,400 --> 00:32:12,560
+listening or that person receives this office hours recording later, even if you just spawn
+
+364
+00:32:12,560 --> 00:32:17,480
+it in a world in front of them, hi person who's reporting a security issue incorrectly,
+
+365
+00:32:17,480 --> 00:32:19,440
+please follow the security reporting.
+
+366
+00:32:19,440 --> 00:32:24,320
+I will not be mad at you if you make a security report about this particular issue.
+
+367
+00:32:24,320 --> 00:32:28,400
+Until you make a report about this issue, you are doing a disservice to Neos by not
+
+368
+00:32:28,400 --> 00:32:29,400
+reporting it.
+
+369
+00:32:29,400 --> 00:32:33,320
+Yeah, I saw a rumor on that one.
+
+370
+00:32:33,320 --> 00:32:34,320
+It's annoying.
+
+371
+00:32:34,320 --> 00:32:41,920
+There is, like, technically, and you can view it as a sort of keylog-ish thingy that exists,
+
+372
+00:32:41,920 --> 00:32:52,480
+which is the type delta node, but it's not going to get passed, I think.
+
+373
+00:32:52,480 --> 00:32:57,280
+They claim Logix, yeah, I've heard that Logix can also do remote access to people's computers.
+
+374
+00:32:57,280 --> 00:33:00,600
+I've also heard that Logix is a Bitcoin miner.
+
+375
+00:33:00,600 --> 00:33:01,600
+It's annoying.
+
+376
+00:33:01,600 --> 00:33:05,720
+They need to back up their claims of substantial evidence or reports to our team, otherwise
+
+377
+00:33:05,720 --> 00:33:07,600
+we can't really do anything about it.
+
+378
+00:33:07,600 --> 00:33:12,360
+I can add it to the Neos Wiki myth list, though, after this.
+
+379
+00:33:12,360 --> 00:33:17,280
+If this is like a magical Twitter hashtag I'm not reading, do let me know as well.
+
+380
+00:33:17,280 --> 00:33:22,320
+I have so many TweetDeck columns where I see VR chat players confused about Neos, and I'll
+
+381
+00:33:22,320 --> 00:33:24,960
+correct them.
+
+382
+00:33:24,960 --> 00:33:31,600
+I think the exploit of the day back when I last looked at the VR chat community talking
+
+383
+00:33:31,600 --> 00:33:37,980
+about it was that any user that joins you has access to your hard drive, and that's
+
+384
+00:33:37,980 --> 00:33:41,520
+because they didn't understand private UI versus public UI.
+
+385
+00:33:41,520 --> 00:33:46,800
+Strangely, and I'm going to say if you quote this without context, I will send an angry
+
+386
+00:33:46,800 --> 00:33:51,120
+cat, technically it was possible to access other people's hard drives inside of Neos
+
+387
+00:33:51,120 --> 00:33:55,680
+before I reported the issue in 2019-ish.
+
+388
+00:33:55,680 --> 00:34:01,980
+The old file browser existed in the uncategorized component list and it spawned into world space
+
+389
+00:34:01,980 --> 00:34:05,360
+by default and allowed people to interact with your hard drive.
+
+390
+00:34:05,360 --> 00:34:07,200
+Frux removed that quite quickly.
+
+391
+00:34:07,200 --> 00:34:12,360
+Additionally, there was also an exploit where you could write files to other people's hard
+
+392
+00:34:12,360 --> 00:34:13,360
+drives.
+
+393
+00:34:13,360 --> 00:34:17,840
+That got fixed and I reported it again quite quickly because it was reported correctly.
+
+394
+00:34:17,840 --> 00:34:21,040
+No, the write text to file node is the safe way to do it.
+
+395
+00:34:21,040 --> 00:34:28,000
+We had to ask for write text to file because Frux purged the easier way of doing it.
+
+396
+00:34:28,000 --> 00:34:33,440
+Write text to file is an amazing node which I need all the time and I actually use all
+
+397
+00:34:33,440 --> 00:34:35,560
+the time.
+
+398
+00:34:35,560 --> 00:34:38,400
+I run it only when I need to.
+
+399
+00:34:38,400 --> 00:34:45,440
+We run it in scientific applications all the time, but we have a mod for Neos which removes
+
+400
+00:34:45,440 --> 00:34:49,680
+the unsafe mode requirement for that node.
+
+401
+00:34:49,680 --> 00:34:55,800
+But by default, it can only run in unsafe sessions.
+
+402
+00:34:55,800 --> 00:35:00,160
+And for those who are unaware of the write text to file node, you need to go ahead and
+
+403
+00:35:00,160 --> 00:35:06,400
+inspect your logics tip and check the experimental check box which will show you experimental
+
+404
+00:35:06,400 --> 00:35:07,960
+nodes.
+
+405
+00:35:07,960 --> 00:35:17,400
+And for those who don't know what unsafe means, it is basically just land sessions.
+
+406
+00:35:17,400 --> 00:35:22,760
+For those who don't know what land sessions is, if I take a network cable and I plug it
+
+407
+00:35:22,760 --> 00:35:28,440
+into the router and I do take a network cable and plug it into the router and then you unplug
+
+408
+00:35:28,440 --> 00:35:33,440
+the internet from the router and you set up a session, then they can write files.
+
+409
+00:35:33,440 --> 00:35:35,120
+That's a land session.
+
+410
+00:35:35,120 --> 00:35:39,280
+It doesn't prevent you because you could be in a land session and in a non-land session.
+
+411
+00:35:39,280 --> 00:35:42,240
+It's just like the land session is over there.
+
+412
+00:35:42,240 --> 00:35:46,640
+No, it's the logics tip.
+
+413
+00:35:46,640 --> 00:35:47,640
+It's the logics tip.
+
+414
+00:35:47,640 --> 00:35:48,640
+Look right here.
+
+415
+00:35:48,640 --> 00:35:49,640
+See?
+
+416
+00:35:49,640 --> 00:35:50,640
+It's the logics tip.
+
+417
+00:35:50,640 --> 00:35:51,640
+It's right there at the bottom.
+
+418
+00:35:51,640 --> 00:35:55,720
+Anyway, that's all the questions we have, so I'm going to go ahead and close it off
+
+419
+00:35:55,720 --> 00:35:56,720
+for today.
+
+420
+00:35:56,720 --> 00:36:01,000
+If you have any additional questions, concerns, comments, pictures of cheese, please feel
+
+421
+00:36:01,000 --> 00:36:05,020
+free to direct message me on posting the questions and help channel.
+
+422
+00:36:05,020 --> 00:36:10,840
+I see that we lost a bunch of people during that, so thank you all for listening.
+
+423
+00:36:10,840 --> 00:36:14,200
+Thank you to where are we?
+
+424
+00:36:14,200 --> 00:36:20,520
+Thank you to Apero Creations for being the guinea pig for the ask better questions rent.
+
+425
+00:36:20,520 --> 00:36:24,720
+I do believe there's actually a web page about asking better questions, so I will go ahead
+
+426
+00:36:24,720 --> 00:36:25,960
+and link that in.
+
+427
+00:36:25,960 --> 00:36:32,280
+There's a link on it, there it is, asking smart questions, that's what I was looking
+
+428
+00:36:32,280 --> 00:36:33,280
+for.
+
+429
+00:36:33,280 --> 00:36:38,560
+Unfortunately, it's huge, so like no one will read it because they just kept adding details
+
+430
+00:36:38,560 --> 00:36:39,560
+to it.
+
+431
+00:36:39,560 --> 00:36:42,240
+It's like it's a big thing.
+
+432
+00:36:42,240 --> 00:36:44,360
+Anyway, I will go see you guys later.
+
+433
+00:36:44,360 --> 00:37:13,320
+Bye-bye.
+

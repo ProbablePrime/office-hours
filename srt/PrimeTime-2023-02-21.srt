@@ -1,0 +1,3308 @@
+1
+00:00:00,000 --> 00:00:02,200
+ All right, it is the-- yeah, welcome to Office Hours
+
+2
+00:00:02,200 --> 00:00:02,920
+ with Prime.
+
+3
+00:00:02,920 --> 00:00:04,600
+ My name is Prime.
+
+4
+00:00:04,600 --> 00:00:08,040
+ So I got distracted there because I set up
+
+5
+00:00:08,040 --> 00:00:11,560
+ automation on Google Home to turn on my living room
+
+6
+00:00:11,560 --> 00:00:13,880
+ lights about 4 PM, because I will continually figure out
+
+7
+00:00:13,880 --> 00:00:15,520
+ at about 4 PM, we start needing lights.
+
+8
+00:00:15,520 --> 00:00:17,840
+ So they just turned on the moment Office Hours hit.
+
+9
+00:00:17,840 --> 00:00:19,800
+ It was like, bling, your lights turned on.
+
+10
+00:00:19,800 --> 00:00:22,440
+ And I'm like, you're listening, lights?
+
+11
+00:00:22,440 --> 00:00:23,640
+ What's going on?
+
+12
+00:00:23,640 --> 00:00:24,440
+ Well, there we go.
+
+13
+00:00:24,440 --> 00:00:25,720
+ Anyway, welcome to Office Hours.
+
+14
+00:00:25,720 --> 00:00:27,600
+ This is where I answer questions that you guys might have.
+
+15
+00:00:27,600 --> 00:00:30,040
+ Please drop them in the Office Hours text chat thread,
+
+16
+00:00:30,040 --> 00:00:31,720
+ and I'll get to them in order that they arrive.
+
+17
+00:00:31,720 --> 00:00:33,420
+ I'm just going to ping Office Hours again,
+
+18
+00:00:33,420 --> 00:00:36,720
+ and then we'll go ahead and get started with my questions.
+
+19
+00:00:36,720 --> 00:00:39,640
+ So Jack asks-- they first of all say party time.
+
+20
+00:00:39,640 --> 00:00:40,360
+ It's not a party.
+
+21
+00:00:40,360 --> 00:00:41,120
+ It's Office Hours.
+
+22
+00:00:41,120 --> 00:00:42,600
+ Very serious, Office Hours.
+
+23
+00:00:42,600 --> 00:00:45,240
+ You've got to put on your tweed jacket, get some coffee,
+
+24
+00:00:45,240 --> 00:00:49,960
+ and sit in the big professor hallway thing.
+
+25
+00:00:49,960 --> 00:00:50,640
+ Yes.
+
+26
+00:00:50,640 --> 00:00:53,360
+ Anyway, and then asks, how have you been?
+
+27
+00:00:53,360 --> 00:00:56,240
+ I am tired and itchy, and I need to go grocery shopping,
+
+28
+00:00:56,240 --> 00:00:58,760
+ but I'm not going grocery shopping until this is over.
+
+29
+00:00:58,760 --> 00:01:00,040
+ Yes, that's how I am.
+
+30
+00:01:00,040 --> 00:01:01,680
+ That's the only question we have so far.
+
+31
+00:01:01,680 --> 00:01:03,080
+ So until we have additional questions,
+
+32
+00:01:03,080 --> 00:01:05,000
+ I'm going to sit here in unimaginable silence.
+
+33
+00:01:05,000 --> 00:01:08,760
+ So make sure you get some questions sorted.
+
+34
+00:01:08,760 --> 00:01:11,120
+ Gray Foxen says, the Prime means more British things,
+
+35
+00:01:11,120 --> 00:01:13,920
+ like bad weather and milk and tea, says Jack.
+
+36
+00:01:13,920 --> 00:01:16,320
+ Jack even.
+
+37
+00:01:16,320 --> 00:01:17,840
+ I have lots of British things.
+
+38
+00:01:17,840 --> 00:01:19,240
+ I have a cup of tea next to me.
+
+39
+00:01:19,240 --> 00:01:22,120
+ It was last night's tea, so it's empty, but you know.
+
+40
+00:01:22,120 --> 00:01:25,360
+ Svekin asks, what would be the best way to play a sound only
+
+41
+00:01:25,360 --> 00:01:27,600
+ when, say, a tap is being rotated and only when it's
+
+42
+00:01:27,600 --> 00:01:28,840
+ being rotated?
+
+43
+00:01:28,840 --> 00:01:33,680
+ Do remember that a joint and also a slider,
+
+44
+00:01:33,680 --> 00:01:35,600
+ they both act as actually grabables.
+
+45
+00:01:35,600 --> 00:01:37,440
+ They do in programming what's called
+
+46
+00:01:37,440 --> 00:01:39,320
+ extending from a grabable.
+
+47
+00:01:39,320 --> 00:01:43,240
+ So all of the grabable nodes work with joints and sliders.
+
+48
+00:01:43,240 --> 00:01:45,800
+ So if you want to get an event when someone starts grabbing
+
+49
+00:01:45,800 --> 00:01:49,200
+ a joint, use on grabable grab, and on grabable released,
+
+50
+00:01:49,200 --> 00:01:52,240
+ I think it is, when they stop grabbing a joint.
+
+51
+00:01:52,240 --> 00:01:54,480
+ Then based on that, you can do some logic
+
+52
+00:01:54,480 --> 00:01:57,880
+ to take a look at how fast it's being rotated
+
+53
+00:01:57,880 --> 00:02:01,040
+ or something like that to play a sound.
+
+54
+00:02:01,040 --> 00:02:02,720
+ In fact, if you take a look in my--
+
+55
+00:02:02,720 --> 00:02:04,440
+ this is like a random shout out.
+
+56
+00:02:04,440 --> 00:02:06,880
+ Take a look in my public folder, go to memes.
+
+57
+00:02:06,880 --> 00:02:09,040
+ My MMC entry there hasn't been submitted yet.
+
+58
+00:02:09,040 --> 00:02:11,120
+ It's right there at the bottom of the meme's folder.
+
+59
+00:02:11,120 --> 00:02:12,480
+ It looks like a DJ deck.
+
+60
+00:02:12,480 --> 00:02:18,720
+ It's called the-- forget what Windmill called it.
+
+61
+00:02:18,720 --> 00:02:22,360
+ They put it on Twitter a long, long time ago.
+
+62
+00:02:22,360 --> 00:02:23,040
+ I can't find it.
+
+63
+00:02:23,040 --> 00:02:25,120
+ Anyway, it's in the public folder there.
+
+64
+00:02:25,120 --> 00:02:27,600
+ It's like a DJ deck, but it's like a kid's version of that.
+
+65
+00:02:27,600 --> 00:02:28,480
+ It's been me.
+
+66
+00:02:28,480 --> 00:02:30,520
+ Anyway, that has some logic on it,
+
+67
+00:02:30,520 --> 00:02:33,600
+ which enables you to do the traditional DJ scratching
+
+68
+00:02:33,600 --> 00:02:34,320
+ stuff.
+
+69
+00:02:34,320 --> 00:02:36,760
+ But that is on a joint, because you
+
+70
+00:02:36,760 --> 00:02:40,480
+ have to spin the disk around to do DJ disk scratching.
+
+71
+00:02:40,480 --> 00:02:43,320
+ And so take a look at that logic and how we are driving
+
+72
+00:02:43,320 --> 00:02:45,600
+ the playback of that disk.
+
+73
+00:02:45,600 --> 00:02:48,400
+ That comes from an old object, which I had in my inventory,
+
+74
+00:02:48,400 --> 00:02:51,160
+ which is just like a regular cylinder that you can scratch
+
+75
+00:02:51,160 --> 00:02:55,160
+ again, like a DJ, which has the bass part sound effect on it.
+
+76
+00:02:55,160 --> 00:02:57,040
+ So I just stole that logic from there.
+
+77
+00:02:57,040 --> 00:02:58,960
+ And then you can take a look at that.
+
+78
+00:02:58,960 --> 00:03:01,040
+ It uses Drive playback.
+
+79
+00:03:01,040 --> 00:03:02,920
+ By using Drive playback, you can work out
+
+80
+00:03:02,920 --> 00:03:06,920
+ if it's rotating, go to the speed,
+
+81
+00:03:06,920 --> 00:03:10,200
+ if you're rotating it faster, maybe speed it up a little bit
+
+82
+00:03:10,200 --> 00:03:11,240
+ or stuff like that.
+
+83
+00:03:11,240 --> 00:03:13,680
+ I think I also updated it so that if the sound isn't playing,
+
+84
+00:03:13,680 --> 00:03:15,720
+ the audio output turns off, which is always good.
+
+85
+00:03:15,720 --> 00:03:17,280
+ When you aren't using Play OneShot,
+
+86
+00:03:17,280 --> 00:03:20,440
+ if the sound isn't playing, you should turn the audio output
+
+87
+00:03:20,440 --> 00:03:22,280
+ off wherever possible.
+
+88
+00:03:22,280 --> 00:03:23,780
+ Jack says, do you drink tea or milk?
+
+89
+00:03:23,780 --> 00:03:24,680
+ No.
+
+90
+00:03:24,680 --> 00:03:27,120
+ Milk does not belong in tea.
+
+91
+00:03:27,120 --> 00:03:28,960
+ There's like a-- where are we?
+
+92
+00:03:28,960 --> 00:03:30,840
+ I'll try and find this.
+
+93
+00:03:30,840 --> 00:03:34,760
+ I can't find it, but it's one of those sketch channels
+
+94
+00:03:34,760 --> 00:03:36,760
+ where they show someone making tea,
+
+95
+00:03:36,760 --> 00:03:40,840
+ and then they get all aggressive because they're doing it wrong.
+
+96
+00:03:40,840 --> 00:03:41,840
+ I can't find the video.
+
+97
+00:03:41,840 --> 00:03:47,280
+ Anyway, the point being is tea should be--
+
+98
+00:03:47,280 --> 00:03:48,800
+ you should be able to taste it.
+
+99
+00:03:48,800 --> 00:03:51,200
+ The amount of times in the UK particularly where I get tea,
+
+100
+00:03:51,200 --> 00:03:54,720
+ which is basically just milk, is really annoying.
+
+101
+00:03:54,720 --> 00:03:56,240
+ It's really, really annoying.
+
+102
+00:03:56,240 --> 00:03:58,560
+ Tea needs to brew.
+
+103
+00:03:58,560 --> 00:04:00,480
+ Traditional sort of breakfast regular tea
+
+104
+00:04:00,480 --> 00:04:03,960
+ that you'd get if you said tea to a British person,
+
+105
+00:04:03,960 --> 00:04:06,680
+ that doesn't need to brew for as long as you think it does.
+
+106
+00:04:06,680 --> 00:04:07,720
+ It doesn't need a full three minutes,
+
+107
+00:04:07,720 --> 00:04:09,080
+ but it does need some time.
+
+108
+00:04:09,080 --> 00:04:12,200
+ Don't just show the teabag to the water.
+
+109
+00:04:12,200 --> 00:04:14,240
+ You got to let it brew.
+
+110
+00:04:14,240 --> 00:04:17,800
+ Green teas and stuff like that that I drink, three minutes.
+
+111
+00:04:17,800 --> 00:04:20,960
+ I have a Google Home routine.
+
+112
+00:04:20,960 --> 00:04:21,840
+ Tea time.
+
+113
+00:04:21,840 --> 00:04:24,880
+ All right, three minutes, starting now.
+
+114
+00:04:24,880 --> 00:04:27,600
+ So that's what my phone does when I say tea time to it,
+
+115
+00:04:27,600 --> 00:04:29,880
+ because it just knows three minutes is right for tea.
+
+116
+00:04:29,880 --> 00:04:31,720
+ Anyway, moving on to actual Nia's questions
+
+117
+00:04:31,720 --> 00:04:34,240
+ rather than tea questions.
+
+118
+00:04:34,240 --> 00:04:36,000
+ Jack says, are there plans for improving
+
+119
+00:04:36,000 --> 00:04:37,960
+ the undo system in general?
+
+120
+00:04:37,960 --> 00:04:41,800
+ Yes, so the problem with the undo system is it's opt in.
+
+121
+00:04:41,800 --> 00:04:44,640
+ So every single technical system has to opt into it.
+
+122
+00:04:44,640 --> 00:04:46,880
+ So that's why you'll see that certain operations don't
+
+123
+00:04:46,880 --> 00:04:49,160
+ have undos or do have undos.
+
+124
+00:04:49,160 --> 00:04:50,560
+ I'm going to say the word do a lot,
+
+125
+00:04:50,560 --> 00:04:52,840
+ so if you get giggly when I say the word doo-doo,
+
+126
+00:04:52,840 --> 00:04:54,240
+ then you're in for it, right?
+
+127
+00:04:54,240 --> 00:04:58,240
+ So when something needs to be undoed,
+
+128
+00:04:58,240 --> 00:05:00,160
+ it needs to register with the undo system.
+
+129
+00:05:00,160 --> 00:05:02,680
+ And not everything does register with the undo system,
+
+130
+00:05:02,680 --> 00:05:04,280
+ so it can't be undone.
+
+131
+00:05:04,280 --> 00:05:07,440
+ Additionally, some activities are just incompatible
+
+132
+00:05:07,440 --> 00:05:09,600
+ with the undo system.
+
+133
+00:05:09,600 --> 00:05:12,840
+ So we are investigating that whenever we can.
+
+134
+00:05:12,840 --> 00:05:15,440
+ As a reminder, you can also use the undo nodes yourself
+
+135
+00:05:15,440 --> 00:05:18,360
+ to make your tool undo compatible.
+
+136
+00:05:18,360 --> 00:05:20,240
+ The first time I did that was a line tip.
+
+137
+00:05:20,240 --> 00:05:22,760
+ I believe that's still in my public file drive, the tools.
+
+138
+00:05:22,760 --> 00:05:24,200
+ It just creates lines.
+
+139
+00:05:24,200 --> 00:05:27,840
+ That is full undo compatible, and it was a lot of effort.
+
+140
+00:05:27,840 --> 00:05:31,160
+ The tool worked, and then I had to add undo capability to it.
+
+141
+00:05:31,160 --> 00:05:35,360
+ And it took about as long as making the tool to then add
+
+142
+00:05:35,360 --> 00:05:36,520
+ undo capabilities to it.
+
+143
+00:05:36,520 --> 00:05:37,520
+ So do keep that in mind.
+
+144
+00:05:37,520 --> 00:05:40,120
+ If you want that in your tools, maybe start building there.
+
+145
+00:05:40,120 --> 00:05:43,000
+ Other things like limiting the amount of undo steps,
+
+146
+00:05:43,000 --> 00:05:44,800
+ maybe increasing the amount of undo steps,
+
+147
+00:05:44,800 --> 00:05:48,520
+ doing sort of like undo all would be good for those times
+
+148
+00:05:48,520 --> 00:05:50,320
+ where something wrong just happens.
+
+149
+00:05:50,320 --> 00:05:53,240
+ Like, whoops, I made the floor grabable,
+
+150
+00:05:53,240 --> 00:05:55,560
+ and then someone grabbed it and turned it upside down.
+
+151
+00:05:55,560 --> 00:06:00,680
+ It'd just be like, all right, stop, undo everything
+
+152
+00:06:00,680 --> 00:06:02,320
+ would be also a good feature.
+
+153
+00:06:02,320 --> 00:06:05,120
+ Make sure you have GitHub issues in for any advancements
+
+154
+00:06:05,120 --> 00:06:07,520
+ to come to your system that you'd like.
+
+155
+00:06:07,520 --> 00:06:10,880
+ Digin Bites says, isn't just hot chocolate just bean tea?
+
+156
+00:06:10,880 --> 00:06:12,480
+ Our chocolate's a little bit different
+
+157
+00:06:12,480 --> 00:06:14,520
+ because it usually has a lot more ingredients.
+
+158
+00:06:14,520 --> 00:06:17,840
+ So the thing with coffee, or proper coffee,
+
+159
+00:06:17,840 --> 00:06:19,680
+ is it's just the ground up bean.
+
+160
+00:06:19,680 --> 00:06:22,040
+ The thing with tea is it's just sort of the leaf.
+
+161
+00:06:22,040 --> 00:06:23,920
+ And then depending on what type of leaf it is,
+
+162
+00:06:23,920 --> 00:06:27,600
+ it's ground up leaf or full leaf tea.
+
+163
+00:06:27,600 --> 00:06:29,480
+ Always go for full leaf tea.
+
+164
+00:06:29,480 --> 00:06:32,520
+ I'll link my place where I get tea from in a moment.
+
+165
+00:06:32,520 --> 00:06:36,000
+ The hot chocolate, though, is like a bunch of stuff.
+
+166
+00:06:36,000 --> 00:06:38,720
+ Usually hot chocolate powder includes cocoa, sugar,
+
+167
+00:06:38,720 --> 00:06:40,440
+ and powdered milk so that you just
+
+168
+00:06:40,440 --> 00:06:42,280
+ have to pour hot water into it.
+
+169
+00:06:42,280 --> 00:06:43,760
+ So it's complicated.
+
+170
+00:06:43,760 --> 00:06:45,680
+ It's almost like hot chocolate is a soup
+
+171
+00:06:45,680 --> 00:06:47,600
+ because there's more ingredients.
+
+172
+00:06:47,600 --> 00:06:50,400
+ Boba tea is gross.
+
+173
+00:06:50,400 --> 00:06:51,640
+ I'll tell you why it's gross.
+
+174
+00:06:51,640 --> 00:06:54,400
+ And that's because I frequently end up with a clogged straw.
+
+175
+00:06:54,400 --> 00:06:56,040
+ And then I have to suck harder.
+
+176
+00:06:56,040 --> 00:06:59,480
+ And then the tapioca balls in Boba tea
+
+177
+00:06:59,480 --> 00:07:01,680
+ then shotgun into the back of my throat.
+
+178
+00:07:01,680 --> 00:07:04,040
+ And being gross for just a second,
+
+179
+00:07:04,040 --> 00:07:05,800
+ it feels like throwing up in reverse.
+
+180
+00:07:05,800 --> 00:07:09,120
+ And I don't-- no, no, I don't want that.
+
+181
+00:07:09,120 --> 00:07:11,640
+ Let's move on to the next question.
+
+182
+00:07:11,640 --> 00:07:14,080
+ Digembite also asks, is NeosVR still using crypto,
+
+183
+00:07:14,080 --> 00:07:15,520
+ and is it sorted with the owners?
+
+184
+00:07:15,520 --> 00:07:17,800
+ OK, so for that one, you can read the announcements
+
+185
+00:07:17,800 --> 00:07:19,120
+ channel for any updates.
+
+186
+00:07:19,120 --> 00:07:21,000
+ Before you say there are no updates available,
+
+187
+00:07:21,000 --> 00:07:22,440
+ I want you to read the announcements channel again,
+
+188
+00:07:22,440 --> 00:07:25,720
+ because that's the only updates that we have for that matter.
+
+189
+00:07:25,720 --> 00:07:27,360
+ Nothing has changed in that regard.
+
+190
+00:07:27,360 --> 00:07:28,760
+ If something does change, it will
+
+191
+00:07:28,760 --> 00:07:30,920
+ be in the announcements channel before it is here.
+
+192
+00:07:30,920 --> 00:07:34,720
+ So before you ask any other team member, including Mr. Frixius,
+
+193
+00:07:34,720 --> 00:07:36,960
+ the announcements channel is where you want to go.
+
+194
+00:07:36,960 --> 00:07:38,720
+ Like, I know people just go around Neos,
+
+195
+00:07:38,720 --> 00:07:40,440
+ and they're like, I'm going to find a team member
+
+196
+00:07:40,440 --> 00:07:42,280
+ and ask them the Carol questions.
+
+197
+00:07:42,280 --> 00:07:43,960
+ The answer is the same.
+
+198
+00:07:43,960 --> 00:07:45,400
+ Nothing has changed.
+
+199
+00:07:45,400 --> 00:07:46,920
+ Read the announcements channel.
+
+200
+00:07:46,920 --> 00:07:48,920
+ So Jack has clarified that they want the ability
+
+201
+00:07:48,920 --> 00:07:52,080
+ to prevent stuff from making undos in certain situations.
+
+202
+00:07:52,080 --> 00:07:53,560
+ Were you the person who was asking
+
+203
+00:07:53,560 --> 00:07:56,760
+ about doing that for gameplay-related matters?
+
+204
+00:07:56,760 --> 00:07:59,080
+ Because, yeah, that was an interesting one.
+
+205
+00:07:59,080 --> 00:08:00,640
+ Basically, if it's like a--
+
+206
+00:08:00,640 --> 00:08:05,440
+ I don't know-- sacrifice the magic gem you've just
+
+207
+00:08:05,440 --> 00:08:09,400
+ got from the water temple to the god to win the game,
+
+208
+00:08:09,400 --> 00:08:12,600
+ and then you just give it to the water god, the god goes, yay,
+
+209
+00:08:12,600 --> 00:08:13,720
+ and then animation plays.
+
+210
+00:08:13,720 --> 00:08:17,800
+ And then you just undo, and then you've got the crystal bag.
+
+211
+00:08:17,800 --> 00:08:20,920
+ It's kind of like, whoops, time to cheat.
+
+212
+00:08:20,920 --> 00:08:23,440
+ I can imagine there being a shop interface where
+
+213
+00:08:23,440 --> 00:08:25,080
+ I made this really cool thing.
+
+214
+00:08:25,080 --> 00:08:26,840
+ I want to sell it to a shopkeeper,
+
+215
+00:08:26,840 --> 00:08:29,040
+ put it on the shopkeeper's table, undo.
+
+216
+00:08:29,040 --> 00:08:30,520
+ I got another one.
+
+217
+00:08:30,520 --> 00:08:32,160
+ I got another one.
+
+218
+00:08:32,160 --> 00:08:33,800
+ I've got another one.
+
+219
+00:08:33,800 --> 00:08:36,360
+ Great, yeah, so certainly something we need to look at.
+
+220
+00:08:36,360 --> 00:08:38,680
+ So to go make sure that there's a garbage for it.
+
+221
+00:08:39,440 --> 00:08:41,480
+ I do like that people are thinking about games more.
+
+222
+00:08:41,480 --> 00:08:43,040
+ Seems to happen only during MMC.
+
+223
+00:08:43,040 --> 00:08:44,800
+ Remember that there are 12 months in the year.
+
+224
+00:08:44,800 --> 00:08:46,240
+ For the entirety of the 12 months,
+
+225
+00:08:46,240 --> 00:08:47,440
+ you can make games in Neos.
+
+226
+00:08:47,440 --> 00:08:48,400
+ I love seeing them.
+
+227
+00:08:48,400 --> 00:08:51,040
+ So I'm going to play as many of those games that
+
+228
+00:08:51,040 --> 00:08:53,400
+ come out in the MMC, which is going to be out soon,
+
+229
+00:08:53,400 --> 00:08:55,920
+ like eight days or something like that.
+
+230
+00:08:55,920 --> 00:08:59,160
+ Moving forwards, Digium says, did Neos VR
+
+231
+00:08:59,160 --> 00:09:00,800
+ know Neo crypto already existed?
+
+232
+00:09:00,800 --> 00:09:02,240
+ That's nothing to do with Neos.
+
+233
+00:09:02,240 --> 00:09:04,200
+ There are many cryptocurrencies that
+
+234
+00:09:04,200 --> 00:09:09,280
+ use the sort of futuristic words in their naming.
+
+235
+00:09:09,280 --> 00:09:12,720
+ Neos is also, I believe, a medical device manufacturer
+
+236
+00:09:12,720 --> 00:09:13,960
+ or something like that.
+
+237
+00:09:13,960 --> 00:09:16,960
+ It's a bit like I used to work for the streaming site Mixer.
+
+238
+00:09:16,960 --> 00:09:18,520
+ Mixer used to be called Beam.
+
+239
+00:09:18,520 --> 00:09:20,960
+ And we had to change its name because we couldn't actually
+
+240
+00:09:20,960 --> 00:09:23,160
+ get a global trademark on Beam.
+
+241
+00:09:23,160 --> 00:09:24,520
+ One of the reasons behind that is
+
+242
+00:09:24,520 --> 00:09:27,200
+ that there was a Beam telepresence robot, where
+
+243
+00:09:27,200 --> 00:09:29,920
+ you could remotely steer a robot around an office.
+
+244
+00:09:29,920 --> 00:09:31,440
+ And there was also a vacuum cleaner.
+
+245
+00:09:31,440 --> 00:09:35,600
+ It was called a Beam vacuum cleaner or something like that.
+
+246
+00:09:35,600 --> 00:09:37,600
+ So we couldn't get the global trademark on that.
+
+247
+00:09:37,600 --> 00:09:39,040
+ So it was very interesting.
+
+248
+00:09:39,040 --> 00:09:40,480
+ It's nothing to do with us.
+
+249
+00:09:40,480 --> 00:09:44,200
+ So I don't know enough about crypto,
+
+250
+00:09:44,200 --> 00:09:46,560
+ but I know that you can't just randomly combine coins,
+
+251
+00:09:46,560 --> 00:09:48,020
+ particularly if they're not already.
+
+252
+00:09:48,020 --> 00:09:51,600
+ It's like saying, yo, guys, let's take United States
+
+253
+00:09:51,600 --> 00:09:54,280
+ dollars and Canadian dollars and merge them together
+
+254
+00:09:54,280 --> 00:09:55,960
+ because they're both called dollars.
+
+255
+00:09:55,960 --> 00:09:59,800
+ That's as much sense as that question you asked, Mix.
+
+256
+00:09:59,800 --> 00:10:01,360
+ It's just a naming thing.
+
+257
+00:10:01,360 --> 00:10:03,040
+ There's also Australian dollars as well.
+
+258
+00:10:03,040 --> 00:10:05,560
+ Should we combine Canadian, United States,
+
+259
+00:10:05,560 --> 00:10:08,360
+ and Australian dollars together into a global dollar?
+
+260
+00:10:08,360 --> 00:10:12,720
+ And before you ask, yeah, I know that's exactly what euros did.
+
+261
+00:10:12,720 --> 00:10:15,400
+ But Europe is very weird.
+
+262
+00:10:15,400 --> 00:10:17,080
+ There's this thing called European Union,
+
+263
+00:10:17,080 --> 00:10:20,080
+ which makes stuff happen really fast in Europe, which
+
+264
+00:10:20,080 --> 00:10:21,380
+ the UK is no longer a part of.
+
+265
+00:10:21,380 --> 00:10:22,920
+ But that's a topic for another day
+
+266
+00:10:22,920 --> 00:10:25,560
+ when I turn into a political commentator, which I'm not.
+
+267
+00:10:25,560 --> 00:10:27,580
+ So I don't care to comment on it.
+
+268
+00:10:27,580 --> 00:10:30,560
+ Digium asks, authentication via Steam support.
+
+269
+00:10:30,560 --> 00:10:33,560
+ I'm not a fan of logging in like it's 1995.
+
+270
+00:10:33,560 --> 00:10:36,020
+ Logging in with a username and password is actually sometimes
+
+271
+00:10:36,020 --> 00:10:39,820
+ the most secure operation when it comes to third parties
+
+272
+00:10:39,820 --> 00:10:41,060
+ holding your identity.
+
+273
+00:10:41,060 --> 00:10:43,180
+ As a good example here, think about all the times
+
+274
+00:10:43,180 --> 00:10:45,340
+ where you've logged into a website with Google.
+
+275
+00:10:45,340 --> 00:10:49,340
+ So you've gone to, I don't know, just a random website.
+
+276
+00:10:49,340 --> 00:10:51,680
+ A common one I was seeing today because I was helping someone
+
+277
+00:10:51,680 --> 00:10:53,020
+ out with job applications is they
+
+278
+00:10:53,020 --> 00:10:55,020
+ could log into this job application website
+
+279
+00:10:55,020 --> 00:10:56,300
+ with their Google account.
+
+280
+00:10:56,300 --> 00:10:58,260
+ Let's now imagine that Google goes bust,
+
+281
+00:10:58,260 --> 00:11:01,060
+ or your Google account gets canceled for various reasons.
+
+282
+00:11:01,060 --> 00:11:04,260
+ You now longer can actually log into that account
+
+283
+00:11:04,260 --> 00:11:05,660
+ because you logged in with Google,
+
+284
+00:11:05,660 --> 00:11:07,260
+ because you handed your authentication
+
+285
+00:11:07,260 --> 00:11:09,060
+ to a third party.
+
+286
+00:11:09,060 --> 00:11:12,340
+ So I don't like the implication that logging
+
+287
+00:11:12,340 --> 00:11:15,860
+ in with your own username and password is old or outdated.
+
+288
+00:11:15,860 --> 00:11:17,660
+ Hence the comment about 1995.
+
+289
+00:11:17,660 --> 00:11:21,100
+ However, we will be looking at additional authentication
+
+290
+00:11:21,100 --> 00:11:22,940
+ options in the future and additionally
+
+291
+00:11:22,940 --> 00:11:24,940
+ looking at increasing that Remember Me,
+
+292
+00:11:24,940 --> 00:11:27,700
+ because right now Remember Me is just a seven day rolling window.
+
+293
+00:11:27,700 --> 00:11:29,700
+ We could maybe make that a 30 day rolling window
+
+294
+00:11:29,700 --> 00:11:32,940
+ or forever rolling window, depending on what we're doing.
+
+295
+00:11:32,940 --> 00:11:35,260
+ Jack says, no, they're using sliders
+
+296
+00:11:35,260 --> 00:11:36,860
+ for custom directional inputs.
+
+297
+00:11:36,860 --> 00:11:38,860
+ Basically managing the position of myself,
+
+298
+00:11:38,860 --> 00:11:41,140
+ the ability to undo transform brings a lot of complexity
+
+299
+00:11:41,140 --> 00:11:42,940
+ and having to-- yeah, yeah.
+
+300
+00:11:42,940 --> 00:11:44,220
+ It's like the same problem.
+
+301
+00:11:44,220 --> 00:11:46,500
+ You want to prevent the undo, but for a completely different
+
+302
+00:11:46,500 --> 00:11:47,700
+ reason.
+
+303
+00:11:47,700 --> 00:11:50,860
+ Drafty-- I almost called you drafty, I apologize--
+
+304
+00:11:50,860 --> 00:11:52,940
+ says any improvement on the deselect all bones,
+
+305
+00:11:52,940 --> 00:11:55,460
+ so it only deselects your selection instead of deselecting
+
+306
+00:11:55,460 --> 00:11:57,620
+ everything, including other people's selection.
+
+307
+00:11:57,620 --> 00:11:59,620
+ The problem with that one is actually like a data model
+
+308
+00:11:59,620 --> 00:12:00,140
+ thing.
+
+309
+00:12:00,140 --> 00:12:02,060
+ It's similar to the logics interface problem,
+
+310
+00:12:02,060 --> 00:12:03,460
+ but a little bit different.
+
+311
+00:12:03,460 --> 00:12:06,380
+ So gizmos, which are the things that you deselect
+
+312
+00:12:06,380 --> 00:12:09,340
+ when you deselect all, those are generated on the host.
+
+313
+00:12:09,340 --> 00:12:11,020
+ They're not generated on the client.
+
+314
+00:12:11,020 --> 00:12:13,020
+ And so when you do the select all,
+
+315
+00:12:13,020 --> 00:12:16,620
+ we have no way currently to tell who owns what gizmo.
+
+316
+00:12:16,620 --> 00:12:20,500
+ So what would need to be happening--
+
+317
+00:12:20,500 --> 00:12:23,180
+ yeah, English is strange-- for that to happen
+
+318
+00:12:23,180 --> 00:12:24,940
+ is that we change up the gizmo system.
+
+319
+00:12:24,940 --> 00:12:26,860
+ So one of two things happens.
+
+320
+00:12:26,860 --> 00:12:31,180
+ Either the gizmos register or shoulder tap each other
+
+321
+00:12:31,180 --> 00:12:36,300
+ to say, I was created by drafty, I was created by Jack.
+
+322
+00:12:36,300 --> 00:12:40,100
+ And that way, we'd be able to deselect everything correctly.
+
+323
+00:12:40,100 --> 00:12:41,980
+ Or we would have to change up the gizmos
+
+324
+00:12:41,980 --> 00:12:44,620
+ so that they're generated on the host, which then naturally would
+
+325
+00:12:44,620 --> 00:12:46,500
+ have that whole ownership thing.
+
+326
+00:12:46,500 --> 00:12:47,660
+ Not the host, the user.
+
+327
+00:12:47,660 --> 00:12:49,160
+ Because then the user would be like,
+
+328
+00:12:49,160 --> 00:12:50,660
+ I have generated a gizmo host.
+
+329
+00:12:50,660 --> 00:12:51,860
+ And the host would be like, oh, thank you
+
+330
+00:12:51,860 --> 00:12:52,860
+ for generating a gizmo.
+
+331
+00:12:52,860 --> 00:12:55,220
+ I now know that you own that.
+
+332
+00:12:55,220 --> 00:12:57,540
+ So both of those things are possible.
+
+333
+00:12:57,540 --> 00:13:01,500
+ They just require updates to how our data model operates.
+
+334
+00:13:01,500 --> 00:13:03,180
+ There are lots of tools.
+
+335
+00:13:03,180 --> 00:13:05,600
+ I like the sort of radial one, which
+
+336
+00:13:05,600 --> 00:13:10,060
+ will delete gizmos that are within a certain radius
+
+337
+00:13:10,060 --> 00:13:11,220
+ of the person.
+
+338
+00:13:11,220 --> 00:13:11,720
+ That's good.
+
+339
+00:13:11,720 --> 00:13:13,140
+ Because it means if you're working
+
+340
+00:13:13,140 --> 00:13:16,180
+ in a corner of the map, you can deselect just stuff
+
+341
+00:13:16,180 --> 00:13:18,320
+ that's within a meter or two of you,
+
+342
+00:13:18,320 --> 00:13:23,100
+ and it's usually the problem, rather than map-wide.
+
+343
+00:13:23,100 --> 00:13:27,020
+ I have something which basically does the same as the material
+
+344
+00:13:27,020 --> 00:13:30,460
+ tip area mode, where I can turn a mode on the tool,
+
+345
+00:13:30,460 --> 00:13:33,140
+ or I can just sort of wave a collider over a gizmo
+
+346
+00:13:33,140 --> 00:13:34,180
+ that I don't want.
+
+347
+00:13:34,180 --> 00:13:35,660
+ That's complicated to access.
+
+348
+00:13:35,660 --> 00:13:38,020
+ I know that a lot of people have got this shake to deselect
+
+349
+00:13:38,020 --> 00:13:38,260
+ thing.
+
+350
+00:13:38,260 --> 00:13:40,140
+ I want to move over to my tool at some point.
+
+351
+00:13:40,140 --> 00:13:42,060
+ But I keep forgetting, so that's fine.
+
+352
+00:13:42,060 --> 00:13:43,820
+ Digiamp says, with the whole currency thing, it's more,
+
+353
+00:13:43,820 --> 00:13:46,140
+ why not use an established coin rather than a new one?
+
+354
+00:13:46,140 --> 00:13:49,520
+ I have no idea what the motivations of the original ICO
+
+355
+00:13:49,520 --> 00:13:50,160
+ were.
+
+356
+00:13:50,160 --> 00:13:53,400
+ I know that it's too late to switch to another coin.
+
+357
+00:13:53,400 --> 00:13:54,960
+ Read announcements for information.
+
+358
+00:13:54,960 --> 00:13:57,080
+ I think we're done talking about coins and currencies
+
+359
+00:13:57,080 --> 00:13:57,880
+ in crypto.
+
+360
+00:13:57,880 --> 00:13:59,100
+ Jack asks for hardware 2FA.
+
+361
+00:13:59,100 --> 00:14:03,040
+ Yes, there is a doobly-doo for that.
+
+362
+00:14:03,040 --> 00:14:06,360
+ However, until we have that implemented in Neos,
+
+363
+00:14:06,360 --> 00:14:10,600
+ did you know that you can store 2FA secrets on hardware
+
+364
+00:14:10,600 --> 00:14:12,200
+ security?
+
+365
+00:14:12,200 --> 00:14:14,800
+ What you do is you go download from your phone.
+
+366
+00:14:14,800 --> 00:14:16,560
+ You download Yubico Authenticator.
+
+367
+00:14:16,560 --> 00:14:18,520
+ And then what Yubico Authenticator requires
+
+368
+00:14:18,520 --> 00:14:21,240
+ is that you have to either plug in--
+
+369
+00:14:21,240 --> 00:14:23,080
+ or if you've got one of the NMCs, Yubico things,
+
+370
+00:14:23,080 --> 00:14:25,640
+ you can put that on the back of the phone in a C chip.
+
+371
+00:14:25,640 --> 00:14:28,020
+ And that's the only way you can access your 2FA stuff.
+
+372
+00:14:28,020 --> 00:14:31,100
+ I'm moving some of my 2FA to that
+
+373
+00:14:31,100 --> 00:14:35,560
+ because it protects you against the whole phone thing.
+
+374
+00:14:35,560 --> 00:14:38,300
+ Most 2FA problems occur with, I got a new phone,
+
+375
+00:14:38,300 --> 00:14:40,320
+ and I was careless when I got my new phone.
+
+376
+00:14:40,320 --> 00:14:44,500
+ And I didn't move my 2FA over before I lost my old phone.
+
+377
+00:14:44,500 --> 00:14:47,440
+ We get a lot of that in support.
+
+378
+00:14:47,440 --> 00:14:51,220
+ So if you are getting a new phone, you move your 2FA first.
+
+379
+00:14:51,220 --> 00:14:54,880
+ You can also use services like Authy,
+
+380
+00:14:54,880 --> 00:14:58,360
+ where it will migrate your 2FA to your new phone.
+
+381
+00:14:58,360 --> 00:15:00,320
+ I question the security of that one,
+
+382
+00:15:00,320 --> 00:15:02,860
+ hence why I'm moving over to Yubico-related stuff.
+
+383
+00:15:02,860 --> 00:15:05,080
+ But then again, I've moved the problem.
+
+384
+00:15:05,080 --> 00:15:07,880
+ Instead of, have I lost my phone or I've got a new phone,
+
+385
+00:15:07,880 --> 00:15:09,280
+ it's like, have I lost the YubiKey?
+
+386
+00:15:09,280 --> 00:15:11,120
+ So you always have a backup one.
+
+387
+00:15:11,120 --> 00:15:12,720
+ And ideally, that backup one should
+
+388
+00:15:12,720 --> 00:15:16,260
+ be moved or stored offsite.
+
+389
+00:15:16,260 --> 00:15:18,160
+ A safety deposit box at a bank would
+
+390
+00:15:18,160 --> 00:15:21,520
+ be the paranoid way of doing it.
+
+391
+00:15:21,520 --> 00:15:23,280
+ Did Jim clarify, is with Auth, you still
+
+392
+00:15:23,280 --> 00:15:25,620
+ have access to an email, an option to recover a password?
+
+393
+00:15:25,620 --> 00:15:28,680
+ Yeah, that means there's two options.
+
+394
+00:15:28,680 --> 00:15:30,060
+ You've linked your Steam account,
+
+395
+00:15:30,060 --> 00:15:31,640
+ or you've linked your Google account.
+
+396
+00:15:31,640 --> 00:15:34,280
+ You can log in with that one for speed.
+
+397
+00:15:34,280 --> 00:15:36,020
+ But you can also log in with your password
+
+398
+00:15:36,020 --> 00:15:38,000
+ should you lose that Google connectivity.
+
+399
+00:15:38,000 --> 00:15:39,800
+ However, that kind of just moves the problem.
+
+400
+00:15:39,800 --> 00:15:40,800
+ Because what the other thing you're doing there
+
+401
+00:15:40,800 --> 00:15:42,800
+ is you're saying, what you're really saying is,
+
+402
+00:15:42,800 --> 00:15:45,840
+ it is easier to maintain a session on Google
+
+403
+00:15:45,840 --> 00:15:50,160
+ than it is to maintain a session on Neos or Steam
+
+404
+00:15:50,160 --> 00:15:51,280
+ than it is on Neos.
+
+405
+00:15:51,280 --> 00:15:52,720
+ And so what you're really, really saying there,
+
+406
+00:15:52,720 --> 00:15:54,080
+ if you look at the crux of it, is
+
+407
+00:15:54,080 --> 00:15:56,160
+ you're saying, I want it to be easier
+
+408
+00:15:56,160 --> 00:15:58,280
+ to maintain a session on Neos.
+
+409
+00:15:58,280 --> 00:16:02,160
+ And there are a bunch of ways to do that that aren't strictly
+
+410
+00:16:02,160 --> 00:16:04,640
+ just Steam login.
+
+411
+00:16:04,640 --> 00:16:05,440
+ Great.
+
+412
+00:16:05,440 --> 00:16:07,520
+ Make sure to just refer to the announcement section.
+
+413
+00:16:07,520 --> 00:16:11,960
+ It's like, you said things that are completely rumors,
+
+414
+00:16:11,960 --> 00:16:14,200
+ and I have no comment about those rumors.
+
+415
+00:16:14,200 --> 00:16:16,560
+ Just stick to the announcements.
+
+416
+00:16:16,560 --> 00:16:18,880
+ I just hear rumors all the time, and I'm like, none of these
+
+417
+00:16:18,880 --> 00:16:20,840
+ are even remotely true.
+
+418
+00:16:20,840 --> 00:16:24,280
+ It's like, rumor, Prime has pink hair.
+
+419
+00:16:24,280 --> 00:16:24,800
+ There you go.
+
+420
+00:16:24,800 --> 00:16:26,040
+ There's a free rumor.
+
+421
+00:16:26,040 --> 00:16:27,520
+ Free rumor.
+
+422
+00:16:27,520 --> 00:16:30,520
+ Everyone's just like, hmm, I'm going to sit here and come up
+
+423
+00:16:30,520 --> 00:16:33,280
+ with random things that don't make any sense
+
+424
+00:16:33,280 --> 00:16:34,520
+ about this current situation.
+
+425
+00:16:34,520 --> 00:16:36,480
+ And I'm like, well, if you want the actual answer
+
+426
+00:16:36,480 --> 00:16:37,920
+ about what's actually happening, you
+
+427
+00:16:37,920 --> 00:16:39,520
+ could just read the announcements channel.
+
+428
+00:16:39,520 --> 00:16:41,600
+ People are like, no, I would rather have rumors.
+
+429
+00:16:41,600 --> 00:16:42,440
+ I'm like, OK, fine.
+
+430
+00:16:42,440 --> 00:16:43,560
+ I've got pink hair then.
+
+431
+00:16:43,560 --> 00:16:44,760
+ I should complete that meme now.
+
+432
+00:16:44,760 --> 00:16:46,560
+ I should just turn up to a random convention
+
+433
+00:16:46,560 --> 00:16:47,480
+ with pink hair.
+
+434
+00:16:47,480 --> 00:16:48,600
+ Oh, here's a good question.
+
+435
+00:16:48,600 --> 00:16:50,040
+ Thank you so much, Shadow.
+
+436
+00:16:50,040 --> 00:16:51,480
+ Back on topic now.
+
+437
+00:16:51,480 --> 00:16:53,280
+ Shadow has 2FA set up, but they've never
+
+438
+00:16:53,280 --> 00:16:54,440
+ been asked for it when logging in.
+
+439
+00:16:54,440 --> 00:16:55,960
+ Is there supposed-- yes, there is.
+
+440
+00:16:55,960 --> 00:16:57,760
+ So once you have 2FA enabled, 2FA
+
+441
+00:16:57,760 --> 00:17:01,520
+ was originally added to Neos primarily
+
+442
+00:17:01,520 --> 00:17:04,160
+ for NCR-related transactions.
+
+443
+00:17:04,160 --> 00:17:07,240
+ So by default, it is not enabled for you to log in.
+
+444
+00:17:07,240 --> 00:17:09,440
+ You can read the 2FA page on the Neos Wiki
+
+445
+00:17:09,440 --> 00:17:11,240
+ here, which will show you how to do it.
+
+446
+00:17:11,240 --> 00:17:15,200
+ But if you want to be asked for your 2FA when you log in,
+
+447
+00:17:15,200 --> 00:17:18,480
+ you can just send enable login 2FA to the Neos bot.
+
+448
+00:17:18,480 --> 00:17:23,120
+ And then it will require your 2FA doobly-doo when you log in.
+
+449
+00:17:23,120 --> 00:17:25,480
+ If you don't do that, it won't require it when you log in.
+
+450
+00:17:25,480 --> 00:17:26,200
+ It is weird.
+
+451
+00:17:26,200 --> 00:17:27,960
+ I wish it was just more clear.
+
+452
+00:17:27,960 --> 00:17:29,720
+ But we are having a lot of difficulty
+
+453
+00:17:29,720 --> 00:17:32,840
+ with users not understanding the severity of 2FA.
+
+454
+00:17:32,840 --> 00:17:35,520
+ But you know when you set up 2FA, and it's like,
+
+455
+00:17:35,520 --> 00:17:37,880
+ save these backup codes, people just go like,
+
+456
+00:17:37,880 --> 00:17:39,840
+ this information isn't for me.
+
+457
+00:17:39,840 --> 00:17:41,360
+ Where's the-- what is it?
+
+458
+00:17:41,360 --> 00:17:45,000
+ Yeah, there we go.
+
+459
+00:17:45,000 --> 00:17:47,240
+ This meme image, it's like, that side
+
+460
+00:17:47,240 --> 00:17:50,280
+ can't stop me because I can't read.
+
+461
+00:17:50,280 --> 00:17:51,600
+ Save your backup codes.
+
+462
+00:17:51,600 --> 00:17:52,880
+ We really do mean it.
+
+463
+00:17:52,880 --> 00:17:55,000
+ Technically speaking, if we were following
+
+464
+00:17:55,000 --> 00:17:58,120
+ the letter of the law about two-factor authentication
+
+465
+00:17:58,120 --> 00:18:01,960
+ and two-factor security and stuff like that,
+
+466
+00:18:01,960 --> 00:18:04,480
+ if you lost your backup codes and your 2FA device,
+
+467
+00:18:04,480 --> 00:18:07,160
+ we should not recover your account.
+
+468
+00:18:07,160 --> 00:18:10,680
+ Because we have no current way to prove that you are there.
+
+469
+00:18:10,680 --> 00:18:13,720
+ So if you do lose that, do drop in a ticket.
+
+470
+00:18:13,720 --> 00:18:15,040
+ We might be able to help you out.
+
+471
+00:18:15,040 --> 00:18:18,400
+ But you need to follow the instructions.
+
+472
+00:18:18,400 --> 00:18:22,120
+ So if any of you here have not saved your backup codes,
+
+473
+00:18:22,120 --> 00:18:25,840
+ please go disable 2FA using your current 2FA device.
+
+474
+00:18:25,840 --> 00:18:29,480
+ And then re-enable 2FA and save the new backup codes
+
+475
+00:18:29,480 --> 00:18:30,560
+ that we give you.
+
+476
+00:18:30,560 --> 00:18:32,920
+ Put them in a Notepad document.
+
+477
+00:18:32,920 --> 00:18:35,280
+ Put that Notepad document on a flash drive.
+
+478
+00:18:35,280 --> 00:18:37,520
+ Then throw that flash drive somewhere in your house
+
+479
+00:18:37,520 --> 00:18:38,680
+ where you know where it is.
+
+480
+00:18:38,680 --> 00:18:41,600
+ Moving forwards, away from 2FA, Draphey says,
+
+481
+00:18:41,600 --> 00:18:43,680
+ can we expect the ability to host headless servers
+
+482
+00:18:43,680 --> 00:18:45,480
+ without the need of Patreon in the future?
+
+483
+00:18:45,480 --> 00:18:49,600
+ That's an interesting thing because those
+
+484
+00:18:49,600 --> 00:18:50,720
+ are like beta features.
+
+485
+00:18:50,720 --> 00:18:53,320
+ It's weird when we are like a beta application that's
+
+486
+00:18:53,320 --> 00:18:55,960
+ early access that then also has beta features.
+
+487
+00:18:55,960 --> 00:18:57,920
+ So the Patreon thing is to reward
+
+488
+00:18:57,920 --> 00:19:01,200
+ people who support the product, who support Neos,
+
+489
+00:19:01,200 --> 00:19:03,520
+ with additional features that we are testing.
+
+490
+00:19:03,520 --> 00:19:07,840
+ And once headless servers are more standardized, better,
+
+491
+00:19:07,840 --> 00:19:10,520
+ smoother, easier to use, we will then
+
+492
+00:19:10,520 --> 00:19:14,080
+ move out of the Patreon pool and it'll become a global feature.
+
+493
+00:19:14,080 --> 00:19:17,160
+ Of course, right now, read the announcements channel.
+
+494
+00:19:17,160 --> 00:19:20,000
+ We aren't going to be changing anything about headless
+
+495
+00:19:20,000 --> 00:19:21,120
+ for the foreseeable future.
+
+496
+00:19:21,120 --> 00:19:23,080
+ When we do, you'll be seeing that in the announcements
+
+497
+00:19:23,080 --> 00:19:23,400
+ channel.
+
+498
+00:19:23,400 --> 00:19:26,200
+ Until then, yes, you'll unfortunately need the Patreon.
+
+499
+00:19:26,200 --> 00:19:27,880
+ Having said that, though, the only thing
+
+500
+00:19:27,880 --> 00:19:30,600
+ that requires you to access the Patreon is that headless key.
+
+501
+00:19:30,600 --> 00:19:33,720
+ So you can go ahead and get that headless Patreon-y doodad
+
+502
+00:19:33,720 --> 00:19:38,120
+ and get that headless key and do whatever you would like.
+
+503
+00:19:38,120 --> 00:19:40,000
+ The Bumble, I think I'm reading that correctly
+
+504
+00:19:40,000 --> 00:19:42,220
+ with the numbers there, bouncingbises asks,
+
+505
+00:19:42,220 --> 00:19:43,560
+ bouncing out of the game, I've been
+
+506
+00:19:43,560 --> 00:19:45,720
+ trying to work on a game on Neos and still new to Neos.
+
+507
+00:19:45,720 --> 00:19:48,200
+ I saw the same issue where users can duplicate stuff.
+
+508
+00:19:48,200 --> 00:19:51,280
+ So my work around so far has been to make a unique hash
+
+509
+00:19:51,280 --> 00:19:52,240
+ to an object.
+
+510
+00:19:52,240 --> 00:19:54,160
+ If it finds the world again, auto deletes it.
+
+511
+00:19:54,160 --> 00:19:55,880
+ So the permanent option will be awesome.
+
+512
+00:19:55,880 --> 00:19:59,560
+ Oh, there are a couple of tagging components which
+
+513
+00:19:59,560 --> 00:20:01,240
+ prevent the duplicate button.
+
+514
+00:20:01,240 --> 00:20:04,360
+ So you know the context menu that says duplicate?
+
+515
+00:20:04,360 --> 00:20:05,760
+ There is a way to prevent that.
+
+516
+00:20:05,760 --> 00:20:08,720
+ And there's also a way to prevent it from being deleted.
+
+517
+00:20:08,720 --> 00:20:11,240
+ Those, of course, don't work if someone's got an inspector
+
+518
+00:20:11,240 --> 00:20:13,120
+ or if they've got builder access because they could just
+
+519
+00:20:13,120 --> 00:20:15,360
+ duplicate it or delete it using the inspector, which
+
+520
+00:20:15,360 --> 00:20:17,320
+ will bypass those checks.
+
+521
+00:20:17,320 --> 00:20:19,560
+ But if they're in a game map where you haven't given them
+
+522
+00:20:19,560 --> 00:20:22,240
+ builder permission and the only way that they can duplicate it
+
+523
+00:20:22,240 --> 00:20:24,520
+ is by using the context menu, then you can block that.
+
+524
+00:20:24,520 --> 00:20:26,520
+ I have a video on my channel called Useful Tagging
+
+525
+00:20:26,520 --> 00:20:27,240
+ Components.
+
+526
+00:20:27,240 --> 00:20:29,760
+ I believe Froppy is probably rushing to YouTube
+
+527
+00:20:29,760 --> 00:20:30,800
+ to get it right now.
+
+528
+00:20:30,800 --> 00:20:34,400
+ If you won't, I'm sorry, Froppy, but I'm just preempting you.
+
+529
+00:20:34,400 --> 00:20:37,000
+ That's usually what happens.
+
+530
+00:20:37,000 --> 00:20:38,700
+ Either way, I'll grab it in a few minutes
+
+531
+00:20:38,700 --> 00:20:41,080
+ if Froppy hasn't grabbed it already.
+
+532
+00:20:41,080 --> 00:20:43,160
+ See, Shadow says, thanks for reminding me my codes are
+
+533
+00:20:43,160 --> 00:20:44,320
+ on a PC I don't use anymore.
+
+534
+00:20:44,320 --> 00:20:46,760
+ You see, you ought to think about it.
+
+535
+00:20:46,760 --> 00:20:48,220
+ There are ways to look at security,
+
+536
+00:20:48,220 --> 00:20:51,400
+ and it depends on your attack vector or your threat model,
+
+537
+00:20:51,400 --> 00:20:54,520
+ et cetera, is what would happen tomorrow
+
+538
+00:20:54,520 --> 00:20:56,200
+ if your house set fire?
+
+539
+00:20:56,200 --> 00:20:58,960
+ And think about that both from a personal possessions--
+
+540
+00:20:58,960 --> 00:21:01,400
+ so maybe there's a photo album somewhere,
+
+541
+00:21:01,400 --> 00:21:03,200
+ something sentimental that you would need--
+
+542
+00:21:03,200 --> 00:21:05,240
+ but also from your digital identity as well.
+
+543
+00:21:05,240 --> 00:21:06,560
+ Your house sets on fire.
+
+544
+00:21:06,560 --> 00:21:08,760
+ You can't access any of the devices that you're on.
+
+545
+00:21:08,760 --> 00:21:11,520
+ Maybe your phone even gets lost because the house set fire
+
+546
+00:21:11,520 --> 00:21:12,900
+ and you just had to run.
+
+547
+00:21:12,900 --> 00:21:16,280
+ How difficult would it be for you to do very important
+
+548
+00:21:16,280 --> 00:21:19,400
+ things-- access your finances, let people know you're OK,
+
+549
+00:21:19,400 --> 00:21:20,720
+ organize insurance claims?
+
+550
+00:21:20,720 --> 00:21:22,880
+ Think about that, and then adjust your life
+
+551
+00:21:22,880 --> 00:21:25,000
+ if those answers aren't easy.
+
+552
+00:21:25,000 --> 00:21:26,360
+ Moving forward to Jidget--
+
+553
+00:21:26,360 --> 00:21:28,760
+ [LAUGHS]
+
+554
+00:21:28,760 --> 00:21:30,640
+ I'm getting like halfway through office hours.
+
+555
+00:21:30,640 --> 00:21:31,960
+ I just lose the ability to speak.
+
+556
+00:21:31,960 --> 00:21:35,400
+ I'm just going to roll around on the floor drooling in a second.
+
+557
+00:21:35,400 --> 00:21:38,200
+ DiginBite says, any plans to make Neos more user accessible?
+
+558
+00:21:38,200 --> 00:21:40,540
+ I found new installs seem to force the tutorial to escape.
+
+559
+00:21:40,540 --> 00:21:44,280
+ That's actually our plan to make it more accessible,
+
+560
+00:21:44,280 --> 00:21:48,200
+ which is a weird problem that we have.
+
+561
+00:21:48,200 --> 00:21:50,680
+ We are finding, just generally, that it's
+
+562
+00:21:50,680 --> 00:21:53,360
+ very difficult to tutor people who
+
+563
+00:21:53,360 --> 00:21:56,720
+ have different expectations of what a tutorial should be.
+
+564
+00:21:56,720 --> 00:21:58,840
+ So some users come in and they don't know VR.
+
+565
+00:21:58,840 --> 00:22:00,820
+ So they need to be shown their controllers
+
+566
+00:22:00,820 --> 00:22:01,980
+ and like, this is a button.
+
+567
+00:22:01,980 --> 00:22:03,320
+ This is how you push the button.
+
+568
+00:22:03,320 --> 00:22:04,480
+ This is what the button does.
+
+569
+00:22:04,480 --> 00:22:06,180
+ Some people come in and they're rushing
+
+570
+00:22:06,180 --> 00:22:07,700
+ because they're trying to meet up with their friends.
+
+571
+00:22:07,700 --> 00:22:09,880
+ They're like, I don't care about this tutorial.
+
+572
+00:22:09,880 --> 00:22:11,280
+ I don't want to read it because I'm
+
+573
+00:22:11,280 --> 00:22:13,000
+ rushing to meet up with my friend
+
+574
+00:22:13,000 --> 00:22:14,720
+ and chill out and hang out.
+
+575
+00:22:14,720 --> 00:22:16,880
+ And some people come in and they're experts.
+
+576
+00:22:16,880 --> 00:22:18,340
+ And they're like, I know everything.
+
+577
+00:22:18,340 --> 00:22:19,600
+ And I don't want to be taught.
+
+578
+00:22:19,600 --> 00:22:20,680
+ I know everything.
+
+579
+00:22:20,680 --> 00:22:22,080
+ I know that you're telling me that I don't,
+
+580
+00:22:22,080 --> 00:22:22,920
+ but I know everything.
+
+581
+00:22:22,920 --> 00:22:23,840
+ Get out of my way.
+
+582
+00:22:23,840 --> 00:22:26,000
+ And so we're trying to find a way that sort of level
+
+583
+00:22:26,000 --> 00:22:26,760
+ sets that.
+
+584
+00:22:26,760 --> 00:22:29,380
+ And the only thing that we found so far that to do that
+
+585
+00:22:29,380 --> 00:22:31,560
+ is to actually force you to go through the tutorial.
+
+586
+00:22:31,560 --> 00:22:33,080
+ Because those who know what they're doing
+
+587
+00:22:33,080 --> 00:22:34,380
+ can just spam through it.
+
+588
+00:22:34,380 --> 00:22:35,680
+ Those who don't know what they're doing
+
+589
+00:22:35,680 --> 00:22:37,280
+ will usually follow the tutorial.
+
+590
+00:22:37,280 --> 00:22:39,680
+ And those that are really, really annoyed that you're
+
+591
+00:22:39,680 --> 00:22:42,800
+ forced through the tutorial will add skip intro tutorial
+
+592
+00:22:42,800 --> 00:22:44,600
+ as a command line argument to the shortcut
+
+593
+00:22:44,600 --> 00:22:45,920
+ they use to run the game.
+
+594
+00:22:45,920 --> 00:22:47,240
+ I'm one of those guys.
+
+595
+00:22:47,240 --> 00:22:49,560
+ So I never see the tutorial.
+
+596
+00:22:49,560 --> 00:22:50,800
+ It's an interesting problem.
+
+597
+00:22:50,800 --> 00:22:51,800
+ We're trying to solve it.
+
+598
+00:22:51,800 --> 00:22:54,680
+ We've got-- we want to do more MTC updates to make
+
+599
+00:22:54,680 --> 00:22:56,280
+ that experience better.
+
+600
+00:22:56,280 --> 00:22:57,600
+ It is what we've got, though.
+
+601
+00:22:57,600 --> 00:22:59,440
+ I don't think it's the problem that's making
+
+602
+00:22:59,440 --> 00:23:01,560
+ Neos not user accessible.
+
+603
+00:23:01,560 --> 00:23:03,840
+ I think that problem actually occurs when it happens,
+
+604
+00:23:03,840 --> 00:23:06,040
+ is when you go past that tutorial.
+
+605
+00:23:06,040 --> 00:23:08,840
+ We then don't follow up with additional tutorials
+
+606
+00:23:08,840 --> 00:23:11,200
+ or additional information or additional documentation
+
+607
+00:23:11,200 --> 00:23:12,240
+ inside the game.
+
+608
+00:23:12,240 --> 00:23:14,280
+ All of it's outside, or you have to ask someone
+
+609
+00:23:14,280 --> 00:23:16,840
+ which is effectively outside.
+
+610
+00:23:16,840 --> 00:23:18,440
+ Moving forwards.
+
+611
+00:23:18,440 --> 00:23:19,720
+ If you lose your backup code, you
+
+612
+00:23:19,720 --> 00:23:21,680
+ need to prove your identity by beating Prime in a chess match.
+
+613
+00:23:21,680 --> 00:23:22,920
+ That'd actually be quite easy.
+
+614
+00:23:22,920 --> 00:23:24,720
+ I'm not that good at chess.
+
+615
+00:23:24,720 --> 00:23:25,920
+ Random side note here.
+
+616
+00:23:25,920 --> 00:23:28,720
+ I was exploring VR chat worlds many years ago.
+
+617
+00:23:28,720 --> 00:23:31,120
+ And a world came up in the world's browser
+
+618
+00:23:31,120 --> 00:23:33,040
+ called Daddy's Chess Dungeon.
+
+619
+00:23:33,040 --> 00:23:34,720
+ And I'm like, what is this?
+
+620
+00:23:34,720 --> 00:23:36,120
+ This sounds risky.
+
+621
+00:23:36,120 --> 00:23:38,680
+ This sounds like maybe I need to be at a private session
+
+622
+00:23:38,680 --> 00:23:39,960
+ to go into this world.
+
+623
+00:23:39,960 --> 00:23:43,560
+ No, it was literally just a dark room with a chess board in it
+
+624
+00:23:43,560 --> 00:23:45,280
+ made by a guy called Daddy.
+
+625
+00:23:45,280 --> 00:23:48,640
+ So it sounded rude, but it wasn't at all.
+
+626
+00:23:48,640 --> 00:23:51,520
+ It was just a chess board in a dark room.
+
+627
+00:23:51,520 --> 00:23:54,240
+ That was funny.
+
+628
+00:23:54,240 --> 00:23:57,040
+ The associations we have of various words and concepts
+
+629
+00:23:57,040 --> 00:23:58,840
+ lead you down a different path.
+
+630
+00:23:58,840 --> 00:24:00,680
+ Stifle linked to the useful tagging components.
+
+631
+00:24:00,680 --> 00:24:02,600
+ Great.
+
+632
+00:24:02,600 --> 00:24:05,000
+ Digium says, how about a menu dialogue option for skip
+
+633
+00:24:05,000 --> 00:24:06,400
+ tutorial basics in advance?
+
+634
+00:24:06,400 --> 00:24:08,520
+ We have discussed having a skip tutorial button.
+
+635
+00:24:08,520 --> 00:24:10,240
+ The problem is that people that need the tutorial
+
+636
+00:24:10,240 --> 00:24:11,040
+ would push it.
+
+637
+00:24:11,040 --> 00:24:13,040
+ People don't want to learn sometimes.
+
+638
+00:24:13,040 --> 00:24:15,560
+ And sometimes you have to sort of guide them and force them
+
+639
+00:24:15,560 --> 00:24:16,320
+ to learn.
+
+640
+00:24:16,320 --> 00:24:17,040
+ It is a problem.
+
+641
+00:24:17,040 --> 00:24:18,440
+ I do agree that it could be better.
+
+642
+00:24:18,440 --> 00:24:20,840
+ And the content team are looking at that
+
+643
+00:24:20,840 --> 00:24:23,160
+ and trying to make that better as they go.
+
+644
+00:24:23,160 --> 00:24:24,920
+ Any feedback that you have would be great.
+
+645
+00:24:24,920 --> 00:24:26,080
+ I think there's some issues for it.
+
+646
+00:24:26,080 --> 00:24:28,200
+ I also think there was an issue where we discussed the skip
+
+647
+00:24:28,200 --> 00:24:28,960
+ button.
+
+648
+00:24:28,960 --> 00:24:30,740
+ And that's where you can read the historical conversation
+
+649
+00:24:30,740 --> 00:24:32,440
+ about why that doesn't exist.
+
+650
+00:24:32,440 --> 00:24:34,280
+ If you struggle with the tutorial at a later point
+
+651
+00:24:34,280 --> 00:24:37,560
+ and you're frustrated by it, if the cage is up at the MTC,
+
+652
+00:24:37,560 --> 00:24:38,680
+ just spam the next button.
+
+653
+00:24:38,680 --> 00:24:39,280
+ It'll go down.
+
+654
+00:24:39,280 --> 00:24:40,920
+ You don't have to do anything on the screen.
+
+655
+00:24:40,920 --> 00:24:41,960
+ But you see, that's a problem now.
+
+656
+00:24:41,960 --> 00:24:43,040
+ Because now I'm going to tell you that.
+
+657
+00:24:43,040 --> 00:24:44,120
+ And you're going to tell other people.
+
+658
+00:24:44,120 --> 00:24:45,960
+ And then no one's going to read the tutorial.
+
+659
+00:24:45,960 --> 00:24:46,960
+ And then no one learns.
+
+660
+00:24:46,960 --> 00:24:50,020
+ So you see, it's like a chicken and egg problem.
+
+661
+00:24:50,020 --> 00:24:51,440
+ It's like we want people to learn.
+
+662
+00:24:51,440 --> 00:24:53,520
+ But people don't like the way that we're teaching them.
+
+663
+00:24:53,520 --> 00:24:54,440
+ So they're going to skip it.
+
+664
+00:24:54,440 --> 00:24:55,440
+ So they can't learn.
+
+665
+00:24:55,440 --> 00:24:56,440
+ So we need to improve it.
+
+666
+00:24:56,440 --> 00:24:57,520
+ But we don't know how to improve it
+
+667
+00:24:57,520 --> 00:24:58,720
+ without forcing them to learn.
+
+668
+00:24:58,720 --> 00:25:00,200
+ It's difficult.
+
+669
+00:25:00,200 --> 00:25:02,680
+ Jack says, looking forward to exploring the MSC entries,
+
+670
+00:25:02,680 --> 00:25:03,280
+ by the way.
+
+671
+00:25:03,280 --> 00:25:05,040
+ Yep, I am.
+
+672
+00:25:05,040 --> 00:25:07,720
+ Immediate thing I have to do once the MSC entry closes
+
+673
+00:25:07,720 --> 00:25:09,300
+ is go test the voting system, though,
+
+674
+00:25:09,300 --> 00:25:12,060
+ because that's my responsibility.
+
+675
+00:25:12,060 --> 00:25:15,780
+ The Bumble says, is there a tutorial on gesture shortcuts?
+
+676
+00:25:15,780 --> 00:25:19,360
+ I think there's something somewhere that does them.
+
+677
+00:25:19,360 --> 00:25:21,020
+ I'm not sure if it's in the MTC.
+
+678
+00:25:21,020 --> 00:25:22,420
+ But there certainly is something.
+
+679
+00:25:22,420 --> 00:25:23,220
+ Why is my phone--
+
+680
+00:25:23,220 --> 00:25:24,660
+ like, hello, phone?
+
+681
+00:25:24,660 --> 00:25:26,540
+ The screen just turned on and was like, hello.
+
+682
+00:25:26,540 --> 00:25:27,380
+ And I'm like, is that a call?
+
+683
+00:25:27,380 --> 00:25:28,220
+ That usually means a call.
+
+684
+00:25:28,220 --> 00:25:29,060
+ But it wasn't a call.
+
+685
+00:25:29,060 --> 00:25:30,020
+ Very confused.
+
+686
+00:25:30,020 --> 00:25:32,520
+ Yeah, if you go back to the MTC, I think part of the problem
+
+687
+00:25:32,520 --> 00:25:34,140
+ is actually us calling it MTC.
+
+688
+00:25:34,140 --> 00:25:36,100
+ It's meant to be the metaverse training center.
+
+689
+00:25:36,100 --> 00:25:38,380
+ But if it was actually called tutorial, click here.
+
+690
+00:25:38,380 --> 00:25:40,180
+ Or maybe put a neon sign around it,
+
+691
+00:25:40,180 --> 00:25:42,820
+ like tutorials with a big arrow.
+
+692
+00:25:42,820 --> 00:25:44,300
+ It might be easier to find it.
+
+693
+00:25:44,300 --> 00:25:45,920
+ Something I think we need to do a lot,
+
+694
+00:25:45,920 --> 00:25:47,780
+ and I think that will actually help a lot,
+
+695
+00:25:47,780 --> 00:25:49,380
+ but we need to find out where we do it,
+
+696
+00:25:49,380 --> 00:25:52,340
+ is when you change worlds in VRChat,
+
+697
+00:25:52,340 --> 00:25:53,900
+ they display little announcements to you
+
+698
+00:25:53,900 --> 00:25:54,980
+ whilst it's loading.
+
+699
+00:25:54,980 --> 00:25:56,020
+ The world is loading.
+
+700
+00:25:56,020 --> 00:25:59,220
+ And it says, remember, these things are against the rules.
+
+701
+00:25:59,220 --> 00:26:01,740
+ You can report rules with the Report button.
+
+702
+00:26:01,740 --> 00:26:04,420
+ Or it says, here's how to do this thing.
+
+703
+00:26:04,420 --> 00:26:06,580
+ And you might not read them because you've
+
+704
+00:26:06,580 --> 00:26:08,740
+ seen them so much, or maybe you're an expert.
+
+705
+00:26:08,740 --> 00:26:10,260
+ But the information is still there.
+
+706
+00:26:10,260 --> 00:26:13,620
+ And you still process them a little bit.
+
+707
+00:26:13,620 --> 00:26:16,040
+ So it still reinforces that in your head.
+
+708
+00:26:16,040 --> 00:26:19,100
+ And it gives them an opportunity to do updates and announcements
+
+709
+00:26:19,100 --> 00:26:19,620
+ there.
+
+710
+00:26:19,620 --> 00:26:21,900
+ Maybe their rules change, they could put an announcement
+
+711
+00:26:21,900 --> 00:26:22,520
+ there.
+
+712
+00:26:22,520 --> 00:26:26,860
+ So we certainly need something like that somewhere.
+
+713
+00:26:26,860 --> 00:26:27,620
+ I don't know where.
+
+714
+00:26:27,620 --> 00:26:29,500
+ I like the fact that you can load into a world
+
+715
+00:26:29,500 --> 00:26:30,940
+ and have a loading screen.
+
+716
+00:26:30,940 --> 00:26:34,620
+ We need somewhere to put little messages like that, though.
+
+717
+00:26:34,620 --> 00:26:37,380
+ Robbie says, have the loading tips been narrated by Audiobook
+
+718
+00:26:37,380 --> 00:26:37,900
+ Prime?
+
+719
+00:26:37,900 --> 00:26:40,300
+ It is a common thing as well.
+
+720
+00:26:40,300 --> 00:26:42,860
+ I seem to remember the first game I remembered seeing it on
+
+721
+00:26:42,860 --> 00:26:44,420
+ was Fallout 3 or something.
+
+722
+00:26:44,420 --> 00:26:46,780
+ I'm not sure if that's the first game that actually did it.
+
+723
+00:26:46,780 --> 00:26:48,540
+ It's the first one I remember.
+
+724
+00:26:48,540 --> 00:26:49,560
+ I'd got an Xbox.
+
+725
+00:26:49,560 --> 00:26:50,700
+ I put in Fallout 3.
+
+726
+00:26:50,700 --> 00:26:51,480
+ And I'd loaded it.
+
+727
+00:26:51,480 --> 00:26:54,340
+ And it was like, I don't know, because I don't remember much
+
+728
+00:26:54,340 --> 00:26:54,860
+ of Fallout.
+
+729
+00:26:54,860 --> 00:26:57,420
+ But like, rockets are good at exploding things,
+
+730
+00:26:57,420 --> 00:26:58,880
+ would be like a loading screen tip.
+
+731
+00:26:58,880 --> 00:27:00,460
+ But you're like, got it.
+
+732
+00:27:00,460 --> 00:27:01,980
+ Understood.
+
+733
+00:27:01,980 --> 00:27:05,340
+ Understand that rockets are good at exploding things.
+
+734
+00:27:05,340 --> 00:27:07,980
+ Gray Foxen asks, can I help you try and break the voting system?
+
+735
+00:27:07,980 --> 00:27:09,060
+ Nope.
+
+736
+00:27:09,060 --> 00:27:12,660
+ We've tested it sufficiently to know that it is OK.
+
+737
+00:27:12,660 --> 00:27:13,900
+ It is not foolproof.
+
+738
+00:27:13,900 --> 00:27:15,540
+ So I have to watch it like a hawk.
+
+739
+00:27:15,540 --> 00:27:19,140
+ And I also have a 10-step validation process
+
+740
+00:27:19,140 --> 00:27:22,780
+ that happens once voting closes to validate each vote.
+
+741
+00:27:22,780 --> 00:27:24,340
+ So it's fun.
+
+742
+00:27:24,340 --> 00:27:26,220
+ There's a huge problem with electronic voting.
+
+743
+00:27:26,220 --> 00:27:28,940
+ It's basically just fraught with error.
+
+744
+00:27:28,940 --> 00:27:33,620
+ You can find information about that on a Tom Scott video,
+
+745
+00:27:33,620 --> 00:27:35,900
+ which I've got linked somewhere.
+
+746
+00:27:35,900 --> 00:27:38,740
+ So I have to be really careful and take a look at it.
+
+747
+00:27:38,740 --> 00:27:39,860
+ I also use pivot tables.
+
+748
+00:27:39,860 --> 00:27:41,580
+ Does anyone know what a pivot table is?
+
+749
+00:27:41,580 --> 00:27:43,900
+ I take the output, which is a CSV,
+
+750
+00:27:43,900 --> 00:27:45,700
+ and then I put it into like a--
+
+751
+00:27:45,700 --> 00:27:46,620
+ not that one.
+
+752
+00:27:46,620 --> 00:27:49,060
+ That's the wrong video.
+
+753
+00:27:49,060 --> 00:27:49,780
+ But it's OK.
+
+754
+00:27:49,780 --> 00:27:51,820
+ That's a good video for the voting system.
+
+755
+00:27:51,820 --> 00:27:52,780
+ Here's the right video.
+
+756
+00:27:52,780 --> 00:27:53,860
+ There we go.
+
+757
+00:27:53,860 --> 00:27:56,860
+ But yeah, I take the output as a CSV, convert it to Excel,
+
+758
+00:27:56,860 --> 00:27:58,020
+ and then I use a pivot table.
+
+759
+00:27:58,020 --> 00:27:59,820
+ Pivot tables are amazing.
+
+760
+00:27:59,820 --> 00:28:01,460
+ All right, we are at time.
+
+761
+00:28:01,460 --> 00:28:05,180
+ So if anyone's typing any questions, go for it.
+
+762
+00:28:05,180 --> 00:28:08,460
+ But take a look.
+
+763
+00:28:08,460 --> 00:28:10,900
+ Make sure I'm not missing any additional questions.
+
+764
+00:28:10,900 --> 00:28:13,100
+ If anyone's typing a question, go for it.
+
+765
+00:28:13,100 --> 00:28:16,100
+ But we'll cut off questions that people are typing very soon.
+
+766
+00:28:16,100 --> 00:28:17,460
+ I'll get those in.
+
+767
+00:28:17,460 --> 00:28:18,860
+ We'll keep that in mind.
+
+768
+00:28:18,860 --> 00:28:21,620
+ Jackal says that if they need a voice for stuff like loading
+
+769
+00:28:21,620 --> 00:28:22,980
+ screens, I'll do it for free.
+
+770
+00:28:22,980 --> 00:28:24,100
+ We'll keep that in mind.
+
+771
+00:28:24,100 --> 00:28:25,660
+ It's an interesting take, because I
+
+772
+00:28:25,660 --> 00:28:28,140
+ was looking at the locale files, and we
+
+773
+00:28:28,140 --> 00:28:31,660
+ need to go back through anyone that's contributed to the locale
+
+774
+00:28:31,660 --> 00:28:34,220
+ and get them to sign some paperwork at some point.
+
+775
+00:28:34,220 --> 00:28:35,380
+ It's going to be interesting.
+
+776
+00:28:35,380 --> 00:28:37,100
+ It's basically like we don't technically
+
+777
+00:28:37,100 --> 00:28:38,900
+ own the contributions.
+
+778
+00:28:38,900 --> 00:28:40,860
+ We don't have a license to their contribution,
+
+779
+00:28:40,860 --> 00:28:41,860
+ so it's a bit weird.
+
+780
+00:28:41,860 --> 00:28:43,140
+ We need to go back and do that.
+
+781
+00:28:43,140 --> 00:28:45,500
+ Contributed license agreement or something like that
+
+782
+00:28:45,500 --> 00:28:46,580
+ is usually what we need.
+
+783
+00:28:46,580 --> 00:28:47,820
+ We need to go back and do that.
+
+784
+00:28:47,820 --> 00:28:49,340
+ But that only matters once we start
+
+785
+00:28:49,340 --> 00:28:50,420
+ putting from locale again.
+
+786
+00:28:50,420 --> 00:28:53,220
+ So I'll sort it out eventually.
+
+787
+00:28:53,220 --> 00:28:55,940
+ I remember every year, someone ends up managing
+
+788
+00:28:55,940 --> 00:28:57,260
+ to break one of the booths.
+
+789
+00:28:57,260 --> 00:29:02,020
+ The way it works is we've got 10 booths, five on the left
+
+790
+00:29:02,020 --> 00:29:03,060
+ and five on the right.
+
+791
+00:29:03,060 --> 00:29:05,700
+ And I always have to put red tape,
+
+792
+00:29:05,700 --> 00:29:09,260
+ caution tape or closed tape over one of the booths,
+
+793
+00:29:09,260 --> 00:29:12,500
+ because someone always ends up managing to break one of them.
+
+794
+00:29:12,500 --> 00:29:15,700
+ And then what I do is I look for--
+
+795
+00:29:15,700 --> 00:29:17,500
+ oh, look, there's no one voting right now.
+
+796
+00:29:17,500 --> 00:29:19,660
+ I can quickly restart the world.
+
+797
+00:29:19,660 --> 00:29:22,220
+ And that will kick one of the broken voting booths
+
+798
+00:29:22,220 --> 00:29:23,100
+ back into there.
+
+799
+00:29:23,100 --> 00:29:27,340
+ I do have the idle restart on, but sometimes I
+
+800
+00:29:27,340 --> 00:29:32,980
+ just want to make it work again so that I can figure it out
+
+801
+00:29:32,980 --> 00:29:35,100
+ in a way that makes it make sense.
+
+802
+00:29:35,100 --> 00:29:36,620
+ With that, I think we're at the end.
+
+803
+00:29:36,620 --> 00:29:37,660
+ If you have any additional questions,
+
+804
+00:29:37,660 --> 00:29:39,260
+ please feel free to direct message me,
+
+805
+00:29:39,260 --> 00:29:41,740
+ drop it in the questions and help channel,
+
+806
+00:29:41,740 --> 00:29:43,900
+ send me carrier pigeons, whatever you want to do.
+
+807
+00:29:43,900 --> 00:29:47,980
+ Smoke signals, I don't know, lasers, moss code,
+
+808
+00:29:47,980 --> 00:29:48,980
+ whatever you want to do.
+
+809
+00:29:48,980 --> 00:29:50,300
+ I'm happy to help you out.
+
+810
+00:29:50,300 --> 00:29:51,620
+ Good luck with your MMC entries.
+
+811
+00:29:51,620 --> 00:29:53,540
+ Do you remember to submit the world early?
+
+812
+00:29:53,540 --> 00:29:55,820
+ I'm going to tell you again, submit the world early.
+
+813
+00:29:55,820 --> 00:29:57,660
+ You don't need to wait till the world is finished before you
+
+814
+00:29:57,660 --> 00:29:58,980
+ put it on that submission plate.
+
+815
+00:29:58,980 --> 00:30:01,020
+ And for the last day of the MMC, you
+
+816
+00:30:01,020 --> 00:30:02,060
+ shouldn't be making edits.
+
+817
+00:30:02,060 --> 00:30:03,260
+ You should be testing.
+
+818
+00:30:03,260 --> 00:30:04,660
+ What happens for desktop users?
+
+819
+00:30:04,660 --> 00:30:06,340
+ What happens for more than one user?
+
+820
+00:30:06,340 --> 00:30:07,700
+ Can this be broken?
+
+821
+00:30:07,700 --> 00:30:10,020
+ What happens for users that may be a color blind?
+
+822
+00:30:10,020 --> 00:30:11,540
+ What happens for users who are deaf?
+
+823
+00:30:11,540 --> 00:30:13,060
+ What happens for users who are blind?
+
+824
+00:30:13,060 --> 00:30:15,380
+ Well, blind's like a strange one.
+
+825
+00:30:15,380 --> 00:30:17,020
+ Partially sighted would be a better term.
+
+826
+00:30:17,020 --> 00:30:19,340
+ Visually impaired, whatever phrasing you want to use there.
+
+827
+00:30:19,340 --> 00:30:20,980
+ And I will speak to you again soon.
+

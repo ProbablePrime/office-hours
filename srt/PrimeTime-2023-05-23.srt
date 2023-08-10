@@ -1,0 +1,1208 @@
+1
+00:00:00,000 --> 00:00:02,000
+ Welcome to Primetime, it's 4pm, we'll get started.
+
+2
+00:00:02,000 --> 00:00:04,000
+ I'm going to read the questions in the order that they appear.
+
+3
+00:00:04,000 --> 00:00:07,000
+ We currently only have one question, so please keep the questions coming.
+
+4
+00:00:07,000 --> 00:00:10,000
+ They go in the thread, which is in the Office Hours text chat.
+
+5
+00:00:10,000 --> 00:00:12,000
+ There's a few channels about the one that you're currently looking at.
+
+6
+00:00:12,000 --> 00:00:15,000
+ Drop your questions in there, I'll get them in the order that they appear.
+
+7
+00:00:15,000 --> 00:00:18,000
+ So first question that we have today is from Tiki, and Tiki says,
+
+8
+00:00:18,000 --> 00:00:21,000
+ "What is the best way to get semi-transparent material? Jelly-like.
+
+9
+00:00:21,000 --> 00:00:25,000
+ Side question is there documentation on how to layout tri-planar material textures?"
+
+10
+00:00:25,000 --> 00:00:34,000
+ So, semi-transparent materials, always try the nearest central material's glass textures as a base.
+
+11
+00:00:34,000 --> 00:00:38,000
+ The reason I say that is because getting glass looking correct is very difficult.
+
+12
+00:00:38,000 --> 00:00:42,000
+ And so if you start with those as a base, it will get you to looking like glass.
+
+13
+00:00:42,000 --> 00:00:46,000
+ And then if you want jelly, you might want to just reduce the transparency a little bit,
+
+14
+00:00:46,000 --> 00:00:49,000
+ and then maybe up the shine a little bit, and probably get rid of the...
+
+15
+00:00:49,000 --> 00:00:56,000
+ There's like a normal map or a metallic map on that, that makes the glass look sort of unclean-ish.
+
+16
+00:00:56,000 --> 00:00:58,000
+ You know, it's got imperfections in it.
+
+17
+00:00:58,000 --> 00:01:03,000
+ If you're on a public transport bus, that kind of glass, right?
+
+18
+00:01:03,000 --> 00:01:09,000
+ It's glass, but it's been through the ringer, which is a phrase I don't know if Americans use.
+
+19
+00:01:09,000 --> 00:01:11,000
+ It means it's been through stuff.
+
+20
+00:01:11,000 --> 00:01:17,000
+ As for your second question, "Is there documentation on how to layout tri-planar material textures?"
+
+21
+00:01:17,000 --> 00:01:20,000
+ Tri-planar is a little bit weird because of the way it sort of wraps stuff around.
+
+22
+00:01:20,000 --> 00:01:24,000
+ I always call it the wrapping paper material.
+
+23
+00:01:24,000 --> 00:01:29,000
+ So if you imagine you're trying to wrap a very awkwardly shaped Christmas present,
+
+24
+00:01:29,000 --> 00:01:33,000
+ you hate doing that, but the tri-planar material loves doing it.
+
+25
+00:01:33,000 --> 00:01:37,000
+ And it just sort of vacuum forms your textures over the material.
+
+26
+00:01:37,000 --> 00:01:43,000
+ That does cause looping, of course, if you imagine taking your single texture and then making it into a roll of wrapping paper,
+
+27
+00:01:43,000 --> 00:01:44,000
+ that's what you're going to get.
+
+28
+00:01:44,000 --> 00:01:50,000
+ It also does that roll of wrapping paper in all directions from the point of that.
+
+29
+00:01:50,000 --> 00:01:53,000
+ A bit like when you're wrapping a book or something.
+
+30
+00:01:53,000 --> 00:01:55,000
+ So that's also how you do the textures, right?
+
+31
+00:01:55,000 --> 00:01:56,000
+ You just keep that in mind.
+
+32
+00:01:56,000 --> 00:02:02,000
+ There is no special way to lay them out, but for tri-planar in particular, looking for seamless as possible.
+
+33
+00:02:02,000 --> 00:02:09,000
+ As an example here, some of the grass textures that are in Neosy Central's materials,
+
+34
+00:02:09,000 --> 00:02:15,000
+ Ground, Dylan, I think it's Dylan, his pack, they're great, but they don't tile that well.
+
+35
+00:02:15,000 --> 00:02:17,000
+ One tile's better than the other.
+
+36
+00:02:17,000 --> 00:02:19,000
+ But yeah, make sure it tiles well.
+
+37
+00:02:19,000 --> 00:02:21,000
+ That's basically all there is to it.
+
+38
+00:02:21,000 --> 00:02:24,000
+ Alex asks, "Is the news true?"
+
+39
+00:02:24,000 --> 00:02:27,000
+ That depends on the news network that you're following.
+
+40
+00:02:27,000 --> 00:02:33,000
+ I've heard bad things about Fox News, but I don't really know because I don't really watch US TV.
+
+41
+00:02:33,000 --> 00:02:35,000
+ I always use for news.
+
+42
+00:02:35,000 --> 00:02:43,000
+ I use the BBC, British Broadcasting Corporation, because I am from the UK, and you're basically brought up trusting the BBC.
+
+43
+00:02:43,000 --> 00:02:52,000
+ The BBC is also sort of subsidised by the government-ish and subsidised by the public over there, so it's usually OK.
+
+44
+00:02:52,000 --> 00:02:55,000
+ I usually compare and contrast that with Channel 4 news.
+
+45
+00:02:55,000 --> 00:02:59,000
+ Channel 4 is my favourite TV station over there in the UK.
+
+46
+00:02:59,000 --> 00:03:03,000
+ Great places, but I don't consume US news at all.
+
+47
+00:03:03,000 --> 00:03:06,000
+ So yeah, there you go, that's the statement on "Is the news true?"
+
+48
+00:03:06,000 --> 00:03:13,000
+ Do remember that there is a lot of conspiracy and issues, people saying "fake news" etc.
+
+49
+00:03:13,000 --> 00:03:18,000
+ Also remember that certain news networks are affiliated to certain political parties.
+
+50
+00:03:18,000 --> 00:03:25,000
+ Jekyll left a comment that said that "The youngster found my public folder in the World is Covered in Cheese."
+
+51
+00:03:25,000 --> 00:03:27,000
+ Excellent. Fantastic.
+
+52
+00:03:27,000 --> 00:03:29,000
+ I'm happy that you are enjoying my public folder.
+
+53
+00:03:29,000 --> 00:03:34,000
+ Tiki asks for the folder again for Blasic. Blasic? Yes, Blasic.
+
+54
+00:03:34,000 --> 00:03:37,000
+ "Basic glass materials."
+
+55
+00:03:37,000 --> 00:03:39,000
+ Neosessentials materials glass.
+
+56
+00:03:39,000 --> 00:03:44,000
+ It might be Neosessentials assets materials glass now, but it's one of those two things.
+
+57
+00:03:44,000 --> 00:03:58,000
+ "Alexos has seen a few instances where components from the Dash more specifically desktop viewer-related components are appearing in people's world space without the user knowing it happened causing the world to crash. Would you know any reason why this might be happening?"
+
+58
+00:03:58,000 --> 00:04:09,000
+ No, although there are some tools starting to spread that do just like progressively hackier things, which might result in some components being attached in world space.
+
+59
+00:04:09,000 --> 00:04:19,000
+ From the sounds of things though, it sounds like facets and components are being in, you know, dropped into the world space somehow.
+
+60
+00:04:19,000 --> 00:04:22,000
+ That might be some sort of parenting issue or something.
+
+61
+00:04:22,000 --> 00:04:28,000
+ I'd need to look at a crash log to make sure you open a GitHub issue for that one.
+
+62
+00:04:28,000 --> 00:04:38,000
+ Lakeside Miners says, "A mod I have makes use of some icons. Cheese and a potato. Are the icons built in or part of the mod? If built in, why is the mod, why is there a potato icon in the game?"
+
+63
+00:04:38,000 --> 00:04:40,000
+ So this is a difficult question.
+
+64
+00:04:40,000 --> 00:04:48,000
+ When you're like, a mod I use and you don't provide the source of the mod, it's difficult for me to see if that mod is including those icons itself.
+
+65
+00:04:48,000 --> 00:04:54,000
+ I know it is not because of the two icons that you've listed, but remember that context is the king.
+
+66
+00:04:54,000 --> 00:05:00,000
+ Alex, context is the king for your question as well. Use more words.
+
+67
+00:05:00,000 --> 00:05:05,000
+ The cheese icon is built in because it is a meme that Freaks put into the game.
+
+68
+00:05:05,000 --> 00:05:15,000
+ He added desktop mode support and when he did that he added curses and there was some commentary about feedback about the curses.
+
+69
+00:05:15,000 --> 00:05:18,000
+ He was like, "Maybe we'll do custom curses in the future."
+
+70
+00:05:18,000 --> 00:05:23,000
+ I said, "Yay, like a cheese cursor!" and then he gave me a cheese cursor. That's why the cheese icon is in there.
+
+71
+00:05:23,000 --> 00:05:28,000
+ That is a permissively licensed cheese icon so it can be used for basically everything.
+
+72
+00:05:28,000 --> 00:05:36,000
+ As for the potato, you can give that to yourself as a badge. It is sort of signifying that your computer is bad.
+
+73
+00:05:36,000 --> 00:05:42,000
+ I don't really know why we continue to have that as an icon. It's sort of like an in-joke or a meme.
+
+74
+00:05:42,000 --> 00:05:45,000
+ Moving forwards.
+
+75
+00:05:45,000 --> 00:05:52,000
+ Luzanth says, "Is there any way to have virtual keys read from controller buttons? I'm trying to bodge together a dedicated jump button for one of my avatars."
+
+76
+00:05:52,000 --> 00:05:57,000
+ Nope. You'll have to use the logic notes for that.
+
+77
+00:05:57,000 --> 00:06:02,000
+ TK says, "By the way, in New Year's Essentials assets, CG0 materials, are there any empty subfolders?"
+
+78
+00:06:02,000 --> 00:06:11,000
+ Yes. Aegis and the content team are in the process of migrating assets around into various folders such that they are clearer and better.
+
+79
+00:06:11,000 --> 00:06:17,000
+ That process sometimes leaves blank folders that don't go away and are quite stubborn.
+
+80
+00:06:17,000 --> 00:06:20,000
+ Sometimes those folders are also automatically generated.
+
+81
+00:06:20,000 --> 00:06:27,000
+ So at one point, the CG0, or usually CC0, not CG0, so I'll just say CC0,
+
+82
+00:06:27,000 --> 00:06:34,000
+ the CC0 materials are uploaded by a batch process which Frux runs on his computer, but that might have not been running in a while.
+
+83
+00:06:34,000 --> 00:06:43,000
+ I have the potato badge on my account because despite my ability to run Neos quite well, my computer is just generically jank all the time.
+
+84
+00:06:43,000 --> 00:06:48,000
+ For example, my graphics card has fans on it, like your graphics card has, hopefully, anyway.
+
+85
+00:06:48,000 --> 00:06:53,000
+ And the fans are wearing out, the bearings are gone.
+
+86
+00:06:53,000 --> 00:07:03,000
+ I bought a replacement fan set and I've replaced the fans on that card a few times, but I can't remember which ones I have and have not replaced.
+
+87
+00:07:03,000 --> 00:07:07,000
+ So I'm gonna go ahead and buy another fan set, throw out the ones I've already got,
+
+88
+00:07:07,000 --> 00:07:13,000
+ because I've got a box of them but I don't know if the ones in the box are the old or new ones, so I'm just very confused.
+
+89
+00:07:13,000 --> 00:07:20,000
+ And so I've gotta just buy brand new fans again.
+
+90
+00:07:20,000 --> 00:07:27,000
+ The moment I get them out of the box, write on them with a Sharpie, like a date, and that way I shouldn't get confused again.
+
+91
+00:07:27,000 --> 00:07:33,000
+ Yeah, it's fun. Eventually I will get a new computer and that may be a problem.
+
+92
+00:07:33,000 --> 00:07:37,000
+ I also refuse to reinstall Windows. I haven't reinstalled Windows in something like 10 years.
+
+93
+00:07:37,000 --> 00:07:42,000
+ I upgrade it when there's security and stuff like that, but I won't reinstall it.
+
+94
+00:07:42,000 --> 00:07:44,000
+ Everyone's like, "If you reinstall Windows, it will fix that issue."
+
+95
+00:07:44,000 --> 00:07:46,000
+ And I'm like, "Oh, I could just fix it without that."
+
+96
+00:07:46,000 --> 00:07:54,000
+ One of the more annoying issues to fix is, you know on your lock screen, you can select a photo to be on the lock screen,
+
+97
+00:07:54,000 --> 00:07:57,000
+ or you can enable what's called Windows Spotlight.
+
+98
+00:07:57,000 --> 00:08:03,000
+ Windows Spotlight is a feature on Windows where it will show photography photos from around the world,
+
+99
+00:08:03,000 --> 00:08:10,000
+ Flickr-style photography photos, and usually a couple of hotspots that you can click that go to news or current events.
+
+100
+00:08:10,000 --> 00:08:18,000
+ I disabled that because I don't like it, because I don't like random stuff being pushed onto my computer.
+
+101
+00:08:18,000 --> 00:08:30,000
+ But then I couldn't use the custom photo option, but it was stuck being the last Spotlight photo it had acquired for about two years.
+
+102
+00:08:30,000 --> 00:08:32,000
+ And I was trying to fix that forever.
+
+103
+00:08:32,000 --> 00:08:39,000
+ Eventually a friend helped me out and we found exactly in the computer where that image data was, and we deleted it.
+
+104
+00:08:39,000 --> 00:08:43,000
+ And it now vanished, and my lock screen is just blank and blue.
+
+105
+00:08:43,000 --> 00:08:49,000
+ And I will prefer that over that image, because your lock screen is usually the first thing you see during the day,
+
+106
+00:08:49,000 --> 00:08:51,000
+ and it meant that I hated that photo.
+
+107
+00:08:51,000 --> 00:08:53,000
+ It was a very nice photo, but I just hate it.
+
+108
+00:08:53,000 --> 00:09:00,000
+ Because it was like, you know, waking up, I haven't had my coffee in the morning, and the first thing you see is that goddamn photo.
+
+109
+00:09:00,000 --> 00:09:06,000
+ Occasionally it reappears, but like a blurred version, so I assume it's still on my hard drive somewhere.
+
+110
+00:09:06,000 --> 00:09:10,000
+ It's like a really weird thing to be agitated about, but you know.
+
+111
+00:09:10,000 --> 00:09:14,000
+ It's the equivalent of, I guess, when you try and save your energy when you wake up.
+
+112
+00:09:14,000 --> 00:09:18,000
+ You're like, let me have my coffee before I deal with that important email.
+
+113
+00:09:18,000 --> 00:09:23,000
+ Let me have my coffee before I ring that telephone number I need to ring, etc.
+
+114
+00:09:23,000 --> 00:09:29,000
+ Okay, I see no additional questions in the list, so please keep getting the questions.
+
+115
+00:09:29,000 --> 00:09:31,000
+ I'll just start commenting on random stuff.
+
+116
+00:09:31,000 --> 00:09:33,000
+ Hopefully we won't start talking about recycling again.
+
+117
+00:09:33,000 --> 00:09:39,000
+ Player Cody says, let me have my coffee before going through all the inspectors that are in the world.
+
+118
+00:09:39,000 --> 00:09:44,000
+ Absolutely. Let me have my coffee before I unpack this huge piece of logic. Absolutely.
+
+119
+00:09:44,000 --> 00:09:51,000
+ Jekyll says they think they already have the answer to this, but Neos will not let you add your custom badge in the same way you can change your name tag.
+
+120
+00:09:51,000 --> 00:09:56,000
+ Yes, that is correct. You need to speak to a team member to get the name badge done.
+
+121
+00:09:56,000 --> 00:09:59,000
+ All team members can get you that name badge done.
+
+122
+00:09:59,000 --> 00:10:05,000
+ Shifty is the most efficient at doing it, but it's only a small part of her job.
+
+123
+00:10:05,000 --> 00:10:10,000
+ So if there are other team members around that are happy to do it, do let them know.
+
+124
+00:10:10,000 --> 00:10:22,000
+ She's fantastic at doing it. I just, you know, I want to share her load sometimes so that she can focus on other things in her life and in her role.
+
+125
+00:10:22,000 --> 00:10:30,000
+ I forgot I did the, like, I forgot I did the, like, I was just scrolling through the Patreon wiki page and I found a graph and I'm like, who made that graph?
+
+126
+00:10:30,000 --> 00:10:36,000
+ It's like, oh, it's me. I made that graph. You could find that here.
+
+127
+00:10:36,000 --> 00:10:41,000
+ That's a cool graph. It doesn't really matter these days, but I did a cool graph.
+
+128
+00:10:41,000 --> 00:10:50,000
+ I think it says worried about your reliance on coffee. Everyone has a vice rate. For some, unfortunately, it's alcohol or even more unfortunately, it's, you know, drugs, etc.
+
+129
+00:10:50,000 --> 00:10:55,000
+ But everyone has a vice rate. So maybe it's TV for you. Maybe it's YouTube shorts or TikTok.
+
+130
+00:10:55,000 --> 00:11:01,000
+ It's something that they do too much that they shouldn't be. I am happy that mine is coffee and YouTube.
+
+131
+00:11:01,000 --> 00:11:08,000
+ Anything beyond that, I'm like, OK, we've got to fix that, but I'll take it. I'll take coffee and YouTube. Absolutely fine.
+
+132
+00:11:08,000 --> 00:11:19,000
+ I love Lakeside Miners comment here. For context for the recording, Lakeside Miners says, I love how you've done it.
+
+133
+00:11:19,000 --> 00:11:28,000
+ 99% of the tutorials for Neos. The rest is just random furries showing you how to use random niche assets within Neos itself and not YouTube.
+
+134
+00:11:28,000 --> 00:11:32,000
+ It's like, yeah, that's that's pretty much our YouTube space.
+
+135
+00:11:32,000 --> 00:11:42,000
+ As a reminder, like every single person that is listening to this recording or here live with me make tutorials, even if you copy exactly every single one of my video subjects.
+
+136
+00:11:42,000 --> 00:11:49,000
+ So you make a tutorial, my first tutorial subject, your way of explaining it, your way of showing someone might be better than mine.
+
+137
+00:11:49,000 --> 00:11:54,000
+ It might be more efficient for them. It might be different for how they learn.
+
+138
+00:11:54,000 --> 00:12:03,000
+ I was thinking the other day about sort of tailored learning for younger people, especially neurodivergent people.
+
+139
+00:12:03,000 --> 00:12:15,000
+ If they have a special interest, let's say cars, you could structure an educational program for them that focuses mathematical teaching on cars.
+
+140
+00:12:15,000 --> 00:12:23,000
+ You know, instead of the usual mathematical textbook thing of, you know, Prime has five apples, Play Cody has seven apples.
+
+141
+00:12:23,000 --> 00:12:30,000
+ How many apples do both of them have? You could do it based on cars like, you know, Cody has five sports cars through Lamborghinis.
+
+142
+00:12:30,000 --> 00:12:35,000
+ So Cody has five Lamborghinis, Prime has five Ferraris.
+
+143
+00:12:35,000 --> 00:12:47,000
+ How many cars do they have together? And you're still teaching the younger person basic mathematics, but you're teaching it with the sprinkle of their their hyper fixated special interest.
+
+144
+00:12:47,000 --> 00:12:53,000
+ And I don't know if that occurs. I'm certain it does. But this is just like shower thoughts at like 3 a.m.
+
+145
+00:12:53,000 --> 00:13:00,000
+ Right. I'm just like, maybe that would be a better way to teach some people bring what they need to learn into their world.
+
+146
+00:13:00,000 --> 00:13:06,000
+ And, you know, when I talk about cars, there's like, you know, there's so much we can go into, you know, start with cars.
+
+147
+00:13:06,000 --> 00:13:12,000
+ Right. And as they get older, you can like pop the hood of the car and you can do physics based on the car.
+
+148
+00:13:12,000 --> 00:13:19,000
+ You can learn a lot about the sort of physics of pressure, for example, just by explaining how the brake system works in a car.
+
+149
+00:13:19,000 --> 00:13:24,000
+ Dinosaurs again. Great. You can do height, you can do weight, you can do volume.
+
+150
+00:13:24,000 --> 00:13:32,000
+ You can even do distance, you know, like a flock of T-Rexes has to journey 40 miles to the east, 40 miles to the south and 40 miles to the north.
+
+151
+00:13:32,000 --> 00:13:36,000
+ Like, where do they end up, you know, to find their food, all sorts of stuff.
+
+152
+00:13:36,000 --> 00:13:40,000
+ Then you've got a triangle. I think I just described a triangle. Anyway, any more Neos questions?
+
+153
+00:13:40,000 --> 00:13:50,000
+ Anyone Neos questions before I'm like, ah, let's get to my TED talk about better education for neurodivergent people.
+
+154
+00:13:50,000 --> 00:13:54,000
+ Jackal says, do you have a video on using logic scripting to drive bone animations?
+
+155
+00:13:54,000 --> 00:14:01,000
+ I do not. Other people might. One of the people I've seen who is like fantastic about it is Gyrbelle.
+
+156
+00:14:01,000 --> 00:14:09,000
+ Gyrbelle's characters and avatars usually have wings and she writes a lot of logics to drive those wings.
+
+157
+00:14:09,000 --> 00:14:15,000
+ I do have some stuff on bone effectors that I wanted to make into a tutorial.
+
+158
+00:14:15,000 --> 00:14:22,000
+ Sometimes we come up to the problem where you've got like a bone chain.
+
+159
+00:14:22,000 --> 00:14:27,000
+ Usually it's a tail or it's an ear. Come on, we know what we're doing here, even ears.
+
+160
+00:14:27,000 --> 00:14:33,000
+ But usually the dynamic bone chain will drive that entire bone set and you won't be able to animate it.
+
+161
+00:14:33,000 --> 00:14:41,000
+ But if you use the effectors feature, you can drive the dynamic bone chain in a very, very easy way.
+
+162
+00:14:41,000 --> 00:14:50,000
+ I will dodge around questions here, but we've got like a rat hole that will end up because someone will ask questions about education and I've got more to say.
+
+163
+00:14:50,000 --> 00:14:54,000
+ Lakesideminers asks, what's the difference between deleting and recycling?
+
+164
+00:14:54,000 --> 00:15:10,000
+ I'm not entirely sure if you're referring to Neos or we're just going to like meme an offshoot over to recycling again, but I'll try and keep it Neos focused and I'll tell you about the difference between the pink and red trashcan.
+
+165
+00:15:10,000 --> 00:15:18,000
+ Okay, the reason they're saying recycling is, yet last week's episode, I guess you could call it, we just talked about recycling for a long time.
+
+166
+00:15:18,000 --> 00:15:29,000
+ Like IRL recycling is in that recycling bin that's in your cupboard or whatever, but there is a Neos version of it, which is the difference between the pink trashcan and the red trashcan.
+
+167
+00:15:29,000 --> 00:15:32,000
+ So you get a free answer to that that is Neos centered.
+
+168
+00:15:32,000 --> 00:15:43,000
+ So when you, let's say, spawn something from your inventory and then later don't need it and you pick it up with your hand and use the context menu to delete it.
+
+169
+00:15:43,000 --> 00:15:49,000
+ That delete button is red, but you're technically using the pink trashcan methodology.
+
+170
+00:15:49,000 --> 00:15:56,000
+ And what that does is it will say, okay, you've deleted the object, but is anyone else using any part of the object in the world?
+
+171
+00:15:56,000 --> 00:16:08,000
+ So let's take, for example, maybe it's an avatar and you're picking up this version of an avatar and you're deleting it, but there's a copy or a duplicate of the avatar to the left of you or to the right of you in the world.
+
+172
+00:16:08,000 --> 00:16:16,000
+ It'll go up while other people are still using this texture, they're still using this material, so I won't delete the material. I'll keep that material involved.
+
+173
+00:16:16,000 --> 00:16:20,000
+ And so that is the pink trashcan. That's what the pink trashcan will do.
+
+174
+00:16:20,000 --> 00:16:23,000
+ The red trashcan doesn't care about that system and will just blow away stuff.
+
+175
+00:16:23,000 --> 00:16:29,000
+ I have a video on the pink trashcan and the red trashcan, which gives you a visual example of the difference of both.
+
+176
+00:16:29,000 --> 00:16:32,000
+ I just need to find it, which is always fun.
+
+177
+00:16:32,000 --> 00:16:39,000
+ We do want better icons for both trashcans. Here it is, literally titled pink trashcan versus red trashcan.
+
+178
+00:16:39,000 --> 00:16:45,000
+ It sounds like a children's nursery rhyme, like, you know, there's a nursery rhyme that comes to mind.
+
+179
+00:16:45,000 --> 00:16:53,000
+ I just need to check it actually exists unless it was like a fever dream.
+
+180
+00:16:53,000 --> 00:17:00,000
+ I've not heard this thing. Oh, God, that's Coco Mellen. No, this was like on a cassette tape.
+
+181
+00:17:00,000 --> 00:17:07,000
+ That's a Smurf version. I don't want the Smurf version. I want the original. I don't remember this either.
+
+182
+00:17:07,000 --> 00:17:15,000
+ I don't remember the lyrics. I can remember like one line. It was something on the lines of like, I'm a pink toothbrush or a blue toothbrush.
+
+183
+00:17:15,000 --> 00:17:20,000
+ Yeah, there's this nursery rhyme somewhere there. I just don't know what it is.
+
+184
+00:17:20,000 --> 00:17:24,000
+ We do have three trashcans.
+
+185
+00:17:24,000 --> 00:17:29,000
+ Alps Splash asks, will there be tooltips for those pink colors and red?
+
+186
+00:17:29,000 --> 00:17:37,000
+ Yes, we want to do tooltips. We also want to update the icons there so that the pink one is a little bit mealy here.
+
+187
+00:17:37,000 --> 00:17:42,000
+ Got recycling themes in it. We're also considering maybe moving away from trashcans.
+
+188
+00:17:42,000 --> 00:17:47,000
+ It's an interesting thing when you think about icons like the trashcan and also the save icon.
+
+189
+00:17:47,000 --> 00:17:53,000
+ So there's a meme over on YouTube where you show Gen Z as you show them like a floppy disk, like a physical floppy disk.
+
+190
+00:17:53,000 --> 00:18:00,000
+ And they go, oh, that's really cool. It's like a 3D model of the save icon. And you're like, no, it's an actual floppy disk.
+
+191
+00:18:00,000 --> 00:18:05,000
+ It saves data. How much data? About a megabyte. And they're like, what?
+
+192
+00:18:05,000 --> 00:18:11,000
+ OK, I have found the nursery rhyme certainly exists. This is a sounds like an all female casting.
+
+193
+00:18:11,000 --> 00:18:17,000
+ The sound that I have on a cassette tape that's probably somewhere in my parents basement was definitely an all male cast singing it.
+
+194
+00:18:17,000 --> 00:18:23,000
+ So like the exact intonation of the lyrics is different, but that is the nursery rhyme that I'm referring to.
+
+195
+00:18:23,000 --> 00:18:28,000
+ And I'm glad it exists. It was not a fever dream. I will now see if there's any additional questions.
+
+196
+00:18:28,000 --> 00:18:33,000
+ There are not. So we're still talking about trash cans, toothbrushes and recycling.
+
+197
+00:18:33,000 --> 00:18:41,000
+ If those were unsure why the floppy disk was called the floppy disk, it's a bit like a cassette tape inside the cassette tape.
+
+198
+00:18:41,000 --> 00:18:52,000
+ Sorry, that's like might also not hit with some people. We used to put films and stuff on metal, magnetic ribbons inside cassette tapes.
+
+199
+00:18:52,000 --> 00:19:02,000
+ And so the same material that you're seeing there coming out of that cassette, that VHS tape was actually also in floppy disks, but as a disk shape.
+
+200
+00:19:02,000 --> 00:19:09,000
+ And so the plastic bit, the bit you see on the outside, just surrounds it and prevents it from being damaged or dust getting in.
+
+201
+00:19:09,000 --> 00:19:19,000
+ It's strange because, you know, we've advanced electronically a lot, but we still go back to the storage medium of the past.
+
+202
+00:19:19,000 --> 00:19:28,000
+ So we started with tapes and punch holes. You could make punch holes and then put it through and music would play because it would look at the holes.
+
+203
+00:19:28,000 --> 00:19:33,000
+ We had punch holes for computers at some point. We could program them, etc.
+
+204
+00:19:33,000 --> 00:19:40,000
+ But then we went to magnetic tape and then we had vinyl, you know, things like that where we were accrued a crude in it.
+
+205
+00:19:40,000 --> 00:19:44,000
+ But then we went back to a disk with the floppy disk and then the CD ROM, etc.
+
+206
+00:19:44,000 --> 00:19:51,000
+ I think we've gone past disks now. Now we're into like silicone and like little little rectangles sorted circuit pods.
+
+207
+00:19:51,000 --> 00:19:56,000
+ I don't know. We'll go back from that. Probably the next one will be some form of like quantum storage. That'll be weird.
+
+208
+00:19:56,000 --> 00:19:58,000
+ Anyone who knows anything about quantum computing, you know, more than me.
+
+209
+00:19:58,000 --> 00:20:05,000
+ I tried to do some quantum computing programming because there's quantum computing programming languages and they're just like, oh, yes, we have this group of qubits.
+
+210
+00:20:05,000 --> 00:20:10,000
+ We apply the H A B operation to them and now they're all zero. And I'm like, cool.
+
+211
+00:20:10,000 --> 00:20:15,000
+ I'm going to close this tab now and go think about my life. Oh, just before I get onto this question.
+
+212
+00:20:15,000 --> 00:20:23,000
+ If you put a jam sandwich or a jelly sandwich, if you're American, into your VHS player as a kid, you're one of the cool people.
+
+213
+00:20:23,000 --> 00:20:29,000
+ Now onto questions. Lexavo says, would you be able to explain why this website is public, but nothing has been said by the nearest team?
+
+214
+00:20:29,000 --> 00:20:33,000
+ The team has said before they only say stuff when they're ready to announce it. So there's a reason the team isn't ready to talk about this.
+
+215
+00:20:33,000 --> 00:20:38,000
+ Yes. Yeah. That's the reason why that's there. That's a website. You can look at it.
+
+216
+00:20:38,000 --> 00:20:42,000
+ We don't have anything else to say about it. When we do, we will.
+
+217
+00:20:42,000 --> 00:20:47,000
+ Next, Lou says, is there a way to share a computer window in world space without using streaming sites as a middleman?
+
+218
+00:20:47,000 --> 00:20:55,000
+ No, not currently. There might be a way if you were to write a plugin, probably not a mod because of the complexity required.
+
+219
+00:20:55,000 --> 00:21:00,000
+ But if you were to write a plugin, you might be able to do it. For anyone who's like confused about that one.
+
+220
+00:21:00,000 --> 00:21:08,000
+ I want you to remember that all forms of screen sharing or remote access to other people's computers are basically video streaming.
+
+221
+00:21:08,000 --> 00:21:16,000
+ In some cases, they're not. Things like X.org or whatever the Linux uses that isn't video streaming when you're sharing a session.
+
+222
+00:21:16,000 --> 00:21:25,000
+ But most stuff that you'll see, like if you're on a Zoom call, a Teams call, whatever other meeting provider that you use,
+
+223
+00:21:25,000 --> 00:21:32,000
+ it's streaming a video to another person. So it's sort of like having a little Twitch stream that's private.
+
+224
+00:21:32,000 --> 00:21:41,000
+ And then we send the mouse cursor data from your mouse through the Internet over to their mouse and then their mouse moves around.
+
+225
+00:21:41,000 --> 00:21:47,000
+ So that's why it can't be done without video streaming. Moving forwards to app splashes.
+
+226
+00:21:47,000 --> 00:21:56,000
+ Next question. Nice Newgrounds logo, by the way. Will there be theme layouts for your context menu or dashboard so you can have default or changes bleached dashboard?
+
+227
+00:21:56,000 --> 00:22:00,000
+ You can actually already change some of it. You can't because we haven't upgraded it a lot.
+
+228
+00:22:00,000 --> 00:22:04,000
+ You can fix up with the home dash screen. You can change that as much as you want.
+
+229
+00:22:04,000 --> 00:22:12,000
+ Like I saw someone the other day who had deleted all the standard dashes facets off of it and the entire like home screen was just a mirror.
+
+230
+00:22:12,000 --> 00:22:17,000
+ They're like, I don't care about anything else. I just want a mirror on my dash. You can do that if you want.
+
+231
+00:22:17,000 --> 00:22:22,000
+ You can also change up the world browser and put in different sort of world browser based facets if you want.
+
+232
+00:22:22,000 --> 00:22:28,000
+ I haven't seen anyone do that except for me. I made the washer in facet. But you can do that should you wish to.
+
+233
+00:22:28,000 --> 00:22:38,000
+ It's cool. The context inventory settings session and file explorer you can't change currently, but eventually you want to be one.
+
+234
+00:22:38,000 --> 00:22:47,000
+ We we we we we want you to be able to change those as well with the similar facets system.
+
+235
+00:22:47,000 --> 00:22:51,000
+ Like put my whole English back into my mouth. Anyone got like a bottle of English?
+
+236
+00:22:51,000 --> 00:22:58,000
+ I need to like swig from some as for context menu can already customize your context menu.
+
+237
+00:22:58,000 --> 00:23:05,000
+ When you customize your context menu using the context menu customization, that's a mouthful options that we have.
+
+238
+00:23:05,000 --> 00:23:10,000
+ It will still look like the context menu that you know and use.
+
+239
+00:23:10,000 --> 00:23:14,000
+ But you can add additional items to it like a sort of pizza. Right.
+
+240
+00:23:14,000 --> 00:23:16,000
+ You can add another slice to it to do something else.
+
+241
+00:23:16,000 --> 00:23:22,000
+ You can, of course, make your own custom context menus using any anything you like.
+
+242
+00:23:22,000 --> 00:23:27,000
+ I have seen custom context menus using the same UI system that the current ones do.
+
+243
+00:23:27,000 --> 00:23:32,000
+ I have seen context menus that use physical based elements.
+
+244
+00:23:32,000 --> 00:23:36,000
+ I've seen some sort of emulated other video games.
+
+245
+00:23:36,000 --> 00:23:40,000
+ I just completed the other day. I completed the brand new game from Sion.
+
+246
+00:23:40,000 --> 00:23:44,000
+ Sion are an amazing video game company that made favorite game series of all time.
+
+247
+00:23:44,000 --> 00:23:50,000
+ They just released a new video game where they have a view on context menus, which is actually kind of annoying, but also unique.
+
+248
+00:23:50,000 --> 00:23:54,000
+ So maybe someone will recreate that at some point. It's really cool.
+
+249
+00:23:54,000 --> 00:24:04,000
+ Up to you. Next question is from Shadow X, who says, could there ever be a component that renders a HTML string as a texture?
+
+250
+00:24:04,000 --> 00:24:07,000
+ Yes, but we'd probably just embed a browser at that point.
+
+251
+00:24:07,000 --> 00:24:12,000
+ The problem with like HTML rendering is it's one of the most complicated things that you can do.
+
+252
+00:24:12,000 --> 00:24:17,000
+ You have to remember, like this isn't an indicator of how complicated HTML rendering is.
+
+253
+00:24:17,000 --> 00:24:24,000
+ Microsoft, one of the biggest companies in the world, were like, nah, we're not going to do that anymore.
+
+254
+00:24:24,000 --> 00:24:31,000
+ We'll just take Chromium, which is the engine behind Chrome, slap our logos on top of it and done.
+
+255
+00:24:31,000 --> 00:24:36,000
+ And that's what a lot of people are doing. So, for example, in Discord right now, you're running Chrome.
+
+256
+00:24:36,000 --> 00:24:48,000
+ I mean, it's not like literally Chrome, but it basically is. And everything you see is sort of a lot of HTML with about triple the amount of JavaScript running on top of it.
+
+257
+00:24:48,000 --> 00:24:56,000
+ And I love and hate it. I hate it because it's very complicated and unwieldy usually, but love it because like, hey, it works, right?
+
+258
+00:24:56,000 --> 00:25:03,000
+ We're talking to each other. Discord looks good. Of course, there's stuff that they can improve, but most of the stuff they've got correct.
+
+259
+00:25:03,000 --> 00:25:08,000
+ Storm DPD has sent a photo of old English wood conditioner and cleaner.
+
+260
+00:25:08,000 --> 00:25:15,000
+ I get really annoyed when cleaning products look like beverages and that one has the sort of it looks like beverage.
+
+261
+00:25:15,000 --> 00:25:21,000
+ It looks like beverage. Hi, I look like beverage. Do you? I look like beverage too sometimes.
+
+262
+00:25:21,000 --> 00:25:23,000
+ Definitely doesn't taste like a beverage. Yeah.
+
+263
+00:25:23,000 --> 00:25:38,000
+ There's a comedy sketch by a comedian called Dave Gorman where he plays a game with his audience on his show about packaging and determining what is inside the package by the picture that's on the packaging.
+
+264
+00:25:38,000 --> 00:25:41,000
+ It's very sort of it's a very good game.
+
+265
+00:25:41,000 --> 00:25:46,000
+ For example, if there is a cow on the package, what do you assume is inside it?
+
+266
+00:25:46,000 --> 00:25:56,000
+ You'd assume beef or milk, but if there's a dog on the package, you don't assume that there's dog milk or dog food, dog meat in there.
+
+267
+00:25:56,000 --> 00:26:00,000
+ You assume it's dog food. And then it gets really, really, really, really complicated.
+
+268
+00:26:00,000 --> 00:26:07,000
+ If you think of more examples, it's like what? Fabuloso is a bad offender, as are like dish soaps.
+
+269
+00:26:07,000 --> 00:26:19,000
+ And in some cases, the not the spray cans for fragrance, but the like the ones you put in like an electrical outlet like those always look very tasty.
+
+270
+00:26:19,000 --> 00:26:27,000
+ The annoying thing as well is, yeah, it's like, do you do you drink this or is this to make your house smell nice?
+
+271
+00:26:27,000 --> 00:26:31,000
+ Also, I can't think of anything worse than having my like house smell like strongly of raspberries.
+
+272
+00:26:31,000 --> 00:26:38,000
+ And then there's this, which looks very similar to the air freshener, but is actually for consumption.
+
+273
+00:26:38,000 --> 00:26:41,000
+ But isn't for direct consumption. You have to brew it in hot water.
+
+274
+00:26:41,000 --> 00:26:50,000
+ It's a very confusing scenario that you're always in perfect timing in these in these Google search results is this, which is iced tea.
+
+275
+00:26:50,000 --> 00:26:55,000
+ But it looks very similar to old English wood cleaner in design.
+
+276
+00:26:55,000 --> 00:27:00,000
+ So it's very confusing. Anyway, are there any additional Nios questions before we start talking about packaging?
+
+277
+00:27:00,000 --> 00:27:07,000
+ I posted a link to the Dave Gorman, the rules of animals on packaging part.
+
+278
+00:27:07,000 --> 00:27:10,000
+ It is good. That's a question. I'll take it. Last question as well.
+
+279
+00:27:10,000 --> 00:27:14,000
+ It's thirty four. Actually, those people typing, if you got a question, go for it. Otherwise, yay.
+
+280
+00:27:14,000 --> 00:27:21,000
+ Thumbs up. Lex says, when someone is distinct, why are value streams still synced?
+
+281
+00:27:21,000 --> 00:27:24,000
+ I think it's because they run on different different channels.
+
+282
+00:27:24,000 --> 00:27:28,000
+ So they all have different priorities and different systems like that.
+
+283
+00:27:28,000 --> 00:27:34,000
+ So updates to the world model, which is usually what people mean by being distinct to updates to the world model.
+
+284
+00:27:34,000 --> 00:27:41,000
+ They run on a different channel, a different system of data than the value streams that are coming from someone's avatar or something like that.
+
+285
+00:27:41,000 --> 00:27:44,000
+ That's why you can often still see someone moving and talking.
+
+286
+00:27:44,000 --> 00:27:49,000
+ But the object that they're picking up doesn't exist yet because it's separate systems.
+
+287
+00:27:49,000 --> 00:27:57,000
+ Yeah. It's interesting because like sometimes there aren't many news questions, but I've found I've had this commentary towards me.
+
+288
+00:27:57,000 --> 00:28:03,000
+ I'm not being egotistical in saying it. The people are amazed by the things I talk about sometimes.
+
+289
+00:28:03,000 --> 00:28:09,000
+ So people sometimes come along just for that. I don't know why.
+
+290
+00:28:09,000 --> 00:28:13,000
+ And you remember the game? See, here we go. Anyone remember the game Abe's Odyssey?
+
+291
+00:28:13,000 --> 00:28:20,000
+ Because when I said I don't know, I got reminded of the sound effect of Abe from Abe's Odyssey going like, I don't know.
+
+292
+00:28:20,000 --> 00:28:23,000
+ They do this like weird shrug. Abe's Odyssey was a good game.
+
+293
+00:28:23,000 --> 00:28:30,000
+ I always remember it being slightly, slightly too difficult for me, though, as a kid.
+
+294
+00:28:30,000 --> 00:28:32,000
+ Maybe I should go back and play it now. I'll probably get frustrated with it.
+
+295
+00:28:32,000 --> 00:28:42,000
+ Sometimes with platformer games such as those, you'd like enter a new area after completing one of the areas and you're like, another area?
+
+296
+00:28:42,000 --> 00:28:50,000
+ Right. Because it's much of the same. I know I had that playing. I think it was like Limbo, the game from many years back.
+
+297
+00:28:50,000 --> 00:28:54,000
+ Hey, Zlinko, I always double check for questions. I always double check for questions.
+
+298
+00:28:54,000 --> 00:28:59,000
+ Sometimes I do get carried away and miss them. It's like, hey, I think all the questions are answered. I don't think we've missed any.
+
+299
+00:28:59,000 --> 00:29:05,000
+ I am going to go ahead and leave off there. I have a parcel that's arrived and I need to go grab it.
+
+300
+00:29:05,000 --> 00:29:13,000
+ I will speak to you guys later. Please feel free to drop questions in the questions and help channel. Directly DM me or send a pigeon my way.
+
+301
+00:29:13,000 --> 00:29:15,000
+ I will speak to you guys later.
+
+302
+00:29:15,000 --> 00:29:17,480
+ later.
+

@@ -1,0 +1,1116 @@
+1
+00:00:00,000 --> 00:00:10,000
+Okay, I'll make it top of the ounce. We'll go ahead and get started. Welcome to prime time, the office hours for Neos, for views of channels and misreading stuff.
+
+2
+00:00:10,000 --> 00:00:23,000
+Office hours for myself to answer questions about Neos. We have a bunch of questions, so I'm going to go through and get them started. Please do keep the questions coming though, because we will run out, and if we run out, we sit here in silence until office hours ends.
+
+3
+00:00:23,000 --> 00:00:35,000
+Let's take a look. So Snowy is asking about prime time podcast. Yeah, so sound or the service I'm using is shutting down in January, and so I don't see much reason to put any more effort into that.
+
+4
+00:00:35,000 --> 00:00:44,000
+I am looking into alternatives that is taking a little bit longer though, because I want it to be dead simple, because hooray, thumbs up, simple is good.
+
+5
+00:00:44,000 --> 00:00:54,000
+For now, you can go ahead and use the Neos Wiki, which has transcriptions and audio files uploaded by Lex. Thank you very much for that.
+
+6
+00:00:54,000 --> 00:00:57,000
+So that's that for that question.
+
+7
+00:00:57,000 --> 00:01:06,000
+Is it possible to mirror display to texture? No. What you're asking for there is screen sharing, and people think screen sharing should be really simple.
+
+8
+00:01:06,000 --> 00:01:19,000
+Let me show you why that is not. Screen sharing is basically video streaming, and that's right now what the community are doing. They'll stream their screen to Twitch or some other live streaming service, and then they'll get it in as a texture in the game.
+
+9
+00:01:19,000 --> 00:01:32,000
+And people view the screen sharing feature that we might create as not that, but it literally is that. So we would have to do our own sort of video streaming somehow there. That's why we don't have that.
+
+10
+00:01:32,000 --> 00:01:39,000
+It is a feature on our roadmap. You can find that on the Neos GitHub and track that there.
+
+11
+00:01:39,000 --> 00:01:50,000
+Until that exists, there are community solutions streaming it to Twitch, streaming it to an RTMP server, streaming it to wherever the hell you want, provided it can get you out on RTMP feed.
+
+12
+00:01:50,000 --> 00:01:58,000
+It's cool. You can't just share a screen that's not that simple.
+
+13
+00:01:58,000 --> 00:02:06,000
+Next question. And Alex says, will a new podcast feed be created or should someone in the community do that? Please, as the community member, don't do that.
+
+14
+00:02:06,000 --> 00:02:22,000
+Lex is trying bits of software, which is OK. What I don't want is anyone uploading it in a sort of RSS podcast Spotify format that isn't me, because then we start dealing with impersonation and it becomes a problem.
+
+15
+00:02:22,000 --> 00:02:38,000
+I hate it when that kind of stuff happens. You end up with sort of like, there are 20 different locations where you can listen to primetime and none of them are official because someone got bored one day and decided to upload it, which is why the current situation is better than we've got.
+
+16
+00:02:38,000 --> 00:02:59,000
+That is unfortunate that Sounder just decided to sort of up and close down shop, but we'll see. Something I've been thinking about is maybe moving the office hours over to some other host or some other tool.
+
+17
+00:02:59,000 --> 00:03:11,000
+Sounder also recently emailed me a bunch of tools that they recommend, which is nice of them. I ideally don't want anything self hosted or if it is self hosted, I want it to make sense being self hosted.
+
+18
+00:03:11,000 --> 00:03:18,000
+An example would be some sort of automated process to get it to the wiki, but then we don't get RSS when it gets Spotify publishing. It's a mess.
+
+19
+00:03:18,000 --> 00:03:31,000
+For now, the wiki is perfectly fine. It just doesn't let you know that it's happening. But if you remember when the event is, which is right now, then you can go ahead and check the wiki a couple of hours after that. It should be up two days.
+
+20
+00:03:31,000 --> 00:03:42,000
+Let us move on to additional questions rather than speaking about the office hours over and over again, which is it's fired. It's just a little bit meta. Let's speak about Neos.
+
+21
+00:03:42,000 --> 00:03:57,000
+So Ozzy has a question about a sync issue of request weight too large. That is actually explicitly covered on the stock sync page and everything I have to say about stock sync is on that wiki page because I wrote it.
+
+22
+00:03:57,000 --> 00:04:13,000
+Anything in addition that I will gain about that will also be on that page because I'm like very tired of dealing with sync issues, basically. So I only ever update that page whenever I have anything new.
+
+23
+00:04:13,000 --> 00:04:27,000
+Because I'm just tired, right? There's like four or five sync issues per day. We are working on resolving that. The update issues, et cetera.
+
+24
+00:04:27,000 --> 00:04:43,000
+There are specific guidances for that too many requests problem. I have noticed a really good way of solving that is to stop saving worlds. I have a lot of people that I'm aware of who will continually save new versions of their worlds for no real reason.
+
+25
+00:04:43,000 --> 00:04:57,000
+They come up with a system that either lets you keep the same copy of a world over multiple iterations. You might have a working copy that isn't public and then a public copy that might be two copies. But no, these people have got sort of like 11 copies of the same world.
+
+26
+00:04:57,000 --> 00:05:07,000
+That can lead to that problem quite quickly because saving the world is more strenuous on the cloud than saving items. And then the other solution to that is to think about what you're saving.
+
+27
+00:05:07,000 --> 00:05:21,000
+I also see a lot of people who work on a project in a world and save it to that world. Let's say, I don't know, you're making a panel that does some cool wizardry stuff. They'll save it into a world and then continue to save that world. Grab the panel, save it to your inventory.
+
+28
+00:05:21,000 --> 00:05:34,000
+It will have a lot less issues syncing. Trust me. Like, you know, there's no need to basically there's no need to continually make new worlds is what I'm saying.
+
+29
+00:05:34,000 --> 00:05:47,000
+Yeah, we don't have good version management tools, but, like, that's no excuse to also, like, double those problems, right? Also make sure you're making use of group storage as well where applicable.
+
+30
+00:05:47,000 --> 00:06:00,000
+I get tired of passing world over the round when there's no group available. You're hosting the world today so you can save a new version of it and add one to the version number and I'm like, no, can you load the one from the group?
+
+31
+00:06:00,000 --> 00:06:08,000
+The request rate one is literally, like, everything I have to say about it is on the wiki and stuff like that.
+
+32
+00:06:08,000 --> 00:06:17,000
+Any additional questions, please do drop them in that text thread and I'll get to them in the order that they appear. There are currently no questions so I'll go ahead and mute and wait for questions.
+
+33
+00:06:17,000 --> 00:06:46,000
+Any comments to the latest carol post? No. No comments. The last time I was aware of the server costs, they were in the range of, like, the sort of 3 to 5,000 range per month, which is why I'm continually telling people not to cancel their patreon because at a certain point the cloud will become at risk.
+
+34
+00:06:46,000 --> 00:07:00,000
+But just lower it to the amount that they need for storage and that way it's still being paid for. People always say, like, oh, it just goes to carol's pockets and it's, like, no, it also pays for the storage.
+
+35
+00:07:00,000 --> 00:07:07,000
+As an example here, if you upload a gigabyte of data on your free account, we're paying for that.
+
+36
+00:07:07,000 --> 00:07:19,000
+If you upgrade to patreon and you have 25 gigabytes of data and you use that entire 25 gigabytes of data while paying for it, great. We're kind of, like, net neutral there, right?
+
+37
+00:07:19,000 --> 00:07:23,000
+You know, you're paying for it, money comes straight out of our account and goes into the server costs.
+
+38
+00:07:23,000 --> 00:07:36,000
+But on the various things that you can do to, you know, mess around with storage, you can get to the point where it's, like, cool, I've got, like, five terabytes of storage for free and I'm like, great, thank you for putting your cloud at risk.
+
+39
+00:07:36,000 --> 00:07:47,000
+Beyond the cloud storage source, though, I have no idea. I just know that those are automatic. Like, it's a big pile of money and the server costs come off the top of that big pile of money.
+
+40
+00:07:47,000 --> 00:07:55,000
+I want to, once we get all this resolved, I want to sort of adopt an approach where we actually have the information as public as we can be.
+
+41
+00:07:55,000 --> 00:08:01,000
+Now, there's information, of course, that we can't give out publicly, but there's so much stuff that we can that just, like, it doesn't, like, matter.
+
+42
+00:08:01,000 --> 00:08:07,000
+We don't give it out because no one really does give it out. There's no real, like, harm in doing it.
+
+43
+00:08:07,000 --> 00:08:11,000
+A good example of this is a live streaming provider called Glimmish.
+
+44
+00:08:11,000 --> 00:08:17,000
+Glimmish publicly discloses how much money is going through their business and it's beautiful.
+
+45
+00:08:17,000 --> 00:08:28,000
+You know, they don't share anything private, like the names and addresses of their employees or anything like that, but they're like, hey, guys, we made this much money on subscriptions because they have subscriptions like Twitch.
+
+46
+00:08:28,000 --> 00:08:37,000
+And this much was taken with fees and costs and, you know, tax, et cetera, and we gave this much out to you, the creators.
+
+47
+00:08:37,000 --> 00:08:43,000
+And it's a lot better way to frame the whole revenue split that exists on live streaming platforms.
+
+48
+00:08:43,000 --> 00:08:59,000
+For those unaware, there's a whole big hurrah right now because Twitch is switching to a 50-50 model, whereas it used to be a 70-30 model. YouTube, I believe, is still 70-30, as in the creator gets 70%, YouTube takes 30%.
+
+49
+00:08:59,000 --> 00:09:11,000
+But what you can do if you start sharing those fees is you can, like, explain with a better conversation, hey, guys, the reason why this is 50-50 or whatever it is is because although it looks like 50-50,
+
+50
+00:09:11,000 --> 00:09:22,000
+the government actually takes 25 of our 50, so we get nothing, and then it looks a lot better, right? At that point, you have the lion's share of that, too.
+
+51
+00:09:22,000 --> 00:09:27,000
+Additionally, they show how much money they made via t-shirt sales, which is, like, usually nothing.
+
+52
+00:09:27,000 --> 00:09:34,000
+Merchandise is a really good moneymaker. If you can sell a lot, if you can't sell a lot, it's pointless.
+
+53
+00:09:34,000 --> 00:09:41,000
+Moving forward to additional questions rather than me talking about streaming all day, which I could totally do, but I'm not going to.
+
+54
+00:09:41,000 --> 00:09:48,000
+Rob says I'm interested in getting better deformations on my characters. Is there a way to integrate trained machine learning models matched as a deformer?
+
+55
+00:09:48,000 --> 00:09:53,000
+No. That wouldn't be possible right now. You probably have to open up a GitHub issue for that.
+
+56
+00:09:53,000 --> 00:10:04,000
+Better deformations occur with better weight painting. You can get, like, some really, really crazy weight painting that does a really good job.
+
+57
+00:10:04,000 --> 00:10:11,000
+An avatar that just comes to mind, which, like, people in this chat might say, like, that's a bad example because of XYZ reason.
+
+58
+00:10:11,000 --> 00:10:20,000
+I got it, right? It's an example I can remember, and I'm on the spot here, is the hyena avatar.
+
+59
+00:10:20,000 --> 00:10:29,000
+I see a lot in Neos, though that by default has a lot of layers of clothing, which I believe are all separatable, as in you can take bits of it off, right?
+
+60
+00:10:29,000 --> 00:10:35,000
+And the weight painting is set up such that, like, there's no clipping that I've noticed, and everything just, like, flows and looks good.
+
+61
+00:10:35,000 --> 00:10:46,000
+Now, I've made avatars. I've made avatars with clothing. It takes me forever to get to the point where, you know, if you bend your elbow, your elbow doesn't shoot out the back of your clothing.
+
+62
+00:10:46,000 --> 00:10:54,000
+In some cases, avatar creators will do something where they add a blend shape for when you're wearing clothing or it just, like, makes your arm look like a pipe cleaner.
+
+63
+00:10:54,000 --> 00:11:03,000
+But that's really, like, not the way that you should do it. You can even see that in video games these days as well.
+
+64
+00:11:03,000 --> 00:11:16,000
+Like, take a look at things like long flowing outfits, like skirts, dresses, robes, stuff like that in video games, and try and, like, swing your character around as fast as you can.
+
+65
+00:11:16,000 --> 00:11:26,000
+See how that looks and how that works. And then when you have a problem with defamation, think about, hey, these AAA people can do it, so I can probably do it. Let's take a look.
+
+66
+00:11:26,000 --> 00:11:33,000
+There's also a video which I'm calling it famous because it's just in my head as, like, oh, my God, yes, from a user. I'll try and get a link for it.
+
+67
+00:11:33,000 --> 00:11:45,000
+They talk about doing skirts for VRChat. And VRChat skirts are usually renowned for having, like, 200 bones and all being weight painted individually.
+
+68
+00:11:45,000 --> 00:11:51,000
+And this user provided a guide to do a three or four bone skirt and have it absolutely perfect.
+
+69
+00:11:51,000 --> 00:11:56,000
+And it's a really good video for basically, like, here's how you're meant to do a skirt with weight painting.
+
+70
+00:11:56,000 --> 00:11:59,000
+And I found that really good because, like I said, I struggle with weight painting.
+
+71
+00:11:59,000 --> 00:12:06,000
+So I'll look that up when we get a lot of questions. I'll drop it after in the chat here. I've got a bunch of questions to get through.
+
+72
+00:12:06,000 --> 00:12:13,000
+Ozzy says, as for any other question, I recently got a facial tracker. I want to know if there's any advice you have for adjusting avatars, namely the avatar expression driver.
+
+73
+00:12:13,000 --> 00:12:19,000
+I would like you to very much consider the avatars expression driver's properties and all of them.
+
+74
+00:12:19,000 --> 00:12:24,000
+I'd have to open it up. Actually, I do have the code base open so I can quote this from actual things.
+
+75
+00:12:24,000 --> 00:12:30,000
+Sometimes I'm like, you need to specify the property that has volume in it. And someone comes back to me, like, three hours later.
+
+76
+00:12:30,000 --> 00:12:35,000
+I don't know which one it means. And then I open up the code base or I open up Neos.
+
+77
+00:12:35,000 --> 00:12:40,000
+And it's not called volume. It's actually called, like, potato blah, blah, blah. I've just misremembered it.
+
+78
+00:12:40,000 --> 00:12:47,000
+The problem is it's sometimes difficult for me to distinguish between my ability to go to that component and then have memory about it.
+
+79
+00:12:47,000 --> 00:12:51,000
+And then what that component has actually called. Sometimes I don't remember what the property is called.
+
+80
+00:12:51,000 --> 00:12:56,000
+I just know which order it is or what it looks like visually, not what it's called in terms of words.
+
+81
+00:12:56,000 --> 00:13:02,000
+So now I'm here. Yes. So take a look at the volume source and silence source.
+
+82
+00:13:02,000 --> 00:13:05,000
+Make sure that those are specified in your expression driver.
+
+83
+00:13:05,000 --> 00:13:09,000
+The volume source can come directly from a volume meter.
+
+84
+00:13:09,000 --> 00:13:17,000
+The silence source can basically be sort of one minus the volume meter.
+
+85
+00:13:17,000 --> 00:13:24,000
+You can also do that with the sill or silence thing on the Visum analyzer.
+
+86
+00:13:24,000 --> 00:13:28,000
+There's like a Visum analyzer bar which will measure if you're not speaking.
+
+87
+00:13:28,000 --> 00:13:34,000
+Those are very important. Once you've hooked those up, you can use volume suppression weight across the board.
+
+88
+00:13:34,000 --> 00:13:42,000
+Now volume suppression weight is so difficult because it wasn't really explained that I typed it up at some point.
+
+89
+00:13:42,000 --> 00:13:52,000
+I don't remember where I put that though. No searches across the entirety of the Discord.
+
+90
+00:13:52,000 --> 00:13:56,000
+Great. Volume suppression. Maybe I did put it on the wiki.
+
+91
+00:13:56,000 --> 00:14:00,000
+Help if I could spell suppression. There we go.
+
+92
+00:14:00,000 --> 00:14:04,000
+Volume suppression did not match anything.
+
+93
+00:14:04,000 --> 00:14:09,000
+Volume suppression. Ah, I put it in. I love this.
+
+94
+00:14:09,000 --> 00:14:13,000
+Let's document stuff in a really obscure location.
+
+95
+00:14:13,000 --> 00:14:18,000
+Here are my raw notes on volume suppression stuff.
+
+96
+00:14:18,000 --> 00:14:23,000
+Volume suppression is very important. What volume suppression does when it's set up correctly.
+
+97
+00:14:23,000 --> 00:14:26,000
+I know that's a lot of information, but go for it.
+
+98
+00:14:26,000 --> 00:14:35,000
+Volume suppression when set up correctly will basically reduce the amount that an expression affects your blend shapes whilst you're speaking.
+
+99
+00:14:35,000 --> 00:14:43,000
+And the reason why that's good is because it's often the case that when you're speaking, you'll make face shapes that match expression shapes.
+
+100
+00:14:43,000 --> 00:14:46,000
+A good example here might be sticking your tongue out, right?
+
+101
+00:14:46,000 --> 00:14:51,000
+The face tracker might detect that you're sticking your tongue out, but it's just because you're saying one of the phonemes.
+
+102
+00:14:51,000 --> 00:14:57,000
+Phonemes are the names for the individual mouth movements you do, and they're language independent.
+
+103
+00:14:57,000 --> 00:15:02,000
+The phonemes that you do might include a tongue flick or a tongue poke.
+
+104
+00:15:02,000 --> 00:15:07,000
+Some phonemes do have that, and the face tracker is like, you're poking your tongue out.
+
+105
+00:15:07,000 --> 00:15:15,000
+And then in the middle of a serious sentence, you're like, we're gathered here today to give our condolences to this massive cheeseboard that Prime consumed in one sitting.
+
+106
+00:15:15,000 --> 00:15:23,000
+And in the middle of that, you're smiling, winking, putting your tongue out, doing the bedroomized blend shape, and it's just like, what?
+
+107
+00:15:23,000 --> 00:15:33,000
+Whereas if you configure the volume suppression way, it'll basically be like, all right, there is volume coming out of their microphone.
+
+108
+00:15:33,000 --> 00:15:35,000
+I will suppress these expressions.
+
+109
+00:15:35,000 --> 00:15:37,000
+So do take a look at that one.
+
+110
+00:15:37,000 --> 00:15:46,000
+I have issues on a variety of avatars where the eyebrows on the avatar were basically doing sort of like sine waves because loads of blend shapes were firing at once.
+
+111
+00:15:46,000 --> 00:15:55,000
+And so you could sort of music equalizer my eyebrows at one point, and that fixed by doing a bunch of volume suppression weight stuff.
+
+112
+00:15:55,000 --> 00:16:03,000
+Additionally, the regular Viseme analyzer, I know this is a long explanation, but hey, documentation.
+
+113
+00:16:03,000 --> 00:16:15,000
+The direct Viseme driver, just getting the name because the direct Viseme driver also has voice mouth suppress weight.
+
+114
+00:16:15,000 --> 00:16:19,000
+I don't know if it's in my notes, but do take a look at that one as well.
+
+115
+00:16:19,000 --> 00:16:21,000
+I'd have to look how that one works.
+
+116
+00:16:21,000 --> 00:16:23,000
+That one just like jump scared me.
+
+117
+00:16:23,000 --> 00:16:28,000
+But you can put the mouth tracking source into the direct Viseme driver as well.
+
+118
+00:16:28,000 --> 00:16:44,000
+And in that case, what it'll do is if you're not speaking, it can still detect the Viseme shapes and activate those based on that, which is a great way to get around the whole multiple blend shapes being, I'm sorry,
+
+119
+00:16:44,000 --> 00:16:47,000
+multiple sources driving the same blend shape problem.
+
+120
+00:16:47,000 --> 00:16:59,000
+It allows you to drive all of the Viseme blend shapes using your mouth, which means that when you're not talking, you can still do things like OO or E or R, R being a common one for opening your mouth.
+
+121
+00:16:59,000 --> 00:17:06,000
+You know, when you go to the doctor, like say R, right, you can do that by assigning the mouth tracking source to that.
+
+122
+00:17:06,000 --> 00:17:10,000
+Of course, if you have enough blend shapes to not require that, go for it.
+
+123
+00:17:10,000 --> 00:17:13,000
+But there you go.
+
+124
+00:17:13,000 --> 00:17:16,000
+Just a random anecdote whilst you're here.
+
+125
+00:17:16,000 --> 00:17:23,000
+If you have a blend shape, which is triggered either via the facial tracker or via gestures or anything like that, that involves closing your eyes.
+
+126
+00:17:23,000 --> 00:17:24,000
+You know, some people do it.
+
+127
+00:17:24,000 --> 00:17:27,000
+They're like my eyes closed.
+
+128
+00:17:27,000 --> 00:17:35,000
+Consider not doing that and instead consider going to the eye manager and using I think it's like I close override there because if you do that, I close override.
+
+129
+00:17:35,000 --> 00:17:39,000
+It will signal to the eye managers to stop you from blinking.
+
+130
+00:17:39,000 --> 00:17:47,000
+Because what I see on a ton of avatars is their eyes are closed due to a gesture, but the eye manager is still desperately trying to make them blink.
+
+131
+00:17:47,000 --> 00:17:50,000
+And so what you get is what I call like a closed eye blink.
+
+132
+00:17:50,000 --> 00:17:55,000
+But it's no issue, but like if you really want finesse, go take a look at the eye manager and see if you can get around that.
+
+133
+00:17:55,000 --> 00:17:59,000
+It can suppress the blinks if you set some of those properties.
+
+134
+00:17:59,000 --> 00:18:03,000
+It's also great because again, multiple blend shapes, multiple drivers, right?
+
+135
+00:18:03,000 --> 00:18:06,000
+You won't need two eye closed blend shapes.
+
+136
+00:18:06,000 --> 00:18:14,000
+You need one blink blend shape for each eye and then you can use the stuff.
+
+137
+00:18:14,000 --> 00:18:16,000
+The subtract limits.
+
+138
+00:18:16,000 --> 00:18:17,000
+Yeah, I have no idea how those work.
+
+139
+00:18:17,000 --> 00:18:19,000
+I'll have to take a look at those.
+
+140
+00:18:19,000 --> 00:18:20,000
+I wonder what those were.
+
+141
+00:18:20,000 --> 00:18:28,000
+I seem to remember as well there was like something in the eye manager that was designed to enable texture based eyes and texture based visemes to work a little bit better.
+
+142
+00:18:28,000 --> 00:18:29,000
+I can't remember what that is.
+
+143
+00:18:29,000 --> 00:18:31,000
+The eye manager is amazing.
+
+144
+00:18:31,000 --> 00:18:33,000
+There's loads of stuff that can be done there.
+
+145
+00:18:33,000 --> 00:18:34,000
+So do take a look at that.
+
+146
+00:18:34,000 --> 00:18:40,000
+I'm going to move on to the next question because I've been talking for a long, long time about that particular question.
+
+147
+00:18:40,000 --> 00:18:44,000
+Hanu says, where do subs and bits money go from the newest Twitch channel?
+
+148
+00:18:44,000 --> 00:18:46,000
+Two bank accounts controlled by Carol.
+
+149
+00:18:46,000 --> 00:18:48,000
+Don't know where they go based on that.
+
+150
+00:18:48,000 --> 00:18:51,000
+So with that, I believe we are done on questions.
+
+151
+00:18:51,000 --> 00:18:56,000
+If you have any other questions, please do let me know and I will get back to you.
+
+152
+00:18:56,000 --> 00:19:02,000
+Mike, that's a good question, which is what's a good way for having multiple languages of text for a world or object?
+
+153
+00:19:02,000 --> 00:19:03,000
+I've seen a bunch of ways to do that.
+
+154
+00:19:03,000 --> 00:19:15,000
+I think the simplest way I've seen to do that is like a value multiplexer where you assign each language that you support an ID and then use a dynamic variable to specify which which language ID that you're using.
+
+155
+00:19:15,000 --> 00:19:24,000
+The end goal for that is for us to open up the translation system that we use for the rest of Nios's locale to you guys for custom locale files.
+
+156
+00:19:24,000 --> 00:19:29,000
+Currently, we're restricted to just one file and we're already seeing the sort of stresses of that.
+
+157
+00:19:29,000 --> 00:19:38,000
+For example, all of the Nios the universe translation strings are in the main locale file and there is no way that that should ever happen.
+
+158
+00:19:38,000 --> 00:19:41,000
+But alas, it has.
+
+159
+00:19:41,000 --> 00:19:50,000
+There's a bunch of stuff in the Japanese community area where they do their best to accommodate Korean and English, which may show you some alternative ways of doing that.
+
+160
+00:19:50,000 --> 00:19:52,000
+That's the way I've done it in the past.
+
+161
+00:19:52,000 --> 00:20:01,000
+I've also actually just sort of like had to pop the locale system because I can do that so that it has those strings in there.
+
+162
+00:20:01,000 --> 00:20:08,000
+Oh, you should also when you're building UI, look through the locale files that we have and see if there's any local strings.
+
+163
+00:20:08,000 --> 00:20:14,000
+You can just steal things like OK, yes, cancel, no, are probably in the locale files.
+
+164
+00:20:14,000 --> 00:20:26,000
+You can just steal those and use our locale system and you'll get however many languages we have that one word like yes or OK will be translated for all of those languages.
+
+165
+00:20:26,000 --> 00:20:29,000
+Big question here from Max who says, I ran into an issue of a user.
+
+166
+00:20:29,000 --> 00:20:34,000
+They had more than five hundred and twelve depth of children object, which prevented them from learning a world.
+
+167
+00:20:34,000 --> 00:20:37,000
+Is there any reason it's why the max depth limit is five twelve?
+
+168
+00:20:37,000 --> 00:20:40,000
+Would you happen to know why I let you save and not load the object?
+
+169
+00:20:40,000 --> 00:20:44,000
+Well, this is an interesting one, and it's caused by lack of standards.
+
+170
+00:20:44,000 --> 00:20:55,000
+So Neos being Indy in air quotes, early access in air quotes, beta in air quotes application that is developed by one person.
+
+171
+00:20:55,000 --> 00:20:57,000
+It doesn't have many standards.
+
+172
+00:20:57,000 --> 00:21:05,000
+So a corporate setting or maybe even like a triple A setting a limit like five twelve.
+
+173
+00:21:05,000 --> 00:21:13,000
+Wherever the hell it is, would have involved like meetings, paperwork and emails, and I'm not saying Neos needs to do that.
+
+174
+00:21:13,000 --> 00:21:17,000
+But the point is, once that limit is decided, it will be standardized everywhere.
+
+175
+00:21:17,000 --> 00:21:22,000
+So a component that a slot depth everywhere in Neos would be five twelve.
+
+176
+00:21:22,000 --> 00:21:25,000
+And it would probably link to.
+
+177
+00:21:25,000 --> 00:21:43,000
+In a roundabout fashion, however you want to do it in C sharp, it would link to the same configuration variable or property or maybe even a death hashtag defined in C sharp, such that it is like mandatedly defined everywhere as a standard.
+
+178
+00:21:43,000 --> 00:21:56,000
+If you want to look that up, it's something called like magic strings or magic numbers in code. It's basically like if you have a number, link it to a variable and then you can document what that variable means.
+
+179
+00:21:56,000 --> 00:22:03,000
+You can also change it, which means that you aren't in the future magically hunting for that one.
+
+180
+00:22:03,000 --> 00:22:07,000
+As a good example here.
+
+181
+00:22:07,000 --> 00:22:11,000
+What was hard coded somewhere recently?
+
+182
+00:22:11,000 --> 00:22:18,000
+Oh, yeah, I was looking at how noise works in Neos, and we use this library called fast noise.
+
+183
+00:22:18,000 --> 00:22:24,000
+And it does this really weird thing where like it's noise like members.
+
+184
+00:22:24,000 --> 00:22:30,000
+So like fields and functions and whatever you want to call them within.
+
+185
+00:22:30,000 --> 00:22:33,000
+Within its library, they.
+
+186
+00:22:33,000 --> 00:22:37,000
+Do this weird thing where they had a return type I didn't recognize, so I'll just post an example here.
+
+187
+00:22:37,000 --> 00:22:40,000
+They have this return type.
+
+188
+00:22:40,000 --> 00:22:50,000
+And I'm like, that's a bit weird. What the hell is FN decimal? And so I looked it up and FN decimal is defined using C sharp defines.
+
+189
+00:22:50,000 --> 00:22:58,000
+Where if you enable the C sharp definition of use doubles, then FN decimal will be a double. Otherwise it will be a single.
+
+190
+00:22:58,000 --> 00:23:09,000
+So that's that standardization, right? It's we're putting this in place and we're using FN decimal because then that means with one click of our build, we can swap between using system double and system single everywhere.
+
+191
+00:23:09,000 --> 00:23:12,000
+In the code base.
+
+192
+00:23:12,000 --> 00:23:16,000
+And it was a tangent into like development. But yeah, that's that.
+
+193
+00:23:16,000 --> 00:23:21,000
+We'd have to probably like overhaul a lot of stuff to like get that standardized.
+
+194
+00:23:21,000 --> 00:23:27,000
+It's probably just like a weird edge case. There's going to be a bunch of them.
+
+195
+00:23:27,000 --> 00:23:39,000
+There was another edge case I found where it's just like, cool, don't know why, but cool. I think it's in the value graph recorder. I've just opened it up.
+
+196
+00:23:39,000 --> 00:23:46,000
+Yeah, here we go. So the value graph recorder, for those who do know, that is what is allows you to, well, that's what I'm saying, right?
+
+197
+00:23:46,000 --> 00:23:53,000
+So in saving, we use a different standard depth limit than in loading.
+
+198
+00:23:53,000 --> 00:23:58,000
+Maybe I'd have to look it up, right? So somewhere in the save routine, there is.
+
+199
+00:23:58,000 --> 00:24:04,000
+A number greater than 512 and then somewhere in the loader 18, there is a number less than 512.
+
+200
+00:24:04,000 --> 00:24:09,000
+I'd have to look into it more, but that's probably what's happened. I've noticed that a couple of times back onto that example.
+
+201
+00:24:09,000 --> 00:24:17,000
+So the value graph recorder basically will record graphs into an array that you can't touch, but it's used for the graph measures.
+
+202
+00:24:17,000 --> 00:24:24,000
+The line waveform measures that exist. And there's a points value on that component.
+
+203
+00:24:24,000 --> 00:24:29,000
+And that is essentially just the size of the array that holds those values for that graph.
+
+204
+00:24:29,000 --> 00:24:35,000
+I usually have about 1000. That's usually good. If you want like really short term daily, you want 250.
+
+205
+00:24:35,000 --> 00:24:41,000
+But I found out the other day, the maximum value for that is 524288.
+
+206
+00:24:41,000 --> 00:24:49,000
+I'm like, cool, is that a binary number? I don't know off the top of my head, but that is the maximum number of values.
+
+207
+00:24:49,000 --> 00:24:56,000
+You could have a value graph recorder. I don't know. There is a comment here which says limit to roughly half a million values.
+
+208
+00:24:56,000 --> 00:25:05,000
+I would say that 524000 is actually over half a million by 24000.
+
+209
+00:25:05,000 --> 00:25:12,000
+But that number was there and it was decided on. I don't know the reason why it was decided on there, which leads into sort of anecdote.
+
+210
+00:25:12,000 --> 00:25:19,000
+Comments in code get a lot of bad reputation because, you know, you get stuff like, I'm typing, sorry.
+
+211
+00:25:19,000 --> 00:25:25,000
+You get people saying like, yeah, there's why we don't do comments on our code, because it's obvious what the code is doing.
+
+212
+00:25:25,000 --> 00:25:29,000
+But what you should do with comments is explain why the code is doing that.
+
+213
+00:25:29,000 --> 00:25:35,000
+So in this case, it's really difficult because signing A to 1 is very difficult to describe.
+
+214
+00:25:35,000 --> 00:25:39,000
+But maybe, you know, A being 1 is very important to the mathematics we're doing.
+
+215
+00:25:39,000 --> 00:25:46,000
+So it's like, we need this to be 1 because of Pythagoras, right?
+
+216
+00:25:46,000 --> 00:25:51,000
+And then like someone coming back through that code when they see that and they're like, hang on a minute, why is A 1?
+
+217
+00:25:51,000 --> 00:25:53,000
+And they're like, oh, because of Pythagoras.
+
+218
+00:25:53,000 --> 00:26:00,000
+Or maybe there's a link to a GitHub issue or some other issue tracking there that's like, this is why, here's the decision, here's the design document.
+
+219
+00:26:00,000 --> 00:26:06,000
+That's good commenting, not just assign the value of 1 to A. It's ridiculous.
+
+220
+00:26:06,000 --> 00:26:11,000
+So I'm seeing more of that in the Neos code base since I've joined, really.
+
+221
+00:26:11,000 --> 00:26:16,000
+I don't know if I'm just sort of like accidentally encouraging that, but I do see a lot there.
+
+222
+00:26:16,000 --> 00:26:19,000
+I also do it to help review sometimes, which is a little bit like a misnomer.
+
+223
+00:26:19,000 --> 00:26:22,000
+You shouldn't do it to help reviews, but sometimes I do.
+
+224
+00:26:22,000 --> 00:26:29,000
+You know, if I think like something is going to be stringently reviewed in a code review, I'll add some extra comments explaining why the hell that's happened.
+
+225
+00:26:29,000 --> 00:26:31,000
+And usually that is a double duty, right?
+
+226
+00:26:31,000 --> 00:26:37,000
+It means the next person coming through that code is just like, oh, that's why that code looks like a piece of crap because of these reasons.
+
+227
+00:26:37,000 --> 00:26:42,000
+But sometimes it's like, it's there just for shouldn't be doing.
+
+228
+00:26:42,000 --> 00:26:44,000
+But there we go.
+
+229
+00:26:44,000 --> 00:26:46,000
+I can look into that one, Lex, if you would like.
+
+230
+00:26:46,000 --> 00:26:51,000
+I'm going to go ahead and find that skirt video in the lull that we have and look into that, but we'll be ending off shortly.
+
+231
+00:26:51,000 --> 00:26:55,000
+So if you guys have any more questions, do let me know, and I'll get to them as soon as I can.
+
+232
+00:26:55,000 --> 00:26:58,000
+I'll go find that VRChat skirt video just shortly.
+
+233
+00:26:58,000 --> 00:27:03,000
+All right. I come back from the land of mute to thank you, your skirt sucks, zero to hero.
+
+234
+00:27:03,000 --> 00:27:11,000
+I haven't watched the video in a long time, so I don't remember it being that sort of brash in its wording.
+
+235
+00:27:11,000 --> 00:27:18,000
+But it takes a common avatar that you saw in VRChat about the time it was uploaded, removes its like 12 skirt bones,
+
+236
+00:27:18,000 --> 00:27:23,000
+and replaces it with three or four skirt bones, and shows you how to weight paint them successfully.
+
+237
+00:27:23,000 --> 00:27:28,000
+It's a really good video for me just saying like, I was learning weight painting can't just be throw bones at the problem.
+
+238
+00:27:28,000 --> 00:27:30,000
+Because that's what I kept doing.
+
+239
+00:27:30,000 --> 00:27:35,000
+And if you look at like AAA games, that's usually what they do because they're controlling the engine to do that.
+
+240
+00:27:35,000 --> 00:27:39,000
+They're like, yes, there is like a chest 22 bone.
+
+241
+00:27:39,000 --> 00:27:43,000
+What the hell does that do?
+
+242
+00:27:43,000 --> 00:27:48,000
+But in a situation like Neos and VRChat, you don't need as many bones.
+
+243
+00:27:48,000 --> 00:27:50,000
+All right. Let's go down.
+
+244
+00:27:50,000 --> 00:27:56,000
+Lex says, why does your main avatar have obfuscated names to the bones and that specific method is on the things to list?
+
+245
+00:27:56,000 --> 00:27:58,000
+Isn't simple avatar production enough?
+
+246
+00:27:58,000 --> 00:28:01,000
+I did that a long time ago, and undoing it is difficult.
+
+247
+00:28:01,000 --> 00:28:03,000
+That is why that exists.
+
+248
+00:28:03,000 --> 00:28:12,000
+There's this like problem with avatars where the longer that your avatar has been in Neos and has been edited, the less stuff makes sense.
+
+249
+00:28:12,000 --> 00:28:19,000
+I think like the other week I found box child child child parented to a random part of my avatar with nothing on it.
+
+250
+00:28:19,000 --> 00:28:23,000
+Not even a box mesh, strangely, which I of course just deleted.
+
+251
+00:28:23,000 --> 00:28:32,000
+But at a certain point I thought it was a good idea to parent box child child child to my avatar for some reason and then save it.
+
+252
+00:28:32,000 --> 00:28:39,000
+I don't know if something was parented to that like a system or something, but it wasn't doing anything then.
+
+253
+00:28:39,000 --> 00:28:41,000
+So you did it.
+
+254
+00:28:41,000 --> 00:28:44,000
+All right, Rob, if you have a final question, do let me know.
+
+255
+00:28:44,000 --> 00:28:53,000
+I will actually I'll go find the Haein avatar.
+
+256
+00:28:53,000 --> 00:29:00,000
+I typed a really bad spelling of it into Google and it came up with a Hyundai car.
+
+257
+00:29:00,000 --> 00:29:06,000
+If anyone knows the avatar I referred to and is able to actually spell it or has it bookmarked, please, please do drop it in the chat.
+
+258
+00:29:06,000 --> 00:29:13,000
+I know some of you got it. I guarantee someone's got it. It's quite a popular avatar.
+
+259
+00:29:13,000 --> 00:29:15,000
+I think I see Arena has probably got it.
+
+260
+00:29:15,000 --> 00:29:17,000
+Yeah, there it is.
+
+261
+00:29:17,000 --> 00:29:22,000
+Here you go. And I'll get the picture I was referring to.
+
+262
+00:29:22,000 --> 00:29:32,000
+So in this outfit here, the jacket doesn't clip with, I don't know, clothing names, the tube top.
+
+263
+00:29:32,000 --> 00:29:40,000
+And the shorts are just really good. And there's like I've never seen any trouble with the shoes.
+
+264
+00:29:40,000 --> 00:29:46,000
+I don't know what to call those either, but I've just seen like nothing like the weight painting is really good on those.
+
+265
+00:29:46,000 --> 00:29:49,000
+You can even kind of see it in that pose, right?
+
+266
+00:29:49,000 --> 00:29:53,000
+The shorts are bending in a way that to me makes sense.
+
+267
+00:29:53,000 --> 00:30:01,000
+Or sometimes when I make clothes and I bend the legs to test, I'm just like, what the hell is happening to those bones?
+
+268
+00:30:01,000 --> 00:30:06,000
+Last question from Rob before we leave off here says are you guys hiring reading artists or any other type of 3D artist?
+
+269
+00:30:06,000 --> 00:30:08,000
+Not currently. I'm not hiring anyone currently.
+
+270
+00:30:08,000 --> 00:30:11,000
+That changes. I hopefully will let you know.
+
+271
+00:30:11,000 --> 00:30:16,000
+I can't promise anything there, depending on how things change and who's doing it.
+
+272
+00:30:16,000 --> 00:30:18,000
+That'll be it for today, though.
+
+273
+00:30:18,000 --> 00:30:20,000
+Lex, I will look into that 512 issue.
+
+274
+00:30:20,000 --> 00:30:25,000
+I guarantee that if I just search the code base for like 512, I'll probably find it.
+
+275
+00:30:25,000 --> 00:30:28,000
+But I'll take a look.
+
+276
+00:30:28,000 --> 00:30:30,000
+And I'll get back to you.
+
+277
+00:30:30,000 --> 00:30:33,000
+Otherwise, thanks for attending.
+
+278
+00:30:33,000 --> 00:30:35,000
+Thanks for your questions.
+
+279
+00:30:35,000 --> 00:31:00,000
+I'll talk to you soon.
+

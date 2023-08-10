@@ -1,0 +1,1752 @@
+1
+0:00:00.000 --> 0:00:04.600
+Okay, welcome to Prime Time, it is 4pm, so we're going to go ahead and get started.
+
+2
+0:00:04.600 --> 0:00:09.120
+Please drop your questions in the Office Hours text channel if you have questions, and I'll
+
+3
+0:00:09.120 --> 0:00:10.920
+get to them as soon as I can.
+
+4
+0:00:10.920 --> 0:00:15.240
+There are no questions waiting, so whilst we're waiting for that, I do want to promote
+
+5
+0:00:15.240 --> 0:00:18.080
+the newly created-from-myself myths page.
+
+6
+0:00:18.080 --> 0:00:22.720
+We're a little bit agitated by just myths in the community.
+
+7
+0:00:22.720 --> 0:00:28.080
+It's kind of natural right now due to the situations at play, but hey, that's a Tico
+
+8
+0:00:28.080 --> 0:00:29.080
+link.
+
+9
+0:00:29.080 --> 0:00:33.160
+It's a natural link, I copied it from my Twitter, that's why it's a Tico link, give me a second,
+
+10
+0:00:33.160 --> 0:00:34.160
+there we go.
+
+11
+0:00:34.160 --> 0:00:35.160
+My myths page.
+
+12
+0:00:35.160 --> 0:00:38.680
+Those of you who drop in, if you have any questions, drop them into the Office Hours
+
+13
+0:00:38.680 --> 0:00:44.800
+text channel, it's two slots above this one in the channel list, I'll just hang out and
+
+14
+0:00:44.800 --> 0:00:47.360
+we'll wait for any questions that make, if at all.
+
+15
+0:00:47.360 --> 0:00:48.360
+Please ask questions.
+
+16
+0:00:48.360 --> 0:00:52.680
+In case we have a question from Drace, which is why are you so amazing, the answer to that
+
+17
+0:00:52.680 --> 0:00:58.960
+one is that is an opinion, which you are welcome to have, there is no way to justify an opinion.
+
+18
+0:00:58.960 --> 0:00:59.960
+It's your opinion.
+
+19
+0:00:59.960 --> 0:01:03.720
+For those new folks dropping in, drop questions in Office Hours and we'll get to them as soon
+
+20
+0:01:03.720 --> 0:01:08.480
+as we can, otherwise just sit back, relax, and listen to the uncomfortable silence that
+
+21
+0:01:08.480 --> 0:01:10.560
+exists in this room when there are no questions.
+
+22
+0:01:10.560 --> 0:01:14.920
+For those dropping in, drop questions in Office Hours, the text channel, it's two slots above
+
+23
+0:01:14.920 --> 0:01:18.280
+this one that you clicked, and we'll get to them as soon as we can, there are still no
+
+24
+0:01:18.280 --> 0:01:19.680
+questions.
+
+25
+0:01:19.680 --> 0:01:23.760
+So the uncomfortable silence will be increased to level 11.
+
+26
+0:01:23.760 --> 0:01:26.920
+We have a good question from SnakeFinnis who asks what is this?
+
+27
+0:01:26.920 --> 0:01:31.240
+So this is the Office Hours or AMA for Primetime, which is myself.
+
+28
+0:01:31.240 --> 0:01:36.160
+I'm in charge of sort of many things, but most importantly documentation and tutorials
+
+29
+0:01:36.160 --> 0:01:40.560
+here at Neos, so if you have questions on those lines, let me know.
+
+30
+0:01:40.560 --> 0:01:45.000
+If you have questions just for the Neos team generally, ask them, I'll be able to sort
+
+31
+0:01:45.000 --> 0:01:48.360
+of either answer them or redirect you to the appropriate place.
+
+32
+0:01:48.360 --> 0:01:51.800
+Whatever you want to ask, you can go ahead and ask, just drop it in the Office Hours
+
+33
+0:01:51.800 --> 0:01:52.800
+channel.
+
+34
+0:01:52.800 --> 0:01:57.200
+That's a good question, says are there any guidelines for formatting Neos Wiki pages?
+
+35
+0:01:57.200 --> 0:01:58.200
+The answer is yes.
+
+36
+0:01:58.200 --> 0:02:03.360
+On the sidebar of the Neos Wiki, there is a button called contributing to the Wiki,
+
+37
+0:02:03.360 --> 0:02:07.280
+which leads to a page which talks about the formatting and guidance for how to contribute
+
+38
+0:02:07.280 --> 0:02:08.280
+to the Wiki.
+
+39
+0:02:08.280 --> 0:02:09.280
+Good.
+
+40
+0:02:09.280 --> 0:02:10.280
+We have some questions.
+
+41
+0:02:10.280 --> 0:02:14.480
+So from Trace, we say how are you doing yourself on this fine day?
+
+42
+0:02:14.480 --> 0:02:15.480
+I'm good.
+
+43
+0:02:15.480 --> 0:02:16.480
+I saw a bird.
+
+44
+0:02:16.480 --> 0:02:18.880
+I thought it was yesterday, but I guess I'm going to talk about it.
+
+45
+0:02:18.880 --> 0:02:25.040
+Yeah, I've got a balcony here in my apartment, and a bird landed on the chair outside here
+
+46
+0:02:25.040 --> 0:02:28.360
+and looked at me grumpily and then ruffled his feathers and flew away.
+
+47
+0:02:28.360 --> 0:02:30.140
+That was cool.
+
+48
+0:02:30.140 --> 0:02:33.000
+So where does the money from Patreon go to?
+
+49
+0:02:33.000 --> 0:02:37.760
+So the money from Patreon goes into an account, and then that account is used to pay for various
+
+50
+0:02:37.760 --> 0:02:38.760
+things.
+
+51
+0:02:38.760 --> 0:02:44.120
+Right now that would be the cloud bill that we have, so we have cloud services.
+
+52
+0:02:44.120 --> 0:02:48.920
+Those do require money, and any other sort of technical stuff like that.
+
+53
+0:02:48.920 --> 0:02:52.160
+So I presume we'd have to renew our domain periodically.
+
+54
+0:02:52.160 --> 0:02:54.000
+So Neos.com is searching needs renewing.
+
+55
+0:02:54.000 --> 0:02:55.000
+That will get paid for.
+
+56
+0:02:55.000 --> 0:02:57.600
+Other than that, I don't actually know.
+
+57
+0:02:57.600 --> 0:02:59.320
+I'd love for us to get to pie chart.
+
+58
+0:02:59.320 --> 0:03:00.320
+Pie chart would be great.
+
+59
+0:03:00.320 --> 0:03:03.060
+It would be like I'm making up these percentages.
+
+60
+0:03:03.060 --> 0:03:04.880
+These are not the correct percentages.
+
+61
+0:03:04.880 --> 0:03:07.320
+I'm just making them up for conversation.
+
+62
+0:03:07.320 --> 0:03:10.960
+Let's say 10% goes to service costs.
+
+63
+0:03:10.960 --> 0:03:16.880
+2% goes to, I don't know, the administrative costs, like whatever domain renewal, I don't
+
+64
+0:03:16.880 --> 0:03:17.880
+know.
+
+65
+0:03:17.880 --> 0:03:18.880
+Just like stuff like that.
+
+66
+0:03:18.880 --> 0:03:25.320
+It would be like two thirds goes to salaries or whatever, and it would be like 1% goes
+
+67
+0:03:25.320 --> 0:03:26.320
+to cheese.
+
+68
+0:03:26.320 --> 0:03:29.800
+You know, like a pie chart that shows exactly where the money was going would be like amazing.
+
+69
+0:03:29.800 --> 0:03:33.680
+You'd be able to apply that pie chart to your individual contribution.
+
+70
+0:03:33.680 --> 0:03:37.320
+Let's say, for example, you contributed $100 a month, then you'd be able to do that quite
+
+71
+0:03:37.320 --> 0:03:38.320
+easily.
+
+72
+0:03:38.320 --> 0:03:43.120
+You'd be able to be like, ah, 1%, that's $1, goes towards prime's cheese collection.
+
+73
+0:03:43.120 --> 0:03:47.400
+You'd be able to be like, yep, $1 of my money goes to prime's cheese collection, and you'd
+
+74
+0:03:47.400 --> 0:03:48.400
+be beautiful.
+
+75
+0:03:48.400 --> 0:03:50.480
+So hopefully maybe that in the future.
+
+76
+0:03:50.480 --> 0:03:55.640
+We'd probably sort of extrapolate those out over a year as well, which sometimes isn't
+
+77
+0:03:55.640 --> 0:03:56.640
+done.
+
+78
+0:03:56.640 --> 0:03:58.760
+Sometimes you'll see pie charts which are just like the month.
+
+79
+0:03:58.760 --> 0:04:01.740
+That means what you get is like spikes and randomness.
+
+80
+0:04:01.740 --> 0:04:05.320
+Whereas if you take those yearly expenses, break them down monthly, then you can get
+
+81
+0:04:05.320 --> 0:04:06.960
+like a pie chart that's a lot more stable.
+
+82
+0:04:06.960 --> 0:04:08.840
+So Daffy has a question.
+
+83
+0:04:08.840 --> 0:04:13.880
+For people who might want to start making things utilizing resources outside of Neos
+
+84
+0:04:13.880 --> 0:04:20.600
+to contribute to it, has anybody thought of developing a workflow tutorials to help generate
+
+85
+0:04:20.600 --> 0:04:26.800
+assets or encourage user-created content inside of Neos, i.e., a blend of the substance to
+
+86
+0:04:26.800 --> 0:04:27.800
+an important game?
+
+87
+0:04:27.800 --> 0:04:28.800
+Not that I'm aware of.
+
+88
+0:04:28.800 --> 0:04:31.840
+It's certainly like an avenue that people can certainly go into.
+
+89
+0:04:31.840 --> 0:04:37.080
+I know that we've got a couple of sort of pin resources around for things like what
+
+90
+0:04:37.080 --> 0:04:40.720
+substance painter workflow to use, what materials, what textures to use.
+
+91
+0:04:40.720 --> 0:04:44.480
+We've also got Wiki pages starting to appear, like the humanoid requirements I completely
+
+92
+0:04:44.480 --> 0:04:46.560
+rewrote because it was driving me mad.
+
+93
+0:04:46.560 --> 0:04:48.480
+We constantly get queries about that.
+
+94
+0:04:48.480 --> 0:04:55.360
+They're like, my hip bone is called orangutan, and Neos isn't recognizing it as an avatar.
+
+95
+0:04:55.360 --> 0:04:56.880
+Like, it should be fixed.
+
+96
+0:04:56.880 --> 0:04:58.920
+I'm like, no, it shouldn't.
+
+97
+0:04:58.920 --> 0:05:00.840
+Don't name your hip bone orangutan.
+
+98
+0:05:00.840 --> 0:05:07.440
+Name it hip, or hips, or hips, lowercase, or hip, lowercase, fine, it'll pick it up.
+
+99
+0:05:07.440 --> 0:05:09.400
+If it's a hip bone, it should be named hips.
+
+100
+0:05:09.400 --> 0:05:11.480
+But yeah, certainly like modeling and stuff like that.
+
+101
+0:05:11.480 --> 0:05:16.400
+We often get feedback on our PBS, like, metallic maps that people find confusing, which is
+
+102
+0:05:16.400 --> 0:05:21.920
+confusing to me because it's the standard Unity material map, so I don't really know
+
+103
+0:05:21.920 --> 0:05:22.920
+what's going on there.
+
+104
+0:05:22.920 --> 0:05:24.440
+Maybe it's an unreal thing, who knows?
+
+105
+0:05:24.440 --> 0:05:26.840
+As always, just make tutorials.
+
+106
+0:05:26.840 --> 0:05:29.640
+Make them, share them, people will watch them.
+
+107
+0:05:29.640 --> 0:05:33.880
+If I was confident in my 3D modeling ability enough to make a functional avatar, we're
+
+108
+0:05:33.880 --> 0:05:38.480
+talking just like a blob person, you know, like, tubes for legs, et cetera, I would do
+
+109
+0:05:38.480 --> 0:05:39.480
+the entire process.
+
+110
+0:05:39.480 --> 0:05:45.600
+I'd be like, all right, day one, wake one, open blender, make the tube man, export to
+
+111
+0:05:45.600 --> 0:05:49.900
+FBX, import, put the head where the head is, the hand where the hand is, look, I'm using
+
+112
+0:05:49.900 --> 0:05:52.680
+them, just to sort of show it isn't hard.
+
+113
+0:05:52.680 --> 0:05:54.920
+The hard part should just be in the creativity.
+
+114
+0:05:54.920 --> 0:05:58.720
+It shouldn't be in the technicalities, it should always be the same.
+
+115
+0:05:58.720 --> 0:06:01.840
+Yeah, the skin modifier, yep, that would be, you know, perfect.
+
+116
+0:06:01.840 --> 0:06:06.640
+There's a variation there, like the one on the bottom right, sort of reminiscent of sort
+
+117
+0:06:06.640 --> 0:06:09.080
+of Incredibles or Minions styling.
+
+118
+0:06:09.080 --> 0:06:13.720
+You make like an armature, and then you do the skin modifier on it.
+
+119
+0:06:13.720 --> 0:06:15.040
+You do the armature like just lines.
+
+120
+0:06:15.040 --> 0:06:18.760
+When I say armature, I don't mean blending armature, I mean like how you do an armature
+
+121
+0:06:18.760 --> 0:06:24.380
+if you're sculpting IRL, you take wire, sometimes metal coat hangers, you bend it into the shape
+
+122
+0:06:24.380 --> 0:06:27.580
+of the body, then you throw clay on it, and that's exactly what the skin modifier does.
+
+123
+0:06:27.580 --> 0:06:32.160
+You make the bent coat hanger, and then you throw the skin modifier on it, and you get
+
+124
+0:06:32.160 --> 0:06:33.160
+clay.
+
+125
+0:06:33.160 --> 0:06:37.600
+Duff asks, have you seen other user workflows utilizing resources outside of blended substance?
+
+126
+0:06:37.600 --> 0:06:40.120
+If so, what would alternative programs be?
+
+127
+0:06:40.120 --> 0:06:46.520
+People do still use the other 3D modelers, Maya, and then like other more obscure ones.
+
+128
+0:06:46.520 --> 0:06:49.000
+Maya and Blender are usually the two that people use these days.
+
+129
+0:06:49.000 --> 0:06:52.880
+I've also seen a lot of people that use ZBrush for sculpting.
+
+130
+0:06:52.880 --> 0:06:54.880
+That's totally fine, too.
+
+131
+0:06:54.880 --> 0:07:00.960
+ZBrush, ZBrush, American, UK pronunciations.
+
+132
+0:07:00.960 --> 0:07:01.960
+Fusion comes up as well.
+
+133
+0:07:01.960 --> 0:07:04.920
+I forgot, like when it comes to hard service modeling, some people use like fusion stuff
+
+134
+0:07:04.920 --> 0:07:09.080
+like that, SketchUp, that one for like architectural modeling.
+
+135
+0:07:09.080 --> 0:07:13.600
+There's one particular user who was using the hammer editor to make their map for everyone
+
+136
+0:07:13.600 --> 0:07:14.600
+to see.
+
+137
+0:07:14.600 --> 0:07:15.600
+That was fun as well.
+
+138
+0:07:15.600 --> 0:07:20.480
+But yeah, it's basically like the assets there are very similar to the ones that you would
+
+139
+0:07:20.480 --> 0:07:22.800
+use for any game, really.
+
+140
+0:07:22.800 --> 0:07:27.160
+I wouldn't like discourage or discount, is probably a better wording there, the use of
+
+141
+0:07:27.160 --> 0:07:29.920
+anything like Photoshop, GIMP, Paint.net, anything like that.
+
+142
+0:07:29.920 --> 0:07:33.760
+You just sometimes like, a good example here being like you download an avatar base and
+
+143
+0:07:33.760 --> 0:07:38.520
+it has brown eyes and you want blue eyes, Photoshop or whatever can fix that for you.
+
+144
+0:07:38.520 --> 0:07:39.860
+There's no need to open Blender.
+
+145
+0:07:39.860 --> 0:07:41.580
+There's no need to open Substance Painter.
+
+146
+0:07:41.580 --> 0:07:44.400
+There's no real need to even understand how the avatar works, right?
+
+147
+0:07:44.400 --> 0:07:47.940
+You just open up the texture file and you're like, there are the eyes, I'll make them blue.
+
+148
+0:07:47.940 --> 0:07:49.040
+And then you make them blue.
+
+149
+0:07:49.040 --> 0:07:53.680
+I'm sort of interested, but not really because the Windows UI is unfortunately, it wasn't
+
+150
+0:07:53.680 --> 0:07:54.880
+good the last time I looked at it.
+
+151
+0:07:54.880 --> 0:07:56.960
+It might be good now.
+
+152
+0:07:56.960 --> 0:08:02.240
+There's this program called Dust, Dust 3D, which is a completely different way of modeling
+
+153
+0:08:02.240 --> 0:08:05.320
+than you have seen.
+
+154
+0:08:05.320 --> 0:08:13.120
+It's like hard to explain, but you have to get a side and front photo of the same object
+
+155
+0:08:13.120 --> 0:08:15.560
+and then you can kind of just like model it.
+
+156
+0:08:15.560 --> 0:08:18.320
+Oh, that's going to be the recording there, I just started a YouTube video.
+
+157
+0:08:18.320 --> 0:08:21.600
+If you hear piano music on the recording of this, just ignore it.
+
+158
+0:08:21.600 --> 0:08:28.880
+But yeah, if you look at this video here, they model a dog and it isn't in any way that
+
+159
+0:08:28.880 --> 0:08:31.800
+you would imagine that you would model a dog.
+
+160
+0:08:31.800 --> 0:08:34.240
+They'd never edit vertices at all.
+
+161
+0:08:34.240 --> 0:08:36.640
+It might look like they do, but they never do.
+
+162
+0:08:36.640 --> 0:08:39.720
+For maps and worlds like that, I have a lessons to World Machine.
+
+163
+0:08:39.720 --> 0:08:40.720
+I haven't used it.
+
+164
+0:08:40.720 --> 0:08:44.000
+World Machine usually makes worlds which are too big for Nius.
+
+165
+0:08:44.000 --> 0:08:46.420
+There is another one that generates terrain.
+
+166
+0:08:46.420 --> 0:08:49.240
+Just do that easily with Blender and Photoshop as well.
+
+167
+0:08:49.240 --> 0:08:50.240
+You just make terrain.
+
+168
+0:08:50.240 --> 0:08:51.240
+It's easy.
+
+169
+0:08:51.240 --> 0:08:53.440
+It's just like a grayscale height map.
+
+170
+0:08:53.440 --> 0:08:57.920
+Maps and worlds, just sometimes like paper will actually help there.
+
+171
+0:08:57.920 --> 0:08:59.080
+Just throw stuff around.
+
+172
+0:08:59.080 --> 0:09:06.080
+I did see a video yesterday of the PS5 game or PlayStation game called Dreams, where you
+
+173
+0:09:06.080 --> 0:09:08.120
+can...
+
+174
+0:09:08.120 --> 0:09:14.240
+It's very much sort of like more simplified than Nius, of course, but very much more user-friendly
+
+175
+0:09:14.240 --> 0:09:17.720
+where you can just sort of throw around stuff and people are like making art there or making
+
+176
+0:09:17.720 --> 0:09:21.240
+scenes there that allow them to just explore what they're doing.
+
+177
+0:09:21.240 --> 0:09:24.720
+I know a lot of people use that for sort of sharing ideas and then they'll go ahead and
+
+178
+0:09:24.720 --> 0:09:26.640
+build it once they know what the ideas look like.
+
+179
+0:09:26.640 --> 0:09:28.960
+Moving on to other questions there.
+
+180
+0:09:28.960 --> 0:09:32.760
+Let's ask what happens to the games' office hours.
+
+181
+0:09:32.760 --> 0:09:33.760
+I don't know.
+
+182
+0:09:33.760 --> 0:09:34.760
+I've asked them a few times.
+
+183
+0:09:34.760 --> 0:09:41.800
+I moved their office hours to like temporarily suspended along with Chroma's.
+
+184
+0:09:41.800 --> 0:09:45.880
+I would presume you would have to ask them if you want more information about that.
+
+185
+0:09:45.880 --> 0:09:48.640
+Russia asks, is there anything you've been wanting to cover in a tutorial but haven't
+
+186
+0:09:48.640 --> 0:09:51.960
+got around to or would like to see more tutorials on?
+
+187
+0:09:51.960 --> 0:09:56.960
+I have a huge list I just haven't got around to, so I'll just skip that one with everything
+
+188
+0:09:56.960 --> 0:09:59.400
+jazz hands.
+
+189
+0:09:59.400 --> 0:10:02.800
+I would like to see more tutorials on basically anything.
+
+190
+0:10:02.800 --> 0:10:05.400
+Sometimes people are like, oh, I won't make tutorials because Prime makes them.
+
+191
+0:10:05.400 --> 0:10:06.400
+You go ahead and make them.
+
+192
+0:10:06.400 --> 0:10:07.920
+Go ahead and make them.
+
+193
+0:10:07.920 --> 0:10:11.360
+Basement Nerds Logix tutorial isn't like my style.
+
+194
+0:10:11.360 --> 0:10:12.920
+It's made completely differently.
+
+195
+0:10:12.920 --> 0:10:17.760
+I myself wouldn't find it effective to learn Logix, but some people do and they find it
+
+196
+0:10:17.760 --> 0:10:19.240
+helpful and that's great.
+
+197
+0:10:19.240 --> 0:10:22.360
+That really just highlights that everyone learns differently and has a different approach
+
+198
+0:10:22.360 --> 0:10:25.260
+to both learning and teaching.
+
+199
+0:10:25.260 --> 0:10:26.480
+So go for it.
+
+200
+0:10:26.480 --> 0:10:27.480
+Like make tutorials.
+
+201
+0:10:27.480 --> 0:10:31.520
+If there were like, I don't know, 50 tutorials for learning Logix out there, then there is
+
+202
+0:10:31.520 --> 0:10:35.120
+a greater chance that one would fit a particular user.
+
+203
+0:10:35.120 --> 0:10:40.280
+Additionally, there is this abbreviation called FAST or FASTER if you want to be more modern
+
+204
+0:10:40.280 --> 0:10:45.600
+in the sort of lingo for it, which is about learning things.
+
+205
+0:10:45.600 --> 0:10:50.840
+There's a blog article about it, learning and I think FASTER, and it just has an abbreviation
+
+206
+0:10:50.840 --> 0:10:53.840
+and I think the T is like teach.
+
+207
+0:10:53.840 --> 0:10:56.120
+Yeah, the T is teach.
+
+208
+0:10:56.120 --> 0:10:59.560
+So there's a way of like, there's also like a pyramid of learning, I never remember what
+
+209
+0:10:59.560 --> 0:11:00.560
+it's called.
+
+210
+0:11:00.560 --> 0:11:01.560
+Yeah, here it is.
+
+211
+0:11:01.560 --> 0:11:07.200
+I don't know if this is like the exact one, but it promotes the different types of learning
+
+212
+0:11:07.200 --> 0:11:16.920
+and it shows here that like lectures, audiovisual stuff is 20% retained and then doing it, which
+
+213
+0:11:16.920 --> 0:11:22.960
+is the sort of lower half of that pyramid, is 30, 50%, 75% and then teaching others right
+
+214
+0:11:22.960 --> 0:11:23.960
+at the bottom, 90%.
+
+215
+0:11:23.960 --> 0:11:31.080
+I was talking to Fruchs a while ago and there is a study that was portrayed in I think it
+
+216
+0:11:31.080 --> 0:11:32.800
+was a European country.
+
+217
+0:11:32.800 --> 0:11:36.520
+He recommended a book about it, but I forgot the name of the book, where they created a
+
+218
+0:11:36.520 --> 0:11:40.200
+new type of school and in this type of school there was no real structure to it.
+
+219
+0:11:40.200 --> 0:11:43.820
+People were just like free to learn whatever and I didn't understand it, I was like what
+
+220
+0:11:43.820 --> 0:11:44.880
+do you mean?
+
+221
+0:11:44.880 --> 0:11:51.440
+What happened was they mixed the age groups of the students, just sort of freeform really,
+
+222
+0:11:51.440 --> 0:11:53.080
+and they taught each other mostly.
+
+223
+0:11:53.080 --> 0:11:57.720
+So there might be like in the school like a reading room or a reading corner of a room
+
+224
+0:11:57.720 --> 0:12:02.480
+and there might be an older student there reading a more complex book and it'll be a
+
+225
+0:12:02.480 --> 0:12:06.680
+cool story and so a younger student would go over there and sit down and be like sounds
+
+226
+0:12:06.680 --> 0:12:11.160
+cool read me the story and then they would read the story to them and then maybe they
+
+227
+0:12:11.160 --> 0:12:14.920
+might go I want to know what happens next can you teach me how to read a book at this
+
+228
+0:12:14.920 --> 0:12:19.480
+level and then boom you've got an older student learning to read by teaching a younger student
+
+229
+0:12:19.480 --> 0:12:23.520
+how to read who's learning how to read and then that just happened everywhere you know
+
+230
+0:12:23.520 --> 0:12:28.160
+maybe the kid likes dinosaurs so he goes over to like a freeform library and goes cool pulls
+
+231
+0:12:28.160 --> 0:12:32.060
+a book on dinosaurs can't read it but can look at the pictures looks at the pictures
+
+232
+0:12:32.060 --> 0:12:35.040
+shows the pictures to his classmates and they're like cool we would like to learn how to read
+
+233
+0:12:35.040 --> 0:12:39.120
+this dinosaur book over to an older student all sorts of stuff like that that's probably
+
+234
+0:12:39.120 --> 0:12:44.680
+the name ng says it's a Sudbury school probably I need to read the book to understand more
+
+235
+0:12:44.680 --> 0:12:49.000
+about how that works because I've got sort of questions about sort of base skills I don't
+
+236
+0:12:49.000 --> 0:12:53.440
+think would be taught effectively there like let's say a kid goes into that environment
+
+237
+0:12:53.440 --> 0:12:58.240
+and they want to make a game cool like they'll need to learn some maths there but I believe
+
+238
+0:12:58.240 --> 0:13:02.800
+there's probably a path through that school where they don't learn more traditionalized
+
+239
+0:13:02.800 --> 0:13:08.240
+stuff but part of the argument behind that type of schooling is do they need to and that
+
+240
+0:13:08.240 --> 0:13:13.720
+goes against the sort of whole like up and arm stand on your soapbox land of standardized
+
+241
+0:13:13.720 --> 0:13:18.640
+testing is bad which generally I agree on but like I'm I'm biased because I've been
+
+242
+0:13:18.640 --> 0:13:23.940
+through education so like whatever it's a good thought experiment the point there being
+
+243
+0:13:23.940 --> 0:13:28.120
+though is that you'll learn better by teaching people and you'll learn better by interacting
+
+244
+0:13:28.120 --> 0:13:34.640
+with people whilst you are teaching and also by just doing and making tutorials is a fantastic
+
+245
+0:13:34.640 --> 0:13:41.360
+example of that so try that just googled to ng use Sudbury school and yes there is a wiki
+
+246
+0:13:41.360 --> 0:13:46.280
+learning and teaching people also comes up with like new new scenarios new things that
+
+247
+0:13:46.280 --> 0:13:54.000
+you might not have you know wanted to know how to do so with my work with Hamish University
+
+248
+0:13:54.000 --> 0:13:57.740
+of Sydney and now whatever university they're working with there's just like crazy stuff
+
+249
+0:13:57.740 --> 0:14:01.840
+that comes up that just doesn't make any sense but you're like cool like it's time we came
+
+250
+0:14:01.840 --> 0:14:06.640
+to me and he's like hey I need to calculate the angular velocity of your eyeball just
+
+251
+0:14:06.640 --> 0:14:13.080
+like okay okay sure we can do that we can calculate the angular velocity of an eyeball
+
+252
+0:14:13.080 --> 0:14:19.000
+and so we used the eye tracking data to figure that out it's useful I can't remember exactly
+
+253
+0:14:19.000 --> 0:14:22.340
+how that's one of the problems you're like okay I'll do this crazy thing but like why
+
+254
+0:14:22.340 --> 0:14:26.960
+are we doing it and you kind of forget sometimes it is something to do with the stuff there
+
+255
+0:14:26.960 --> 0:14:33.400
+their phd was on which is a test that involves eye movement to head movement synchronization
+
+256
+0:14:33.400 --> 0:14:38.420
+which can diagnose vestibular issues vestibular issues is the sort of organ and system that's
+
+257
+0:14:38.420 --> 0:14:43.120
+in the middle ear that drives your balance and when it's broken you can do what's called
+
+258
+0:14:43.120 --> 0:14:49.760
+a hit test which sort of figures out if there is a problem there you do that by measuring
+
+259
+0:14:49.760 --> 0:14:54.600
+the eye movement in relation to a head movement after you rapidly jerk their head towards
+
+260
+0:14:54.600 --> 0:14:58.820
+one direction almost like you're kind of breaking their neck in a sort of cinemagraphic way
+
+261
+0:14:58.820 --> 0:15:02.000
+like you might see in a movie but not actually breaking their neck of course because that
+
+262
+0:15:02.000 --> 0:15:08.240
+would never go through like ethics so doing that in in game is what we were trying by
+
+263
+0:15:08.240 --> 0:15:12.800
+measuring the velocity of the eyeball moving on to the next question here lazy hat guys
+
+264
+0:15:12.800 --> 0:15:16.640
+is any atas on the next major update to nears no I don't have any atas we don't usually
+
+265
+0:15:16.640 --> 0:15:19.360
+provide them I would love to provide them in the future we just can't provide them right
+
+266
+0:15:19.360 --> 0:15:27.600
+now check the roadmap check our discord announcements channel and check our steam update feed I
+
+267
+0:15:27.600 --> 0:15:33.680
+guess and it'll come eventually there is one sub preschool in the entirety of the UK okay
+
+268
+0:15:33.680 --> 0:15:38.280
+well I had zero chance of going to that then where is it oh it's in Margate I know Margate
+
+269
+0:15:38.280 --> 0:15:42.680
+Margate's a coastal town I'd usually go there to go to the beach that's a good good good
+
+270
+0:15:42.680 --> 0:15:48.560
+good question from crusher here so crusher says how would you go about starting large
+
+271
+0:15:48.560 --> 0:15:56.360
+projects nears or elsewhere I am traditionally now I don't really want to be but hey careers
+
+272
+0:15:56.360 --> 0:16:03.200
+are fun I am actually a product manager right now and so I am very educated in this area
+
+273
+0:16:03.200 --> 0:16:07.920
+but there are parallels where you can sort of scheme off the top is what I'm saying if
+
+274
+0:16:07.920 --> 0:16:13.000
+you go deep into project management you're wasting your time planning and communication
+
+275
+0:16:13.000 --> 0:16:20.360
+is so important I would love if we just had in the education science channel we just had
+
+276
+0:16:20.360 --> 0:16:25.240
+a sort of recording from a couple of people from the MC 2022 where they talked about sort
+
+277
+0:16:25.240 --> 0:16:29.900
+of how they built things I would love to get that from a particular group I'd like to see
+
+278
+0:16:29.900 --> 0:16:38.200
+it from the credit canyon group and in particular from their last year's entry the same group
+
+279
+0:16:38.200 --> 0:16:44.960
+did the abandonware last year and I know abandonware that we had just forgotten their name for
+
+280
+0:16:44.960 --> 0:16:49.640
+no reason com dog com dog was just like running around managing the project and making sure
+
+281
+0:16:49.640 --> 0:16:52.800
+everyone did stuff and that's because they knew what they wanted to do and they did it
+
+282
+0:16:52.800 --> 0:16:55.960
+I've seen a lot of people that just like you know you go into nears and you're like cool
+
+283
+0:16:55.960 --> 0:17:00.520
+I can throw this around I can throw it everywhere I can do whatever I want but then they never
+
+284
+0:17:00.520 --> 0:17:04.680
+finish it because they don't really have a plan they don't know what they're doing I
+
+285
+0:17:04.680 --> 0:17:08.760
+also get sort of comments about sort of oh I don't use dynamic variables I don't use
+
+286
+0:17:08.760 --> 0:17:12.920
+dynamic impulses because I can never remember what I've called them and the answer there
+
+287
+0:17:12.920 --> 0:17:18.080
+is like well plan and document your project then if you are making a shooter in nears
+
+288
+0:17:18.080 --> 0:17:23.220
+and you're using dynamic variables for that shooter write a text document in notepad which
+
+289
+0:17:23.220 --> 0:17:28.120
+lists the dynamic variable player health or player ammo or whatever you want to use save
+
+290
+0:17:28.120 --> 0:17:32.960
+it in there's a dot text bring it into the world save it to the world till it's complete
+
+291
+0:17:32.960 --> 0:17:38.240
+and then everyone in that world can just float over to that text document and be like oh
+
+292
+0:17:38.240 --> 0:17:42.800
+yeah it's player health I can use that great but if you don't do that then it's gonna lead
+
+293
+0:17:42.800 --> 0:17:46.080
+to problems particularly if you have multiple people working on the project you need to
+
+294
+0:17:46.080 --> 0:17:49.640
+know what you need to do I don't want you to stop and do the whole sort of like let's
+
+295
+0:17:49.640 --> 0:17:54.400
+plan for three months and then not do anything but just like stopping and realizing that
+
+296
+0:17:54.400 --> 0:17:59.800
+you need to converse or talk about things will get you a long way there I highly do
+
+297
+0:17:59.800 --> 0:18:06.520
+not recommend scrum but like there's about 15,000 methodologies scrum I've never seen
+
+298
+0:18:06.520 --> 0:18:14.640
+done correctly though I am a certified scrum master but I don't put that on my resume anywhere
+
+299
+0:18:14.640 --> 0:18:19.760
+it's just a word I'd like to show you an amazing document from the Department of Defense this
+
+300
+0:18:19.760 --> 0:18:26.240
+is the United States Department of Defense and it's called spotting agile bullshit or
+
+301
+0:18:26.240 --> 0:18:30.520
+something along those lines it's a really scary link because it's like literally the
+
+302
+0:18:30.520 --> 0:18:36.840
+Department of Defense but I promise you it's fine it's just a PDF detecting agile BS it's
+
+303
+0:18:36.840 --> 0:18:42.640
+great and they talk about how like it's a buzzword they talk about everything and then
+
+304
+0:18:42.640 --> 0:18:47.060
+they go all the way down to the bottom and there's like a great graphic on page five
+
+305
+0:18:47.060 --> 0:18:53.240
+page five is like more suited to larger more long-term projects rather than you know say
+
+306
+0:18:53.240 --> 0:18:59.880
+for example a month-long project for the MMC or you know a smaller NEOS project the graphical
+
+307
+0:18:59.880 --> 0:19:05.520
+version on page five would be great for looking and modeling for example NEOS itself or modeling
+
+308
+0:19:05.520 --> 0:19:10.640
+any other VR platform itself it's like one of the things on the graphical things is our
+
+309
+0:19:10.640 --> 0:19:16.400
+teams delivering working software to real users every iteration and gathering feedback
+
+310
+0:19:16.400 --> 0:19:22.480
+yes then it's actually agile otherwise no it's it's not and we were doing that I mean
+
+311
+0:19:22.480 --> 0:19:26.320
+I'm just sort of skip over what's going on right now in the announcements channel etc
+
+312
+0:19:26.320 --> 0:19:30.920
+we were doing that right we were like updates came in we might not necessarily be able to
+
+313
+0:19:30.920 --> 0:19:35.400
+work on exactly what you guys wanted us to work on but like it was someone would be like
+
+314
+0:19:35.400 --> 0:19:39.320
+I'm having trouble doing this and freaks ago here's a new logics note and you get it so
+
+315
+0:19:39.320 --> 0:19:48.200
+cool so just think of that and think of stuff like that back at university we had to do
+
+316
+0:19:48.200 --> 0:19:52.560
+a final project which is worth like I don't know like 60% of my degree and I nailed it
+
+317
+0:19:52.560 --> 0:19:56.900
+I was amazing at it and the project methodology I used for there was fake it till you make
+
+318
+0:19:56.900 --> 0:20:05.400
+it but I had to do like 14 pages of a like a paper etc on evaluating the different methodologies
+
+319
+0:20:05.400 --> 0:20:10.480
+and scrum like hit the bottom of the list for some reason so moving on because we're
+
+320
+0:20:10.480 --> 0:20:20.880
+running long time mr. Angie asked if we had any exciting things so this is this is for
+
+321
+0:20:20.880 --> 0:20:26.880
+use in jaw reconstructive surgery where if we are reconstructing someone's jaw we can
+
+322
+0:20:26.880 --> 0:20:31.080
+actually use the leg bone I don't know why it's decided that we you know there's there's
+
+323
+0:20:31.080 --> 0:20:35.040
+many bones between the leg and the jaw but apparently the leg bone is the more suit most
+
+324
+0:20:35.040 --> 0:20:41.240
+suitable bone and what the doctors want to say is what like section of bone can they
+
+325
+0:20:41.240 --> 0:20:47.120
+cut and then what would that do to the jaw so there's a little rig where we're slicing
+
+326
+0:20:47.120 --> 0:20:50.840
+the leg bone twice we're using a larger model for slicing it and that would then be placed
+
+327
+0:20:50.840 --> 0:20:55.840
+near the jaw but then we're also reflecting that slicing on the actual leg bone so they
+
+328
+0:20:55.840 --> 0:21:00.780
+can check that they haven't taken too much leg bone because the user ideally still needs
+
+329
+0:21:00.780 --> 0:21:06.000
+to be able to although usually they are in crutches or have reduced mobility but they
+
+330
+0:21:06.000 --> 0:21:10.080
+have a jaw again that's kind of more important sometimes so let's hop through the rest of
+
+331
+0:21:10.080 --> 0:21:15.440
+the questions trace asks when creating a world near say a project that is going to be a game
+
+332
+0:21:15.440 --> 0:21:18.780
+world that is publicly playable how far can you go into the terms of using ripped assets
+
+333
+0:21:18.780 --> 0:21:22.540
+or sound from other games or movies before it dips into the toes of legal valley please
+
+334
+0:21:22.540 --> 0:21:29.040
+read our terms of use and our guidelines before you do that there is the concept of fair use
+
+335
+0:21:29.040 --> 0:21:33.720
+facebook fair use is often misunderstood for an appropriate terminology or look at that
+
+336
+0:21:33.720 --> 0:21:39.240
+you would need to contact a lawyer i would advise just not using ripped assets at all
+
+337
+0:21:39.240 --> 0:21:42.720
+because then you don't need to contact a lawyer and lawyers are expensive if you would like
+
+338
+0:21:42.720 --> 0:21:47.120
+to use ripped assets you are stealing stuff unless you can justify it under free use fair
+
+339
+0:21:47.120 --> 0:21:53.280
+use so check our guidelines check the terms of service read up on fair use contact a lawyer
+
+340
+0:21:53.280 --> 0:21:57.600
+if they say you can use it you can use it and if they say you can't you can't or just
+
+341
+0:21:57.600 --> 0:22:02.160
+avoid all that complexity and just don't use ripped assets it's very simple so ng is i'm
+
+342
+0:22:02.160 --> 0:22:08.640
+asking um what methods i've seen that work uh work with a similar philosophy um to be
+
+343
+0:22:08.640 --> 0:22:15.760
+honest i've never seen any development methodology it's scrum fdd which is feature-driven development
+
+344
+0:22:15.760 --> 0:22:20.080
+traditional agile traditional waterfall all the others that have various names i've forgotten
+
+345
+0:22:20.080 --> 0:22:24.140
+now i've never seen any of them work and the reason is that like you need to build your
+
+346
+0:22:24.140 --> 0:22:29.040
+own and you need to build your own from the community of people i say community because
+
+347
+0:22:29.040 --> 0:22:32.760
+like when you'll get a large enough team it's less a team it's more like a community of
+
+348
+0:22:32.760 --> 0:22:37.640
+people and seeing what they want to do a good example there is things like story points
+
+349
+0:22:37.640 --> 0:22:42.940
+where um i have frequent arguments at work about if story points are days and the answer
+
+350
+0:22:42.940 --> 0:22:47.240
+is no story points are not days story points are a measure of difficulty and then you can
+
+351
+0:22:47.240 --> 0:22:51.600
+track story points based on how many you can complete during iteration i need you to find
+
+352
+0:22:51.600 --> 0:22:54.400
+some terms here we're running over but i'm going to do it because it's a good interesting
+
+353
+0:22:54.400 --> 0:23:01.140
+conversation um if you are planning the next two weeks of a a team uh you know software
+
+354
+0:23:01.140 --> 0:23:04.800
+development team you would call that an iteration sometimes a sprint doesn't really matter i
+
+355
+0:23:04.800 --> 0:23:09.120
+never call them sprints because sprints implies moving fast and that's bad um well moving
+
+356
+0:23:09.120 --> 0:23:14.560
+fast is good but like moving fast sprinting means like over exertion that's why i don't
+
+357
+0:23:14.560 --> 0:23:19.040
+use it and so what you're trying to do is plan how much work can we do over the next
+
+358
+0:23:19.040 --> 0:23:23.160
+iteration how much work can we do over the next two weeks and it used to be historically
+
+359
+0:23:23.160 --> 0:23:27.500
+that that would be defined way ahead of time in project planning which occurred before
+
+360
+0:23:27.500 --> 0:23:31.840
+anyone picked up their pencils and started making stuff but now it's planned sort of
+
+361
+0:23:31.840 --> 0:23:38.000
+as you go and you might say hey i think we can do two of these really big things for
+
+362
+0:23:38.000 --> 0:23:41.840
+the next iteration but then you kind of get fuzzy on that it's like well how big are they
+
+363
+0:23:41.840 --> 0:23:44.720
+how much are they going to take and so you try and estimate how long they're going to
+
+364
+0:23:44.720 --> 0:23:48.120
+take and then there are schools of thought about estimating in days you're like oh well
+
+365
+0:23:48.120 --> 0:23:51.840
+this would take five days and this would take five days and you're like boom that's an entire
+
+366
+0:23:51.840 --> 0:23:57.200
+iteration of work two weeks was 14 days four days for sort of wiggle room cool you've managed
+
+367
+0:23:57.200 --> 0:24:04.840
+to schedule two features but days are not useful um if you're using the story points
+
+368
+0:24:04.840 --> 0:24:10.440
+a story in agile development is kind of like a unit of work which benefits the user it's
+
+369
+0:24:10.440 --> 0:24:15.040
+hard to explain um so instead story points should be the difficulty because the difficulty
+
+370
+0:24:15.040 --> 0:24:19.360
+means that you have more of a range to play with with a two-week iteration you have 14
+
+371
+0:24:19.360 --> 0:24:23.800
+days whereas with story points you can go anywhere from 0 to 99 and then you know what's
+
+372
+0:24:23.800 --> 0:24:29.200
+going on and you can track it and figure out how much your team can do so as an example
+
+373
+0:24:29.200 --> 0:24:33.920
+here you might say hey this really big feature that is 50 story points and hey this other
+
+374
+0:24:33.920 --> 0:24:38.720
+feature that is five story points historically how many story points have we got through
+
+375
+0:24:38.720 --> 0:24:42.980
+in this particular iteration over the course of the last year historically we've managed
+
+376
+0:24:42.980 --> 0:24:48.000
+to do 40 story points well great you can't do that 50 story point activity but you can
+
+377
+0:24:48.000 --> 0:24:52.800
+do that five one and it lets you plan a little bit better but because it's a community of
+
+378
+0:24:52.800 --> 0:24:58.880
+people working i'm like oh you've given story points to my items as days again haven't you
+
+379
+0:24:58.880 --> 0:25:04.040
+colleague and they're like yes okay sad face and then we have to work around that and then
+
+380
+0:25:04.040 --> 0:25:07.320
+like the hierarchy of course we want to do work tracking and doing well tracking at work
+
+381
+0:25:07.320 --> 0:25:11.720
+especially this company of my scale is just crazy people are like oh yeah but i need to
+
+382
+0:25:11.720 --> 0:25:16.960
+put this under this and that under that and this under that and just no okay two more
+
+383
+0:25:16.960 --> 0:25:23.280
+questions uh hack 13 asks i used nested sessions this past weekend however i struggle to see
+
+384
+0:25:23.280 --> 0:25:27.000
+the benefits of the use of the page for them also seems to not exist you provide context
+
+385
+0:25:27.000 --> 0:25:31.880
+in the use case yes hotel rooms um so they're used a lot and they're actually created for
+
+386
+0:25:31.880 --> 0:25:38.880
+the vblfc and the reason behind that is let's say you have a lobby of a hotel or the lobby
+
+387
+0:25:38.880 --> 0:25:42.640
+of a convention that's where people sign up they get their badge and then they disappear
+
+388
+0:25:42.640 --> 0:25:46.800
+um the disappearing act we wanted that to be other worlds so if you went to the pool
+
+389
+0:25:46.800 --> 0:25:50.560
+you'd go to the pool world i remember the vblfc pool world well or if you want to disappear
+
+390
+0:25:50.560 --> 0:25:54.540
+the hotel rooms you go to the hotel rooms world but what that does it starts to show
+
+391
+0:25:54.540 --> 0:25:59.160
+a unrealistic expectation of the number of people who are at the convention because they're
+
+392
+0:25:59.160 --> 0:26:02.960
+all in different worlds and they're all spread out if you use the nested session feature
+
+393
+0:26:02.960 --> 0:26:08.880
+you can group all those sessions together into like a whole hotel and so it doesn't
+
+394
+0:26:08.880 --> 0:26:12.720
+matter what part of the hotel they're in they're counted together and anyone new who wants
+
+395
+0:26:12.720 --> 0:26:17.480
+to join can go either straight to the session that people are in via the friends list or
+
+396
+0:26:17.480 --> 0:26:20.640
+to the entrance of the hotel where they can then find signposts to other sessions that
+
+397
+0:26:20.640 --> 0:26:28.360
+have been there there's a bit of a like problem in the naming of that feature because um nested
+
+398
+0:26:28.360 --> 0:26:34.020
+sessions also comes up in code uh when it comes up to the if you remember the like the
+
+399
+0:26:34.020 --> 0:26:38.940
+like uh the ball menu that's on your right hand where you can sort of see which world
+
+400
+0:26:38.940 --> 0:26:42.580
+and then when you close out worlds you'll close out worlds in a certain order that's
+
+401
+0:26:42.580 --> 0:26:47.180
+also called nesting and so i want to kind of like drop the terminology there between
+
+402
+0:26:47.180 --> 0:26:52.820
+the two features um try and make those a bit clearer and then document them um honestly
+
+403
+0:26:52.820 --> 0:26:58.120
+if you're not doing a sort of convention or a hotel style event or like a a big collection
+
+404
+0:26:58.120 --> 0:27:01.880
+of people style event you don't need to use it and even sometimes when you are doing a
+
+405
+0:27:01.880 --> 0:27:06.320
+big event you don't need to use it that's a good example there for the mmc award party
+
+406
+0:27:06.320 --> 0:27:10.720
+the award ceremony we we didn't have nested sessions going there because it was different
+
+407
+0:27:10.720 --> 0:27:15.480
+watch parties it was oh here's the critic canyon watch party here's the i remember because
+
+408
+0:27:15.480 --> 0:27:19.440
+it was a while ago but you know here's the other social world that's doing a watch party
+
+409
+0:27:19.440 --> 0:27:23.120
+here's the other social world that's doing a watch party you didn't need that to be nested
+
+410
+0:27:23.120 --> 0:27:30.400
+because it was distinct activities but um conventions i believe um for uh fernal i keep
+
+411
+0:27:30.400 --> 0:27:34.920
+saying funeral equinox i had that whole problem throughout the event uh psycho asked about
+
+412
+0:27:34.920 --> 0:27:41.080
+the ball menu if it's legacy it is legacy but the systems that play uh weren't and are
+
+413
+0:27:41.080 --> 0:27:45.320
+not and will not be removed you'll notice that even if you use my worlds are in facet
+
+414
+0:27:45.320 --> 0:27:50.760
+if you close out worlds you'll still end up closing out them in a like structured way
+
+415
+0:27:50.760 --> 0:27:54.720
+and that still matches what the balls would render if you had the balls on but yeah the
+
+416
+0:27:54.720 --> 0:28:01.960
+balls are legacy you can quote me on that one damn it the balls are legacy so dre says
+
+417
+0:28:01.960 --> 0:28:07.440
+now i'm curious what's more expensive um to hire a musical sound designer or pay a lawyer
+
+418
+0:28:07.440 --> 0:28:13.600
+um honestly musical sound designer you don't need an industry like giant you don't need
+
+419
+0:28:13.600 --> 0:28:18.800
+like a triple a musical sound designer you need someone from the community um depending
+
+420
+0:28:18.800 --> 0:28:23.080
+on the project that might even go for free there is the jobs and freelancer section and
+
+421
+0:28:23.080 --> 0:28:26.720
+there is a bunch of community people out there that would love to be part of your project
+
+422
+0:28:26.720 --> 0:28:33.420
+uh you can also use um massively licensed sound i know i use kevin mcclood's uh collection
+
+423
+0:28:33.420 --> 0:28:38.920
+a lot in moc some corrections from cole's and rusio that says that the uh new user events
+
+424
+0:28:38.920 --> 0:28:43.960
+only were the ones that used them uh for the next decisions great i was aware they were
+
+425
+0:28:43.960 --> 0:28:48.600
+being used but not exactly how they were being used and then uh rusio says that the the
+
+426
+0:28:48.600 --> 0:28:54.360
+funeral event seat the fronal event um used them for the new player nights they worked
+
+427
+0:28:54.360 --> 0:29:00.240
+quite well uh and then hack posted a uh picture uh which shows how they were using them uh
+
+428
+0:29:00.240 --> 0:29:05.260
+yes that is a suitable setup for how you would use them with that i believe we are out of
+
+429
+0:29:05.260 --> 0:29:10.880
+time we were like we're way out of time i i like remembering is that especially when
+
+430
+0:29:10.880 --> 0:29:18.000
+i was in the hotel room world with the car someone spawned the very complex mmc car in
+
+431
+0:29:18.000 --> 0:29:22.800
+one of the hotel rooms and it freaked out because of course it was a very narrow space
+
+432
+0:29:22.800 --> 0:29:27.300
+and so it would periodically just sort of teleport into the hotel room sweep people
+
+433
+0:29:27.300 --> 0:29:31.760
+into it because it sort of had like an auto anchor system on it and then glitch out of
+
+434
+0:29:31.760 --> 0:29:36.800
+the map and fall down again and so if you weren't careful you would just like be attacked
+
+435
+0:29:36.800 --> 0:29:43.160
+by a car periodically as it like grabbed you forcibly put you in its seats and then teleported
+
+436
+0:29:43.160 --> 0:29:48.920
+out of existence it was basically an scp waiting to happen i will see you guys later um we
+
+437
+0:29:48.920 --> 0:29:53.280
+are out of time go ahead and uh call it here if you have questions please dm me or drop
+
+438
+0:29:53.280 --> 0:30:15.120
+them here i might respond in text form and i'll speak to you later bye
+

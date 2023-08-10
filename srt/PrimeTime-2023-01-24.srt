@@ -1,0 +1,1136 @@
+1
+00:00:00,000 --> 00:00:05,000
+ Welcome to Office Hours, it is now 4pm, so we're going to go ahead and get started with Office Hours.
+
+2
+00:00:05,000 --> 00:00:08,000
+ So, if you have any questions, please ask them in the Office Hours text chat,
+
+3
+00:00:08,000 --> 00:00:10,000
+ there's a couple of channels above the community meeting stage.
+
+4
+00:00:10,000 --> 00:00:14,000
+ I'm just going to @tag Office Hours again, just to make sure that everyone knows that we're starting,
+
+5
+00:00:14,000 --> 00:00:17,000
+ and then we'll go ahead and get started on those questions.
+
+6
+00:00:17,000 --> 00:00:23,000
+ Actually, before questions, a little bit from me on some random items that I have randomly decided to talk about
+
+7
+00:00:23,000 --> 00:00:26,000
+ just this second and are completely unplanned.
+
+8
+00:00:26,000 --> 00:00:31,000
+ Number one, if there is a moderation issue, do not DM me, do not come up to me and drop a whisper bubble on me,
+
+9
+00:00:31,000 --> 00:00:36,000
+ do not direct message me on any form of platform whatsoever, just go make a ticket.
+
+10
+00:00:36,000 --> 00:00:40,000
+ Always make a ticket. If you make a ticket, it will be handled appropriately.
+
+11
+00:00:40,000 --> 00:00:45,000
+ If you DM me, I'm going to forget about it, because all I'm going to hear in my head is
+
+12
+00:00:45,000 --> 00:00:48,000
+ "la la la la la la" and bitches of cheese.
+
+13
+00:00:48,000 --> 00:00:52,000
+ So, like, make a ticket. Don't be scared of making a ticket, go make a ticket.
+
+14
+00:00:52,000 --> 00:00:54,000
+ There is no excuse not to make a ticket.
+
+15
+00:00:54,000 --> 00:01:02,000
+ Additionally to that, something else I wanted to say but I've just forgotten it, something about tickets, make tickets.
+
+16
+00:01:02,000 --> 00:01:06,000
+ Oh, that was it. If you make an anonymous ticket, we can't respond to it.
+
+17
+00:01:06,000 --> 00:01:09,000
+ We've got an increasing amount of anonymous tickets.
+
+18
+00:01:09,000 --> 00:01:12,000
+ I can't give you details about the tickets, but I can say that they are anonymous.
+
+19
+00:01:12,000 --> 00:01:15,000
+ We cannot respond to anonymous tickets.
+
+20
+00:01:15,000 --> 00:01:20,000
+ So, as an example here, which is not a real ticket, we had one that was like, as an example,
+
+21
+00:01:20,000 --> 00:01:25,000
+ "Hi, my name's Bob and I have this very important thing to talk to you guys about!" as an anonymous ticket.
+
+22
+00:01:25,000 --> 00:01:30,000
+ Great, Bob, we literally cannot respond to you. It's impossible.
+
+23
+00:01:30,000 --> 00:01:33,000
+ Anyway, let's move on to questions after that.
+
+24
+00:01:33,000 --> 00:01:39,000
+ Moving on to questions, we have one from Alex from Alaska who says, "Build anything interesting in the past month?"
+
+25
+00:01:39,000 --> 00:01:42,000
+ And I'm like, yeah, I have built something interesting.
+
+26
+00:01:42,000 --> 00:01:53,000
+ So, on and off, we've been working on a project, sciency project again, to basically simulate various movement impairments.
+
+27
+00:01:53,000 --> 00:02:00,000
+ So we're talking about things like tremors, a loss of reach or range of motion, and things like that.
+
+28
+00:02:00,000 --> 00:02:10,000
+ And the old system was really bad, so I made a new system, and in that new system I actually used a component I haven't used before, which is the Avatar Pose installer.
+
+29
+00:02:10,000 --> 00:02:17,000
+ And Avatar Pose installer will install pose filters when you equip an avatar.
+
+30
+00:02:17,000 --> 00:02:26,000
+ The Pose installer component needs to be on a slot within the proxy that you want to install it on, which is a little bit of a weird one, because it's difficult to find those slots sometimes.
+
+31
+00:02:26,000 --> 00:02:35,000
+ But I made a tool that'll do it. It won't work if you, like me, have renamed your proxies, moved them or anything like that, but it will work on a default avatar.
+
+32
+00:02:35,000 --> 00:02:48,000
+ It installs a wiggler and a wobbler. Those use the avatar pose offset pose filter, a sort of delayed or hard to move hand, which is the pose smooth lerp.
+
+33
+00:02:48,000 --> 00:02:54,000
+ There's an item in Gearbell's public folder, it's like a dumbbell that's difficult to lift, that uses that as well.
+
+34
+00:02:54,000 --> 00:03:07,000
+ And all of those together lead to a big control panel that you can then use to simulate various movement impairments, and we're using it for various tests and experiments. That's quite cool.
+
+35
+00:03:07,000 --> 00:03:15,000
+ The idea is to basically make a VR... This is a cursed image search, what the hell?
+
+36
+00:03:15,000 --> 00:03:29,000
+ Is to basically make a VR version of this. I just posted it in the chat. These are what are called patient empathy suits. That's at least what I searched for.
+
+37
+00:03:29,000 --> 00:03:39,000
+ But the pictures are kind of cursed. You can see that they're wearing goggles and that the goggles are designed to... What's going on here?
+
+38
+00:03:39,000 --> 00:03:54,000
+ The idea is to restrict motion or restrict vision or restrict anything else to make them sort of understand how someone with an impairment like that might move around a room or a particular scenario, etc.
+
+39
+00:03:54,000 --> 00:03:57,000
+ There's a lot here. This is a good Google search.
+
+40
+00:03:57,000 --> 00:04:12,000
+ I know that there are... One that you might have heard of before that might be a little bit easier to relate to is any of those videos you saw on YouTube where men have electrodes strapped to their waist, etc. to simulate labour pain.
+
+41
+00:04:12,000 --> 00:04:16,000
+ Or like a fat suit, stuff like that. There's also a lot of YouTubers that do that.
+
+42
+00:04:16,000 --> 00:04:27,000
+ Yeah, there's a bariatric training suit. I don't know that this was a thing. I'm kind of disturbed that this is a thing, but I guess it's relevant. I'm going to stop posting cursed images.
+
+43
+00:04:27,000 --> 00:04:40,000
+ If you just search for patient empathy suits, you'll get a collection of really, really strange goings on. But they are for good research. I don't know, I'm just a little alienated by them.
+
+44
+00:04:40,000 --> 00:04:53,000
+ For some reason. Anyway, let's see if we've got any other questions. We don't currently have any other questions, so I'm just going to stroll through this alienating Google image search and giggle whilst I'm waiting for additional questions.
+
+45
+00:04:53,000 --> 00:04:58,000
+ Look, this is me five minutes after waking up. I'm already tired.
+
+46
+00:04:58,000 --> 00:05:08,000
+ Oh, Discord determined that image to be obscene. It is not. It is a flesh-coloured dummy lying on a bed. We'll try a different one.
+
+47
+00:05:08,000 --> 00:05:12,000
+ This one's wearing pants, so that might work. Yeah, that one worked.
+
+48
+00:05:12,000 --> 00:05:19,000
+ Although they do get quite meme-y. If there's no questions, I just sort of get giggly and then I find random stuff and we start looking at them.
+
+49
+00:05:19,000 --> 00:05:28,000
+ There are no additional questions, though, so if you have any additional questions, please do let people let me know by posting it into the Office Hours text chat.
+
+50
+00:05:28,000 --> 00:05:34,000
+ Tell your family, tell your kids, ask New Year's questions. It's the Office Hours time.
+
+51
+00:05:34,000 --> 00:05:46,000
+ Here's an example of a scenario where it might, you know, I need to bend over to reach into that cupboard and my range of motion is restricted, so that's difficult.
+
+52
+00:05:46,000 --> 00:05:54,000
+ That's like the actual research. Seeing them in isolation is very alienating, but seeing them in context makes perfect sense. That makes perfect sense there.
+
+53
+00:05:54,000 --> 00:06:08,000
+ I haven't seen any papers or anything like that, but I guess the idea is to increase empathy so that they can better serve those people by understanding the struggles that they face.
+
+54
+00:06:08,000 --> 00:06:11,000
+ Alright, we have a question. Fantastic, we can stop talking about weird suits.
+
+55
+00:06:11,000 --> 00:06:33,000
+ Are PRs2, the Neos locale, still being merged in the modern areas that unhold? I've been trying to deal with that, but they've been mounting up and they get kind of problematic because I'm not able to push the - once they've merged with them, I'm not able to push them to any update, of course, because we're not updating.
+
+56
+00:06:33,000 --> 00:06:43,000
+ But we also have the sort of weird state where two separate people did a full translation for Chinese, and so I don't really know what to do about that one.
+
+57
+00:06:43,000 --> 00:06:54,000
+ There is one I can probably close, which is someone who, Toxic Cookie here, made an UU version of the entire thing. You probably wouldn't be accepting that.
+
+58
+00:06:54,000 --> 00:07:05,000
+ You're free to, by the way, download any of those locale files if you want to use them. You can drop them into the locale folder of the Neos installation, and they will work. You'll be able to find them inside the locale switcher.
+
+59
+00:07:05,000 --> 00:07:10,000
+ Yeah, I can go through - I can add an item to my list to go through them and get them merged.
+
+60
+00:07:10,000 --> 00:07:16,000
+ They should be there, because when we do eventually update, we'll be absolutely fine.
+
+61
+00:07:16,000 --> 00:07:22,000
+ I'm just looking at my Neos to-do list and there's an item that just says "Peter Robinson". I have no idea why.
+
+62
+00:07:22,000 --> 00:07:27,000
+ Anyone knows what Peter Robinson means, go for it.
+
+63
+00:07:27,000 --> 00:07:33,000
+ Most of my notes on my personal Neos to-do list make sense, but that one doesn't.
+
+64
+00:07:33,000 --> 00:07:37,000
+ It just says Peter Robinson. Who's Peter Robinson?
+
+65
+00:07:37,000 --> 00:07:42,000
+ Anyway, I'll move on to a natural question. I'm quite giggly today, it might be the coffee. Anyway.
+
+66
+00:07:42,000 --> 00:07:47,000
+ I'll see about getting those locale files updated, and then if there's a mod to pull them down, that'll be fantastic.
+
+67
+00:07:47,000 --> 00:07:52,000
+ So, Specs has a question here which says "When trying to set up various components that require a reference type to be defined,
+
+68
+00:07:52,000 --> 00:07:55,000
+ it can be very difficult to figure out what types work. There's usually no common types defined,
+
+69
+00:07:55,000 --> 00:08:00,000
+ and manually editing them can be very obscure in trial and error based. Do you have any advice or tools that can use this process?"
+
+70
+00:08:00,000 --> 00:08:05,000
+ There is the one thing that can use the process - one thing being familiarity with that,
+
+71
+00:08:05,000 --> 00:08:11,000
+ but then do remember there is the complexed types in components wiki page.
+
+72
+00:08:11,000 --> 00:08:21,000
+ Additionally, in my public folder there's just a random collection of strings that I spawn in and drag the ones out that I need.
+
+73
+00:08:21,000 --> 00:08:26,000
+ We'll hope to improve that in the future, but I understand that's difficult.
+
+74
+00:08:26,000 --> 00:08:34,000
+ I can tag various components with common types. That's done in cases such as the asset multiplexer.
+
+75
+00:08:34,000 --> 00:08:38,000
+ That's really good in the way that it does there. It's like "Hey, do you want this, do you want that?"
+
+76
+00:08:38,000 --> 00:08:42,000
+ And we can totally do that with other components, we just haven't done that.
+
+77
+00:08:42,000 --> 00:08:48,000
+ I think that's it for that question. Do take a look at that one, and do take a look at my public folder.
+
+78
+00:08:48,000 --> 00:08:54,000
+ Rampr talks about Git interface libraries for C#. You do know that Git, if you have the raw file,
+
+79
+00:08:54,000 --> 00:08:58,000
+ you can just download that as a file, you won't need Git.
+
+80
+00:08:58,000 --> 00:09:02,000
+ So, I guess enumerating the files you might need in an API.
+
+81
+00:09:02,000 --> 00:09:11,000
+ All you basically need to do is enumerate the locale files on the master branch, and then gain access to their raw list.
+
+82
+00:09:11,000 --> 00:09:15,000
+ So let's move down to the next question, and try not to giggle so much.
+
+83
+00:09:15,000 --> 00:09:22,000
+ Ankupilot says "Why connecting with the OpenWorld Logix node via Neocession link does work,
+
+84
+00:09:22,000 --> 00:09:27,000
+ and connecting with LNL, NAT LNL, and with IP port directly does not?
+
+85
+00:09:27,000 --> 00:09:32,000
+ Suppose we have two users in virtual LAN via ZeroTier, for example, users trying to connect
+
+86
+00:09:32,000 --> 00:09:38,000
+ node's IP address and port of the session, while join command in launch options connects via IP port, no reason."
+
+87
+00:09:38,000 --> 00:09:42,000
+ Let's figure out what's going on there, because I've also had trouble with the OpenWorld node,
+
+88
+00:09:42,000 --> 00:09:44,000
+ it's meant to take a lot of ones.
+
+89
+00:09:44,000 --> 00:09:49,000
+ And then there's of course the, if you go to the Logix node browser and you go inside the world folder,
+
+90
+00:09:49,000 --> 00:09:57,000
+ there's like a bunch of things there, but none of those seem to work with the OpenWorld Logix node either.
+
+91
+00:09:57,000 --> 00:10:00,000
+ So I get very confused. Let's try and work what those are.
+
+92
+00:10:00,000 --> 00:10:04,000
+ I've added a note to follow that up as well.
+
+93
+00:10:04,000 --> 00:10:11,000
+ So we've got locale here, and then we've got the OpenWorld Logix node.
+
+94
+00:10:11,000 --> 00:10:18,000
+ So I'll have to take a look at that one. There's probably a way to do it, it's just that OpenWorld node is confusing to me.
+
+95
+00:10:18,000 --> 00:10:23,000
+ There's some areas where I'm just like, I don't understand what's going on here, it's so difficult to use for some reason.
+
+96
+00:10:23,000 --> 00:10:30,000
+ And then Linker says that Peter Robinson is a crime writer, so I'm going to go ahead and just search Peter Robert.
+
+97
+00:10:30,000 --> 00:10:36,000
+ "Peter Robinson was a British-born Canadian crime writer, made the Inspector Banks novels."
+
+98
+00:10:36,000 --> 00:10:41,000
+ I'm just going to go ahead and remove that from my to-do list, like maybe in like three years time,
+
+99
+00:10:41,000 --> 00:10:46,000
+ Neos will just self-destruct because they haven't done whatever the Peter Robinson item is.
+
+100
+00:10:46,000 --> 00:11:00,000
+ There we go. For reference, my personal notes on Neos are, I can't get you like a page length because it's in markdown format, but 2,110 words long.
+
+101
+00:11:00,000 --> 00:11:03,000
+ And they are complete, they used to be organized, but they're completely unorganized.
+
+102
+00:11:03,000 --> 00:11:09,000
+ In fact, at the top of the to-do list, under a section called "Priority", is "Reorganize this list".
+
+103
+00:11:09,000 --> 00:11:24,000
+ Then Zlinker found a paper titled "Supporting the designers to build empathy with people with Parkinson's disease, the role of a hand-trimmism simulating device, and of user research with end users".
+
+104
+00:11:24,000 --> 00:11:29,000
+ That is totally a sort of paper in that area, so that's cool.
+
+105
+00:11:29,000 --> 00:11:39,000
+ Speaking of papers, by the way, a paper detailing the work that we did for the virtual surgical planning stuff that's on my channel just got accepted for publication.
+
+106
+00:11:39,000 --> 00:11:46,000
+ Once it's published, I'll get you a link to that, but that means that Neos is confirmed to be in a scientific paper coming up soon.
+
+107
+00:11:46,000 --> 00:11:50,000
+ It's cool, it's great. My name is on the credits there as well, I made sure that happened.
+
+108
+00:11:50,000 --> 00:11:54,000
+ I think there was a paper historically where my name didn't end up on the credits, which is strange.
+
+109
+00:11:54,000 --> 00:12:00,000
+ Sometimes it's difficult because scientific papers usually need people that have scientific qualifications on them, etc.
+
+110
+00:12:00,000 --> 00:12:07,000
+ And while I do have a university qualification, I have no affiliation with any sort of scientific body.
+
+111
+00:12:07,000 --> 00:12:12,000
+ So it's usually like, "Head of surgery at big hospital is on this paper!"
+
+112
+00:12:12,000 --> 00:12:17,000
+ And I'm like, prime with nothing. Hello, I'm a person. I do science too.
+
+113
+00:12:17,000 --> 00:12:20,000
+ So it's kind of interesting in that regard.
+
+114
+00:12:20,000 --> 00:12:26,000
+ The democratisation of scientific papers is something I'm very interested in, and could talk at length about, but not here.
+
+115
+00:12:26,000 --> 00:12:28,000
+ This is the Neos office hours.
+
+116
+00:12:28,000 --> 00:12:37,000
+ Angry Pilot has followed up with a question that says, "Also, how Neocession link is transformed to anything useful when connecting via LAN?"
+
+117
+00:12:37,000 --> 00:12:40,000
+ I just need to look into how that whole system works.
+
+118
+00:12:40,000 --> 00:12:45,000
+ I know how, for example, NeosDB and NeosRec work, because someone previously asked about those.
+
+119
+00:12:45,000 --> 00:12:49,000
+ I don't know if Neocession. There's got to be some sort of translation mechanism.
+
+120
+00:12:49,000 --> 00:12:55,000
+ For the past, I don't know, three hours, I've been trying to add my Google Calendar to the Calendar app on Windows,
+
+121
+00:12:55,000 --> 00:13:00,000
+ such that my Google Calendar alerts will pop out as Windows notifications,
+
+122
+00:13:00,000 --> 00:13:03,000
+ but it's just stuck on creating accounts. That's very annoying.
+
+123
+00:13:03,000 --> 00:13:06,000
+ I tapped back to it accidentally, and I thought I'd mention it.
+
+124
+00:13:06,000 --> 00:13:13,000
+ Alex says, "Adding the Gmail to the Mail app makes that work." Okay, I'll try adding that.
+
+125
+00:13:13,000 --> 00:13:20,000
+ I've been racking my brain for weeks now about why Peter Robinson was on my Neos to-do list.
+
+126
+00:13:20,000 --> 00:13:28,000
+ Most of the time, when I add stuff to that to-do list, I'm in VR, and so the message isn't that verbose anyway.
+
+127
+00:13:28,000 --> 00:13:30,000
+ But just a name? That doesn't make sense.
+
+128
+00:13:30,000 --> 00:13:36,000
+ For example, one of the items I have here says "GlyphEMSize64", and I know what that means.
+
+129
+00:13:36,000 --> 00:13:41,000
+ That's like, why don't we update the default GlyphEMSize to 64 on our Decode font?
+
+130
+00:13:41,000 --> 00:13:45,000
+ I need to look into that and figure out why we don't, because there's a reason why we don't, I just don't know what it is.
+
+131
+00:13:45,000 --> 00:13:49,000
+ I don't see any additional questions, there is additional conversation about the Neosession stuff,
+
+132
+00:13:49,000 --> 00:13:53,000
+ I don't know how it works, so I'm going to go ahead and look at that more.
+
+133
+00:13:53,000 --> 00:13:55,000
+ Ping me later if I forget.
+
+134
+00:13:55,000 --> 00:13:59,000
+ Ozzy says, "Have you looked into self-driving variables, self-value-hopping at all code-wise?"
+
+135
+00:13:59,000 --> 00:14:03,000
+ I'm honestly really curious about them myself, though given the different systems at play, I understand why I haven't.
+
+136
+00:14:03,000 --> 00:14:08,000
+ Yeah, it's so in the data model that it's really difficult to look at. That's why I say don't do it.
+
+137
+00:14:08,000 --> 00:14:13,000
+ I really don't recommend doing it. If you need a local value, use Values Override.
+
+138
+00:14:13,000 --> 00:14:20,000
+ If you're worried about network traffic on a single float, then you need to change your performance-related targets,
+
+139
+00:14:20,000 --> 00:14:26,000
+ because a single value being transmitted when it changes is no big deal.
+
+140
+00:14:26,000 --> 00:14:37,000
+ I get across this loss and some people get offended by it, but I do find that people spend too much time optimizing stuff that I believe does not matter.
+
+141
+00:14:37,000 --> 00:14:43,000
+ If you can prove to me that it matters, like, concretely, then fantastic, I'll look into it.
+
+142
+00:14:43,000 --> 00:14:46,000
+ A question here from SnowyTheDragon says, "Has anyone made Tetris in Neos?"
+
+143
+00:14:46,000 --> 00:14:54,000
+ Yes, there are several variants of Tetris. There is one in the world browser which is probably the most flashy and cool, so try that one out.
+
+144
+00:14:54,000 --> 00:15:00,000
+ A question from AppenKlit, who says, "Is it possible to check the quality resolution of a YouTube stream?
+
+145
+00:15:00,000 --> 00:15:06,000
+ Can you force the highest resolution?"
+
+146
+00:15:06,000 --> 00:15:10,000
+ I'm not sure if you can. Give me one second to go have a look at the video texture provider.
+
+147
+00:15:10,000 --> 00:15:14,000
+ Again, video texture provider.
+
+148
+00:15:14,000 --> 00:15:16,000
+ I'm not sure what happens.
+
+149
+00:15:16,000 --> 00:15:23,000
+ You're right, there's different qualities available a lot of the time, but I don't know how we pick which quality to do.
+
+150
+00:15:23,000 --> 00:15:30,000
+ Because we use YouTube DLP to do that, if it's like a YouTube stream.
+
+151
+00:15:30,000 --> 00:15:37,000
+ I don't know how we pick "get best format".
+
+152
+00:15:37,000 --> 00:15:39,000
+ Looks like we get the best resolution.
+
+153
+00:15:39,000 --> 00:15:50,000
+ So we get all the info from YouTube, and then we sort the formats that come back from that by the width of the video.
+
+154
+00:15:50,000 --> 00:15:59,000
+ You can probably change the resolution that you'd like by updating the max width and max height property on the video texture provider.
+
+155
+00:15:59,000 --> 00:16:02,000
+ To be the maximum resolution that you would like.
+
+156
+00:16:02,000 --> 00:16:08,000
+ I don't know what those default to, because I can't see a default here in the code, and I don't have Neos open currently.
+
+157
+00:16:08,000 --> 00:16:12,000
+ But do take a look at that max width property.
+
+158
+00:16:12,000 --> 00:16:15,000
+ I think that's it for that.
+
+159
+00:16:15,000 --> 00:16:18,000
+ Snowy asks, "Can you make a game leader board in Neos?"
+
+160
+00:16:18,000 --> 00:16:20,000
+ Absolutely, there's various ways to do it.
+
+161
+00:16:20,000 --> 00:16:25,000
+ I've seen people do it using a web service, where it just returns a piece of text,
+
+162
+00:16:25,000 --> 00:16:30,000
+ and then they just throw that piece of text into a text renderer,
+
+163
+00:16:30,000 --> 00:16:33,000
+ and that way they don't have to deal with any sort of sorting or management in that way.
+
+164
+00:16:33,000 --> 00:16:37,000
+ I've seen people do it with cloud variables, I don't particularly know how they're doing it with cloud variables,
+
+165
+00:16:37,000 --> 00:16:38,000
+ but I've seen people do it.
+
+166
+00:16:38,000 --> 00:16:43,000
+ Just yesterday actually I was looking at Svekin's boop leader board,
+
+167
+00:16:43,000 --> 00:16:47,000
+ which is how many times various people have booped him, I have no idea how that works,
+
+168
+00:16:47,000 --> 00:16:49,000
+ but it was a very long list.
+
+169
+00:16:49,000 --> 00:16:52,000
+ I've also seen game specific ones that don't talk to an external web service,
+
+170
+00:16:52,000 --> 00:16:55,000
+ so they don't use web servers or cloud variables, they're just for a local game,
+
+171
+00:16:55,000 --> 00:17:00,000
+ for example a round of a sort of PVP first person shooter.
+
+172
+00:17:00,000 --> 00:17:04,000
+ A good one that has a lot of theming, I've seen a lot of leader boards,
+
+173
+00:17:04,000 --> 00:17:08,000
+ but one that has a good theming and design is the Murder X game.
+
+174
+00:17:08,000 --> 00:17:14,000
+ That one has a leader board where there's custom icons, a custom font, a custom background for the leader board,
+
+175
+00:17:14,000 --> 00:17:16,000
+ so it looks really, really, really good.
+
+176
+00:17:16,000 --> 00:17:19,000
+ And so I like that one.
+
+177
+00:17:19,000 --> 00:17:23,000
+ But yes, you can. If you have any questions about how to do that, do let us know,
+
+178
+00:17:23,000 --> 00:17:25,000
+ and I'll be able to help you out.
+
+179
+00:17:25,000 --> 00:17:31,000
+ Appin follows up with a use case where they're blowing up a video and increasing its size,
+
+180
+00:17:31,000 --> 00:17:33,000
+ and it doesn't look good right now.
+
+181
+00:17:33,000 --> 00:17:37,000
+ Yeah, check that max width, max height, I can't see a default right now,
+
+182
+00:17:37,000 --> 00:17:42,000
+ there may be a default, I just can't see it currently.
+
+183
+00:17:42,000 --> 00:17:45,000
+ Ah, it looks like the default max width is 1920 by 1080p,
+
+184
+00:17:45,000 --> 00:17:51,000
+ so if you want to change that, then make it larger than that,
+
+185
+00:17:51,000 --> 00:17:53,000
+ you might be able to get up to 4K, etc.
+
+186
+00:17:53,000 --> 00:17:55,000
+ Do keep in mind that does sort of...
+
+187
+00:17:55,000 --> 00:17:57,000
+ I don't think it's double, isn't it like quadruple?
+
+188
+00:17:57,000 --> 00:17:59,000
+ Or it might be less than double.
+
+189
+00:17:59,000 --> 00:18:02,000
+ It's either less than double or more than double, it's not double as far as I remember,
+
+190
+00:18:02,000 --> 00:18:04,000
+ depends on the encoder as well. I can never remember which.
+
+191
+00:18:04,000 --> 00:18:06,000
+ It's one of those things where I just can't remember it.
+
+192
+00:18:06,000 --> 00:18:10,000
+ There's a reason why I didn't work on video when I worked on Mixer, even though they asked me to.
+
+193
+00:18:10,000 --> 00:18:12,000
+ That's a story for another day though.
+
+194
+00:18:12,000 --> 00:18:16,000
+ Yeah, spec says quadruple the pixels, but yes, it is quadruple the pixels,
+
+195
+00:18:16,000 --> 00:18:20,000
+ but sometimes the encoder means that while it's quadruple the pixels,
+
+196
+00:18:20,000 --> 00:18:23,000
+ it's not quadruple the bandwidth.
+
+197
+00:18:23,000 --> 00:18:28,000
+ You can of course try and squeeze larger resolutions into the same bandwidth,
+
+198
+00:18:28,000 --> 00:18:33,000
+ but then you get sort of codec issues. I don't really understand.
+
+199
+00:18:33,000 --> 00:18:38,000
+ By my understanding, Alpin, yes, driving the max width and max height
+
+200
+00:18:38,000 --> 00:18:41,000
+ should enable you to access higher quality streams,
+
+201
+00:18:41,000 --> 00:18:46,000
+ although I don't know and cannot confirm about a deeper look into the code that exists.
+
+202
+00:18:46,000 --> 00:18:49,000
+ So give it a go, if you have any problems do let me know,
+
+203
+00:18:49,000 --> 00:18:51,000
+ and if it works, share that knowledge.
+
+204
+00:18:51,000 --> 00:18:56,000
+ Tell three other people that you managed to get a 4K stream into Neos,
+
+205
+00:18:56,000 --> 00:18:59,000
+ and I'm sure that knowledge will spread around like wildfire.
+
+206
+00:18:59,000 --> 00:19:05,000
+ Taking a look down, there's still some conversation going about the session URLs.
+
+207
+00:19:05,000 --> 00:19:09,000
+ Do keep in mind that there is a page written, I must say,
+
+208
+00:19:09,000 --> 00:19:14,000
+ by one of the participating people of this conversation,
+
+209
+00:19:14,000 --> 00:19:18,000
+ about the networking information, how networking works inside of Neos,
+
+210
+00:19:18,000 --> 00:19:22,000
+ which is really handy, so if you want more information about that,
+
+211
+00:19:22,000 --> 00:19:24,000
+ feel free to of course keep the conversation going,
+
+212
+00:19:24,000 --> 00:19:26,000
+ but there is the Network Information page, which I said is,
+
+213
+00:19:26,000 --> 00:19:29,000
+ lots of it were written by Ruscio as well.
+
+214
+00:19:29,000 --> 00:19:32,000
+ Taking a look down at questions, we have TFG Haida says,
+
+215
+00:19:32,000 --> 00:19:35,000
+ "Does any public health documentation exist for MeshX?"
+
+216
+00:19:35,000 --> 00:19:38,000
+ No. It does not.
+
+217
+00:19:38,000 --> 00:19:39,000
+ And the second question, which is,
+
+218
+00:19:39,000 --> 00:19:43,000
+ "When will Neos create doubles on a newly imported mesh?"
+
+219
+00:19:43,000 --> 00:19:48,000
+ Are you asking for it to, or when it does?
+
+220
+00:19:48,000 --> 00:19:49,000
+ Like, you could read that as,
+
+221
+00:19:49,000 --> 00:19:53,000
+ "Under which circumstances will it create doubles?"
+
+222
+00:19:53,000 --> 00:19:56,000
+ Or, "Can it create doubles? Can we make it create doubles?
+
+223
+00:19:56,000 --> 00:19:59,000
+ Can we have an option to make it create doubles?"
+
+224
+00:19:59,000 --> 00:20:01,000
+ I think there's an option on the mesh importer,
+
+225
+00:20:01,000 --> 00:20:03,000
+ if you go to the advanced settings,
+
+226
+00:20:03,000 --> 00:20:07,000
+ you can check "make double-sided" and it will make it double-sided.
+
+227
+00:20:07,000 --> 00:20:09,000
+ I don't know off the top of my head.
+
+228
+00:20:09,000 --> 00:20:14,000
+ The import routine for models and meshes is largely driven by ass imp,
+
+229
+00:20:14,000 --> 00:20:18,000
+ and sometimes I will go on like a three-hour spelunk into the code base
+
+230
+00:20:18,000 --> 00:20:21,000
+ to find out it's actually an ass imp problem.
+
+231
+00:20:21,000 --> 00:20:28,000
+ For example, all models are somehow rotated by 180 degrees,
+
+232
+00:20:28,000 --> 00:20:29,000
+ and so when they're imported,
+
+233
+00:20:29,000 --> 00:20:33,000
+ Fruix Engine will then counter-rotate them by 180 degrees,
+
+234
+00:20:33,000 --> 00:20:35,000
+ and I literally do not know why.
+
+235
+00:20:35,000 --> 00:20:38,000
+ There is an operation as part of the ass imp routine,
+
+236
+00:20:38,000 --> 00:20:40,000
+ which instructs ass imp to...
+
+237
+00:20:40,000 --> 00:20:41,000
+ Ass imp? Ass imp?
+
+238
+00:20:41,000 --> 00:20:43,000
+ I really don't know how to pronounce it without talking about butts,
+
+239
+00:20:43,000 --> 00:20:47,000
+ but anyway, to make it left-handed,
+
+240
+00:20:47,000 --> 00:20:50,000
+ and sometimes I know that that's not needed
+
+241
+00:20:50,000 --> 00:20:52,000
+ because the model is already left-handed,
+
+242
+00:20:52,000 --> 00:20:55,000
+ so I was thinking, and it's on my giant to-do list,
+
+243
+00:20:55,000 --> 00:20:59,000
+ to look at the importer to try and detect if the model is already,
+
+244
+00:20:59,000 --> 00:21:01,000
+ or is not, or is left-handed,
+
+245
+00:21:01,000 --> 00:21:04,000
+ to not do the left-handed operation again,
+
+246
+00:21:04,000 --> 00:21:06,000
+ because that... It's causing problems for me.
+
+247
+00:21:06,000 --> 00:21:09,000
+ What I want for a particular science-based project
+
+248
+00:21:09,000 --> 00:21:14,000
+ is that if I export a model and then immediately import it,
+
+249
+00:21:14,000 --> 00:21:16,000
+ I want the same result in Neos,
+
+250
+00:21:16,000 --> 00:21:21,000
+ but what I get is instead the object slowly rotates by 180 degrees each time.
+
+251
+00:21:21,000 --> 00:21:24,000
+ So if I want it to be back to the original,
+
+252
+00:21:24,000 --> 00:21:27,000
+ I would have to export it and import it twice
+
+253
+00:21:27,000 --> 00:21:29,000
+ just to get it to rotate back to the original thing.
+
+254
+00:21:29,000 --> 00:21:31,000
+ I think that's the left-handedness.
+
+255
+00:21:31,000 --> 00:21:33,000
+ I don't know. I haven't been able to check that much.
+
+256
+00:21:33,000 --> 00:21:35,000
+ I do have a branch somewhere of Neos
+
+257
+00:21:35,000 --> 00:21:37,000
+ where I disabled the left-handedness,
+
+258
+00:21:37,000 --> 00:21:40,000
+ and in some cases that meant that the normals were screwed up,
+
+259
+00:21:40,000 --> 00:21:42,000
+ and in some cases it didn't,
+
+260
+00:21:42,000 --> 00:21:45,000
+ because, you know, ugh, split-loose geometry.
+
+261
+00:21:45,000 --> 00:21:48,000
+ There might be... Don't we already have split submeshes?
+
+262
+00:21:48,000 --> 00:21:51,000
+ I can never remember why a submesh occurs
+
+263
+00:21:51,000 --> 00:21:53,000
+ compared to just loose geometry.
+
+264
+00:21:53,000 --> 00:21:56,000
+ Oh, not submeshes in this case. Yeah, I understand.
+
+265
+00:21:56,000 --> 00:22:00,000
+ Neos might not have a built-in operation, but Asimp might.
+
+266
+00:22:00,000 --> 00:22:02,000
+ So I double-check if Asimp has it.
+
+267
+00:22:02,000 --> 00:22:04,000
+ With that, we are at 31 past,
+
+268
+00:22:04,000 --> 00:22:07,000
+ so I will be cap enough questions here,
+
+269
+00:22:07,000 --> 00:22:10,000
+ and we'll go ahead and stop Office Hours for today.
+
+270
+00:22:10,000 --> 00:22:13,000
+ If you have any additional questions, please feel free to direct message me.
+
+271
+00:22:13,000 --> 00:22:16,000
+ Message it in Questions and Help, or write a ticket.
+
+272
+00:22:16,000 --> 00:22:18,000
+ If it's moderation-related, don't talk to me about it.
+
+273
+00:22:18,000 --> 00:22:21,000
+ I'm not going to tell you anything. I'm going to make you write a ticket.
+
+274
+00:22:21,000 --> 00:22:23,000
+ If you're worried about making a ticket, don't.
+
+275
+00:22:23,000 --> 00:22:25,000
+ The moderation team are not going to bite your head off.
+
+276
+00:22:25,000 --> 00:22:27,000
+ They are just going to ask for more information,
+
+277
+00:22:27,000 --> 00:22:30,000
+ or they're going to let you know what's going on.
+
+278
+00:22:30,000 --> 00:22:32,000
+ They are not going to be mad at you.
+
+279
+00:22:32,000 --> 00:22:34,000
+ You could literally open a ticket and say,
+
+280
+00:22:34,000 --> 00:22:37,000
+ "I like cheese," and they'll literally respond to you,
+
+281
+00:22:37,000 --> 00:22:39,000
+ "That's great. Thank you. Goodbye."
+
+282
+00:22:39,000 --> 00:22:42,000
+ It doesn't make tickets. Don't be scared.
+
+283
+00:22:42,000 --> 00:22:44,000
+ I will speak to you next time,
+
+284
+00:22:44,000 --> 00:22:47,000
+ and I hope you're having a good day. Bye-bye.
+

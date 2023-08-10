@@ -1,0 +1,984 @@
+1
+00:00:00,000 --> 00:00:05,500
+Hello everyone, welcome to prime time. We're going to be answering questions in the order that they arrive in the questions for prime time threads.
+
+2
+00:00:05,500 --> 00:00:09,140
+So grab the questions, drop them in and I'll get to them as soon as I can.
+
+3
+00:00:09,720 --> 00:00:15,720
+If you don't know what's going on, I'm going to answer questions about Neos. If you have them, drop them in the thread. We'll go through them in turn.
+
+4
+00:00:16,500 --> 00:00:28,660
+So starting off today, we have a question from Specs who says I'm not sure where the Unity SDK fits into the future if at all, but I have talked to users that greatly desire desktop editing building experience closer to a more typical game engine.
+
+5
+00:00:28,660 --> 00:00:38,660
+They find it clunky to juggle camera control for viewing inspectors and logics while building. Are there any future plans to add such an interface or make UI except easier to build for creating our own?
+
+6
+00:00:38,660 --> 00:00:46,660
+Unity SDK is quite low on our priorities right now, particularly seeing as we're moving away from Unity, it makes things like that a little bit more difficult.
+
+7
+00:00:46,660 --> 00:00:55,660
+So that's kind of low on the priority. You can also take a look at the project board, which I think it has listed.
+
+8
+00:00:55,660 --> 00:01:00,660
+By the way, low doesn't mean never, it just means low, so keep that in mind.
+
+9
+00:01:00,660 --> 00:01:13,660
+As for additional UI and interfaces, I don't think so right now. Our biggest push there was on the small standardized newer desktop mode.
+
+10
+00:01:13,660 --> 00:01:23,660
+That does have a lot better features for desktop users, some which I don't see many users use, such as the control click to focus, which lets you program logics on a 2D plane.
+
+11
+00:01:23,660 --> 00:01:32,660
+No need for a blueprint there, just go ahead and program it on a 2D plane, just spawn a node, control click it with your camera if you're on a desktop and you'll focus to that one.
+
+12
+00:01:32,660 --> 00:01:35,660
+And then you can kind of just like scrub around, it makes things tidier in desktop.
+
+13
+00:01:35,660 --> 00:01:42,660
+Other than that, it sort of falls into the same category as like, hey, people wanting text based because they don't like building in VR.
+
+14
+00:01:42,660 --> 00:01:54,660
+There will be enhancements to everything you do building in VR, but nothing I'm aware of on the planets that sort of matches Unity style workplace where you are not in the game while you're editing.
+
+15
+00:01:54,660 --> 00:01:57,660
+It's kind of the whole point of Neos currently, at least.
+
+16
+00:01:57,660 --> 00:02:13,660
+Scary guy says why do I use Q icon instead of question icon and tick instead of some other Neos related. The icons we use don't matter, they're just so that I don't miss questions. Whoever is adding them, thank you very much. Someone does it every week, thank you so much.
+
+17
+00:02:13,660 --> 00:02:22,660
+We could use potatoes and oranges, I really don't care. Moving on. Icons not important.
+
+18
+00:02:22,660 --> 00:02:33,660
+When teaching a user how to build, use the dev tools, what are the most important areas to start with? Please make sure that you're starting with basic tools, not multi tools.
+
+19
+00:02:33,660 --> 00:02:39,660
+They should understand the functions and the processes for each individual tool before you get the multi tool.
+
+20
+00:02:39,660 --> 00:02:46,660
+I've seen some users who are unaware of the difference between a dev tool and a logic tool. They just know that they need the tool, the multi tool to do everything.
+
+21
+00:02:46,660 --> 00:02:54,660
+Therefore, they continue to get confused, particularly when they go into logics and they don't know that they need another tool. Sometimes it gets confusing.
+
+22
+00:02:54,660 --> 00:03:03,660
+As for the dev tools, teach them all the usual standard processes with the dev tip. Don't forget gizmos.
+
+23
+00:03:03,660 --> 00:03:09,660
+Also, strangely, and I'll be doing a tutorial on this soon, don't forget telling people how the tool shelves work. I've seen some people just assume they do nothing.
+
+24
+00:03:09,660 --> 00:03:18,660
+The tool shelves are so cool and so fast for any tool-based development, and I don't see anyone using them, so make sure you use them. They're cool.
+
+25
+00:03:18,660 --> 00:03:24,660
+Scary guy says, actual question, not a suggestion. Disguised as a question.
+
+26
+00:03:24,660 --> 00:03:31,660
+If you move away from Unity, where are you moving to? See the previous answers to that in the office hour notes and various other conversations.
+
+27
+00:03:31,660 --> 00:03:36,660
+I don't really want to rehash them here, but we're looking into various engine types to move away from.
+
+28
+00:03:36,660 --> 00:03:44,660
+I don't really remember what the current plan is. That will be source currently, which I believe uses, like, forges. I don't remember.
+
+29
+00:03:44,660 --> 00:03:54,660
+It's not Unity, though. Yeah, forge branch known as source. It's like a branch that has a name and it kind of jumps around a little bit.
+
+30
+00:03:54,660 --> 00:04:00,660
+Yeah, forge is an engine and then branching it with source and adding stuff to it.
+
+31
+00:04:00,660 --> 00:04:06,660
+The goal being Unity is holding us back in more ways than I can count, so we need something better.
+
+32
+00:04:06,660 --> 00:04:19,660
+Yeah, be very careful about customized tools. Like I said, I don't want to keep hampering on multi-tools and custom inspectors, but you should know how to use the basic tools because they will teach you how to do stuff.
+
+33
+00:04:19,660 --> 00:04:28,660
+Whereas if you start throwing customized tooling and very complicated tools at them, sometimes it's more difficult to learn the right way.
+
+34
+00:04:28,660 --> 00:04:35,660
+For example, when people learn logics, they often start with, I want to make a gun. That's a common one. I want to make a gun in logics.
+
+35
+00:04:35,660 --> 00:04:41,660
+I would like you to start with, I want to add two numbers together in logics. That's how you learn logics, right? I want to add two numbers together. Let's start with that.
+
+36
+00:04:41,660 --> 00:04:48,660
+Make sure they can spawn the nodes. It shouldn't be at the point where if I'm helping a user and I'm like, oh, yeah, we'll need that node for it.
+
+37
+00:04:48,660 --> 00:04:54,660
+And they find the node, but they don't know how to spawn the node. Like, there isn't a point where we should get to.
+
+38
+00:04:54,660 --> 00:05:01,660
+Okay. We'll wait for additional questions. Specs as if you want to use a multi-tool, make sure you're using a minimal one. I do agree as well.
+
+39
+00:05:01,660 --> 00:05:08,660
+There are some multi-tools which add every single goddamn tool to them, and I literally only use two these days.
+
+40
+00:05:08,660 --> 00:05:16,660
+I use the dev tip and the logics tip. Even for materials, I hardly ever use the material tool tip these days because I want more control over it.
+
+41
+00:05:16,660 --> 00:05:26,660
+It's, again, the similar problem to the, like, showing new users too many things. You know, you're just like, hey, look, new user, there's, like, stuff everywhere.
+
+42
+00:05:26,660 --> 00:05:35,660
+There's the TikTok made by Kenatron, which is just, like, chill out. Let new users chill a little bit.
+
+43
+00:05:35,660 --> 00:05:42,660
+Always remember that new users, particularly those new users who are coming from VRChat, are used to sitting in front of a mirror all night.
+
+44
+00:05:42,660 --> 00:05:50,660
+And if you're suddenly throwing the entire world at them, it's going to be overwhelming. Yeah, that TikTok. That TikTok's amazing.
+
+45
+00:05:50,660 --> 00:06:03,660
+Also, double check that they know the various control names. We can't get to the point of teaching someone logics or development if they don't know the words primary, secondary, context, menu, and grab.
+
+46
+00:06:03,660 --> 00:06:11,660
+I've seen this, right? You know, I'm like, oh, yeah, to spawn the logics interface for that, you need to push secondary and they don't know what secondary is.
+
+47
+00:06:11,660 --> 00:06:16,660
+By default, it's on the home page of your dash and it's talked about in the tutorials.
+
+48
+00:06:16,660 --> 00:06:22,660
+Like, if they don't know those controls, they shouldn't be learning logics, sit with them and teach them the controls.
+
+49
+00:06:22,660 --> 00:06:31,660
+I will await additional questions. Scary guy asks, where have I been lately? Haven't seen you in any public worlds. Elsewhere. Full stop.
+
+50
+00:06:31,660 --> 00:06:41,660
+Question from Tiki who says, I've been playing with moving my gravity yesterday. When it's parented to my foot, it makes me respond to load an avatar. Would that be expected?
+
+51
+00:06:41,660 --> 00:06:48,660
+Not sure. It's not skipped. It's just if you post a giant image, it makes it difficult for me to immediately see a question.
+
+52
+00:06:48,660 --> 00:06:54,660
+I scroll up and down when I don't see any questions at the bottom and I get to them. All people remind me.
+
+53
+00:06:54,660 --> 00:07:03,660
+I have a giant monitor, yeah, but I don't have Discord maximized because Discord maximized is a great way to not do any work.
+
+54
+00:07:03,660 --> 00:07:09,660
+I don't know what that would be. Make sure you're parenting the entire grabber hierarchy.
+
+55
+00:07:09,660 --> 00:07:18,660
+Ideally, I would parent everything up to the actual anchor to your foot and then you make sure you get the whole object.
+
+56
+00:07:18,660 --> 00:07:29,660
+Also make sure that when you're parenting it, at no point does the grabber component leave your user root.
+
+57
+00:07:29,660 --> 00:07:36,660
+I've seen a few people that will parent it to other places via the root slot or something and that's just not necessary.
+
+58
+00:07:36,660 --> 00:07:46,660
+Parent it from one place directly to the other and you'll have less issues. If a grabber leaves your user root, it will disable itself.
+
+59
+00:07:46,660 --> 00:07:54,660
+And now we'll go to Russia's question, which I did miss.
+
+60
+00:07:54,660 --> 00:08:06,660
+Has there been any other projects similar to the Sydney...
+
+61
+00:08:06,660 --> 00:08:14,660
+Sorry, I reminded you of something. I'll post it in a second.
+
+62
+00:08:14,660 --> 00:08:20,660
+Has there been any other projects similar to the Sydney presentation you've been working on and talk about?
+
+63
+00:08:20,660 --> 00:08:26,660
+Constantly. There's about 400 of them. Which ones would you like to hear about?
+
+64
+00:08:26,660 --> 00:08:28,660
+Just constantly.
+
+65
+00:08:28,660 --> 00:08:34,660
+For those unaware, they're talking about the Sydney project, which I posted on my YouTube. I'll get you that link.
+
+66
+00:08:34,660 --> 00:08:40,660
+As well as the video I had immediately popped into my brain when I was thinking about my inability to speak.
+
+67
+00:08:40,660 --> 00:08:44,660
+Which made me giggle too much. Let's see.
+
+68
+00:08:44,660 --> 00:08:48,660
+So I should leave this link.
+
+69
+00:08:48,660 --> 00:08:50,660
+So here's the presentation.
+
+70
+00:08:50,660 --> 00:08:54,660
+And then this one. Yes, it's this one.
+
+71
+00:08:54,660 --> 00:08:58,660
+This one here is what I was thinking of when I couldn't speak English.
+
+72
+00:08:58,660 --> 00:09:02,660
+The various misspellings of pregnant.
+
+73
+00:09:02,660 --> 00:09:06,660
+Have I encountered the Dutch university people? No.
+
+74
+00:09:06,660 --> 00:09:10,660
+Occasionally I do. We used to have education and science meetings.
+
+75
+00:09:10,660 --> 00:09:14,660
+But we kind of ran out of stuff to talk about, basically.
+
+76
+00:09:14,660 --> 00:09:18,660
+And there was a lot of times where we would just talk about doing stuff, but not actually do stuff.
+
+77
+00:09:18,660 --> 00:09:26,660
+I kind of wanted to reintroduce those, but kind of make them a more show and tell style meeting.
+
+78
+00:09:26,660 --> 00:09:30,660
+Where it would be like, if you've got something to show, you can show it.
+
+79
+00:09:30,660 --> 00:09:34,660
+Otherwise, let's not have a meeting, because otherwise it's just talking.
+
+80
+00:09:34,660 --> 00:09:38,660
+I think there was one of them where it was an hour long.
+
+81
+00:09:38,660 --> 00:09:42,660
+And it was basically the equivalent of science is cool, yo.
+
+82
+00:09:42,660 --> 00:09:46,660
+For an hour. Moving on to Specs's question.
+
+83
+00:09:46,660 --> 00:09:50,660
+I was making a raw data tool tip object the other day and noticed the primary ball doesn't seem to toggle
+
+84
+00:09:50,660 --> 00:09:54,660
+if I press my trigger while holding the object with a laser.
+
+85
+00:09:54,660 --> 00:09:58,660
+Other values such as primary strength seem to update fine. Is this intended behavior?
+
+86
+00:09:58,660 --> 00:10:02,660
+Primary doesn't update if you hold your trigger while holding an object with the laser.
+
+87
+00:10:02,660 --> 00:10:12,660
+Well, I have the code base open, so let me just jump over to raw data tool tip and see what the hell drives primary.
+
+88
+00:10:12,660 --> 00:10:18,660
+All right. I'd have to look at the logic there. There's what's called a blocking mechanism,
+
+89
+00:10:18,660 --> 00:10:26,660
+which is where you can block if a primary goes through.
+
+90
+00:10:26,660 --> 00:10:30,660
+That's usually if you're holding something or things like that.
+
+91
+00:10:30,660 --> 00:10:36,660
+So primary's value is not primary blocked.
+
+92
+00:10:36,660 --> 00:10:44,660
+So primary is not blocked. Anded with the primary trigger value.
+
+93
+00:10:44,660 --> 00:10:48,660
+Doesn't make sense to me. I'd have to take a look at it.
+
+94
+00:10:48,660 --> 00:10:52,660
+Just reading this, it doesn't make sense.
+
+95
+00:10:52,660 --> 00:10:58,660
+If primary isn't reporting, then primary strength shouldn't be reporting.
+
+96
+00:10:58,660 --> 00:11:04,660
+Any future plans or ways someone might push the token gate component?
+
+97
+00:11:04,660 --> 00:11:07,660
+I think it only works on two tokens currently.
+
+98
+00:11:07,660 --> 00:11:10,660
+I don't know what you're referring to, the token gate component.
+
+99
+00:11:10,660 --> 00:11:13,660
+If you have the exact component name, that would help.
+
+100
+00:11:13,660 --> 00:11:18,660
+Because I don't know what that component is. We don't have a component by that name.
+
+101
+00:11:18,660 --> 00:11:22,660
+Moving forwards to fox box question. Hi there.
+
+102
+00:11:22,660 --> 00:11:29,660
+Last week my ESDB corrupted. I didn't recover it.
+
+103
+00:11:29,660 --> 00:11:33,660
+A few things was missing from my inventory.
+
+104
+00:11:33,660 --> 00:11:39,660
+I could not locate it. Also changed my favorite data.
+
+105
+00:11:39,660 --> 00:11:44,660
+Similar thing happened to my who lost a few avatar updates.
+
+106
+00:11:44,660 --> 00:11:49,660
+My question is if we are fully synced to the cloud, why were these assets lost?
+
+107
+00:11:49,660 --> 00:11:54,660
+I don't know without logs and individual circumstances there.
+
+108
+00:11:54,660 --> 00:11:58,660
+Unfortunately, wish I could answer better there.
+
+109
+00:11:58,660 --> 00:12:04,660
+But when it comes to database corruption and stuff like that, I need to look at logs and stuff.
+
+110
+00:12:04,660 --> 00:12:07,660
+That wasn't tagged to a question, scary, eh?
+
+111
+00:12:07,660 --> 00:12:12,660
+So I didn't look at it. Yes, it is a question.
+
+112
+00:12:12,660 --> 00:12:15,660
+Moving up.
+
+113
+00:12:15,660 --> 00:12:22,660
+Zari asks for any funny moments in code recently.
+
+114
+00:12:22,660 --> 00:12:27,660
+There was something. I'm just trying to remember what it was.
+
+115
+00:12:27,660 --> 00:12:32,660
+Not that I can remember funny enough to remember promptly.
+
+116
+00:12:32,660 --> 00:12:37,660
+Appearances. Oh, the token enabled component.
+
+117
+00:12:37,660 --> 00:12:42,660
+The token enabled component just sees if it's a token enabled build.
+
+118
+00:12:42,660 --> 00:12:47,660
+It cannot enable token related functionality on the steam build.
+
+119
+00:12:47,660 --> 00:12:52,660
+So the token enabled facet lets you know if tokens are enabled or not.
+
+120
+00:12:52,660 --> 00:12:57,660
+It wouldn't suit integration with other tokens because it is a yes or no.
+
+121
+00:12:57,660 --> 00:13:02,660
+It is are we allowed to use tokens on the steam build? Nope.
+
+122
+00:13:02,660 --> 00:13:07,660
+So I don't think adding additional tokens to that makes sense.
+
+123
+00:13:07,660 --> 00:13:12,660
+I think adding that component, are we on steam?
+
+124
+00:13:12,660 --> 00:13:17,660
+And it would be true, like, most of the time?
+
+125
+00:13:17,660 --> 00:13:19,660
+Like, are we on steam component?
+
+126
+00:13:19,660 --> 00:13:25,660
+Actually, because it's token enabled, it would be are we not on steam?
+
+127
+00:13:25,660 --> 00:13:27,660
+Yeah, yeah.
+
+128
+00:13:27,660 --> 00:13:30,660
+Ramp says do you have any favorite custom inspectors?
+
+129
+00:13:30,660 --> 00:13:32,660
+Oh, I do. I have my favorite.
+
+130
+00:13:32,660 --> 00:13:36,660
+My favorite custom inspector is the default inspector.
+
+131
+00:13:36,660 --> 00:13:38,660
+My favorite inspector.
+
+132
+00:13:38,660 --> 00:13:42,660
+I'll just scroll around, make sure I'm not forgetting anything.
+
+133
+00:13:42,660 --> 00:13:50,660
+Yeah, I've already changed one thing on the inspector so far, which is I lined up the fields.
+
+134
+00:13:50,660 --> 00:13:55,660
+That was a mod by RT, I believe, and I just implemented the mod directly into the game.
+
+135
+00:13:55,660 --> 00:13:58,660
+Which I plan to do with a lot of mods.
+
+136
+00:13:58,660 --> 00:14:00,660
+So that's cool.
+
+137
+00:14:00,660 --> 00:14:06,660
+I think it references the currency conversion node, which can only do NCR and USD currently.
+
+138
+00:14:06,660 --> 00:14:09,660
+Yeah, that one is probably never going to get more currency conversions.
+
+139
+00:14:09,660 --> 00:14:16,660
+Because strangely enough, the currency conversion rates of many things are tied behind really complicated APIs.
+
+140
+00:14:16,660 --> 00:14:19,660
+And a lot of those are like, hey, pay us money.
+
+141
+00:14:19,660 --> 00:14:23,660
+And I think it's a silly thing to pay money for, so no.
+
+142
+00:14:23,660 --> 00:14:30,660
+I know a couple of people have introduced UI that they've made themselves that does requests to external APIs to do that.
+
+143
+00:14:30,660 --> 00:14:35,660
+I think that's a much better use of that node than the currency conversion one.
+
+144
+00:14:35,660 --> 00:14:37,660
+It's just a bit problematic.
+
+145
+00:14:37,660 --> 00:14:40,660
+Lex asks for pet peeves ofNeos functionality.
+
+146
+00:14:40,660 --> 00:14:42,660
+Let's see, do you want to list? I'm going to list.
+
+147
+00:14:42,660 --> 00:14:44,660
+It will be a funny conversation.
+
+148
+00:14:44,660 --> 00:14:49,660
+I don't like how the input system isn't defined by standard key codes.
+
+149
+00:14:49,660 --> 00:14:53,660
+It's something weird in the middle of that, which means that my remap keyboard has a lot of issues.
+
+150
+00:14:53,660 --> 00:15:00,660
+So if you ever notice me on desktop deleting Bodgix nodes slowly, it's because my delete key literally will not be recognized by Neos,
+
+151
+00:15:00,660 --> 00:15:05,660
+but will be by 99% of the other applications that exist on my computer.
+
+152
+00:15:05,660 --> 00:15:08,660
+My delete key is actually pagedown.
+
+153
+00:15:08,660 --> 00:15:10,660
+That's what it's labeled on the keyboard.
+
+154
+00:15:10,660 --> 00:15:16,660
+But I have remapped it using the official Windows remapping functionality to delete Neosignals.
+
+155
+00:15:16,660 --> 00:15:18,660
+So that really annoys me.
+
+156
+00:15:18,660 --> 00:15:27,660
+The fact that for some reasons, something along the lines of, it's either Neos, asset imp, which is our asset importer,
+
+157
+00:15:27,660 --> 00:15:35,660
+or something in the middle there will turn my models inside out and flip them by 180 degrees when I import them for no reason.
+
+158
+00:15:35,660 --> 00:15:39,660
+I don't understand. That annoys me.
+
+159
+00:15:39,660 --> 00:15:43,660
+MRI and medical scan data has to be a unit cube.
+
+160
+00:15:43,660 --> 00:15:47,660
+It cannot be, you can of course make the unit cube bigger by scaling it, right?
+
+161
+00:15:47,660 --> 00:15:54,660
+What I mean is you cannot make a rectangular image, an MRI scan, which is problematic for anything other than head,
+
+162
+00:15:54,660 --> 00:16:01,660
+because every other body part pretty much is a rectangle, not a square.
+
+163
+00:16:01,660 --> 00:16:03,660
+That needs to be fixed for many reasons.
+
+164
+00:16:03,660 --> 00:16:09,660
+We got around with maths previously, but it was not pretty.
+
+165
+00:16:09,660 --> 00:16:12,660
+Let's see, what else have we got?
+
+166
+00:16:12,660 --> 00:16:19,660
+The value graph recorder will disable itself if you accidentally enter zero in some fields, which is really annoying.
+
+167
+00:16:19,660 --> 00:16:25,660
+It should just filter invalid values and default to like one instead of zero and breaking.
+
+168
+00:16:25,660 --> 00:16:27,660
+That's that.
+
+169
+00:16:27,660 --> 00:16:31,660
+Logics interface bug, but that annoys everyone.
+
+170
+00:16:31,660 --> 00:16:34,660
+Yeah, basically lots of that stuff.
+
+171
+00:16:34,660 --> 00:16:37,660
+Let's take a look.
+
+172
+00:16:37,660 --> 00:16:45,660
+You're more than welcome to do that.
+
+173
+00:16:45,660 --> 00:16:48,660
+I just don't think it's that useful.
+
+174
+00:16:48,660 --> 00:16:53,660
+Also ain't any first party support for crypto pending to be mute.
+
+175
+00:16:53,660 --> 00:17:00,660
+That depends on the ongoing issues, which I'm not going to discuss, because it brings down the whole mood of the place.
+
+176
+00:17:00,660 --> 00:17:07,660
+Speaking of API, there's only a future where Neos might be able to interact with Discord's API.
+
+177
+00:17:07,660 --> 00:17:10,660
+Beautiful question. I love this one, because it's often misunderstood.
+
+178
+00:17:10,660 --> 00:17:13,660
+Discord's API is only for bots.
+
+179
+00:17:13,660 --> 00:17:16,660
+They're restricting it further and further to bots.
+
+180
+00:17:16,660 --> 00:17:23,660
+Custom clients, as in clients which change how you receive Discord messages are not allowed by Discord's terms of service.
+
+181
+00:17:23,660 --> 00:17:28,660
+So at no point will Neos be making a Discord client inside of Neos.
+
+182
+00:17:28,660 --> 00:17:30,660
+That is not allowed.
+
+183
+00:17:30,660 --> 00:17:34,660
+We can make bots inside Neos, or we can make Logics nodes to allow you to make Discord bots.
+
+184
+00:17:34,660 --> 00:17:40,660
+But we can't display your messages inside Neos without breaking the terms of service of Discord.
+
+185
+00:17:40,660 --> 00:17:42,660
+So no, that's not going to happen.
+
+186
+00:17:42,660 --> 00:17:46,660
+I full on support Discord's terms of service in that regard.
+
+187
+00:17:46,660 --> 00:17:51,660
+I love it. I think it's great.
+
+188
+00:17:51,660 --> 00:17:57,660
+Custom clients are cool in some places, but if they make that, fantastic.
+
+189
+00:17:57,660 --> 00:18:03,660
+Sorry, but what if a bot reads the message and then duplicates itself into Neos?
+
+190
+00:18:03,660 --> 00:18:15,660
+That's possible, except reading the contents of a Discord message requires a specific permission,
+
+191
+00:18:15,660 --> 00:18:20,660
+which is being revoked from bots once they reach a certain level of service that they're in.
+
+192
+00:18:20,660 --> 00:18:22,660
+I believe it's 100 or 1000.
+
+193
+00:18:22,660 --> 00:18:28,660
+If you wish to read the message contents of any message on Discord, you need to apply for additional validation,
+
+194
+00:18:28,660 --> 00:18:31,660
+and that sometimes comes with a monetary cost.
+
+195
+00:18:31,660 --> 00:18:36,660
+This is because wherever possible, they're trying to move Discord over bots, at least,
+
+196
+00:18:36,660 --> 00:18:39,660
+to using the slash command rather than exclamation marks.
+
+197
+00:18:39,660 --> 00:18:44,660
+If your bot on your Discord server right now uses exclamation mark potato or whatever for your commands,
+
+198
+00:18:44,660 --> 00:18:48,660
+they want you to move over to slash-based commands, because on slash-based commands,
+
+199
+00:18:48,660 --> 00:18:55,660
+they are officially registered with Discord, and they don't require the bot to receive all of the text message that appears.
+
+200
+00:18:55,660 --> 00:19:00,660
+They only require the bot to receive the message when a slash command is used,
+
+201
+00:19:00,660 --> 00:19:02,660
+and I agree again with their policy there.
+
+202
+00:19:02,660 --> 00:19:07,660
+You could argue either way, but I agree with their way of doing it.
+
+203
+00:19:07,660 --> 00:19:13,660
+In fact, I once interviewed for the role at Discord that would be handling how those slash commands work for clients.
+
+204
+00:19:13,660 --> 00:19:20,660
+So, yeah. They also have auto-complete. They're also secure. They can also launch custom UI, all sorts of cool stuff.
+
+205
+00:19:20,660 --> 00:19:29,660
+Specs linked a bad Halo Ninja modification to headless, which has a Discord bot in it, which is cool.
+
+206
+00:19:29,660 --> 00:19:35,660
+Shadow says, with Discord now natively being integrated into Xbox, is there a chance that Discord will be integrated intoNeos?
+
+207
+00:19:35,660 --> 00:19:46,660
+No. No. So Xbox is humongous, and they've been working on the integration with Discord for months,
+
+208
+00:19:46,660 --> 00:19:52,660
+and they have special partnerships with them. There's probably paperwork set up. There might be money set up.
+
+209
+00:19:52,660 --> 00:19:55,660
+Some of the engineers working on the integration are friends of mine.
+
+210
+00:19:55,660 --> 00:20:00,660
+They obviously can't tell me all the details, because they're not allowed to,
+
+211
+00:20:00,660 --> 00:20:03,660
+but I do know that they've been working on it for quite a long time, and I know that they're proud of it.
+
+212
+00:20:03,660 --> 00:20:10,660
+I have friends that are on both sides of that as well. But essentially, no.
+
+213
+00:20:10,660 --> 00:20:16,660
+Mr. asks, is there going to be first party support for screen share? Yes, there is a GitHub issue open for that.
+
+214
+00:20:16,660 --> 00:20:22,660
+For those who are wondering why that's complicated, you need to remember that screen sharing is basically video,
+
+215
+00:20:22,660 --> 00:20:28,660
+and so sharing video is effectively streaming video, which I happen to be an expert on, and that is tricky.
+
+216
+00:20:28,660 --> 00:20:35,660
+You'll even see that Zari says, doesn't the desktop menu technically record that? No, it's not video.
+
+217
+00:20:35,660 --> 00:20:44,660
+It uses a desktop duplication API thingy, which is part of the Windows spec. It doesn't do video.
+
+218
+00:20:44,660 --> 00:20:52,660
+That's another common point. Even if that did do video, it's still not the big issue.
+
+219
+00:20:52,660 --> 00:20:58,660
+The big issue is getting that video and escorting it across the Internet.
+
+220
+00:20:58,660 --> 00:21:05,660
+When I said the word big issue, anyone who lives in the UK might have also giggled, but that's okay.
+
+221
+00:21:05,660 --> 00:21:08,660
+That's a bit of a UK meme for you.
+
+222
+00:21:08,660 --> 00:21:13,660
+Slinker, I worked for Beam, so I'm going to tell you a really big secret here.
+
+223
+00:21:13,660 --> 00:21:22,660
+FTL wasn't actually cool at all. FTL was just WebRTC over Nginx.
+
+224
+00:21:22,660 --> 00:21:30,660
+We had to brand it, of course, but it's basic technology now.
+
+225
+00:21:30,660 --> 00:21:37,660
+Loads of people do FTL right now.
+
+226
+00:21:37,660 --> 00:21:44,660
+It's good, but most of the FTL stack was just straight WebRTC code.
+
+227
+00:21:44,660 --> 00:21:51,660
+The entire team at Vixxer were dealing with WebRTC.
+
+228
+00:21:51,660 --> 00:21:56,660
+On a lot of streaming platforms now, you'll get speeds close or similar to FTL.
+
+229
+00:21:56,660 --> 00:21:59,660
+They're just not labeled as FTL.
+
+230
+00:21:59,660 --> 00:22:06,660
+There's no further questions. I'm going to go ahead and close it off now.
+
+231
+00:22:06,660 --> 00:22:09,660
+Okay, you've got precisely a minute.
+
+232
+00:22:09,660 --> 00:22:13,660
+You've got one minute, Slinker. You better type faster.
+
+233
+00:22:13,660 --> 00:22:19,660
+Prime, what is your favorite Ben & Jerry's? Don't know.
+
+234
+00:22:19,660 --> 00:22:22,660
+Ben & Jerry's is also incredibly overpriced.
+
+235
+00:22:22,660 --> 00:22:29,660
+You might as well just go buy a bag of candy and buy a box of vanilla ice cream.
+
+236
+00:22:29,660 --> 00:22:34,660
+Mix the two together and you've saved yourself a lot of money.
+
+237
+00:22:34,660 --> 00:22:37,660
+I'll go ahead and leave things off here and I will speak to you later.
+
+238
+00:22:37,660 --> 00:22:41,660
+If you have any further questions, please drop them in.
+
+239
+00:22:41,660 --> 00:22:44,660
+There is a missed question. Okay, cool, we'll get it.
+
+240
+00:22:44,660 --> 00:22:47,660
+I'm sorry, we'll get it. Sorry, it wasn't tagged.
+
+241
+00:22:47,660 --> 00:22:53,660
+Maybe it was and I missed it. I'm sorry, Lucas, I'm sorry.
+
+242
+00:22:53,660 --> 00:23:01,660
+Lucas, is there going to be any new features, updates on the Unity engine version of Neos?
+
+243
+00:23:01,660 --> 00:23:08,660
+Yeah, we intend to update as many things as we can, but we are still trying to move off Unity.
+
+244
+00:23:08,660 --> 00:23:11,660
+It's not that we are waiting to move off Unity before we do updates.
+
+245
+00:23:11,660 --> 00:23:15,660
+Those things are totally separate. I went Scottish for a second.
+
+246
+00:23:15,660 --> 00:23:31,660
+Okay, I will see you guys later. Bye bye.
+

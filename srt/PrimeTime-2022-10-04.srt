@@ -1,0 +1,3828 @@
+1
+0:00:00.000 --> 0:00:02.160
+All right, now it's four.
+
+2
+0:00:02.160 --> 0:00:03.680
+Welcome to Office Hours.
+
+3
+0:00:03.680 --> 0:00:06.120
+This is the half-hour segment where I answer
+
+4
+0:00:06.120 --> 0:00:07.700
+questions from chat and
+
+5
+0:00:07.700 --> 0:00:09.560
+everyone else that questions up here.
+
+6
+0:00:09.560 --> 0:00:10.840
+We have one question waiting,
+
+7
+0:00:10.840 --> 0:00:13.080
+so I'll go ahead and just jump straight into that.
+
+8
+0:00:13.080 --> 0:00:16.040
+We are recording, yep, so you'll hear on the recording.
+
+9
+0:00:16.520 --> 0:00:20.200
+I can ask, is there a way to merge changes between two worlds?
+
+10
+0:00:20.200 --> 0:00:22.200
+For example, I have version one and I publish it,
+
+11
+0:00:22.200 --> 0:00:25.080
+but I want to work on version 1.1 over a few weeks,
+
+12
+0:00:25.080 --> 0:00:26.920
+so I save a copy of that world to work on.
+
+13
+0:00:26.920 --> 0:00:28.240
+Once done, is it possible to merge
+
+14
+0:00:28.240 --> 0:00:30.400
+those changes back to the published world?
+
+15
+0:00:30.400 --> 0:00:36.360
+Yes and no. There's no way to merge it at the world level,
+
+16
+0:00:36.360 --> 0:00:37.560
+so there's no UI for that,
+
+17
+0:00:37.560 --> 0:00:40.200
+there's no feature for that that can happen.
+
+18
+0:00:40.200 --> 0:00:42.460
+But if you do a good practice,
+
+19
+0:00:42.460 --> 0:00:44.040
+which is where everything in a world is
+
+20
+0:00:44.040 --> 0:00:46.440
+parented to a slot other than root,
+
+21
+0:00:46.440 --> 0:00:48.560
+then you can go ahead and
+
+22
+0:00:48.560 --> 0:00:51.240
+just transfer that slot between the worlds,
+
+23
+0:00:51.240 --> 0:00:55.200
+and that will allow you to merge those changes in.
+
+24
+0:00:55.200 --> 0:00:59.560
+Version management on worlds is something that we need to do
+
+25
+0:00:59.560 --> 0:01:01.520
+a lot more work on as a team at
+
+26
+0:01:01.520 --> 0:01:04.280
+NEEUS to make it a lot easier to figure out.
+
+27
+0:01:04.280 --> 0:01:06.960
+I am plagued by
+
+28
+0:01:06.960 --> 0:01:09.960
+people doing that in a way that doesn't really make sense to me.
+
+29
+0:01:09.960 --> 0:01:12.000
+So when I make a world, I have one world,
+
+30
+0:01:12.000 --> 0:01:16.480
+and if I publish it and I break it, I'll just fix it.
+
+31
+0:01:16.480 --> 0:01:22.080
+So I don't maintain multiple versions of worlds.
+
+32
+0:01:22.080 --> 0:01:24.120
+Additionally, I practice something which I really
+
+33
+0:01:24.120 --> 0:01:26.760
+wish many, many, many more people would practice,
+
+34
+0:01:26.760 --> 0:01:29.320
+which is you don't need to save
+
+35
+0:01:29.320 --> 0:01:34.760
+the world if you're just saving bits of it.
+
+36
+0:01:34.760 --> 0:01:36.520
+So example here being,
+
+37
+0:01:36.520 --> 0:01:41.520
+you're in a tavern world and you've edited the drink system.
+
+38
+0:01:41.520 --> 0:01:44.440
+Just save the drink system and then replace that in the world.
+
+39
+0:01:44.440 --> 0:01:47.080
+You don't need to save another copy of the world,
+
+40
+0:01:47.080 --> 0:01:48.120
+and then that makes it easier.
+
+41
+0:01:48.120 --> 0:01:50.920
+You just go into the published world once you're
+
+42
+0:01:50.920 --> 0:01:52.320
+aware that your new drink system
+
+43
+0:01:52.320 --> 0:01:54.600
+works and you replace the drinks.
+
+44
+0:01:54.600 --> 0:01:58.680
+Stop treating the world
+
+45
+0:01:58.680 --> 0:02:01.520
+as a big circle and save parts of it.
+
+46
+0:02:01.520 --> 0:02:05.440
+I always have little bits of the world which I can then load in,
+
+47
+0:02:05.440 --> 0:02:07.640
+position, update, and it makes it a lot
+
+48
+0:02:07.640 --> 0:02:10.560
+easier because you can just save stuff to the inventory.
+
+49
+0:02:10.560 --> 0:02:12.400
+I've got one world on the go right now for
+
+50
+0:02:12.400 --> 0:02:16.480
+some science where we're doing eye testing.
+
+51
+0:02:16.480 --> 0:02:18.600
+So we're testing your vision and stuff like that.
+
+52
+0:02:18.600 --> 0:02:21.600
+Really, really cool. Many players have eye-tracked headsets,
+
+53
+0:02:21.600 --> 0:02:22.760
+but I do let me know.
+
+54
+0:02:22.760 --> 0:02:25.080
+I'm keeping a list for future times.
+
+55
+0:02:25.080 --> 0:02:26.320
+Anyway, the point being is
+
+56
+0:02:26.320 --> 0:02:27.960
+that there are components of that world.
+
+57
+0:02:27.960 --> 0:02:29.840
+There is the system which records
+
+58
+0:02:29.840 --> 0:02:32.440
+the data from your eye-tracked headset.
+
+59
+0:02:32.480 --> 0:02:40.120
+There is the way to do those eye movements.
+
+60
+0:02:40.120 --> 0:02:42.040
+So it's basically like it makes a dot move and
+
+61
+0:02:42.040 --> 0:02:44.360
+you've got to follow them in case it's a separate system.
+
+62
+0:02:44.360 --> 0:02:46.440
+There's a system which can block one eye or
+
+63
+0:02:46.440 --> 0:02:49.320
+the other eye such that we're only testing the left or right eye.
+
+64
+0:02:49.320 --> 0:02:51.640
+That's, again, separate. All those parts are separate.
+
+65
+0:02:51.640 --> 0:02:53.360
+If I update them, I just replace them in
+
+66
+0:02:53.360 --> 0:02:55.240
+the world and they work because they're all separate.
+
+67
+0:02:55.240 --> 0:02:56.840
+Shifty has updated me saying that
+
+68
+0:02:56.840 --> 0:02:59.360
+the world overwrite function is not working.
+
+69
+0:02:59.360 --> 0:03:01.600
+I forgot that that button existed,
+
+70
+0:03:01.600 --> 0:03:02.880
+but probably because it's broken,
+
+71
+0:03:02.880 --> 0:03:04.080
+it left my brain.
+
+72
+0:03:04.080 --> 0:03:07.240
+So do take a look at that particular issue which may
+
+73
+0:03:07.240 --> 0:03:10.680
+help with overwriting worlds and versions and stuff like that.
+
+74
+0:03:10.680 --> 0:03:14.280
+It is 3044 for the reference.
+
+75
+0:03:14.280 --> 0:03:15.880
+Yeah, it's a thing.
+
+76
+0:03:15.880 --> 0:03:18.120
+There's an enter button.
+
+77
+0:03:18.120 --> 0:03:22.000
+It's like a square with an arrow in it and it can overwrite worlds.
+
+78
+0:03:22.000 --> 0:03:26.880
+I forgot it existed because I've never used it because it was broken.
+
+79
+0:03:26.880 --> 0:03:31.080
+It's weird. If you own a house,
+
+80
+0:03:31.080 --> 0:03:32.800
+I guarantee, well, also if you rent,
+
+81
+0:03:32.800 --> 0:03:35.600
+but basically, and maybe even if you just have a room in the house.
+
+82
+0:03:35.600 --> 0:03:36.920
+Anyway, the point being,
+
+83
+0:03:36.920 --> 0:03:40.000
+there is something that you need to do that you haven't
+
+84
+0:03:40.000 --> 0:03:43.400
+done for so long you've just forgotten that it exists.
+
+85
+0:03:43.400 --> 0:03:46.280
+If you own a house, it's usually something like cleaning the gutters.
+
+86
+0:03:46.280 --> 0:03:51.640
+But that's an example of that problem that you can relate to.
+
+87
+0:03:51.640 --> 0:03:56.040
+Just forgetting about something because it's been broken for so long.
+
+88
+0:03:56.040 --> 0:03:59.040
+No, it's not that button.
+
+89
+0:03:59.040 --> 0:04:03.160
+Maybe it is that button. I'll just stop talking about that feature because evidently,
+
+90
+0:04:03.160 --> 0:04:04.280
+I don't know how it works,
+
+91
+0:04:04.280 --> 0:04:05.600
+but I thought that's the one that did it.
+
+92
+0:04:05.600 --> 0:04:08.360
+Anyway, there is a way to do it.
+
+93
+0:04:08.360 --> 0:04:10.160
+Check that GitHub issue for information.
+
+94
+0:04:10.160 --> 0:04:12.000
+That's issue 3044.
+
+95
+0:04:12.000 --> 0:04:14.880
+Moving onwards to additional questions.
+
+96
+0:04:14.880 --> 0:04:17.920
+Duff asks, what is Prime's preference of drink while playing Neo?
+
+97
+0:04:17.920 --> 0:04:21.960
+So what advice would you like to share to those who are drinking age while drinking in VR?
+
+98
+0:04:21.960 --> 0:04:24.320
+If you have a face tracker, get a straw.
+
+99
+0:04:24.320 --> 0:04:27.560
+I have taken to drinking tea with a straw,
+
+100
+0:04:27.560 --> 0:04:29.840
+which is very strange, but there we go.
+
+101
+0:04:29.840 --> 0:04:32.240
+When I first got the face tracker and
+
+102
+0:04:32.240 --> 0:04:34.880
+strapped it to the front of my headset via various means,
+
+103
+0:04:34.880 --> 0:04:37.160
+I was constantly just punching it in the face,
+
+104
+0:04:37.160 --> 0:04:41.640
+and that was just problematic.
+
+105
+0:04:41.640 --> 0:04:43.840
+I've learned now I need to reach around it,
+
+106
+0:04:43.840 --> 0:04:45.280
+and a straw does help with that.
+
+107
+0:04:45.280 --> 0:04:49.880
+Generically, a straw does help when you are drinking anything in VR.
+
+108
+0:04:49.880 --> 0:04:52.680
+I don't tend to drink alcohol these days.
+
+109
+0:04:52.680 --> 0:04:56.040
+It's not out of any preference or need or medical stuff like that.
+
+110
+0:04:56.040 --> 0:04:59.240
+It's just it's expensive and I am unable to get drunk.
+
+111
+0:04:59.240 --> 0:05:02.400
+I can bathe in alcohol and still be not drunk.
+
+112
+0:05:02.400 --> 0:05:04.240
+So there's no point.
+
+113
+0:05:04.240 --> 0:05:05.760
+Does it taste better in some cases?
+
+114
+0:05:05.760 --> 0:05:08.160
+Yes. In the majority cases, no.
+
+115
+0:05:08.160 --> 0:05:09.800
+So there's no real point.
+
+116
+0:05:09.800 --> 0:05:11.440
+I managed to quit soda as well.
+
+117
+0:05:11.440 --> 0:05:15.360
+Soda is incredibly addictive and if you are a regular soda drinker,
+
+118
+0:05:15.360 --> 0:05:17.680
+you're probably just addicted to it.
+
+119
+0:05:18.400 --> 0:05:20.680
+I was on regular soda, of course,
+
+120
+0:05:20.680 --> 0:05:24.000
+growing up because that's kids and we don't really care about our health.
+
+121
+0:05:24.000 --> 0:05:25.360
+But then when growing up, I'm like,
+
+122
+0:05:25.360 --> 0:05:27.480
+hey, that's unhealthy, I should switch to diet.
+
+123
+0:05:27.480 --> 0:05:29.200
+So I was on diet soda for many years,
+
+124
+0:05:29.200 --> 0:05:32.560
+and then I realized how addictive it was when I stopped drinking it for a while,
+
+125
+0:05:32.560 --> 0:05:35.160
+just randomly, and then went back to it and it was gross.
+
+126
+0:05:35.160 --> 0:05:38.440
+I hadn't drunk soda in forever and I drank it again.
+
+127
+0:05:38.440 --> 0:05:39.960
+I'm like, this is gross.
+
+128
+0:05:39.960 --> 0:05:46.120
+I was just addicted to the random components of the soda.
+
+129
+0:05:46.120 --> 0:05:49.080
+So yeah, it's usually just water and tea these days.
+
+130
+0:05:49.080 --> 0:05:53.680
+Although I do, I have joined the cold coffee.
+
+131
+0:05:53.680 --> 0:05:55.320
+Everyone's like, it's cold brew.
+
+132
+0:05:55.320 --> 0:05:58.800
+I'm like, no, I just stir cold water into instant coffee,
+
+133
+0:05:58.800 --> 0:06:02.400
+and that's cold brew as far as I'm concerned as well.
+
+134
+0:06:02.400 --> 0:06:04.720
+That is purely for caffeine.
+
+135
+0:06:04.720 --> 0:06:10.160
+I will like stir cold water into coffee, instant coffee, and then just chug it.
+
+136
+0:06:10.160 --> 0:06:12.240
+And that's how I start my day these days.
+
+137
+0:06:12.240 --> 0:06:18.240
+I will not join the Starbucks frappe whip caramel banana sprinkles,
+
+138
+0:06:18.240 --> 0:06:20.480
+pumpy squirty sauce crew.
+
+139
+0:06:20.480 --> 0:06:21.800
+That's just crazy.
+
+140
+0:06:21.800 --> 0:06:26.640
+There's a meme image I can never find where it's like a two panel comic
+
+141
+0:06:26.640 --> 0:06:31.680
+and it's someone holding like a really big fancy frappe style drink.
+
+142
+0:06:31.680 --> 0:06:36.560
+And the speech bubble says, I'm just not me without my coffee in the morning.
+
+143
+0:06:36.560 --> 0:06:40.000
+And then the next panel of this comic is like a breakdown of what's in the drink.
+
+144
+0:06:40.000 --> 0:06:42.040
+And it's like less than 1% coffee.
+
+145
+0:06:42.040 --> 0:06:44.200
+The rest of it is just like pure sugar.
+
+146
+0:06:44.200 --> 0:06:48.680
+And so the meaning being, they're looking for the sugar.
+
+147
+0:06:48.680 --> 0:06:51.360
+They're not looking for the caffeine, but I can't find that comic.
+
+148
+0:06:51.360 --> 0:06:54.560
+So if anyone wants to sort of Google through that, fantastic.
+
+149
+0:06:54.560 --> 0:06:55.640
+Thank you.
+
+150
+0:06:55.640 --> 0:06:56.800
+We don't have any other questions.
+
+151
+0:06:56.800 --> 0:06:59.760
+Hence why I'm talking about coffee and things like that.
+
+152
+0:06:59.760 --> 0:07:03.120
+So actually I can comment on Epic Eastern who says,
+
+153
+0:07:03.120 --> 0:07:04.440
+Prime, you are the funny source code man.
+
+154
+0:07:04.440 --> 0:07:06.160
+You're supposed to know everything.
+
+155
+0:07:06.160 --> 0:07:08.320
+I don't know anything, everything.
+
+156
+0:07:08.320 --> 0:07:12.880
+There are like thousands of files and like,
+
+157
+0:07:12.880 --> 0:07:14.720
+I'm not sure like Fruits knows all of them.
+
+158
+0:07:14.720 --> 0:07:16.080
+Of course he can like remember them.
+
+159
+0:07:16.080 --> 0:07:18.520
+It's like, you know, when you hear like a familiar tune and you're like,
+
+160
+0:07:18.520 --> 0:07:20.040
+Oh yeah, I have listened to that before,
+
+161
+0:07:20.040 --> 0:07:22.160
+but I don't remember how the tune went.
+
+162
+0:07:22.160 --> 0:07:23.840
+That's because it's not being used.
+
+163
+0:07:23.840 --> 0:07:25.320
+The memory is kind of like fainter.
+
+164
+0:07:25.320 --> 0:07:27.480
+So I'm quite certain there are parts of Neos,
+
+165
+0:07:27.480 --> 0:07:29.880
+which are like at the back of Fruits's head.
+
+166
+0:07:29.880 --> 0:07:32.000
+And he won't remember as well.
+
+167
+0:07:32.000 --> 0:07:34.680
+So it's normal to not know.
+
+168
+0:07:34.680 --> 0:07:38.360
+Like I found out the other day, you know, the Neos launcher,
+
+169
+0:07:38.360 --> 0:07:41.720
+like the old one, not the new one, like the old, old one,
+
+170
+0:07:41.720 --> 0:07:43.880
+the one that actually, you know, do various stuff.
+
+171
+0:07:43.880 --> 0:07:46.320
+I'll just get a picture of it for reference.
+
+172
+0:07:46.320 --> 0:07:48.200
+No, that took a picture of just the Neos logo
+
+173
+0:07:48.200 --> 0:07:49.640
+at the top of it.
+
+174
+0:07:49.640 --> 0:07:52.080
+The purple logo on that is a good distinction.
+
+175
+0:07:52.080 --> 0:07:54.480
+So you have like four of them right now.
+
+176
+0:07:54.480 --> 0:07:56.520
+Yeah, the purple logo one.
+
+177
+0:07:56.520 --> 0:07:58.280
+The purple logo one.
+
+178
+0:07:58.280 --> 0:08:00.160
+Lots of people are using, you see what it says?
+
+179
+0:08:00.160 --> 0:08:02.840
+Use custom bootstrap class right at the bottom there.
+
+180
+0:08:02.840 --> 0:08:06.760
+Use custom bootstrap class isn't meant for what
+
+181
+0:08:06.760 --> 0:08:09.080
+people are using it for.
+
+182
+0:08:09.080 --> 0:08:11.240
+Like what people are doing is they're checking that
+
+183
+0:08:11.240 --> 0:08:14.440
+and then they put in command line arguments.
+
+184
+0:08:14.440 --> 0:08:17.320
+And this works, but it's a bug that it works.
+
+185
+0:08:17.320 --> 0:08:19.400
+It's not meant to work.
+
+186
+0:08:19.400 --> 0:08:24.920
+It's like, it's a bug.
+
+187
+0:08:24.920 --> 0:08:27.920
+So the custom bootstrap text box is actually meant
+
+188
+0:08:27.920 --> 0:08:29.880
+to provide a custom bootstrap class,
+
+189
+0:08:29.880 --> 0:08:31.960
+which no one to my knowledge has done.
+
+190
+0:08:31.960 --> 0:08:33.600
+I think Neos classroom does it.
+
+191
+0:08:33.600 --> 0:08:36.440
+And like one other business thing we did back in the day
+
+192
+0:08:36.440 --> 0:08:39.440
+did it, but that's actually a way for you to,
+
+193
+0:08:40.840 --> 0:08:42.280
+in addition to plugins,
+
+194
+0:08:42.280 --> 0:08:47.280
+it's a way for you to customize how Neos launches.
+
+195
+0:08:47.280 --> 0:08:48.120
+So if you do that,
+
+196
+0:08:48.120 --> 0:08:49.600
+and there's no documentation on how to do it.
+
+197
+0:08:49.600 --> 0:08:50.600
+So if you're interested, let me know.
+
+198
+0:08:50.600 --> 0:08:51.560
+I'll write some documentation,
+
+199
+0:08:51.560 --> 0:08:53.000
+but like no one has used this feature
+
+200
+0:08:53.000 --> 0:08:54.200
+as far as I'm aware.
+
+201
+0:08:54.200 --> 0:08:58.960
+It will allow you to change the startup routine.
+
+202
+0:08:58.960 --> 0:09:01.760
+So the startup routine will be like,
+
+203
+0:09:01.760 --> 0:09:04.080
+yo, I'm going to do this stuff.
+
+204
+0:09:04.080 --> 0:09:06.440
+So it checks and logs you in.
+
+205
+0:09:06.440 --> 0:09:11.040
+It fetches your avatar, does a bunch of stuff like that.
+
+206
+0:09:11.040 --> 0:09:13.160
+With that custom bootstrap class option,
+
+207
+0:09:13.160 --> 0:09:15.520
+you can basically say, no, don't do that.
+
+208
+0:09:15.520 --> 0:09:17.400
+Instead, open this very specific world,
+
+209
+0:09:17.400 --> 0:09:19.400
+load this specific avatar into this world
+
+210
+0:09:19.400 --> 0:09:21.040
+and do not connect on the Neos cloud.
+
+211
+0:09:21.040 --> 0:09:24.680
+That's what you could do with that bootstrap class.
+
+212
+0:09:24.680 --> 0:09:25.840
+It is a bug.
+
+213
+0:09:27.520 --> 0:09:29.200
+It's a bug.
+
+214
+0:09:29.200 --> 0:09:30.840
+Great.
+
+215
+0:09:30.840 --> 0:09:32.040
+I know you guys are using it.
+
+216
+0:09:32.040 --> 0:09:34.800
+It will continue to work because by the time we fix it,
+
+217
+0:09:34.800 --> 0:09:38.640
+we'll have something as an alternate there that will work
+
+218
+0:09:38.640 --> 0:09:40.680
+or maybe we'll just place another checkbox with it
+
+219
+0:09:40.680 --> 0:09:44.480
+or whatever, but it is quite literally a bug.
+
+220
+0:09:44.480 --> 0:09:47.720
+So yeah, that was just some random anecdote.
+
+221
+0:09:47.720 --> 0:09:50.400
+Ruscio, it's fine that you put the questions in here.
+
+222
+0:09:50.400 --> 0:09:52.360
+I know it's different for this week.
+
+223
+0:09:52.360 --> 0:09:54.280
+Ruscio dropped a question in the regular chat.
+
+224
+0:09:54.280 --> 0:09:55.640
+We're putting questions in threads,
+
+225
+0:09:55.640 --> 0:09:57.560
+just trying to keep things organized.
+
+226
+0:09:57.560 --> 0:10:00.320
+I will accept the question outside of the thread,
+
+227
+0:10:00.320 --> 0:10:02.320
+but just keep the next subsequent questions
+
+228
+0:10:02.320 --> 0:10:04.120
+in the thread. Thank you.
+
+229
+0:10:04.120 --> 0:10:05.440
+Let's move forward on questions
+
+230
+0:10:05.440 --> 0:10:06.880
+rather than talking about coffee,
+
+231
+0:10:06.880 --> 0:10:11.640
+although Dier recommends French press for cold brew.
+
+232
+0:10:11.640 --> 0:10:13.200
+I used to have a French press machine.
+
+233
+0:10:13.200 --> 0:10:17.360
+It worked on 240 volts, so I couldn't bring it here.
+
+234
+0:10:17.360 --> 0:10:18.600
+Scary guy for asking a question.
+
+235
+0:10:18.600 --> 0:10:21.280
+It goes in the thread.
+
+236
+0:10:21.280 --> 0:10:23.680
+Thank you for the memes here. Cool.
+
+237
+0:10:23.680 --> 0:10:25.480
+Okay, let me just double-check that we're not missing
+
+238
+0:10:25.480 --> 0:10:27.920
+in questions before I go to the ones that are at the bottom.
+
+239
+0:10:27.920 --> 0:10:29.120
+Okay, so we'll go for Duff's first.
+
+240
+0:10:29.120 --> 0:10:31.240
+Duff came before Ruscio, so Duff, Ruscio,
+
+241
+0:10:31.240 --> 0:10:33.240
+and then whoever types the question next. Excellent.
+
+242
+0:10:33.240 --> 0:10:37.960
+So Duff says, what would you say at what point
+
+243
+0:10:37.960 --> 0:10:41.240
+would NeosModerator take initiative disciplinary action
+
+244
+0:10:41.240 --> 0:10:45.560
+without the use pre-resc of a moderation ticket to be inputted?
+
+245
+0:10:45.560 --> 0:10:51.320
+I will defer to the response which Git gave
+
+246
+0:10:51.320 --> 0:10:52.840
+at the previous moderation office hours,
+
+247
+0:10:52.840 --> 0:10:54.360
+which I'm going to quote from memory,
+
+248
+0:10:54.360 --> 0:10:56.760
+so please do check the notes for the official commentary
+
+249
+0:10:56.760 --> 0:10:59.160
+from the moderation team,
+
+250
+0:10:59.160 --> 0:11:03.120
+but that the moderation team can issue temporary restrictions
+
+251
+0:11:03.120 --> 0:11:06.480
+which are designed to just de-escalate the situation.
+
+252
+0:11:06.480 --> 0:11:11.760
+So that might be just like a temporary public ban
+
+253
+0:11:11.760 --> 0:11:13.440
+so people can't join public sessions,
+
+254
+0:11:13.440 --> 0:11:17.200
+which they then are required to follow up with a ticket
+
+255
+0:11:17.200 --> 0:11:18.920
+such that there is a record of it
+
+256
+0:11:18.920 --> 0:11:20.960
+where a discussion and proper ticket process
+
+257
+0:11:20.960 --> 0:11:26.920
+will happen about maybe extending that to a longer period.
+
+258
+0:11:26.920 --> 0:11:31.360
+So a good example there might be hate talking
+
+259
+0:11:31.360 --> 0:11:33.320
+about moderation things because of stuff like this,
+
+260
+0:11:33.320 --> 0:11:34.800
+but I'll just think of an example.
+
+261
+0:11:34.800 --> 0:11:38.040
+So let's say harassment, right? Let's say sexual harassment.
+
+262
+0:11:38.040 --> 0:11:40.840
+So that happens. I would, as a moderator,
+
+263
+0:11:40.840 --> 0:11:42.400
+I would issue a temporary ban,
+
+264
+0:11:42.400 --> 0:11:43.520
+and then I would open up a ticket
+
+265
+0:11:43.520 --> 0:11:45.840
+where we could discuss what happened next.
+
+266
+0:11:45.840 --> 0:11:48.480
+It's important to remember that moderators are not beat cops.
+
+267
+0:11:48.480 --> 0:11:52.000
+They're not designed to go around and police sessions.
+
+268
+0:11:52.000 --> 0:11:55.440
+They're also not designed to get in their squad cars
+
+269
+0:11:55.440 --> 0:11:58.120
+and, you know, blip up and down the road
+
+270
+0:11:58.120 --> 0:12:00.080
+that's next to my house at like 4 a.m.
+
+271
+0:12:00.080 --> 0:12:02.040
+with their, like, sirens on,
+
+272
+0:12:02.040 --> 0:12:03.400
+but not the sirens that are regular.
+
+273
+0:12:03.400 --> 0:12:06.200
+You know the, like, intense sirens they do sometimes,
+
+274
+0:12:06.200 --> 0:12:08.280
+the more high-pitched ones?
+
+275
+0:12:08.280 --> 0:12:09.800
+Usually when someone's in their way,
+
+276
+0:12:09.800 --> 0:12:11.240
+they're just, like, going up and down the road
+
+277
+0:12:11.240 --> 0:12:13.480
+outside my apartment all the night doing that.
+
+278
+0:12:13.480 --> 0:12:14.760
+I don't know why.
+
+279
+0:12:14.760 --> 0:12:16.880
+Anyway, moderators are not designed to do that.
+
+280
+0:12:16.880 --> 0:12:18.240
+Yeah, we're going to try it.
+
+281
+0:12:18.240 --> 0:12:19.960
+I think it'll be better for, like,
+
+282
+0:12:19.960 --> 0:12:22.160
+scrolling through the office hours.
+
+283
+0:12:22.160 --> 0:12:25.200
+I'm sorry. We're talking about the threads for questions
+
+284
+0:12:25.200 --> 0:12:26.920
+because, to me, even when I scroll back,
+
+285
+0:12:26.920 --> 0:12:29.720
+it's kind of difficult to see when one starts and one ends.
+
+286
+0:12:29.720 --> 0:12:32.760
+There's usually a lot of messages which are around the area,
+
+287
+0:12:32.760 --> 0:12:34.280
+you know, from the people hosting office hours,
+
+288
+0:12:34.280 --> 0:12:35.440
+but sometimes they're harder to miss,
+
+289
+0:12:35.440 --> 0:12:38.360
+so maybe threads will be better.
+
+290
+0:12:38.360 --> 0:12:39.840
+I don't know. We're just trying it.
+
+291
+0:12:39.840 --> 0:12:43.680
+It's a request. I think it's a good idea, so we'll try it.
+
+292
+0:12:43.680 --> 0:12:45.480
+Moving on to Risio's question, which is next,
+
+293
+0:12:45.480 --> 0:12:46.800
+which is, in the Creator Jam 4 last,
+
+294
+0:12:46.800 --> 0:12:48.400
+we're looking for a way to produce custom curves
+
+295
+0:12:48.400 --> 0:12:51.200
+and start checking out the Bezier curve component points
+
+296
+0:12:51.200 --> 0:12:52.200
+in the curve tip.
+
+297
+0:12:52.200 --> 0:12:53.360
+They seem to work by themselves,
+
+298
+0:12:53.360 --> 0:12:54.600
+but there's also felt incomplete
+
+299
+0:12:54.600 --> 0:12:56.320
+as there's no way to clear the gizmos
+
+300
+0:12:56.320 --> 0:13:01.600
+beside manually detailing, manually, manually deleting them.
+
+301
+0:13:01.600 --> 0:13:02.960
+Are there any further enhancements planned
+
+302
+0:13:02.960 --> 0:13:03.920
+for these components that you know of?
+
+303
+0:13:03.920 --> 0:13:04.760
+No.
+
+304
+0:13:04.760 --> 0:13:07.240
+The curve tip is actually a really old one.
+
+305
+0:13:07.240 --> 0:13:08.720
+You can tell that just by inspecting it.
+
+306
+0:13:08.720 --> 0:13:09.960
+You can also tell it by reading the code.
+
+307
+0:13:09.960 --> 0:13:11.800
+Like, it's ancient.
+
+308
+0:13:11.800 --> 0:13:15.080
+So there isn't anything planned to address that yet.
+
+309
+0:13:15.080 --> 0:13:16.200
+I think we had...
+
+310
+0:13:16.200 --> 0:13:18.840
+Like, when I mentioned the curve tip previously to Frix,
+
+311
+0:13:18.840 --> 0:13:20.880
+he said that that's old and it might be removed
+
+312
+0:13:20.880 --> 0:13:23.840
+but replaced with functionality to do that
+
+313
+0:13:23.840 --> 0:13:25.360
+in such a way where you could remake it
+
+314
+0:13:25.360 --> 0:13:29.160
+as a Neos builder rather than a Neos developer.
+
+315
+0:13:29.160 --> 0:13:31.760
+There are a bunch of sort of curvy chubby meshes
+
+316
+0:13:31.760 --> 0:13:33.680
+that we have, and at some point,
+
+317
+0:13:33.680 --> 0:13:36.120
+I want to sort of reconcile them
+
+318
+0:13:36.120 --> 0:13:42.760
+and put them together such that there are less.
+
+319
+0:13:42.760 --> 0:13:45.240
+The same with straight line meshes as well.
+
+320
+0:13:45.240 --> 0:13:48.840
+There's segment mesh, slot segment mesh, line mesh.
+
+321
+0:13:48.840 --> 0:13:50.680
+There's just so many, and they're basically
+
+322
+0:13:50.680 --> 0:13:52.680
+just like, draw a line.
+
+323
+0:13:52.680 --> 0:13:55.160
+Even the curve ones are, draw a line.
+
+324
+0:13:55.160 --> 0:13:57.200
+So it's like, maybe we could standardize them
+
+325
+0:13:57.200 --> 0:13:59.600
+into something that made it a little bit easier to know,
+
+326
+0:13:59.600 --> 0:14:01.520
+especially that slot segment mesh versus segment mesh.
+
+327
+0:14:01.520 --> 0:14:02.680
+I can never remember which one's best.
+
+328
+0:14:02.680 --> 0:14:04.000
+One has more options than the other,
+
+329
+0:14:04.000 --> 0:14:05.360
+and you should use the one that has more options,
+
+330
+0:14:05.360 --> 0:14:07.760
+because you're like, I don't know, maybe.
+
+331
+0:14:07.760 --> 0:14:10.280
+As far as like editing and stuff to do with curves,
+
+332
+0:14:10.280 --> 0:14:12.680
+check out the Vigileboes folder.
+
+333
+0:14:12.680 --> 0:14:15.840
+They don't really play Neos that much right now,
+
+334
+0:14:15.840 --> 0:14:19.320
+but all of the like types of curves that you would need
+
+335
+0:14:19.320 --> 0:14:22.320
+have editors inside that folder.
+
+336
+0:14:22.320 --> 0:14:24.880
+You're looking for blue thick lines
+
+337
+0:14:24.880 --> 0:14:26.040
+with like green dots on them
+
+338
+0:14:26.040 --> 0:14:28.440
+when you're looking for the thumbnail
+
+339
+0:14:28.440 --> 0:14:30.400
+in the public folder.
+
+340
+0:14:30.400 --> 0:14:33.360
+I get those out every time I want to use a chubby mesh,
+
+341
+0:14:33.360 --> 0:14:37.000
+so I can just remind myself of which chubby meshes do which.
+
+342
+0:14:37.880 --> 0:14:42.200
+If you'd like better functionality in the area as well,
+
+343
+0:14:42.200 --> 0:14:44.600
+make sure that there is a GitHub open for it.
+
+344
+0:14:45.800 --> 0:14:48.240
+Scary, yes, I could totally lock down Office Hours.
+
+345
+0:14:48.240 --> 0:14:49.800
+I'm just not currently doing it.
+
+346
+0:14:49.800 --> 0:14:51.440
+Yeah, the curve tip is really interesting.
+
+347
+0:14:51.440 --> 0:14:53.880
+It will make a complete mess of your world though,
+
+348
+0:14:53.880 --> 0:14:55.360
+because each of those points,
+
+349
+0:14:55.360 --> 0:14:56.800
+the like ones attached to the line
+
+350
+0:14:56.800 --> 0:14:58.160
+that leads to the main point,
+
+351
+0:14:58.160 --> 0:15:00.400
+those are called control points, by the way,
+
+352
+0:15:00.400 --> 0:15:03.880
+is on my route, and it's just like there.
+
+353
+0:15:03.880 --> 0:15:05.680
+If you delete the curve, you can't,
+
+354
+0:15:05.680 --> 0:15:07.680
+basically you'll spend like five minutes
+
+355
+0:15:07.680 --> 0:15:10.560
+cleaning up that curve that you made, Easton.
+
+356
+0:15:12.560 --> 0:15:13.560
+It's not fun.
+
+357
+0:15:13.560 --> 0:15:14.840
+Same thing with the label tip, actually.
+
+358
+0:15:14.840 --> 0:15:16.720
+I've never really understood why the label tip
+
+359
+0:15:16.720 --> 0:15:21.720
+doesn't create something more sensible.
+
+360
+0:15:22.120 --> 0:15:25.920
+The label tip will make two slots in your world route
+
+361
+0:15:25.920 --> 0:15:28.480
+called label point and label content.
+
+362
+0:15:28.480 --> 0:15:31.400
+I wish it would like be a bit more intelligent about that
+
+363
+0:15:31.400 --> 0:15:33.920
+and make one slot called label and parent the point
+
+364
+0:15:33.920 --> 0:15:35.960
+and the content to that,
+
+365
+0:15:35.960 --> 0:15:38.000
+and I might actually update the label tip
+
+366
+0:15:38.000 --> 0:15:39.200
+to do that when I can.
+
+367
+0:15:39.200 --> 0:15:44.200
+There are a lot of tools that need to either be removed
+
+368
+0:15:45.480 --> 0:15:47.320
+or updated such that they work.
+
+369
+0:15:47.320 --> 0:15:48.880
+You can tell a lot of this, by the way,
+
+370
+0:15:48.880 --> 0:15:51.640
+by going to start new world or create new world
+
+371
+0:15:51.640 --> 0:15:53.680
+and choosing the scratch-based template.
+
+372
+0:15:53.680 --> 0:15:56.520
+The scratch-based template is a holdover
+
+373
+0:15:56.520 --> 0:15:59.360
+from the days where there was no inventory system in Neos.
+
+374
+0:15:59.360 --> 0:16:01.040
+When there was no inventory system in Neos,
+
+375
+0:16:01.040 --> 0:16:03.680
+if you didn't have the developer tool,
+
+376
+0:16:03.680 --> 0:16:06.880
+you had to go to the scratch-based world to get it.
+
+377
+0:16:06.880 --> 0:16:08.600
+And if you wanted to save something,
+
+378
+0:16:08.600 --> 0:16:10.600
+you had to go to your cloud or local home
+
+379
+0:16:10.600 --> 0:16:12.400
+and drop it there to save it.
+
+380
+0:16:12.400 --> 0:16:14.760
+That didn't used to be a cloud home, by the way.
+
+381
+0:16:14.760 --> 0:16:17.840
+So you had to save it to your local home as well.
+
+382
+0:16:17.840 --> 0:16:21.160
+And so I remember, I hear things
+
+383
+0:16:23.600 --> 0:16:25.240
+from people that are around at that time
+
+384
+0:16:25.240 --> 0:16:26.680
+where they were just like, yep,
+
+385
+0:16:26.680 --> 0:16:29.120
+we would just grab everything and return it to our homes
+
+386
+0:16:29.120 --> 0:16:31.000
+and save it there because we didn't know if we needed it
+
+387
+0:16:31.000 --> 0:16:32.600
+and it was very difficult to get.
+
+388
+0:16:33.800 --> 0:16:36.400
+So do be thankful that we have inventory systems now.
+
+389
+0:16:37.560 --> 0:16:39.600
+Moving forward to the next question.
+
+390
+0:16:39.600 --> 0:16:40.840
+Lex says, would you know if there's any reason
+
+391
+0:16:40.840 --> 0:16:44.400
+when saving objects that they are locally compressed as LZ4
+
+392
+0:16:44.400 --> 0:16:48.560
+but when uploaded, they are compressed with 7-zip?
+
+393
+0:16:48.560 --> 0:16:50.720
+There are multiple compression algorithms that we have
+
+394
+0:16:50.720 --> 0:16:52.000
+and have support for.
+
+395
+0:16:52.000 --> 0:16:54.880
+Neos will pick one in a way that I don't understand
+
+396
+0:16:54.880 --> 0:16:55.880
+when you upload stuff.
+
+397
+0:16:56.920 --> 0:16:59.760
+I don't particularly understand why, how, or what.
+
+398
+0:16:59.760 --> 0:17:03.760
+I also thought 7-zip's compression was similar to LZ4.
+
+399
+0:17:03.760 --> 0:17:05.960
+We would like a few modifications.
+
+400
+0:17:05.960 --> 0:17:08.040
+I don't really remember, though.
+
+401
+0:17:08.040 --> 0:17:10.800
+Peach, yes, you can answer any questions that you want,
+
+402
+0:17:10.800 --> 0:17:12.280
+whatever you would like.
+
+403
+0:17:12.280 --> 0:17:14.120
+Rusio has found a curve tip custom
+
+404
+0:17:14.120 --> 0:17:15.640
+that makes things a little bit cleaner.
+
+405
+0:17:15.640 --> 0:17:17.040
+There is a Neos2p link for that.
+
+406
+0:17:17.040 --> 0:17:18.080
+Try that one out.
+
+407
+0:17:18.080 --> 0:17:20.680
+Yeah, I want, Ramp has talking about the LZ4
+
+408
+0:17:20.680 --> 0:17:22.160
+and things.
+
+409
+0:17:22.160 --> 0:17:24.920
+I'm not gonna comment on further stuff to do
+
+410
+0:17:24.920 --> 0:17:25.760
+with compression.
+
+411
+0:17:25.760 --> 0:17:27.240
+I'll have to open up the code and do that.
+
+412
+0:17:27.240 --> 0:17:30.600
+If there are no questions, I can sort of idly poke at it,
+
+413
+0:17:30.600 --> 0:17:32.760
+but I wouldn't actually know where to go.
+
+414
+0:17:34.160 --> 0:17:35.520
+For those who are familiar with programming,
+
+415
+0:17:35.520 --> 0:17:39.200
+and for those who are not, I'll try and explain it.
+
+416
+0:17:39.200 --> 0:17:40.480
+There's like layers to code,
+
+417
+0:17:40.480 --> 0:17:44.560
+and asset uploading is like the deepest part of the code.
+
+418
+0:17:45.600 --> 0:17:48.320
+It would be the equivalent of me like opening that drawer,
+
+419
+0:17:48.320 --> 0:17:51.080
+that one drawer that you haven't sorted out in a while,
+
+420
+0:17:51.080 --> 0:17:54.320
+and like emptying the entire thing onto my bed,
+
+421
+0:17:54.320 --> 0:17:57.120
+and then like going through it to try to figure out
+
+422
+0:17:57.120 --> 0:18:00.880
+where the hell that piece of code is.
+
+423
+0:18:00.880 --> 0:18:03.320
+It's like a descent into madness.
+
+424
+0:18:03.320 --> 0:18:05.160
+It's really great when you come out of one of those, though,
+
+425
+0:18:05.160 --> 0:18:07.880
+because you'll remember how to get there.
+
+426
+0:18:07.880 --> 0:18:10.040
+Visual Studio has this cool feature called Bookmarks,
+
+427
+0:18:10.040 --> 0:18:11.320
+which I heavily use
+
+428
+0:18:11.320 --> 0:18:13.320
+because it just makes navigating things faster,
+
+429
+0:18:13.320 --> 0:18:15.200
+particularly when I get questions about common stuff.
+
+430
+0:18:15.200 --> 0:18:17.840
+So I have a bookmark that takes me straight
+
+431
+0:18:17.840 --> 0:18:20.760
+to the entry point for all of the Neospot commands,
+
+432
+0:18:20.760 --> 0:18:22.320
+so I can get there quickly.
+
+433
+0:18:22.320 --> 0:18:23.240
+I've got another entry point,
+
+434
+0:18:23.240 --> 0:18:25.160
+which takes me to rig classification stuff,
+
+435
+0:18:25.160 --> 0:18:29.480
+so I can find really quickly any sort of rig-based issues,
+
+436
+0:18:29.480 --> 0:18:30.440
+sort of like that.
+
+437
+0:18:30.440 --> 0:18:32.400
+Now, that isn't to say that the code base is bad.
+
+438
+0:18:32.400 --> 0:18:33.520
+That's just something that happens
+
+439
+0:18:33.520 --> 0:18:34.760
+with a code base this big,
+
+440
+0:18:34.760 --> 0:18:38.080
+is like sometimes you're like, yeah, that's really deep.
+
+441
+0:18:38.080 --> 0:18:39.640
+I've got to like spend a lot of time
+
+442
+0:18:39.640 --> 0:18:42.040
+finding like the end of that.
+
+443
+0:18:42.040 --> 0:18:42.880
+Like, for example,
+
+444
+0:18:42.880 --> 0:18:44.640
+I was looking at opening worlds the other day,
+
+445
+0:18:44.640 --> 0:18:47.520
+and there are about like 15 different ways
+
+446
+0:18:47.520 --> 0:18:49.600
+for the code base to open a world,
+
+447
+0:18:49.600 --> 0:18:55.120
+and they all do like various things differently.
+
+448
+0:18:55.120 --> 0:18:56.760
+And so it was just like, okay, cool.
+
+449
+0:18:56.760 --> 0:18:58.520
+I don't know which one I need to use.
+
+450
+0:18:59.920 --> 0:19:02.000
+Let's take a look down at additional questions.
+
+451
+0:19:02.000 --> 0:19:04.320
+Alex says, what's something you didn't expect
+
+452
+0:19:04.320 --> 0:19:06.400
+the Neos community to make, but have?
+
+453
+0:19:08.120 --> 0:19:11.440
+Honestly, I'm still dumbfounded every time I see
+
+454
+0:19:11.440 --> 0:19:13.040
+that someone has made another multi-tool
+
+455
+0:19:13.040 --> 0:19:14.640
+and another custom inspector.
+
+456
+0:19:14.640 --> 0:19:17.400
+If you are considering making another custom tool,
+
+457
+0:19:17.400 --> 0:19:20.160
+a multi-tool or a custom inspector,
+
+458
+0:19:20.160 --> 0:19:23.720
+please, please make something else.
+
+459
+0:19:23.720 --> 0:19:28.760
+Make a Neos world where you are a cat
+
+460
+0:19:28.760 --> 0:19:33.760
+trying to save the world from extremist broccoli
+
+461
+0:19:34.120 --> 0:19:38.360
+who are trying to take over the world using chlorophyll.
+
+462
+0:19:38.360 --> 0:19:39.480
+There you go.
+
+463
+0:19:39.480 --> 0:19:42.240
+Just like make a game, make an experience.
+
+464
+0:19:42.240 --> 0:19:44.400
+That was a completely random idea.
+
+465
+0:19:44.400 --> 0:19:49.320
+Make things, make things.
+
+466
+0:19:49.320 --> 0:19:52.560
+There is one thing, Lex did say positive things.
+
+467
+0:19:52.560 --> 0:19:55.320
+The positive things, I guess, are all the micro tools.
+
+468
+0:19:56.680 --> 0:19:59.360
+You know, there's a process that we want to do,
+
+469
+0:19:59.360 --> 0:20:02.920
+and then there's a tool made that makes it easier.
+
+470
+0:20:02.920 --> 0:20:03.920
+I did expect some of them,
+
+471
+0:20:03.920 --> 0:20:07.080
+but like it's getting kind of crazy how much those are.
+
+472
+0:20:07.080 --> 0:20:09.880
+If you mean, you know, additionally positive there,
+
+473
+0:20:09.880 --> 0:20:12.880
+like the, I always go back to abandonware.
+
+474
+0:20:12.880 --> 0:20:16.920
+Like abandonware, like if abandonware, the AMC entry,
+
+475
+0:20:16.920 --> 0:20:21.920
+if that was on Steam for under 10 bucks,
+
+476
+0:20:22.320 --> 0:20:24.880
+it would be really, really popular.
+
+477
+0:20:24.880 --> 0:20:27.360
+Like it was not going to make like thousands of dollars
+
+478
+0:20:27.360 --> 0:20:28.200
+or anything like that,
+
+479
+0:20:28.200 --> 0:20:31.000
+but like it would be very popular on Steam.
+
+480
+0:20:32.480 --> 0:20:36.040
+And if it was on Steam, people like the market players
+
+481
+0:20:36.040 --> 0:20:38.280
+and the other horror game players of the world
+
+482
+0:20:38.280 --> 0:20:42.080
+will have played it and put it on their channel as well.
+
+483
+0:20:42.080 --> 0:20:44.200
+Like that's how good that one felt.
+
+484
+0:20:47.000 --> 0:20:48.160
+Next question here.
+
+485
+0:20:48.160 --> 0:20:50.000
+Scary Guy says, what's the airspeed velocity
+
+486
+0:20:50.000 --> 0:20:50.880
+of an unladen swallow?
+
+487
+0:20:50.880 --> 0:20:53.520
+Do you mean an African or European swallow?
+
+488
+0:20:53.520 --> 0:20:55.160
+I think that's the quote, anyway.
+
+489
+0:20:57.320 --> 0:20:59.240
+Zach says, is there a way to clear a string
+
+490
+0:20:59.240 --> 0:21:00.080
+when a video ends?
+
+491
+0:21:00.080 --> 0:21:00.920
+Absolutely.
+
+492
+0:21:00.920 --> 0:21:03.800
+So depending on what you're doing with a video,
+
+493
+0:21:03.800 --> 0:21:05.320
+all of the playback nodes works.
+
+494
+0:21:05.320 --> 0:21:07.040
+You could do playback position.
+
+495
+0:21:07.040 --> 0:21:08.640
+Normalized position might be better for that one.
+
+496
+0:21:08.640 --> 0:21:12.600
+Normalized position outputs the normalized point
+
+497
+0:21:12.600 --> 0:21:13.440
+of the video.
+
+498
+0:21:13.440 --> 0:21:14.400
+So zero is the start of the video,
+
+499
+0:21:14.400 --> 0:21:15.280
+one is the end of the video.
+
+500
+0:21:15.280 --> 0:21:17.840
+So you could do when the normalized position equals one,
+
+501
+0:21:17.840 --> 0:21:20.280
+fire on true, clear the string.
+
+502
+0:21:20.280 --> 0:21:23.640
+There may even be a node for when the video ends.
+
+503
+0:21:23.640 --> 0:21:24.560
+I don't quite remember.
+
+504
+0:21:24.560 --> 0:21:25.640
+I'm not in Neos right now,
+
+505
+0:21:25.640 --> 0:21:27.200
+so I'm not looking at those nodes.
+
+506
+0:21:27.200 --> 0:21:30.400
+But yeah, basically figure out if the video has stopped
+
+507
+0:21:30.400 --> 0:21:32.960
+and then clear the string with the right node.
+
+508
+0:21:32.960 --> 0:21:34.240
+Easy, easy, easy.
+
+509
+0:21:34.240 --> 0:21:35.800
+We have a question here from Kazu says,
+
+510
+0:21:35.800 --> 0:21:38.520
+recently I often see logs that are running out of space
+
+511
+0:21:38.520 --> 0:21:39.800
+when asked by beginners,
+
+512
+0:21:39.800 --> 0:21:43.120
+but everyone says they can afford display capacity.
+
+513
+0:21:43.120 --> 0:21:44.640
+Is there a gap between capacity display
+
+514
+0:21:44.640 --> 0:21:45.720
+and the capacity is actually determined
+
+515
+0:21:45.720 --> 0:21:47.400
+as a synchronization failure?
+
+516
+0:21:47.400 --> 0:21:51.320
+Yes, those things are like delayed a little bit
+
+517
+0:21:51.320 --> 0:21:52.280
+from each other,
+
+518
+0:21:54.080 --> 0:21:57.920
+particularly because if there's an active sync happening,
+
+519
+0:21:57.920 --> 0:22:00.480
+then we're able to see how much is coming in
+
+520
+0:22:00.480 --> 0:22:02.720
+and maybe stop it because we know that it won't fit
+
+521
+0:22:02.720 --> 0:22:03.760
+and stuff like that.
+
+522
+0:22:03.760 --> 0:22:06.560
+And then sometimes the space display that's on the dash
+
+523
+0:22:06.560 --> 0:22:08.600
+is like cached or delayed
+
+524
+0:22:08.600 --> 0:22:12.240
+based on the cloud processing the incoming assets.
+
+525
+0:22:12.240 --> 0:22:15.320
+So those things can get out of alignment sometimes,
+
+526
+0:22:15.320 --> 0:22:17.080
+which might be what you're seeing.
+
+527
+0:22:18.080 --> 0:22:19.560
+Lex actually made a good comment there,
+
+528
+0:22:19.560 --> 0:22:24.560
+which is he thought that we were talking about local space,
+
+529
+0:22:25.560 --> 0:22:26.640
+not cloud space.
+
+530
+0:22:26.640 --> 0:22:28.760
+So Kazu, maybe if you could clarify
+
+531
+0:22:28.760 --> 0:22:32.160
+or just direct message me later, we'll take a look at it.
+
+532
+0:22:32.160 --> 0:22:33.360
+Particularly if you've got the log file
+
+533
+0:22:33.360 --> 0:22:34.240
+that was causing the problem,
+
+534
+0:22:34.240 --> 0:22:36.800
+I can just double check which one of those are.
+
+535
+0:22:36.800 --> 0:22:40.280
+Moving forwards, Peach has a question.
+
+536
+0:22:40.280 --> 0:22:42.480
+What is the possibility difficulty
+
+537
+0:22:42.480 --> 0:22:45.680
+of integrating programs, plugins, things into Neos?
+
+538
+0:22:45.680 --> 0:22:48.400
+Particularly I was about to ask this general
+
+539
+0:22:48.400 --> 0:22:51.560
+regarding to playing flash games in virtual arcades.
+
+540
+0:22:52.560 --> 0:22:54.040
+Okay, so flash is dead.
+
+541
+0:22:54.040 --> 0:22:55.600
+I know that that's sad.
+
+542
+0:22:55.600 --> 0:22:58.680
+There are ways to play flash games that exist.
+
+543
+0:22:58.680 --> 0:23:01.000
+There's like a, I can't remember the name of it.
+
+544
+0:23:01.000 --> 0:23:03.760
+What that thing, I can't remember the name of,
+
+545
+0:23:03.760 --> 0:23:07.480
+does though, is it downloads a very old version of Firefox
+
+546
+0:23:07.480 --> 0:23:11.280
+and then just goes, here you go, flash works.
+
+547
+0:23:11.280 --> 0:23:12.120
+That's what it does.
+
+548
+0:23:12.120 --> 0:23:13.680
+It's quite cool,
+
+549
+0:23:13.680 --> 0:23:15.360
+because it lets you sort of relive the nineties,
+
+550
+0:23:15.360 --> 0:23:17.480
+but flash games inside Neos wouldn't be a thing
+
+551
+0:23:17.480 --> 0:23:18.640
+that would probably support.
+
+552
+0:23:18.640 --> 0:23:21.520
+Now, you're welcome to do that with plugins or mods.
+
+553
+0:23:21.520 --> 0:23:24.120
+It'll probably have to be a plugin for flash,
+
+554
+0:23:24.120 --> 0:23:26.160
+but that would be quite an undertaking.
+
+555
+0:23:27.120 --> 0:23:30.400
+Yes, Linker, you wanna make Neos Plus run flash files?
+
+556
+0:23:30.400 --> 0:23:31.280
+Go for it.
+
+557
+0:23:31.280 --> 0:23:34.760
+That'll be out next Tuesday, right?
+
+558
+0:23:34.760 --> 0:23:37.880
+We are looking into web assembly later.
+
+559
+0:23:37.880 --> 0:23:39.280
+There's a GitHub issue for it,
+
+560
+0:23:39.280 --> 0:23:42.000
+which would allow you to run things
+
+561
+0:23:42.000 --> 0:23:43.720
+in that range a little bit,
+
+562
+0:23:43.720 --> 0:23:46.080
+but probably not flash itself.
+
+563
+0:23:47.200 --> 0:23:51.600
+Integrating stuff is basically a mix of,
+
+564
+0:23:51.600 --> 0:23:52.760
+are you okay waiting?
+
+565
+0:23:52.760 --> 0:23:54.600
+In which case, hey, Neos will do it.
+
+566
+0:23:54.600 --> 0:23:58.400
+And if it's compatible with Neos's ethos,
+
+567
+0:23:58.400 --> 0:24:00.800
+development strategy, et cetera, great,
+
+568
+0:24:00.800 --> 0:24:02.080
+but you'll have to wait.
+
+569
+0:24:02.080 --> 0:24:03.160
+Then there is plugins,
+
+570
+0:24:03.160 --> 0:24:07.720
+which is you can do whatever you want in a plugin.
+
+571
+0:24:07.720 --> 0:24:09.160
+You can do whatever you want.
+
+572
+0:24:10.880 --> 0:24:13.840
+You could probably get like a Windows emulator
+
+573
+0:24:13.840 --> 0:24:15.760
+into Neos with a plugin.
+
+574
+0:24:16.720 --> 0:24:18.200
+That'd be very difficult to do,
+
+575
+0:24:18.200 --> 0:24:19.200
+but you can probably do it.
+
+576
+0:24:19.200 --> 0:24:21.200
+So you can probably do flash if you would like to,
+
+577
+0:24:21.200 --> 0:24:23.280
+but it would have to be a...
+
+578
+0:24:23.280 --> 0:24:26.240
+Let's take a look down at the next question.
+
+579
+0:24:26.240 --> 0:24:28.840
+Zach says, why does it take so long to sync a large file?
+
+580
+0:24:28.840 --> 0:24:33.840
+Well, I don't know what sort of magnitude
+
+581
+0:24:33.880 --> 0:24:35.040
+we're talking at here.
+
+582
+0:24:35.040 --> 0:24:36.560
+If you're talking about like a gigabyte,
+
+583
+0:24:36.560 --> 0:24:39.240
+then it's a gigabyte.
+
+584
+0:24:39.240 --> 0:24:41.720
+That's why it takes a long time.
+
+585
+0:24:41.720 --> 0:24:46.080
+Additionally, larger files are large.
+
+586
+0:24:46.080 --> 0:24:48.360
+Sorry, I completely lost my train of thought.
+
+587
+0:24:48.360 --> 0:24:49.400
+Large files are large.
+
+588
+0:24:49.400 --> 0:24:50.760
+That's why it takes so long.
+
+589
+0:24:50.760 --> 0:24:52.560
+Give you some more details and I'll see what it is.
+
+590
+0:24:52.560 --> 0:24:54.560
+Like if you said it was taking like three hours
+
+591
+0:24:54.560 --> 0:24:56.880
+to sync 500 megabytes, that's a problem.
+
+592
+0:24:56.880 --> 0:24:57.720
+We could look at that.
+
+593
+0:24:57.720 --> 0:25:01.720
+If it's like, it takes a long time to sync one gigabyte,
+
+594
+0:25:01.720 --> 0:25:03.840
+it's like, eh, it does.
+
+595
+0:25:06.280 --> 0:25:08.600
+Mr. Square Pig.
+
+596
+0:25:08.600 --> 0:25:11.240
+No, Square Peg, sorry, to use there.
+
+597
+0:25:11.240 --> 0:25:12.840
+Will the Pico4 work with Neos?
+
+598
+0:25:12.840 --> 0:25:14.200
+I have one on order.
+
+599
+0:25:14.200 --> 0:25:17.080
+As with all gadgets and headsets,
+
+600
+0:25:17.080 --> 0:25:19.560
+the only way that those can work is with a Neos update.
+
+601
+0:25:19.560 --> 0:25:23.800
+And if we, as in the Neos team, have a development unit
+
+602
+0:25:23.800 --> 0:25:27.200
+or sufficiently documented developer documentation
+
+603
+0:25:27.200 --> 0:25:31.360
+from the manufacturer, I get the question
+
+604
+0:25:31.360 --> 0:25:33.440
+about other headsets, like every single week.
+
+605
+0:25:33.440 --> 0:25:35.760
+It's like, will you support this unannounced headset
+
+606
+0:25:35.760 --> 0:25:39.160
+that some person found in a hotel room and leaked online?
+
+607
+0:25:39.160 --> 0:25:40.600
+Not until it's public, no.
+
+608
+0:25:40.600 --> 0:25:43.040
+And then when it is public, we'll figure out if we can.
+
+609
+0:25:43.040 --> 0:25:47.200
+But yeah, it needs work to be done.
+
+610
+0:25:47.200 --> 0:25:49.120
+There are, again, the modding community
+
+611
+0:25:49.120 --> 0:25:52.040
+have made certain weirder headsets done.
+
+612
+0:25:52.040 --> 0:25:53.440
+So if you don't want to wait for us,
+
+613
+0:25:53.440 --> 0:25:55.320
+that might be an opportunity.
+
+614
+0:25:55.320 --> 0:26:00.200
+Moving down to Arisios for live streaming video into Neos.
+
+615
+0:26:00.200 --> 0:26:02.840
+I have experimented using HLS RTMP and other protocols
+
+616
+0:26:02.840 --> 0:26:04.720
+desperately trying to get video and audio to sync on a live
+
+617
+0:26:04.720 --> 0:26:06.800
+stream, but all it takes is one avatar to load.
+
+618
+0:26:06.800 --> 0:26:08.560
+And someone says the audio and video are out of sync.
+
+619
+0:26:08.560 --> 0:26:10.280
+Do you have any suggestions on what
+
+620
+0:26:10.280 --> 0:26:13.880
+we've done to try and keep the audio and video synced?
+
+621
+0:26:13.880 --> 0:26:15.640
+I can't remember how we did it in a world,
+
+622
+0:26:15.640 --> 0:26:21.720
+but there's a property on the video player
+
+623
+0:26:21.720 --> 0:26:26.320
+now called playback error sync, something like that.
+
+624
+0:26:26.320 --> 0:26:28.320
+That one is local, I believe.
+
+625
+0:26:28.320 --> 0:26:31.520
+And what we did was we hooked up that.
+
+626
+0:26:31.520 --> 0:26:33.760
+And some sort of comparison, I really can't remember.
+
+627
+0:26:33.760 --> 0:26:36.480
+I'm pulling stuff out of the bowels of my memory here.
+
+628
+0:26:36.480 --> 0:26:40.480
+We hooked that up locally to a fire on true,
+
+629
+0:26:40.480 --> 0:26:42.960
+which would then pause the video temporarily,
+
+630
+0:26:42.960 --> 0:26:45.600
+wait a couple of updates, and then play it again.
+
+631
+0:26:45.600 --> 0:26:47.840
+And that seemed to re-sync things automatically.
+
+632
+0:26:47.840 --> 0:26:49.540
+Of course, it was incredibly frustrating
+
+633
+0:26:49.540 --> 0:26:51.240
+because if anyone was out of sync,
+
+634
+0:26:51.240 --> 0:26:52.440
+it would pause it.
+
+635
+0:26:52.440 --> 0:26:56.800
+But we only had it happen two or three times during a video
+
+636
+0:26:56.800 --> 0:26:58.480
+that we were watching, so it was OK.
+
+637
+0:26:58.480 --> 0:27:00.440
+Another time it happened every five seconds,
+
+638
+0:27:00.440 --> 0:27:02.120
+and we just turned it off.
+
+639
+0:27:02.120 --> 0:27:04.040
+That might be something to look at.
+
+640
+0:27:04.040 --> 0:27:08.560
+Kazu says, local storage, not cloud one.
+
+641
+0:27:08.560 --> 0:27:11.840
+Let me scroll back up to your question, Kazu.
+
+642
+0:27:11.840 --> 0:27:15.600
+He's obviously nervous about running our spaces.
+
+643
+0:27:15.600 --> 0:27:16.220
+Ah, yeah.
+
+644
+0:27:16.220 --> 0:27:18.160
+So do make sure that they are looking
+
+645
+0:27:18.160 --> 0:27:21.120
+at the drive which stores that particular type of data.
+
+646
+0:27:21.120 --> 0:27:26.960
+So if, which question did I really want to ask?
+
+647
+0:27:26.960 --> 0:27:29.040
+Scrolling around.
+
+648
+0:27:29.040 --> 0:27:30.280
+Local storage.
+
+649
+0:27:30.280 --> 0:27:31.880
+Oh, not local storage.
+
+650
+0:27:31.880 --> 0:27:32.480
+Oh, OK.
+
+651
+0:27:32.480 --> 0:27:33.000
+Thank you.
+
+652
+0:27:36.000 --> 0:27:36.640
+Thank you.
+
+653
+0:27:36.640 --> 0:27:37.360
+All right, cool.
+
+654
+0:27:37.360 --> 0:27:38.680
+I'll just skip that question.
+
+655
+0:27:38.680 --> 0:27:39.240
+We'll move on.
+
+656
+0:27:39.240 --> 0:27:39.760
+Thank you.
+
+657
+0:27:43.560 --> 0:27:46.920
+Zach says it stays at 0.0% for 15 plus minutes.
+
+658
+0:27:46.920 --> 0:27:48.520
+That is a stuck sync, which means
+
+659
+0:27:48.520 --> 0:27:50.760
+you need to post a log file and questions and help one.
+
+660
+0:27:50.760 --> 0:27:51.600
+I'll take a look at it for you.
+
+661
+0:27:51.600 --> 0:27:55.120
+It could be any number of things until I see that log file.
+
+662
+0:27:55.120 --> 0:27:57.440
+Another one friendly thing you can do when you encounter
+
+663
+0:27:57.440 --> 0:28:00.280
+a problem, by the way, is to provide enough information.
+
+664
+0:28:00.280 --> 0:28:01.720
+People say, something went wrong.
+
+665
+0:28:01.720 --> 0:28:02.960
+And I'm like, what went wrong?
+
+666
+0:28:02.960 --> 0:28:04.760
+What were you trying to do?
+
+667
+0:28:04.760 --> 0:28:06.480
+Just think about how much more information
+
+668
+0:28:06.480 --> 0:28:08.360
+could you give us such that we don't
+
+669
+0:28:08.360 --> 0:28:09.780
+have to ask you any more questions.
+
+670
+0:28:09.780 --> 0:28:11.960
+We can just fix your issue.
+
+671
+0:28:11.960 --> 0:28:13.160
+So start with log file.
+
+672
+0:28:13.160 --> 0:28:14.520
+Start with a complete description
+
+673
+0:28:14.520 --> 0:28:15.440
+of what you are doing.
+
+674
+0:28:15.440 --> 0:28:18.200
+Start with any information that you have.
+
+675
+0:28:18.200 --> 0:28:20.080
+That's why the bug report form on the GitHub
+
+676
+0:28:20.080 --> 0:28:25.040
+is so long, so we can get all the information.
+
+677
+0:28:25.040 --> 0:28:27.320
+Let's scroll up and down, look for more questions.
+
+678
+0:28:27.320 --> 0:28:29.760
+Ozi says, what is Neosis development ethos?
+
+679
+0:28:29.760 --> 0:28:33.040
+I think I generally know what it is, but not exactly.
+
+680
+0:28:33.040 --> 0:28:35.200
+We don't have it exactly written down.
+
+681
+0:28:35.200 --> 0:28:39.200
+And to be fair, it is basically Frix's ethos as well.
+
+682
+0:28:39.200 --> 0:28:43.120
+It's like, I guess I can give examples.
+
+683
+0:28:43.120 --> 0:28:44.960
+Sometimes there's things like a feeling,
+
+684
+0:28:44.960 --> 0:28:46.200
+and you can't really describe them.
+
+685
+0:28:46.200 --> 0:28:47.440
+And this is one of those cases.
+
+686
+0:28:47.440 --> 0:28:51.200
+There are examples which kind of help you explain it.
+
+687
+0:28:51.200 --> 0:28:52.640
+One of the most prominent examples
+
+688
+0:28:52.640 --> 0:28:56.120
+is one would be as backwards compatible as possible.
+
+689
+0:28:56.120 --> 0:28:58.760
+So any time we change something, we're
+
+690
+0:28:58.760 --> 0:29:03.360
+like, will this break anything in backwards compatibility?
+
+691
+0:29:03.360 --> 0:29:06.080
+And if that's the case, then we'll figure it out.
+
+692
+0:29:06.080 --> 0:29:08.400
+I always use this example of backwards compatibility
+
+693
+0:29:08.400 --> 0:29:11.120
+because people see it all the time and ask me about it.
+
+694
+0:29:11.120 --> 0:29:14.440
+If you are using the find child by name node,
+
+695
+0:29:14.440 --> 0:29:17.760
+I think it also does it with the child by tag node.
+
+696
+0:29:17.760 --> 0:29:18.960
+And you look at your logic.
+
+697
+0:29:18.960 --> 0:29:20.960
+Sometimes there'll be this slot that has been created
+
+698
+0:29:20.960 --> 0:29:22.840
+and just appeared there that says injected
+
+699
+0:29:22.840 --> 0:29:24.680
+for backwards compatibility.
+
+700
+0:29:24.680 --> 0:29:30.840
+That one is to add an input's value to the old default value
+
+701
+0:29:30.840 --> 0:29:33.720
+because we swapped the default value for one of the inputs.
+
+702
+0:29:33.720 --> 0:29:37.440
+So when we detect that your find child by name node
+
+703
+0:29:37.440 --> 0:29:39.800
+was created before we applied this update,
+
+704
+0:29:39.800 --> 0:29:43.200
+we invert that particular option back to the old one
+
+705
+0:29:43.200 --> 0:29:46.040
+just in case it would break by being the new option.
+
+706
+0:29:46.040 --> 0:29:47.800
+That is a really bad way of explaining that.
+
+707
+0:29:47.800 --> 0:29:50.520
+Anyway, that's an example there.
+
+708
+0:29:50.520 --> 0:29:52.440
+And then another one would be future proofing,
+
+709
+0:29:52.440 --> 0:29:55.080
+which is kind of like backwards compatibility.
+
+710
+0:29:55.080 --> 0:29:57.760
+You'll see things like collections and stuff
+
+711
+0:29:57.760 --> 0:30:00.560
+like that in mods and plugins around.
+
+712
+0:30:00.560 --> 0:30:04.160
+They are great and fantastic that they're able to do that.
+
+713
+0:30:04.160 --> 0:30:05.760
+But are they backwards compatible?
+
+714
+0:30:05.760 --> 0:30:09.560
+Are they completely integrated with the Nius engine?
+
+715
+0:30:09.560 --> 0:30:10.080
+Not sure.
+
+716
+0:30:10.080 --> 0:30:11.080
+Haven't looked at the code yet.
+
+717
+0:30:11.080 --> 0:30:12.440
+So I'm not making a judgment here.
+
+718
+0:30:12.440 --> 0:30:13.600
+I'm saying, are they?
+
+719
+0:30:13.600 --> 0:30:14.840
+That's what we would do when we were
+
+720
+0:30:14.840 --> 0:30:16.160
+doing those particular features.
+
+721
+0:30:16.160 --> 0:30:17.800
+We would make sure that we thought out
+
+722
+0:30:17.800 --> 0:30:20.280
+end-to-end everything such that we never
+
+723
+0:30:20.280 --> 0:30:24.600
+have to really redo that feature like it's done,
+
+724
+0:30:24.600 --> 0:30:26.160
+like it's part of Nius.
+
+725
+0:30:26.160 --> 0:30:27.280
+You'll see other examples.
+
+726
+0:30:27.280 --> 0:30:28.760
+Basically, if you look at any issue
+
+727
+0:30:28.760 --> 0:30:31.320
+that we've closed for like, no, sorry,
+
+728
+0:30:31.320 --> 0:30:33.440
+and that is sort of the ethos.
+
+729
+0:30:33.440 --> 0:30:34.880
+And I know it's annoying sometimes,
+
+730
+0:30:34.880 --> 0:30:37.920
+but it's just like that's another example where
+
+731
+0:30:37.920 --> 0:30:40.840
+it comes up.
+
+732
+0:30:40.840 --> 0:30:43.040
+Duff says, might have already talked about it before,
+
+733
+0:30:43.040 --> 0:30:44.840
+but why is it the majority of the community
+
+734
+0:30:44.840 --> 0:30:47.360
+usually stays in non-public baseballs more often than not?
+
+735
+0:30:47.360 --> 0:30:49.280
+I talk about this in my previous office hours,
+
+736
+0:30:49.280 --> 0:30:51.560
+so refer to the notes on that one.
+
+737
+0:30:51.560 --> 0:30:52.720
+I will do the speech again.
+
+738
+0:30:52.720 --> 0:30:54.360
+I probably had a better speech last time,
+
+739
+0:30:54.360 --> 0:30:55.880
+so check that one out.
+
+740
+0:30:55.880 --> 0:30:58.000
+Easton says, that was an oddly specific example
+
+741
+0:30:58.000 --> 0:30:59.880
+of someone finding a VR headset in a hotel room.
+
+742
+0:30:59.880 --> 0:31:02.040
+That's exactly how the Quest Pro was leaked.
+
+743
+0:31:02.040 --> 0:31:04.720
+And for about three office hours after that, people are like,
+
+744
+0:31:04.720 --> 0:31:06.120
+will you support the Quest Pro?
+
+745
+0:31:06.120 --> 0:31:09.480
+It's like, not until we know it actually exists.
+
+746
+0:31:09.480 --> 0:31:11.160
+I'm like, yeah, we know a leak is confirming
+
+747
+0:31:11.160 --> 0:31:14.600
+that the headset exists, but a cardboard box in a hotel room
+
+748
+0:31:14.600 --> 0:31:18.880
+is different than a developer platform, and library,
+
+749
+0:31:18.880 --> 0:31:21.840
+and documentation, and API, and us having
+
+750
+0:31:21.840 --> 0:31:23.160
+headset in our hands to test.
+
+751
+0:31:26.000 --> 0:31:27.640
+Cassie says, do you have any prospects for the years
+
+752
+0:31:27.640 --> 0:31:28.480
+to resume development?
+
+753
+0:31:28.480 --> 0:31:30.480
+It's been 11 months since the problem happened,
+
+754
+0:31:30.480 --> 0:31:33.320
+but I'd like to know if there's any progress.
+
+755
+0:31:33.320 --> 0:31:35.320
+I really don't have anything to say on that one.
+
+756
+0:31:35.320 --> 0:31:37.680
+There was some information a couple of office hours ago,
+
+757
+0:31:37.680 --> 0:31:40.000
+but the summary is, please just check announcements.
+
+758
+0:31:40.000 --> 0:31:42.000
+I know it's horrible.
+
+759
+0:31:42.000 --> 0:31:43.480
+There's nothing really I can say,
+
+760
+0:31:43.480 --> 0:31:46.360
+except we are working as hard as we can on that.
+
+761
+0:31:46.360 --> 0:31:49.600
+Stifle says, current clock error is the property, I think.
+
+762
+0:31:49.600 --> 0:31:50.440
+Yeah, that's the one.
+
+763
+0:31:50.440 --> 0:31:53.040
+So yeah, if you check current clock, clop, clop, clop,
+
+764
+0:31:53.040 --> 0:31:57.200
+clop, clop, clop, clop, clop, clop, clipperty-clop.
+
+765
+0:31:57.200 --> 0:31:58.520
+I'm making horse noises.
+
+766
+0:31:58.520 --> 0:32:00.840
+Anyway, if you check that, I think it's local,
+
+767
+0:32:00.840 --> 0:32:01.960
+and then you can fire on true when
+
+768
+0:32:01.960 --> 0:32:03.960
+it's above a certain threshold, pause the video,
+
+769
+0:32:03.960 --> 0:32:06.320
+and load the video again, or pause it
+
+770
+0:32:06.320 --> 0:32:10.280
+and wait a couple of seconds, then load it again.
+
+771
+0:32:10.280 --> 0:32:15.200
+I believe what we did to counter the it kept pausing thing is,
+
+772
+0:32:15.200 --> 0:32:18.400
+we put a little red light at the corner of the screen that
+
+773
+0:32:18.400 --> 0:32:20.640
+turned on when someone was experiencing
+
+774
+0:32:20.640 --> 0:32:22.920
+desync using current clock error.
+
+775
+0:32:22.920 --> 0:32:26.200
+And then we knew that when that light had been on for a minute,
+
+776
+0:32:26.200 --> 0:32:28.120
+we knew it was pretty severe desync,
+
+777
+0:32:28.120 --> 0:32:29.920
+and then we would manually pause and stop it.
+
+778
+0:32:29.920 --> 0:32:31.520
+Rampa says, log sanitizer utility
+
+779
+0:32:31.520 --> 0:32:33.120
+when for moderation you need full log,
+
+780
+0:32:33.120 --> 0:32:35.160
+but posting in the open public, in my opinion,
+
+781
+0:32:35.160 --> 0:32:37.360
+ain't the best thing, since they're all the item IDs,
+
+782
+0:32:37.360 --> 0:32:38.600
+user IDs, et cetera.
+
+783
+0:32:38.600 --> 0:32:41.320
+So do keep in mind, and I understand
+
+784
+0:32:41.320 --> 0:32:43.560
+that if you as an individual have
+
+785
+0:32:43.560 --> 0:32:47.840
+a different interpretation of that, that's absolutely fine.
+
+786
+0:32:47.840 --> 0:32:55.560
+Do just keep in mind that Neos doesn't consider some data
+
+787
+0:32:55.560 --> 0:32:58.920
+private that might be considered private.
+
+788
+0:32:58.920 --> 0:33:01.080
+Now these, of course, vary on individual preferences.
+
+789
+0:33:01.080 --> 0:33:03.240
+Some of these ones I actually disagree with myself,
+
+790
+0:33:03.240 --> 0:33:05.960
+because we don't consider usernames, user IDs,
+
+791
+0:33:05.960 --> 0:33:08.280
+or machine IDs private data.
+
+792
+0:33:08.280 --> 0:33:13.320
+Those ones I do agree with, because the machine ID is
+
+793
+0:33:13.320 --> 0:33:16.560
+randomly generated by us, and it really doesn't mean much.
+
+794
+0:33:16.560 --> 0:33:17.840
+The username is your username.
+
+795
+0:33:17.840 --> 0:33:18.600
+It's on your name badge.
+
+796
+0:33:18.600 --> 0:33:20.480
+And the user ID is usually just your username
+
+797
+0:33:20.480 --> 0:33:21.800
+with a U dash on the front of it.
+
+798
+0:33:21.800 --> 0:33:24.080
+So none of those are private.
+
+799
+0:33:24.080 --> 0:33:26.920
+So we also don't consider IP addresses private.
+
+800
+0:33:26.920 --> 0:33:28.200
+I know that other people do.
+
+801
+0:33:28.200 --> 0:33:29.600
+I kind of do.
+
+802
+0:33:29.600 --> 0:33:34.280
+But it's kind of not a problem these days, IP addresses.
+
+803
+0:33:34.280 --> 0:33:36.480
+Yeah, I can find out which city you live in,
+
+804
+0:33:36.480 --> 0:33:39.200
+but I do understand that people want
+
+805
+0:33:39.200 --> 0:33:40.520
+to strip those from logs, though,
+
+806
+0:33:40.520 --> 0:33:42.960
+so do figure that one out.
+
+807
+0:33:42.960 --> 0:33:47.280
+I don't know if we would do log sanitizing on our part.
+
+808
+0:33:47.280 --> 0:33:49.920
+We might when we have sort of inbuilt reporting.
+
+809
+0:33:49.920 --> 0:33:52.240
+I want inbuilt reporting for moderation purposes
+
+810
+0:33:52.240 --> 0:33:54.120
+and for bugs and feature purposes,
+
+811
+0:33:54.120 --> 0:33:55.280
+like send us feedback.
+
+812
+0:33:55.280 --> 0:33:57.440
+At that point, we'd be able to sanitize it,
+
+813
+0:33:57.440 --> 0:33:59.160
+because we would be the ones getting it.
+
+814
+0:33:59.160 --> 0:34:01.200
+And then maybe we could sanitize it automatically
+
+815
+0:34:01.200 --> 0:34:03.400
+when we post it to the actual public repository.
+
+816
+0:34:03.400 --> 0:34:05.480
+But the point is, the log file would
+
+817
+0:34:05.480 --> 0:34:09.240
+go from your machine, from Neos, to us
+
+818
+0:34:09.240 --> 0:34:11.640
+without Discord or GitHub in the middle.
+
+819
+0:34:11.640 --> 0:34:15.520
+And then that would be less of an issue for sanitization.
+
+820
+0:34:15.520 --> 0:34:17.880
+But yeah, someone could make a utility that does that.
+
+821
+0:34:17.880 --> 0:34:21.360
+That would be quite helpful, actually.
+
+822
+0:34:21.360 --> 0:34:23.760
+I know there are a few mods that do it, but like,
+
+823
+0:34:23.760 --> 0:34:26.480
+you know when you need to just do a random thing to a string
+
+824
+0:34:26.480 --> 0:34:28.760
+and you go to randomthingtodoofastring.com
+
+825
+0:34:28.760 --> 0:34:30.600
+and you do it there.
+
+826
+0:34:30.600 --> 0:34:34.880
+If I need like a Unicode character, like a font,
+
+827
+0:34:34.880 --> 0:34:37.960
+an icon, I need to like decode and code a string,
+
+828
+0:34:37.960 --> 0:34:39.800
+there's like websites for all of that stuff.
+
+829
+0:34:39.800 --> 0:34:41.720
+Someone could make a web-based thing.
+
+830
+0:34:41.720 --> 0:34:43.520
+And it would run entirely in the browser.
+
+831
+0:34:43.520 --> 0:34:45.240
+It could just do JavaScript, right,
+
+832
+0:34:45.240 --> 0:34:47.000
+that could sanitize a log file.
+
+833
+0:34:47.000 --> 0:34:52.400
+A bit like NREX's material combiner website tool thing,
+
+834
+0:34:52.400 --> 0:34:54.680
+Easton mentions that when you're reporting a bug,
+
+835
+0:34:54.680 --> 0:34:58.800
+please disable your mods, cannot agree with that more.
+
+836
+0:34:58.800 --> 0:35:00.760
+I've seen so many log files where it's just like,
+
+837
+0:35:00.760 --> 0:35:02.640
+I have no idea what's going on because there's
+
+838
+0:35:02.640 --> 0:35:05.680
+like 50 mods in here and I don't even know what half of them do.
+
+839
+0:35:05.680 --> 0:35:07.160
+On a note from that, if you remember,
+
+840
+0:35:07.160 --> 0:35:09.320
+mods are allowed by our modern plugin policy.
+
+841
+0:35:09.320 --> 0:35:10.920
+But I do have a recommendation there,
+
+842
+0:35:10.920 --> 0:35:12.200
+which is don't install all of the mods.
+
+843
+0:35:12.200 --> 0:35:14.000
+I'm seeing a frequent number of users
+
+844
+0:35:14.000 --> 0:35:16.720
+who just download every single mod from the Neos modding
+
+845
+0:35:16.720 --> 0:35:19.000
+group and install them without really understanding
+
+846
+0:35:19.000 --> 0:35:20.080
+what they do.
+
+847
+0:35:20.080 --> 0:35:21.560
+And then when something goes wrong,
+
+848
+0:35:21.560 --> 0:35:24.640
+it's just impossible for them to know what the problem is.
+
+849
+0:35:24.640 --> 0:35:27.160
+Easton provides a picture of the clock error.
+
+850
+0:35:27.160 --> 0:35:31.200
+Yep, current clock error right there.
+
+851
+0:35:31.200 --> 0:35:33.680
+I'd have to double check Ramper with the item ID front.
+
+852
+0:35:33.680 --> 0:35:36.000
+You said that if you know the item ID, you can spawn it.
+
+853
+0:35:36.000 --> 0:35:39.680
+Don't think that's true because of various things.
+
+854
+0:35:39.680 --> 0:35:44.280
+I think if you know the URL to the 7z by sun, you can do it.
+
+855
+0:35:44.280 --> 0:35:47.240
+But if you know the ID, you can't then look up where it is.
+
+856
+0:35:47.240 --> 0:35:50.080
+I believe that's all the questions that we have.
+
+857
+0:35:50.080 --> 0:35:50.600
+Oh, hold on.
+
+858
+0:35:50.600 --> 0:35:54.320
+We have Peach, who's asking, does Neos have plans
+
+859
+0:35:54.320 --> 0:35:57.480
+for a Unity translator to make it easier for VRC users
+
+860
+0:35:57.480 --> 0:35:59.160
+to import their creations?
+
+861
+0:35:59.160 --> 0:36:00.880
+Yes and no.
+
+862
+0:36:00.880 --> 0:36:02.600
+So we do have a Unity SDK.
+
+863
+0:36:02.600 --> 0:36:06.200
+It is sort of broken, sort of not broken.
+
+864
+0:36:06.200 --> 0:36:09.080
+The problem that we have with a Unity translator
+
+865
+0:36:09.080 --> 0:36:13.200
+is when we use that phrasing, people think it's ultimate.
+
+866
+0:36:13.200 --> 0:36:15.240
+It is the ultimate Unity translator.
+
+867
+0:36:15.240 --> 0:36:18.560
+You throw any old Unity package at it, and it will translate it.
+
+868
+0:36:18.560 --> 0:36:21.560
+We can't do that because a single Unity package,
+
+869
+0:36:21.560 --> 0:36:23.640
+while it might contain stuff that we can use,
+
+870
+0:36:23.640 --> 0:36:27.760
+for example, the model we could use, the textures we could use,
+
+871
+0:36:27.760 --> 0:36:32.640
+and accessories on that avatar we can use,
+
+872
+0:36:32.640 --> 0:36:35.080
+we can't copy over any behavior.
+
+873
+0:36:35.080 --> 0:36:39.720
+So we can't copy over the animation doodads.
+
+874
+0:36:39.720 --> 0:36:41.400
+You know how VRC is.
+
+875
+0:36:41.400 --> 0:36:42.640
+I don't remember the phrase.
+
+876
+0:36:42.640 --> 0:36:44.160
+Controllers, that's the one.
+
+877
+0:36:44.160 --> 0:36:45.800
+We can't copy over that.
+
+878
+0:36:45.800 --> 0:36:48.720
+We can't currently copy over Dynamic Bones or Fizzbones.
+
+879
+0:36:48.720 --> 0:36:51.240
+Now, we could update the Unity SDK to do that.
+
+880
+0:36:51.240 --> 0:36:53.160
+But regardless of what we add to that,
+
+881
+0:36:53.160 --> 0:36:55.320
+there's always going to be something incredibly weird,
+
+882
+0:36:55.320 --> 0:36:57.960
+which is done, that we can't translate.
+
+883
+0:36:57.960 --> 0:36:59.920
+And so then people will get the impression
+
+884
+0:36:59.920 --> 0:37:03.200
+that the Unity translator is just like, does everything.
+
+885
+0:37:03.200 --> 0:37:04.880
+Yeah, this custom C Sharp script,
+
+886
+0:37:04.880 --> 0:37:06.920
+we've transferred it to Logix for you.
+
+887
+0:37:06.920 --> 0:37:08.080
+It can't do that.
+
+888
+0:37:08.080 --> 0:37:14.280
+So I think Unity, better naming, a better expectation setting
+
+889
+0:37:14.280 --> 0:37:15.320
+is needed there.
+
+890
+0:37:15.320 --> 0:37:20.000
+But yes, we do want to make that process easier.
+
+891
+0:37:20.000 --> 0:37:21.520
+In some regards, though, and this
+
+892
+0:37:21.520 --> 0:37:23.560
+is more of a personal note, I really
+
+893
+0:37:23.560 --> 0:37:27.040
+do wish more people, when they see that we don't have that,
+
+894
+0:37:27.040 --> 0:37:29.040
+would just try anyway.
+
+895
+0:37:29.040 --> 0:37:30.700
+I have some people who just outright
+
+896
+0:37:30.700 --> 0:37:33.120
+will leave Neos when they see that we don't have a Unity
+
+897
+0:37:33.120 --> 0:37:34.120
+translator.
+
+898
+0:37:34.120 --> 0:37:36.080
+And it bothers me because I'm like,
+
+899
+0:37:36.080 --> 0:37:38.760
+at a certain point in your life, you
+
+900
+0:37:38.760 --> 0:37:41.720
+learned how to make a VR avatar.
+
+901
+0:37:41.720 --> 0:37:43.360
+And that was challenging.
+
+902
+0:37:43.360 --> 0:37:45.520
+And now when you're faced with a similar challenge,
+
+903
+0:37:45.520 --> 0:37:50.880
+learning how to make an avatar in Neos, you're like, no.
+
+904
+0:37:50.880 --> 0:37:52.440
+I don't think I will.
+
+905
+0:37:52.440 --> 0:37:54.400
+And I don't know.
+
+906
+0:37:54.400 --> 0:37:57.460
+I just have a personal grievance against people
+
+907
+0:37:57.460 --> 0:38:00.400
+who refuse to learn.
+
+908
+0:38:00.400 --> 0:38:06.040
+Sometimes it's like, hey, you learned to tie your shoes
+
+909
+0:38:06.040 --> 0:38:07.120
+and walk as a child.
+
+910
+0:38:07.120 --> 0:38:10.920
+You can learn stuff if you just apply to yourself.
+
+911
+0:38:10.920 --> 0:38:13.960
+Anyone who says, I have a smooth brain.
+
+912
+0:38:13.960 --> 0:38:14.920
+I can't learn Logix.
+
+913
+0:38:14.920 --> 0:38:16.520
+I'm like, please apply yourself.
+
+914
+0:38:16.520 --> 0:38:17.560
+Please ask the community.
+
+915
+0:38:17.560 --> 0:38:20.760
+Please try learning, we'll help you out.
+
+916
+0:38:20.760 --> 0:38:23.440
+Your brain is amazing and is not too thin.
+
+917
+0:38:23.440 --> 0:38:24.720
+You have the ability to.
+
+918
+0:38:24.720 --> 0:38:27.360
+So I believe that question is done.
+
+919
+0:38:27.360 --> 0:38:30.920
+Kazu mentions that some booth items include 7z buttons.
+
+920
+0:38:30.920 --> 0:38:32.360
+They do.
+
+921
+0:38:32.360 --> 0:38:36.680
+Do remember that that is on the things to avoid list
+
+922
+0:38:36.680 --> 0:38:39.440
+because it can and will break in the future.
+
+923
+0:38:39.440 --> 0:38:41.560
+Easton, you don't have to tie your shoes.
+
+924
+0:38:41.560 --> 0:38:44.840
+I'm going to DM you some videos later.
+
+925
+0:38:44.840 --> 0:38:46.440
+Yeah, I use slip-on shoes these days.
+
+926
+0:38:46.440 --> 0:38:48.360
+Although when I went on a vacation recently,
+
+927
+0:38:48.360 --> 0:38:50.240
+it was actually at my parents' house in Spain.
+
+928
+0:38:50.240 --> 0:38:52.860
+And I only had one pair of shoes with me, and it broke.
+
+929
+0:38:52.860 --> 0:38:54.400
+And so I bought two new pairs of shoes
+
+930
+0:38:54.400 --> 0:38:55.640
+that actually do have laces because they
+
+931
+0:38:55.640 --> 0:38:58.520
+didn't have any of the slip-on shoes they used over there.
+
+932
+0:38:58.520 --> 0:39:00.760
+But yeah, I've had one pair of shoes for four years,
+
+933
+0:39:00.760 --> 0:39:02.000
+and they finally broke.
+
+934
+0:39:02.000 --> 0:39:02.880
+I'm very frugal.
+
+935
+0:39:02.880 --> 0:39:04.880
+Kazu says that they want to change it to a better
+
+936
+0:39:04.880 --> 0:39:06.200
+method when that's provided.
+
+937
+0:39:06.200 --> 0:39:08.600
+Absolutely fine, I understand.
+
+938
+0:39:08.600 --> 0:39:10.360
+Every time I see something that might break,
+
+939
+0:39:10.360 --> 0:39:12.440
+I let you know that it might break just so that it
+
+940
+0:39:12.440 --> 0:39:13.920
+stays inside your head.
+
+941
+0:39:13.920 --> 0:39:16.000
+And you keep in mind that when it breaks,
+
+942
+0:39:16.000 --> 0:39:18.440
+that we told you that it was going to break.
+
+943
+0:39:18.440 --> 0:39:20.240
+I believe that's all the questions we have.
+
+944
+0:39:20.240 --> 0:39:21.780
+If there are any follow-up questions,
+
+945
+0:39:21.780 --> 0:39:26.000
+please do direct message me, and I'll go ahead and close off
+
+946
+0:39:26.000 --> 0:39:27.680
+the office hours here.
+
+947
+0:39:27.680 --> 0:39:29.640
+Just let me know if you have any other questions.
+
+948
+0:39:29.640 --> 0:39:32.040
+Direct message me, ping me on Discord.
+
+949
+0:39:32.040 --> 0:39:35.640
+Send me a carrier pigeon, hopefully with some treats.
+
+950
+0:39:35.640 --> 0:39:36.960
+I'll take caribou or cheese.
+
+951
+0:39:36.960 --> 0:39:38.200
+That's fine.
+
+952
+0:39:38.200 --> 0:39:40.060
+And I'll see you next year.
+
+953
+0:39:40.060 --> 0:39:40.680
+Next year?
+
+954
+0:39:40.680 --> 0:39:42.000
+Next week!
+
+955
+0:39:42.000 --> 0:39:42.720
+Not next year.
+
+956
+0:39:42.720 --> 0:39:43.320
+Promise.
+
+957
+0:39:43.320 --> 0:39:46.080
+Next week.
+

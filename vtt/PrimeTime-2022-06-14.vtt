@@ -1,0 +1,1219 @@
+﻿WEBVTT
+
+00:00:00.000 --> 00:00:05.480
+All right, so welcome to office hours. This is the office hours for AMA for mr. Prime and yes and
+
+00:00:06.720 --> 00:00:11.040
+Hello, if you have questions, please drop them in the office hours channel. That's two above where it currently is
+
+00:00:11.040 --> 00:00:15.740
+I do have a couple of sort of bits of preamble first of which is people notice my patreon
+
+00:00:15.740 --> 00:00:18.480
+Thank you so much for those that have subscribed to my patreon
+
+00:00:18.480 --> 00:00:22.680
+I did want to clarify that before any sort of rumors or Twitter threads or anything like that happened
+
+00:00:22.680 --> 00:00:25.620
+I'll also be producing a I don't know post or video or something about it
+
+00:00:25.620 --> 00:00:32.820
+That patreon is if you wish to support me me personally if you want to support Neos the company do the Neos patreon that gets
+
+00:00:32.820 --> 00:00:38.620
+You the storage space if you want to support fructs personally do tricks patron. I'm just what me personally then
+
+00:00:39.220 --> 00:00:44.860
+That's okay for me as for you get when you're doing that nothing currently I might add some perks
+
+00:00:44.860 --> 00:00:47.980
+But they're not going to be any sort of perks that you want to write home about
+
+00:00:47.980 --> 00:00:55.620
+a bare minimum perk will probably just be like hey you're in my youtube video description for every video whilst you're a patron which is
+
+00:00:55.820 --> 00:01:01.140
+Standard stuff until your patron this gets too big and then you put it in my credits in the video and stuff like that
+
+00:01:01.180 --> 00:01:02.860
+but yeah
+
+00:01:02.860 --> 00:01:08.020
+We're not gonna have cringy stuff, and no explicit perks unless you have ideas for perks in which case go for them
+
+00:01:08.020 --> 00:01:15.740
+If you're interested probably enough talking about that just one final note there though any money submitted to that is not going to be used for
+
+00:01:15.740 --> 00:01:23.100
+Guns or explosions or cool cars. It's gonna be used for buying cheese buying groceries or buying
+
+00:01:23.620 --> 00:01:26.860
+Food basically like that's that's all it would be used for I
+
+00:01:27.780 --> 00:01:32.380
+Literally I did a I did a funny. I push the wrong button there, but you know there we go
+
+00:01:35.620 --> 00:01:39.140
+That it's just like it's literally there like you know I know some people are like oh
+
+00:01:39.140 --> 00:01:42.460
+Yeah, I'm gonna get money from patreon buy fast cars right now. I'll never buy a car
+
+00:01:42.460 --> 00:01:47.940
+It's like no. I'll never buy a car. I can't currently legally drive, so if it's there. It's for food. Thank you
+
+00:01:48.820 --> 00:01:56.660
+Otherwise cheese on to questions. Oh, that's the other thing if Neos ever gets to the point where it's able to actually purchase me
+
+00:01:57.340 --> 00:02:02.340
+Purchase me that sounds wrong if it's able to get to the point where it can pay me and whatever fashion that is I will
+
+00:02:02.340 --> 00:02:06.020
+Cancel that patreon and focus it back towards yes
+
+00:02:06.900 --> 00:02:11.860
+That's that and for those sitting in here going like oh, so it was about the money after all
+
+00:02:11.860 --> 00:02:14.060
+It's not about the money
+
+00:02:14.540 --> 00:02:22.500
+It's about the things that like are around that right do I want to like quit my job and work on near stuff all time
+
+00:02:22.980 --> 00:02:26.020
+Yes, would I do that in the current circumstances?
+
+00:02:26.220 --> 00:02:32.380
+No, not if nears the company had a check for a million dollars that would not happen so do keep that in mind
+
+00:02:32.380 --> 00:02:34.380
+It is still not about the money
+
+00:02:34.880 --> 00:02:39.840
+You know if I offered you to if I were to you a check for like a million dollars for you to be inside an
+
+00:02:39.840 --> 00:02:46.600
+incredibly loud boiling room full of sound and needles and sharp objects and glass and
+
+00:02:47.360 --> 00:02:49.360
+lectures about the nature of reality
+
+00:02:49.760 --> 00:02:57.200
+So you know you're in pain. You can't move you're very hot. You'd say no. Just just think about that money isn't everything
+
+00:02:58.120 --> 00:03:00.120
+So now we'll move on to questions
+
+00:03:01.920 --> 00:03:07.200
+So Ozzy ask real question real quick question can anim J track the use of bull fours
+
+00:03:07.200 --> 00:03:13.520
+Um probably I don't know the advice I have of anim J is if you go ahead and take
+
+00:03:14.760 --> 00:03:16.920
+Take an object and run it through the to string node
+
+00:03:16.920 --> 00:03:20.800
+You'll see what anim J representation should be applicable for it
+
+00:03:20.800 --> 00:03:25.120
+For example if you if you go like if you have a float three like you might write a float three
+
+00:03:25.120 --> 00:03:26.840
+And I know this is just in the chat and not the recording
+
+00:03:26.840 --> 00:03:30.320
+But whatever you write it as like three numbers with a comma in between so
+
+00:03:30.320 --> 00:03:37.080
+120 50 10 like that's a float 3 and then if you to string that you'll see something along the lines of this
+
+00:03:38.040 --> 00:03:43.120
+Which exists in the anim J as a serialized thing the reason why it's using those brackets
+
+00:03:43.120 --> 00:03:45.120
+And it's using semicolons rather than colons
+
+00:03:45.360 --> 00:03:50.920
+Commas even is because it's going into Jason and commas away than Jason as our quote, so it's using that as a different thing
+
+00:03:51.360 --> 00:03:56.520
+So if you to string something you'll usually see what it might be able to be looked at like in anim J
+
+00:03:56.520 --> 00:04:02.840
+What I want to do a minute every like eventually for anim J is I want to basically take a lot of c-sharp data structures
+
+00:04:03.200 --> 00:04:08.000
+That I can code in c-sharp right so if I write a float for a blue for or whatever in c-sharp
+
+00:04:08.000 --> 00:04:13.120
+I know it's correct as c-sharp has you know runtime detection on that and then say cool now reverse
+
+00:04:13.240 --> 00:04:19.160
+Generate an anim J file for that and then that can form actually part of like an automated test for anim J as well
+
+00:04:19.160 --> 00:04:21.720
+Right so we we take a c-sharp file
+
+00:04:21.720 --> 00:04:28.160
+We generate an anim J file from it, and then we check that that match is an expected known value
+
+00:04:28.240 --> 00:04:32.880
+So prime looks over the class goes like cool prime looks over the generated output and goes cool
+
+00:04:32.880 --> 00:04:38.920
+Then we lock those together in the form of a testing contract and then if one side breaks or the other side breaks
+
+00:04:38.920 --> 00:04:44.240
+We know that there is a problem with anim J for those who aren't aware about how testing works in software
+
+00:04:44.240 --> 00:04:49.160
+That's how it works right you read over the code once and you're like I am asserting me
+
+00:04:49.160 --> 00:04:52.280
+probable prime emperor of this c-sharp class
+
+00:04:52.720 --> 00:04:58.040
+says that this is what this program should output and then six months later where
+
+00:04:58.440 --> 00:05:00.440
+new person on the team
+
+00:05:00.560 --> 00:05:07.120
+Clarence makes a code change and accidentally break something because they're new the test go nah, sorry bro
+
+00:05:07.120 --> 00:05:12.760
+It's wrong, and then it's caught before it goes to production. That's that's testing for you. We want to do more testing
+
+00:05:12.760 --> 00:05:18.960
+On neos as well just to make sure that stuff doesn't break or that we know and stuff is about to break things like that
+
+00:05:18.960 --> 00:05:20.960
+so we actually have
+
+00:05:21.160 --> 00:05:26.480
+We have some testing and some benchmarking on a new node which isn't in the release yet due to hashtag announcements
+
+00:05:28.360 --> 00:05:35.120
+On counter currencies we have benchmarking to prove that the counter currencies implementation is the fastest we can get it to very interesting right up
+
+00:05:35.120 --> 00:05:37.840
+On that one. I actually might write that up in a blog somewhere at some point
+
+00:05:37.840 --> 00:05:44.400
+Yeah, and then we have testing to make sure that it works appropriately the same with a couple of other nodes
+
+00:05:44.400 --> 00:05:49.160
+Which are sort of escaping and escaping strings some advancements to those I had to write a bunch of tests for those again
+
+00:05:49.160 --> 00:05:51.560
+That's tested right so forever breaks. We can test it. That's great
+
+00:05:51.560 --> 00:05:54.820
+I know that's a tangent away from an MJ, but it leads to the point of the matter
+
+00:05:54.820 --> 00:05:59.580
+Which is like an MJ doesn't have those right now, and so we some cases don't know
+
+00:05:59.640 --> 00:06:05.160
+But if you to string it you sometimes get an approximation, and then you can try and chuck it in that's that question
+
+00:06:05.160 --> 00:06:09.440
+Moving on to the next question
+
+00:06:11.520 --> 00:06:16.280
+Spec says that they don't know the session metrics, okay, I still don't know and the problem is like it's not
+
+00:06:16.980 --> 00:06:20.660
+Notated I'm gonna go ahead and open up the code base. I actually didn't look for you
+
+00:06:20.660 --> 00:06:22.800
+I looked in Neos, but I didn't look in the actual code
+
+00:06:22.800 --> 00:06:28.260
+So I open up the code base that takes a couple of minutes and then in gaps between any questions. I'll take a look oh
+
+00:06:28.980 --> 00:06:32.600
+Interesting. Thank you for that example. That is not how to string would represent it at all
+
+00:06:32.600 --> 00:06:39.480
+Interesting does a flip for look like sorry flip for looked like a the bracket he stuff. That's cool X
+
+00:06:39.480 --> 00:06:41.800
+We should maybe collaborate on those tests
+
+00:06:41.800 --> 00:06:47.160
+I can reckon to write those now because like you can write tests about later shipping codes to productions
+
+00:06:47.800 --> 00:06:48.880
+Oh
+
+00:06:48.880 --> 00:06:53.560
+You found out it is milliseconds. Yes of course. I didn't read till the end sometimes. I do skim read
+
+00:06:53.560 --> 00:06:57.560
+It's just the nature of being sort of live on sage at sage. Yes
+
+00:06:57.560 --> 00:07:02.360
+I'm on top of a pile of sage the best herb in the world for those who are here
+
+00:07:02.360 --> 00:07:05.000
+Who are aware of what sage is sage and onion stuffing?
+
+00:07:06.040 --> 00:07:09.880
+Just give me like a whole plate of stuffing. I remember I had I lived with a
+
+00:07:10.560 --> 00:07:14.140
+Roommate back in my university days, and they love stuffing so much
+
+00:07:14.140 --> 00:07:17.560
+They would just buy like the you know stuffing powder you mix in water
+
+00:07:17.600 --> 00:07:23.020
+Maybe some milk sometimes you just get like a plate of stuffing and he would just eat that like all times of the year
+
+00:07:23.400 --> 00:07:24.700
+Sometimes it stuck up on it
+
+00:07:24.700 --> 00:07:29.440
+I've never really had that reaction except to eggnog like I hate the fact that eggnog is only available in December
+
+00:07:29.440 --> 00:07:35.000
+I don't really drink eggnog before I came to America, but every like every December now. I'm just like I
+
+00:07:36.360 --> 00:07:42.040
+Can't hold these liters of eggnog and for those who say like but you know you could make it at home
+
+00:07:42.040 --> 00:07:47.200
+And I'm just like yeah, I could also like you know follow Bob Ross's painting tutorials
+
+00:07:47.200 --> 00:07:51.920
+Or like you know learn a musical instrument, but what egg dogs available in the shops?
+
+00:07:51.920 --> 00:07:54.160
+I could just pick up liters of and take it home
+
+00:07:54.160 --> 00:07:58.080
+I always forget the recipe as well, and you're unlike any alcohol to eggnog
+
+00:07:58.080 --> 00:08:03.280
+It's great you warm up a little bit, and it's just like oh anyway. I think that's all the questions. We've got right now
+
+00:08:04.000 --> 00:08:07.560
+That's why I'm talking about eggnog. Well the problem is shelf life right so
+
+00:08:08.080 --> 00:08:10.860
+You know that there is a lot of you might all know
+
+00:08:10.860 --> 00:08:16.100
+But most of you should know there is a lot of wastage in the sort of grocery department like when you're walking through the grocery
+
+00:08:16.100 --> 00:08:17.320
+hour next time
+
+00:08:17.320 --> 00:08:24.360
+You're shopping, and you will past all the meat like what past you know the steak the ground beef the ground chicken the sausages walk
+
+00:08:24.360 --> 00:08:31.680
+Down that entire aisle if no one buys the like rotting deceased animals that are in those counters
+
+00:08:31.840 --> 00:08:36.300
+They will be thrown out by the grocery store, and it's just like brain is just like
+
+00:08:36.920 --> 00:08:40.040
+It's just weird right, but that's the grocery
+
+00:08:40.600 --> 00:08:42.640
+industry same thing with
+
+00:08:44.760 --> 00:08:48.380
+Eggnog right if no one buys the eggnog then it's just gonna rot and they have to throw it out
+
+00:08:48.380 --> 00:08:51.760
+So yeah, okay prime might come in and buy seven liters a week
+
+00:08:51.760 --> 00:08:56.320
+But they've got like a hundred leaders out back because they don't know that prime exists
+
+00:08:57.800 --> 00:09:03.840
+They can't plan for that if there's like long shelf life eggnog it probably tastes worse. I know there's like long shelf life
+
+00:09:05.280 --> 00:09:09.480
+Milk which is usually like tastes weird because they like they put it in like canned milk or something
+
+00:09:09.480 --> 00:09:14.320
+They put it in like they do a different type of treatment so that it can be have a long shelf life
+
+00:09:14.760 --> 00:09:18.580
+I've considered getting powdered milk. I know this is completely off topic, but like hey
+
+00:09:18.580 --> 00:09:23.400
+This is this is why you come to office hours come on. This is why you come you come in for random prime stories
+
+00:09:24.400 --> 00:09:26.400
+Whenever I need milk. It's like
+
+00:09:26.740 --> 00:09:28.280
+Usually 10 milliliters or less
+
+00:09:28.280 --> 00:09:32.240
+It's like a teaspoon or whatever for cooking and I buy like a container of milk
+
+00:09:32.240 --> 00:09:38.520
+And then it just goes off or and here's the alternative or I buy an entire box of cereal and a carton of milk
+
+00:09:38.520 --> 00:09:44.840
+And they're both gone within 24 hours. I just can't I can't process milk as a regular human being
+
+00:09:44.840 --> 00:09:48.280
+Where like you have a carton in the fridge at all times?
+
+00:09:48.920 --> 00:09:50.800
+That does it just doesn't occur to me
+
+00:09:50.800 --> 00:09:57.220
+It's either like in a bowl of cereal or it's off that that the two states of milk for prime
+
+00:09:57.220 --> 00:10:00.560
+I was debating whether to go into the story of how to dispose of
+
+00:10:01.240 --> 00:10:02.840
+milk
+
+00:10:02.840 --> 00:10:07.720
+Now let's not do that because I have a special mechanism for getting rid of off milk
+
+00:10:08.040 --> 00:10:11.380
+Okay back on topic from unnamed cyborg cat. Thank you so much
+
+00:10:11.380 --> 00:10:13.380
+When
+
+00:10:14.220 --> 00:10:18.900
+Will needs be finished or at least it is released it's released into early access
+
+00:10:18.900 --> 00:10:23.900
+I know the early access gets a lot of sort of stick in the community and that's because it
+
+00:10:25.020 --> 00:10:29.220
+You know, there are games that stay in early access forever. I'm not calling this game out
+
+00:10:29.220 --> 00:10:33.940
+I'm just mentioning I'm aware of in the press that this is happening a lot for this game seven days to die has been an
+
+00:10:33.940 --> 00:10:35.260
+Early access for a long time
+
+00:10:35.260 --> 00:10:35.740
+I
+
+00:10:35.740 --> 00:10:41.300
+Bought seven days to die off steam like a long time ago and I would have to like rummage through my email accounts to
+
+00:10:41.300 --> 00:10:43.580
+Find out which email I bought it from so that's interesting
+
+00:10:43.980 --> 00:10:50.420
+I keep playing early access games aren't completed and I hit like a content or like I did that was satisfactory for those who don't
+
+00:10:50.420 --> 00:10:52.220
+Know satisfactory you get to like phase
+
+00:10:52.220 --> 00:10:56.420
+For whatever you just send up and they give you a coffee cup and that's it because they don't have any more content
+
+00:10:56.660 --> 00:11:01.660
+I'm about to hit that wall with a game called grounded, which is really cool. Well you play as a
+
+00:11:02.460 --> 00:11:06.100
+Shrunken children in a forest of it's not actually a forest. It's a lawn
+
+00:11:06.420 --> 00:11:07.020
+You know
+
+00:11:07.020 --> 00:11:11.980
+You have to try and do stuff to get back up to your regular size and again, there's just a content wall
+
+00:11:11.980 --> 00:11:16.100
+It's like sorry guys. We didn't finish the game. It's the nature of early access. So
+
+00:11:16.740 --> 00:11:23.260
+Actually answer the question with that pre-facing never update 6 is coming out update 6 just talks about sorry
+
+00:11:23.260 --> 00:11:26.020
+we're talking about satisfactory update 6 just changes the the
+
+00:11:27.100 --> 00:11:32.780
+The biomes the biome generation and rebalances combat a little bit. That is good content
+
+00:11:32.780 --> 00:11:38.020
+Unfortunately, it is changing the biome completely of where my main base in my main satisfactory save is
+
+00:11:38.300 --> 00:11:41.340
+Located because we chose to build it there before we knew that that was going to happen
+
+00:11:41.540 --> 00:11:45.500
+so I predict after the update when I load the save that I have it's just gonna be like
+
+00:11:46.020 --> 00:11:49.820
+Off your factories in the side of a mountain. Whoo
+
+00:11:50.700 --> 00:11:55.700
+I would like satisfactory to have an update where there is an end of the game. I don't know
+
+00:11:56.420 --> 00:12:00.380
+That's only access for you know, but going back to to near stem gums. I
+
+00:12:00.380 --> 00:12:06.580
+I don't think it'll ever be finished or released. There will come a time some time in the future where
+
+00:12:07.340 --> 00:12:10.280
+There are no more updates. I know there are no updates right now
+
+00:12:10.280 --> 00:12:16.480
+Let's just imagine for just like 30 minutes, please that Neos is doing fantastic right now, please. It makes conversations a lot more sort of
+
+00:12:18.220 --> 00:12:20.220
+Empathic and good to have
+
+00:12:20.740 --> 00:12:24.900
+At some point in the future this situation not withstanding
+
+00:12:24.900 --> 00:12:30.060
+There will no longer be an update. Let's say 20 years in the future 30 years in the future
+
+00:12:30.500 --> 00:12:33.060
+You're like ancient you sat on a rocking chair
+
+00:12:33.060 --> 00:12:38.260
+You've got a blanket on your legs your family all around you and you can barely walk three steps
+
+00:12:38.260 --> 00:12:41.300
+And you know, you're just like back in my day
+
+00:12:41.980 --> 00:12:43.980
+prime talked about cheese
+
+00:12:44.700 --> 00:12:51.060
+You know and we didn't have all these features at some point. It's just gonna happen right the game will just stop having updates
+
+00:12:51.060 --> 00:12:56.420
+At that point, could you say it was finished? Yeah, probably not though
+
+00:12:56.420 --> 00:13:00.820
+There was probably like a realm of stuff that we still intended to do like I used to work on mixer
+
+00:13:00.820 --> 00:13:05.840
+And again, we had a realm of stuff that we just intended to do but because mixer shut down it was therefore
+
+00:13:06.540 --> 00:13:11.300
+Colloquially known as being finished right? I have notes in a notebook. That's on my desk
+
+00:13:11.300 --> 00:13:15.780
+It's almost out as my work notebook and it's still caught mixer notes from features in it
+
+00:13:15.780 --> 00:13:19.780
+I have to keep those until I if I whatever leave the job
+
+00:13:19.780 --> 00:13:23.380
+But then I kind of have to sort of turn that notebook to them or shred it or something
+
+00:13:23.380 --> 00:13:27.900
+I don't remember which I'll read when it comes to that. So there you go. There's the answer to that question
+
+00:13:28.540 --> 00:13:33.620
+Now onwards to more content 15 minutes in we're still talking about random stuff
+
+00:13:34.660 --> 00:13:38.920
+Roussia says not a question the amateur radio project with the red sockets caught it with the red sockets
+
+00:13:39.100 --> 00:13:46.020
+So catchy good piece of software red red. No, no red. Anyway web sockets causing red nodes
+
+00:13:46.020 --> 00:13:51.780
+I separated the important radio control and signal report data into two separate web sockets and add an impulse timer on the signal report web socket
+
+00:13:51.780 --> 00:13:56.860
+No, it does appear to have prevented the red nodes from happening. Absolutely. Yeah split the logics up
+
+00:13:57.300 --> 00:14:00.140
+split things up split things into data channels and make sure the only
+
+00:14:00.220 --> 00:14:04.640
+Processing data at the speed that you need to process it out or slow down that data and you'll have a much better time
+
+00:14:05.220 --> 00:14:09.780
+If you're worried about now that your project is now using two web socket nodes
+
+00:14:09.780 --> 00:14:13.340
+What I want you to go do is to go to any popular website Facebook Twitter
+
+00:14:13.340 --> 00:14:19.220
+You name it whatever you want to do YouTube's another good one open up the developer tools and then go to the network tab
+
+00:14:19.220 --> 00:14:23.100
+And then hit refresh and then just like die. It's just like
+
+00:14:24.660 --> 00:14:26.660
+There's just like thousands of
+
+00:14:26.660 --> 00:14:34.380
+Business pieces of data just coming in and all they do is they represent cat memes on your computer entering your brain through your eyes
+
+00:14:34.380 --> 00:14:39.220
+It's very interesting how the way the world has worked. So don't worry about complexity is what I'm saying if it works
+
+00:14:39.220 --> 00:14:43.380
+Cool moving on to Lexus question
+
+00:14:43.380 --> 00:14:48.320
+Which is any specific reason why the enos API is not cause compatible not having the required cause headers to a crosstalk way
+
+00:14:48.320 --> 00:14:51.260
+Peter web API access like an explicit decision or
+
+00:14:52.540 --> 00:14:57.700
+Because it's not supposed to be used. I know I'm paraphrasing that a lot. I apologize. I'll just sum up
+
+00:14:57.700 --> 00:15:05.140
+So Lex is asking why the nearest API doesn't have cause headers cause is cross origin request
+
+00:15:05.980 --> 00:15:07.980
+something
+
+00:15:07.980 --> 00:15:14.000
+Sometimes I know what an abbreviation means, but I don't know what the abbreviation expands to if that makes sense. So cause is
+
+00:15:14.880 --> 00:15:16.360
+Really cool
+
+00:15:16.360 --> 00:15:18.800
+No, we don't have the headers there it allows
+
+00:15:19.480 --> 00:15:22.760
+Other websites in the browser to talk to the API
+
+00:15:23.360 --> 00:15:28.200
+It can be a security preventative measure to explicitly out out of cause headers
+
+00:15:28.600 --> 00:15:31.160
+We don't have them because we haven't made a decision either way
+
+00:15:32.160 --> 00:15:34.160
+When it comes to web services
+
+00:15:34.160 --> 00:15:41.520
+Fruxy is is less knowledge about about those than other things such as no nears his actual engine. And so
+
+00:15:42.240 --> 00:15:48.040
+Some of those decisions just either weren't made simply through time or weren't made because they don't know about them
+
+00:15:48.040 --> 00:15:51.740
+I'm not trying to say hey fricks didn't know about that. They're bad or anything like that
+
+00:15:51.920 --> 00:15:55.200
+What I'm trying to say here is sometimes stuff is just overlooked
+
+00:15:56.360 --> 00:15:58.280
+Above all the other things I do in news
+
+00:15:58.280 --> 00:16:02.520
+One of the reasons why I joined the team is actually to help out on the website side of things, right?
+
+00:16:02.520 --> 00:16:04.520
+I am a web developer
+
+00:16:04.920 --> 00:16:09.840
+Engineer, whatever you want to call it by trade and have been for a long long long long long time
+
+00:16:10.000 --> 00:16:11.880
+So I can help out with things like that
+
+00:16:11.880 --> 00:16:17.000
+We would have to have a discussion as a team about what we want to do about cause and particularly would have to speak to
+
+00:16:17.000 --> 00:16:19.000
+Developers that require cause see what their needs are
+
+00:16:19.240 --> 00:16:23.320
+because I don't think we'll be able to enable cause on every single like API and
+
+00:16:23.680 --> 00:16:26.300
+Would have to maybe decide which ones we wanted to enable them
+
+00:16:27.960 --> 00:16:30.620
+Additionally, we need to make sure that the API is actually usable right now
+
+00:16:30.620 --> 00:16:32.840
+The fact that you're using it is kind of just like a small miracle
+
+00:16:33.360 --> 00:16:37.320
+Like any update could break it right now. We have nothing locked its contracts
+
+00:16:37.840 --> 00:16:39.520
+We see you commented that
+
+00:16:39.520 --> 00:16:42.000
+Everything is actually implemented in node-red. That's fantastic
+
+00:16:42.000 --> 00:16:43.000
+I really want to look at node-red
+
+00:16:43.000 --> 00:16:45.960
+But like I got kind of put off because I'd have to set up a server
+
+00:16:46.040 --> 00:16:48.820
+One of my principles right now is to just do serverless everything
+
+00:16:48.820 --> 00:16:51.340
+So I need to look at node-red again and see if there's an easy way to run it
+
+00:16:51.340 --> 00:16:55.440
+I just like not having machines running somewhere that I have to like SSH into it
+
+00:16:55.440 --> 00:16:59.960
+It puts me off and with that we'll wait for more questions. Thank you so much guys. All right
+
+00:16:59.960 --> 00:17:03.920
+I'm just you know, double enforcing. Hey, if you have any questions, please
+
+00:17:04.680 --> 00:17:09.080
+the office hours channel that is two channels above the one you clicked to get to this meeting and
+
+00:17:09.520 --> 00:17:14.100
+I'll answer them as soon as I get to them as there are no questions. I get to ask you guys a question
+
+00:17:14.200 --> 00:17:19.920
+So do you have any tutorial requests currently? I know I've been like absent on the tutorial front for a while
+
+00:17:20.040 --> 00:17:24.520
+That's because of the channel that's announcements. It's also because of a couple of personal things
+
+00:17:25.320 --> 00:17:28.860
+If you have any requests do let me know. I'm hoping to start those back up
+
+00:17:28.860 --> 00:17:35.800
+I was um, ignoring about it because I'm like, why would I do tutorials for like a platform that is like, you know
+
+00:17:36.120 --> 00:17:40.400
+Struggling and the answer there is like hey, I'm just gonna do it
+
+00:17:41.520 --> 00:17:46.560
+I'm just gonna like I'm just gonna continue doing tutorials continue servicing that community and
+
+00:17:47.000 --> 00:17:50.680
+Hey, if the platform continues to struggle, I don't care. It's my channel
+
+00:17:51.280 --> 00:17:53.280
+News related question above did I miss a question?
+
+00:17:54.120 --> 00:17:58.000
+See a question. Oh, there are thoughts on the red X file search. I have no idea what it is
+
+00:17:58.000 --> 00:18:00.480
+Oh, I do. I just didn't know it was called that. Um
+
+00:18:01.120 --> 00:18:04.280
+That is a searcher that searches through all public
+
+00:18:05.120 --> 00:18:10.640
+Public folders that are been indexed by it actually uses good effects is like database as far as I'm aware
+
+00:18:10.880 --> 00:18:14.040
+that has scanned through using the web API all of
+
+00:18:14.840 --> 00:18:19.920
+All of the public folders that it's available for it cannot find your private content. It cannot steal your avatars
+
+00:18:19.920 --> 00:18:21.640
+It's just scanning for public folders
+
+00:18:21.640 --> 00:18:25.040
+If you happen to put something you don't intend to inside a public folder
+
+00:18:25.040 --> 00:18:28.760
+Make sure you select it and hit that purple hand like on that will
+
+00:18:29.360 --> 00:18:36.280
+Prevent it from being public. It removes it from public. Um, I like it. I built one myself
+
+00:18:37.000 --> 00:18:42.160
+Shortly before I joined the Neos team when I joined the Neos team, I shut down mine. It still exists
+
+00:18:42.160 --> 00:18:43.120
+I still have the code for it
+
+00:18:43.120 --> 00:18:45.260
+I would love to release the code
+
+00:18:45.360 --> 00:18:51.560
+but the problem releasing the code is that it basically tells you how to use the Neos API to do what I told like what
+
+00:18:51.560 --> 00:18:53.560
+I'm telling you just to build that database and
+
+00:18:53.560 --> 00:18:56.840
+I don't want to be liable is the wrong word, right?
+
+00:18:56.840 --> 00:19:01.200
+Because I'm not doing anything wrong, but I don't want to be liable for support in
+
+00:19:01.840 --> 00:19:03.560
+How that code works?
+
+00:19:03.560 --> 00:19:09.640
+Because of the state of the API so when I joined the Neos team, I was like, hey, it's much better if I spend more time
+
+00:19:10.560 --> 00:19:15.000
+Making things in Neos. I want to make a reality such as the inbuilt
+
+00:19:15.600 --> 00:19:19.600
+Item searcher exist rather than spending time on this item searcher
+
+00:19:19.600 --> 00:19:25.080
+Which will inevitably just become a time sink for me when people look at it and go that's really cool
+
+00:19:25.320 --> 00:19:30.000
+But can I make it do this and me have to go like oh, yeah sure you push XYZ
+
+00:19:30.000 --> 00:19:34.780
+It'll do that. But yeah, I have I have one that is closed source right now. They exist. It's really cool
+
+00:19:34.780 --> 00:19:40.240
+Like it's really really really really really cool. I just put a pause on it looking at tutorial quests someone
+
+00:19:41.480 --> 00:19:46.920
+Someone was talking to me about those ones or froppy would like a tutorial on the forward note
+
+00:19:46.920 --> 00:19:50.160
+Yeah, my vector mathematics is like exceptionally like
+
+00:19:50.800 --> 00:19:55.720
+Strange in the once you start using it. You're like, oh, that's easy. Oh, why didn't I think of that?
+
+00:19:56.080 --> 00:19:59.920
+So probably specific talking about the nodes such as forward up left right down
+
+00:20:01.200 --> 00:20:04.440
+They're like vector based things. We need to do a sort of imagine a
+
+00:20:05.680 --> 00:20:10.920
+Gizmo always being on your object. Let's say you have I don't know like a goose NPC, right?
+
+00:20:10.920 --> 00:20:17.200
+That goose has a forward vector and then you can do master that forward vector and it's usually better than doing other
+
+00:20:17.560 --> 00:20:20.680
+forms of mathematics a good example here is if you
+
+00:20:21.560 --> 00:20:25.760
+if you have an object with a global position and we'll just call it the goose and
+
+00:20:26.280 --> 00:20:31.580
+You set its position to its forward vector times a multiplier
+
+00:20:32.440 --> 00:20:39.000
+And then add that onto its existing position. So you do it's an existing position plus its forward vector plus a multiplier
+
+00:20:39.000 --> 00:20:41.480
+It will move forward at that multipliers
+
+00:20:42.520 --> 00:20:45.920
+Interval, let's say it's for direct vector is straight towards
+
+00:20:45.920 --> 00:20:51.920
+We'll just say the front of the world just to avoid the mathematics for right now and you do front and you do front times
+
+00:20:51.920 --> 00:20:56.180
+Five it will move five units in the front of the world and it's beautiful
+
+00:20:56.180 --> 00:21:01.520
+I you don't need to do any sort of mathematics to figure out all which direction am I which rotation of mine?
+
+00:21:01.520 --> 00:21:06.600
+There's no trigonometry involved. It just does it. It's beautiful. So yeah, I'd love to draw on them
+
+00:21:06.600 --> 00:21:07.920
+I'm
+
+00:21:07.920 --> 00:21:13.640
+Moving forwards Oh Ruscio has asked for a 3d mass tutorial. I don't know if I want to expand into like actual education
+
+00:21:14.080 --> 00:21:18.080
+I can I will have to put disclaimers at the bottom there though that I am NOT like
+
+00:21:18.840 --> 00:21:22.280
+Educationally licensed. I don't know if I need to but I probably will like I can teach
+
+00:21:22.280 --> 00:21:26.360
+I can teach things like a trigonometry or Pythagoras or stuff like that
+
+00:21:26.360 --> 00:21:30.260
+I can teach like I said the forward vector etc stuff like that. I
+
+00:21:30.260 --> 00:21:34.900
+I um, they just sort of they come into a sort of like weird thing
+
+00:21:34.900 --> 00:21:40.020
+Like am I doing math tutorials for people who might not be news related or am I doing?
+
+00:21:40.380 --> 00:21:45.540
+Tutorials for those who are in neo somewhat to use those mathematical concepts because I think there's a realm for both
+
+00:21:45.580 --> 00:21:47.060
+There is also another question
+
+00:21:47.060 --> 00:21:50.960
+I know this is meant to be about news and I tell people off without asking how I am and stuff but
+
+00:21:51.420 --> 00:21:54.800
+I never quite know what to do with my youtube channel, right?
+
+00:21:54.800 --> 00:22:02.620
+My youtube channel is Neos tutorials Neos tutorials cool if mathematical tutorials that weren't associated with Neos or blender
+
+00:22:02.620 --> 00:22:07.940
+Tutorials or VR chat tutorials or chill out VR tutorials started appearing on that channel. Is that okay?
+
+00:22:07.940 --> 00:22:14.340
+I never know like I know that like bigger channels they like make multiple channels to host their like random stuff. You know, there's like
+
+00:22:15.060 --> 00:22:21.220
+Big youtuber one and that's where all they're like really highly produced videos do and then they usually have like a big
+
+00:22:21.220 --> 00:22:27.340
+Youtuber too and that's where they put like less effort he videos in and then they have big youtuber dash gaming
+
+00:22:27.340 --> 00:22:28.980
+Which is where they just play games and stuff
+
+00:22:28.980 --> 00:22:32.140
+That's like that's what I usually do, but I don't know if I want to do that
+
+00:22:32.140 --> 00:22:36.980
+I remember replying to a tweet from Eastern Eastern tweeted like
+
+00:22:37.500 --> 00:22:45.380
+something something, you know didn't want to post anything about non Neos content and that was strange because like Twitter is my space and
+
+00:22:45.380 --> 00:22:48.500
+If you follow me on Twitter, you'll see I sometimes retweet random stuff
+
+00:22:48.500 --> 00:22:52.500
+That doesn't make any sense and it's nothing to do in years, but that's my time. That's my timeline
+
+00:22:52.660 --> 00:22:55.280
+Those are my tweets if you don't like them you can buzz off
+
+00:22:55.380 --> 00:22:58.060
+So I think I should probably adopt that approach to my channel as well
+
+00:22:58.060 --> 00:23:02.860
+I'll still keep it to like tutorials and learning and stuff like that. But hey if I wanted to do blender like
+
+00:23:03.780 --> 00:23:07.460
+Or VR chat or whatever you might see stuff on there. I know people who asked for it
+
+00:23:07.460 --> 00:23:10.580
+I just don't know how yeah chat works. Most of Avatar 3 is just like
+
+00:23:11.660 --> 00:23:14.780
+So I'd have to go learn that and do that, but I think people would appreciate it
+
+00:23:14.900 --> 00:23:18.340
+Anyway, that was another question to you. So let me jump through the other questions that we have here
+
+00:23:18.340 --> 00:23:21.820
+So Lexus, do you think there'll be another competition similar to Neos Neos?
+
+00:23:21.820 --> 00:23:27.660
+I think it was Neos create a contest not Neos contest contest, but totally fine, which will be officially run by the Neos team
+
+00:23:28.780 --> 00:23:31.920
+In due course. Yes, read hashtag and
+
+00:23:33.740 --> 00:23:35.740
+We will have the MMC
+
+00:23:35.680 --> 00:23:37.380
+2023 which will be
+
+00:23:37.380 --> 00:23:41.460
+Probably I don't know it's not announced yet, but it'll be sort of start of the year next year
+
+00:23:41.460 --> 00:23:42.860
+So maybe February time again
+
+00:23:42.860 --> 00:23:47.440
+I have no idea how MC 2023 is gonna be but now you've had that quick succession
+
+00:23:47.440 --> 00:23:53.300
+Which was the October MMC and then the February MMC you can have have like a have a gap
+
+00:23:53.780 --> 00:23:58.060
+Relax, no contests. However, you are free to have your own contest
+
+00:23:59.540 --> 00:24:01.540
+If you want to set one up
+
+00:24:03.100 --> 00:24:07.940
+I'll get to that in a moment, Lex. I'm sorry. I wrote that page. I wrote that page
+
+00:24:10.060 --> 00:24:14.660
+I'll get to that. What I'm sorry to say is if you want to have your own contest and you can get sponsorship for it
+
+00:24:14.660 --> 00:24:18.700
+Go for it. Don't feel obligated to you know, let us know or anything like that
+
+00:24:19.380 --> 00:24:23.220
+Good example here being Festa. Festa has been running for like three years and to be honest
+
+00:24:23.220 --> 00:24:28.500
+I still have hardly no idea who runs it what it's about etc. I just know it's cool. So cool do it
+
+00:24:29.180 --> 00:24:31.180
+Do keep a look at
+
+00:24:31.300 --> 00:24:33.940
+Look at like a good example here is to look at Altspace VR
+
+00:24:33.940 --> 00:24:37.780
+If you go to Altspace VR, it's more of an event team platform. So you look at the event tab in the event tab
+
+00:24:37.780 --> 00:24:39.220
+it's basically just like
+
+00:24:39.220 --> 00:24:41.220
+anything from
+
+00:24:41.220 --> 00:24:48.020
+live music to conversations about sort of philosophy and religion and stuff like that and there are events that you can just go to and
+
+00:24:48.020 --> 00:24:52.900
+I know for a fact because I know how that team works that they don't know the events that happening on their platform
+
+00:24:52.900 --> 00:24:55.560
+They do if there's you know, any sort of breaks and rolls or anything like that
+
+00:24:55.600 --> 00:24:57.620
+But they're just like yeah, if you want to do it go for it
+
+00:24:57.620 --> 00:25:03.220
+I bet you there's like a sort of underwater basket weaving event on what space VR and just it's great
+
+00:25:03.220 --> 00:25:08.700
+So I'm saying there basically is more events equal good if you want to do another event do it. It'll be cool
+
+00:25:08.700 --> 00:25:12.340
+Now moving forwards any tutorials about anim chase would rule. I
+
+00:25:13.300 --> 00:25:17.420
+Actually don't know how an M. Shea works. That's what I reasons why we haven't had an MGA tutorial
+
+00:25:17.420 --> 00:25:18.260
+I don't know how it works
+
+00:25:18.260 --> 00:25:23.220
+I have to like look it up and the only reason I can know how it works is by doing that C sharp class thing
+
+00:25:23.220 --> 00:25:28.380
+I mentioned because like cool there are a bunch of snippets like the one next provided like the one other people have provided
+
+00:25:28.380 --> 00:25:30.380
+You know the JSON files where it's like here's how to do one thing
+
+00:25:31.940 --> 00:25:34.580
+But it's kind of hard to talk about an MJ in isolation
+
+00:25:34.580 --> 00:25:39.060
+There are lots of people making tools for it as well. But like if I was doing a tutorial for it in the interim
+
+00:25:39.060 --> 00:25:41.980
+It would literally just be like a notepad document. We'd be typing it
+
+00:25:42.900 --> 00:25:44.700
+Just like it's gonna be interesting
+
+00:25:44.700 --> 00:25:48.260
+But it's basically like a tutorial for people who then want to make tooling for an MJ
+
+00:25:48.260 --> 00:25:50.260
+I still think it's worthwhile. So it is on the list
+
+00:25:51.140 --> 00:25:55.500
+Kip who says I joined late which node handles the vector math all the nodes
+
+00:25:56.100 --> 00:26:00.620
+Plus minus divide times all can take float threes and they can do the vote the vector maps
+
+00:26:00.700 --> 00:26:02.700
+The specific nodes that we were talking about
+
+00:26:02.700 --> 00:26:04.700
+earlier though were
+
+00:26:05.580 --> 00:26:07.980
+Forward backwards up down left right etc
+
+00:26:08.940 --> 00:26:14.060
+And those ones are the ones that are very good if you know how to use them
+
+00:26:14.060 --> 00:26:19.980
+They're a lot faster than sort of other ways of doing things like a vehicle really easy with the forward node. For example
+
+00:26:21.740 --> 00:26:25.340
+Specs says they are very much in need of a hand pose a tutorial
+
+00:26:25.340 --> 00:26:31.620
+Um, I don't know like a hand pose a component itself doesn't really have any sort of configuration options on it
+
+00:26:31.620 --> 00:26:37.540
+That will allow you to sort of tweak like how tight the hand closes or how open the hand opens
+
+00:26:38.340 --> 00:26:43.900
+There might be sitting on there on the VR I case other things if I was going to do a hand poses specifically tutorial
+
+00:26:43.900 --> 00:26:50.420
+It would just be to how to like set up hands manually, which I think I already have but as for like different grip poses
+
+00:26:50.420 --> 00:26:52.420
+I think it is. I think we have a yes
+
+00:26:53.100 --> 00:26:54.860
+Yeah, I've issued about that one
+
+00:26:54.860 --> 00:27:00.300
+Then Lex points out that the NCC page on the news wiki says the news contest contest
+
+00:27:00.300 --> 00:27:03.060
+Which is entirely my fault because I wrote that page
+
+00:27:03.180 --> 00:27:08.500
+It was the news creator contest so he has created contest not the news contest contest
+
+00:27:08.500 --> 00:27:12.300
+But hey, if you want to make the news contest contest and make it a mean go for it
+
+00:27:12.300 --> 00:27:15.320
+I will update that page when I remember to
+
+00:27:16.120 --> 00:27:19.500
+Spec says that they have an avatar with a few fingers and it was led
+
+00:27:20.020 --> 00:27:22.300
+Led to the hand poser as a solution
+
+00:27:23.060 --> 00:27:25.060
+You can have a look at the hand poser
+
+00:27:25.300 --> 00:27:28.480
+What I would probably do first of all though is take a look at your rig
+
+00:27:28.480 --> 00:27:30.360
+and
+
+00:27:30.360 --> 00:27:36.000
+See what the hands look like in their t-pose state and my blender or whatever and then see if we can sort of figure out
+
+00:27:36.000 --> 00:27:38.000
+Anything from there?
+
+00:27:38.040 --> 00:27:40.960
+There is a limited amount of stuff we can do in adjusting those
+
+00:27:41.280 --> 00:27:47.000
+It's really finicky though like it's like manual mathematics on my each finger, and it's just yeah
+
+00:27:50.640 --> 00:27:55.000
+Honestly just fiddling with it would be good. I would say that I can have a look but
+
+00:27:55.000 --> 00:27:58.980
+That's why I would be doing I would just literally be fiddling with the numbers
+
+00:27:59.160 --> 00:28:03.680
+Maybe get some pictures into questions and help see if anyone else has come up the issue
+
+00:28:03.880 --> 00:28:08.960
+I'm not gonna say like hey go poke them because they might know because I don't know if they'll know
+
+00:28:09.080 --> 00:28:13.320
+But like I have a vague memory that dorky might have had a similar problem with another avatars
+
+00:28:13.320 --> 00:28:16.000
+They might know and let's get some pictures into
+
+00:28:16.960 --> 00:28:18.960
+questions and help maybe someone can
+
+00:28:19.200 --> 00:28:23.200
+See that and ask and get some help with that. I believe that we are out of questions
+
+00:28:23.200 --> 00:28:26.240
+I hope you've enjoyed primetime as much as I have enjoyed primetime
+
+00:28:26.240 --> 00:28:31.000
+Do you have any further questions feel free to ask them in the discord DM me send me pictures of cheese whatever you'd like
+
+00:28:31.160 --> 00:28:37.680
+I will get back to you as soon as possible. I didn't upload. I forgot. I'm really bad at this. I'll get better
+
+00:28:37.680 --> 00:28:43.800
+I promise I didn't upload the previous episode to sounder, but I'll put both episodes in sounder today and
+
+00:28:44.900 --> 00:28:51.760
+Get those those in you in you get those in here. Well. I'm losing the ability to English right now
+
+00:28:51.760 --> 00:28:52.680
+I
+
+00:28:52.680 --> 00:28:59.160
+Get those into into this channel. Let me know how sound is going by the way. I know some people prefer like notes
+
+00:28:59.160 --> 00:29:01.160
+I'm just trying to like save time right now I
+
+00:29:01.680 --> 00:29:06.960
+Had more time I could type up notes if you want to type up notes based on the recording go for it
+
+00:29:06.960 --> 00:29:14.080
+I'm just like it became really time wasting if I like time wasting because it is good time. What's the word time intensive?
+
+00:29:14.680 --> 00:29:16.680
+To do the notes in the old way
+
+00:29:16.680 --> 00:29:21.760
+And at one point I had like three recordings. I had to go through and like type notes for them
+
+00:29:21.760 --> 00:29:25.760
+They got like this is like four hours of me. Just listening to my own voice. This is horrible. Please stop
+
+00:29:26.240 --> 00:29:29.880
+So that's why I went to the different approach which meant like hey at least the recordings there
+
+00:29:29.880 --> 00:29:31.880
+They're also some complaints that the
+
+00:29:31.960 --> 00:29:36.600
+Notes didn't reflect accurately what I said and the reason there was because I was summarizing right in the in the written notes
+
+00:29:36.600 --> 00:29:39.320
+I was basically like for spec this question for example
+
+00:29:39.320 --> 00:29:43.640
+I'd be like posting questions or not there's the notes and people like well. It's not what you said. It's like well
+
+00:29:43.640 --> 00:29:51.360
+It's the action item about why I said the action item was posting questions and help about it the fact that I meandered for like
+
+00:29:51.360 --> 00:29:57.880
+Three minutes talking about the hand poser is inconsequential it doesn't really fix the problem, but but there you go windows
+
+00:29:57.880 --> 00:30:00.960
+Hey, I'm not doing windows. H should do windows key G though
+
+00:30:00.960 --> 00:30:05.640
+That's the game bar game bars cool used to stream to mixer then they had to pull that code out anyway
+
+00:30:05.640 --> 00:30:14.720
+I'll leave you here guys any other questions. Let me know I will get back to you as soon as I can bye. Bye

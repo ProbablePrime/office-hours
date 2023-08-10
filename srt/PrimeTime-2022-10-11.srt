@@ -1,0 +1,1612 @@
+1
+0:00:00.000 --> 0:00:05.660
+All right, so we'll get started it is primetime the office hours AMA segment where I answer your questions and
+
+2
+0:00:06.440 --> 0:00:09.580
+We'll get started do any questions that appear last questions are
+
+3
+0:00:10.300 --> 0:00:18.700
+Not here. I will just sit in unimaginable endless silence whilst I check tracking for a parcel that is going all the way to Tasmania.
+
+4
+0:00:19.560 --> 0:00:25.080
+Really? I got that check information off to the Lord bucket head says how has my day been so far?
+
+5
+0:00:25.080 --> 0:00:29.560
+I really also like personal questions, but since questions are kind of dry. I'll go for it. Oh, yeah good
+
+6
+0:00:29.560 --> 0:00:35.040
+I have a giant mug of tea, but I'm gonna go ahead and and chug and
+
+7
+0:00:36.160 --> 0:00:38.880
+On the rest of my day. I guess anyway um
+
+8
+0:00:40.040 --> 0:00:42.040
+after office hours at least
+
+9
+0:00:42.060 --> 0:00:47.700
+Moving forwards to unnamed cyborg cat who says is Neos ever going to be finished yet
+
+10
+0:00:47.700 --> 0:00:51.640
+I don't think Neos will ever ever be finished
+
+11
+0:00:52.280 --> 0:00:54.280
+unlike games which are
+
+12
+0:00:54.280 --> 0:00:58.920
+Like real games like Neos is is always going to be ever-growing
+
+13
+0:01:00.160 --> 0:01:02.160
+Once we get through all this stuff
+
+14
+0:01:03.000 --> 0:01:04.520
+Let's think of an example here
+
+15
+0:01:04.520 --> 0:01:10.280
+I take the the latest Legend of Zelda game right that has a defined start point and end point and yeah
+
+16
+0:01:10.280 --> 0:01:13.420
+There could be DLC of course that could be DLC
+
+17
+0:01:13.680 --> 0:01:21.800
+But there is a defined start and end point where that game will just not require any additional work whereas we have a metaverse
+
+18
+0:01:21.800 --> 0:01:28.560
+that's going to need additional work until the end of its existence as a reminder for those who have just joined or run away please drop
+
+19
+0:01:28.560 --> 0:01:29.800
+questions in the
+
+20
+0:01:29.800 --> 0:01:33.640
+Thread that we have up in the office hours text chat. I'll answer them in the order that they appear
+
+21
+0:01:34.160 --> 0:01:37.040
+If there are no questions, I will sit here in silence until
+
+22
+0:01:37.600 --> 0:01:40.000
+Questions appear just the nature of office hours
+
+23
+0:01:40.520 --> 0:01:45.080
+Whilst I wait for questions. I'm gonna go ahead and push another couple of buttons to make sure that a
+
+24
+0:01:45.800 --> 0:01:47.800
+parcel appears at
+
+25
+0:01:47.800 --> 0:01:49.120
+my house
+
+26
+0:01:49.120 --> 0:01:52.520
+Scheduled package, please arrive today. Excellent. Oh
+
+27
+0:01:53.200 --> 0:01:57.480
+We have a question from Risa. Thank you Risa says another cjism
+
+28
+0:01:57.480 --> 0:02:00.280
+We've been having more world performance issues namely the lockups
+
+29
+0:02:00.280 --> 0:02:06.480
+We feel when avatars load in what we've noticed is that saving allowing the world to reload often clears this up when the same number
+
+30
+0:02:06.480 --> 0:02:09.960
+Of users are present in the world as typically buyers a few hours
+
+31
+0:02:10.200 --> 0:02:15.080
+Before we need to save and reload again any thoughts on what we could be causing the performance to degrade over time until they restart
+
+32
+0:02:15.080 --> 0:02:17.080
+Um
+
+33
+0:02:17.280 --> 0:02:25.480
+Potentially unused assets have you like does the cg worlds have the cleanup unused assets checkbox enabled on their sessions?
+
+34
+0:02:27.800 --> 0:02:33.040
+That that might help that's really the only thing I can think of that would be like people loading in and loading out
+
+35
+0:02:33.920 --> 0:02:35.920
+They do. Okay. Yeah
+
+36
+0:02:36.120 --> 0:02:38.480
+interesting to sort of monitor that I guess
+
+37
+0:02:39.440 --> 0:02:42.640
+My public folder somewhere. There's like the world health thing
+
+38
+0:02:42.640 --> 0:02:46.320
+I wanted to make it like a huge thing in the end. I just had two accounts the
+
+39
+0:02:47.080 --> 0:02:52.760
+Direct children of the roots law and the direct children of the assets law and and seeing if that goes
+
+40
+0:02:54.560 --> 0:03:00.040
+Up and down throughout the session might be a sort of indicator if cleanup unused assets is working
+
+41
+0:03:00.800 --> 0:03:07.800
+And then I don't really have any other ideas unfortunately right now. We have two additional questions here from Marcus
+
+42
+0:03:07.800 --> 0:03:11.100
+Thank you for this first question. Why do you like news? I don't actually know
+
+43
+0:03:11.100 --> 0:03:15.400
+I know that like, you know a team member should have like a really good answer here. That's like
+
+44
+0:03:16.320 --> 0:03:20.040
+Businessy and like, you know, if it's the like energy of the company
+
+45
+0:03:20.680 --> 0:03:22.680
+but I don't I
+
+46
+0:03:23.040 --> 0:03:25.040
+Like it. I don't know why
+
+47
+0:03:27.520 --> 0:03:29.520
+Yeah
+
+48
+0:03:29.520 --> 0:03:31.560
+Sorry, I'll get a words on that one. Oh
+
+49
+0:03:32.640 --> 0:03:38.360
+Then the second question is what would be some things to say to someone to try to get them to check out
+
+50
+0:03:38.360 --> 0:03:40.360
+Neos with me
+
+51
+0:03:42.400 --> 0:03:44.240
+Firstly make sure you're not
+
+52
+0:03:44.240 --> 0:03:47.560
+Guess like bullying is the wrong word nagging nagging would be a good word
+
+53
+0:03:47.600 --> 0:03:51.520
+Make sure that nagging them like some people are just happy what they're what they're doing
+
+54
+0:03:51.520 --> 0:03:54.520
+You know, they're happy in there. There are applications and they're happy
+
+55
+0:03:55.000 --> 0:04:00.000
+Not having a you know, boiling screen strapped to their face. So do keep that in mind
+
+56
+0:04:00.000 --> 0:04:02.760
+Don't don't pester people if they've said no a few times anyway, um
+
+57
+0:04:03.800 --> 0:04:05.800
+without the way
+
+58
+0:04:05.800 --> 0:04:12.040
+The focus on what you can do but also what you can experience a lot of times
+
+59
+0:04:12.040 --> 0:04:17.760
+I see players focusing on what you can do and that's where a session might turn into sort of like Gary's mod style session
+
+60
+0:04:18.440 --> 0:04:22.520
+And to that point you can do Gary's mod style stuff on Gary's mod
+
+61
+0:04:22.520 --> 0:04:29.480
+You can also do Gary's mod style stuff on many many games. For example, if just playing around with guns go play h3vr
+
+62
+0:04:30.720 --> 0:04:32.720
+if it's just
+
+63
+0:04:32.720 --> 0:04:38.840
+Goofing off then Gary's mod, even VRChat covers that rate show them what is unique about Neos
+
+64
+0:04:38.840 --> 0:04:42.720
+Take them on a world tour show them the community and how helpful they are
+
+65
+0:04:43.360 --> 0:04:49.760
+Also, try not to make their first session as about avatars as like it needs to be
+
+66
+0:04:50.240 --> 0:04:52.360
+Because they want to feel comfortable in their avatar
+
+67
+0:04:52.360 --> 0:04:53.720
+But like maybe suggest
+
+68
+0:04:53.720 --> 0:04:59.840
+Using one of the already uploaded avatars so they can get a feel of the game before they spend like four hours uploading their avatar
+
+69
+0:04:59.840 --> 0:05:04.640
+The first time because it will take them a while. Um, that's worked quite well for some people
+
+70
+0:05:04.640 --> 0:05:07.400
+I think it was like a friend once who resolved
+
+71
+0:05:08.240 --> 0:05:08.920
+I don't know
+
+72
+0:05:08.920 --> 0:05:12.680
+They were the first person I saw that idea from they came in to sort of see what Neos is about
+
+73
+0:05:12.800 --> 0:05:16.760
+And I sort of asked them if I wanted, you know, they wanted help him point in their VRChat avatar
+
+74
+0:05:16.760 --> 0:05:19.000
+And they went you know what? No, just just give me an avatar
+
+75
+0:05:19.000 --> 0:05:22.340
+That's like close enough to the avatar and show me what this can do
+
+76
+0:05:22.340 --> 0:05:28.020
+I'll worry about my avatar later and I really appreciated that sort of perspective on how they wanted to play the
+
+77
+0:05:28.020 --> 0:05:30.460
+Play Neos because it means that they didn't
+
+78
+0:05:31.060 --> 0:05:35.540
+They didn't spend their first session like EDP and inspectors. They fit the first session
+
+79
+0:05:36.380 --> 0:05:42.620
+Learning what we had to offer in the event that they have their avatar created and updated and stuff like that
+
+80
+0:05:42.620 --> 0:05:45.260
+It gave them more reason than later to get their avatar in
+
+81
+0:05:46.180 --> 0:05:49.300
+Lex's question here, which is I've noticed more frequently in the past months
+
+82
+0:05:49.300 --> 0:05:53.260
+The S variant servers either get stuck or stop entirely with no indication of uses
+
+83
+0:05:53.260 --> 0:05:58.740
+Except for broken textures and shaders. What would be a good way to find these specific users to notify the team?
+
+84
+0:05:58.740 --> 0:06:02.620
+Um, we have pretty good notification on that one from the QC team
+
+85
+0:06:04.300 --> 0:06:11.460
+More is always welcome. Of course. I am actually starting to mean that a little bit with a days since asset server
+
+86
+0:06:12.020 --> 0:06:13.380
+whole
+
+87
+0:06:13.380 --> 0:06:15.700
+Image, which I'm gonna get set up somewhere
+
+88
+0:06:16.700 --> 0:06:18.300
+but
+
+89
+0:06:18.300 --> 0:06:20.300
+You can usually see it in
+
+90
+0:06:20.300 --> 0:06:25.220
+in the logs as a failure on a particular like
+
+91
+0:06:25.740 --> 0:06:31.540
+On a particular gather job usually for like new shader files or something like that if they can't be got
+
+92
+0:06:31.980 --> 0:06:38.580
+Then then that's usually the problem if you see an increase in things turning pink randomly. That's also an indicator for
+
+93
+0:06:39.820 --> 0:06:41.700
+That happening as well
+
+94
+0:06:41.700 --> 0:06:46.500
+Yeah, C's link has got it. I get kind of annoyed about that one. Obviously we're a little bit stuck because we can't you know
+
+95
+0:06:47.300 --> 0:06:49.300
+do much about that, but
+
+96
+0:06:49.300 --> 0:06:50.700
+I
+
+97
+0:06:50.700 --> 0:06:52.700
+want to like
+
+98
+0:06:52.900 --> 0:06:54.580
+There's like
+
+99
+0:06:54.580 --> 0:07:00.060
+There's a whole class of like computing and engineering that happens at like big companies called observability
+
+100
+0:07:01.180 --> 0:07:07.140
+So observability is a little bit different than development observability just means sort of like what is happening?
+
+101
+0:07:08.540 --> 0:07:10.540
+What is happening?
+
+102
+0:07:10.660 --> 0:07:13.940
+And so large companies large corporations
+
+103
+0:07:13.940 --> 0:07:19.740
+They invest a lot in observability just so that they can see stuff and this actually goes like sort of beyond or tangential to data
+
+104
+0:07:19.740 --> 0:07:25.500
+Science where it's like, okay what data insights can we get about our users? This is basically just like what is happening?
+
+105
+0:07:26.460 --> 0:07:30.760
+Show me what's happening. And so getting more observability on the asset process
+
+106
+0:07:31.260 --> 0:07:36.520
+Processing for the team will allow us to do stuff like that. Now. I have worked for many corporations
+
+107
+0:07:37.100 --> 0:07:41.220
+Where you know if stuff goes wrong someone gets a phone call. I don't think we need that
+
+108
+0:07:41.220 --> 0:07:45.140
+Um, but we do need somewhere that like alerts us to it. I
+
+109
+0:07:45.700 --> 0:07:47.700
+mean probably a
+
+110
+0:07:48.140 --> 0:07:50.860
+But you know, like we'll see what we can do. Um
+
+111
+0:07:52.380 --> 0:07:59.220
+I'm not quite sure why that keeps happening, but it's about once a month and it bothers me. It bothers me. Um
+
+112
+0:08:01.420 --> 0:08:03.420
+Let's move onwards
+
+113
+0:08:03.420 --> 0:08:10.860
+A follow-up is a plan to move asset variation generation and uploads back to the client at some point. Clients do do some of it
+
+114
+0:08:13.060 --> 0:08:15.940
+But that's certainly an option that we wanted to look at
+
+115
+0:08:15.940 --> 0:08:21.780
+We also want to look at sort of more peer-to-peer style things and people get sort of like worried or concerned when I say that
+
+116
+0:08:21.780 --> 0:08:23.500
+but it's basically just like
+
+117
+0:08:23.500 --> 0:08:25.140
+hmm a
+
+118
+0:08:25.140 --> 0:08:31.700
+Friend of yours which happens to live like the next town over has the assets for this particular session
+
+119
+0:08:31.700 --> 0:08:38.180
+Maybe they can give them to you rather than you going to a server that's on the other side of the country. Maybe
+
+120
+0:08:38.700 --> 0:08:40.620
+just say
+
+121
+0:08:40.620 --> 0:08:45.100
+So that would also help in that regard because what that would mean is like hey
+
+122
+0:08:45.100 --> 0:08:51.820
+Maybe the asset variant like server doesn't have that particular thing all up-to-date, but hey, maybe someone in the world does
+
+123
+0:08:52.620 --> 0:08:57.580
+Windows Defender took action on threats. What's good on Windows Defender? What did you find?
+
+124
+0:08:57.580 --> 0:09:03.660
+Oh, Windows Defender is telling me that my hosts file has a lot of entries in it that it finds suspicious
+
+125
+0:09:03.980 --> 0:09:08.300
+Yeah, I think so and does be blocking all the track as you have is is that's totally sus
+
+126
+0:09:08.860 --> 0:09:10.780
+Thanks for letting me know windows
+
+127
+0:09:10.780 --> 0:09:14.460
+It's like you put stuff on your host file of my yeah, that's what it's for
+
+128
+0:09:15.340 --> 0:09:18.020
+All right. I'm not seeing any more questions
+
+129
+0:09:19.900 --> 0:09:22.900
+Ozi asks, what is a funny near Smith you see going around recently?
+
+130
+0:09:22.900 --> 0:09:28.420
+I think I actually edited the myth page out of sort of like anger the other day. Let me go see what I what?
+
+131
+0:09:28.420 --> 0:09:30.420
+I added but look at the history
+
+132
+0:09:31.460 --> 0:09:33.460
+Yes, yes
+
+133
+0:09:33.500 --> 0:09:39.180
+Apparently Neos is an airline in Italy. Yeah, I don't remember making that issue
+
+134
+0:09:39.780 --> 0:09:41.780
+This one is referring to
+
+135
+0:09:41.940 --> 0:09:46.900
+So like there are a couple that keep that keep coming up recently one is that Neos isn't multi-threaded to that
+
+136
+0:09:46.900 --> 0:09:52.220
+I say go to your debug screen and just play Neos without open. You'll see background worker threads. You'll see background threads
+
+137
+0:09:52.220 --> 0:09:55.540
+You'll see all sorts. Lots of stuff is multi-threaded. Another one is the
+
+138
+0:09:56.420 --> 0:10:00.660
+If you're in a session Neos users can access your hard drive. The answer is no they can't
+
+139
+0:10:02.140 --> 0:10:05.620
+So great, thank you for spreading that rumor
+
+140
+0:10:07.940 --> 0:10:09.940
+We keep getting
+
+141
+0:10:10.900 --> 0:10:15.180
+Let's just say the you know, the crypto community keep coming in and they keep saying is this project dead
+
+142
+0:10:15.180 --> 0:10:16.340
+It's like ha well
+
+143
+0:10:16.340 --> 0:10:23.260
+like one of the team member is like here every single week for half an hour talking to you guys and then on
+
+144
+0:10:23.540 --> 0:10:30.580
+Wednesdays and on Fridays we have the streams and then like hey those moderators that we've got
+
+145
+0:10:30.580 --> 0:10:32.500
+They've been burning those capture bots all the time
+
+146
+0:10:32.500 --> 0:10:33.140
+If it was dead
+
+147
+0:10:33.140 --> 0:10:38.260
+this place would just be a wasteland would be covered in capture bots and family servers and
+
+148
+0:10:38.540 --> 0:10:42.700
+weird OnlyFans advertisements and fake Elon Musk's I
+
+149
+0:10:42.700 --> 0:10:48.780
+I have seen so many fake Elon Musk's like they're all over like YouTube shorts tik-tok YouTube reddit
+
+150
+0:10:48.780 --> 0:10:52.900
+It's basically just like them deep faking sometimes good sometimes bad
+
+151
+0:10:53.500 --> 0:10:57.100
+deep fakes of Elon going like buy this crypto currency
+
+152
+0:10:58.700 --> 0:11:03.700
+Crazy anyway, yeah, so if it was dead, I wouldn't be here talking about Elon Musk deep fakes
+
+153
+0:11:04.380 --> 0:11:06.460
+other ones that come with like the sort of like
+
+154
+0:11:06.460 --> 0:11:13.420
+Weirdness in some of our features being similar to features and other platforms
+
+155
+0:11:13.420 --> 0:11:17.820
+For example, people assume dynamic bones on Neos is the same as dynamic bones elsewhere. It is not
+
+156
+0:11:18.540 --> 0:11:20.540
+It's our own
+
+157
+0:11:20.740 --> 0:11:25.660
+Own implementation, which means that for Neos, it's it's better
+
+158
+0:11:25.660 --> 0:11:30.580
+Like I'm not gonna say it's like better than fizz bones or better than the original dynamic bones. That's not for me to qualify
+
+159
+0:11:31.620 --> 0:11:35.860
+It's better for Neos because we own it. We don't have to pay anyone for it
+
+160
+0:11:35.860 --> 0:11:41.460
+It is compatible with all our stuff and it will get any improvements that we make to Neos because of that
+
+161
+0:11:42.860 --> 0:11:45.300
+Additionally like nothing else on Neos
+
+162
+0:11:46.540 --> 0:11:49.940
+That you use as a feature needs to be paid for like you only pay for storage
+
+163
+0:11:50.940 --> 0:11:53.300
+And yeah, there's the end this client and stuff like that
+
+164
+0:11:53.300 --> 0:11:59.340
+But like you want to build like an you want to build the next Legend of Zelda and Neos there is nothing
+
+165
+0:11:59.860 --> 0:12:03.140
+But like there is nothing you need to pay for
+
+166
+0:12:03.140 --> 0:12:08.700
+Provided it stays under one gigabyte. Yeah, you know, I mean there are no features
+
+167
+0:12:09.940 --> 0:12:12.020
+moving forwards to
+
+168
+0:12:13.220 --> 0:12:18.840
+Exos what's the recommended amount of dedicated WAM I have the server we have
+
+169
+0:12:20.020 --> 0:12:25.860
+recommended system specs listed on the steam page for the steam for like the the head head full
+
+170
+0:12:25.860 --> 0:12:32.980
+I'll see opposite of headless heady the one with the head non headless
+
+171
+0:12:32.980 --> 0:12:34.980
+What is the opposite of headless
+
+172
+0:12:35.740 --> 0:12:37.060
+head
+
+173
+0:12:37.060 --> 0:12:41.460
+containing a head anyway for that we have that on the steam store page and
+
+174
+0:12:42.300 --> 0:12:44.300
+for
+
+175
+0:12:44.740 --> 0:12:47.580
+For headless there's lots of conversation in the headless client
+
+176
+0:12:47.580 --> 0:12:54.420
+I don't think we provided any official recommendations there simply because the headless client is still in air quotes
+
+177
+0:12:54.420 --> 0:12:55.380
+in
+
+178
+0:12:55.380 --> 0:13:00.880
+Testing you're sitting on an early access game in beta. So like, you know, everything's in testing. But yeah
+
+179
+0:13:01.860 --> 0:13:07.400
+Foxbox asks when is a good time to clear your cash other than windows thing if you're out of storage because Neos has 150 gigabyte
+
+180
+0:13:07.400 --> 0:13:09.400
+Yeah, that just happened today for me
+
+181
+0:13:09.700 --> 0:13:11.380
+unlike I
+
+182
+0:13:11.380 --> 0:13:13.540
+Mean some of you might be like this. I'm like you though
+
+183
+0:13:13.540 --> 0:13:18.620
+I've got like four versions of Neos that run on my computer. So they've all got varying degrees of
+
+184
+0:13:18.620 --> 0:13:24.940
+Cash stored on them, which is is cool. So I need to go through and do that. Um,
+
+185
+0:13:26.780 --> 0:13:29.860
+A schedule might make sense, which is what the V T
+
+186
+0:13:30.900 --> 0:13:34.300
+Oxalis says, um, I don't think a schedule makes sense
+
+187
+0:13:34.940 --> 0:13:38.380
+Maybe another does I kind of do it based on?
+
+188
+0:13:39.420 --> 0:13:44.380
+Sort of like who I'm interacting with as an example. I haven't been to create a jams in a couple of weeks
+
+189
+0:13:44.380 --> 0:13:48.660
+That's not because I don't want to go to create a jams. I just haven't had the chance
+
+190
+0:13:48.660 --> 0:13:54.180
+So I probably have a lot of creative jammy stuff in my cache that I can clean out. That's it like
+
+191
+0:13:55.180 --> 0:14:01.140
+Small example, but it might be like a you know, a bigger example that might be useful. I guess might be
+
+192
+0:14:01.940 --> 0:14:07.740
+Let's say VBL FC happens again, right? So you go to VBL FC that means that you've got the entirety of the VBL FC
+
+193
+0:14:08.260 --> 0:14:10.260
+convention center hotel
+
+194
+0:14:10.260 --> 0:14:16.460
+Rooms in your cache and then anyone that attends you've got in your cache and then after VBL FC
+
+195
+0:14:16.460 --> 0:14:21.340
+You go back to your private world to work on your custom inspector or multi-tool. You don't need
+
+196
+0:14:22.300 --> 0:14:25.180
+VBL FC in your cache anymore. So you might want to clear out at that point
+
+197
+0:14:26.020 --> 0:14:30.260
+Git asks or inspired using threads for office hours and do you find that helped out?
+
+198
+0:14:32.020 --> 0:14:34.020
+That would be
+
+199
+0:14:34.140 --> 0:14:36.780
+Eastern came up with the idea and I think it helps simply because when I'm
+
+200
+0:14:36.780 --> 0:14:41.420
+Updating notes or taking a look at what I did for the episode description over on sounder
+
+201
+0:14:42.580 --> 0:14:50.020
+Sometimes I am delayed on that simply through having a busy life and then I have to scroll up through Canadian Git's office hours
+
+202
+0:14:50.020 --> 0:14:55.540
+Or moderation's office hours or scroll around a little bit with it being in a thread. It just keeps everything contained
+
+203
+0:14:55.540 --> 0:15:00.740
+I also find that it prevents spam in some cases because it's like focused
+
+204
+0:15:00.740 --> 0:15:04.860
+I think it's working for like containerizing them
+
+205
+0:15:05.780 --> 0:15:08.740
+Probably not needed but it works
+
+206
+0:15:09.300 --> 0:15:14.260
+Like says how would you be able to tell what was right for cash? Would you just leave stuff based on time? Yeah stuff based on time
+
+207
+0:15:15.980 --> 0:15:20.140
+Good example might again be you know, or parallel might be the junk drawer in your house
+
+208
+0:15:20.700 --> 0:15:24.180
+You know, if you haven't sorted out your junk drawer in about five years, you have no idea what's in it
+
+209
+0:15:24.180 --> 0:15:26.180
+Okay, so I think that's a good example
+
+210
+0:15:26.180 --> 0:15:31.420
+You know, if you haven't sorted out your junk drawer in about five years, you have no idea what's in it. Okay, so out your junk drawer
+
+211
+0:15:31.940 --> 0:15:34.700
+so when I get this like
+
+212
+0:15:36.420 --> 0:15:41.740
+Jaw surgery project finally finished I'll be clearing out my cash because it will have basically
+
+213
+0:15:42.300 --> 0:15:47.100
+Way more models of teeth and bones and jaws and skulls in it than I need
+
+214
+0:15:47.860 --> 0:15:52.780
+And I want to spend as little time as possible thinking about my teeth is you know
+
+215
+0:15:52.780 --> 0:16:00.340
+For those who are not practicing good dental hygiene, I'm not judging here. I'm just saying like you should brush twice a day
+
+216
+0:16:02.340 --> 0:16:06.340
+Juries out on flossing from my point. I actually ended up reading scientific papers on flossing
+
+217
+0:16:06.940 --> 0:16:11.620
+You know flossing is kind of a little bit silly when you go to the dentist or the dentist is like wow
+
+218
+0:16:11.620 --> 0:16:13.780
+I could tell you've been flossing and I'm like, yep
+
+219
+0:16:14.700 --> 0:16:19.060
+Yeah, totally in the back of my head. I'm like I have a single time at all
+
+220
+0:16:19.060 --> 0:16:26.140
+No, but you mileage me very because I have literally the world's most expensive toothbrush. I have the most expensive Phillips toothbrush
+
+221
+0:16:28.580 --> 0:16:29.940
+Yeah
+
+222
+0:16:29.940 --> 0:16:34.740
+Remember when I bought it, but I do I don't know how we got to teeth. Oh, yeah the dental stuff
+
+223
+0:16:34.740 --> 0:16:38.180
+Yeah, I don't really want like think about my teeth teeth were expensive, etc. Etc
+
+224
+0:16:39.140 --> 0:16:42.780
+Preference like what teeth are expensive. Yeah, if you start having dental issues then
+
+225
+0:16:42.780 --> 0:16:48.980
+You'll find out how expensive teeth are the best way to delete your cash, which is a question from fox box
+
+226
+0:16:48.980 --> 0:16:52.060
+Which is you know, is there a best way to go about clearing your cash is to follow the guide?
+
+227
+0:16:52.060 --> 0:16:53.500
+I wrote that says how to clear your cash
+
+228
+0:16:53.500 --> 0:16:58.820
+Uh moving back up to Marco's question. He says do you have any favorite worlds or worlds?
+
+229
+0:16:58.820 --> 0:17:06.140
+I really like the time and gears. I've been to time and gears like randomly some because it's like it's it's cool. They're
+
+230
+0:17:06.140 --> 0:17:13.460
+It's cool. They're all in the wall is like usually my go-to well to just like sit when I'm like half paying attention
+
+231
+0:17:15.180 --> 0:17:21.580
+To existing I really do like sort of experience your art worlds. I'm less
+
+232
+0:17:22.900 --> 0:17:26.020
+it's not to say that these are good, but like I'm less bothered by
+
+233
+0:17:27.460 --> 0:17:32.140
+Like the chill out was that you see basically if your world has string lights and lots of cushions
+
+234
+0:17:32.140 --> 0:17:40.060
+Then your world is probably fantastic and very beautiful. But like it just has nothing for me. It's like, you know the 12th or 13th
+
+235
+0:17:41.260 --> 0:17:44.260
+string light and cushy cushion world that I've seen so
+
+236
+0:17:45.180 --> 0:17:46.540
+You know
+
+237
+0:17:46.540 --> 0:17:51.060
+That's why our hole in the wall gets like that. They're also like 72 grooved late, right?
+
+238
+0:17:51.060 --> 0:17:55.020
+It's it's it's still a hangout world, but it's not got string lights or cushions
+
+239
+0:17:55.020 --> 0:17:58.860
+So we both actually do have cushions, but like it's a it's a theming thing. I
+
+240
+0:17:58.860 --> 0:18:04.820
+Don't know like the words for architecture. The one I do know is brutalism, which I quite like
+
+241
+0:18:05.820 --> 0:18:07.820
+for my own weird taste, but
+
+242
+0:18:08.540 --> 0:18:15.260
+The all of the chat was in the archer and being brought over they all are the similar architecture
+
+243
+0:18:15.260 --> 0:18:20.740
+I don't know the name for that, but they all are that exact architecture. There's this really word
+
+244
+0:18:20.740 --> 0:18:26.340
+Well, I can't remember the name of actually I'm gonna go find the name. So those that play yeah, I can go find it
+
+245
+0:18:26.340 --> 0:18:31.860
+I know the weirdest like you have any favorite worlds away. Here's a VR channel. This is just an example right of
+
+246
+0:18:33.780 --> 0:18:38.700
+Where our tastes might differ very favorite worlds
+
+247
+0:18:40.180 --> 0:18:42.180
+Trying to find it
+
+248
+0:18:42.700 --> 0:18:45.340
+Favorite world. Yeah. No
+
+249
+0:18:46.060 --> 0:18:53.140
+Okay, the the thumb the fails are loading on the on the website and it says like world is currently available
+
+250
+0:18:53.140 --> 0:18:59.820
+Unavailable on like basically half of them. So I'll give up on that list. Oh, no. No, I found it. I found it
+
+251
+0:19:01.620 --> 0:19:09.660
+So there's a world here called FF CR which is like again by a hangout world over there but
+
+252
+0:19:10.340 --> 0:19:12.340
+It's really weird
+
+253
+0:19:12.700 --> 0:19:18.260
+And I feel like there's a story to it. So there's art to it as well. So like I like that
+
+254
+0:19:18.260 --> 0:19:23.260
+no one will hang out with me it so sometimes I'm just there by myself, but I
+
+255
+0:19:23.260 --> 0:19:26.580
+Guess that was sort of a play on I like walls which I'll hang out
+
+256
+0:19:26.580 --> 0:19:33.060
+But but but maybe consider being a bit different than than the usual one. I'll move on to questions before I continue to ramble
+
+257
+0:19:34.940 --> 0:19:36.260
+Yeah
+
+258
+0:19:36.260 --> 0:19:41.740
+Alexa I'm surprised anyone's in it. Yeah, I was like there's a story here. Like there's there's like a narrative
+
+259
+0:19:42.740 --> 0:19:47.580
+I'm gonna spoil too much but like explore and you'll see lots of stuff. That doesn't make sense
+
+260
+0:19:47.580 --> 0:19:49.580
+there's also lots of
+
+261
+0:19:51.100 --> 0:19:53.620
+Buttons and stuff that I can't really like figure out and
+
+262
+0:19:55.820 --> 0:19:57.820
+Sort of like weird
+
+263
+0:19:58.820 --> 0:20:03.600
+Anyway for example of brutalism by the way desert meeting space which now is a 2021 version
+
+264
+0:20:03.860 --> 0:20:09.900
+Thanks to soap who found out that there was actually a skyline geometry for that world. I just lost
+
+265
+0:20:12.100 --> 0:20:14.460
+So do check out desert meeting space 2021
+
+266
+0:20:14.460 --> 0:20:18.100
+I up the brightening the lighting so it's not just yellow now and looks better
+
+267
+0:20:20.500 --> 0:20:22.780
+Marco has a question here, which is do you have any tips?
+
+268
+0:20:22.780 --> 0:20:27.220
+So people just can't find motivation to brush their teeth or really do any hygiene stuff. Oh, okay
+
+269
+0:20:29.380 --> 0:20:32.280
+Daddy daddy prime is now giving people life tips
+
+270
+0:20:33.740 --> 0:20:37.140
+The strange one for brushing your teeth that I have is get out of the bathroom, right?
+
+271
+0:20:37.140 --> 0:20:40.500
+Of course, I like I leave my toothbrush in the bathroom, but I don't brush my teeth in the bathroom
+
+272
+0:20:40.500 --> 0:20:44.740
+ah, that's already a title that many people have given me and I don't want it but
+
+273
+0:20:47.220 --> 0:20:49.220
+Most people have issues with
+
+274
+0:20:49.420 --> 0:20:54.220
+Brushing their teeth because of the sort of loss of time of doing other stuff and I'm like cool
+
+275
+0:20:54.220 --> 0:20:56.220
+Well get yourself some wireless headphones
+
+276
+0:20:56.820 --> 0:20:58.820
+Go in the bathroom grab a toothbrush
+
+277
+0:20:59.180 --> 0:21:04.900
+Grab the toothpaste shove it on the brush start brushing come back to your computer and watch your funny cat memes on
+
+278
+0:21:05.380 --> 0:21:09.340
+On your TV or whatever. You don't need to be in the bathroom to brush your teeth
+
+279
+0:21:09.340 --> 0:21:13.420
+You just need to be in the bathroom to I guess spit out the toothpaste and rinse your mouth out
+
+280
+0:21:13.420 --> 0:21:15.420
+That's all you really need
+
+281
+0:21:17.940 --> 0:21:24.300
+Also for inexplicable reasons due to that my toothbrush often ends up on my computer desk, so that's it
+
+282
+0:21:24.300 --> 0:21:25.660
+That's a good reminder
+
+283
+0:21:25.660 --> 0:21:27.660
+Then there's habits as well
+
+284
+0:21:28.060 --> 0:21:34.060
+Like here's what I'm trying to break right now, which is kind of difficult which is when you're alone when your alarm goes off
+
+285
+0:21:34.060 --> 0:21:37.020
+What's the first thing you do? Do you grab your phone because that's like
+
+286
+0:21:37.020 --> 0:21:44.060
+Literally what most people do they wake up and before even leaving their bed, but they're checking their phone
+
+287
+0:21:44.340 --> 0:21:50.020
+The thing you should do when your alarm goes off particularly if it's an alarm and you need to get up is without even thinking
+
+288
+0:21:50.020 --> 0:21:51.500
+About it stand up
+
+289
+0:21:51.500 --> 0:21:56.780
+I don't care if you stand up like a zombie and then check your phone standing by the side of your bed
+
+290
+0:21:56.900 --> 0:22:00.140
+You just need to get out of the bed right get upright
+
+291
+0:22:00.140 --> 0:22:07.700
+That was advice given to me by some random life coach on YouTube. Usually I hate life coaches on YouTube
+
+292
+0:22:07.700 --> 0:22:11.320
+They're like I wake up every day at 3 a.m. And do like
+
+293
+0:22:12.180 --> 0:22:19.220
+Deadlifts of horses until 5 a.m. And then I eat 17 breakfasts before I deadlift some more horses and then at 9
+
+294
+0:22:19.220 --> 0:22:24.100
+I'm ready to start my day job. I'm just like that that isn't life coaching. That's just insanity. Thank you
+
+295
+0:22:24.100 --> 0:22:30.940
+Okay, so we do have a question here apologies I'm talking about deadlifting courses and missing the fact that there's still a question
+
+296
+0:22:31.620 --> 0:22:35.880
+Lex says what defines the order of items in the inventory there?
+
+297
+0:22:36.580 --> 0:22:42.800
+That broke recently actually and kind of scared me. I jumbled the order of a folder and I thought I'd lost something
+
+298
+0:22:44.380 --> 0:22:49.380
+But I'm not quite sure I think it's like the date I'd have to look I haven't opened the codebase today
+
+299
+0:22:49.380 --> 0:22:52.420
+I can open it. I don't know how much longer I'll be here. I'll go ahead and open it
+
+300
+0:22:52.420 --> 0:22:55.940
+There's a defined order. I can just like control T around and find it
+
+301
+0:22:56.460 --> 0:22:59.220
+All right. Codebase is loading. IntelliSense is just like
+
+302
+0:23:01.460 --> 0:23:07.820
+My RAM is just skyrocketing. I see other questions feel free to do feel free to keep them coming
+
+303
+0:23:07.820 --> 0:23:12.120
+I will be answering this question from Lex by just control T around for a little bit
+
+304
+0:23:12.120 --> 0:23:14.980
+So if you got any other questions, please drop them in there
+
+305
+0:23:15.540 --> 0:23:20.460
+Yeah, I don't actually have the source of architects. I don't think so. At least I remember what was in there
+
+306
+0:23:20.460 --> 0:23:22.420
+Am I one of the empty ones?
+
+307
+0:23:22.420 --> 0:23:23.460
+engine
+
+308
+0:23:23.460 --> 0:23:25.460
+control T
+
+309
+0:23:26.340 --> 0:23:27.860
+inventory
+
+310
+0:23:27.860 --> 0:23:29.260
+browser
+
+311
+0:23:29.260 --> 0:23:32.500
+Active avatar color is color dot magenta
+
+312
+0:23:33.700 --> 0:23:36.780
+Yay, and that's sort of like mixed down a little bit
+
+313
+0:23:38.060 --> 0:23:41.660
+Do you try initialize? Here it is. Start task root
+
+314
+0:23:42.380 --> 0:23:43.940
+open
+
+315
+0:23:43.940 --> 0:23:48.660
+Open begin generating update directory items. There we go. That'll do it
+
+316
+0:23:48.660 --> 0:23:53.140
+Yeah, this will probably take a little bit longer than I have time to like dig into it
+
+317
+0:23:55.020 --> 0:23:57.740
+Let me see if the private variable has more on it
+
+318
+0:24:01.980 --> 0:24:05.020
+Okay, it looks like whatever order the API returns it in
+
+319
+0:24:07.380 --> 0:24:09.900
+That's a sort of question I guess I can answer like so
+
+320
+0:24:11.060 --> 0:24:14.620
+it used to be the every single part of
+
+321
+0:24:15.140 --> 0:24:17.140
+Neos that
+
+322
+0:24:17.140 --> 0:24:23.940
+Fruix created was sort of automatically ended up in the same Visual Studio solution and
+
+323
+0:24:24.540 --> 0:24:26.540
+then part of that Visual Studio
+
+324
+0:24:28.500 --> 0:24:32.940
+Part of that Visual Studio solutions post build script will
+
+325
+0:24:33.940 --> 0:24:38.340
+Copy it to the the unity side of things such that they were all synced up
+
+326
+0:24:38.860 --> 0:24:41.460
+So what I predict happened was at one point
+
+327
+0:24:42.100 --> 0:24:46.380
+architects and Gen X and stuff like that were part of the
+
+328
+0:24:46.380 --> 0:24:52.660
+the Neos solution and were copied to the unity directory and the unity directory is
+
+329
+0:24:53.660 --> 0:24:58.700
+Just sort of built on top of like every time we need to rebuild unity project we rebuild unity project
+
+330
+0:24:58.700 --> 0:25:04.380
+And then that will update the DLLs that do update but the ones that don't update just kind of live there
+
+331
+0:25:05.860 --> 0:25:07.860
+It is something that I want to clean up
+
+332
+0:25:08.100 --> 0:25:11.060
+As well as any dead code that we have we have a bunch of stuff
+
+333
+0:25:11.060 --> 0:25:14.140
+That's just like completely commented out on the code base. I'm getting rid of
+
+334
+0:25:14.140 --> 0:25:17.180
+Strange stuff where I'm just like, oh, that's cool
+
+335
+0:25:18.220 --> 0:25:20.540
+Then like weird components that don't make any sense
+
+336
+0:25:21.420 --> 0:25:23.180
+Shout out to
+
+337
+0:25:23.180 --> 0:25:25.180
+Where is it up down?
+
+338
+0:25:25.580 --> 0:25:27.740
+I need to switch branches to find this
+
+339
+0:25:30.220 --> 0:25:33.420
+If Syro is here or a panda's here
+
+340
+0:25:35.340 --> 0:25:39.420
+He's like up down control, I can't remember the name of it it's in uncategorized
+
+341
+0:25:39.420 --> 0:25:42.780
+It is a very very weird component
+
+342
+0:25:42.780 --> 0:25:46.700
+That is just designed to make something go up and down
+
+343
+0:25:46.700 --> 0:25:51.900
+And it's beautiful and we have a lot of fun with it like that though. That's sort of like weird stuff. I'm trying to clean up
+
+344
+0:25:51.900 --> 0:25:57.980
+I think it's part of Classroom. That's probably why I don't see it anymore. We split classroom off to its own repository
+
+345
+0:25:58.540 --> 0:26:00.540
+Yeah
+
+346
+0:26:00.540 --> 0:26:02.700
+Architects was probably I don't know I would have to ask freaks
+
+347
+0:26:02.700 --> 0:26:07.820
+But like if I could guess based on just their naming scheme, it would probably be sort of like architectural tools
+
+348
+0:26:07.820 --> 0:26:14.540
+A good example of that might actually be stuff that is in my public folder under tools architecture tools
+
+349
+0:26:14.940 --> 0:26:19.200
+So I have a staircase generator in there. I have an archway generator
+
+350
+0:26:20.140 --> 0:26:24.380
+I had sort of grand visions for additional generators, but then the
+
+351
+0:26:26.220 --> 0:26:31.420
+Japanese community made the builder tip and that's much superior so I stopped working on that builder tip much more superior
+
+352
+0:26:31.420 --> 0:26:37.020
+like mathematically it should be possible if you're using primitives to
+
+353
+0:26:37.740 --> 0:26:38.620
+say
+
+354
+0:26:38.620 --> 0:26:40.620
+Give me a four by four room
+
+355
+0:26:41.100 --> 0:26:43.100
+With a door here and here and here and here
+
+356
+0:26:43.900 --> 0:26:49.500
+And then it should be able to like mathematically figure out using a metric type of logic, but you should be able to figure out
+
+357
+0:26:50.300 --> 0:26:52.620
+Wait logic. This is so dlc that is
+
+358
+0:26:52.620 --> 0:26:58.940
+Yeah, we'll clean that stuff up as soon as we can um, let's take a look
+
+359
+0:26:59.820 --> 0:27:03.740
+Make sure i'm not missing any questions, and then we'll leave off. Okay, so that's done. That's done. That's done. That's done. That's done
+
+360
+0:27:04.300 --> 0:27:10.220
+Scroll down to oh marcus. Is it spelt colour or color depends where you are. Um, there's this interesting channel
+
+361
+0:27:10.220 --> 0:27:12.940
+Which I can't find right now because it will probably take too long
+
+362
+0:27:12.940 --> 0:27:18.380
+I will find it and then i'll drop it in the office hours text chair. Um, which goes over sort of the
+
+363
+0:27:18.380 --> 0:27:24.780
+Origins of words and um, an interesting one. I watched it's actually a youtube short channel
+
+364
+0:27:24.780 --> 0:27:27.660
+So, you know, you watch like 20 and you're just like where is my life gone?
+
+365
+0:27:27.980 --> 0:27:33.020
+Uh was about the difference between the pronunciation of herb and and how you americans say it which is herb
+
+366
+0:27:33.660 --> 0:27:34.380
+um
+
+367
+0:27:34.380 --> 0:27:36.380
+In some parts of america, of course
+
+368
+0:27:36.380 --> 0:27:42.140
+Well, you just don't pronounce the h for some reason and you really over stress the b and all sorts of weird stuff like that
+
+369
+0:27:42.300 --> 0:27:44.460
+But that was all explained and I found that kind of interesting
+
+370
+0:27:44.460 --> 0:27:47.760
+Um, a lot of the sort of differences in spelling and also pronunciation
+
+371
+0:27:48.300 --> 0:27:54.060
+Come from the distances that existed between america and the uk when it was like, you know
+
+372
+0:27:54.060 --> 0:27:58.140
+First in existence and developing and and you know using language. It's like cool
+
+373
+0:27:58.540 --> 0:28:03.100
+Remember it used to be like I don't know like a two-week boat ride to get between there and we didn't have the internet
+
+374
+0:28:03.100 --> 0:28:05.100
+So that's cool
+
+375
+0:28:05.100 --> 0:28:08.460
+I always think about that like, you know, I fly back and forth from america quite often
+
+376
+0:28:09.020 --> 0:28:13.100
+And it's like I don't know what to do with my life. I don't know what to do with my life
+
+377
+0:28:13.100 --> 0:28:16.700
+And it's like, you know, that doesn't you know, seven hours eight hours
+
+378
+0:28:16.780 --> 0:28:19.980
+Isn't that long compared to a two-week boat ride is what it used to be?
+
+379
+0:28:20.460 --> 0:28:25.020
+And this is a two-week boat ride without any electronics remember like I don't know what they did
+
+380
+0:28:26.060 --> 0:28:27.820
+like
+
+381
+0:28:27.820 --> 0:28:29.820
+What would you do for two weeks on a boat?
+
+382
+0:28:30.780 --> 0:28:35.660
+It's not like a particularly nice boat as well because it's like it's just like a transport boat. It's not a cruise
+
+383
+0:28:36.540 --> 0:28:39.520
+Same thing goes with uh, the titanic, um, when you watch the titanic
+
+384
+0:28:39.520 --> 0:28:42.720
+Pay more attention to the the lower class decks
+
+385
+0:28:43.360 --> 0:28:46.640
+Because those are basically sort of university dorms or in some cases
+
+386
+0:28:46.640 --> 0:28:51.600
+They look like prison cells where people were just there for however long the titanic was meant to you know
+
+387
+0:28:52.160 --> 0:28:54.160
+Um journey, which is a long time
+
+388
+0:28:54.720 --> 0:29:02.160
+Anyway, if we're talking about the titanic, I believe that we have gone off track enough to cancel, uh, cancel end office hours. However, um
+
+389
+0:29:02.160 --> 0:29:09.200
+Um, speaking as I mentioned the titanic if anyone would like to um play a video game, which is amazing
+
+390
+0:29:09.680 --> 0:29:11.680
+You should play titanic adventure out of time
+
+391
+0:29:12.320 --> 0:29:13.520
+um
+
+392
+0:29:13.520 --> 0:29:15.040
+it is just like
+
+393
+0:29:15.040 --> 0:29:19.360
+One of the like best pieces of of 90s video gaming I have ever seen
+
+394
+0:29:20.560 --> 0:29:25.920
+Please play it don't question it if you don't know anything about it and you're you know, you've never played it
+
+395
+0:29:26.080 --> 0:29:28.080
+don't question anything just
+
+396
+0:29:28.400 --> 0:29:30.560
+Just please just go play it
+
+397
+0:29:30.560 --> 0:29:36.080
+Uh, marco says that there's a question actually. Thank you. Lex for pointing out. What happens if you delete empty dlls, uh
+
+398
+0:29:36.160 --> 0:29:42.000
+Uh, if they're not referenced anywhere, it should be fine. But ideally don't do that. Don't give me as a reason to hate you
+
+399
+0:29:42.560 --> 0:29:46.400
+and with that we'll leave off play titanic adventure out of time and uh
+
+400
+0:29:47.360 --> 0:29:50.400
+I will uh, see you guys next week ping me, uh questions help
+
+401
+0:29:50.400 --> 0:29:54.160
+If you've got other questions and uh notes and stuff will be up when we get to them. All right
+
+402
+0:29:54.640 --> 0:29:58.880
+I will see you guys later. I gotta push like five buttons because they change the way that you end stages
+
+403
+0:29:58.880 --> 0:30:00.880
+So here we go. Bye. Bye
+

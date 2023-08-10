@@ -1,0 +1,1296 @@
+1
+00:00:00,000 --> 00:00:03,740
+ Alright, so welcome to office hours. It's been a little bit of a gap before the last one we had
+
+2
+00:00:03,740 --> 00:00:09,620
+ That's because I was away for the holiday period but I'm back and we're back to regular scheduled broadcasting with the office hours
+
+3
+00:00:09,620 --> 00:00:16,340
+ Tuesday at 4 p.m. My time zone which is a Pacific. You can check the office hours wiki page for it in other time zones
+
+4
+00:00:16,340 --> 00:00:18,340
+ So this is the AMA
+
+5
+00:00:18,340 --> 00:00:23,940
+ Office hours where you can ask questions about Nius and we go through them in the order that is shown in the thread
+
+6
+00:00:23,940 --> 00:00:26,840
+ Which I just created. I see some questions in there. So we'll get started on those questions
+
+7
+00:00:27,280 --> 00:00:31,320
+ So we have a question here from a rigorous who says how does Nios handle my composition?
+
+8
+00:00:31,320 --> 00:00:36,480
+ Actually, I can't answer. I think I know what's going on, but I don't want to be unauthoritative
+
+9
+00:00:36,480 --> 00:00:38,920
+ the netcode
+
+10
+00:00:38,920 --> 00:00:44,580
+ Code being the sort of stuff that glues together the synchronization and the way that Nia speaks to other people in the session
+
+11
+00:00:44,580 --> 00:00:48,880
+ Isn't something I've taken a good look at I'm aware of sort of parts of how it works
+
+12
+00:00:48,880 --> 00:00:51,100
+ I'm not aware of
+
+13
+00:00:51,100 --> 00:00:56,820
+ How all of that works if you expand your question with additional sort of like elaboration or areas you're looking at
+
+14
+00:00:56,820 --> 00:01:01,680
+ I'm about to help further. Otherwise, I'm sorry. I can't answer that one move forward to unnamed cyborg cat who asked
+
+15
+00:01:01,680 --> 00:01:03,180
+ What's Nios achieved in 2022?
+
+16
+00:01:03,180 --> 00:01:08,960
+ You can check the newest updates channel or the answers channel for stuff that we have done in 22 that is published again
+
+17
+00:01:08,960 --> 00:01:14,480
+ If you expand or elaborate a question into additional areas or avenues, it might be easier to answer
+
+18
+00:01:14,480 --> 00:01:17,080
+ But that's a really broad question moving forwards to
+
+19
+00:01:17,080 --> 00:01:23,140
+ This is second question, which says is there any updates for Nios planned for this year or next year?
+
+20
+00:01:23,140 --> 00:01:27,960
+ And there are always updates planned. We just can't do them currently see announcements, etc, etc
+
+21
+00:01:27,960 --> 00:01:34,640
+ And with that unfortunately, we're out of questions. So keep them coming. Otherwise, we'll be set here and unimaginable unending
+
+22
+00:01:34,640 --> 00:01:36,560
+ tormenting silence
+
+23
+00:01:36,560 --> 00:01:40,200
+ Waiting for questions. I do think I could probably take the gap in questions
+
+24
+00:01:40,200 --> 00:01:47,040
+ There's an opportunity to wish you the very best for the new year. I had many difficulties typing the word 2023 today
+
+25
+00:01:47,040 --> 00:01:49,880
+ I had to put it into the thread. I had to put it into the
+
+26
+00:01:50,560 --> 00:01:54,500
+ Various other things as well. So we have another question here from Jack who says how was New Year's?
+
+27
+00:01:54,500 --> 00:02:00,660
+ I spent it at Geens's house Geens throws a sort of almost annual tradition now, which is a party his house for New Year's
+
+28
+00:02:00,660 --> 00:02:02,940
+ It was great. Saw a lot of Nios people there
+
+29
+00:02:02,940 --> 00:02:05,820
+ Met some new faces saw some old faces
+
+30
+00:02:05,820 --> 00:02:08,380
+ Lots of fun was had
+
+31
+00:02:08,380 --> 00:02:13,260
+ Chikal girl says how is your own personal work on medical insulation thing? It's it's going well
+
+32
+00:02:13,260 --> 00:02:15,740
+ There's not really much to say
+
+33
+00:02:15,740 --> 00:02:20,260
+ On top of the videos I produce sort of in November December last year
+
+34
+00:02:20,320 --> 00:02:24,840
+ That's sort of where we're at right now are doing some additional exploration into sort of what's going on there
+
+35
+00:02:24,840 --> 00:02:26,360
+ But to share right now
+
+36
+00:02:26,360 --> 00:02:26,700
+ Okay
+
+37
+00:02:26,700 --> 00:02:31,500
+ So check a girl says if you're very old you might refer to January's check your area the month we accidentally write the previous year
+
+38
+00:02:31,500 --> 00:02:33,500
+ on your checks
+
+39
+00:02:33,500 --> 00:02:36,100
+ Checks I am aware that like some
+
+40
+00:02:36,100 --> 00:02:38,100
+ businesses and
+
+41
+00:02:38,100 --> 00:02:45,280
+ Landlords and my rental places still don't understand direct deposit but like you don't need checks anymore. You just use what's called direct deposit
+
+42
+00:02:45,280 --> 00:02:49,220
+ So your money can go straight in your bank and the rent can come straight back out again
+
+43
+00:02:49,220 --> 00:02:54,280
+ I've heard many a story about landlords who don't understand direct deposit and they want their like rent in cash
+
+44
+00:02:54,280 --> 00:02:59,080
+ No, just like are they filing taxes on your rental? Is it a legal rental?
+
+45
+00:02:59,080 --> 00:03:01,020
+ Paying cash. It's a bit weird
+
+46
+00:03:01,020 --> 00:03:03,580
+ You should at least get paperwork if you're paying a rent in cash
+
+47
+00:03:03,580 --> 00:03:09,040
+ Make sure you get paperwork invoice for rent the fact that it's been received and signed and stuff like that like crazy
+
+48
+00:03:09,040 --> 00:03:12,200
+ Sometimes they want checks that's like okay ish
+
+49
+00:03:12,200 --> 00:03:14,200
+ But you should encourage them to use direct deposit
+
+50
+00:03:14,220 --> 00:03:20,060
+ The way does I have is like if they don't need cash or if they won't accept cash or sorry
+
+51
+00:03:20,060 --> 00:03:26,120
+ They won't accept direct deposit which means cash or check then they have to come visit you and you have to talk to them
+
+52
+00:03:26,120 --> 00:03:28,900
+ I don't want to talk to my landlord
+
+53
+00:03:28,900 --> 00:03:32,220
+ It's not a desire I have if I talk to them it means something is wrong
+
+54
+00:03:32,220 --> 00:03:35,380
+ So direct deposit the rent just goes straight to them
+
+55
+00:03:35,380 --> 00:03:39,260
+ I don't know when it just does when I see it, you know
+
+56
+00:03:39,260 --> 00:03:43,020
+ It's not something I do manually moving forwards to a reverse this question
+
+57
+00:03:43,020 --> 00:03:46,700
+ Who says it's possible make a web server in logics in Neos with logics? No
+
+58
+00:03:46,700 --> 00:03:50,500
+ logics is a language ish the
+
+59
+00:03:50,500 --> 00:03:53,340
+ interacts with the Neos world and the Neos
+
+60
+00:03:53,340 --> 00:03:55,860
+ data model and the Neos engine
+
+61
+00:03:55,860 --> 00:03:58,100
+ So it's limited in what it can do
+
+62
+00:03:58,100 --> 00:04:05,100
+ There are some things it can do the sort of exceed the bounds of Neos for example the HTTP or web socket nodes
+
+63
+00:04:05,100 --> 00:04:12,040
+ But remember that it is running within a another engine. So you can't do it to you. You can't use it to solve generic tasks
+
+64
+00:04:12,040 --> 00:04:17,180
+ It's sort of the equivalent of saying can you make a web server in redstone in Minecraft?
+
+65
+00:04:17,180 --> 00:04:23,460
+ Like I hope that helps you sort of picture in your head moving forward to another question abysmal says is there currently a maximum?
+
+66
+00:04:23,460 --> 00:04:25,980
+ Maximum of users that can join a session
+
+67
+00:04:25,980 --> 00:04:31,080
+ Do you know how many avatars Neos is aiming to support once can expect Neos to be usable for MMO player counts?
+
+68
+00:04:31,080 --> 00:04:36,580
+ Um, there isn't a maximum which is enforced by anything that is decision-based
+
+69
+00:04:36,580 --> 00:04:42,460
+ so the only maximum would be like technical and so it's probably something close to one of the
+
+70
+00:04:42,460 --> 00:04:44,620
+ binary numbers
+
+71
+00:04:44,620 --> 00:04:48,500
+ But I wouldn't know which one it was without looking a nose in high as 50
+
+72
+00:04:48,500 --> 00:04:54,240
+ I'm pretty sure I can go higher than that. Like there's no there's no real like limit that we have made a decision about
+
+73
+00:04:54,240 --> 00:04:59,000
+ As for what we're aiming for we are aiming to make that better to get that number up
+
+74
+00:04:59,000 --> 00:05:02,740
+ Particularly to get that number up to sort of you know, be more of sort of VR chat style levels
+
+75
+00:05:02,740 --> 00:05:08,100
+ I don't know if we're aiming or able to get it to the MMO player count would need much more culling there pretty
+
+76
+00:05:08,100 --> 00:05:12,980
+ Automatic culling I know that the community are great and putting all the culling systems into their world
+
+77
+00:05:12,980 --> 00:05:16,120
+ But you shouldn't have to we should have a native solution
+
+78
+00:05:16,120 --> 00:05:21,100
+ So once we have that it should make every world able to be called as well as the the cold sessions that you see from
+
+79
+00:05:21,100 --> 00:05:26,420
+ The systems that people are making and installing in them and then a reverse also asks is it possible to make auto load?
+
+80
+00:05:26,420 --> 00:05:31,860
+ Sort of the problem level of detail is it depends on what you mean? So in games
+
+81
+00:05:32,620 --> 00:05:38,760
+ Level of detail is you just sort of like stuff will look less detailed the further away you are from you can sometimes see that
+
+82
+00:05:38,760 --> 00:05:41,520
+ Pop in which is where they've done lots slightly incorrectly
+
+83
+00:05:41,520 --> 00:05:43,100
+ where you know
+
+84
+00:05:43,100 --> 00:05:48,780
+ You'll sort of like go over the threshold of a doorway or something and the contents of the room inside will turn from sort of shit
+
+85
+00:05:48,780 --> 00:05:54,660
+ Tier to like amazing tier graphics. That's an example of log being done incorrectly to do it in a way where it's not noticeable
+
+86
+00:05:54,660 --> 00:05:58,420
+ You can absolutely do some mod systems there, but the limitation is
+
+87
+00:05:58,420 --> 00:06:01,180
+ that the LODs are
+
+88
+00:06:02,260 --> 00:06:08,140
+ Always loaded in so for example if you're a high poly one or a low poly one, that's still loaded into the world
+
+89
+00:06:08,140 --> 00:06:13,020
+ You're just swapping between them for rendering. So while you do maybe get a little hit for rendering which is better
+
+90
+00:06:13,020 --> 00:06:18,440
+ You'll lose that on the sort of model being in memory in the games thing
+
+91
+00:06:18,440 --> 00:06:21,160
+ They you know, they try and load only the details that you need
+
+92
+00:06:21,160 --> 00:06:25,380
+ So if you never visit an area, they don't load the high poly version of that area for example
+
+93
+00:06:25,380 --> 00:06:31,560
+ There is a gap issue for more LOD related stuff. Yeah, the inbuilt LOD one is like a little you have a lot component
+
+94
+00:06:31,560 --> 00:06:34,540
+ I just it's weird. So we have another question here from Marubus who says
+
+95
+00:06:34,540 --> 00:06:37,760
+ How do I measure distance from a player to an object in logics?
+
+96
+00:06:37,760 --> 00:06:40,180
+ so the easiest way to do that would be to
+
+97
+00:06:40,180 --> 00:06:44,040
+ Grab a slot reference to both the player and a slot reference to the object
+
+98
+00:06:44,040 --> 00:06:47,120
+ Make sure they're both in global by using the global transform node
+
+99
+00:06:47,120 --> 00:06:53,840
+ That's just easier and then plug both of their positions the global position of the player and the level position of the object
+
+100
+00:06:53,840 --> 00:07:00,080
+ Into the distance node which exists in an operators or math at large that will calculate you the distance
+
+101
+00:07:00,080 --> 00:07:02,080
+ We're gonna do it automatically. There are various things
+
+102
+00:07:02,080 --> 00:07:04,600
+ Use a distance value driver
+
+103
+00:07:04,600 --> 00:07:10,680
+ And stuff like that. They'll handle the whole like global cool mess for you, but that's how you do it
+
+104
+00:07:10,680 --> 00:07:16,860
+ It's just a mathematical thing the distance between two objects is just the difference in their position and then you
+
+105
+00:07:16,860 --> 00:07:20,200
+ normalize everything and the distance node also
+
+106
+00:07:20,200 --> 00:07:26,420
+ Magnitude because it's a three-dimensional thingy. Jbot says question similar to the surgical visual planning
+
+107
+00:07:26,420 --> 00:07:30,720
+ Where are there other projects for Neos focused on building digital workspaces be it for dialing manufacturing?
+
+108
+00:07:30,720 --> 00:07:36,280
+ Not that I'm aware of but probably I mean there's like God knows what going on. Not that I'm aware of
+
+109
+00:07:36,280 --> 00:07:39,880
+ Moving on to Rigibus who says can Neos interface with a drawing tablet?
+
+110
+00:07:39,880 --> 00:07:42,440
+ Depends on what you mean
+
+111
+00:07:42,440 --> 00:07:48,300
+ You can put the Neos screen on a drawing tablet and then the pen will work with it
+
+112
+00:07:48,300 --> 00:07:52,720
+ As in when you push if it's like, you know, if operates as a mouse like where you put the pen will push
+
+113
+00:07:53,520 --> 00:07:57,680
+ We do not interface with the drawing tablet sort of pressure sensors
+
+114
+00:07:57,680 --> 00:08:04,360
+ Smoothness angle sensors or anything like that. It would literally just be a click touch screen like one of those really bad touch screens
+
+115
+00:08:04,360 --> 00:08:08,400
+ You know like an airport touch screen. Yeah, one of those I was on a lot of planes over the holidays and
+
+116
+00:08:08,400 --> 00:08:14,640
+ In-flight entertainment systems god damn their touch screens are bad. Specs are answering their question though. I think
+
+117
+00:08:14,640 --> 00:08:21,200
+ Wraith, what ID do you use these days? I am on a mixture of Visual Studio code for anything that is not like
+
+118
+00:08:22,220 --> 00:08:29,800
+ Compiling if it needs compiling I should try to go to Visual Studio hate to be boring, but I need stuff to just work and
+
+119
+00:08:29,800 --> 00:08:33,740
+ Once it works, I don't really have like much inkling to change it
+
+120
+00:08:33,740 --> 00:08:39,980
+ So getting Neos compiling in Visual Studio was like a two-week effort and now it works. I'm like cool
+
+121
+00:08:39,980 --> 00:08:43,260
+ Let's not break. Rigibus says how smooth does
+
+122
+00:08:43,260 --> 00:08:47,780
+ Neos run on the Raspberry Pi 3? I don't know. I don't own a Raspberry Pi 3
+
+123
+00:08:47,780 --> 00:08:52,960
+ I own a Raspberry Pi 4, a Raspberry Pi 0 and a Raspberry Pi 2 so I don't know. I skipped the 3
+
+124
+00:08:52,960 --> 00:08:55,500
+ You're more than welcome to try that is what's called an empirical question
+
+125
+00:08:55,500 --> 00:09:01,100
+ Rampa says that it's not boring with the community vs license being pretty good. It does it is good
+
+126
+00:09:01,100 --> 00:09:08,200
+ What I meant by that is like some people expect on a cool tools or better workflows, etc
+
+127
+00:09:08,200 --> 00:09:12,540
+ I'm like so ask would you know what causes the loading indicator for a world to stay open and never finish?
+
+128
+00:09:12,540 --> 00:09:15,920
+ I don't know. There's a bug open for it though. Alright, so we have
+
+129
+00:09:16,440 --> 00:09:18,440
+ another question here from Rigibus who says
+
+130
+00:09:18,440 --> 00:09:24,760
+ How does Neos multiplayer architecture work? Is the Neos backend just a big database with reference to IP addresses that contain the public instances?
+
+131
+00:09:24,760 --> 00:09:31,340
+ Again, your question is it's more focused. Got that. It's more focused, but it's still unfocused
+
+132
+00:09:31,340 --> 00:09:34,180
+ So there are two parts of the multiplayer architecture
+
+133
+00:09:34,180 --> 00:09:39,720
+ So there's the stuff where we communicate to the cloud and then there's the stuff where we communicate to the session host
+
+134
+00:09:39,720 --> 00:09:44,440
+ And those two different things they do overlap in some cases, but those are two different
+
+135
+00:09:44,440 --> 00:09:47,900
+ So again, it depends what you mean based on the second part of your question, though
+
+136
+00:09:47,900 --> 00:09:51,480
+ I'll assume we're talking about session listing in that case
+
+137
+00:09:51,480 --> 00:09:57,760
+ Session listing is just a big database with a reference of where to connect there might not be an IP address
+
+138
+00:09:57,760 --> 00:10:00,160
+ It might be like some other route or some other thing
+
+139
+00:10:00,160 --> 00:10:06,840
+ Sometimes it's a bit more complicated than that. But yeah, that's the session list. It's big database keep the questions coming
+
+140
+00:10:06,840 --> 00:10:10,380
+ Yeah, the river says how do I switch between sessions and desktop?
+
+141
+00:10:10,380 --> 00:10:13,840
+ I know the session list facet thing that requires it in the dashboard has been put up
+
+142
+00:10:14,480 --> 00:10:16,480
+ You can't all tab as far as I'm aware
+
+143
+00:10:16,480 --> 00:10:20,060
+ Jack said you could troll tab shift look at that on the
+
+144
+00:10:20,060 --> 00:10:24,700
+ Troll tab and okay guys make sure to read the basic controls wiki page
+
+145
+00:10:24,700 --> 00:10:28,240
+ Which has a lot of sort of shortcuts which aren't documented anywhere and tell you how to use this
+
+146
+00:10:28,240 --> 00:10:30,360
+ That's our bad. We'll fix that as soon as we can
+
+147
+00:10:30,360 --> 00:10:35,280
+ Additionally to that the original way that you are meant to transit between sessions
+
+148
+00:10:35,280 --> 00:10:40,820
+ without the facet which I made and without the legacy world switcher is if you go to the
+
+149
+00:10:41,200 --> 00:10:48,000
+ Active sessions tab of the world browser you'll see the sessions that you're in there at the top and you can select them there and
+
+150
+00:10:48,000 --> 00:10:51,200
+ Then click focus world on the pop-up that appears
+
+151
+00:10:51,200 --> 00:10:55,080
+ So those are a variety of ways to do it. I thought that that was
+
+152
+00:10:55,080 --> 00:11:02,180
+ Potentially confusing and not like a short path. That's why I made that facet. There's lots of praise for the world's are invested
+
+153
+00:11:02,180 --> 00:11:07,240
+ That's the one I made I like I just got annoyed and I solved a problem and everyone else was like I'm annoyed by that
+
+154
+00:11:07,320 --> 00:11:13,080
+ Too and they just like everyone installed it. It was great. Yeah, we are investigating making it into some default facet
+
+155
+00:11:13,080 --> 00:11:20,640
+ Puddle Nexus world so Lex is talking about a world I made where there's an active sessions ball for each world
+
+156
+00:11:20,640 --> 00:11:24,700
+ Yeah, I just I hacked the world browser apart to make that work
+
+157
+00:11:24,700 --> 00:11:31,840
+ So that world is technically a world browser where I've convinced it not to make UIX stuff
+
+158
+00:11:31,840 --> 00:11:35,360
+ I never intended it for it to work or people to enjoy going there
+
+159
+00:11:35,360 --> 00:11:39,480
+ It's just sort of like this is asking what portals are and how they work since some people mess with them
+
+160
+00:11:39,480 --> 00:11:41,800
+ I can understand what they did. How do you mean?
+
+161
+00:11:41,800 --> 00:11:49,740
+ Camera portals or well, let's make a second screen arampa. That's why I did camera portals. Okay, so camera portals are
+
+162
+00:11:49,740 --> 00:11:53,980
+ Somewhat similar to and it's kind of like good to view them like this
+
+163
+00:11:53,980 --> 00:11:59,240
+ Having another headset in the world that you can sort of look through
+
+164
+00:11:59,240 --> 00:12:05,080
+ So what it does is it makes a camera like a traditional camera, but it renders it stereoscopically
+
+165
+00:12:05,080 --> 00:12:06,360
+ so
+
+166
+00:12:06,360 --> 00:12:12,600
+ The you know, the left eye is different from the right eye and it does that according to your headset your your rendering, etc
+
+167
+00:12:12,600 --> 00:12:16,160
+ But only when you're looking at that camera portals like rendering pain
+
+168
+00:12:16,160 --> 00:12:22,080
+ So it's like having like another headset camera, you know with the two left eye right anything in the world
+
+169
+00:12:22,080 --> 00:12:25,040
+ That's really all it is. It's just like a rendering trick
+
+170
+00:12:25,040 --> 00:12:30,060
+ We get sort of a stereoscopic camera another word for it literally would be stereoscopic camera
+
+171
+00:12:30,280 --> 00:12:35,000
+ the bit that makes it cool and more portal like though is the ability to move the
+
+172
+00:12:35,000 --> 00:12:41,400
+ Camera location separately from the rendering location, which of course you can technically do have a camera as well
+
+173
+00:12:41,400 --> 00:12:43,400
+ It's just really confusingly named
+
+174
+00:12:43,400 --> 00:12:47,760
+ But it is like a portal to another part of the world or another
+
+175
+00:12:47,760 --> 00:12:52,240
+ Area, there's really not much to them though. You just like create a new object portal there
+
+176
+00:12:52,240 --> 00:12:55,640
+ You're done. You can make them different shapes different sizes. They don't need to be square
+
+177
+00:12:55,640 --> 00:13:00,640
+ You put them on like rings and stuff. That's always cool. That's how the portal guns usually work. The camera says
+
+178
+00:13:00,640 --> 00:13:02,640
+ What kind of optimizations can I do for big worlds?
+
+179
+00:13:02,640 --> 00:13:08,120
+ For big worlds, you need to make sure that you are culling so grab one of the culling systems already exists or make your own
+
+180
+00:13:08,120 --> 00:13:13,160
+ Not only culling objects, but also culling players. Make sure that's happening
+
+181
+00:13:13,160 --> 00:13:19,620
+ You need to balance your sounds so that you don't have more than 32 sounds running or like some of them will like not work
+
+182
+00:13:19,620 --> 00:13:25,320
+ You can make sure your assets are optimized effectively. For example, I once had to help a
+
+183
+00:13:25,440 --> 00:13:31,860
+ Game design student who was trying to do a project at university and their unity project wouldn't compile
+
+184
+00:13:31,860 --> 00:13:37,360
+ And I found out that they had a million trees in their scene because they wanted a forest and so they put a million
+
+185
+00:13:37,360 --> 00:13:39,480
+ individual trees in their scene and
+
+186
+00:13:39,480 --> 00:13:42,600
+ No
+
+187
+00:13:42,600 --> 00:13:44,720
+ That's not how you should do it
+
+188
+00:13:44,720 --> 00:13:50,000
+ So do keep an eye on that. The way you do it is you should have up close some trees
+
+189
+00:13:50,760 --> 00:13:56,000
+ As you go further and further away, you should transition to lower and lower poly trees and at a certain point
+
+190
+00:13:56,000 --> 00:14:00,980
+ Just a picture of trees and that's what you do. Other than that. It's like the contents low
+
+191
+00:14:00,980 --> 00:14:08,340
+ You know, do you need 8k textures on this piece of concrete? Probably not. Everything on the dash can be resized. Everything
+
+192
+00:14:08,340 --> 00:14:12,440
+ So the world browser itself, so I'm jumping around a little bit. There's comments about the world browser going on
+
+193
+00:14:12,440 --> 00:14:16,520
+ The world browser is composed of essentially four facets
+
+194
+00:14:16,520 --> 00:14:20,400
+ There's the filter list on the left which has you like everything, active sessions, features, etc
+
+195
+00:14:20,400 --> 00:14:23,160
+ There's the the grid in the middle
+
+196
+00:14:23,160 --> 00:14:27,800
+ which is all the sessions and then there is the search bar at the top middle and the
+
+197
+00:14:27,800 --> 00:14:34,720
+ pagination bar on the top right. Those are all facets. You can move them around exactly like other facets. As for questions
+
+198
+00:14:34,720 --> 00:14:39,560
+ Specs says are there any plans to update the content hub in the future? I would love
+
+199
+00:14:39,560 --> 00:14:44,980
+ I kind of love the place and it would be a little sad if it got left in dust in a favour and made it more convenient dashboard UIs
+
+200
+00:14:44,980 --> 00:14:47,480
+ I do believe that the content team have plans to update it
+
+201
+00:14:47,480 --> 00:14:50,740
+ For anyone who's not aware of what the content hub is, that is the space station
+
+202
+00:14:50,740 --> 00:14:53,560
+ satellite space station thingy
+
+203
+00:14:53,560 --> 00:14:56,320
+ Which was used in a lot of streams
+
+204
+00:14:56,320 --> 00:14:59,420
+ until the twitch house got created and then we
+
+205
+00:14:59,420 --> 00:15:06,040
+ It's meant to be like a content hub. It's meant to be I guess a little bit like the VRChat home
+
+206
+00:15:06,040 --> 00:15:12,760
+ You know, there's like you can go discover what's out there. It just has been it was deprioritized for the MTC and you know
+
+207
+00:15:12,920 --> 00:15:17,600
+ Busy working on other stuff. So I hope it returns. Ray said that be kind of more of a question for the content team
+
+208
+00:15:17,600 --> 00:15:21,400
+ Yeah, if the content team had an office hours, maybe that would be cool
+
+209
+00:15:21,400 --> 00:15:24,700
+ I mean you can ask them questions at workshop Wednesday. That's usually where I catch them
+
+210
+00:15:24,700 --> 00:15:29,440
+ I can catch them whenever I want, but you know, if you're a user you want to ask the content team questions
+
+211
+00:15:29,440 --> 00:15:32,800
+ Try the workshop Wednesday stream. Yeah, I understand that workshop Wednesday is on hiatus
+
+212
+00:15:32,800 --> 00:15:36,800
+ That's usually where I can. Moving on to Rigibus' question when importing assets from blender
+
+213
+00:15:36,800 --> 00:15:42,200
+ Is there any don't @ team members at me? If you need to @ team member at me, I can take it
+
+214
+00:15:42,200 --> 00:15:46,240
+ I'm weird like that. I can like just process notifications quite well
+
+215
+00:15:46,240 --> 00:15:50,320
+ Is there any kind of thing I need to do in a blender project to make it work better?
+
+216
+00:15:50,320 --> 00:15:52,960
+ I've tried importing some models from blender, but the scale would always be wrong
+
+217
+00:15:52,960 --> 00:15:58,540
+ Scale is one which is actually kind of easy to do. So if I default blender scale is in meters
+
+218
+00:15:58,540 --> 00:16:03,000
+ So when you import a model from blender or any other source that you know has been in blender
+
+219
+00:16:03,000 --> 00:16:08,000
+ Usually what you say and what I say in my tutorials is I go 3d model and then auto size, right?
+
+220
+00:16:08,000 --> 00:16:13,960
+ I always say select auto size if you know, it came from blender and you know that blender was using meters for it
+
+221
+00:16:13,960 --> 00:16:16,700
+ It's like scene units like this the units of the file
+
+222
+00:16:16,700 --> 00:16:21,560
+ Select meters rather than auto scale and then it will come in at the exact scale
+
+223
+00:16:21,560 --> 00:16:26,560
+ Which it was in in blender. If you export to FBX or other things then you'll have oddities generally
+
+224
+00:16:26,560 --> 00:16:32,900
+ I'm trying to sort of advise going away from FBX these days head was GLTF if you need to do avatars and animations and stuff
+
+225
+00:16:32,900 --> 00:16:37,660
+ Blender works well as well. Blender it'll just turn into an FBX and a GL whatever
+
+226
+00:16:37,940 --> 00:16:41,380
+ Try it though. Um, I will be making a tutorial on at some point
+
+227
+00:16:41,380 --> 00:16:47,860
+ until then go into blender make a one meter by one meter cube in blender import it into
+
+228
+00:16:47,860 --> 00:16:54,540
+ Neos until you get a one meter by one meter cube in Neos you can use the meter tip for that
+
+229
+00:16:54,540 --> 00:16:58,420
+ And that will allow you to sort of see what size it is
+
+230
+00:16:58,420 --> 00:17:01,780
+ And then you'll know what works and the reason why I'm telling you to do it
+
+231
+00:17:01,780 --> 00:17:05,600
+ Even though I will make a tutorial at some point is it'll give you a feel for what's going on
+
+232
+00:17:05,600 --> 00:17:09,300
+ Like if you import a one meter by one meter cube and it comes in a hundred meters, you know
+
+233
+00:17:09,300 --> 00:17:13,440
+ Oh, I understand what's happening here Neos or blender or something in the middle here for some reason
+
+234
+00:17:13,440 --> 00:17:18,460
+ It's making everything a hundred times bigger like get a feel for your workflow spend time on your workflow as well
+
+235
+00:17:18,460 --> 00:17:22,260
+ I know sometimes the temptation is like well if I do three hours work on each model
+
+236
+00:17:22,260 --> 00:17:25,900
+ Then I don't have to work on the workflow or you can just work on the workflow and then you don't need to spend that
+
+237
+00:17:25,900 --> 00:17:27,340
+ time every time
+
+238
+00:17:27,340 --> 00:17:31,120
+ It was it for the blender question. If you have any other blender issues you add more questions
+
+239
+00:17:34,180 --> 00:17:38,780
+ Arukabha says it's possible to make a mod to lower the resolution of all active mirrors in Neos
+
+240
+00:17:38,780 --> 00:17:42,860
+ It is please ask the modding community for that on the mod you've scored. Just a quick reminder here
+
+241
+00:17:42,860 --> 00:17:47,580
+ Because people are talking about map makers not adding, you know, things like mirror options stuff like that
+
+242
+00:17:47,580 --> 00:17:49,240
+ You go to Neos Essentials Mirrors
+
+243
+00:17:49,240 --> 00:17:54,120
+ There is a wide array of mirrors the ones to the right usually have those menus and the ones to the left don't
+
+244
+00:17:54,120 --> 00:17:57,380
+ So you pick one on the right and then you can have automatic
+
+245
+00:17:57,380 --> 00:17:59,900
+ mirror resolution modifiers
+
+246
+00:18:00,040 --> 00:18:04,520
+ Additionally, remember that we have the community sort of standards thing that is able to happen
+
+247
+00:18:04,520 --> 00:18:10,560
+ We were able to do it with the colors for music that was done. Most people use the same
+
+248
+00:18:10,560 --> 00:18:17,160
+ Variables for that these days your avatar just works someone could write up a standard for
+
+249
+00:18:17,160 --> 00:18:20,120
+ cloud variables and stuff for
+
+250
+00:18:20,120 --> 00:18:24,520
+ resolution right and then it could be hey, I am telling you the
+
+251
+00:18:24,520 --> 00:18:26,880
+ cloud variable
+
+252
+00:18:26,880 --> 00:18:27,840
+ resolution
+
+253
+00:18:27,840 --> 00:18:33,160
+ Scale on off state of mirrors in the world and then you can say you could do that
+
+254
+00:18:33,160 --> 00:18:38,580
+ Perfectly, you probably need to do that via group and go to like I don't know G standards or something
+
+255
+00:18:38,580 --> 00:18:44,660
+ I don't know whatever but like you could do it is within your power to do it. Should we Neos maybe have some standard
+
+256
+00:18:44,660 --> 00:18:49,160
+ Cloud variables that you can hook into probably but we don't currently
+
+257
+00:18:49,160 --> 00:18:55,200
+ Where are we? Fuzzy ask is there a page about the non standard standard stuff? Yeah, I mean
+
+258
+00:18:55,600 --> 00:18:57,880
+ It's a complete mess but like
+
+259
+00:18:57,880 --> 00:19:03,800
+ I've been meaning to tidy up if I tidy up it starts looking like official and I don't want to be official because it's not
+
+260
+00:19:03,800 --> 00:19:05,160
+ official
+
+261
+00:19:05,160 --> 00:19:11,560
+ There's some stuff there that has just got it's mostly audio and like audio color stuff. So alright got some more questions
+
+262
+00:19:11,560 --> 00:19:14,720
+ Does these supports playing SVG files?
+
+263
+00:19:14,720 --> 00:19:17,400
+ Don't remember gonna say no
+
+264
+00:19:17,400 --> 00:19:20,480
+ Make an issue on the gap if you'd like to see that
+
+265
+00:19:21,680 --> 00:19:27,640
+ This also asks how variables work in logics again that really does depend on the avenue that you're after so, please
+
+266
+00:19:27,640 --> 00:19:31,640
+ Try a lab ring on the questions. See if you can make it any sort of more
+
+267
+00:19:31,640 --> 00:19:35,120
+ Detailed and be able to answer that one. Otherwise, it's a bit sort of too vague
+
+268
+00:19:35,120 --> 00:19:41,940
+ You know that could be how do variables synchronize which is a 20 minute explanation or how do you write a variable?
+
+269
+00:19:41,940 --> 00:19:45,380
+ Which is like a 30 second explanation like it you expand your question
+
+270
+00:19:45,380 --> 00:19:49,000
+ I can I can help you out better how to read and write the variables. Ah, yeah. Okay. There we go
+
+271
+00:19:49,000 --> 00:19:53,960
+ Um, so there's there's various ways to do that and it depends on the type of variable that you're using the thing
+
+272
+00:19:53,960 --> 00:19:56,320
+ that you need to remember is
+
+273
+00:19:56,320 --> 00:20:02,640
+ The most fields like every time for example, every time we see a number that's probably an int or a float field
+
+274
+00:20:02,640 --> 00:20:05,460
+ Sometimes it's a double and some other weird ones. Don't worry about it
+
+275
+00:20:05,460 --> 00:20:11,840
+ But it's usually a float or an integer and that is a variable and you can write to it if it's part of a component
+
+276
+00:20:11,840 --> 00:20:13,840
+ You'll need to use the logic interface card
+
+277
+00:20:14,360 --> 00:20:20,760
+ If it's in logics, then you can use the nodes for that those are in variable storage value register
+
+278
+00:20:20,760 --> 00:20:25,720
+ And then into a float whatever type you want there and then you can use the right note to write to those
+
+279
+00:20:25,720 --> 00:20:29,080
+ But you can also use the right note to write to logic interface cards
+
+280
+00:20:29,080 --> 00:20:30,920
+ They're all variables and you can all write to them
+
+281
+00:20:30,920 --> 00:20:37,340
+ If that didn't make sense, then I would suggest taking a look at the introduction to logics. There's a very good video by a business
+
+282
+00:20:37,340 --> 00:20:40,340
+ Basement nerd. Sorry. There is also one by
+
+283
+00:20:41,200 --> 00:20:46,560
+ Business law is a little bit older now so you try both of those triple yeah like pretty much every single time you see a text
+
+284
+00:20:46,560 --> 00:20:50,480
+ Box of some kind where you can type in a number or a letter or a type or anything like that
+
+285
+00:20:50,480 --> 00:20:55,020
+ It's a variable in those various ways to do. Jackal asks if you import vector files. Does anyone understand what it is?
+
+286
+00:20:55,020 --> 00:20:59,860
+ No, we don't. With that we are at half past so I'm gonna go ahead and say
+
+287
+00:20:59,860 --> 00:21:04,280
+ 777Faku if you have a question, please continue typing it. Rigibus if you have a question continue typing it
+
+288
+00:21:04,280 --> 00:21:06,960
+ But the only two additional questions I take for this office
+
+289
+00:21:06,960 --> 00:21:15,260
+ I'll just make noises. Rigibus says how does the newest database I had the database corrupted yesterday and I was wondering how Neos
+
+290
+00:21:15,260 --> 00:21:20,320
+ Stores something like a SQLite database. It is a SQLite database. I believe it's NoSQLite
+
+291
+00:21:20,320 --> 00:21:26,520
+ I don't remember. The point being is that there is a local database lightdb. That's the one. It's a NoSQL
+
+292
+00:21:26,520 --> 00:21:29,080
+ SQLite style thingy
+
+293
+00:21:29,080 --> 00:21:34,620
+ It's basically a file and the file is a database that can be queried by Neos and it
+
+294
+00:21:34,760 --> 00:21:37,960
+ And what we do is we say hey database, where is
+
+295
+00:21:37,960 --> 00:21:40,720
+ Rafe's face text?
+
+296
+00:21:40,720 --> 00:21:47,840
+ Where is the texture for Rafe's face and the database goes it is here and that here that I'm talking about is usually a file path
+
+297
+00:21:47,840 --> 00:21:51,280
+ On your computer and then it picks up from the computer and goes here you go
+
+298
+00:21:51,280 --> 00:21:56,520
+ I'm now rendering Rafe's face and we don't need to redownload it from the internet because we had it stored locally in the cache
+
+299
+00:21:56,520 --> 00:22:02,980
+ When the database corrupts it means that file that light database has corrupted and we can't read from it
+
+300
+00:22:02,980 --> 00:22:07,800
+ And therefore we don't know what's going on. You know, we can't figure out where those files are
+
+301
+00:22:07,800 --> 00:22:09,320
+ And that's what happens when it gets corrupt
+
+302
+00:22:09,320 --> 00:22:16,340
+ That's why we need to repair when we repair it we switch from sort of interrogating as a database. We switch to interrogating it as
+
+303
+00:22:16,340 --> 00:22:23,260
+ A file that has a problem we fix that problem if we can and then we go back to interrogating as a database
+
+304
+00:22:23,260 --> 00:22:28,800
+ It is time. I will allow a reverse expanded question because it is related to the previous one
+
+305
+00:22:29,240 --> 00:22:34,080
+ And I said I would allow some of the vacuus stuff. So I'll read that even though I haven't I don't know
+
+306
+00:22:34,080 --> 00:22:36,940
+ I don't think it's a question. I don't see a question mark at least I'll read in just a second
+
+307
+00:22:36,940 --> 00:22:42,480
+ Um, so they say how does neo store the local cache? Yeah. Yeah. Thank you. I understand. Thank you
+
+308
+00:22:42,480 --> 00:22:47,520
+ How does neo store the local cache? The local cache is stored as a bunch of you can go just look at them
+
+309
+00:22:47,520 --> 00:22:54,940
+ There are much of files. They are sort of encrypted, but it's not like encrypting encryption that would be used for anything security related
+
+310
+00:22:54,940 --> 00:23:01,640
+ It's it's more sort of partially organizational partially encryption. The light database itself is also encrypted
+
+311
+00:23:01,640 --> 00:23:04,480
+ But again, it's not military-grade encryption
+
+312
+00:23:04,480 --> 00:23:09,040
+ Just a sideline by the way, if you see a VPN advert that's talking about military-grade encryption
+
+313
+00:23:09,040 --> 00:23:15,760
+ Yeah, your browser already uses it don't buy a VPN if you just want military-grade encryption. Your browser already does it. Anyway
+
+314
+00:23:15,760 --> 00:23:22,320
+ Point being there is a little bit of encryption involved, but it's not strong. It's not designed to be strong. As for how it stores
+
+315
+00:23:22,320 --> 00:23:27,080
+ It's just files on your computer and then 775 who said they had an idea in the back of mind for AI
+
+316
+00:23:27,080 --> 00:23:32,400
+ Integrations for example having a fairy guy that can listen in on command and help out with things like logics and other radio functions
+
+317
+00:23:32,400 --> 00:23:34,780
+ Do it I would love it
+
+318
+00:23:34,780 --> 00:23:37,540
+ Lots of people talking about getting documentation into games
+
+319
+00:23:37,540 --> 00:23:43,500
+ And into news being quite interest and stuff like that is one way that it could be done
+
+320
+00:23:43,500 --> 00:23:48,180
+ We're not quite sure how we're going to do it. But when we do do that, we'll see what's going on
+
+321
+00:23:48,180 --> 00:23:54,860
+ I'd love it if there was a way to click on a logics node and it popped up the information about it, videos, pictures, guides, etc
+
+322
+00:23:54,860 --> 00:23:59,300
+ You could even directly like spawn examples of how to use it in the world all sorts of cool stuff like that
+
+323
+00:23:59,300 --> 00:24:03,820
+ I'll come up with some. With that I believe we're at the end of office hours. I'll go ahead and leave off here and
+
+324
+00:24:03,820 --> 00:24:06,140
+ I will speak to you later. Bye bye
+

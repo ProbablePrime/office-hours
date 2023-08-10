@@ -1,0 +1,1828 @@
+1
+0:00:00.000 --> 0:00:05.600
+Okay, welcome to Prime Time, which is the office hours, or AMA with Prime.
+
+2
+0:00:05.600 --> 0:00:08.760
+For questions about Neos, please drop your questions in the office hours chat if you
+
+3
+0:00:08.760 --> 0:00:09.760
+have any questions.
+
+4
+0:00:09.760 --> 0:00:15.200
+Otherwise we're going to sit here in unimaginably uncomfortable silence until there are questions.
+
+5
+0:00:15.200 --> 0:00:19.400
+Okay, our first question is from Storm, and unfortunately not something I can answer.
+
+6
+0:00:19.400 --> 0:00:25.000
+So Storm asks, how does Neos generate light colour and brightness using a skybox?
+
+7
+0:00:25.000 --> 0:00:27.840
+I have no idea, that's a question for games.
+
+8
+0:00:27.840 --> 0:00:32.840
+I can guess, and I know technically what I would do to set up a world to look like how
+
+9
+0:00:32.840 --> 0:00:38.880
+I would want it to look, but I don't know with enough technical detail to answer that
+
+10
+0:00:38.880 --> 0:00:40.080
+correctly.
+
+11
+0:00:40.080 --> 0:00:41.080
+So I won't.
+
+12
+0:00:41.080 --> 0:00:45.720
+Alright, we have another question from Mystic, as noted, we can have awkward silence when
+
+13
+0:00:45.720 --> 0:00:50.640
+there are no questions, that's just how office hours go!
+
+14
+0:00:50.640 --> 0:00:56.640
+So the question is from Mystic, how is documentation going as of recent, and as far as Patreon
+
+15
+0:00:56.640 --> 0:01:03.040
+section goes, there's a few ways it's phrased, patron benefits to patron tiers.
+
+16
+0:01:03.040 --> 0:01:12.040
+If you see something that is not unified, then you're free to unify it.
+
+17
+0:01:12.040 --> 0:01:19.440
+It's a wiki, like so many people are like, I can't edit the wiki, I'm a lowly person
+
+18
+0:01:19.440 --> 0:01:23.140
+in the metaverse, so anyone can edit the wiki, if you want to go for it, there's no planned
+
+19
+0:01:23.140 --> 0:01:29.520
+updates to the Patreon, there probably will be a big update eventually, but like, you
+
+20
+0:01:29.520 --> 0:01:34.200
+know, that will be once we get more things cleared up.
+
+21
+0:01:34.200 --> 0:01:38.800
+As for like generically documentation, honestly, lots of stuff is on pause, we're still working
+
+22
+0:01:38.800 --> 0:01:43.560
+on the stuff that we can work on, other stuff we can't work on, see announcements.
+
+23
+0:01:43.560 --> 0:01:47.520
+Yeah, we're not working on big update marketplace, for example.
+
+24
+0:01:47.520 --> 0:01:48.520
+So that's that question.
+
+25
+0:01:48.520 --> 0:01:56.040
+Moving onwards, NFThater has a question here, which is, oh, I should just, the answer to
+
+26
+0:01:56.040 --> 0:02:00.040
+the question about graphics and rendering, yeah, it's asking, I have no idea.
+
+27
+0:02:00.040 --> 0:02:05.240
+I know what I would do if I was building a particular world for a particular scene, but
+
+28
+0:02:05.240 --> 0:02:07.160
+I don't know technically how it's done.
+
+29
+0:02:07.160 --> 0:02:10.420
+There is a lot of stuff like that in Neos, where I'm like, I don't know technically how
+
+30
+0:02:10.420 --> 0:02:14.960
+this works, but if you just like, tinker with it, then you'll figure it out.
+
+31
+0:02:14.960 --> 0:02:18.840
+Like for example here, like particle systems, people ask, like, have you done a tutorial
+
+32
+0:02:18.840 --> 0:02:20.180
+on particle systems yet?
+
+33
+0:02:20.180 --> 0:02:23.840
+And I always say like, no, and the reason is honestly, because I just tinker with all
+
+34
+0:02:23.840 --> 0:02:25.520
+the values until it looks right.
+
+35
+0:02:25.520 --> 0:02:31.680
+So moving back to NFThater's question now, I know I'm circling around a little bit.
+
+36
+0:02:31.680 --> 0:02:34.920
+Is it possible to browse the web in Neos?
+
+37
+0:02:34.920 --> 0:02:43.440
+There is a roadmap item for that, it includes in-game documentation that won't require browsing
+
+38
+0:02:43.440 --> 0:02:48.680
+the web, that's something I'm super excited about, but there will also be a way to sort
+
+39
+0:02:48.680 --> 0:02:54.640
+of like view web pages and share them with other users in Neos eventually, so two things
+
+40
+0:02:54.640 --> 0:02:55.640
+there.
+
+41
+0:02:55.640 --> 0:02:58.000
+First one is to go look at the documentation roadmap on our GitHub that has a lot of sort
+
+42
+0:02:58.000 --> 0:03:02.240
+of things that we want to do there, and then secondarily go ahead and look at screen sharing
+
+43
+0:03:02.240 --> 0:03:05.200
+which will allow you to sort of drop screens in the world.
+
+44
+0:03:05.200 --> 0:03:09.480
+Honestly though, I would rather right now, you just use the desktop tab of your dash,
+
+45
+0:03:09.480 --> 0:03:16.760
+access overlay, desktop plus, OVR toolkit, so many different tools that can just drop
+
+46
+0:03:16.760 --> 0:03:18.880
+documentation into the world.
+
+47
+0:03:18.880 --> 0:03:22.880
+They are a bit clunky, like they're all a bit clunky, honestly the best way would be,
+
+48
+0:03:22.880 --> 0:03:27.240
+I don't know what this is going to look like, but like you know, you click on a logics node
+
+49
+0:03:27.240 --> 0:03:33.000
+and somehow, some way it's just like, yo dude, this is how this logics node works, like you
+
+50
+0:03:33.000 --> 0:03:39.200
+wouldn't need to go to the wiki or anything like that, we know what node you're selecting,
+
+51
+0:03:39.200 --> 0:03:43.640
+what node your laser is on, we can just display the documentation for that particular node.
+
+52
+0:03:43.640 --> 0:03:45.760
+So that solves that problem better.
+
+53
+0:03:45.760 --> 0:03:47.760
+So there you go.
+
+54
+0:03:47.760 --> 0:03:50.880
+Mystic asks, there's been an update in regards to your favorite cheese, I don't answer cheese
+
+55
+0:03:50.880 --> 0:03:53.080
+questions at these office hours, these are about Neos.
+
+56
+0:03:53.080 --> 0:03:57.000
+There is an AMA, but to be honest I get the cheese question every office hours and I'm
+
+57
+0:03:57.000 --> 0:04:00.840
+kind of tired of answering it, so I don't answer cheese questions, like go read the
+
+58
+0:04:00.840 --> 0:04:01.840
+previous notes.
+
+59
+0:04:01.840 --> 0:04:05.880
+So we have another cheese related question, I don't answer cheese related questions.
+
+60
+0:04:05.880 --> 0:04:15.080
+The mood of silence shouldn't be bad, it's always important to remember that office hours
+
+61
+0:04:15.080 --> 0:04:20.760
+in academia, which is what these are loosely based on, are literally the professor saying
+
+62
+0:04:20.760 --> 0:04:23.000
+my door is open, come visit me.
+
+63
+0:04:23.000 --> 0:04:27.560
+And if no one visits them, they just drink a cup of tea, put their feet up on the couch
+
+64
+0:04:27.560 --> 0:04:33.280
+and relax, eat some cheese maybe, so that's the way it is, right?
+
+65
+0:04:33.280 --> 0:04:37.000
+An AMA is only an AMA when there are questions, if there are no questions, they don't happen,
+
+66
+0:04:37.000 --> 0:04:40.640
+they just happen to be voice related.
+
+67
+0:04:40.640 --> 0:04:44.440
+We have another question from Crusher here, which says is the performance impact of updating
+
+68
+0:04:44.440 --> 0:04:46.280
+relays significant?
+
+69
+0:04:46.280 --> 0:04:47.860
+Less than you would think.
+
+70
+0:04:47.860 --> 0:04:52.160
+The advice I have for updating relays is use them if you think you need to use them, but
+
+71
+0:04:52.160 --> 0:04:54.960
+once your logic is complete, try to remove them.
+
+72
+0:04:54.960 --> 0:04:59.040
+A lot of problems I see with users and updating relays is when they use them with the transform
+
+73
+0:04:59.040 --> 0:05:01.000
+nodes, and then they have an impulse chain.
+
+74
+0:05:01.000 --> 0:05:04.560
+If you have an impulse chain that reads from the transform nodes, you often don't need
+
+75
+0:05:04.560 --> 0:05:05.960
+the updating relay.
+
+76
+0:05:05.960 --> 0:05:09.960
+It's difficult to explain about pictures and stuff like that, but there are lots of cases
+
+77
+0:05:09.960 --> 0:05:16.160
+where people use an updating relay just so that the display node that they're using updates.
+
+78
+0:05:16.160 --> 0:05:20.880
+In impulse flows, you don't need the display node, and so therefore you don't need it to
+
+79
+0:05:20.880 --> 0:05:25.760
+update all the time, and you know that on an actual impulse, it will have the appropriate
+
+80
+0:05:25.760 --> 0:05:26.920
+update.
+
+81
+0:05:26.920 --> 0:05:32.680
+So hence my feedback of build the logics using the updating relay, and then consider removing
+
+82
+0:05:32.680 --> 0:05:37.360
+it and seeing if the logic still works, and then you've evaluated if they're needed or
+
+83
+0:05:37.360 --> 0:05:38.360
+not.
+
+84
+0:05:38.360 --> 0:05:41.820
+That also leads to the second thing about that, which is if you need them, you need
+
+85
+0:05:41.820 --> 0:05:42.820
+them.
+
+86
+0:05:42.820 --> 0:05:46.900
+There is no way around it, so just add them, but make sure you do need them by building
+
+87
+0:05:46.900 --> 0:05:48.720
+your logics and then removing them.
+
+88
+0:05:48.720 --> 0:05:53.360
+Mattie asks, updating relay refers to the specific node type and not the little logics
+
+89
+0:05:53.360 --> 0:05:55.840
+needing block you get by grabbing a wire.
+
+90
+0:05:55.840 --> 0:05:57.360
+Those don't have an impact.
+
+91
+0:05:57.360 --> 0:06:01.960
+They do have an impact to slot count, but I'm going to say this incredibly loudly.
+
+92
+0:06:01.960 --> 0:06:04.600
+Slots do not matter.
+
+93
+0:06:04.600 --> 0:06:09.280
+The reason I say that is because high slot avatars, it's often not the problem that they
+
+94
+0:06:09.280 --> 0:06:10.280
+have lots of slots.
+
+95
+0:06:10.280 --> 0:06:13.520
+The reason that they have lots of slots is because they've put lots of functionality
+
+96
+0:06:13.520 --> 0:06:14.840
+in the avatar.
+
+97
+0:06:14.840 --> 0:06:19.720
+If you put less functionality in your avatar, then there will be less slots.
+
+98
+0:06:19.720 --> 0:06:22.360
+So think about functionality before slots, basically.
+
+99
+0:06:22.360 --> 0:06:27.480
+I've seen people that are like, you know, here's like a nuclear power plant of data
+
+100
+0:06:27.480 --> 0:06:31.080
+above my head in my name badge, none of which is useful to me.
+
+101
+0:06:31.080 --> 0:06:36.000
+Like, here's the time in my time zone, somewhat useful, here's the FPS, here's my heart rate,
+
+102
+0:06:36.000 --> 0:06:39.280
+here's my heart rate availability, here's my favorite type of cheese, here's the temperature
+
+103
+0:06:39.280 --> 0:06:44.240
+that exists in my time zone, here's my CPU rendering time, my battery percentage, none
+
+104
+0:06:44.240 --> 0:06:46.520
+of which of course they can see because it's above in their name badge.
+
+105
+0:06:46.520 --> 0:06:52.160
+I don't care what your batteries are, if they run out, you can, cool, go charge them.
+
+106
+0:06:52.160 --> 0:06:55.240
+So just consider what features you're putting into an object and then your slot count will
+
+107
+0:06:55.240 --> 0:06:57.320
+naturally go down and then they won't matter.
+
+108
+0:06:57.320 --> 0:07:02.680
+So relays, no problem, updating relays, test if you need them at the end of your logics.
+
+109
+0:07:02.680 --> 0:07:06.600
+So next we have a question from Revy who says, how do Patreon rewards get handled when you
+
+110
+0:07:06.600 --> 0:07:07.600
+cancel Patreon?
+
+111
+0:07:07.600 --> 0:07:10.720
+Heard from some that you get to keep your storage tier, I want to know if it's true.
+
+112
+0:07:10.720 --> 0:07:14.480
+Asking since as far as I know, all the Patreon money still goes to Carol, which not something
+
+113
+0:07:14.480 --> 0:07:16.720
+I want to support for a while now.
+
+114
+0:07:16.720 --> 0:07:20.800
+I've been meaning to, I keep forgetting to due to current circumstances and volunteers,
+
+115
+0:07:20.800 --> 0:07:26.800
+et cetera, update the Patreon page to just clarify that statement, you know, what happens
+
+116
+0:07:26.800 --> 0:07:30.320
+when you stop doing Patreon.
+
+117
+0:07:30.320 --> 0:07:37.520
+What I will know and will can tell you is that we never delete data.
+
+118
+0:07:37.520 --> 0:07:39.440
+So we're never going to delete stuff.
+
+119
+0:07:39.440 --> 0:07:43.120
+If you, for example, have a storage tier that gives you 40 gigabytes and you use all 40
+
+120
+0:07:43.120 --> 0:07:46.200
+gigabytes, we're never going to delete that data, we're going to let you keep it.
+
+121
+0:07:46.200 --> 0:07:49.960
+You won't be able to write, but you will be able to read.
+
+122
+0:07:49.960 --> 0:07:52.260
+You don't use the appropriate technology there.
+
+123
+0:07:52.260 --> 0:07:56.360
+The next billing cycle, you'll lose the storage.
+
+124
+0:07:56.360 --> 0:07:59.360
+Certain things like groups will not be removed.
+
+125
+0:07:59.360 --> 0:08:03.180
+The Patreon badge will also not be removed, neither will the wizard badge.
+
+126
+0:08:03.180 --> 0:08:07.480
+You keep a lot of stuff, but like other stuff that we actually have to pay money for, i.e.
+
+127
+0:08:07.480 --> 0:08:10.640
+the storage, doesn't go away.
+
+128
+0:08:10.640 --> 0:08:12.840
+So if we have to pay for it, it probably goes away.
+
+129
+0:08:12.840 --> 0:08:15.840
+If we don't have to pay for it, it doesn't.
+
+130
+0:08:15.840 --> 0:08:20.600
+Moving onwards to the next question, is there like a tutorial series for new users?
+
+131
+0:08:20.600 --> 0:08:21.760
+Basically no clue to use it.
+
+132
+0:08:21.760 --> 0:08:23.400
+There are multiple tutorial series.
+
+133
+0:08:23.400 --> 0:08:24.960
+It depends on which one you want to see.
+
+134
+0:08:24.960 --> 0:08:30.520
+I have 300 tutorials, but something which I don't do, almost sort of as a principle
+
+135
+0:08:30.520 --> 0:08:35.040
+of my channel, is I don't do introduction series.
+
+136
+0:08:35.040 --> 0:08:39.840
+The reason I haven't done introduction yet is because I want to wait until things like
+
+137
+0:08:39.840 --> 0:08:43.240
+the UI update, the logics update are all done.
+
+138
+0:08:43.240 --> 0:08:45.880
+Because otherwise my introduction series is going to be out of date.
+
+139
+0:08:45.880 --> 0:08:49.400
+And if my introduction series is going to be out of date, it's going to be monumentally
+
+140
+0:08:49.400 --> 0:08:53.880
+more frustrating than other tutorials that could be out of date.
+
+141
+0:08:53.880 --> 0:08:58.960
+For example, if my how to make a gun in Neos tutorial is out of date, you would need to
+
+142
+0:08:58.960 --> 0:09:03.160
+know how to use Neos from an introductory basic point of view before you even start
+
+143
+0:09:03.160 --> 0:09:08.560
+making a gun, so you're more malleable and able to deal with stuff being out of date.
+
+144
+0:09:08.560 --> 0:09:12.480
+I have quite a few videos on my channel, for example, that use the old dash, and people
+
+145
+0:09:12.480 --> 0:09:18.600
+can kind of still figure out what's going on and map it to the new UI because they're
+
+146
+0:09:18.600 --> 0:09:21.080
+familiar and because it's not a new introductory series.
+
+147
+0:09:21.080 --> 0:09:26.000
+They're less prone to being affected by changes or being out of date.
+
+148
+0:09:26.000 --> 0:09:29.480
+Whereas an introductory series will be out of date very quickly, because it needs to
+
+149
+0:09:29.480 --> 0:09:35.880
+be day one, week one, moment one, and it needs to be as clear as possible in that regard.
+
+150
+0:09:35.880 --> 0:09:39.620
+And I can't give that clarity right now, so it hasn't been done.
+
+151
+0:09:39.620 --> 0:09:41.840
+Other users have done introductory tutorials.
+
+152
+0:09:41.840 --> 0:09:42.840
+You can look them up.
+
+153
+0:09:42.840 --> 0:09:49.920
+I actually have a link in the guideline, the info and welcome and links channel of this
+
+154
+0:09:49.920 --> 0:09:53.920
+Discord, which links to a variety of channels which have tutorials.
+
+155
+0:09:53.920 --> 0:09:58.640
+There's also a lot of tutorials in game made by various people.
+
+156
+0:09:58.640 --> 0:10:01.280
+Some of those were MMC entries that talk you through it.
+
+157
+0:10:01.280 --> 0:10:06.880
+Really though, if we don't have an official introductory series, my question usually there
+
+158
+0:10:06.880 --> 0:10:10.480
+is what would you like to know, and then I can sort of narrow it down a little bit.
+
+159
+0:10:10.480 --> 0:10:12.920
+There is no possible way for you to know everything.
+
+160
+0:10:12.920 --> 0:10:16.320
+I promise you, you'll never know everything.
+
+161
+0:10:16.320 --> 0:10:17.320
+It's not possible.
+
+162
+0:10:17.320 --> 0:10:19.240
+I guess that helps.
+
+163
+0:10:19.240 --> 0:10:20.640
+If you have any particular areas, let me know.
+
+164
+0:10:20.640 --> 0:10:23.000
+I can follow up with some links from them.
+
+165
+0:10:23.000 --> 0:10:26.300
+Specs asks, to follow up on the Patreon question, are you intended to keep the herdless server
+
+166
+0:10:26.300 --> 0:10:29.560
+binary access of Patreon membership is canceled?
+
+167
+0:10:29.560 --> 0:10:31.940
+I don't know either way, yes or no.
+
+168
+0:10:31.940 --> 0:10:35.300
+I don't know why we still have that lock behind Patreon.
+
+169
+0:10:35.300 --> 0:10:37.080
+I'd like to review that.
+
+170
+0:10:37.080 --> 0:10:41.640
+I don't know why many of our test features are locked behind Patreon.
+
+171
+0:10:41.640 --> 0:10:43.240
+Testing things should be free.
+
+172
+0:10:43.240 --> 0:10:45.040
+I don't understand.
+
+173
+0:10:45.040 --> 0:10:49.360
+Neos won't prevent you from using files you've already acquired.
+
+174
+0:10:49.360 --> 0:10:52.040
+So you don't need to delete it or anything.
+
+175
+0:10:52.040 --> 0:10:56.160
+I also think it's problematic for like headless server operators, that they're like, well,
+
+176
+0:10:56.160 --> 0:11:02.600
+I need to have a Patreon access to run servers for Neos, even though I'm not playing Neos,
+
+177
+0:11:02.600 --> 0:11:04.160
+I'm just running servers for it.
+
+178
+0:11:04.160 --> 0:11:06.380
+So I don't know.
+
+179
+0:11:06.380 --> 0:11:07.380
+We need to review that.
+
+180
+0:11:07.380 --> 0:11:09.620
+We just can't right now, given the circumstances.
+
+181
+0:11:09.620 --> 0:11:12.180
+I would love that for like we just had it open.
+
+182
+0:11:12.180 --> 0:11:16.380
+It would put more interest and more attention on that, but that's fine.
+
+183
+0:11:16.380 --> 0:11:17.680
+That's what testing is for.
+
+184
+0:11:17.680 --> 0:11:18.680
+Like remember danger testers?
+
+185
+0:11:18.680 --> 0:11:22.480
+It was like, hey, guys, we need testers to test this broken build.
+
+186
+0:11:22.480 --> 0:11:26.480
+People are like, cool, here's a broken build.
+
+187
+0:11:26.480 --> 0:11:27.960
+Let's test it and let's give feedback.
+
+188
+0:11:27.960 --> 0:11:28.960
+It's good.
+
+189
+0:11:28.960 --> 0:11:29.960
+I don't understand.
+
+190
+0:11:29.960 --> 0:11:35.040
+Anyway, let's not encourage that, because you should, you know, maybe at least once
+
+191
+0:11:35.040 --> 0:11:36.440
+get that code.
+
+192
+0:11:36.440 --> 0:11:41.040
+Do remember that the Patreon money is actually going towards server costs, and we do need
+
+193
+0:11:41.040 --> 0:11:43.080
+those server costs to keep your storage.
+
+194
+0:11:43.080 --> 0:11:47.240
+So yes, while you're uncertain about where your Patreon money is going right now, some
+
+195
+0:11:47.240 --> 0:11:53.700
+of it at least does go for paying for the literal file storage that keeps your stuff
+
+196
+0:11:53.700 --> 0:11:55.120
+on our systems.
+
+197
+0:11:55.120 --> 0:11:58.760
+And so if everyone cancelled their Patreon, we might get to the point where we would actually
+
+198
+0:11:58.760 --> 0:12:00.160
+start losing access to data.
+
+199
+0:12:00.160 --> 0:12:01.160
+I don't mean losing data.
+
+200
+0:12:01.160 --> 0:12:02.880
+I just mean losing access to data.
+
+201
+0:12:02.880 --> 0:12:08.920
+What I mean by that is if you don't pay for the storage, the storage providers will usually
+
+202
+0:12:08.920 --> 0:12:15.800
+do things like read only, a bit like we do, or here, download it, but you can't access
+
+203
+0:12:15.800 --> 0:12:19.120
+it dynamically through APIs, which we do on the cloud systems.
+
+204
+0:12:19.120 --> 0:12:20.680
+They're not going to delete it either.
+
+205
+0:12:20.680 --> 0:12:22.480
+At least not initially.
+
+206
+0:12:22.480 --> 0:12:23.840
+Just keep that in mind.
+
+207
+0:12:23.840 --> 0:12:32.960
+Like, hey, you've got thousands of gigabytes of fursonas or avatars on your cloud storage,
+
+208
+0:12:32.960 --> 0:12:36.880
+and you don't pay for Patreon, then who's paying for that storage?
+
+209
+0:12:36.880 --> 0:12:37.880
+Just think about that.
+
+210
+0:12:37.880 --> 0:12:42.520
+Moving onwards for more questions, then FTI to ask if they're fursonic-cute, yeah, that's
+
+211
+0:12:42.520 --> 0:12:43.520
+a good one.
+
+212
+0:12:43.520 --> 0:12:50.000
+Next question from Fuzzy Foot asks, Fox, sorry, not Foot, Fuzzy Fox, I'm so sorry.
+
+213
+0:12:50.000 --> 0:12:56.080
+Fuzzy Fox asks, what is the laggiest component or node you know of?
+
+214
+0:12:56.080 --> 0:13:00.320
+Go to my public folder, go inside art.
+
+215
+0:13:00.320 --> 0:13:04.300
+Inside there you'll see a sort of RGB sphere.
+
+216
+0:13:04.300 --> 0:13:07.320
+That is a piece of artwork I made, hence why it's in the art folder.
+
+217
+0:13:07.320 --> 0:13:15.160
+It uses an ancient component, a component which I do not recommend using.
+
+218
+0:13:15.160 --> 0:13:17.120
+It is probably the laggiest one I know of.
+
+219
+0:13:17.120 --> 0:13:21.480
+You won't notice it if you spawn the artwork in private, like by yourself.
+
+220
+0:13:21.480 --> 0:13:26.480
+Hence why it's there, but in sessions you'll quickly notice it's causing queued packets.
+
+221
+0:13:26.480 --> 0:13:36.060
+We have another new question from Scant, who says, can a slot transform be forcefully updated
+
+222
+0:13:36.060 --> 0:13:40.360
+before the end of a frame, such as raycast, rather?
+
+223
+0:13:40.360 --> 0:13:45.200
+This is another thing where like Neos wizards and I will disagree.
+
+224
+0:13:45.200 --> 0:13:47.320
+You shouldn't worry about frames.
+
+225
+0:13:47.320 --> 0:13:51.920
+If you're worrying about like update cycles, positioning, timing, that's something for
+
+226
+0:13:51.920 --> 0:13:54.080
+us to fix.
+
+227
+0:13:54.080 --> 0:13:55.120
+I don't know.
+
+228
+0:13:55.120 --> 0:13:59.560
+That's again a sort of like rendering thingy or just sort of like an update cycle thing.
+
+229
+0:13:59.560 --> 0:14:03.880
+If you could maybe ask about your problem or seeing that prompted that question, I might
+
+230
+0:14:03.880 --> 0:14:04.880
+be able to help.
+
+231
+0:14:04.880 --> 0:14:09.440
+But like I see people worrying about like, you know, frames, data, things like that.
+
+232
+0:14:09.440 --> 0:14:13.200
+You shouldn't be too worried about stuff like that.
+
+233
+0:14:13.200 --> 0:14:17.440
+So scan has updated their question, which says I have switched from using raycast one
+
+234
+0:14:17.440 --> 0:14:21.640
+to raycast drivers as they have better filtering, however I notice the result is behind by one
+
+235
+0:14:21.640 --> 0:14:24.840
+frame since it is driving on slot transformations.
+
+236
+0:14:24.840 --> 0:14:30.600
+I would encourage you to always use the tools which make the like thing you're trying to
+
+237
+0:14:30.600 --> 0:14:32.680
+build as effective as possible.
+
+238
+0:14:32.680 --> 0:14:36.960
+Like don't, for example, if someone was reading this and they're seeing what they're reading
+
+239
+0:14:36.960 --> 0:14:42.240
+from scan and they're like, hey, I want to swap to raycast driver now as well, don't.
+
+240
+0:14:42.240 --> 0:14:45.000
+If raycast one is helping you, do it.
+
+241
+0:14:45.000 --> 0:14:47.740
+If raycaster is helping you, do it.
+
+242
+0:14:47.740 --> 0:14:52.360
+If raycast driver is helping you, do it, and then we'll figure out what's going on there.
+
+243
+0:14:52.360 --> 0:14:58.040
+As for the actual question, which deals with the result being behind by one frame, I don't
+
+244
+0:14:58.040 --> 0:14:59.040
+know.
+
+245
+0:14:59.040 --> 0:15:01.840
+I would have to come into Neos and take a look at your actual problem.
+
+246
+0:15:01.840 --> 0:15:03.980
+Moving onwards, unfortunately, I wish I could help more.
+
+247
+0:15:03.980 --> 0:15:06.940
+Maybe I can hop into Neos at some point.
+
+248
+0:15:06.940 --> 0:15:10.980
+Moving onwards, Fuzzy asks, I always worry about things like loops.
+
+249
+0:15:10.980 --> 0:15:14.400
+I've had experience where such things lag my computer to death.
+
+250
+0:15:14.400 --> 0:15:16.160
+Is there any way to do loops?
+
+251
+0:15:16.160 --> 0:15:17.160
+Yes.
+
+252
+0:15:17.160 --> 0:15:18.160
+Have bounded loops.
+
+253
+0:15:18.160 --> 0:15:22.840
+90% of problems people have with loops are where they are unbounded.
+
+254
+0:15:22.840 --> 0:15:27.880
+Things like the for loop node, people avoid because they don't understand why it causes
+
+255
+0:15:27.880 --> 0:15:30.800
+problems or why it's causing lag.
+
+256
+0:15:30.800 --> 0:15:31.800
+For loop's fine.
+
+257
+0:15:31.800 --> 0:15:33.840
+You just need to use it correctly.
+
+258
+0:15:33.840 --> 0:15:37.560
+People avoid the while node because they're like, oh, it just lags.
+
+259
+0:15:37.560 --> 0:15:39.200
+You need a bounded loop.
+
+260
+0:15:39.200 --> 0:15:41.480
+While is perfectly usable.
+
+261
+0:15:41.480 --> 0:15:48.000
+Oftentimes loops are being used sort of inefficiently as well or incorrectly.
+
+262
+0:15:48.000 --> 0:15:51.880
+You need to figure out the solution that you're trying to solve and if it needs a loop.
+
+263
+0:15:51.880 --> 0:15:55.080
+There are some times where I see people solving problems in Neos and I look at it and I'm
+
+264
+0:15:55.080 --> 0:16:00.220
+like, do you realize you could do that in half the effort with this node, this component,
+
+265
+0:16:00.220 --> 0:16:05.120
+or just by changing the not what you're doing, but the outlook of the way that you're doing
+
+266
+0:16:05.120 --> 0:16:06.120
+it?
+
+267
+0:16:06.120 --> 0:16:07.280
+I wish I could condense it into words.
+
+268
+0:16:07.280 --> 0:16:08.840
+It happens all the time.
+
+269
+0:16:08.840 --> 0:16:11.440
+I know what I mean.
+
+270
+0:16:11.440 --> 0:16:14.040
+I know how to build things with that mentality.
+
+271
+0:16:14.040 --> 0:16:16.040
+I just don't know how to explain that mentality.
+
+272
+0:16:16.040 --> 0:16:20.120
+Again, if you have a specific loop-related problem, I can take a look at it and tell
+
+273
+0:16:20.120 --> 0:16:23.200
+you how I would do it.
+
+274
+0:16:23.200 --> 0:16:27.920
+Maybe one day there will be a manifesto from Prime about how to build things.
+
+275
+0:16:27.920 --> 0:16:34.960
+I have been thinking about doing more videos on just building stuff.
+
+276
+0:16:34.960 --> 0:16:38.880
+You name it, build a gun, build a door.
+
+277
+0:16:38.880 --> 0:16:43.280
+I was actually quite interested earlier this week in questions and help.
+
+278
+0:16:43.280 --> 0:16:48.760
+Someone was asking about a door with a pin code or a type pad and then it would open.
+
+279
+0:16:48.760 --> 0:16:49.760
+That would be cool.
+
+280
+0:16:49.760 --> 0:16:53.720
+Again, that would teach you how I think about building things in Neos.
+
+281
+0:16:53.720 --> 0:16:56.520
+If you have a specific problem, let me know.
+
+282
+0:16:56.520 --> 0:17:01.200
+So Tony asks, is there anything that can be done to videos on Neos cutting out about half
+
+283
+0:17:01.200 --> 0:17:05.740
+a second before the actual video is over or is that just a case when VLC gets updated?
+
+284
+0:17:05.740 --> 0:17:07.600
+Probably when VLC gets updated.
+
+285
+0:17:07.600 --> 0:17:09.960
+It might also be the video player that you're using.
+
+286
+0:17:09.960 --> 0:17:12.140
+It also might be a synchronization issue.
+
+287
+0:17:12.140 --> 0:17:17.920
+So try it in various sizes of sessions, numbers of people, types of video, et cetera.
+
+288
+0:17:17.920 --> 0:17:21.920
+But the VLC update will be amazing in its ability to stabilize videos.
+
+289
+0:17:21.920 --> 0:17:22.920
+Tony updates their question.
+
+290
+0:17:22.920 --> 0:17:25.680
+It seems to happen on any video locally or in a session.
+
+291
+0:17:25.680 --> 0:17:27.320
+Yeah, VLC update then.
+
+292
+0:17:27.320 --> 0:17:28.880
+Moving onwards to more questions that have just appeared.
+
+293
+0:17:28.880 --> 0:17:31.320
+I was blinking and didn't see any and then suddenly two appeared.
+
+294
+0:17:31.320 --> 0:17:32.320
+Maybe that was my bad.
+
+295
+0:17:32.320 --> 0:17:35.360
+I might have zoned out for a second, but anyway.
+
+296
+0:17:35.360 --> 0:17:38.560
+Scan asks, what is the best option for synced timing, the T node?
+
+297
+0:17:38.560 --> 0:17:41.520
+No, the T node is implicitly not synced.
+
+298
+0:17:41.520 --> 0:17:46.160
+If you're talking about animation and you want the animation to be 100% synced with
+
+299
+0:17:46.160 --> 0:17:50.200
+other users, you need to use the tween node or the tween component.
+
+300
+0:17:50.200 --> 0:17:52.980
+The tween node component is the same thing.
+
+301
+0:17:52.980 --> 0:17:54.980
+It's a long story.
+
+302
+0:17:54.980 --> 0:18:01.320
+It operates in a series of writes, which means it's less likely to be unsynced.
+
+303
+0:18:01.320 --> 0:18:04.180
+It just depends what you need to do.
+
+304
+0:18:04.180 --> 0:18:06.180
+Synchronization is a problem.
+
+305
+0:18:06.180 --> 0:18:12.720
+Again, it depends on the problem or the solution.
+
+306
+0:18:12.720 --> 0:18:19.420
+For example, there was a problem in my run through of abandonware, which is MMC 2021,
+
+307
+0:18:19.420 --> 0:18:23.720
+where you're in the sewers and you have to rotate like a sewer platform around and we
+
+308
+0:18:23.720 --> 0:18:24.720
+got out of sync.
+
+309
+0:18:24.720 --> 0:18:33.200
+So they saw the sewer rotation being one rotation and I saw the other one and we couldn't progress
+
+310
+0:18:33.200 --> 0:18:36.760
+without one of us dying to like falling in the sewers.
+
+311
+0:18:36.760 --> 0:18:41.100
+And on reviewing the way that they had built that sewer platform and rotated it, they'd
+
+312
+0:18:41.100 --> 0:18:42.560
+done it purely with components.
+
+313
+0:18:42.560 --> 0:18:46.300
+I had a long story conversation with Comdog about this.
+
+314
+0:18:46.300 --> 0:18:49.060
+If it is critical to your game, don't use components.
+
+315
+0:18:49.060 --> 0:18:53.680
+Use logics and use writes because it's going to be problems.
+
+316
+0:18:53.680 --> 0:18:56.440
+Impulses are like an authority check for your game.
+
+317
+0:18:56.440 --> 0:18:59.080
+They had the same issue with the clock that they had.
+
+318
+0:18:59.080 --> 0:19:02.520
+You had to reposition the clock hands to a particular time.
+
+319
+0:19:02.520 --> 0:19:06.520
+They again used components since they had synchronization issues and also floating point
+
+320
+0:19:06.520 --> 0:19:08.100
+precision issues.
+
+321
+0:19:08.100 --> 0:19:13.420
+So again, if they had used logics, they would be able to have a point in time sort of clapper
+
+322
+0:19:13.420 --> 0:19:17.560
+board, if you remember old school film clapper boards, like clap, okay, what's the state
+
+323
+0:19:17.560 --> 0:19:18.560
+of the clock?
+
+324
+0:19:18.560 --> 0:19:19.560
+Is it correct?
+
+325
+0:19:19.560 --> 0:19:21.080
+And that would have resolved that issue.
+
+326
+0:19:21.080 --> 0:19:26.360
+Use impulses wherever you can to synchronize things up, but it does depend on what you're
+
+327
+0:19:26.360 --> 0:19:27.360
+doing.
+
+328
+0:19:27.360 --> 0:19:29.800
+Certainly for things like visual effects or stuff you don't have to interact with, you
+
+329
+0:19:29.800 --> 0:19:33.080
+should be using T, and it doesn't actually matter if it's slightly out of sync.
+
+330
+0:19:33.080 --> 0:19:42.080
+A good example here might be wind, stuff floating in the air, particles, rotating clocks, rotating
+
+331
+0:19:42.080 --> 0:19:46.160
+things like that, all sorts of stuff like that.
+
+332
+0:19:46.160 --> 0:19:49.640
+For karaoke, I'd recommend you go to, I think it's a Japanese entry, there's an MMC entry
+
+333
+0:19:49.640 --> 0:19:55.560
+called perfectly synced karaoke that uses the clock error property of the video player
+
+334
+0:19:55.560 --> 0:19:57.640
+to kind of sync it up between people.
+
+335
+0:19:57.640 --> 0:20:03.400
+I know in VRChat they do that by exposing sort of like a sync track and then buttons
+
+336
+0:20:03.400 --> 0:20:07.720
+to each user and asking them to sort of push left or right to sort of try and sync it up
+
+337
+0:20:07.720 --> 0:20:08.720
+based on the delay.
+
+338
+0:20:08.720 --> 0:20:13.800
+I don't know how it works, I know it does work, though.
+
+339
+0:20:13.800 --> 0:20:14.800
+So cool.
+
+340
+0:20:14.800 --> 0:20:19.400
+I'd have to look, karaoke isn't something I've looked into.
+
+341
+0:20:19.400 --> 0:20:25.640
+Moving forwards to the next question, Fuzzy asks, why is using write nodes usually considered
+
+342
+0:20:25.640 --> 0:20:26.640
+a bad idea?
+
+343
+0:20:26.640 --> 0:20:27.640
+It isn't.
+
+344
+0:20:27.640 --> 0:20:29.880
+If anyone's telling you write nodes are bad, they need to go away.
+
+345
+0:20:29.880 --> 0:20:35.480
+Again, you need to use the appropriate mechanism for whatever you're trying to do.
+
+346
+0:20:35.480 --> 0:20:39.800
+Write nodes are fantastic if you need to synchronize a value across the network.
+
+347
+0:20:39.800 --> 0:20:42.400
+That's what write nodes are for.
+
+348
+0:20:42.400 --> 0:20:47.800
+When you are moving your hands around, you are not technically, but essentially you're
+
+349
+0:20:47.800 --> 0:20:52.280
+performing a write every millisecond updating, oh, my left hand is over here in relation
+
+350
+0:20:52.280 --> 0:20:55.940
+to my fingers and my right hand is over here and my head is positioned this way and my
+
+351
+0:20:55.940 --> 0:20:58.480
+voice is at this level.
+
+352
+0:20:58.480 --> 0:21:03.600
+Those use streams, which aren't really writes, but they are still writes in that they are
+
+353
+0:21:03.600 --> 0:21:07.480
+causing network traffic, and that's what a write does, it causes network traffic.
+
+354
+0:21:07.480 --> 0:21:11.720
+So if you need that value to be synchronized across the network, use writes.
+
+355
+0:21:11.720 --> 0:21:16.280
+One of the areas where I would consider them a bad idea is actually the opposite answer
+
+356
+0:21:16.280 --> 0:21:19.480
+to the question that Scan had about synchronization.
+
+357
+0:21:19.480 --> 0:21:22.040
+If you don't need something to synchronize, don't use writes.
+
+358
+0:21:22.040 --> 0:21:27.720
+A good example here, it comes up just because my brain's in this area right now, is imagine
+
+359
+0:21:27.720 --> 0:21:29.880
+you have a model solar system.
+
+360
+0:21:29.880 --> 0:21:33.720
+So it's sitting on someone's desk in a wizard tower and it's a model solar system.
+
+361
+0:21:33.720 --> 0:21:37.800
+So it's got, you know, the little metal things, auroraries, I really think they're called,
+
+362
+0:21:37.800 --> 0:21:45.960
+like I don't know how to spell it, that aurorary, and it's got the planets rotating around it.
+
+363
+0:21:45.960 --> 0:21:50.000
+You could write sync that, at which point all of those planets in that model would be
+
+364
+0:21:50.000 --> 0:21:55.720
+in the same position, but they don't need to be, so just use T or use the spinner component.
+
+365
+0:21:55.720 --> 0:22:00.140
+It doesn't matter that they're out of sync, it's a visual element in the wizard's tower.
+
+366
+0:22:00.140 --> 0:22:04.840
+You might want to synchronize instead the animation of the wizard attacking you or the
+
+367
+0:22:04.840 --> 0:22:08.620
+animation of a particular puzzle-related element interacting with it.
+
+368
+0:22:08.620 --> 0:22:13.400
+But if it's just background noise, background objects, T. Another example there would be
+
+369
+0:22:13.400 --> 0:22:16.360
+flickering lights at a tutorial on that one recently.
+
+370
+0:22:16.360 --> 0:22:21.820
+It doesn't matter if the lights are flickering out of order, if you need it synchronized
+
+371
+0:22:21.820 --> 0:22:26.800
+use writes, if you don't, use T. Another question from Scant who says, is there a write that
+
+372
+0:22:26.800 --> 0:22:30.920
+isn't network synced, like needing to do many dynamic operations and only one of the last
+
+373
+0:22:30.920 --> 0:22:33.200
+writes are important?
+
+374
+0:22:33.200 --> 0:22:36.800
+That's complicated because that depends on the setup again.
+
+375
+0:22:36.800 --> 0:22:41.140
+What you need to remember is that when an impulse, any time you see a white ribbon,
+
+376
+0:22:41.140 --> 0:22:44.080
+that is locally calculated and then the results are propagated.
+
+377
+0:22:44.080 --> 0:22:48.720
+As an example there, let's say you had a button and then when you pushed it, it set your position
+
+378
+0:22:48.720 --> 0:22:53.880
+to be 10 units above where you are, so it's basically like a short range teleport upwards.
+
+379
+0:22:53.880 --> 0:22:57.680
+It could do maths in the middle there, but then at the end, it will do a set position
+
+380
+0:22:57.680 --> 0:22:58.940
+or use that set position node.
+
+381
+0:22:58.940 --> 0:23:02.920
+That set position node is effectively a write, and what that's doing is it's populating new
+
+382
+0:23:02.920 --> 0:23:04.560
+data to the data model.
+
+383
+0:23:04.560 --> 0:23:09.600
+It's saying, hey, prime, scan, fuzzy, you are now 10 units above where you are, that's
+
+384
+0:23:09.600 --> 0:23:10.600
+a write.
+
+385
+0:23:10.600 --> 0:23:14.240
+So there is network synced, but the stuff in the middle, let's say it does a calculation
+
+386
+0:23:14.240 --> 0:23:21.520
+like, I don't know, the stars and their position in the world causes how far you get sent up.
+
+387
+0:23:21.520 --> 0:23:24.520
+That calculation doesn't need to be network synchronized.
+
+388
+0:23:24.520 --> 0:23:27.200
+Again, it really does depend on the setup.
+
+389
+0:23:27.200 --> 0:23:29.440
+That also goes back to the updating relays, right?
+
+390
+0:23:29.440 --> 0:23:33.280
+The updating relays aren't needed when you're in the middle of like an impulse-based operation,
+
+391
+0:23:33.280 --> 0:23:37.640
+but it's really difficult to understand when they are and aren't needed, so just like try
+
+392
+0:23:37.640 --> 0:23:40.760
+it with and then remove it and see if it breaks.
+
+393
+0:23:40.760 --> 0:23:46.800
+Moving forwards, I guess, like ask more questions if you need more support there.
+
+394
+0:23:46.800 --> 0:23:50.120
+Fuzzy says, so that's why some people complain about writes because it causes updates.
+
+395
+0:23:50.120 --> 0:23:52.200
+Yeah, they should stop complaining.
+
+396
+0:23:52.200 --> 0:23:56.120
+If they've got dynamic bones, dynamic bones cause updates, right?
+
+397
+0:23:56.120 --> 0:24:00.120
+You know, like dynamic bones, moving your hand, grabbing something causes updates, complain
+
+398
+0:24:00.120 --> 0:24:01.120
+about that more.
+
+399
+0:24:01.120 --> 0:24:04.300
+If you need to use writes, go for it.
+
+400
+0:24:04.300 --> 0:24:05.300
+Sometimes you don't know.
+
+401
+0:24:05.300 --> 0:24:07.640
+I do see people using like update a lot.
+
+402
+0:24:07.640 --> 0:24:11.640
+That's again usually occurring on animations that are sorry, I don't know how to pronounce
+
+403
+0:24:11.640 --> 0:24:13.160
+that word, or the flickering light.
+
+404
+0:24:13.160 --> 0:24:14.160
+That's the usual case.
+
+405
+0:24:14.160 --> 0:24:17.800
+They're like writing the flickering light on and off, which is like a network update
+
+406
+0:24:17.800 --> 0:24:19.740
+every single like frame.
+
+407
+0:24:19.740 --> 0:24:20.740
+Don't do that.
+
+408
+0:24:20.740 --> 0:24:23.640
+Use T. At that point, yeah, you can be mad about the writes, but again, it's really kind
+
+409
+0:24:23.640 --> 0:24:24.640
+of like subtle.
+
+410
+0:24:24.640 --> 0:24:30.040
+Moving onwards to bad halo ninja, it's best to hear from you, bad halo ninja, I used to
+
+411
+0:24:30.040 --> 0:24:31.040
+see all the time.
+
+412
+0:24:31.040 --> 0:24:33.760
+I'm sure you're working on some cool stuff.
+
+413
+0:24:33.760 --> 0:24:35.600
+This is a bit of a back end question.
+
+414
+0:24:35.600 --> 0:24:37.600
+Is last modifying user for sync values broken?
+
+415
+0:24:37.600 --> 0:24:40.720
+I've noticed that in the logs it tries to log it sometimes, but it never has a value.
+
+416
+0:24:40.720 --> 0:24:43.160
+I've also tried using it sometimes in my mods and it's always null.
+
+417
+0:24:43.160 --> 0:24:44.160
+I wouldn't know.
+
+418
+0:24:44.160 --> 0:24:46.160
+I'd have to look into the actual code for that.
+
+419
+0:24:46.160 --> 0:24:50.600
+As it's a mod, it's implicitly not supported, so I can't answer that open code base basically.
+
+420
+0:24:50.600 --> 0:24:54.960
+I know that's like a frustrating answer, but that's unfortunately all I have for you on
+
+421
+0:24:54.960 --> 0:24:55.960
+that one.
+
+422
+0:24:55.960 --> 0:24:56.960
+I believe that's all the time we have for questions.
+
+423
+0:24:56.960 --> 0:24:59.520
+Farsi, if you have a question, go for it and type it, because you were typing it whilst
+
+424
+0:24:59.520 --> 0:25:00.520
+I was closing off.
+
+425
+0:25:00.520 --> 0:25:01.520
+So if you still have a question, go for it.
+
+426
+0:25:01.520 --> 0:25:02.520
+Otherwise, we'll be closing off.
+
+427
+0:25:02.520 --> 0:25:06.480
+This will be posted on Samba shortly with the silence removed.
+
+428
+0:25:06.480 --> 0:25:09.920
+And if you have any questions or you want any follow-ups on any questions you've asked,
+
+429
+0:25:09.920 --> 0:25:14.720
+please go ahead and direct message me anytime and I'll get back to you as soon as I can.
+
+430
+0:25:14.720 --> 0:25:16.680
+Let's just wait for Farsi to stop typing.
+
+431
+0:25:16.680 --> 0:25:17.680
+No pressure, Farsi.
+
+432
+0:25:17.680 --> 0:25:22.520
+Okay, so Farsi's last question is, can mods do things for other users without them?
+
+433
+0:25:22.520 --> 0:25:27.040
+Do you mean moderators or Neos mods?
+
+434
+0:25:27.040 --> 0:25:28.040
+Modding.
+
+435
+0:25:28.040 --> 0:25:29.040
+Yes.
+
+436
+0:25:29.040 --> 0:25:33.440
+In fact, lots of the mods that we see are stuff that we want to add to Neos.
+
+437
+0:25:33.440 --> 0:25:39.020
+I understand why they're added as mods, but a lot of them are basically just like, yo,
+
+438
+0:25:39.020 --> 0:25:41.800
+it's a feature that we want to add, but we just haven't had time to.
+
+439
+0:25:41.800 --> 0:25:46.200
+And a lot of that then falls into the sort of umbrella term of shortcuts.
+
+440
+0:25:46.200 --> 0:25:50.760
+I noticed yesterday actually there was a mod which added a button to the static audio clip
+
+441
+0:25:50.760 --> 0:25:51.760
+which reverses it.
+
+442
+0:25:51.760 --> 0:25:54.420
+So you can do reversing audio very easily.
+
+443
+0:25:54.420 --> 0:25:55.960
+Great mod that adds that button.
+
+444
+0:25:55.960 --> 0:25:58.800
+I love that someone did that and found it useful.
+
+445
+0:25:58.800 --> 0:26:03.000
+I could probably add that quite quickly to Neos's actual source code if we weren't in
+
+446
+0:26:03.000 --> 0:26:04.740
+our current set of circumstances.
+
+447
+0:26:04.740 --> 0:26:08.120
+So I might add that eventually.
+
+448
+0:26:08.120 --> 0:26:09.560
+So it's a good example.
+
+449
+0:26:09.560 --> 0:26:10.560
+Keep doing it.
+
+450
+0:26:10.560 --> 0:26:11.560
+Don't feel bad about it.
+
+451
+0:26:11.560 --> 0:26:13.440
+Do you read the modding policy?
+
+452
+0:26:13.440 --> 0:26:15.900
+Do you read the security reporting policy as well?
+
+453
+0:26:15.900 --> 0:26:20.000
+But yes, most mods are shortcuts, really.
+
+454
+0:26:20.000 --> 0:26:21.000
+I believe we're done.
+
+455
+0:26:21.000 --> 0:26:23.920
+If there are any further questions, feel free to direct message me.
+
+456
+0:26:23.920 --> 0:26:25.800
+Otherwise I'm going to leave off here.
+
+457
+0:26:25.800 --> 0:26:28.800
+And I'll speak to you again soon.
+

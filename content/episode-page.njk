@@ -1,0 +1,91 @@
+---
+pagination:
+    data: episodes
+    size: 1
+    alias: episode
+permalink: "episodes/{{ episode.title | slugify }}/"
+---
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, maximum-scale=1">
+		<title>{{episode.title}}</title>
+		<style>
+			* {
+				font-family: "Comic Sans MS", "Comic Sans", cursive;
+				color:#FFF;
+			}
+			body {
+				background: radial-gradient(#1e88e5, rgb(127, 183, 252));
+  				background-repeat: no-repeat;
+				overflow: hidden;
+			}
+			#container {
+				position: absolute;
+				margin: auto;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width:30vmax;
+				height:25vmin;
+
+				display: flex;
+  				justify-content: center;
+  				align-items: center;
+				flex-direction: column;
+			}
+			#subtitles {
+				width:100%;
+				height: 200px;
+				text-align: center;
+				display: flex;
+				justify-content: center;
+  				align-items: center;
+				font-size: 1.5em;
+			}
+			#container audio {
+				width: 100%;
+			}
+			#links {
+				display: flex;
+				gap:25px;
+			}
+			a {
+				font-size: 1.25em;
+			}
+		</style>
+	
+	<body>
+		<div id="container">
+			<p id="subtitles">TEST SENTENCE WITH TEXT WRAPPING</p>
+			<audio controls id="audio" width="800" height="600" preload="none">
+				<source type="audio/ogg" src="{{episode.audio}}" />
+				<track src="{{episode.vtt}}" label="English" srclang="en" data-encoding="iso-8859-2" kind="subtitles" default>
+			</audio>
+			<div id="links">
+				<a href="{{episode.audio}}">Audio</a>
+				<a href="{{episode.srt}}">SRT</a>
+				<a href="{{episode.vtt}}">VTT</a>
+				<a href="{{episode.txt}}">TXT</a>
+			</div>
+			<a href="/">Back</a>
+		</div>
+		<script type="module">
+			const video = document.getElementById('audio');
+			const trackEl = video.getElementsByTagName('track')[0];
+			const track = trackEl.track;
+			const subtitles = document.getElementById('subtitles');
+			track.addEventListener("cuechange", () => {
+				const cues = track.activeCues; // array of current cues
+				let text = "";
+				if (cues.length > 0) {
+					for(let i = 0; i < cues.length; i++) {
+						if(cues[i].text !== null)
+							text = text + "\n" + cues[i].text;
+					}
+				}
+				subtitles.innerHTML = text;
+			});
+		</script>
+	</body>
+</html>

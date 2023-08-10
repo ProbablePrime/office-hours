@@ -1,0 +1,3024 @@
+1
+0:00:00.000 --> 0:00:03.280
+Alright everyone, it is now 5pm, so we're going to go ahead and get started.
+
+2
+0:00:03.280 --> 0:00:06.840
+Once again, sorry for the delay, I just lost track of time, realised it was 20 past, and
+
+3
+0:00:06.840 --> 0:00:10.840
+I'm like that's a bit unfair to start it this late, so we rolled it forwards to the next
+
+4
+0:00:10.840 --> 0:00:11.840
+hour.
+
+5
+0:00:11.840 --> 0:00:15.040
+Additionally, an announcement here which I'll also put after this one is that there will
+
+6
+0:00:15.040 --> 0:00:19.560
+be no office hours coming up in a random date that I don't know until I look at my calendar
+
+7
+0:00:19.560 --> 0:00:21.960
+because I'm out of the country for a little bit.
+
+8
+0:00:21.960 --> 0:00:25.940
+That is the wrong calendar, so let me just swap to the right calendar, I have too many
+
+9
+0:00:25.940 --> 0:00:26.940
+Google accounts.
+
+10
+0:00:26.940 --> 0:00:32.400
+Ok, it should be on this calendar, but it is not.
+
+11
+0:00:32.400 --> 0:00:41.320
+There will be no office hours on the 6th and the 13th of September, I'll put that in the
+
+12
+0:00:41.320 --> 0:00:46.840
+doobly-doos once we're done there, because 6th and the 13th, I'm out of the country.
+
+13
+0:00:46.840 --> 0:00:53.960
+I realised I'd accidentally scheduled that to miss 2, but the flight on my way out is
+
+14
+0:00:53.960 --> 0:00:59.900
+at 19.30 or 7.30 if you guys use non-24 hour clocks, and I could totally do the office
+
+15
+0:00:59.900 --> 0:01:04.840
+hours at 4pm on that date, but hey, let's get to the airport earlier.
+
+16
+0:01:04.840 --> 0:01:08.760
+No office hours on those two dates, the 6th and the 13th.
+
+17
+0:01:08.760 --> 0:01:12.760
+So the next office hours after this one will be on the 20th, which sounds scary because
+
+18
+0:01:12.760 --> 0:01:18.080
+it's basically like the end of September will be the next one, anyway.
+
+19
+0:01:18.080 --> 0:01:23.640
+Let's move on with the questions, and we'll get started with SLS's question, which is
+
+20
+0:01:23.640 --> 0:01:26.640
+actually I guess two questions.
+
+21
+0:01:26.640 --> 0:01:28.240
+First of all, do I check the office hours Google form?
+
+22
+0:01:28.240 --> 0:01:32.360
+I do, I do check it every week, sometimes I forget, but I'm getting to have it checking
+
+23
+0:01:32.360 --> 0:01:33.360
+every week.
+
+24
+0:01:33.360 --> 0:01:37.080
+I actually have a notepad document which is like shit to do at office hours that you keep
+
+25
+0:01:37.080 --> 0:01:41.100
+forgetting to do, and so yes, we're going to go ahead and check it.
+
+26
+0:01:41.100 --> 0:01:44.260
+As those questions were entered before office hours, we'll go for those first.
+
+27
+0:01:44.260 --> 0:01:50.880
+So the question we have here that is not answered is why was the force reticle above horizon
+
+28
+0:01:50.880 --> 0:01:54.920
+launch argument implemented by DMX asked that?
+
+29
+0:01:54.920 --> 0:01:57.040
+I don't know.
+
+30
+0:01:57.040 --> 0:02:03.920
+There are a lot of weird command line arguments that were created and added when we were using
+
+31
+0:02:03.920 --> 0:02:08.600
+much more varied hardware, so this is before some standardization of the hardware.
+
+32
+0:02:08.600 --> 0:02:14.440
+Now VR hardware isn't standardized at all, but before the realms of sort of like Vive,
+
+33
+0:02:14.440 --> 0:02:20.380
+SteamVR, OpenXR, the Index, et cetera, and Oculus, there were a bunch of additional headsets
+
+34
+0:02:20.380 --> 0:02:24.280
+that were there, they did different things, and there were a bunch of sort of features
+
+35
+0:02:24.280 --> 0:02:28.320
+that we didn't have in Neos, and that led to a bunch of stuff being added.
+
+36
+0:02:28.320 --> 0:02:32.160
+For example, there's like command line arguments which will turn another user into like a camera,
+
+37
+0:02:32.160 --> 0:02:35.580
+that was before we had the camera streaming UI, like you could turn a user into a camera
+
+38
+0:02:35.580 --> 0:02:37.600
+and it would just follow you around, it was a little weird.
+
+39
+0:02:37.600 --> 0:02:41.600
+That still does exist, I forget what the property is, but you can see that if you open up the
+
+40
+0:02:41.600 --> 0:02:45.200
+old Neos launcher and look around there, there's a bunch of stuff there that exists.
+
+41
+0:02:45.200 --> 0:02:48.760
+I have no idea why it's there, I've just remembered that there was a GitHub issue mentioned about
+
+42
+0:02:48.760 --> 0:02:52.640
+it, but I just can't remember what that's about, it's something to do with 360s, I don't
+
+43
+0:02:52.640 --> 0:02:53.640
+know.
+
+44
+0:02:53.640 --> 0:02:56.400
+Take a look, figure it out, if you let me know, if you find out, let me know.
+
+45
+0:02:56.400 --> 0:02:59.280
+Moving forwards to the next question we have now, which is actually in the Office Hours
+
+46
+0:02:59.280 --> 0:03:03.960
+text chat, from Stifle, Stifle says, besides item texture thumbnail source, are there any
+
+47
+0:03:03.960 --> 0:03:07.360
+other hidden gems in the uncategorized section of components that are not being used that
+
+48
+0:03:07.360 --> 0:03:08.360
+it should?
+
+49
+0:03:08.360 --> 0:03:12.120
+So for those unaware, item texture thumbnail source will update and change the thumbnail
+
+50
+0:03:12.120 --> 0:03:15.920
+of an item that you saved to your inventory to be a specific thumbnail.
+
+51
+0:03:15.920 --> 0:03:19.120
+This is great because if you don't do this, it will just take a photo when you hold it,
+
+52
+0:03:19.120 --> 0:03:25.360
+which can go wrong with things like tools and stuff that have lasers or big items, sometimes
+
+53
+0:03:25.360 --> 0:03:27.640
+their thumbnail just looks terrible.
+
+54
+0:03:27.640 --> 0:03:31.120
+So I've seen a lot of people that are making use of those to sort of make sort of placards
+
+55
+0:03:31.120 --> 0:03:35.440
+or banners for their items to make it look easier to find them, so do check out item
+
+56
+0:03:35.440 --> 0:03:38.420
+texture thumbnail source, I believe there's a tutorial on my channel about that.
+
+57
+0:03:38.420 --> 0:03:41.540
+As for other components in uncategorized, there are far too many in there for me to
+
+58
+0:03:41.540 --> 0:03:48.040
+remember specifically, so I won't really be able to answer that one efficiently, there
+
+59
+0:03:48.040 --> 0:03:52.280
+are lots in there that shouldn't be used, there are lots in there that should be used.
+
+60
+0:03:52.280 --> 0:03:56.000
+I think destroy proxy is still in there, no actually destroy proxy got moved, destroy
+
+61
+0:03:56.000 --> 0:04:00.320
+proxy is a cool one, destroy proxy allows you to basically say like, hey, when this
+
+62
+0:04:00.320 --> 0:04:04.840
+item is destroyed, also destroy this other item.
+
+63
+0:04:04.840 --> 0:04:10.240
+I would like people to use that more on things like weapons, if you have ammo or guns or
+
+64
+0:04:10.240 --> 0:04:15.280
+grenades or any sort of ammo that's really existing rather than being a particle effect,
+
+65
+0:04:15.280 --> 0:04:19.200
+maybe consider destroy proxy such that when the gun gets destroyed, all the mess it made
+
+66
+0:04:19.200 --> 0:04:20.800
+in the world gets destroyed.
+
+67
+0:04:20.800 --> 0:04:24.200
+There's that very popular tranquilizer gun that doesn't do that, I hate the tranquilizer
+
+68
+0:04:24.200 --> 0:04:28.680
+gun because I don't know, all the new users seem to find it and then they shoot me with
+
+69
+0:04:28.680 --> 0:04:32.800
+it and I get really annoyed, but when that tranquilizer gun is deleted, the ammo stays
+
+70
+0:04:32.800 --> 0:04:37.160
+behind and just like in the floor, it's just like a big tranq dart in the floor and that's
+
+71
+0:04:37.160 --> 0:04:39.320
+annoying so destroy proxy can save you there.
+
+72
+0:04:39.320 --> 0:04:46.440
+Destroy proxy is also good for template-based creation, if you're like, yo, if I'm duplicating
+
+73
+0:04:46.440 --> 0:04:50.200
+this thing, then I want to link it back to the original thing, a bit like the ammo scenario
+
+74
+0:04:50.200 --> 0:04:56.240
+but also comes up in UI sometimes when I'm making UI, if that's it for that question.
+
+75
+0:04:56.240 --> 0:04:59.120
+No user found says, have you been working on anything interesting lately, stuff you're
+
+76
+0:04:59.120 --> 0:05:01.140
+excited to release or speak about?
+
+77
+0:05:01.140 --> 0:05:05.600
+Nothing that I'm excited to release or speak about unfortunately right now.
+
+78
+0:05:05.600 --> 0:05:09.400
+Moving forwards, Storm says, what are you working on that made you late today?
+
+79
+0:05:09.400 --> 0:05:13.020
+I would love to say that I had an amazing excuse, but I was just playing a video game
+
+80
+0:05:13.020 --> 0:05:17.740
+and had an eye on the clock and then got distracted by the video game being slightly more difficult.
+
+81
+0:05:17.740 --> 0:05:22.040
+So I blinked and I'm like, oh, it's way past, whoops, my bad.
+
+82
+0:05:22.040 --> 0:05:26.720
+I'm going to reenter an alarm into my calendar for various things that I need to be aware
+
+83
+0:05:26.720 --> 0:05:27.720
+of.
+
+84
+0:05:27.720 --> 0:05:31.840
+I did used to have a calendar like schedule for the office hours, but it ran out.
+
+85
+0:05:31.840 --> 0:05:34.480
+I have too many Google accounts.
+
+86
+0:05:34.480 --> 0:05:39.680
+Moving forwards, Stifle says, can one write to Wiki pages about the world's publisher
+
+87
+0:05:39.680 --> 0:05:40.680
+to the creator jam?
+
+88
+0:05:40.680 --> 0:05:42.920
+Yeah, you can write whatever you want on the newest Wiki.
+
+89
+0:05:42.920 --> 0:05:44.240
+Keep it tidy.
+
+90
+0:05:44.240 --> 0:05:49.440
+I'll tidy out for you if it's really messy and you're struggling with the formatting,
+
+91
+0:05:49.440 --> 0:05:50.440
+et cetera.
+
+92
+0:05:50.440 --> 0:05:53.360
+But whatever you'd like to put on there, it's a community project.
+
+93
+0:05:53.360 --> 0:05:54.820
+You can put all sorts of stuff in there.
+
+94
+0:05:54.820 --> 0:05:58.840
+It would be great to see any of that sort of stuff.
+
+95
+0:05:58.840 --> 0:06:02.380
+As a reminder, anyone on the planet can edit the newest Wiki.
+
+96
+0:06:02.380 --> 0:06:05.380
+We have some troubles of logging into the newest Wiki, please do check the Wiki channel
+
+97
+0:06:05.380 --> 0:06:07.120
+for information about how to log into there.
+
+98
+0:06:07.120 --> 0:06:10.200
+And if you're interested in contributing to the Wiki, on the left hand side of the Wiki's
+
+99
+0:06:10.200 --> 0:06:12.320
+menu, there is the contributing to the Wiki menu.
+
+100
+0:06:12.320 --> 0:06:15.120
+Again, just to reiterate this, you don't need permission from me.
+
+101
+0:06:15.120 --> 0:06:16.480
+You don't need special privilege.
+
+102
+0:06:16.480 --> 0:06:18.020
+You don't need like a ticket.
+
+103
+0:06:18.020 --> 0:06:19.020
+You don't need a golden ticket.
+
+104
+0:06:19.020 --> 0:06:20.920
+You don't need to go to Willy Wonka's factory.
+
+105
+0:06:20.920 --> 0:06:22.720
+You can just go ahead and edit the Wiki.
+
+106
+0:06:22.720 --> 0:06:25.960
+Additionally, if you're making Wiki pages, please don't send me Google docs that have
+
+107
+0:06:25.960 --> 0:06:26.960
+Wiki pages in them.
+
+108
+0:06:26.960 --> 0:06:28.380
+Just write it straight in the Wiki.
+
+109
+0:06:28.380 --> 0:06:31.640
+If you don't want to put it in place, like in the actual place on the Wiki that you want,
+
+110
+0:06:31.640 --> 0:06:32.640
+make a temporary page.
+
+111
+0:06:32.640 --> 0:06:36.640
+Put the temporary page onto your user page, and then we can look at it there.
+
+112
+0:06:36.640 --> 0:06:40.400
+I've noticed this happens a lot with writing documentation across many roles and jobs I've
+
+113
+0:06:40.400 --> 0:06:41.400
+had.
+
+114
+0:06:41.400 --> 0:06:44.540
+Lots of people write their documentation in Microsoft Word or Google Docs, and then when
+
+115
+0:06:44.540 --> 0:06:48.440
+it comes time to make that into actual documentation, it just won't work.
+
+116
+0:06:48.440 --> 0:06:51.720
+Because they're in their own word, they're thinking about word, they're thinking about
+
+117
+0:06:51.720 --> 0:06:52.720
+a document.
+
+118
+0:06:52.720 --> 0:06:55.360
+Whereas when they're in Wiki or Markdown or whatever the hell the documents are written
+
+119
+0:06:55.360 --> 0:06:59.640
+in, they're thinking about the way that the documentation is written in that language
+
+120
+0:06:59.640 --> 0:07:02.160
+and it allows them to sort of think more precisely about it.
+
+121
+0:07:02.160 --> 0:07:06.320
+A good example here being links in Wikis are a little bit weird until you get used to them,
+
+122
+0:07:06.320 --> 0:07:08.900
+but once you're used to them, you just put them everywhere.
+
+123
+0:07:08.900 --> 0:07:11.160
+But there has to be intention there.
+
+124
+0:07:11.160 --> 0:07:12.160
+Same with headings.
+
+125
+0:07:12.160 --> 0:07:15.980
+I've lost count of the amount of people that will use Word or Google Docs headings incorrectly
+
+126
+0:07:15.980 --> 0:07:18.160
+and drive me absolutely mad.
+
+127
+0:07:18.160 --> 0:07:21.960
+So write it on the Wiki if you're planning for it to be on the Wiki, and don't send me
+
+128
+0:07:21.960 --> 0:07:22.960
+Google Docs.
+
+129
+0:07:22.960 --> 0:07:25.220
+Send me temporary pages of Wiki or whatever you like.
+
+130
+0:07:25.220 --> 0:07:30.360
+Moving forwards, check says, is there anything you can tell us that you're working on for
+
+131
+0:07:30.360 --> 0:07:31.360
+the future?
+
+132
+0:07:31.360 --> 0:07:32.360
+Yeah, lots.
+
+133
+0:07:32.360 --> 0:07:36.120
+You can take a look at the roadmap on the GitHub public roadmap.
+
+134
+0:07:36.120 --> 0:07:38.700
+Everything there is still planned to be worked on.
+
+135
+0:07:38.700 --> 0:07:43.000
+Of course, C announcements for the stuff that's going on there that I don't want to dwell
+
+136
+0:07:43.000 --> 0:07:44.680
+on too much.
+
+137
+0:07:44.680 --> 0:07:47.280
+Nothing in particular for this week to be mentioned.
+
+138
+0:07:47.280 --> 0:07:51.520
+Basement says, is there a component that does a save proxy like the destroy proxy component?
+
+139
+0:07:51.520 --> 0:07:52.520
+I don't know.
+
+140
+0:07:52.520 --> 0:07:54.560
+I also don't know if the code base is open right now.
+
+141
+0:07:54.560 --> 0:07:55.560
+There might be.
+
+142
+0:07:55.560 --> 0:07:57.840
+I think I've seen something like that.
+
+143
+0:07:57.840 --> 0:07:58.840
+So do take a look.
+
+144
+0:07:58.840 --> 0:07:59.840
+I'll take a look as well.
+
+145
+0:07:59.840 --> 0:08:00.840
+Let's open the code base.
+
+146
+0:08:00.840 --> 0:08:01.840
+Might as well just open it now.
+
+147
+0:08:01.840 --> 0:08:08.400
+It can just sort of struggle with us whilst I'm sat here answering other questions.
+
+148
+0:08:08.400 --> 0:08:13.480
+Moving forwards, Jack says, can an RTX 3060 TI run Neos?
+
+149
+0:08:13.480 --> 0:08:14.640
+Yes.
+
+150
+0:08:14.640 --> 0:08:20.720
+If it has 3 and X in it from Nvidia, you're probably better off than I am.
+
+151
+0:08:20.720 --> 0:08:22.080
+I run on a 2080 TI.
+
+152
+0:08:22.080 --> 0:08:23.960
+So excellent.
+
+153
+0:08:23.960 --> 0:08:26.960
+On the other side of that, if you're on a 1080, you'll still be able to run it.
+
+154
+0:08:26.960 --> 0:08:30.640
+But a 1080 is getting old these days now that the 3 series is coming out.
+
+155
+0:08:30.640 --> 0:08:33.040
+I heard news about the 4 series soon.
+
+156
+0:08:33.040 --> 0:08:34.040
+So cool.
+
+157
+0:08:34.040 --> 0:08:36.040
+B&B two generations behind.
+
+158
+0:08:36.040 --> 0:08:40.840
+But hey, I'm not going to drop too grand on a graphics hard anytime soon.
+
+159
+0:08:40.840 --> 0:08:43.780
+Getu says, is there a tool for making animations in Neos with game objects that don't involve
+
+160
+0:08:43.780 --> 0:08:46.720
+coding the whole Tween node of all inputs and outputs or is there a new way of making
+
+161
+0:08:46.720 --> 0:08:47.720
+animations in Neos?
+
+162
+0:08:47.720 --> 0:08:48.720
+Okay.
+
+163
+0:08:48.720 --> 0:08:50.200
+So you have multiple options there.
+
+164
+0:08:50.200 --> 0:08:52.160
+So option number one is what you say with the Tween node.
+
+165
+0:08:52.160 --> 0:08:55.920
+You can also do mathematical animations, which are often all you need for really basic stuff.
+
+166
+0:08:55.920 --> 0:08:58.320
+For example, getting planets orbiting another planet.
+
+167
+0:08:58.320 --> 0:09:00.080
+Someone's like, can I make an animation file?
+
+168
+0:09:00.080 --> 0:09:03.800
+Just use sine and cos and it'll be done.
+
+169
+0:09:03.800 --> 0:09:05.320
+Takes a few seconds.
+
+170
+0:09:05.320 --> 0:09:10.880
+As for more complex animations, the two options that you have are firstly, animJ.
+
+171
+0:09:10.880 --> 0:09:14.580
+Lex and I are working on understanding animJ a lot better.
+
+172
+0:09:14.580 --> 0:09:18.240
+We got almost to the end, but then I really don't understand how the curve preset works,
+
+173
+0:09:18.240 --> 0:09:19.240
+but whatever.
+
+174
+0:09:19.240 --> 0:09:20.240
+So animJ is an option.
+
+175
+0:09:20.240 --> 0:09:21.240
+There is an animJ Wiki page.
+
+176
+0:09:21.240 --> 0:09:22.560
+It is kind of bare bones.
+
+177
+0:09:22.560 --> 0:09:23.840
+Do take a look at it.
+
+178
+0:09:23.840 --> 0:09:25.760
+That is more sort of writing the animations there.
+
+179
+0:09:25.760 --> 0:09:29.200
+I believe there are a couple of people working on sort of animJ exporters for various tools
+
+180
+0:09:29.200 --> 0:09:32.600
+that'll let you get some sort of complicated animations.
+
+181
+0:09:32.600 --> 0:09:37.120
+Additionally, you can make Blender or FBX based animations and import them and run them.
+
+182
+0:09:37.120 --> 0:09:39.440
+That is what a lot of people do.
+
+183
+0:09:39.440 --> 0:09:45.560
+You can swap between animations provided they have the same bone rigs and number of keyframes
+
+184
+0:09:45.560 --> 0:09:48.480
+or keyframe control points or whatever.
+
+185
+0:09:48.480 --> 0:09:50.280
+And that works out quite nicely.
+
+186
+0:09:50.280 --> 0:09:54.320
+For example, I have an object I think in my public folder under tutorials, which has just
+
+187
+0:09:54.320 --> 0:09:58.960
+a sort of blocky blob man that does three animations of a button on the front to show
+
+188
+0:09:58.960 --> 0:10:00.560
+that you can swap between them.
+
+189
+0:10:00.560 --> 0:10:02.040
+There's also worlds that make use of that.
+
+190
+0:10:02.040 --> 0:10:06.520
+A particular note just off the top of my head is eco, one of the MC entries where there
+
+191
+0:10:06.520 --> 0:10:12.520
+is an AI system of little foxes that walk around mining ore and trees.
+
+192
+0:10:12.520 --> 0:10:18.280
+Those will go from walking to digging, back to walking animations very, very easily.
+
+193
+0:10:18.280 --> 0:10:23.480
+I seem to remember I edited eco in one of the creator jams, there was a creator jam
+
+194
+0:10:23.480 --> 0:10:29.480
+which used eco as a base and I made a cow milking little fox that went up and milked
+
+195
+0:10:29.480 --> 0:10:30.480
+cows.
+
+196
+0:10:30.480 --> 0:10:33.480
+I didn't have time to bring in another animation, so the milking cow animation was actually
+
+197
+0:10:33.480 --> 0:10:37.440
+chopping a tree down, so it walked up to the cow and just was whacking it with an axe and
+
+198
+0:10:37.440 --> 0:10:38.440
+milk came out.
+
+199
+0:10:38.440 --> 0:10:43.040
+A river says, how hard is it to learn logic from someone coming from C sharp?
+
+200
+0:10:43.040 --> 0:10:47.000
+Strangely, you'll have a little bit of a better time because you know C sharp and because
+
+201
+0:10:47.000 --> 0:10:51.840
+you know generic programming, but the key thing I want to tell you is stop with comparisons.
+
+202
+0:10:51.840 --> 0:10:54.440
+It's one of the things that annoys me the most when people learn logics is they say
+
+203
+0:10:54.440 --> 0:10:57.000
+like, what language is it like?
+
+204
+0:10:57.000 --> 0:10:58.240
+It's not really like any language.
+
+205
+0:10:58.240 --> 0:11:02.880
+Is there any other language you know of that you can build in VR and it was made by yellow
+
+206
+0:11:02.880 --> 0:11:05.720
+dog man over in the Czech Republic?
+
+207
+0:11:05.720 --> 0:11:07.600
+No, there's no other language like that, right?
+
+208
+0:11:07.600 --> 0:11:12.800
+So you got to think that through and try not to make comparisons.
+
+209
+0:11:12.800 --> 0:11:15.320
+Of course comparisons are easy when you're trying to learn stuff, but sometimes they
+
+210
+0:11:15.320 --> 0:11:16.320
+get in the way.
+
+211
+0:11:16.320 --> 0:11:20.320
+There are people that just like cannot learn logics because they can't overcome that sort
+
+212
+0:11:20.320 --> 0:11:22.560
+of comparison style view.
+
+213
+0:11:22.560 --> 0:11:25.580
+You know, they'll start writing logics and they'll be like, well, if I was going to do
+
+214
+0:11:25.580 --> 0:11:27.240
+this in C sharp, I'll do it this way.
+
+215
+0:11:27.240 --> 0:11:30.440
+And it's like, well, that does help, but at a certain point you kind of have to just leave
+
+216
+0:11:30.440 --> 0:11:33.360
+it by the roadside and carry on into logics land.
+
+217
+0:11:33.360 --> 0:11:36.760
+So do keep that in mind when you're learning stuff.
+
+218
+0:11:36.760 --> 0:11:40.240
+Talking about that, there is this, I want to do a video on this at some point.
+
+219
+0:11:40.240 --> 0:11:43.280
+Let me see if I can get it.
+
+220
+0:11:43.280 --> 0:11:51.320
+Is this, like, abbreviation, there it is.
+
+221
+0:11:51.320 --> 0:11:54.920
+It's actually on my bookmark toolbar.
+
+222
+0:11:54.920 --> 0:11:55.920
+Here it is.
+
+223
+0:11:55.920 --> 0:11:57.520
+It says learn anything faster.
+
+224
+0:11:57.520 --> 0:12:01.160
+It's by this sort of life coach that does have paid products, but you can go by.
+
+225
+0:12:01.160 --> 0:12:03.040
+I'm not endorsing his products.
+
+226
+0:12:03.040 --> 0:12:05.640
+I'm just saying read the free article.
+
+227
+0:12:05.640 --> 0:12:11.620
+But the first part of his faster abbreviation, like an acronym, I guess, is forget.
+
+228
+0:12:11.620 --> 0:12:14.760
+And it's like the knowledge that we already have keeps us limited.
+
+229
+0:12:14.760 --> 0:12:18.480
+So in order to learn faster, we need to forget what we think we already know.
+
+230
+0:12:18.480 --> 0:12:21.600
+And that was like, yep, that makes perfect sense for logics.
+
+231
+0:12:21.600 --> 0:12:22.600
+Forget what you already know.
+
+232
+0:12:22.600 --> 0:12:26.120
+In some cases, it's situational that you need to forget it.
+
+233
+0:12:26.120 --> 0:12:30.320
+You'll have a lot of better time writing C sharp because you know basic logic, basic
+
+234
+0:12:30.320 --> 0:12:33.020
+programming terms, basic booting operators, stuff like that.
+
+235
+0:12:33.020 --> 0:12:39.480
+You know what the term variable means, but don't think about classes or files or functions
+
+236
+0:12:39.480 --> 0:12:44.520
+or collections because those don't exist in logics.
+
+237
+0:12:44.520 --> 0:12:46.560
+Bad Halo Ninja points out external slot saver.
+
+238
+0:12:46.560 --> 0:12:49.320
+I think external slot saver is the one I was referring to.
+
+239
+0:12:49.320 --> 0:12:51.020
+It's under utility.
+
+240
+0:12:51.020 --> 0:12:52.280
+It sounds like it does what it is.
+
+241
+0:12:52.280 --> 0:12:55.760
+I remember when it was added, I just haven't used it or had a need to yet.
+
+242
+0:12:55.760 --> 0:12:59.300
+Jack says can Neos be used for schools in the future like coding school, 3D art school?
+
+243
+0:12:59.300 --> 0:13:01.360
+It already is being used in schools in a lot of cases.
+
+244
+0:13:01.360 --> 0:13:06.040
+There's a lot of stuff that has been used in education.
+
+245
+0:13:06.040 --> 0:13:12.600
+I'm actually in a newspaper and on a sort of short 30 second piece of news is some educational
+
+246
+0:13:12.600 --> 0:13:14.600
+work I did in Neos.
+
+247
+0:13:14.600 --> 0:13:17.000
+So yes, it's being used in schools.
+
+248
+0:13:17.000 --> 0:13:20.680
+Moving forwards, electronic says the wiki states should look into some of the permissions
+
+249
+0:13:20.680 --> 0:13:21.680
+of cloud variables.
+
+250
+0:13:21.680 --> 0:13:22.680
+Any information to share on those?
+
+251
+0:13:22.680 --> 0:13:25.800
+Yes, I paused that work whilst we're in the sort of development hiatus because even if
+
+252
+0:13:25.800 --> 0:13:28.360
+I figured it out, I wouldn't be able to change anything.
+
+253
+0:13:28.360 --> 0:13:32.720
+The permissions around the contacts one are just a little confusing.
+
+254
+0:13:32.720 --> 0:13:37.000
+I had a bunch of debug lines in the code base that I was running on a build and then I lost
+
+255
+0:13:37.000 --> 0:13:38.680
+them for some reason.
+
+256
+0:13:38.680 --> 0:13:41.340
+So I need to figure them out.
+
+257
+0:13:41.340 --> 0:13:45.160
+The description there from the wiki that's crossed out might be correct.
+
+258
+0:13:45.160 --> 0:13:47.900
+It's just I was having a conversation with someone and we thought that they were not
+
+259
+0:13:47.900 --> 0:13:52.600
+correct and so I updated it to say like, hey, we're looking into them.
+
+260
+0:13:52.600 --> 0:13:57.040
+I know that's been a long time, but it is what it is right now.
+
+261
+0:13:57.040 --> 0:14:01.760
+Lots of stuff going on that just isn't fun.
+
+262
+0:14:01.760 --> 0:14:03.480
+Storm says it was beating the cow in the bucket.
+
+263
+0:14:03.480 --> 0:14:04.480
+That's correct.
+
+264
+0:14:04.480 --> 0:14:07.920
+I managed to swap out the axe for a bucket, but it was still the axe chopping animation.
+
+265
+0:14:07.920 --> 0:14:13.520
+So the little fox guy would be like whacking this cow with a bucket in the style of using
+
+266
+0:14:13.520 --> 0:14:16.160
+an axe and then it would walk away with milk in the bucket.
+
+267
+0:14:16.160 --> 0:14:17.520
+Jack says in the educational system.
+
+268
+0:14:17.520 --> 0:14:19.000
+I don't know what you mean by that.
+
+269
+0:14:19.000 --> 0:14:21.720
+If you mean like the educational system of a country, yes.
+
+270
+0:14:21.720 --> 0:14:26.440
+We did some education in Queensland, in Australia.
+
+271
+0:14:26.440 --> 0:14:31.460
+There's lots of stuff going on in Europe, especially near the classroom, but it's used
+
+272
+0:14:31.460 --> 0:14:32.460
+a lot.
+
+273
+0:14:32.460 --> 0:14:34.440
+We've even got some community members.
+
+274
+0:14:34.440 --> 0:14:40.780
+Tom Fox, I believe, is doing tutoring in mathematics for some of his students that he tutors using
+
+275
+0:14:40.780 --> 0:14:41.780
+Neos.
+
+276
+0:14:41.780 --> 0:14:48.380
+That's why he was looking for a whiteboard style set up where you could actually erase
+
+277
+0:14:48.380 --> 0:14:49.960
+it a little bit easier.
+
+278
+0:14:49.960 --> 0:14:53.920
+Right now with our pens, you can erase whole brush strokes, but you can't erase like say
+
+279
+0:14:53.920 --> 0:14:57.860
+if you draw a line, you wouldn't be able to put a whiteboard eraser in the middle and
+
+280
+0:14:57.860 --> 0:14:58.860
+split that line in two.
+
+281
+0:14:58.860 --> 0:15:00.400
+You'd have to destroy the entire line.
+
+282
+0:15:00.400 --> 0:15:02.040
+That's what they were looking for.
+
+283
+0:15:02.040 --> 0:15:07.320
+Jack says would Neos be on PlayStation VR 2 or the new meta headset?
+
+284
+0:15:07.320 --> 0:15:10.600
+We don't know and can't make commitments to headsets that don't have any details or are
+
+285
+0:15:10.600 --> 0:15:12.480
+not released or are not on our hands.
+
+286
+0:15:12.480 --> 0:15:18.040
+The way it works with devices is if we get the device into the hands of a team member,
+
+287
+0:15:18.040 --> 0:15:21.960
+usually fruits, although there's a couple of devices that I will personally be trying
+
+288
+0:15:21.960 --> 0:15:25.920
+to implement simply because they will arrive at my apartment and if I don't implement them,
+
+289
+0:15:25.920 --> 0:15:28.800
+then they'll sit on a shelf gaining dust.
+
+290
+0:15:28.800 --> 0:15:33.200
+But if there is a developer kit, developer program or something like that, please forward
+
+291
+0:15:33.200 --> 0:15:35.060
+it to us or open a GitHub issue about it.
+
+292
+0:15:35.060 --> 0:15:37.300
+Please don't email the companies about us.
+
+293
+0:15:37.300 --> 0:15:38.300
+That's kind of rude.
+
+294
+0:15:38.300 --> 0:15:43.280
+Just imagine like, okay, let's just say for example, a new company and we'll call it cheese
+
+295
+0:15:43.280 --> 0:15:45.480
+comes out and they come out with the cheese VR one.
+
+296
+0:15:45.480 --> 0:15:46.960
+It's the best headset ever.
+
+297
+0:15:46.960 --> 0:15:54.300
+You want Neos to use it and 50,000 people email cheese like please help Neos integrate.
+
+298
+0:15:54.300 --> 0:15:59.240
+And meanwhile, business executives or people from cheese are already speaking to us.
+
+299
+0:15:59.240 --> 0:16:00.480
+It's just like noise, right?
+
+300
+0:16:00.480 --> 0:16:03.960
+So open up an issue and tell us to go speak to them, then we'll go speak to them and figure
+
+301
+0:16:03.960 --> 0:16:04.960
+it out.
+
+302
+0:16:04.960 --> 0:16:08.600
+If you have information to share, like where their developer kit is or whatever, put it
+
+303
+0:16:08.600 --> 0:16:12.860
+in a GitHub issue and then we'll be able to go from there rather than like spamming them
+
+304
+0:16:12.860 --> 0:16:13.860
+with like messages.
+
+305
+0:16:13.860 --> 0:16:16.720
+We had that with one headset, I can't remember which in particular.
+
+306
+0:16:16.720 --> 0:16:19.560
+No user found says, hey, do you remember that system you revealed you're working on the
+
+307
+0:16:19.560 --> 0:16:23.120
+previous product time, the bones system, I think any progress on the updates of that?
+
+308
+0:16:23.120 --> 0:16:25.440
+Yeah, that's going well.
+
+309
+0:16:25.440 --> 0:16:29.760
+Actually we're planning on sort of swapping out some of the meshes there, because we can't
+
+310
+0:16:29.760 --> 0:16:33.240
+give people access to the meshes, like pictures and stuff like that are okay, but access to
+
+311
+0:16:33.240 --> 0:16:36.520
+the meshes is bad because they're actual like patient files.
+
+312
+0:16:36.520 --> 0:16:40.480
+But if we swap them out to sort of like basically a skull and a leg bone that we've downloaded
+
+313
+0:16:40.480 --> 0:16:42.560
+from sketch fab, we can totally do that.
+
+314
+0:16:42.560 --> 0:16:46.440
+And I plan to do that so I can do a video overview of how that world works.
+
+315
+0:16:46.440 --> 0:16:52.200
+Because that would be super exciting to see how that works and talk about it later on,
+
+316
+0:16:52.200 --> 0:16:56.400
+depending on how the project goes, we might publish that world as a sort of example.
+
+317
+0:16:56.400 --> 0:17:00.320
+Right now it's still under heavy development, but that's actually not Neos team related.
+
+318
+0:17:00.320 --> 0:17:03.040
+That's like what I do in my actual existence.
+
+319
+0:17:03.040 --> 0:17:05.600
+No user found says Neos can run on Android smartphone.
+
+320
+0:17:05.600 --> 0:17:10.600
+It technically can, yes, speak to Zlinka for that, they are managing to do that.
+
+321
+0:17:10.600 --> 0:17:14.220
+It can also run on a Steam deck.
+
+322
+0:17:14.220 --> 0:17:18.240
+Interesting that we don't really expect these platforms to be supported, but they are.
+
+323
+0:17:18.240 --> 0:17:19.240
+Enjoy.
+
+324
+0:17:19.240 --> 0:17:20.880
+If your phone blows up, don't blame me.
+
+325
+0:17:20.880 --> 0:17:22.560
+Yeah, I don't know anything about the Steam deck.
+
+326
+0:17:22.560 --> 0:17:26.000
+The Steam deck came out at a time where I couldn't spend as much money as I usually
+
+327
+0:17:26.000 --> 0:17:27.920
+was spending, so I just had to sort of pass on that.
+
+328
+0:17:27.920 --> 0:17:29.320
+I'll buy one when I have money.
+
+329
+0:17:29.320 --> 0:17:30.640
+Lux, this is a very long question.
+
+330
+0:17:30.640 --> 0:17:32.240
+Let me get started in reading this.
+
+331
+0:17:32.240 --> 0:17:35.560
+I've been messing with asset deduplication, trying to understand it better and was wondering
+
+332
+0:17:35.560 --> 0:17:38.280
+how the material set component works with respect to this.
+
+333
+0:17:38.280 --> 0:17:42.080
+Specifically whenever I add the material set component and place materials that are not
+
+334
+0:17:42.080 --> 0:17:45.680
+stored in the object itself, duplicating this object seemingly does not use the same assets.
+
+335
+0:17:45.680 --> 0:17:49.800
+Is there a way to get it to use the same asset system properly or am I going about the wrong
+
+336
+0:17:49.800 --> 0:17:50.800
+way?
+
+337
+0:17:50.800 --> 0:17:53.760
+I don't know how that does that.
+
+338
+0:17:53.760 --> 0:17:57.120
+I'd have to look into that one, unfortunately.
+
+339
+0:17:57.120 --> 0:18:02.600
+The material set component might not be registering materials in the same way that a mesh renderer
+
+340
+0:18:02.600 --> 0:18:03.600
+does.
+
+341
+0:18:03.600 --> 0:18:04.940
+There's two ways to refer to a material, right?
+
+342
+0:18:04.940 --> 0:18:09.680
+If you do create empty objects, add a material to it, Neos knows that that material isn't
+
+343
+0:18:09.680 --> 0:18:13.440
+being used anywhere, but if that material is then used somewhere, such as in a render
+
+344
+0:18:13.440 --> 0:18:16.680
+or whatever, it knows it's being used and then the asset system sort of kicks in and
+
+345
+0:18:16.680 --> 0:18:21.120
+tries to sort of preserve that asset to not be deleted so that the mesh that's using it
+
+346
+0:18:21.120 --> 0:18:24.760
+doesn't go to checkerboard.
+
+347
+0:18:24.760 --> 0:18:28.720
+That's also why there's things like asset loader and stuff like that, that'll keep the
+
+348
+0:18:28.720 --> 0:18:29.840
+asset loaded.
+
+349
+0:18:29.840 --> 0:18:32.800
+I don't know if material set's doing that properly.
+
+350
+0:18:32.800 --> 0:18:33.800
+I'll have to take a look.
+
+351
+0:18:33.800 --> 0:18:36.320
+I've got like two things to take a look at now, I don't know.
+
+352
+0:18:36.320 --> 0:18:38.880
+What was I opening the code for before?
+
+353
+0:18:38.880 --> 0:18:42.760
+I was opening it for Basement Nerd, we found that with external slot saver, and now I'm
+
+354
+0:18:42.760 --> 0:18:45.200
+looking at the code for material set.
+
+355
+0:18:45.200 --> 0:18:50.000
+Looking forwards, Jack says the PSVR 2 already has a dead kit.
+
+356
+0:18:50.000 --> 0:18:51.200
+It got leaked.
+
+357
+0:18:51.200 --> 0:18:53.640
+See the keyword there being leaked?
+
+358
+0:18:53.640 --> 0:18:56.120
+That means not allowed to use.
+
+359
+0:18:56.120 --> 0:18:58.040
+That's what the word leak means.
+
+360
+0:18:58.040 --> 0:19:02.960
+Sure, we're aware of it, sure we're aware that Facebook, Meta are going to announce
+
+361
+0:19:02.960 --> 0:19:08.400
+a headset soon, I've heard it's in October, but until there is like a button that says
+
+362
+0:19:08.400 --> 0:19:14.160
+you are an application, click here to officially be allowed to use this dev kit, we can't use
+
+363
+0:19:14.160 --> 0:19:15.160
+it.
+
+364
+0:19:15.160 --> 0:19:18.400
+It depends on the individual sort of dev kit, dev relations style thing.
+
+365
+0:19:18.400 --> 0:19:23.280
+There have been a couple of headsets that we've had to sign paperwork for in the past,
+
+366
+0:19:23.280 --> 0:19:27.880
+so like, you know, it being leaked is another thing from it, like being available.
+
+367
+0:19:27.880 --> 0:19:32.160
+Moving down to more questions, Aaron says, I think this was asked before but I don't
+
+368
+0:19:32.160 --> 0:19:36.080
+remember the answer so I apologize, do you have plans for now for any marketing for the
+
+369
+0:19:36.080 --> 0:19:37.800
+game once you start, guys?
+
+370
+0:19:37.800 --> 0:19:38.800
+Start doing updates again.
+
+371
+0:19:38.800 --> 0:19:42.760
+We don't have any plans right now, of course, because of the, you know, we're not doing
+
+372
+0:19:42.760 --> 0:19:46.960
+updates right now, but I'm sure we will once we get started again.
+
+373
+0:19:46.960 --> 0:19:52.640
+Again, it will probably be sort of more targeted and dependent on the sort of like updates
+
+374
+0:19:52.640 --> 0:19:53.880
+that we do.
+
+375
+0:19:53.880 --> 0:19:58.560
+We are grateful for the rushes that we've had, you know, the news is coming in due to
+
+376
+0:19:58.560 --> 0:20:04.560
+the VR chat stuff, due to the metaverse boom, due to thrill seekers video, we're grateful
+
+377
+0:20:04.560 --> 0:20:09.380
+to all of those people, if any of you are in the office today, thank you for coming
+
+378
+0:20:09.380 --> 0:20:11.120
+and trying us.
+
+379
+0:20:11.120 --> 0:20:14.640
+But controlled growth is a little better than uncontrolled growth, so we want to be very
+
+380
+0:20:14.640 --> 0:20:17.240
+careful about when we do that, how we do it, and what we do.
+
+381
+0:20:17.240 --> 0:20:24.360
+I know people want us to be like, yo, Twitter, here's $5,000, put us on all of the timelines,
+
+382
+0:20:24.360 --> 0:20:30.200
+shove us here, I want us to, you know, here, TikTok, take $5,000, shove our TikToks down
+
+383
+0:20:30.200 --> 0:20:31.200
+people's throats.
+
+384
+0:20:31.200 --> 0:20:35.280
+It's just like life doesn't work like that, life doesn't work like that.
+
+385
+0:20:35.280 --> 0:20:40.840
+Jack the Duck is still talking about the leaked and deleted and pictures and scary details.
+
+386
+0:20:40.840 --> 0:20:47.280
+If there is not a website by the company that says you can use this, we cannot use it.
+
+387
+0:20:47.280 --> 0:20:49.900
+I guess you can kind of view it like a museum, right?
+
+388
+0:20:49.900 --> 0:20:52.360
+We are aware that the Mona Lisa exists.
+
+389
+0:20:52.360 --> 0:20:56.320
+I can go visit the Mona Lisa, I forget where it is, I think it's still in the Louvre, I
+
+390
+0:20:56.320 --> 0:20:57.320
+don't remember.
+
+391
+0:20:57.320 --> 0:20:59.400
+Anyway, bad paintings, I don't know where it is, but anyway.
+
+392
+0:20:59.400 --> 0:21:04.000
+I know that the Mona Lisa exists, I can look at it, I can look at photos of it, I can look
+
+393
+0:21:04.000 --> 0:21:06.320
+at information about it, but I can't touch it.
+
+394
+0:21:06.320 --> 0:21:08.320
+I can't lick it.
+
+395
+0:21:08.320 --> 0:21:10.200
+Like it's not gonna happen.
+
+396
+0:21:10.200 --> 0:21:11.200
+Same with that dev kit, right?
+
+397
+0:21:11.200 --> 0:21:15.160
+I know that these headsets exist, I know that they're cool, I know that they're gonna be
+
+398
+0:21:15.160 --> 0:21:19.240
+announced, I've seen leaked photos, I can't do anything with that information, I can't
+
+399
+0:21:19.240 --> 0:21:20.240
+touch it.
+
+400
+0:21:20.240 --> 0:21:23.640
+And yeah, that's probably gonna go in the quote channel, I can't lick the Mona Lisa.
+
+401
+0:21:23.640 --> 0:21:27.520
+No, I said it was a bad example because I don't know where it is, like if I'm talking
+
+402
+0:21:27.520 --> 0:21:30.680
+about a painting, I would rather I knew where it was.
+
+403
+0:21:30.680 --> 0:21:34.680
+I did see a post recently actually, there's one of the image writing AIs and I don't want
+
+404
+0:21:34.680 --> 0:21:39.320
+to talk about these for like forever because it's just a long conversation, but one of
+
+405
+0:21:39.320 --> 0:21:44.200
+the image AIs can sort of take a given image and expand it to be a larger image.
+
+406
+0:21:44.200 --> 0:21:48.440
+And so what it does is like it will draw around the edges of the painting what it thinks should
+
+407
+0:21:48.440 --> 0:21:50.920
+be there if it was like a zoomed out picture.
+
+408
+0:21:50.920 --> 0:21:56.160
+And someone fed it the Mona Lisa and it drew like her as a sort of like, I don't know,
+
+409
+0:21:56.160 --> 0:22:00.120
+TikTok influencer because like that's what it was trained on or whatever.
+
+410
+0:22:00.120 --> 0:22:04.120
+So it was like Mona Lisa in the middle and then as it like expanded outwards, it was
+
+411
+0:22:04.120 --> 0:22:10.320
+quite clearly like a sort of, you know, 2020 style lady sat there with like whatever was
+
+412
+0:22:10.320 --> 0:22:12.080
+added and it was kind of interesting to see.
+
+413
+0:22:12.080 --> 0:22:15.320
+Let me see if I can go ahead and get that for you.
+
+414
+0:22:15.320 --> 0:22:21.240
+Looks like there's some additional posts that do have good copies of it.
+
+415
+0:22:21.240 --> 0:22:25.800
+They've sort of expanded it very well, but I did see one that expanded it to be like
+
+416
+0:22:25.800 --> 0:22:27.720
+completely confusing.
+
+417
+0:22:27.720 --> 0:22:33.560
+This one here took into mind the like actual style, but another one when it expanded it
+
+418
+0:22:33.560 --> 0:22:36.440
+was like in a room at a table, it didn't make any sense.
+
+419
+0:22:36.440 --> 0:22:41.520
+Whereas that one is, you could see that of maybe being where she was painted.
+
+420
+0:22:41.520 --> 0:22:44.680
+Let's scroll down and take a look.
+
+421
+0:22:44.680 --> 0:22:48.560
+Jack says, can you leak anything we aren't supposed to use yet?
+
+422
+0:22:48.560 --> 0:22:50.120
+Yes.
+
+423
+0:22:50.120 --> 0:22:54.040
+In the current build of Neos that you're on, there is a variable type called colorX.
+
+424
+0:22:54.040 --> 0:22:55.040
+Don't use it.
+
+425
+0:22:55.040 --> 0:22:58.800
+That's part of color management, isn't ready for you guys to use yet, will be once we get
+
+426
+0:22:58.800 --> 0:23:01.500
+color management, but you can see it and you can have a look at it.
+
+427
+0:23:01.500 --> 0:23:06.740
+You can also look at how god-awful it is in the inspector to look at, but there you go.
+
+428
+0:23:06.740 --> 0:23:10.480
+It's just there because like color management is such a big change that like part of it
+
+429
+0:23:10.480 --> 0:23:12.040
+got merged in a previous build.
+
+430
+0:23:12.040 --> 0:23:13.040
+So you can see it.
+
+431
+0:23:13.040 --> 0:23:14.040
+But yeah.
+
+432
+0:23:14.040 --> 0:23:16.080
+No User Found has an interesting question.
+
+433
+0:23:16.080 --> 0:23:20.640
+So No User Found says, what are your thoughts about how a multi-million billion dollar company
+
+434
+0:23:20.640 --> 0:23:24.900
+like Meta can't make a good VR social metaverse, but two people and a bunch of developers can
+
+435
+0:23:24.900 --> 0:23:26.600
+make a good VR metaverse?
+
+436
+0:23:26.600 --> 0:23:28.040
+It's a problem of focus.
+
+437
+0:23:28.040 --> 0:23:33.320
+So a bit like that picture of the Mona Lisa zooming out that we just did here, right?
+
+438
+0:23:33.320 --> 0:23:36.360
+Could DaVinci have painted that entire landscape?
+
+439
+0:23:36.360 --> 0:23:37.360
+Yes.
+
+440
+0:23:37.360 --> 0:23:40.120
+But he didn't want to because he was doing a picture of Mona Lisa.
+
+441
+0:23:40.120 --> 0:23:44.040
+I don't know if it's the name of the painting or the name of the subject of the painting.
+
+442
+0:23:44.040 --> 0:23:45.040
+So whatever.
+
+443
+0:23:45.040 --> 0:23:47.780
+I'll just call her Mona from now on, maybe Lisa.
+
+444
+0:23:47.780 --> 0:23:49.760
+He was like, I want to do a painting of Lisa.
+
+445
+0:23:49.760 --> 0:23:51.200
+So he painted Lisa.
+
+446
+0:23:51.200 --> 0:23:53.320
+He didn't paint the trees around her.
+
+447
+0:23:53.320 --> 0:23:56.040
+And the same thing that goes for the metaverse.
+
+448
+0:23:56.040 --> 0:24:00.280
+I've worked at large companies and I know that focus sometimes becomes a problem, but
+
+449
+0:24:00.280 --> 0:24:03.440
+it becomes a problem because you're paying too many people.
+
+450
+0:24:03.440 --> 0:24:05.720
+Let's say you have a thousand people.
+
+451
+0:24:05.720 --> 0:24:09.320
+One of them has to focus on something that doesn't make sense to be focused on.
+
+452
+0:24:09.320 --> 0:24:11.440
+Like, okay, let's do another basic example.
+
+453
+0:24:11.440 --> 0:24:12.440
+Okay.
+
+454
+0:24:12.440 --> 0:24:17.360
+You're building a house and someone's focusing on electric, someone's focusing on plumbing,
+
+455
+0:24:17.360 --> 0:24:21.160
+someone's focusing on the roof, someone's working on structure and integrity.
+
+456
+0:24:21.160 --> 0:24:24.800
+Someone's focusing on what color the cushions on the couch are going to be.
+
+457
+0:24:24.800 --> 0:24:25.800
+Guarantee it, right?
+
+458
+0:24:25.800 --> 0:24:29.360
+And they need to, because it's like a big company and they need to focus on that.
+
+459
+0:24:29.360 --> 0:24:31.120
+But then like times that buy a hundred, right?
+
+460
+0:24:31.120 --> 0:24:34.480
+And then you've got all these meetings, all this information, all these people, all these
+
+461
+0:24:34.480 --> 0:24:36.440
+budgeting, all these teams.
+
+462
+0:24:36.440 --> 0:24:38.160
+And it's just like, cool.
+
+463
+0:24:38.160 --> 0:24:41.600
+We've just spent six months talking about the color of a cushion, but the electrics
+
+464
+0:24:41.600 --> 0:24:42.600
+don't work.
+
+465
+0:24:42.600 --> 0:24:46.380
+When I turn on the living room light, the garbage disposal turns on like that.
+
+466
+0:24:46.380 --> 0:24:47.680
+That's what happens.
+
+467
+0:24:47.680 --> 0:24:54.080
+And like driving that and making that work at a large company is like a huge like leadership
+
+468
+0:24:54.080 --> 0:24:55.080
+thing.
+
+469
+0:24:55.080 --> 0:24:56.080
+And the leadership are in place.
+
+470
+0:24:56.080 --> 0:24:58.000
+Now that isn't to say that Metta's leadership is bad.
+
+471
+0:24:58.000 --> 0:24:59.520
+I don't actually know anything about it.
+
+472
+0:24:59.520 --> 0:25:02.840
+Like I'm laughing at the memes, you know, the, the, the Zuck picture in front of the
+
+473
+0:25:02.840 --> 0:25:06.280
+Eiffel Tower, but that's like, that's just me laughing at the picture.
+
+474
+0:25:06.280 --> 0:25:11.360
+I haven't done enough research or investigation into what might be going on there from a leadership
+
+475
+0:25:11.360 --> 0:25:13.600
+point of view to cause that lack of focus.
+
+476
+0:25:13.600 --> 0:25:15.320
+But focus is the problem there.
+
+477
+0:25:15.320 --> 0:25:19.640
+When we have the smaller team that we do have, it means that we have focus through another
+
+478
+0:25:19.640 --> 0:25:24.000
+realm, which is we don't have a thousand people building a house.
+
+479
+0:25:24.000 --> 0:25:26.400
+We don't have someone thinking about the couch.
+
+480
+0:25:26.400 --> 0:25:29.880
+In this case, the couch might be that our UI looks absolutely garbage.
+
+481
+0:25:29.880 --> 0:25:31.480
+Like it does, right?
+
+482
+0:25:31.480 --> 0:25:33.400
+We're going to work on it when we can.
+
+483
+0:25:33.400 --> 0:25:36.880
+But when we do that, we're going to focus on that for a bit.
+
+484
+0:25:36.880 --> 0:25:40.240
+And it means that maybe the electrics aren't being focused on like the electrics are still
+
+485
+0:25:40.240 --> 0:25:44.100
+going to work, but maybe you don't have the air conditioning unit is maybe not running
+
+486
+0:25:44.100 --> 0:25:45.640
+as effectively as it should.
+
+487
+0:25:45.640 --> 0:25:48.160
+So we have focus simply by a sort of function of existing.
+
+488
+0:25:48.160 --> 0:25:50.280
+I hope the answer worked.
+
+489
+0:25:50.280 --> 0:25:52.800
+Like there's so much nuance to that, that I could probably talk for hours.
+
+490
+0:25:52.800 --> 0:25:54.800
+So I'll leave it there.
+
+491
+0:25:54.800 --> 0:25:55.800
+Jumping around.
+
+492
+0:25:55.800 --> 0:25:58.200
+Dorky does say build the house before the couch is what we're going to be doing for
+
+493
+0:25:58.200 --> 0:25:59.200
+UI updates.
+
+494
+0:25:59.200 --> 0:26:02.140
+Your update like gets like conflated a lot.
+
+495
+0:26:02.140 --> 0:26:06.360
+Like a lot of people think it's just one item, like it's a big ball of string and the UI
+
+496
+0:26:06.360 --> 0:26:09.240
+update will just launch one day and everything will change.
+
+497
+0:26:09.240 --> 0:26:10.240
+No.
+
+498
+0:26:10.240 --> 0:26:15.280
+We will work on two things in parallel, which is the UI systems, which are like a slider,
+
+499
+0:26:15.280 --> 0:26:21.420
+a checkbox, a text input field, a square that those things can go inside.
+
+500
+0:26:21.420 --> 0:26:26.420
+And then the other thing will be a part of the UI and we'll work on them together.
+
+501
+0:26:26.420 --> 0:26:29.840
+So it will be like, Oh, we're working on the settings UI now for the settings UI, we need
+
+502
+0:26:29.840 --> 0:26:32.320
+to update how sliders work, not sliders.
+
+503
+0:26:32.320 --> 0:26:34.840
+The component that allows you to move stuff in the world.
+
+504
+0:26:34.840 --> 0:26:36.280
+Sliders is in the volume slider, right?
+
+505
+0:26:36.280 --> 0:26:37.600
+Well, we need to update the volume slide.
+
+506
+0:26:37.600 --> 0:26:38.600
+Okay.
+
+507
+0:26:38.600 --> 0:26:39.600
+So we'll update the volume slider.
+
+508
+0:26:39.600 --> 0:26:40.600
+Cool.
+
+509
+0:26:40.600 --> 0:26:42.820
+Now the settings UI can use that new volume slider.
+
+510
+0:26:42.820 --> 0:26:46.060
+And it means the next time that we need a slider, we don't need to work on the volume
+
+511
+0:26:46.060 --> 0:26:47.060
+slider.
+
+512
+0:26:47.060 --> 0:26:48.060
+Right.
+
+513
+0:26:48.060 --> 0:26:49.060
+And then we just keep working on that.
+
+514
+0:26:49.060 --> 0:26:50.060
+We're like, okay, we're done with settings.
+
+515
+0:26:50.060 --> 0:26:51.060
+Let's move on to inventory.
+
+516
+0:26:51.060 --> 0:26:54.880
+Oh, we need some form of grid that can show thumbnails, we'll work on that as a part of
+
+517
+0:26:54.880 --> 0:26:55.880
+the system.
+
+518
+0:26:55.880 --> 0:26:56.880
+Now we can work on the inventory.
+
+519
+0:26:56.880 --> 0:27:00.160
+So a little bit of like washing one window, washing another window, eventually you'll
+
+520
+0:27:00.160 --> 0:27:01.960
+get like the whole picture.
+
+521
+0:27:01.960 --> 0:27:05.400
+It's not like we're just going to drop in one day with like a nuclear bomb and go like,
+
+522
+0:27:05.400 --> 0:27:07.280
+boom, the UI's done.
+
+523
+0:27:07.280 --> 0:27:11.120
+Moving forwards, rather than me wittering on about various sort of analogies that get
+
+524
+0:27:11.120 --> 0:27:17.940
+more and more obtuse, electronic says, how far along was, is color management?
+
+525
+0:27:17.940 --> 0:27:21.720
+Last time I recall hearing it was in close testing and getting ready to push to danger
+
+526
+0:27:21.720 --> 0:27:22.720
+testers.
+
+527
+0:27:22.720 --> 0:27:23.720
+It is close.
+
+528
+0:27:23.720 --> 0:27:24.840
+Of course, we're not doing updates right now.
+
+529
+0:27:24.840 --> 0:27:27.820
+So it's less close than it was.
+
+530
+0:27:27.820 --> 0:27:31.140
+Probably a better question for Geens, who isn't here.
+
+531
+0:27:31.140 --> 0:27:34.760
+But I know that every time we talk about it, I end up sort of misunderstanding color even
+
+532
+0:27:34.760 --> 0:27:35.760
+more.
+
+533
+0:27:35.760 --> 0:27:40.620
+You have to remember that I am slightly colorblind, and so I've just kind of ignored color management.
+
+534
+0:27:40.620 --> 0:27:44.780
+Not from a perspective of I don't care, but from a perspective of like, I can't help as
+
+535
+0:27:44.780 --> 0:27:46.020
+best as I could.
+
+536
+0:27:46.020 --> 0:27:50.920
+I'll still help with testing, make sure the stuff makes sense, but we'll need other testers
+
+537
+0:27:50.920 --> 0:27:54.000
+at that time to be like, yeah, this looks right.
+
+538
+0:27:54.000 --> 0:27:56.640
+I can't tell if it's too many yellows and greens, it seems.
+
+539
+0:27:56.640 --> 0:28:00.960
+I'm just like, god, if your world is yellow or green, I'm probably confused.
+
+540
+0:28:00.960 --> 0:28:04.720
+Electronic says, could we get that as a clip?
+
+541
+0:28:04.720 --> 0:28:07.560
+Yeah, the recording of this Office Hours will be up on Sounder.
+
+542
+0:28:07.560 --> 0:28:12.320
+You can go ahead and download it and cut it up and be like, boom, boom, bash.
+
+543
+0:28:12.320 --> 0:28:13.320
+Yeah, that's another thing.
+
+544
+0:28:13.320 --> 0:28:16.240
+Storm says that games was trying to find a way to add it without breaking everything.
+
+545
+0:28:16.240 --> 0:28:18.200
+That's another point.
+
+546
+0:28:18.200 --> 0:28:22.660
+To give another, again, incredibly obtuse and crude analogy, color management is going
+
+547
+0:28:22.660 --> 0:28:28.040
+to be a little bit like bashing you over the head, removing your eyes, and putting in different
+
+548
+0:28:28.040 --> 0:28:29.960
+eyes, and then waking you up.
+
+549
+0:28:29.960 --> 0:28:31.360
+We want that to be as smooth as possible.
+
+550
+0:28:31.360 --> 0:28:34.440
+What I mean by that is like, stuff is going to look different.
+
+551
+0:28:34.440 --> 0:28:36.520
+It's going to look different.
+
+552
+0:28:36.520 --> 0:28:39.160
+And there's no way to make that not be different.
+
+553
+0:28:39.160 --> 0:28:40.920
+That's just color management in general.
+
+554
+0:28:40.920 --> 0:28:42.640
+It's going to make stuff look different.
+
+555
+0:28:42.640 --> 0:28:43.760
+It's about making that smooth.
+
+556
+0:28:43.760 --> 0:28:47.920
+It's like saying like, hey, let's install the color management build.
+
+557
+0:28:47.920 --> 0:28:51.720
+Let's go through the top 100 worlds and make sure they don't look dumb.
+
+558
+0:28:51.720 --> 0:28:55.400
+If they do look dumb, let's make sure that we figure out why they look dumb and see if
+
+559
+0:28:55.400 --> 0:29:00.320
+that's a problem or it's just a symptom of the color management switch.
+
+560
+0:29:00.320 --> 0:29:02.080
+So I seem to remember there were some screenshots available.
+
+561
+0:29:02.080 --> 0:29:05.440
+It might be in the devlog channel of some of the popular worlds back then when it was
+
+562
+0:29:05.440 --> 0:29:08.160
+being posted before and after.
+
+563
+0:29:08.160 --> 0:29:11.760
+Unfortunately, the camera wasn't aligned to the same location because I wanted to do is
+
+564
+0:29:11.760 --> 0:29:13.440
+put it on one of those swipey tools.
+
+565
+0:29:13.440 --> 0:29:16.400
+You know where you can swipe left and right to compare two pictures?
+
+566
+0:29:16.400 --> 0:29:19.840
+I wanted to put before and after color management on one of those swipey tools so you could
+
+567
+0:29:19.840 --> 0:29:23.120
+be like, woo, woo, woo, and swipe it backwards and forwards and see the difference.
+
+568
+0:29:23.120 --> 0:29:27.760
+I'm sure we'll get some of those, especially if I'm on the color management build.
+
+569
+0:29:27.760 --> 0:29:30.400
+I'll get some camera anchors together and make sure I can get some swipey photos.
+
+570
+0:29:30.400 --> 0:29:33.800
+If you don't know what I mean, I'm sorry, but swipey photos, yeah.
+
+571
+0:29:33.800 --> 0:29:36.760
+I think it's called onion skinning or something like that.
+
+572
+0:29:36.760 --> 0:29:42.920
+It's similar to like in sort of traditional animation where like old school animation,
+
+573
+0:29:42.920 --> 0:29:46.320
+computer animation, not computer animation, sorry, but like by hand animation where they
+
+574
+0:29:46.320 --> 0:29:51.800
+would like draw a background and then put overlay like plastic paper with the characters
+
+575
+0:29:51.800 --> 0:29:54.680
+drawn on them and then flip between them to make sure that they look good between two
+
+576
+0:29:54.680 --> 0:29:55.680
+frames.
+
+577
+0:29:55.680 --> 0:29:57.600
+Like that, swipey photos, yeah.
+
+578
+0:29:57.600 --> 0:29:59.840
+Moving forwards again because I'm mumbling.
+
+579
+0:29:59.840 --> 0:30:09.000
+Patty says, does Neos work with all FBT?
+
+580
+0:30:09.000 --> 0:30:14.120
+I know it works with five pucks, but what about Haratora X?
+
+581
+0:30:14.120 --> 0:30:17.000
+I don't know what Haratora X is, so I won't be able to comment on that one.
+
+582
+0:30:17.000 --> 0:30:20.240
+I know that some people have Tundra trackers and that they work.
+
+583
+0:30:20.240 --> 0:30:25.720
+A good example here, which is not for sure a guarantee, but a good example here that
+
+584
+0:30:25.720 --> 0:30:33.120
+will let you sort of figure it out is does the SteamVR application recognize them as
+
+585
+0:30:33.120 --> 0:30:34.120
+pucks?
+
+586
+0:30:34.120 --> 0:30:38.160
+If the SteamVR application recognizes them as pucks, then it means that they are compatible
+
+587
+0:30:38.160 --> 0:30:41.240
+with SteamVR, which means we should be able to pick them up well.
+
+588
+0:30:41.240 --> 0:30:44.440
+That isn't, like I said, guaranteed, but it's the closest thing I've got right now.
+
+589
+0:30:44.440 --> 0:30:47.240
+And Doki actually said that before I even said it, so yeah.
+
+590
+0:30:47.240 --> 0:30:50.640
+If it doesn't show up as pucks, then you'll have a difficulty there.
+
+591
+0:30:50.640 --> 0:30:55.400
+I know like Connect won't work out of the box, but you can get like driver for VR or
+
+592
+0:30:55.400 --> 0:30:59.240
+something, which then like makes the Connect like pretend to be a Vive puck, so then it
+
+593
+0:30:59.240 --> 0:31:00.240
+does work.
+
+594
+0:31:00.240 --> 0:31:01.240
+Or whatever.
+
+595
+0:31:01.240 --> 0:31:02.240
+I don't know.
+
+596
+0:31:02.240 --> 0:31:03.240
+Mileage may vary.
+
+597
+0:31:03.240 --> 0:31:04.240
+Try it out.
+
+598
+0:31:04.240 --> 0:31:05.360
+Don't go buying hardware on my say.
+
+599
+0:31:05.360 --> 0:31:07.360
+That's a big thing as well.
+
+600
+0:31:07.360 --> 0:31:11.940
+If other people in our community, if the team, if we're talking about it, if we're saying
+
+601
+0:31:11.940 --> 0:31:15.260
+we'll implement a piece of hardware, please don't go spending money on our record.
+
+602
+0:31:15.260 --> 0:31:20.200
+I would hate for you to hear a rumor from someone like, Neo is just going to support
+
+603
+0:31:20.200 --> 0:31:24.400
+the PSVR 2 day one, and then you'd go spend money and that not be true.
+
+604
+0:31:24.400 --> 0:31:25.400
+I would hate for that.
+
+605
+0:31:25.400 --> 0:31:31.680
+So just like make the choice to buy the hardware and don't count on Neo supporting it fully
+
+606
+0:31:31.680 --> 0:31:34.560
+until we announce that we do support it fully, is what I'm saying.
+
+607
+0:31:34.560 --> 0:31:37.360
+Don't spend lots of money without it being confirmed.
+
+608
+0:31:37.360 --> 0:31:42.080
+Oxy the protogen says, is there any way to get user profiles from the Neo STB stuff?
+
+609
+0:31:42.080 --> 0:31:43.080
+There is.
+
+610
+0:31:43.080 --> 0:31:45.840
+But it looks like Lex has answered you there.
+
+611
+0:31:45.840 --> 0:31:50.180
+Do remember when it comes to our API, I'm limited in the support that I can provide.
+
+612
+0:31:50.180 --> 0:31:53.660
+Not because I don't want to provide it, but because we have the stance that it's unsupported.
+
+613
+0:31:53.660 --> 0:31:56.520
+The reason that we have this is because it might change literally any moment.
+
+614
+0:31:56.520 --> 0:32:03.280
+You might blink, and it might be API.cheese.neos.com forward slash cheese forward slash cheddar
+
+615
+0:32:03.280 --> 0:32:07.880
+forward slash user ID might be the way that you get a user ID or a user profile.
+
+616
+0:32:07.880 --> 0:32:11.140
+We can't guarantee that it's going to stay the same, and so therefore we don't support
+
+617
+0:32:11.140 --> 0:32:14.260
+it and we don't document it, because it might change.
+
+618
+0:32:14.260 --> 0:32:18.740
+If we were to document it, we would establish a sort of handshake between you and our community
+
+619
+0:32:18.740 --> 0:32:20.960
+saying, this is how it works.
+
+620
+0:32:20.960 --> 0:32:23.020
+And then if we broke that, you'd be mad at us.
+
+621
+0:32:23.020 --> 0:32:24.680
+So we don't do that.
+
+622
+0:32:24.680 --> 0:32:26.840
+Like it's the lesser of two evils.
+
+623
+0:32:26.840 --> 0:32:30.040
+Let's go, Ted, and take a look and see if we have more questions.
+
+624
+0:32:30.040 --> 0:32:32.480
+So electronic says, how about we be mad if you break it anyway?
+
+625
+0:32:32.480 --> 0:32:33.480
+You can totally be mad.
+
+626
+0:32:33.480 --> 0:32:34.780
+We've told you it's unsupported.
+
+627
+0:32:34.780 --> 0:32:35.780
+So be mad.
+
+628
+0:32:35.780 --> 0:32:37.320
+We did warn you.
+
+629
+0:32:37.320 --> 0:32:40.160
+It's like, do not push this button.
+
+630
+0:32:40.160 --> 0:32:41.340
+It will kill you.
+
+631
+0:32:41.340 --> 0:32:42.700
+Someone pushes it and they die.
+
+632
+0:32:42.700 --> 0:32:43.700
+Why did I die?
+
+633
+0:32:43.700 --> 0:32:44.700
+Did you read the button?
+
+634
+0:32:44.700 --> 0:32:46.120
+I actually have that in a folder somewhere.
+
+635
+0:32:46.120 --> 0:32:48.480
+I know there's people just pushing buttons in my world.
+
+636
+0:32:48.480 --> 0:32:51.560
+So I made a button that says, like, if you push this, you'll die.
+
+637
+0:32:51.560 --> 0:32:53.160
+And lots of people push it.
+
+638
+0:32:53.160 --> 0:32:57.640
+Jack the Duck says, oh, by the way, it is 1738.
+
+639
+0:32:57.640 --> 0:33:00.160
+So we're going to cut questions off at 1740.
+
+640
+0:33:00.160 --> 0:33:04.160
+So to keep that in mind, 1740 questions will be cut off.
+
+641
+0:33:04.160 --> 0:33:08.360
+Jack says, what do you think about flat screen compatible and VR games like Phosphophobia
+
+642
+0:33:08.360 --> 0:33:09.960
+and VRChat?
+
+643
+0:33:09.960 --> 0:33:13.120
+Do you think it could attract people from outside of VR to get involved into VR?
+
+644
+0:33:13.120 --> 0:33:14.440
+Jungish is quite good, Jack.
+
+645
+0:33:14.440 --> 0:33:15.680
+Don't worry about it.
+
+646
+0:33:15.680 --> 0:33:19.840
+I do appreciate the apologies, but you're doing quite well.
+
+647
+0:33:19.840 --> 0:33:23.040
+It is interesting in that regard, but it also comes with problems.
+
+648
+0:33:23.040 --> 0:33:24.880
+So you need to think about it.
+
+649
+0:33:24.880 --> 0:33:26.280
+Again, it's a sort of like focus thing.
+
+650
+0:33:26.280 --> 0:33:30.960
+I don't know what the VRChat team thinks about this, but I have an inkling.
+
+651
+0:33:30.960 --> 0:33:35.880
+Is it a problem that there are VRChat users who will never use VR?
+
+652
+0:33:35.880 --> 0:33:37.040
+Is that a problem?
+
+653
+0:33:37.040 --> 0:33:40.160
+And you can have a stance on that, which is yes, or you can have a stance on that, which
+
+654
+0:33:40.160 --> 0:33:41.160
+is no.
+
+655
+0:33:41.160 --> 0:33:44.040
+I have an inkling that their stance is no.
+
+656
+0:33:44.040 --> 0:33:49.080
+And then from the inkling of no, it then leads to different choices in the development, such
+
+657
+0:33:49.080 --> 0:33:53.880
+as, well, then that means that we need to always be improving our desktop support such
+
+658
+0:33:53.880 --> 0:33:56.800
+that it feels like you have all the features of VR without it.
+
+659
+0:33:56.800 --> 0:34:01.160
+Or if you say yes, then you can be like, well, then we don't care about desktop users.
+
+660
+0:34:01.160 --> 0:34:03.120
+We should remove all the desktop features.
+
+661
+0:34:03.120 --> 0:34:05.280
+Good example there being website design.
+
+662
+0:34:05.280 --> 0:34:09.400
+So when you build a website, you have to make those sorts of decisions about which browsers
+
+663
+0:34:09.400 --> 0:34:10.400
+you support.
+
+664
+0:34:10.400 --> 0:34:15.440
+So as a website developer, you have to basically say, do I want to support Internet Explorer?
+
+665
+0:34:15.440 --> 0:34:17.560
+And if you say yes to this question, please go away.
+
+666
+0:34:17.560 --> 0:34:19.000
+Internet Explorer is dead.
+
+667
+0:34:19.000 --> 0:34:21.000
+Stop supporting it.
+
+668
+0:34:21.000 --> 0:34:25.080
+But if you say yes to it, your developers will groan.
+
+669
+0:34:25.080 --> 0:34:26.820
+Your developers will be grumbly.
+
+670
+0:34:26.820 --> 0:34:31.120
+You will add months and months and months to your development life cycle just simply
+
+671
+0:34:31.120 --> 0:34:36.800
+because you won't take a stance and say dead browsers are unsupported by our website.
+
+672
+0:34:36.800 --> 0:34:39.320
+But depending on the business, you'll have to make that decision.
+
+673
+0:34:39.320 --> 0:34:43.040
+If you're running an enterprise business banking application, you probably will need to support
+
+674
+0:34:43.040 --> 0:34:46.040
+Internet Explorer until 2030.
+
+675
+0:34:46.040 --> 0:34:47.520
+That's just the way it is.
+
+676
+0:34:47.520 --> 0:34:53.480
+I know that there are some applications that exist, mostly out east, that still require
+
+677
+0:34:53.480 --> 0:34:58.240
+Internet Explorer 6 because they use ActiveX stuff.
+
+678
+0:34:58.240 --> 0:34:59.240
+Is now 17.14.
+
+679
+0:34:59.240 --> 0:35:00.240
+No more questions.
+
+680
+0:35:00.240 --> 0:35:02.520
+Diaz says that Babel exists.
+
+681
+0:35:02.520 --> 0:35:03.960
+I hate Babel.
+
+682
+0:35:03.960 --> 0:35:09.480
+I've seen so many people that will put Babel.js in their tool chain, and then they'll be like,
+
+683
+0:35:09.480 --> 0:35:11.760
+and only target the latest Chrome and Firefox.
+
+684
+0:35:11.760 --> 0:35:16.760
+You know that you can actually just ship next generation JavaScript to Chrome and Firefox
+
+685
+0:35:16.760 --> 0:35:18.600
+and they'll just be like, cool, bro.
+
+686
+0:35:18.600 --> 0:35:20.760
+You don't need Babel if you're doing it correctly.
+
+687
+0:35:20.760 --> 0:35:24.420
+You need Babel if you're dealing with Internet Explorer, but like I said, you shouldn't.
+
+688
+0:35:24.420 --> 0:35:27.120
+And then once you're not dealing with Internet Explorer, you can remove half your tool chain
+
+689
+0:35:27.120 --> 0:35:28.680
+because you don't need it anymore.
+
+690
+0:35:28.680 --> 0:35:32.000
+I've seen some incredibly large web pack files that are just like, why?
+
+691
+0:35:32.000 --> 0:35:33.000
+You don't need any of that.
+
+692
+0:35:33.000 --> 0:35:36.600
+If anyone doesn't know what I'm talking about, I'm sorry, that's just web development.
+
+693
+0:35:36.600 --> 0:35:42.560
+Web development in 2022 and in 2021 and in 2020 is just a nightmare of tooling, and it's
+
+694
+0:35:42.560 --> 0:35:43.560
+just ridiculous.
+
+695
+0:35:43.560 --> 0:35:46.920
+I will answer No User Found's question and then we'll leave off, thank you for the reminder,
+
+696
+0:35:46.920 --> 0:35:47.920
+Dorky.
+
+697
+0:35:47.920 --> 0:35:49.880
+I do need to get back to other things.
+
+698
+0:35:49.880 --> 0:35:55.800
+No User Found says do you think when people who haven't experienced VR or the metaverse
+
+699
+0:35:55.800 --> 0:36:00.800
+yet see how bad Facebook's metaverse looks and a VR Walmart video, do you think that
+
+700
+0:36:00.800 --> 0:36:02.960
+harms the reputation of VR?
+
+701
+0:36:02.960 --> 0:36:04.980
+Yes, it does.
+
+702
+0:36:04.980 --> 0:36:10.080
+You can think of it, again, like other things that are similar to that, like video games.
+
+703
+0:36:10.080 --> 0:36:14.880
+You might be influenced by the big content creators who play those video games on their
+
+704
+0:36:14.880 --> 0:36:18.840
+streams, and then you might make a purchasing decision based on that because you aren't
+
+705
+0:36:18.840 --> 0:36:19.840
+aware.
+
+706
+0:36:19.840 --> 0:36:24.920
+And so if the VR community isn't putting good content to show this isn't what the metaverse
+
+707
+0:36:24.920 --> 0:36:28.000
+is like, then people don't know what it's like.
+
+708
+0:36:28.000 --> 0:36:32.560
+Speaking of that bone jaw thing that was mentioned above, we're having difficulty with surgeons
+
+709
+0:36:32.560 --> 0:36:36.360
+getting them to even understand that when they're wearing a headset, they have depth,
+
+710
+0:36:36.360 --> 0:36:38.020
+they have stereoscopic vision.
+
+711
+0:36:38.020 --> 0:36:43.720
+If you aren't aware of what's going on here, in desktop mode, try and align three cubes
+
+712
+0:36:43.720 --> 0:36:44.720
+on the same plane.
+
+713
+0:36:44.720 --> 0:36:48.560
+So try and align them up so that their corners touch in a straight line.
+
+714
+0:36:48.560 --> 0:36:50.620
+Then do the same thing in VR.
+
+715
+0:36:50.620 --> 0:36:55.720
+If in VR you are moving around, you're rotating them, you're looking from different angles,
+
+716
+0:36:55.720 --> 0:36:57.000
+you understand VR.
+
+717
+0:36:57.000 --> 0:37:00.680
+You understand that there's depth perception, you understand that you're able to influence
+
+718
+0:37:00.680 --> 0:37:05.240
+your view in the world, and you understand that if you can't quite see if the cubes are
+
+719
+0:37:05.240 --> 0:37:06.880
+lining up, you can move around there.
+
+720
+0:37:06.880 --> 0:37:09.920
+Now, of course, you can do the same in desktop, but it's not the same because you have to
+
+721
+0:37:09.920 --> 0:37:11.280
+do that in desktop, right?
+
+722
+0:37:11.280 --> 0:37:15.240
+You might align them in one plane, change your perspective in desktop and be like, oh,
+
+723
+0:37:15.240 --> 0:37:16.240
+they're completely out of alignment.
+
+724
+0:37:16.240 --> 0:37:20.080
+But in VR, you'll have a much better look if you understand that that depth is there.
+
+725
+0:37:20.080 --> 0:37:22.120
+We're just seeing people that just don't understand that.
+
+726
+0:37:22.120 --> 0:37:26.800
+They put on the headset, and for some reason, they don't see the depth is there.
+
+727
+0:37:26.800 --> 0:37:30.240
+I was actually speaking to Hamish, I said, Jafar, here.
+
+728
+0:37:30.240 --> 0:37:32.480
+And he said, I'm gonna have to look it up and see if I can actually find the article
+
+729
+0:37:32.480 --> 0:37:33.480
+about it.
+
+730
+0:37:33.480 --> 0:37:39.680
+And apparently, they took photographs or like paintings of staircases and sort of three-dimensional
+
+731
+0:37:39.680 --> 0:37:43.320
+depth-related structures out to uncontacted tribes.
+
+732
+0:37:43.320 --> 0:37:46.440
+These are tribes that just they have no contact with the rest of the world.
+
+733
+0:37:46.440 --> 0:37:47.680
+They don't know what the internet is.
+
+734
+0:37:47.680 --> 0:37:50.440
+They don't really know what like our thoughts of art is.
+
+735
+0:37:50.440 --> 0:37:53.500
+Of course, they have their own version of art, but they don't know what that is.
+
+736
+0:37:53.500 --> 0:37:58.040
+And you show them like a picture of some stairs, and they don't see it as stairs.
+
+737
+0:37:58.040 --> 0:38:02.500
+They don't understand that they would be able to walk up them or the top of the stairs is
+
+738
+0:38:02.500 --> 0:38:05.120
+different in depth than the bottom of the stairs.
+
+739
+0:38:05.120 --> 0:38:09.780
+They'll see basically a stack of cubes rather than stairs because they're not able to process
+
+740
+0:38:09.780 --> 0:38:11.280
+that depth information.
+
+741
+0:38:11.280 --> 0:38:14.640
+If you've grown up on video games, you'll be able to do that as well simply by, I don't
+
+742
+0:38:14.640 --> 0:38:17.480
+know, play a first-person shooter, or try and remember back to the first first-person
+
+743
+0:38:17.480 --> 0:38:18.940
+shooter that you played.
+
+744
+0:38:18.940 --> 0:38:21.560
+You wouldn't have understood depth as well as you do there.
+
+745
+0:38:21.560 --> 0:38:23.040
+That isn't even the hardest problem.
+
+746
+0:38:23.040 --> 0:38:24.600
+Aaron says, how do doctors not understand that?
+
+747
+0:38:24.600 --> 0:38:27.920
+One of the hardest problems we have with doctors and other people that haven't been in VR is,
+
+748
+0:38:27.920 --> 0:38:30.840
+oh, no, I won't put on the headset, it'll mess up my hair.
+
+749
+0:38:30.840 --> 0:38:33.160
+That is the hardest problem we have to solve.
+
+750
+0:38:33.160 --> 0:38:34.560
+They don't want to mess up their hair.
+
+751
+0:38:34.560 --> 0:38:39.040
+And with that interesting anecdote, I will leave you there and speak to you again on
+
+752
+0:38:39.040 --> 0:38:42.200
+the, whatever that date was, on the 20th.
+
+753
+0:38:42.200 --> 0:38:47.320
+If you have any further questions, feel free to direct message me, drop it in the Discord
+
+754
+0:38:47.320 --> 0:38:50.160
+or wherever else you might want to speak to people about it.
+
+755
+0:38:50.160 --> 0:38:51.160
+I will speak to you later.
+
+756
+0:38:51.160 --> 0:39:19.160
+Bye-bye.
+

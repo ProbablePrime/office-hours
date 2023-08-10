@@ -1,0 +1,1716 @@
+1
+0:00:00.000 --> 0:00:03.040
+Okay, welcome to office hours. It is time
+
+2
+0:00:03.640 --> 0:00:07.240
+So if you have questions, please feel free to drop them into the office hours channel
+
+3
+0:00:07.240 --> 0:00:10.160
+I'll get them answered in the order that they appear. Otherwise, we're gonna sit in
+
+4
+0:00:10.840 --> 0:00:12.720
+unimaginable unending
+
+5
+0:00:12.720 --> 0:00:17.480
+Silence mmm. Okay. We have a first question of the day, which is from specs
+
+6
+0:00:17.480 --> 0:00:21.840
+Which says I've asked a bit before but it's been a while. So why not? I'm running ahead the server again
+
+7
+0:00:21.840 --> 0:00:23.840
+I'm trying to get near
+
+8
+0:00:23.880 --> 0:00:25.980
+Logs into an elk elastic stack
+
+9
+0:00:25.980 --> 0:00:31.420
+unfortunately the timestamps and the s logs only have the time and not the date of an experience with such things any advice on how
+
+10
+0:00:31.420 --> 0:00:33.340
+I might do this. Um
+
+11
+0:00:33.340 --> 0:00:36.780
+Do they not have the date? I was not aware. Let me
+
+12
+0:00:38.020 --> 0:00:42.420
+Just open up a log file just for my personal reference here. Yeah, they only have a
+
+13
+0:00:43.020 --> 0:00:47.140
+Only have the time interesting. Um, you could probably base it on the
+
+14
+0:00:47.740 --> 0:00:53.460
+Like the name of the file when you ingest things we do have the date in the name of the file there
+
+15
+0:00:53.460 --> 0:00:58.700
+So maybe you can pass that out logging is actually something which I really really really want to improve
+
+16
+0:00:58.700 --> 0:01:03.420
+Like we don't really use like a standard logging library right now, and I would love to get one situated
+
+17
+0:01:03.420 --> 0:01:08.280
+I'd also get to one get one situated where you can kind of provide like a little bit of config to it
+
+18
+0:01:08.820 --> 0:01:14.840
+So for example when a user has a problem with Neos and we know it's in an area. Let's say physics I can say
+
+19
+0:01:15.740 --> 0:01:23.320
+Run Neos with this like command line flag and it will enable extra logging about physics because right now what happens is if we
+
+20
+0:01:23.320 --> 0:01:25.180
+Needed say extra logging about our problem
+
+21
+0:01:25.180 --> 0:01:31.260
+We would commit changes to Neos in everyone's sphere that would update the locking to include that information
+
+22
+0:01:31.260 --> 0:01:37.140
+And then when it was fixed we would then on the next update remove that information and that would allow us to
+
+23
+0:01:38.500 --> 0:01:43.100
+Stop doing that that would also allow us to not remove those log lines from the code
+
+24
+0:01:43.380 --> 0:01:46.460
+I'm weird and and maybe a little bit sort of
+
+25
+0:01:46.460 --> 0:01:53.900
+Obsessed with it, but if a log line exists in code it should exist forever because there's sometimes a lot of work that goes into
+
+26
+0:01:54.420 --> 0:02:01.060
+Creating logs or creating specific log messages, and we shouldn't need to delete that we should just disable it if we don't need it anymore
+
+27
+0:02:01.580 --> 0:02:04.780
+There's lots of libraries for doing that we're just not really using any of them
+
+28
+0:02:04.780 --> 0:02:07.900
+So we need to that one improve a lot of the stuff there
+
+29
+0:02:10.020 --> 0:02:11.540
+Next question from
+
+30
+0:02:11.540 --> 0:02:13.700
+Actually, I'm gonna jump to specs is because it's a follow-up
+
+31
+0:02:13.700 --> 0:02:20.020
+Who asks when the date rolls over does Neos create a new log file and you date will it continues the same file?
+
+32
+0:02:20.020 --> 0:02:22.980
+I have no idea. I have no idea
+
+33
+0:02:22.980 --> 0:02:28.420
+We'd have to have basically like a 24-hour session running and then see what happens at the date boundaries. I don't know
+
+34
+0:02:28.980 --> 0:02:33.460
+So gun Griffin asks what restrictions can oppose filter apply
+
+35
+0:02:34.020 --> 0:02:38.980
+Can it be manually clipped I use a raycast to tell it to limit the motion in that direction
+
+36
+0:02:38.980 --> 0:02:43.660
+So a post filter has like a number of components that you can use
+
+37
+0:02:43.660 --> 0:02:47.400
+I actually have the code base open which is a rare occurrence right now, but
+
+38
+0:02:48.100 --> 0:02:53.840
+It does mean I can I can look them up all real quick for you, so I just find references to post filter
+
+39
+0:02:54.400 --> 0:02:56.080
+okay, so
+
+40
+0:02:56.080 --> 0:02:58.080
+You can do what's called a smoother
+
+41
+0:02:58.500 --> 0:03:00.580
+post filter that one will sort of make your
+
+42
+0:03:01.140 --> 0:03:05.780
+Controls smoothed Gable has an example of that inside Neos essentials gadgets
+
+43
+0:03:05.780 --> 0:03:09.980
+Skibbles toy shop and then there's a weight in there and it feels like a heavy weight
+
+44
+0:03:09.980 --> 0:03:17.060
+And that's because it's smooth lerped in you grabbing it. That's also good for like levers or heavy wheels or something
+
+45
+0:03:17.380 --> 0:03:21.740
+There's a part in Fundamentally 8. This is a sideline, but hey we have time. There's not many questions
+
+46
+0:03:21.740 --> 0:03:27.260
+there's a side part in Fundamentally 8 where you're you're descending through a building and there's this
+
+47
+0:03:27.760 --> 0:03:32.260
+big wheel to open up part of this like basement level of a building and
+
+48
+0:03:32.260 --> 0:03:39.240
+You need to spam like the x button on your controller to do it and the speedrunners of that game have sort of
+
+49
+0:03:39.780 --> 0:03:45.020
+Narrowed down the mathematics of spamming that big wheel to a tee so they can get through as fast as possible
+
+50
+0:03:45.700 --> 0:03:47.700
+If you can't do it on the first try
+
+51
+0:03:47.860 --> 0:03:53.860
+Another member of your party in this rPG will then join you and then you have to spam it less because then there's two bodies
+
+52
+0:03:53.860 --> 0:03:55.860
+On that wheel spinning it
+
+53
+0:03:55.940 --> 0:03:58.340
+So that's a sideline. It's cool
+
+54
+0:03:58.340 --> 0:04:03.740
+I know what they call it in the speedrunner community is like first try valve or whatever it is and it's very difficult
+
+55
+0:04:03.740 --> 0:04:06.100
+It's like I don't know. I'm not gonna get this right
+
+56
+0:04:06.100 --> 0:04:10.620
+It's like 120 button pushes over a period of like a minute or I don't know whatever the the limit is
+
+57
+0:04:10.620 --> 0:04:12.980
+But that's what it's meant to you know meant to signify
+
+58
+0:04:13.780 --> 0:04:16.240
+Hefty lifting would be a good use of that post filter
+
+59
+0:04:17.100 --> 0:04:19.240
+Moving on post filters. There's a rotation
+
+60
+0:04:19.240 --> 0:04:28.000
+a rotation constraint that prevents you from Rotating whilst you're holding it so things like again levers
+
+61
+0:04:28.000 --> 0:04:31.920
+And wheels would be really good for that one. I haven't actually used that one a lot mostly because you know
+
+62
+0:04:32.720 --> 0:04:35.640
+It uses similar things to a joint and joint scary
+
+63
+0:04:36.680 --> 0:04:42.840
+Joint scary, there's pose offset that will basically offset you and a position in a rotation when you grab it
+
+64
+0:04:42.840 --> 0:04:46.400
+I'm not really sure why you would use that but hey, it's there
+
+65
+0:04:46.400 --> 0:04:52.300
+The one that is probably more applicable to guns actual question though is the box constraint
+
+66
+0:04:52.320 --> 0:04:58.160
+So what the box constraint will do is when you grab something you only be able to move it in that box and because there's
+
+67
+0:04:58.160 --> 0:05:02.000
+A box it's got three dimensions if you only want left and right make the box really
+
+68
+0:05:02.640 --> 0:05:06.720
+Really short, but really wide or really deep just you know remove that height
+
+69
+0:05:06.720 --> 0:05:09.240
+And then you don't need to be able to move it up and down stuff like that
+
+70
+0:05:09.240 --> 0:05:16.760
+Manually clipped use a raycast to tell it to limit motion you would do that using the box constraint. That's
+
+71
+0:05:17.880 --> 0:05:24.120
+All there is really to them if you want any more sort of other pose restrictions that you've got please do drop them a feature
+
+72
+0:05:24.120 --> 0:05:26.120
+Request on the github and we'll get it sorted
+
+73
+0:05:27.360 --> 0:05:29.360
+Whenever we can or if it's a good idea
+
+74
+0:05:30.200 --> 0:05:37.840
+Remember when you're like asking for things like that ask for what you would like to happen rather than your intended approach
+
+75
+0:05:37.840 --> 0:05:40.560
+So for example here and you're doing good in the way that you've asked it
+
+76
+0:05:40.560 --> 0:05:42.560
+I'm just pointing out because there's an opportunity to
+
+77
+0:05:42.960 --> 0:05:47.160
+Gun asked use a raycast to tell it to limit motion in that direction
+
+78
+0:05:47.160 --> 0:05:49.000
+We don't need a raycast to do that
+
+79
+0:05:49.000 --> 0:05:53.640
+You could use a raycast to do it and then calculate the the distance based on that
+
+80
+0:05:53.720 --> 0:05:59.280
+But what we need is an ability to limit the range of motion the amount of motion, right?
+
+81
+0:05:59.280 --> 0:06:02.680
+So that doesn't technically need a raycast that could be static. It could be dynamic
+
+82
+0:06:02.760 --> 0:06:07.040
+So make sure you kind of separate those two so that we don't get lost in the sort of like
+
+83
+0:06:07.040 --> 0:06:12.280
+Why would you need a raycast and said it's like oh you could use a raycast to have this effect
+
+84
+0:06:13.080 --> 0:06:18.400
+Moving on to our next question we have from unnamed cyborg cat has anyone tried creating a physics gun yes
+
+85
+0:06:18.400 --> 0:06:24.040
+I believe quite a few people have just off the top of my head. I would probably go off. I wrote
+
+86
+0:06:24.040 --> 0:06:27.560
+Sorry, we're really like scariest mod, so maybe they would know if someone has one or maybe they made them on themselves
+
+87
+0:06:27.560 --> 0:06:32.000
+I'm not sure, but sorry would be my target to go ask that particular question
+
+88
+0:06:32.880 --> 0:06:36.520
+Specs asks lately myself and friends have experienced issues joining sessions. Yes
+
+89
+0:06:36.520 --> 0:06:41.160
+We're aware of that one I think we're looking into it today
+
+90
+0:06:41.160 --> 0:06:46.760
+It's probably just the relay server like pooping again, so we'll take a look at it should be fixed today
+
+91
+0:06:46.760 --> 0:06:53.960
+If not, I will I'll bash bash fruits around a little bit too. It's fixed gently of course just like that. Hey fix it um
+
+92
+0:06:55.000 --> 0:07:00.520
+Really almost too fuzzy. It's a way to swap into another avatar. That's in the world via logics. Yes
+
+93
+0:07:00.960 --> 0:07:02.960
+There is the equip avatar
+
+94
+0:07:02.960 --> 0:07:05.000
+Node is inside the avatars folder
+
+95
+0:07:05.000 --> 0:07:10.600
+So cool like just take a look at it. You can find inside my public folder
+
+96
+0:07:10.600 --> 0:07:14.960
+I think it's in like public proper prime tools. There is the avatar equip
+
+97
+0:07:15.600 --> 0:07:19.920
+Tooltip that basically you can just point at an avatar and equip it it sounds weird
+
+98
+0:07:19.920 --> 0:07:25.720
+But there was a bug for like one update where you couldn't equip avatars that are in the world and so I made that tool
+
+99
+0:07:25.720 --> 0:07:26.760
+quickly
+
+100
+0:07:26.760 --> 0:07:29.760
+It's also got I don't think actually release that version
+
+101
+0:07:30.880 --> 0:07:33.880
+No, turkey turkey edited it. There's one way you can
+
+102
+0:07:33.880 --> 0:07:40.280
+Select an avatar with secondary and then duplicate and equip it over into
+
+103
+0:07:41.440 --> 0:07:43.160
+Like the other ones there
+
+104
+0:07:43.160 --> 0:07:47.220
+That will just change the avatar not teleporting equip avatar will just change your avatar
+
+105
+0:07:47.220 --> 0:07:50.640
+It shouldn't teleport you the context menu does teleport you as far as I'm right
+
+106
+0:07:51.360 --> 0:07:57.600
+Name cybercat asks about Hypno space outlaw. I have no idea what that is and so no I have not checked that out
+
+107
+0:07:57.600 --> 0:08:03.960
+electronic asks so I have a user parent or one of my avatars and users can walk around on a box collider with it when
+
+108
+0:08:03.960 --> 0:08:08.320
+I move manually they tend to stay in place, but when I move my stick even slowly they tend to fall off
+
+109
+0:08:08.320 --> 0:08:13.440
+I've been advised to use a box collider for the parent that is fairly large to basically catch them is the better way to do
+
+110
+0:08:13.440 --> 0:08:15.960
+This um no, that's what you'll have to do
+
+111
+0:08:17.120 --> 0:08:23.000
+Look into how the character parent who works this comes a lot a lot in elevators basically if you stop colliding with that
+
+112
+0:08:23.000 --> 0:08:26.840
+Call a collider it will be parent you and so what's happening
+
+113
+0:08:26.840 --> 0:08:32.680
+There is probably like an update order or something like that is happening to decollide them from the collider
+
+114
+0:08:34.000 --> 0:08:39.840
+So that's cool. I didn't think it actually got taken down taken down. We didn't delete it
+
+115
+0:08:39.840 --> 0:08:43.780
+I don't think we delete anything for that's a reference of Turks tool being taken down. I think it has
+
+116
+0:08:45.000 --> 0:08:47.600
+So you just keep an eye on that collider make sure they're not
+
+117
+0:08:47.600 --> 0:08:52.960
+De-colliding with it you might be able to hook up some light logics to try and figure that out a little bit more
+
+118
+0:08:53.560 --> 0:08:56.040
+Because you can detect when they de-collide from it
+
+119
+0:08:56.200 --> 0:09:01.120
+You know like children count change or something like that and maybe sort of narrow down
+
+120
+0:09:01.600 --> 0:09:08.440
+What's going on there moving course to Fuzzy's question is there a recommended theoretical discovered maximum number of children you compare it before things get upset
+
+121
+0:09:09.400 --> 0:09:12.120
+Not that I'm aware of you'd probably end up in issues
+
+122
+0:09:12.120 --> 0:09:19.160
+quite rapidly, but like not quickly at all you should never have to worry about it
+
+123
+0:09:19.160 --> 0:09:23.920
+This does come up a lot as well people worry sometimes too much like I understand the worry
+
+124
+0:09:23.920 --> 0:09:29.960
+But if there is like a performance problem or like a limitation or something like that
+
+125
+0:09:29.960 --> 0:09:34.720
+Then we should take care of it with you like we should take care of that for you
+
+126
+0:09:34.720 --> 0:09:37.160
+So you don't have to worry about it. No, we see that's
+
+127
+0:09:37.160 --> 0:09:42.560
+Children a parent can have children a parent. Oh, yeah, that's a different thing. Yeah number of slot children
+
+128
+0:09:42.560 --> 0:09:43.040
+There is a limit
+
+129
+0:09:43.040 --> 0:09:48.280
+I thought you were talking about trees like descending down children parent children children children children like a branching tree
+
+130
+0:09:48.480 --> 0:09:53.280
+That's probably got no limit, but number of slot children. There is a limit. I forget what that is again
+
+131
+0:09:53.280 --> 0:09:55.400
+You shouldn't worry about it. It's probably close to one of those other
+
+132
+0:09:56.400 --> 0:09:58.240
+boundaries yeah, yeah
+
+133
+0:09:58.240 --> 0:09:59.520
+256
+
+134
+0:09:59.520 --> 0:10:06.700
+You shouldn't like it shouldn't like it shouldn't you shouldn't have shouldn't have anything there there are then of course as he brings up the
+
+135
+0:10:06.700 --> 0:10:12.460
+JSON limits as well sometimes there are limits on on JSON when saving it good example here being that folder
+
+136
+0:10:12.460 --> 0:10:16.860
+So I prevented it from being created, but I haven't obviously what's going on
+
+137
+0:10:16.860 --> 0:10:20.340
+I haven't fixed up so that it will then be okay in the actual UI
+
+138
+0:10:20.660 --> 0:10:23.780
+There's people that were creating folders that had incredibly long names
+
+139
+0:10:23.780 --> 0:10:27.320
+They were using colors or ASCII art to make their public folders
+
+140
+0:10:27.460 --> 0:10:31.700
+that was breaking stuff because the folder length was too long and
+
+141
+0:10:31.700 --> 0:10:36.940
+Some of the validation just just couldn't handle the link for that. It was related to the JSON and synchronization
+
+142
+0:10:37.060 --> 0:10:41.660
+So I put like a sort of stopgap on that in the create directory menu
+
+143
+0:10:41.660 --> 0:10:42.740
+So you can't make them really long
+
+144
+0:10:42.740 --> 0:10:48.620
+But I haven't then gone back and done the rest of the operations there to clean up from behind next on was to
+
+145
+0:10:49.500 --> 0:10:54.540
+Has who says on unis player not sure if the right place to ask is there some kind of general plan to simplify
+
+146
+0:10:54.540 --> 0:11:00.500
+I knew as his UI. Yep. There is that's the UI overhaul roadmap. Also. Take a look at the myths page on our wiki
+
+147
+0:11:00.500 --> 0:11:03.500
+and this page is sometimes quite sort of
+
+148
+0:11:04.380 --> 0:11:06.940
+Bludgeoning in the way that it's worded. It's not intended like that
+
+149
+0:11:06.940 --> 0:11:11.380
+It's just intended to be as quick and as blunt as possible just to get in the message out there
+
+150
+0:11:11.980 --> 0:11:19.380
+So we want to improve the UI we know it's bad. We are going to improve it like it's not intentionally this way
+
+151
+0:11:19.380 --> 0:11:22.700
+It's not on purpose that it's terrible. It's just not finished
+
+152
+0:11:22.780 --> 0:11:25.540
+We will finish it at some point in the future
+
+153
+0:11:25.540 --> 0:11:32.500
+TBD fuzzy is there a nice way to discover and not off an object exists XYZ other than looping through everything from root down
+
+154
+0:11:32.900 --> 0:11:38.660
+Checking yeah collider. So again, I guess happens a lot and I keep hearing about it. So I'll keep saying it
+
+155
+0:11:39.180 --> 0:11:40.660
+colliders
+
+156
+0:11:40.660 --> 0:11:47.220
+People worry about colliders being Aggie or colliders being problematic if you do them correctly, they're totally fine
+
+157
+0:11:47.620 --> 0:11:53.420
+So what you would do there is probably take a small and I say small because you're trying to look for a singular point a small
+
+158
+0:11:53.420 --> 0:11:55.420
+sphere active Collider
+
+159
+0:11:55.460 --> 0:11:57.380
+teleport it to that position and
+
+160
+0:11:57.380 --> 0:12:02.460
+Detective any collisions occur and then turn it off if you do that all within like a couple of update cycles. You're fine
+
+161
+0:12:02.460 --> 0:12:04.060
+There's no like it's fine
+
+162
+0:12:04.060 --> 0:12:06.580
+That would enable you to sort of see what's going on there now
+
+163
+0:12:06.580 --> 0:12:10.260
+You could technically do sort of weird bounding box stuff
+
+164
+0:12:10.260 --> 0:12:15.560
+But you would have to look through all the children there if you want like a dynamic access without looping through the children and descending
+
+165
+0:12:15.980 --> 0:12:17.980
+Colliders the way to go
+
+166
+0:12:17.980 --> 0:12:23.820
+And speaking of that, maybe I can tutorialize it at some point head on over to the creator jam
+
+167
+0:12:23.820 --> 0:12:27.720
+Not this week's but last week's creator jam that was about bread and carbohydrates
+
+168
+0:12:27.800 --> 0:12:35.140
+There is a small wheat farm there where I I use active colliders. I I use them. They're good
+
+169
+0:12:35.140 --> 0:12:36.540
+They work well
+
+170
+0:12:36.540 --> 0:12:38.980
+And you can kind of see how I advise doing that over there
+
+171
+0:12:38.980 --> 0:12:44.260
+You can grow wheat and then harvest it and grind it into flour because that's part of the cup jam if to so
+
+172
+0:12:44.260 --> 0:12:45.780
+It was a good job
+
+173
+0:12:45.780 --> 0:12:51.660
+Etronus points out that the object that you're trying to discover must have a collider that is correct if an object doesn't have a collider
+
+174
+0:12:51.980 --> 0:12:57.500
+It's kind of a bug sort of like if it's like an art world or it's your own world cool
+
+175
+0:12:57.500 --> 0:13:03.080
+But if it's someone else's world don't spawn stuff that doesn't have colliders that happens a lot with sort of like
+
+176
+0:13:03.080 --> 0:13:04.980
+I don't know half finished
+
+177
+0:13:04.980 --> 0:13:09.500
+projects or something like I'll go into a world after it's been open for a couple of hours and it just be like
+
+178
+0:13:09.860 --> 0:13:13.740
+There is a sphere the size of the Sun in the background
+
+179
+0:13:13.740 --> 0:13:18.060
+Why is no one removed it and they're like we can't find it. It has no collider, and I'm just like
+
+180
+0:13:19.500 --> 0:13:21.500
+Really?
+
+181
+0:13:21.980 --> 0:13:23.880
+Active colliders active cut yet
+
+182
+0:13:23.880 --> 0:13:30.740
+You just I know that we have the pseudo physics via the collider at the character colliders that are active, etc
+
+183
+0:13:30.740 --> 0:13:32.980
+Just just don't do it. Just don't do it
+
+184
+0:13:34.940 --> 0:13:38.740
+Electronus points out additional clarifications about collider types double check my table
+
+185
+0:13:38.740 --> 0:13:44.060
+you'll see there, but there's something there an avatar would do that because avatars have the the
+
+186
+0:13:44.580 --> 0:13:46.580
+Colliders on them that do have collision
+
+187
+0:13:47.220 --> 0:13:54.060
+If you wanted to go for the non collision ones then maybe maybe raycast to help there like kind of it like picturing like this
+
+188
+0:13:54.060 --> 0:13:55.060
+weird sort of
+
+189
+0:13:55.060 --> 0:13:59.860
+Robot that flies around the map that just goes like okay couldn't get a collision with my active Collider
+
+190
+0:13:59.940 --> 0:14:06.180
+Pupupu of a bunch of raycast couldn't get a collision with my actual raycast cool. Guess there must not be anything here
+
+191
+0:14:06.180 --> 0:14:13.140
+But yeah, I don't don't descend madly through the through the hierarchy of just drive yourself mad. Oh
+
+192
+0:14:17.580 --> 0:14:21.020
+I'm sorry. I did miss that question. Thank you for re-asking it. I try not to
+
+193
+0:14:21.700 --> 0:14:26.300
+Crafting asks is it possible to make any contact means that aren't arcs. Yes, if you don't use our context menu system
+
+194
+0:14:26.620 --> 0:14:33.180
+I said lots of people do it. They put like UI or tooling that exists on their avatar
+
+195
+0:14:33.180 --> 0:14:35.180
+That is not arc related
+
+196
+0:14:35.180 --> 0:14:39.740
+I guess a good example here is prominent that comes to mind is there is jacks like
+
+197
+0:14:40.020 --> 0:14:45.220
+Wrist gauntlet thing that has a lot of sort of menus and stuff on it on arcs
+
+198
+0:14:45.940 --> 0:14:49.020
+There's lots of people that do sort of customized avatars that go extreme
+
+199
+0:14:49.180 --> 0:14:52.540
+And they've got all sorts of like yeah, just imagine like Iron Man menus in your head
+
+200
+0:14:52.660 --> 0:14:58.300
+There's lots of those that exist those aren't arcs, but if you only use our context menu systems, then nope they gotta be ox
+
+201
+0:14:58.300 --> 0:15:05.180
+And Griffin asks can you reference an item by relative hierarchy path Robin specifics lock ref no?
+
+202
+0:15:06.620 --> 0:15:12.260
+What you're asking therefore is like almost CSS style searching
+
+203
+0:15:13.100 --> 0:15:15.540
+in HTML you can kind of search for like
+
+204
+0:15:16.580 --> 0:15:22.420
+Look for any cube which is under a sphere like you can totally do that in web programming web development
+
+205
+0:15:22.420 --> 0:15:24.900
+It's totally easy to do, but you cannot do that there
+
+206
+0:15:24.900 --> 0:15:28.460
+You might be able to do in the future and the reason I say that is whenever
+
+207
+0:15:28.660 --> 0:15:33.620
+Fruits puts out something that has a text box like dynamic variables parent data links
+
+208
+0:15:34.260 --> 0:15:41.300
+Tag slot names all sorts of stuff like that. He'll sometimes reserve characters so for example inside dynamic variable system
+
+209
+0:15:41.300 --> 0:15:46.260
+There are reserved characters that you can't use for your dynamic variables the reason why those are reserved is so hey
+
+210
+0:15:46.260 --> 0:15:50.500
+Maybe we can do more more complicated string matching later
+
+211
+0:15:50.500 --> 0:15:55.140
+I'll follow this up the question with is it just search by name. Yeah, there's fine child by name which
+
+212
+0:15:55.780 --> 0:15:58.380
+Confined a child by the name. There's no
+
+213
+0:15:59.060 --> 0:16:01.980
+Fancy searching you can do there this fine child by tag
+
+214
+0:16:01.980 --> 0:16:06.620
+There's no fancy searching you can do there to descend also reminder tags are singular
+
+215
+0:16:07.460 --> 0:16:10.100
+Some people get confused about the has tag
+
+216
+0:16:11.540 --> 0:16:18.300
+Node there the reason has tag exists is because it is a shortcut rather than doing get tagged equally cool
+
+217
+0:16:18.300 --> 0:16:20.620
+It's like has tag instead
+
+218
+0:16:20.620 --> 0:16:26.620
+It's it's like one or two less nodes fuzzy ask is there a way to get sound from one place to appear to be coming
+
+219
+0:16:26.620 --> 0:16:28.620
+from another place yes um
+
+220
+0:16:29.100 --> 0:16:31.100
+You know got a video on that one
+
+221
+0:16:31.100 --> 0:16:34.580
+Let me let me see if I can find the video for you, and we'll take a look
+
+222
+0:16:35.460 --> 0:16:37.460
+Yeah, yeah remote audio
+
+223
+0:16:38.460 --> 0:16:40.460
+Essentially though what you do is you?
+
+224
+0:16:41.180 --> 0:16:43.180
+you do
+
+225
+0:16:43.180 --> 0:16:46.220
+Anywhere, there's an audio output component is where?
+
+226
+0:16:46.220 --> 0:16:52.420
+The audio actually comes out of audio output is the is the component that plays the audio so let's say you have a music clip
+
+227
+0:16:52.940 --> 0:16:54.860
+They exist in the world and you play it there
+
+228
+0:16:54.860 --> 0:16:56.220
+There's usually an audio output on it
+
+229
+0:16:56.220 --> 0:17:02.860
+You know the green the green sort of circle thing you could go into that audio clip and you can remove the audio output and wire
+
+230
+0:17:02.860 --> 0:17:08.500
+Up an audio output elsewhere. That's what a lot of the sort of video players DJ systems
+
+231
+0:17:09.260 --> 0:17:14.460
+Surround sound systems do they like take your audio data, and they wire it to different audio sources
+
+232
+0:17:14.460 --> 0:17:19.620
+That's how you get sort of audio around there also check out my public folder. I think it's under gadgets
+
+233
+0:17:19.620 --> 0:17:24.820
+I've got a tin can telephone here remember you know tie two tin cans together a piece of string and then spoke into them
+
+234
+0:17:24.820 --> 0:17:27.900
+I've got that working that uses remote audio to do that
+
+235
+0:17:29.020 --> 0:17:34.180
+That's a bit complicated like if you unpack it. You'll probably go. Oh, that's because I made it like many years ago, but
+
+236
+0:17:34.900 --> 0:17:40.580
+What it essentially does is it redirects your audio output when you're holding a can to the opposite can as an audio output?
+
+237
+0:17:40.580 --> 0:17:46.900
+Moving on to OZ question may have asked this before but is finding a child by tag more efficient than funny by name given the most
+
+238
+0:17:46.900 --> 0:17:48.900
+Objects don't even have text search through
+
+239
+0:17:52.020 --> 0:17:56.380
+Find child by tag let's take a look how this works
+
+240
+0:17:57.380 --> 0:17:59.380
+instance finds child
+
+241
+0:17:59.380 --> 0:18:01.380
+cool, and then
+
+242
+0:18:01.380 --> 0:18:04.380
+t find child by name
+
+243
+0:18:04.380 --> 0:18:12.060
+t find child by name does find child does find child index of
+
+244
+0:18:15.420 --> 0:18:22.460
+Technically, they're about the same. They're probably about the same the reason I say that is because find child by tag
+
+245
+0:18:24.060 --> 0:18:25.980
+has to do
+
+246
+0:18:25.980 --> 0:18:31.500
+Predicate based searching where it's a sort of process each slot and go through the list
+
+247
+0:18:31.500 --> 0:18:37.460
+But find child by name has to do a lot of string stuff, so they're like about the same
+
+248
+0:18:38.100 --> 0:18:42.500
+Find child by name doesn't have to do any sort of predicate matching you can just do a for each so
+
+249
+0:18:43.420 --> 0:18:48.820
+Honestly, you shouldn't have to worry. This is again what I talk about where I'm like if you're worried about performance
+
+250
+0:18:48.820 --> 0:18:52.460
+Let us worry about that. We don't do it right now as much as we should
+
+251
+0:18:53.220 --> 0:18:56.600
+But we did do it with one note that doesn't be released yet
+
+252
+0:18:56.600 --> 0:18:59.840
+but will be other is just count occurrences fruits, and I had a
+
+253
+0:18:59.840 --> 0:19:03.440
+Disagreement and this time is a polite disagreement these happen all the time of programming
+
+254
+0:19:03.440 --> 0:19:10.960
+They're amazing and you should learn to understand that those happen that they're cool about the performance of a counter currencies node
+
+255
+0:19:10.960 --> 0:19:16.440
+And which methodology were doing so we wrote tests to see how fast it was we found a faster methodology for doing that
+
+256
+0:19:16.440 --> 0:19:20.920
+And so in that regard we found the fastest way to do count occurrences
+
+257
+0:19:20.920 --> 0:19:27.160
+And so you as a user should never have to worry about how fast counter currencies is because we've done that testing for you
+
+258
+0:19:27.160 --> 0:19:32.320
+That's the design of Neos right you shouldn't have to worry about performance if you do it means we should do more work
+
+259
+0:19:32.520 --> 0:19:34.520
+We should do more work
+
+260
+0:19:35.040 --> 0:19:37.040
+fuzzy asks about
+
+261
+0:19:37.080 --> 0:19:41.160
+Okay, so the way that it's done with the Tim. Sorry. I'll state the question
+
+262
+0:19:41.160 --> 0:19:46.800
+It's not a question, so I kind of just like paraphrase into a question so fuzzy is asking what I previously said about
+
+263
+0:19:47.600 --> 0:19:53.680
+Audio was only applicable to avatars and not like an in-world microphone, so it's a little bit difficult with like a
+
+264
+0:19:53.680 --> 0:19:58.080
+a user's voice because the only way to obtain a user's voice right now
+
+265
+0:19:58.280 --> 0:20:04.520
+Dynamically is to use an avatar equipping event so the tin can telephone what it technically does when you grab it is
+
+266
+0:20:05.200 --> 0:20:06.800
+you
+
+267
+0:20:06.800 --> 0:20:13.500
+Temporarily get equipped into another avatar. I have stuff inside the avatar that then like shoulder taps the
+
+268
+0:20:14.320 --> 0:20:19.320
+Tin can and says here's the audio stream use it and then you get a quick back to your original avatar
+
+269
+0:20:19.400 --> 0:20:23.200
+So I know you're asking about a clip avatar above that tin can does both of them
+
+270
+0:20:23.200 --> 0:20:29.040
+Um and then what that does is it lets you gain access to it. That's the only way that you can do it with
+
+271
+0:20:30.080 --> 0:20:36.200
+Within avatars voice with a user's voice right now. Is that kind of weird equipping route SLS talks about ref hacking
+
+272
+0:20:36.200 --> 0:20:39.440
+I don't advise ref hacking because it can break at any
+
+273
+0:20:40.160 --> 0:20:44.720
+Moment so don't advise it it could break tomorrow. It could break yesterday
+
+274
+0:20:44.720 --> 0:20:49.280
+I don't know could even technically break during a session it just depends like
+
+275
+0:20:49.280 --> 0:20:56.000
+It's a bit crazy there if you're doing non avatar audio though. There's there's lots that you can do. There's the avatar frame slot
+
+276
+0:20:56.520 --> 0:20:59.320
+That's why there's like a square and you can put the sound effect in it
+
+277
+0:21:00.760 --> 0:21:04.320
+There's a bunch of components for doing that and a bunch of
+
+278
+0:21:04.600 --> 0:21:09.640
+Like stuff there like random audio clip player stuff like that you can redirect that to any audio output throughout the world
+
+279
+0:21:10.040 --> 0:21:15.040
+There's a bunch of like optimizations that can be done with audio outputs. I do want to talk about on a video at some point
+
+280
+0:21:15.040 --> 0:21:20.400
+Something which I see for a lot of for example is when people use those frame slots
+
+281
+0:21:20.400 --> 0:21:24.520
+They forget to remove the audio output on the actual green circle thing
+
+282
+0:21:24.720 --> 0:21:29.180
+But they redirect the audio from the green circle thing to another output like a speaker
+
+283
+0:21:29.200 --> 0:21:33.020
+and what that means is you actually doubled your audio output components, which means you've
+
+284
+0:21:34.200 --> 0:21:39.360
+reduced the available audio outputs that can play concurrently in your world by two instead of one and
+
+285
+0:21:39.360 --> 0:21:46.080
+You could reduce that back and have an extra audio output component something happens. There are a lot in particle systems
+
+286
+0:21:46.080 --> 0:21:48.080
+for example, you can have
+
+287
+0:21:48.200 --> 0:21:51.800
+The same particle system in use by two different emitters
+
+288
+0:21:52.040 --> 0:21:57.600
+So let's say you're walking through a hall of fire and you've got fire coming out of the wall into you know
+
+289
+0:21:57.600 --> 0:22:04.160
+Like a sort of Indiana Jones temple star thing. What I'll see is basically each fire on every side of the wall is its own
+
+290
+0:22:04.160 --> 0:22:10.200
+Particle system and part on a particle emitter. And so there's competing systems that are all firing fire
+
+291
+0:22:10.200 --> 0:22:12.200
+They're all in the same particle same effect
+
+292
+0:22:12.440 --> 0:22:17.120
+Instead what you can do is have one particle system and an emitter first side of the wall
+
+293
+0:22:17.120 --> 0:22:24.600
+And what that lets you do is change everything about the particles from one location and is slightly more efficient slightly
+
+294
+0:22:25.480 --> 0:22:27.360
+It also means that you can sort of
+
+295
+0:22:27.360 --> 0:22:35.560
+Globally control the number of particles for that particular fire walk in its entirety and know exactly how many particles exist
+
+296
+0:22:35.560 --> 0:22:39.200
+For the entire walkway rather than for each flame at the same time
+
+297
+0:22:39.200 --> 0:22:43.320
+And if you want the flames to be different color, you only have to write it one place. So that's a good tip there. Oh
+
+298
+0:22:44.680 --> 0:22:50.360
+It's it's great when when people have to continually ask better and better questions to get exactly what they need
+
+299
+0:22:50.360 --> 0:22:50.880
+I love it
+
+300
+0:22:50.880 --> 0:22:57.360
+So fuzzy has updated the question again and saying that they would like to pull audio from the world itself including avatar or ambient noise
+
+301
+0:22:57.360 --> 0:22:59.360
+You're talking more about sort of
+
+302
+0:22:59.960 --> 0:23:03.480
+Recording what's going on in the world from a from an audio point of view?
+
+303
+0:23:04.000 --> 0:23:11.720
+That we don't really have anything for and the reason is that like audio coming like out to your ears only goes through one
+
+304
+0:23:11.720 --> 0:23:17.920
+Thing there. I think there's technically like something in the unity side of things which is the component that does that
+
+305
+0:23:17.920 --> 0:23:24.200
+It's like the the point in space where you hear the audio coming from. There's only like one of those right now
+
+306
+0:23:24.840 --> 0:23:26.400
+And that exists in your head
+
+307
+0:23:26.400 --> 0:23:32.780
+There's a bunch of stuff that like only exists inside the unity side of things and it's completely invisible to you
+
+308
+0:23:32.960 --> 0:23:36.820
+It might be an audio listener component. I could open up the unity project
+
+309
+0:23:36.820 --> 0:23:40.440
+It's usually quite scary when I do that. It tries to recompile shaders sometimes which takes two days
+
+310
+0:23:40.440 --> 0:23:47.800
+I'll find it at some point. But yeah, like it's uh, there's lots of like unity related stuff
+
+311
+0:23:47.800 --> 0:23:52.720
+That we hope to open up to you at some point. They then be able to mess around with for example
+
+312
+0:23:52.720 --> 0:23:58.140
+I'm quite interested in we want to do sort of voice calling or in some cases video calling between people in the
+
+313
+0:23:58.600 --> 0:24:06.400
+In in Neos and to do that we would need like a better system for audio listeners as they're called
+
+314
+0:24:06.400 --> 0:24:11.440
+So ears in the world, there's lots of ways to make like, you know mouths and speakers and stuff like that
+
+315
+0:24:11.440 --> 0:24:16.720
+There's only one ear that exists inside your avatar. It's right in the middle head
+
+316
+0:24:17.360 --> 0:24:19.360
+jumping around
+
+317
+0:24:19.680 --> 0:24:25.040
+electronicis what's the limit on audio outputs? I never forget. I never forget. I always forget
+
+318
+0:24:25.040 --> 0:24:28.540
+I always forget that it is something along the lines of 32 to 64
+
+319
+0:24:28.760 --> 0:24:32.420
+I would always give yourself a little bit of headroom and aim for maybe 28
+
+320
+0:24:32.420 --> 0:24:37.340
+just because you've got to remember the people in the world are technically an audio source as are
+
+321
+0:24:37.980 --> 0:24:40.880
+Context menus or bells on their neck, by the way
+
+322
+0:24:40.880 --> 0:24:44.580
+If you have a bell on your neck that rings when you move around, please adjust it
+
+323
+0:24:44.580 --> 0:24:49.340
+So it's not on the global audio channel and consider making it not make noise at all. Thank you
+
+324
+0:24:50.540 --> 0:24:55.740
+Like you're taking up an audio output from the rest of the session to be annoying. Sorry
+
+325
+0:24:55.740 --> 0:24:57.420
+That's just the way it is
+
+326
+0:24:57.420 --> 0:25:04.580
+electronicis, but they're the most important more show me your importance through being a good person and through the work that you do inside me
+
+327
+0:25:04.580 --> 0:25:06.180
+So I don't even mean the stuff that you create
+
+328
+0:25:06.180 --> 0:25:10.860
+I mean being a community member and then you'll get all my attention, especially if you write talks
+
+329
+0:25:11.340 --> 0:25:15.700
+Fuzzy ask is there a way to swap left and right audio channels and someone know
+
+330
+0:25:16.380 --> 0:25:20.540
+You might be able to do that in the user inspector. But again, I wouldn't really advise it
+
+331
+0:25:21.060 --> 0:25:24.900
+If you do with the developer to create new editor user inspector
+
+332
+0:25:24.900 --> 0:25:27.860
+There's a bunch of stuff in there and like if you play over the wrong thing
+
+333
+0:25:27.860 --> 0:25:32.620
+You will crash your game or you will disconnect yourself from the rest of the like just be careful with that stuff
+
+334
+0:25:32.700 --> 0:25:37.020
+But you might be you might be able to do it in there. Don't negatively scale ahead
+
+335
+0:25:37.900 --> 0:25:39.900
+Audio has nothing to do with
+
+336
+0:25:40.300 --> 0:25:46.100
+Like what your head looks like there is something in like how small you get that can affect the audio
+
+337
+0:25:46.740 --> 0:25:53.580
+That's because the audio engine sort of on a sort of how big things are and tries to sort of mess around audio on that
+
+338
+0:25:53.580 --> 0:25:57.380
+You'll notice that on an audio output. There's like in the scale max scale
+
+339
+0:25:57.380 --> 0:25:59.580
+I haven't played with that person because I don't really understand it
+
+340
+0:25:59.580 --> 0:26:04.260
+But maybe you're making like a borrower's game and you need like bigger things to sound bigger
+
+341
+0:26:04.260 --> 0:26:10.060
+I don't know. It's there play around with it. Fuzzy says it'll be interesting challenge. Sorry Fuzzy Fox. There's two to two Fuzzy's
+
+342
+0:26:10.700 --> 0:26:12.500
+says
+
+343
+0:26:12.500 --> 0:26:18.740
+Fuzzy challenge to play with reversed audio. Um, when you say reversed you mean swapped L and right L R
+
+344
+0:26:18.740 --> 0:26:20.740
+Sorry
+
+345
+0:26:21.820 --> 0:26:26.820
+Or do you mean like reversed as in speaking backwards? Oh, they mean to know them. Oh, yeah
+
+346
+0:26:28.140 --> 0:26:30.060
+Yeah, be interesting. I don't know
+
+347
+0:26:30.060 --> 0:26:34.580
+Take a look at I'm gonna forget the name of it and probably spend like 20 minutes trying to find it if anyone knows it
+
+348
+0:26:34.580 --> 0:26:40.340
+In the in the channel, please please please drop it by there is a audio only RPG game on Steam
+
+349
+0:26:40.340 --> 0:26:44.020
+It won a bunch of awards you play it you play it with your eyes closed
+
+350
+0:26:44.020 --> 0:26:47.260
+I mean there is text on the screen if you want to but like you don't see your character
+
+351
+0:26:47.260 --> 0:26:53.260
+You don't see the enemies, but you can like battle people have like full-on boss fights. You don't see anything. It's amazing
+
+352
+0:26:54.140 --> 0:26:55.500
+moving on to
+
+353
+0:26:55.500 --> 0:27:01.140
+Additional questions actually just a little anecdote before we get on to the next question here because I see business lawyer in there
+
+354
+0:27:01.140 --> 0:27:04.540
+There was one time when business lawyers microphone was emitting
+
+355
+0:27:05.220 --> 0:27:10.660
+Absolutely eldritch cosmic horror noises. I don't remember why I think it's something to do Windows 10
+
+356
+0:27:10.940 --> 0:27:13.420
+But they joined Aegis wolf and I on
+
+357
+0:27:13.420 --> 0:27:16.420
+The moon landing world
+
+358
+0:27:16.420 --> 0:27:22.300
+She's already quite sort of dark and dreary and dim and spooky and they just like because it's also spherical gravity
+
+359
+0:27:22.300 --> 0:27:28.740
+They kind of like crested over a hill of this spherical gravity world and they were just like speaking just absolute
+
+360
+0:27:29.180 --> 0:27:33.660
+Horror at us and it was terrifying at a recording of in-game
+
+361
+0:27:33.660 --> 0:27:36.620
+I will try and get it outside a game so I can post it here
+
+362
+0:27:36.620 --> 0:27:43.460
+But it was it was terrifying on the audio recording. I have it includes the hitch that would happen before
+
+363
+0:27:43.460 --> 0:27:48.540
+We had a good garbage collector, which was the long you played Neos the worst the hitch got
+
+364
+0:27:49.140 --> 0:27:52.780
+And you knew it was happening because all the audio sources would hitch you'd hear like
+
+365
+0:27:53.300 --> 0:27:58.640
+And they would like get through the hitch and his cosmic horror recording includes some of that
+
+366
+0:27:58.640 --> 0:28:03.220
+It was terrible especially with the glowing bird eyes of the beak
+
+367
+0:28:03.220 --> 0:28:09.580
+Just sort of like bouncing up and down of this like oh, it was terrible. Yeah, it was really old like first couple of months
+
+368
+0:28:09.580 --> 0:28:13.060
+I was scared like I was scared and then once I was scared
+
+369
+0:28:13.060 --> 0:28:16.740
+It was business lawyer periodically coming back into the world and trying to see if it was fixed or not
+
+370
+0:28:17.620 --> 0:28:19.140
+moving to
+
+371
+0:28:19.140 --> 0:28:21.600
+Last questions, I guess because we're running over in time
+
+372
+0:28:22.980 --> 0:28:28.180
+Girl Griffin asked us an intimate audio source keep a channel busy. Yes, depending on how you use it
+
+373
+0:28:28.900 --> 0:28:30.900
+There are people here that will disagree
+
+374
+0:28:30.900 --> 0:28:33.260
+periodically with what I say, but
+
+375
+0:28:34.580 --> 0:28:38.100
+Use play one shot more lots of people like don't use play one shot these days
+
+376
+0:28:38.100 --> 0:28:43.460
+I see lots of sort of parented audio outputs or parented green circles, etc
+
+377
+0:28:44.060 --> 0:28:48.280
+The reason I say use play one shot more is because it creates and then deletes the audio output
+
+378
+0:28:48.300 --> 0:28:51.540
+It creates then deletes the audio output and people say well it makes a slot
+
+379
+0:28:51.540 --> 0:28:55.100
+I'm like yeah, but we can optimize that for you like if that's got a problem
+
+380
+0:28:55.100 --> 0:29:00.100
+We'll optimize it for you like maybe we'll do a play one shot update where it doesn't create a slot
+
+381
+0:29:00.100 --> 0:29:04.740
+And it'll be more performant if you go out of your way to make systems that we don't understand
+
+382
+0:29:04.740 --> 0:29:09.980
+We can't optimize them for you later. So I always advise wherever you can play one shot
+
+383
+0:29:09.980 --> 0:29:12.060
+It's it's just a lot better
+
+384
+0:29:12.140 --> 0:29:19.340
+It creates the audio output and then removes it if you need to have the audio output around good example here would be repetitive
+
+385
+0:29:19.900 --> 0:29:26.920
+Noise that needs to occur background music or like ambience stuff like that crickets wind howling stuff like that go for it
+
+386
+0:29:26.920 --> 0:29:34.080
+But the moment you don't need that sound turn off the audio outputs enabled flag the enabled flag and needs to be off if you're not
+
+387
+0:29:34.160 --> 0:29:40.960
+Outputting audio through the audio output turn off the enabled property of the audio output that will mean it won't count to your limit
+
+388
+0:29:41.240 --> 0:29:43.240
+But it can still exist and be there
+
+389
+0:29:43.400 --> 0:29:50.240
+Footsteps you should question why you need footsteps if it's a game world or you've got atmosphere sure if your avatar individually has footsteps
+
+390
+0:29:51.040 --> 0:29:54.420
+My headaches do not like that spec says
+
+391
+0:29:54.420 --> 0:29:55.860
+if
+
+392
+0:29:55.860 --> 0:29:57.940
+They suggest play one shot
+
+393
+0:29:57.940 --> 0:30:01.340
+But maybe limit if it's spammable like no more than 380 plays in a time
+
+394
+0:30:01.340 --> 0:30:02.900
+We did keep audio source counselor
+
+395
+0:30:02.900 --> 0:30:03.380
+Yeah
+
+396
+0:30:03.380 --> 0:30:08.940
+Do keep an eye on that one if you spam it then you will create more than you would have found if you had used
+
+397
+0:30:08.940 --> 0:30:10.940
+a static audio output
+
+398
+0:30:11.980 --> 0:30:14.640
+Something which I usually do and do advise doing a lot more
+
+399
+0:30:15.220 --> 0:30:21.180
+Particular things like play one shot and also raycast and stuff like that is make sure that you're filtering the user that the impulse occurs
+
+400
+0:30:21.180 --> 0:30:26.220
+Into just one user like sometimes, you know, it's just a one user like if it's on a button push or something like that
+
+401
+0:30:26.220 --> 0:30:32.460
+but if you're not sure there's throw in a equal equal if node and don't fire the impulse because uh
+
+402
+0:30:32.740 --> 0:30:34.980
+That leads to problems sometimes, you know
+
+403
+0:30:34.980 --> 0:30:40.260
+You'll you'll have an impulse that you didn't expect to be able to be caused by multiple users
+
+404
+0:30:40.420 --> 0:30:47.460
+Being caused by multiple users and then at point you'll have n sounds rather than one sound because n is the net of people in
+
+405
+0:30:47.460 --> 0:30:48.460
+the world
+
+406
+0:30:48.460 --> 0:30:51.820
+Fuzzy Fox asks is the audio limited because the audio system we're using yes
+
+407
+0:30:51.820 --> 0:30:56.260
+It's a unity limitation those limitations do exist in a lot of audio engines
+
+408
+0:30:56.900 --> 0:30:58.980
+It just depends on the ones that we are using
+
+409
+0:30:58.980 --> 0:31:05.220
+I don't know what it would be or how prevalent it would be but I would I would estimate the the unreal has it
+
+410
+0:31:05.220 --> 0:31:11.920
+I'd estimate that cry engine has it I would estimate that they all have it. It's just the way that audio works in some regards
+
+411
+0:31:12.300 --> 0:31:17.380
+I'd like it to not be there but like but probably need a new audio engine for that. I don't know whatever
+
+412
+0:31:17.380 --> 0:31:21.900
+It's good that it needs to be there though. If you think of like traditional game programming
+
+413
+0:31:22.500 --> 0:31:28.060
+The audio engineers you'll see that on the credits of our audio engineer. What does that mean? That means both sort of mixing?
+
+414
+0:31:28.660 --> 0:31:31.620
+Creating the sound stuff like that. That's more audio production though
+
+415
+0:31:31.620 --> 0:31:36.860
+But that also means like how the audio feels in the game and how it's activated in the game
+
+416
+0:31:36.860 --> 0:31:42.540
+it's very very complicated and they would keep an eye on how many audio sources they had even if there wasn't a limit because
+
+417
+0:31:42.540 --> 0:31:47.340
+Audio is resources dresse ask about sound filters. We do have some but they only apply to
+
+418
+0:31:48.420 --> 0:31:51.580
+Globalized audio right now and they're also sort of like a box, right?
+
+419
+0:31:51.580 --> 0:31:54.540
+So there are a cube around you that does that effect?
+
+420
+0:31:54.540 --> 0:31:59.260
+I would like to be able to sort of more limit that to particular sounds etc. It's good for voices
+
+421
+0:31:59.260 --> 0:32:03.120
+But again, it's only on broadcast audio. So annoying that is an audio engine limitation
+
+422
+0:32:04.100 --> 0:32:06.100
+Yeah, if you wanna know more about audio
+
+423
+0:32:06.100 --> 0:32:13.260
+Um speak to ng and if you want to know more about randomized audio stuff speak to fur who does audio for roller coasters
+
+424
+0:32:13.260 --> 0:32:15.260
+That's a really interesting conversation
+
+425
+0:32:15.260 --> 0:32:20.140
+Ask them about the Hagrid ride ask them about the Hagrid ride with that. I think we're done
+
+426
+0:32:20.140 --> 0:32:22.500
+We're running way over on time here
+
+427
+0:32:23.340 --> 0:32:25.700
+So I will go ahead and leave off here
+
+428
+0:32:25.700 --> 0:32:30.020
+if you have other questions, feel free to DM me any time and I will get back to you as soon as I can and
+
+429
+0:32:30.020 --> 0:32:35.700
+And this will be up on sound later today. You'll have a good day. Bye. Bye
+
