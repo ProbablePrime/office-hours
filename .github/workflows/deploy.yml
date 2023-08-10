@@ -22,6 +22,7 @@ jobs:
       - run: node ./scripts/compileData.mjs
         env:
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
+      - run: pwd
       - run: ls _data
       - run: ls scripts
       - run: ls
