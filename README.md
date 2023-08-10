@@ -4,7 +4,7 @@ Every Tuesday in the Neos Discord, I host a 30 minute AMA/Office Hours session a
 
 We kept having storage, sync, processing etc issues that resultant in a loss of coverage or loss of files etc. Due to that I've just built my own.
 
-This is an [Eleventy](https://www.11ty.dev/) site, that just spits out static HTML for each episode.
+This is an [Eleventy](https://www.11ty.dev/) site, that just spits out static HTML for each episode. You can find it live [here](https://officehours.probableprime.co.uk)
 
 ## Features
 - 1 Page per episode

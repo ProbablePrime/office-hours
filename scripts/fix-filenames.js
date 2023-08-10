@@ -1,3 +1,6 @@
+// Prime isn't that good at being consistent with file names, this fixes them.
+// Not really used after its initial use, but checked in because prosperity.
+
 const fs = require('fs');
 
 const files = fs.readdirSync('srt');
