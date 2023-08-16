@@ -26,8 +26,8 @@ async function main() {
         return {
           title: episode.replace('.vtt',''),
           audio: '/audio/' + episode.replace('.vtt','.ogg'),
-          vtt: '/vtt/' + episode,
-          srt: '/srt/' + episode.replace('.vtt','.srt'),
+          vtt: '/subtitles/' + episode,
+          srt: '/subtitles/' + episode.replace('.vtt','.srt'),
         }
       }));
       isTruncated = IsTruncated;
