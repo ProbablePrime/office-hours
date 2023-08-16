@@ -3,6 +3,7 @@
 // https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
 // https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/cross-services/transcription-app
 // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/transcribe-examples-section.html
+// https://docs.aws.amazon.com/transcribe/latest/APIReference/API_StartTranscriptionJob.html#transcribe-StartTranscriptionJob-request-OutputKey
 // Auth is loaded from the environment variables
 if (!process.env.CI)
   require('dotenv').config();
