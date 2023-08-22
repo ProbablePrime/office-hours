@@ -29,7 +29,11 @@ async function processRecord(record) {
     if (!record.s3)
         return;
     const bucketName = record.s3.bucket.name;
+    //Does the filename include the prefix?
+    // No: https://dev.to/aws-builders/how-to-trigger-an-aws-lambda-from-s3-events-53c3
+    // https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html
     const fileName = decodeURIComponent(record.s3.object.key.replace(/\+/g, ' '));
+
 
     // We do filtering in the event configuration but i'll also do it here just in case, I like doing this so my code has less.... stuff in my brain.
     if (!fileName.includes('.ogg'))
