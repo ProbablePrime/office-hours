@@ -12,7 +12,7 @@ const client = new S3Client({region:"us-east-1"});
 async function main() {
   const command = new ListObjectsV2Command({
     Bucket: process.env.S3_BUCKET,
-    Prefix:"vtt"
+    Prefix:"audio"
   });
   try {
     let isTruncated = true;
@@ -22,12 +22,12 @@ async function main() {
     while (isTruncated) {
       const { Contents, IsTruncated, NextContinuationToken } = await client.send(command);
       episodeList = episodeList.concat(episodeList, Contents.map((c) => {
-        const episode = c.Key.replace("vtt/","");
+        const episode = c.Key.replace("audio/","");
         return {
-          title: episode.replace('.vtt',''),
-          audio: '/audio/' + episode.replace('.vtt','.ogg'),
-          vtt: '/subtitles/' + episode,
-          srt: '/subtitles/' + episode.replace('.vtt','.srt'),
+          title: episode.replace('.ogg',''),
+          audio: '/audio/' + episode,
+          vtt: '/subtitles/' + episode.replace('.ogg', '.vtt'),
+          srt: '/subtitles/' + episode.replace('.ogg','.srt'),
         }
       }));
       isTruncated = IsTruncated;
