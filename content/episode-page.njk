@@ -54,10 +54,10 @@ permalink: "episodes/{{ episode.title | slugify }}/"
 				font-size: 1.25em;
 			}
 		</style>
-	
+	</head>
 	<body>
 		<div id="container">
-			<p id="subtitles">TEST SENTENCE WITH TEXT WRAPPING</p>
+			<p id="subtitles">SUBTITLES WILL APPEAR HERE</p>
 			<audio controls id="audio" width="800" height="600" preload="none">
 				<source type="audio/ogg" src="{{episode.audio}}" />
 				<track src="{{episode.vtt}}" label="English" srclang="en" data-encoding="iso-8859-2" kind="subtitles" default>
