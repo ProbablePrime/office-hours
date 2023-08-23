@@ -17,22 +17,11 @@ permalink: "episodes/{{ episode.title | slugify }}/"
 			body {
 				background: radial-gradient(#1e88e5, rgb(127, 183, 252));
   				background-repeat: no-repeat;
-				overflow: hidden;
+				height: 100%;
+				min-height: 100%;
 			}
-			#container {
-				position: absolute;
-				margin: auto;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				width:30vmax;
-				height:25vmin;
-
-				display: flex;
-  				justify-content: center;
-  				align-items: center;
-				flex-direction: column;
+			html {
+				height: 100%;
 			}
 			#subtitles {
 				width:100%;
@@ -52,6 +41,21 @@ permalink: "episodes/{{ episode.title | slugify }}/"
 			}
 			a {
 				font-size: 1.25em;
+			}
+			#container {
+				position: absolute;
+				margin: auto;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width:30vmax;
+				height:25vmin;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
 			}
 		</style>
 	</head>
