@@ -9,6 +9,10 @@ module.exports = function(eleventyConfig) {
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
+	eleventyConfig.addFilter("toNeosOutput", function(value) {
+		return `${value.title}|${value.audio}|${value.srt}`;
+	});
+
 	return {
 		// Control which files Eleventy will process
 		// e.g.: *.md, *.njk, *.html, *.liquid
