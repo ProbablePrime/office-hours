@@ -13,6 +13,11 @@ This is an [Eleventy](https://www.11ty.dev/) site, that just spits out static HT
     - OGG/MP3 File
 - Index page that lists episodes
 
+### Manifests
+If you're building a tool to access these episodes, then you can use the following urls to access a manifest of the episodes:
+- JSON: https://officehours.probableprime.co.uk/api/manifest.json
+- Neos Compatible Output(Pipe separated): https://officehours.probableprime.co.uk/api/manifest.neos
+
 ## Principles
 - 0 JS Frameworks in the output. I'm a little perturbed when I see static site generators that output buckets of JS.
 - HTML5 Stuff only, there are custom players but why use them
