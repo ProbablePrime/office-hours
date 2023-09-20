@@ -9,6 +9,14 @@ const { S3Client, ListObjectsV2Command } = require("@aws-sdk/client-s3");
 //TODO ENV this
 const client = new S3Client({region:"us-east-1"});
 
+function tryParseDate(input) {
+  let date = new Date(input);
+  if(isNaN(date)) {
+    return null;
+  }
+  return date;
+}
+
 async function main() {
   const command = new ListObjectsV2Command({
     Bucket: process.env.S3_BUCKET,
@@ -23,12 +31,14 @@ async function main() {
       const { Contents, IsTruncated, NextContinuationToken } = await client.send(command);
       episodeList = episodeList.concat(episodeList, Contents.map((c) => {
         const episode = c.Key.replace("audio/","");
-        return {
+        let episodeObject = {
           title: episode.replace('.ogg',''),
           audio: '/audio/' + episode,
           vtt: '/subtitles/' + episode.replace('.ogg', '.vtt'),
           srt: '/subtitles/' + episode.replace('.ogg','.srt'),
-        }
+        };
+        episodeObject.date = tryParseDate(episodeObject.title);
+        return episodeObject;
       }));
       isTruncated = IsTruncated;
       command.input.ContinuationToken = NextContinuationToken;
