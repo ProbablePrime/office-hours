@@ -6,6 +6,9 @@ if (!process.env.CI)
 const fs = require('fs');
 const { S3Client, ListObjectsV2Command } = require("@aws-sdk/client-s3");
 
+// https://www.youtube.com/shorts/gWzb84rVg78
+const october3rd = new Date("2023-10-03");
+
 //TODO ENV this
 const client = new S3Client({region:"us-east-1"});
 
@@ -36,8 +39,13 @@ async function main() {
           audio: '/audio/' + episode,
           vtt: '/subtitles/' + episode.replace('.ogg', '.vtt'),
           srt: '/subtitles/' + episode.replace('.ogg','.srt'),
+          tags: [],
         };
         episodeObject.date = tryParseDate(episodeObject.title);
+        if (episodeObject.date !== null && episodeObject.date < october3rd ) {
+          episodeObject.tags.push("old");
+        }
+
         return episodeObject;
       }));
       isTruncated = IsTruncated;

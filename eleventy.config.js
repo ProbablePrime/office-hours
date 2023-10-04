@@ -13,6 +13,10 @@ module.exports = function(eleventyConfig) {
 		return `${value.title}|${value.audio}|${value.srt}`;
 	});
 
+	eleventyConfig.addFilter("notTagged", function(episodes, tags) {
+		return episodes.filter(episode => episode.tags.every(t => !tags.includes(t)));
+	});
+
 	eleventyConfig.addFilter('toJSON', JSON.stringify);
 
 	return {
