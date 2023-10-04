@@ -13,8 +13,19 @@ module.exports = function(eleventyConfig) {
 		return `${value.title}|${value.audio}|${value.srt}`;
 	});
 
+
 	eleventyConfig.addFilter("notTagged", function(episodes, tags) {
 		return episodes.filter(episode => episode.tags.every(t => !tags.includes(t)));
+	});
+
+	// https://stevenwoodson.com/blog/a-step-by-step-guide-to-sorting-eleventy-global-data-files-by-date/
+	/**
+	* Sort by data files `date` field
+	*/
+	eleventyConfig.addFilter("sortDataByDate", (obj) => {
+		return obj.sort((a, b) => {
+			return a.date > b.date ? 1 : -1;
+		});
 	});
 
 	eleventyConfig.addFilter('toJSON', JSON.stringify);

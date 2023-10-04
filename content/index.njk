@@ -27,7 +27,7 @@
 			Hi, welcome to my office hours page. So uh Sounder shut down, office hours was deleted from the wiki, and most podcast platforms don't support subtitles/transcriptions in a way that's compatible with the existing files. So I uh built my own yay!
 			</p>
 			<ul>
-			{% for episode in episodes | notTagged(['old']) %}
+			{%- for episode in episodes | notTagged(['old']) | sortDataByDate | reverse -%}
 			<li><a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a></li>
 			{% endfor %}
 			</ul>
