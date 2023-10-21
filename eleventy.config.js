@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
-	eleventyConfig.addFilter("toNeosOutput", function(value) {
+	eleventyConfig.addFilter("toGameOutput", function(value) {
 		return `${value.title}|${value.audio}|${value.srt}`;
 	});
 
