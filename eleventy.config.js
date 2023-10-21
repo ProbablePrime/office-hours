@@ -10,7 +10,10 @@ module.exports = function(eleventyConfig) {
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	eleventyConfig.addFilter("toGameOutput", function(value) {
-		return `${value.title}|${value.audio}|${value.srt}`;
+		if (value.tags.contains('old')){
+			value.title = `${value.title} - OLD`;
+		}
+		return `${value.title}|https://officehours.probableprime.co.uk${value.audio}|https://officehours.probableprime.co.uk${value.srt}`;
 	});
 
 
