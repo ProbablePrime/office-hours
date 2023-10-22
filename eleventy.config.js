@@ -18,6 +18,10 @@ module.exports = function(eleventyConfig) {
 		return episodes.filter(episode => episode.tags.every(t => !tags.includes(t)));
 	});
 
+	eleventyConfig.addFilter("tagged", function(episodes, tags) {
+		return episodes.filter(episode => episode.tags.every(t => tags.includes(t)));
+	});
+
 	// https://stevenwoodson.com/blog/a-step-by-step-guide-to-sorting-eleventy-global-data-files-by-date/
 	/**
 	* Sort by data files `date` field

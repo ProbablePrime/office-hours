@@ -19,18 +19,31 @@
 			a {
 				font-size: 1.25em;
 			}
+			.grid {
+				display: grid;
+				grid-auto-columns: auto;
+				grid-template-columns: repeat(3, 0.2fr);
+				gap: 20px;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="container">
 			<p>
-			Hi, welcome to my office hours page. So uh Sounder shut down, office hours was deleted from the wiki, and most podcast platforms don't support subtitles/transcriptions in a way that's compatible with the existing files. So I uh built my own yay!
+			Hi, welcome to the office hours page. I uh accidentally built my own podcast platform yay!
 			</p>
-			<ul>
-			{%- for episode in episodes | notTagged(['old']) | sortDataByDate | reverse -%}
-			<li><a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a></li>
-			{% endfor %}
-			</ul>
+			<div class="grid">
+				{%- for type in episodes.types -%}
+				<div class="column">
+					<h2>{{type}}</h2>
+					<ul>
+						{%- for episode in episodes.episodes | tagged([type]) | notTagged(['old']) | sortDataByDate | reverse -%}
+						<li><a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endfor %}
+			</div>
 			<p>You want older episodes...? They're <a href="/old">here</a></p>
 		</div>
 	</body>

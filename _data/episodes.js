@@ -20,6 +20,13 @@ function tryParseDate(input) {
   return date;
 }
 
+function extractType(s) {
+  var index = s.indexOf('-');
+  if (index == -1)
+    return "Unknown";
+  return s.substr(0,index);
+}
+
 async function main() {
   const command = new ListObjectsV2Command({
     Bucket: process.env.S3_BUCKET,
@@ -27,31 +34,41 @@ async function main() {
   });
   try {
     let isTruncated = true;
-
-    let episodeList = [];
+    const episodeList = [];
+    const types = [];
 
     while (isTruncated) {
       const { Contents, IsTruncated, NextContinuationToken } = await client.send(command);
-      episodeList = episodeList.concat(episodeList, Contents.map((c) => {
-        const episode = c.Key.replace("audio/","");
+
+      Contents.forEach((c) => {
+        const episodeName = c.Key.replace("audio/","");
+        const type = extractType(episodeName);
+        if (!types.includes(type))
+          types.push(type);
+
         let episodeObject = {
-          title: episode.replace('.ogg',''),
-          audio: '/audio/' + episode,
-          vtt: '/subtitles/' + episode.replace('.ogg', '.vtt'),
-          srt: '/subtitles/' + episode.replace('.ogg','.srt'),
+          title: episodeName.replace('.ogg',''),
+          audio: '/audio/' + episodeName,
+          vtt: '/subtitles/' + episodeName.replace('.ogg', '.vtt'),
+          srt: '/subtitles/' + episodeName.replace('.ogg','.srt'),
           tags: [],
         };
         episodeObject.date = tryParseDate(episodeObject.title);
         if (episodeObject.date !== null && episodeObject.date < october3rd ) {
           episodeObject.tags.push("old");
         }
+        episodeObject.tags.push(type);
 
-        return episodeObject;
-      }));
+        episodeList.push(episodeObject);
+      });
       isTruncated = IsTruncated;
       command.input.ContinuationToken = NextContinuationToken;
     }
-    return episodeList;
+
+    return {
+      episodes: episodeList,
+      types: types
+    };
   } catch (err) {
     console.error(err);
     return [];
