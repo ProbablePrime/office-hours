@@ -15,8 +15,12 @@ permalink: "episodes/{{ episode.title | slugify }}/"
 				color:#FFF;
 			}
 			body {
+				{%- if episode.type == "Geenz" -%}
+				background: radial-gradient(#670089, rgb(136 0 159));
+				{%- else -%}
 				background: radial-gradient(#1e88e5, rgb(127, 183, 252));
-  				background-repeat: no-repeat;
+				{%- endif -%}
+				background-repeat: no-repeat;
 				height: 100%;
 				min-height: 100%;
 			}
