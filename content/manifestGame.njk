@@ -1,5 +1,5 @@
 ---
 permalink: /api/manifest.game
 ---
-{% for episode in episodes %}
+{% for episode.episodes in episodes %}
 {{episode | toGameOutput}}{% endfor %}
