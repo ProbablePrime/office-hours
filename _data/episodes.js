@@ -52,6 +52,7 @@ async function main() {
           vtt: '/subtitles/' + episodeName.replace('.ogg', '.vtt'),
           srt: '/subtitles/' + episodeName.replace('.ogg','.srt'),
           tags: [],
+          type: type,
         };
         episodeObject.date = tryParseDate(episodeObject.title);
         if (episodeObject.date !== null && episodeObject.date < october3rd ) {
