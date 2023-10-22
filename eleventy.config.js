@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
 		if (value.tags.contains('old')){
 			value.title = `${value.title} - OLD`;
 		}
-		return `${value.title}|https://officehours.probableprime.co.uk${value.audio}|https://officehours.probableprime.co.uk${value.srt}`;
+		return `${value.title}|https://officehours.probableprime.co.uk${value.audio}|https://officehours.probableprime.co.uk${value.srt}|${value.type}`;
 	});
 
 
