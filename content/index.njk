@@ -39,10 +39,10 @@
 					<ul>
 						{%- for episode in episodes.episodes | tagged([type]) | notTagged(['old']) | sortDataByDate | reverse -%}
 						<li><a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a></li>
-						{% endfor %}
+						{%- endfor -%}
 					</ul>
 				</div>
-				{% endfor %}
+				{%- endfor -%}
 			</div>
 			<p>You want older episodes...? They're <a href="/old">here</a></p>
 		</div>
