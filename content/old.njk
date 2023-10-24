@@ -24,10 +24,10 @@
 	<body>
 		<div id="container">
 			<p>
-			Hi, welcome to my office hours page. So uh Sounder shut down, office hours was deleted from the wiki, and most podcast platforms don't support subtitles/transcriptions in a way that's compatible with the existing files. So I uh built my own yay!
+			Hi, welcome to the office hours page. I uh accidentally built my own podcast platform yay!
 			</p>
 			<ul>
-			{% for episode in episodes %}
+			{%- for episode in episodes.episodes | tagged(['old']) | sortDataByDate | reverse -%}
 			<li><a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a></li>
 			{% endfor %}
 			</ul>
