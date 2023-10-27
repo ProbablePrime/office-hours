@@ -31,18 +31,18 @@
 			Hi, welcome to the office hours page. I uh accidentally built my own podcast platform yay!
 			</p>
 			<div class="grid">
-			{% for type in episodes.types %}
+			{%- for type in episodes.types %}
 				<div class="column">
 					<h2>{{type}}</h2>
 					<ul>
-					{% for episode in episodes.episodes | tagged([type]) | notTagged(['old']) | sortDataByDate | reverse %}
+					{%- for episode in episodes.episodes | tagged([type]) | notTagged(['old']) | sortDataByDate | reverse %}
 						<li>
 							<a href="episodes/{{episode.title | slugify}}">{{episode.title}}</a>
 						</li>
-					{% endfor %}
+					{%- endfor %}
 					</ul>
 				</div>
-			{% endfor %}
+			{%- endfor %}
 			</div>
 			<p>You want older episodes...? They're <a href="/old">here</a></p>
 		</div>
