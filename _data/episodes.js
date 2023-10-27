@@ -54,7 +54,7 @@ async function main() {
           tags: [],
           type: type,
         };
-        episodeObject.date = tryParseDate(episodeObject.title);
+        episodeObject.date = tryParseDate(episodeObject.title.replace(type+'-',''));
         if (episodeObject.date !== null && episodeObject.date < october3rd ) {
           episodeObject.tags.push("old");
         }

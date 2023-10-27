@@ -10,10 +10,11 @@ module.exports = function(eleventyConfig) {
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	eleventyConfig.addFilter("toGameOutput", function(value) {
+		var title = value.title;
 		if (value.tags.includes('old')){
-			value.title = `${value.title} - OLD`;
+			title = title + ` - OLD`;
 		}
-		return `${value.title}|https://officehours.probableprime.co.uk${value.audio}|https://officehours.probableprime.co.uk${value.srt}|${value.type}`;
+		return `${title}|https://officehours.probableprime.co.uk${value.audio}|https://officehours.probableprime.co.uk${value.srt}|${value.type}`;
 	});
 
 
@@ -22,7 +23,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("tagged", function(episodes, tags) {
-		return episodes.filter(episode => episode.tags.every(t => tags.includes(t)));
+		return episodes.filter(episode => episode.tags.some(t => tags.includes(t)));
 	});
 
 	// https://stevenwoodson.com/blog/a-step-by-step-guide-to-sorting-eleventy-global-data-files-by-date/
