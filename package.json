@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.388.0",
+    "@aws-sdk/client-transcribe": "^3.490.0",
     "dotenv": "^16.3.1"
   }
 }

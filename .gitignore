@@ -2,3 +2,5 @@ _site/
 node_modules/
 .env
 _data/episodes.json
+*.ogg
+*.wav

@@ -5,58 +5,115 @@
 // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/transcribe-examples-section.html
 // https://docs.aws.amazon.com/transcribe/latest/APIReference/API_StartTranscriptionJob.html#transcribe-StartTranscriptionJob-request-OutputKey
 // Auth is loaded from the environment variables
-if (!process.env.CI)
-  require('dotenv').config();
 
+
+// https://docs.aws.amazon.com/AmazonS3/latest/userguide/example_s3_ListObjects_section.html
+// Auth is loaded from the environment variables
+
+
+/*
+TODO:
+- Cleanup
+- Fix ACL somehow once transcription done?
+- Move processed files to done folder so we dont accidentally re-do them.
+*/
+if (!process.env || !process.env.CI)
+{
+    var test = require('dotenv').config();
+}
+
+// TODO: Get from Config
+const REGION = 'us-east-1';
+
+const fs = require('fs');
+const fsP = require("fs/promises");
+const path = require('path');
+const { S3Client, ListObjectsV2Command, PutObjectCommand } = require("@aws-sdk/client-s3");
 
 const { TranscribeClient, StartTranscriptionJobCommand } = require("@aws-sdk/client-transcribe");
-// Set the AWS Region.
-// TODO: How get this from config
-const REGION = "REGION"; //e.g. "us-east-1"
+
+const client = new S3Client({region:REGION});
+
 // Create an Amazon Transcribe service client object.
 const transcribeClient = new TranscribeClient({ region: REGION });
 
-exports.handler = async (event, context) => {
-    if (!event.Records || event.Records.length == 0)
-        return;
-    // Bucket name
-    for (const record in event.Records) {
-        await processRecord(record);
+function validateInputFileName(fileName) {
+    const extension = path.extname(fileName);
+    if (extension !== ".ogg") {
+        console.log("skipping non ogg file: " + fileName );
+        return false;
     }
-};
+    const type = extractType(fileName);
+    if (type == "Unknown") {
+        console.log("skipping unknown type for: " + fileName );
+        return false;
+    }
 
-async function processRecord(record) {
-    if (!record.s3)
-        return;
-    const bucketName = record.s3.bucket.name;
-    //Does the filename include the prefix?
-    // No: https://dev.to/aws-builders/how-to-trigger-an-aws-lambda-from-s3-events-53c3
-    // https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html
-    const fileName = decodeURIComponent(record.s3.object.key.replace(/\+/g, ' '));
+    return true;
+}
 
+// TODO: Move to shared
+function extractType(s) {
+    var index = s.indexOf('-');
+    if (index == -1)
+      return "Unknown";
+    return s.substr(0,index);
+}
 
-    // We do filtering in the event configuration but i'll also do it here just in case, I like doing this so my code has less.... stuff in my brain.
-    if (!fileName.includes('.ogg'))
-        return;
+async function processFiles() {
+    //loop through files
 
-    // Schedule an AWS Transcription
-    // TODO: How do we ensure that we don't do cyclical transcriptions?
-    await queueTranscriptionJob(fileName);
+    var files = fs.readdirSync('./input');
+    for (let fileName of files) {
+        if (!validateInputFileName(fileName)) {
+            continue;
+        }
+
+        //await uploadFile(fileName);
+        await queueTranscriptionJob(fileName);
+    }
+}
+
+async function uploadFile(fileName) {
+    console.log("Uploading: " + fileName);
+    // Try and have a dedicated folder just for files to be uploaded
+    const fileStream = await fsP.readFile("./input/" + fileName);
+    console.log(process.env.S3_BUCKET);
+    const command = new PutObjectCommand({
+      Bucket: process.env.S3_BUCKET,
+      Key: 'audio/' + fileName,
+      Body: fileStream,
+      ACL: 'public-read'
+    });
+    await client.send(command);
+}
+
+function getLocaleForFileName(fileName) {
+    const type = extractType(fileName).toLowerCase();
+    switch (type) {
+        case 'primetime':
+        // I'm British!
+            return 'en-GB';
+        default:
+            return 'en-US';
+    }
+}
+
+function getJobNameForFileName(fileName) {
+    return path.basename(fileName, path.extname(fileName));
 }
 
 async function queueTranscriptionJob(fileName) {
     // Set the parameters
     const params = {
-        TranscriptionJobName: "JOB_NAME",
-        // I'm British!
-        LanguageCode: "en-GB", // For example, 'en-US'
+        TranscriptionJobName: getJobNameForFileName(fileName),
+        LanguageCode: getLocaleForFileName(fileName),
         MediaFormat: "ogg", // For example, 'wav'
         Media: {
-            MediaFileUri: "SOURCE_LOCATION",
-            // For example, "https://transcribe-demo.s3-REGION.amazonaws.com/hello_world.wav"
+            MediaFileUri: "s3://officehours.probableprime.co.uk/audio/" + fileName,
         },
-        OutputBucketName: "OUTPUT_BUCKET_NAME",
-        //TODO: we'll need to alter our storage to put VTT and SRT in the same folder. 
+        OutputBucketName: "officehours.probableprime.co.uk",
+        OutputKey: 'subtitles/',
         Subtitles: {
             Formats: ['srt', 'vtt'],
         },
@@ -71,3 +128,5 @@ async function queueTranscriptionJob(fileName) {
         console.log("Error", err);
     }
 }
+
+processFiles();
