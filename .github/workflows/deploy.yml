@@ -29,3 +29,9 @@ jobs:
       - name: Upload files to S3 with AWS CLI
         run: |
           aws s3 sync _site/ s3://${{ secrets.S3_BUCKET }} --acl public-read
+      - name: Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: 'Hey @OfficeHours, https://officehours.probableprime.co.uk has been deployed. This usually means new notes are available.'
