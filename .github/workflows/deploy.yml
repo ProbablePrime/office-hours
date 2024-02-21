@@ -34,4 +34,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'Hey @OfficeHours, https://officehours.probableprime.co.uk has been deployed. This usually means new notes are available.'
+          args: 'Hey <@&1154513989758365808>, https://officehours.probableprime.co.uk has been deployed. This usually means new notes are available.'
