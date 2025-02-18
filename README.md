@@ -1,6 +1,6 @@
 # Office Hours
 
-Every Tuesday in the Neos Discord, I host a 30 minute AMA/Office Hours session answering questions about Neos.
+Every Tuesday in the Resonite Discord, I host a 30 minute AMA/Office Hours session answering questions about Resonite.
 
 We kept having storage, sync, processing etc issues that resultant in a loss of coverage or loss of files etc. Due to that I've just built my own.
 
